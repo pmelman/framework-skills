@@ -1,0 +1,127 @@
+{
+  "name": "Auction Theory",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Auction Theory studies how auction formats, bidder information, valuation structures, and strategic incentives determine bids, allocation efficiency, seller revenue, and risks such as the winner's curse.",
+  "domains": [
+    "economics",
+    "game-theory",
+    "mechanism-design",
+    "market-design"
+  ],
+  "when_to_use": [
+    "scarce goods, contracts, licenses, ads, or resources must be allocated among bidders with private information",
+    "bids may not equal true values because the auction format creates strategic shading, sniping, collusion, or entry effects",
+    "the seller or designer must choose between first-price, second-price, English, Dutch, sealed-bid, or combinatorial formats",
+    "the item has a common uncertain value and the highest bidder may be systematically overoptimistic",
+    "revenue, allocative efficiency, participation, simplicity, and anti-collusion goals pull in different directions"
+  ],
+  "core_claims": [
+    "Auction outcomes are shaped by rules: strategically equivalent goods can produce different bids and revenues under different auction formats.",
+    "In an independent private-values second-price auction, truthful bidding is a weakly dominant strategy.",
+    "In first-price sealed-bid auctions, rational bidders shade bids below their valuations because paying one's bid creates a tradeoff between winning probability and surplus.",
+    "In common-value auctions, winning is bad news about one's estimate; failure to condition on winning produces the winner's curse.",
+    "Under ideal assumptions, standard auction formats can be revenue equivalent, but risk aversion, affiliation, reserve prices, entry, and information release break equivalence.",
+    "A seller can often increase expected revenue with reserve prices, bidder qualification, information policy, and lot design rather than simply choosing the highest-bid format.",
+    "Multi-unit and complementary goods require special mechanism design because separate auctions can misallocate packages and expose bidders to aggregation risk."
+  ],
+  "key_vocabulary": {
+    "Private value": "A valuation determined by a bidder's own preferences or use, independent of other bidders' information except through competition.",
+    "Common value": "A valuation component shared by bidders but uncertain at bidding time, such as the amount of oil in a tract or resale value of an asset.",
+    "Winner's curse": "The tendency for the winning bidder in a common-value auction to have made the most optimistic estimate, making the winning signal unfavorable.",
+    "Bid shading": "Bidding below one's true value, especially in first-price auctions, to preserve surplus if the bid wins.",
+    "Reserve price": "A minimum acceptable price set by the seller; it can raise revenue but risks leaving the item unsold.",
+    "Revenue equivalence": "The theorem that several standard auction formats yield the same expected revenue under restrictive assumptions such as risk-neutral bidders and independent private values.",
+    "Vickrey auction": "A sealed-bid second-price auction in which the highest bidder wins but pays the second-highest bid, making truthful bidding dominant under private values.",
+    "Incentive compatibility": "A property of a mechanism in which participants' best strategy is to reveal or act according to their true private information."
+  },
+  "operative_procedure": [
+    "Identify the object or package being allocated, the seller's objective, and whether the priority is revenue, efficiency, speed, fairness, or strategic simplicity.",
+    "Classify bidder valuations as private value, common value, affiliated, complementary, or budget-constrained; note what each bidder knows before bidding.",
+    "Map the participant set: expected number of bidders, asymmetries, entry costs, collusion risk, risk aversion, and repeated-market relationships.",
+    "Choose candidate formats such as English, Dutch, first-price sealed-bid, second-price sealed-bid, ascending clock, or combinatorial auction.",
+    "Derive bidder incentives for each format: truthful bidding, bid shading, dropout strategy, demand reduction, exposure risk, and winner's curse adjustments.",
+    "Assess revenue and efficiency using the relevant theorems and their violated assumptions, especially revenue equivalence, reserve price logic, and information policy.",
+    "Stress-test the format for manipulation: collusion, shill bidding, signaling, sniping, entry deterrence, and gaming of package rules.",
+    "Recommend auction rules, reserve prices, disclosure policy, lot design, eligibility, and settlement procedures aligned with the designer's objective.",
+    "State what bidders should do under the selected format, including how to condition estimates on winning in common-value settings."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "William Vickrey's second-price sealed-bid auction asks how a bidder should bid when each bidder has an independent private value for a single item and the highest bidder wins but pays the second-highest bid.",
+      "analysis": "For any bidder, bidding above true value can only matter when it causes the bidder to win at a price above value, creating a loss. Bidding below true value can only matter when it causes the bidder to lose an item that would have been bought below value, forfeiting surplus. When the bidder wins truthfully, the price is set by someone else's bid, not by the bidder's own bid. Therefore truthful bidding is a weakly dominant strategy. Auction theory uses this example to show how mechanism rules can make revelation incentive-compatible rather than relying on bidder honesty."
+    },
+    {
+      "problem": "Offshore oil lease auctions are the classic common-value case: firms bid for drilling rights while each has an imperfect signal about the same uncertain quantity of recoverable oil.",
+      "analysis": "The tract's value is largely common, but each firm observes noisy geological information. The highest bidder is likely to be the firm with the most optimistic signal, so winning itself implies that other firms' signals were probably lower. A bidder who bids based only on its unconditional estimate risks overpaying: the winner's curse. The auction-theoretic prescription is to shade bids to the expected value conditional on winning, and for designers to consider information disclosure, reserve prices, and format rules that balance revenue against participation and efficient allocation."
+    }
+  ],
+  "failure_modes": [
+    "Assumption laundering: applying private-values results to common-value or affiliated-value settings can produce badly wrong bidding advice.",
+    "Ignoring entry: a revenue-maximizing format on paper can lower revenue if it deters bidders from participating.",
+    "Collusion and signaling: ascending or repeated auctions can let bidders coordinate, punish deviation, or divide markets.",
+    "Over-optimizing revenue: sellers can damage long-term market health, fairness, or allocative efficiency by extracting too aggressively.",
+    "Package complexity: combinatorial auctions can solve exposure problems while becoming computationally complex and opaque to participants.",
+    "Behavioral mismatch: real bidders may have budget constraints, loss aversion, limited attention, or institutional rules that violate equilibrium assumptions."
+  ],
+  "scope_and_limits": "Auction Theory is strongest when allocating scarce goods through explicit bidding rules and when bidder incentives can be modeled from valuations, information, and payment rules. It is weaker when values are political, relational, or hard to monetize; when participation and legitimacy dominate price discovery; or when behavioral and legal constraints prevent equilibrium behavior. Practical auction design should combine theory with market testing, legal review, and operational safeguards.",
+  "source_texts": [
+    {
+      "title": "William Vickrey, 'Counterspeculation, Auctions, and Competitive Sealed Tenders' (1961)",
+      "kind": "primary"
+    },
+    {
+      "title": "Paul Milgrom and Robert Weber, 'A Theory of Auctions and Competitive Bidding' (1982)",
+      "kind": "primary"
+    },
+    {
+      "title": "Paul Klemperer, Auctions: Theory and Practice (2004)",
+      "kind": "secondary"
+    },
+    {
+      "title": "Vijay Krishna, Auction Theory (2002)",
+      "kind": "secondary"
+    },
+    {
+      "title": "Auction theory (Wikipedia)",
+      "kind": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/Auction_theory"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "Principal-Agent Analysis",
+      "Decision Theory",
+      "Expected Utility Theory"
+    ],
+    "ancestors": [
+      "Game Theory",
+      "Mechanism Design",
+      "Microeconomics",
+      "Expected Utility Theory"
+    ],
+    "descendants": [
+      "Spectrum Auction Design",
+      "Combinatorial Auction Design",
+      "Ad Auction Design",
+      "Matching Market Design"
+    ],
+    "rivals": [
+      "Posted-Price Mechanisms",
+      "Negotiation Theory",
+      "Administrative Allocation",
+      "Lottery Allocation"
+    ],
+    "composes_with": [
+      "Mechanism Design",
+      "Bayesian Epistemology",
+      "Game Theory",
+      "Principal-Agent Analysis"
+    ]
+  },
+  "built_at": "2026-06-13T03:08:38Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Vickrey, Milgrom, Weber, Klemperer, Krishna, and auction theory literature, without fetched source text."
+}

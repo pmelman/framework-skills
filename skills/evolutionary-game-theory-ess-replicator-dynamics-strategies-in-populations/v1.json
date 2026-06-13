@@ -1,0 +1,129 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:39Z",
+  "canonical_examples": [
+    {
+      "analysis": "In Maynard Smith and Price's Hawk-Dove game, Hawks escalate contests and Doves display but retreat from escalation. If everyone plays Dove, a Hawk mutant can invade by taking the resource. If everyone plays Hawk, costly fights make Dove behavior advantageous against Hawks often enough to invade. The population therefore tends toward a mixed equilibrium whose Hawk frequency depends on the value of the resource and the cost of injury. The lesson is evolutionary rather than deliberative: stable aggression levels emerge from differential reproductive success, not from agents solving a moral or contractual problem.",
+      "problem": "The Hawk-Dove contest model: explain why animal populations may show a stable mix of escalated fighting and display-retreat behavior."
+    },
+    {
+      "analysis": "Axelrod's tournaments studied repeated Prisoner's Dilemma strategies as if strategies were types in a population. Tit for Tat cooperates first, then copies the opponent's previous move. It is not unbeatable in every pairwise encounter, but it is nice, retaliatory, forgiving, and clear, so clusters of Tit for Tat players gain high average payoff against each other while resisting exploitation by unconditional defectors. In an evolutionary reading, the relevant question is whether a strategy can increase when rare and resist invasion when common, not whether a single perfectly rational player can prove it is optimal in a one-shot game.",
+      "problem": "Robert Axelrod's iterated Prisoner's Dilemma tournaments: explain how cooperation can persist among self-interested strategies without central enforcement."
+    }
+  ],
+  "core_claims": [
+    "Strategies can be modeled as heritable or reproducible types whose frequencies change according to relative payoff, without assuming conscious rational choice.",
+    "A strategy's success is frequency-dependent: the payoff to playing it depends on how common other strategies are in the population.",
+    "An evolutionarily stable strategy resists invasion by rare mutants because incumbents do better against the mutant, or tie against themselves while beating the mutant in cross-play.",
+    "Replicator dynamics predicts growth for strategies earning above-average payoff and decline for strategies earning below-average payoff.",
+    "Population equilibria need not maximize group welfare; they are stable because of invasion resistance, not because they are efficient, fair, or globally optimal.",
+    "Mixed behavioral patterns can be stable population states even when no individual uses an explicitly mixed strategy.",
+    "Path dependence matters: different initial frequencies and mutation pressures can lead the same payoff structure to different basins of attraction."
+  ],
+  "description": "Evolutionary Game Theory studies strategic behavior as competition among strategies in populations, using concepts such as evolutionarily stable strategies, replicator dynamics, invasion fitness, and frequency-dependent selection rather than assuming fully rational individual choice.",
+  "domains": [
+    "game-theory",
+    "evolutionary-biology",
+    "social-science",
+    "complex-systems"
+  ],
+  "failure_modes": [
+    "Mistaking evolutionary stability for moral desirability: a stable convention may be wasteful, cruel, or unjust.",
+    "Assuming genetic inheritance where social learning, institutions, or deliberate imitation actually determine strategy transmission.",
+    "Choosing payoffs that smuggle in the conclusion: small changes to contest costs, assortment, or interaction structure can reverse stability results.",
+    "Ignoring finite populations and stochastic drift: deterministic replicator equations can mislead when populations are small or mutation is significant.",
+    "Treating ESS as the only endpoint: cyclic dynamics, polymorphisms, chaotic trajectories, and multiple basins of attraction may be the main result.",
+    "The characteristic practitioner error is adaptationist storytelling, where an observed behavior is declared stable before the invasion and dynamics checks are actually run."
+  ],
+  "key_vocabulary": {
+    "Basin of attraction": "The set of initial population states that converge toward a particular equilibrium or cycle under the specified dynamics.",
+    "Evolutionarily stable strategy": "A strategy that, if adopted by almost all members of a population, cannot be invaded by a small proportion of mutants using another strategy.",
+    "Fitness": "The reproductive, survival, imitation, or propagation payoff that determines whether a strategy increases in frequency.",
+    "Frequency-dependent selection": "Selection in which a strategy's payoff depends on how common it and rival strategies are in the population.",
+    "Hawk-Dove game": "A contest model in which escalation can win resources but risks costly conflict, while display or retreat avoids injury at the cost of sometimes yielding.",
+    "Invasion fitness": "The expected success of a rare mutant strategy introduced into a resident population.",
+    "Polymorphism": "A stable or persistent population state containing more than one strategy type.",
+    "Replicator dynamics": "A differential or difference equation in which a strategy's frequency grows when its payoff exceeds the population average and shrinks when it falls below it.",
+    "Resident strategy": "The incumbent strategy or population mix against which possible mutants are tested.",
+    "Strategy type": "A behavioral rule or disposition treated as a reproducible unit in the population."
+  },
+  "name": "Evolutionary Game Theory | ESS, replicator dynamics, strategies in populations",
+  "operative_procedure": [
+    "Define the population and strategy set: specify which behavioral rules, phenotypes, conventions, or cultural types reproduce or spread.",
+    "Construct the payoff matrix or payoff function: make payoffs frequency-dependent, and distinguish individual fitness from group welfare.",
+    "Identify resident states and mutant alternatives: ask which rare strategies could enter and what payoff they receive against the incumbent population.",
+    "Apply the ESS test: check whether the resident does better against itself than the mutant does against the resident, or, if tied, whether the resident beats the mutant in direct comparison.",
+    "Write the replicator dynamic: express each strategy's change in frequency as proportional to its payoff minus average population payoff.",
+    "Locate rest points, polymorphisms, cycles, and basins of attraction: determine which states are stable, unstable, or path-dependent under the chosen dynamics.",
+    "Interpret the equilibrium biologically or socially: explain whether stability comes from selection, imitation, learning, assortment, repeated interaction, or institutional reproduction.",
+    "Stress-test parameters and transmission assumptions: vary costs, benefits, mutation rates, population size, network structure, and inheritance or imitation rules.",
+    "Report invasion and welfare results separately: state what persists, what can invade, and whether the stable outcome is efficient, cooperative, harmful, or merely robust."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Game Theory",
+      "Darwinian Evolution",
+      "Population Genetics",
+      "Mathematical Biology"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Control Theory Thinking",
+      "Replicator Dynamics",
+      "Pragmatism"
+    ],
+    "descendants": [
+      "Evolutionary Dynamics",
+      "Cultural Evolution",
+      "Evolutionary Psychology",
+      "Evolutionary Economics"
+    ],
+    "related": [
+      "Game Theory",
+      "Complex Adaptive Systems",
+      "Behavioral Ecology",
+      "The Evolution of Cooperation"
+    ],
+    "rivals": [
+      "Classical Game Theory",
+      "Expected Utility Theory",
+      "Rational Choice Theory",
+      "Social Contract Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Evolutionary Game Theory is strongest for behaviors, norms, conventions, and biological strategies that spread through reproduction, imitation, learning, or differential survival in repeated population settings. It is weaker for one-off decisions, highly reflective agents who can redesign payoffs, environments where strategy transmission is not tied to success, or cases where historical, symbolic, and institutional meanings dominate payoff-based reproduction.",
+  "source_summary": "Authored from model knowledge of named sources in evolutionary game theory and the evolution of cooperation, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John Maynard Smith and George R. Price, 'The Logic of Animal Conflict' (1973)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Maynard Smith, Evolution and the Theory of Games (1982)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Robert Axelrod, The Evolution of Cooperation (1984)"
+    },
+    {
+      "kind": "primary",
+      "title": "Peter D. Taylor and Leo B. Jonker, 'Evolutionarily Stable Strategies and Game Dynamics' (1978)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Evolutionary Game Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/game-evolutionary/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a behavior, norm, convention, or strategy spreads or disappears through reproduction, imitation, learning, retention, or differential survival",
+    "the payoff to a strategy changes depending on how common it is in the surrounding population",
+    "you need to explain stable mixtures of behavior rather than a single best action by a fully rational chooser",
+    "a cooperative or aggressive pattern persists without central enforcement and may be maintained by repeated interaction or assortment",
+    "small initial differences, mutations, or rare entrants could shift a population toward different long-run equilibria"
+  ]
+}

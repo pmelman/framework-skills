@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Aristotle treats this as deliberative rhetoric: the speaker must advise about future advantage and disadvantage, not merely display moral ideals. The orator identifies the audience as citizens judging policy, builds ethos by appearing practically wise about war and public finance, stirs pathos around security and civic honor without letting anger obscure counsel, and uses logos through an enthymeme: if naval strength is what preserved Athens before, and invasion now threatens by sea, then fortifying the navy is expedient. The missing premise is supplied by the audience's memory of past danger, so the proof feels like their own inference rather than an imposed demonstration.",
+      "problem": "In the Rhetoric, Aristotle repeatedly uses political deliberation about war, peace, defense, revenues, and alliances as the standard setting for persuasion about what a city should do."
+    },
+    {
+      "analysis": "Aristotle's legal examples make this forensic rhetoric: the audience is a jury judging a past act, so the speaker must make guilt, innocence, harm, intention, and character salient. The advocate constructs ethos by appearing fair and knowledgeable about ordinary motives, uses pathos to place jurors in the emotional posture appropriate to injury or restraint, and frames logos through signs, probabilities, and enthymemes. A typical Aristotelian move is to argue from likelihood while also warning that clever defendants exploit likelihood: if the accused had no probable motive, that supports innocence; but if the accused knew that fact would be persuasive, it may itself explain the crime. The argument adapts to what jurors already take as plausible.",
+      "problem": "Aristotle's discussions of accusation and defense ask how a courtroom speaker should persuade judges about whether a past action was committed, voluntary, harmful, or just."
+    }
+  ],
+  "core_claims": [
+    "Rhetorical persuasion operates through pisteis: ethos, pathos, and logos are not ornaments but distinct modes of proof suited to civic judgment.",
+    "The enthymeme, a compressed syllogism whose premises are supplied from audience beliefs, is the body of rhetorical proof.",
+    "Persuasion must be adapted to the genre of judgment: deliberative rhetoric concerns future expediency, forensic rhetoric past justice, and epideictic rhetoric present praise or blame.",
+    "The same argument changes force when addressed to different audiences because endoxa, emotions, and character expectations differ by audience.",
+    "Pathos is rationally relevant to persuasion because judgment in practical affairs is altered by fear, anger, pity, confidence, shame, and related states.",
+    "A speaker's perceived phronesis, arete, and eunoia can prove a case by making the audience trust the speaker's practical judgment, virtue, and goodwill.",
+    "Rhetoric is the counterpart of dialectic: it reasons from commonly accepted premises in contingent public matters where scientific demonstration is unavailable."
+  ],
+  "description": "Aristotelian Rhetoric is the art of discovering the available means of persuasion in civic situations, using ethos, pathos, logos, enthymeme, genre, and audience adaptation to reason about matters that cannot be settled by demonstration alone.",
+  "domains": [
+    "rhetoric",
+    "communication",
+    "political-theory",
+    "argumentation"
+  ],
+  "failure_modes": [
+    "Manipulative audience adaptation: the same tools that fit argument to audience can become pandering, flattery, or demagoguery when truth and civic judgment cease to constrain persuasion.",
+    "Over-formalizing enthymemes: reconstructing every appeal as a tidy syllogism can miss the tacit premises, emotions, and character judgments that actually carry rhetorical force.",
+    "Ethos laundering: audiences may confuse confidence, status, polish, or shared identity with the Aristotelian virtues of practical wisdom, virtue, and goodwill.",
+    "Pathos excess: emotional appeals can move an audience into the relevant posture for judgment, but they can also overwhelm proportion and evidence.",
+    "Genre confusion: treating a deliberative policy dispute as if it were a forensic blame trial, or an epideictic identity ritual as if it were technical proof, produces mismatched arguments."
+  ],
+  "key_vocabulary": {
+    "Deliberative rhetoric": "Persuasion about future action, especially what is advantageous or harmful for a political community.",
+    "Endoxa": "Reputable or commonly accepted beliefs from which rhetorical and dialectical reasoning often begins.",
+    "Enthymeme": "A rhetorical syllogism, usually compressed, whose force depends on premises the audience can supply from shared belief or probability.",
+    "Epideictic rhetoric": "Praise or blame directed at present values, honor, shame, and communal identity.",
+    "Ethos": "Persuasion through the speaker's displayed character, especially practical wisdom, virtue, and goodwill toward the audience.",
+    "Forensic rhetoric": "Accusation or defense about past action, centered on justice, injustice, responsibility, and evidence.",
+    "Logos": "Persuasion through argument, example, sign, probability, and inferential structure.",
+    "Pathos": "Persuasion by putting the audience into an emotional state that changes how they judge the matter.",
+    "Pisteis": "The available means or modes of proof; Aristotle distinguishes artistic proofs produced by the speaker from inartistic proofs such as contracts and testimony.",
+    "Topoi": "Common lines of argument or places from which a speaker can generate proofs across subjects."
+  },
+  "name": "Aristotelian Rhetoric",
+  "operative_procedure": [
+    "Identify the rhetorical situation: speaker, audience, occasion, stakes, and the decision the audience is being asked to make.",
+    "Classify the genre as deliberative, forensic, or epideictic; set the governing question as expediency, justice, or honor accordingly.",
+    "Map the audience's endoxa, fears, hopes, loyalties, resentments, and standards of credibility; do not assume a generic rational observer.",
+    "Inventory inartistic proofs already available, such as documents, laws, witnesses, data, or precedents, before constructing artistic proofs.",
+    "Build logos by forming enthymemes and examples from premises the audience can recognize; make the suppressed premise explicit for analysis even if the final speech leaves it implicit.",
+    "Build ethos by showing phronesis, arete, and eunoia in the argument itself: competent judgment, honorable motive, and goodwill toward this audience.",
+    "Build pathos by identifying the emotion appropriate to the judgment and tying it to concrete objects, causes, and expectations rather than generic intensity.",
+    "Select topoi that fit the case, such as more and less, cause and effect, past fact to future likelihood, contradiction, motive, or consequences.",
+    "Test the speech against rival enthymemes the audience might already hold, then revise the order and emphasis so the strongest proof lands at the point of decision."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Dialectic",
+      "Sophistic Rhetoric",
+      "Classical Logic"
+    ],
+    "composes_with": [
+      "Fallacy Analysis",
+      "Principle of Charity",
+      "Socratic Method",
+      "Narrative Framing"
+    ],
+    "descendants": [
+      "Classical Rhetoric",
+      "New Rhetoric",
+      "Argumentation Theory",
+      "Audience Analysis"
+    ],
+    "related": [
+      "Fallacy Analysis",
+      "Virtue Epistemology",
+      "Pragmatism",
+      "Ordinary Language Philosophy"
+    ],
+    "rivals": [
+      "Classical Logic",
+      "Bayesian Epistemology",
+      "Technocratic Decision Analysis",
+      "Verificationism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Aristotelian Rhetoric is strongest for public argument, advocacy, teaching, leadership communication, legal and political persuasion, and any case where an audience must judge contingent matters under uncertainty. It is not a substitute for empirical inquiry, formal proof, or ethical constraint; it explains how persuasion works and how to craft it, but it can also rationalize manipulation if detached from truth-directed dialectic and civic responsibility.",
+  "source_summary": "Authored from model knowledge of Aristotle's Rhetoric and standard classical rhetoric scholarship, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Aristotle, Rhetoric"
+    },
+    {
+      "kind": "primary",
+      "title": "Aristotle, Topics"
+    },
+    {
+      "kind": "secondary",
+      "title": "George A. Kennedy, Aristotle, On Rhetoric: A Theory of Civic Discourse"
+    },
+    {
+      "kind": "secondary",
+      "title": "Rhetoric (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/aristotle-rhetoric/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "An audience must be persuaded about a practical matter where formal proof is unavailable or insufficient.",
+    "A message is failing because it ignores the audience's assumptions, emotions, values, or standards of credibility.",
+    "A public argument needs to balance evidence, character, and emotional salience without collapsing into mere manipulation.",
+    "A speech, brief, pitch, or essay must be adapted to whether the audience is judging future policy, past responsibility, or present honor and blame.",
+    "A compressed argument depends on unstated premises that the audience may or may not share."
+  ]
+}

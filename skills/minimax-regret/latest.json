@@ -1,0 +1,121 @@
+{
+  "name": "Minimax Regret",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Minimax Regret is a decision rule for uncertainty without reliable probabilities: compare each act by the largest regret it could produce relative to the best act in each state of the world, then choose the act whose worst regret is smallest.",
+  "domains": [
+    "decision-theory",
+    "statistics",
+    "risk-analysis",
+    "strategy"
+  ],
+  "when_to_use": [
+    "you must choose before knowing which state of the world will obtain, and credible probabilities are unavailable or contested",
+    "stakeholders will judge the decision by avoidable loss relative to what would have been best after the fact",
+    "a conservative maximin rule seems too pessimistic because it ignores how close each option is to the statewise best outcome",
+    "you need a transparent decision table for robust choice under deep uncertainty",
+    "the main concern is limiting future remorse, opportunity loss, or ex post criticism rather than maximizing expected value"
+  ],
+  "core_claims": [
+    "When probabilities are unavailable, a rational choice can be based on the payoff matrix's regret structure rather than expected utility.",
+    "Regret is state-relative opportunity loss: the gap between an act's payoff and the best payoff available in the state that actually occurs.",
+    "The minimax regret rule selects the act with the smallest maximum regret across states, not the act with the best worst-case payoff.",
+    "Minimax regret can recommend a different act than maximin because it penalizes avoidable underperformance rather than bad absolute outcomes.",
+    "Adding or removing irrelevant-looking alternatives can change regret values because the benchmark is the statewise best act in the available choice set.",
+    "The rule expresses a distinctive aversion to ex post error, making it appropriate when decisions must remain defensible after uncertainty resolves."
+  ],
+  "key_vocabulary": {
+    "State of nature": "A possible condition of the world outside the decision maker's control. The payoff of each act is evaluated separately in each state.",
+    "Payoff matrix": "A table whose rows are acts, columns are states of nature, and cells are utilities, losses, or other outcome scores.",
+    "Regret": "The opportunity loss from choosing an act in a state, calculated as the best payoff available in that state minus the payoff from the chosen act.",
+    "Regret matrix": "The payoff matrix transformed into statewise opportunity losses. Each column has at least one zero regret act.",
+    "Maximum regret": "The largest regret an act can incur over all states of nature.",
+    "Minimax regret rule": "Choose the act with the smallest maximum regret.",
+    "Maximin": "A rival pessimistic rule that chooses the act with the best worst-case payoff, ignoring statewise opportunity loss.",
+    "Savage's principle": "Leonard J. Savage's formulation of minimax regret as a criterion for decision under uncertainty."
+  },
+  "operative_procedure": [
+    "List the available acts and mutually exclusive states of nature; do not assign probabilities unless they are credible enough for expected utility analysis.",
+    "Build a payoff matrix using a common outcome metric, with higher numbers meaning better outcomes or lower numbers converted into losses consistently.",
+    "For each state column, identify the best payoff any available act would achieve if that state occurred.",
+    "Transform payoffs into regrets by subtracting each act's payoff from the statewise best payoff.",
+    "For each act, identify its maximum regret across all states.",
+    "Choose the act with the smallest maximum regret; if there is a tie, inspect secondary criteria such as maximin payoff, dominance, or implementation feasibility.",
+    "Compare the recommendation against maximin and expected-value results to expose what the regret criterion is buying or sacrificing.",
+    "Test sensitivity to the act set, state definitions, and payoff scale because regret depends on the chosen menu and statewise benchmark."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Savage's omelet example: a cook has broken five good eggs into a bowl and must decide what to do with a sixth egg that may be good or rotten: break it into the bowl, break it into a saucer first, or throw it away.",
+      "analysis": "The states are 'sixth egg good' and 'sixth egg rotten.' Breaking it directly into the bowl is best if the egg is good, but disastrous if rotten because it ruins the five good eggs. Throwing it away avoids disaster but wastes a good egg if it was usable. Breaking it into a saucer first adds a small inconvenience in either state but avoids the large regret of ruining the bowl. The minimax regret framing asks which act minimizes the worst avoidable loss after the egg's quality is revealed; the saucer option has low regret in both states and is selected over the bolder direct-break act and the wasteful discard act."
+    },
+    {
+      "problem": "Wald-style statistical decision theory considers choosing an estimator or rule when the true parameter is unknown and loss depends on that unknown state.",
+      "analysis": "The acts are candidate statistical decision rules, the states are possible parameter values, and the payoff is negative loss or risk. A maximin or minimax-loss rule focuses on the worst absolute risk of each rule. A minimax regret analysis instead computes, at each parameter value, the excess risk of a rule over the best-performing available rule for that parameter. The chosen rule is the one with the smallest worst excess risk. This can favor an estimator that is never uniformly best but avoids being much worse than the locally optimal estimator anywhere in the parameter space, making the result defensible under parameter uncertainty."
+    }
+  ],
+  "failure_modes": [
+    "Menu dependence: adding an unavailable, dominated, or unrealistic option can alter the statewise best benchmark and distort regret comparisons.",
+    "State misspecification: the rule only protects against listed states, so omitted possibilities can make the result falsely robust.",
+    "Scale sensitivity: regret magnitudes depend on how outcomes are measured; mixing money, lives, and reputational loss without a defensible utility scale is misleading.",
+    "Excessive defensiveness: minimizing regret can sacrifice large upside or expected value merely to reduce possible ex post criticism.",
+    "Probability neglect: when credible probabilities exist, ignoring them can produce choices that are dominated in expected welfare.",
+    "Ambiguous responsibility: regret is psychologically and politically salient, but not always morally relevant if the decision maker could not have known the state."
+  ],
+  "scope_and_limits": "Minimax Regret is useful for one-shot decisions under deep uncertainty where probabilities are unavailable and ex post opportunity loss matters. It is less appropriate when reliable probabilities support expected utility analysis, when outcomes cannot be placed on a common scale, or when rights and constraints dominate consequential payoff comparisons. It should be treated as one decision criterion among several, especially because its recommendation is sensitive to the menu of acts and states.",
+  "source_texts": [
+    {
+      "title": "Leonard J. Savage, The Foundations of Statistics (1954)",
+      "kind": "primary"
+    },
+    {
+      "title": "Abraham Wald, Statistical Decision Functions (1950)",
+      "kind": "primary"
+    },
+    {
+      "title": "R. Duncan Luce and Howard Raiffa, Games and Decisions (1957)",
+      "kind": "secondary"
+    },
+    {
+      "title": "Decision theory (Wikipedia)",
+      "kind": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/Decision_theory"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Decision Theory",
+      "Expected Utility Theory",
+      "Game Theory",
+      "Robust Decision Making"
+    ],
+    "ancestors": [
+      "Statistical Decision Theory",
+      "Wald's Maximin",
+      "Utility Theory",
+      "Game Theory"
+    ],
+    "descendants": [
+      "Regret Theory",
+      "Online Learning Regret Minimization",
+      "Info-Gap Decision Theory",
+      "Robust Optimization"
+    ],
+    "rivals": [
+      "Expected Utility Theory",
+      "Maximin",
+      "Satisficing",
+      "Prospect Theory"
+    ],
+    "composes_with": [
+      "Scenario Planning",
+      "Robust Decision Making",
+      "Fermi Estimation",
+      "Sensitivity Analysis"
+    ]
+  },
+  "built_at": "2026-06-13T03:08:38Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Savage, Wald, Luce and Raiffa, and statistical decision theory sources, without fetched source text."
+}

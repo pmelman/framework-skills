@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:08:11Z",
+  "generated_at": "2026-06-13T03:13:33Z",
   "skills": [
     {
       "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
@@ -73,6 +73,35 @@
       "path": "skills/antifragility/latest.json"
     },
     {
+      "name": "Argumentation Theory | Toulmin model: claim, grounds, warrant, backing, rebuttal",
+      "slug": "argumentation-theory-toulmin-model-claim-grounds-warrant-backing-rebuttal",
+      "version": 1,
+      "description": "Argumentation Theory in Toulmin's model analyzes practical arguments by mapping claims, grounds, warrants, backing, qualifiers, and rebuttals, emphasizing field-dependent standards of support rather than treating all reasoning as formal deduction.",
+      "domains": [
+        "logic",
+        "rhetoric",
+        "critical-thinking",
+        "communication",
+        "law"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/argumentation-theory-toulmin-model-claim-grounds-warrant-backing-rebuttal/latest.json"
+    },
+    {
+      "name": "Aristotelian Rhetoric",
+      "slug": "aristotelian-rhetoric",
+      "version": 1,
+      "description": "Aristotelian Rhetoric is the art of discovering the available means of persuasion in civic situations, using ethos, pathos, logos, enthymeme, genre, and audience adaptation to reason about matters that cannot be settled by demonstration alone.",
+      "domains": [
+        "rhetoric",
+        "communication",
+        "political-theory",
+        "argumentation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/aristotelian-rhetoric/latest.json"
+    },
+    {
       "name": "Aristotelian Virtue Ethics",
       "slug": "aristotelian-virtue-ethics",
       "version": 1,
@@ -84,6 +113,20 @@
       ],
       "review_status": "approved",
       "path": "skills/aristotelian-virtue-ethics/latest.json"
+    },
+    {
+      "name": "Auction Theory",
+      "slug": "auction-theory",
+      "version": 1,
+      "description": "Auction Theory studies how auction formats, bidder information, valuation structures, and strategic incentives determine bids, allocation efficiency, seller revenue, and risks such as the winner's curse.",
+      "domains": [
+        "economics",
+        "game-theory",
+        "mechanism-design",
+        "market-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/auction-theory/latest.json"
     },
     {
       "name": "Augustinian Theology",
@@ -422,6 +465,34 @@
       "path": "skills/dual-process-theory-system-1-system-2-cognition-kahneman-stanovich/latest.json"
     },
     {
+      "name": "Effective Altruism",
+      "slug": "effective-altruism",
+      "version": 1,
+      "description": "Effective Altruism is a practical and philosophical framework for using evidence, reason, and impartial welfare concern to identify where marginal resources can do the most good, especially through cause prioritization by scale, tractability, neglectedness, and counterfactual impact.",
+      "domains": [
+        "ethics",
+        "philanthropy",
+        "decision-theory",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/effective-altruism/latest.json"
+    },
+    {
+      "name": "Epicureanism",
+      "slug": "epicureanism",
+      "version": 1,
+      "description": "Epicureanism is a Hellenistic ethical framework that seeks pleasure understood as tranquil freedom from pain and disturbance, using desire classification, prudent choice, friendship, naturalistic explanation, and the removal of death and divine fears.",
+      "domains": [
+        "ethics",
+        "practical-philosophy",
+        "ancient-philosophy",
+        "wellbeing"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/epicureanism/latest.json"
+    },
+    {
       "name": "Epistemic Contextualism",
       "slug": "epistemic-contextualism",
       "version": 1,
@@ -476,6 +547,34 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/evidentialism/latest.json"
+    },
+    {
+      "name": "Evolutionary Game Theory | ESS, replicator dynamics, strategies in populations",
+      "slug": "evolutionary-game-theory-ess-replicator-dynamics-strategies-in-populations",
+      "version": 1,
+      "description": "Evolutionary Game Theory studies strategic behavior as competition among strategies in populations, using concepts such as evolutionarily stable strategies, replicator dynamics, invasion fitness, and frequency-dependent selection rather than assuming fully rational individual choice.",
+      "domains": [
+        "game-theory",
+        "evolutionary-biology",
+        "social-science",
+        "complex-systems"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/evolutionary-game-theory-ess-replicator-dynamics-strategies-in-populations/latest.json"
+    },
+    {
+      "name": "Existential Risk Analysis",
+      "slug": "existential-risk-analysis",
+      "version": 1,
+      "description": "Existential Risk Analysis evaluates hazards that could permanently destroy humanity's long-term potential through extinction, unrecoverable civilizational collapse, or irreversible value lock-in, using expected-value reasoning under extreme stakes and deep uncertainty.",
+      "domains": [
+        "risk-analysis",
+        "future-studies",
+        "decision-theory",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/existential-risk-analysis/latest.json"
     },
     {
       "name": "Expected Utility Theory",
@@ -632,6 +731,20 @@
       "path": "skills/game-theory/latest.json"
     },
     {
+      "name": "General Semantics",
+      "slug": "general-semantics",
+      "version": 1,
+      "description": "General Semantics is Korzybski's discipline for improving evaluation by distinguishing maps from territories, tracking levels of abstraction, and revising language habits that create identification, overgeneralization, and confused semantic reactions.",
+      "domains": [
+        "semantics",
+        "critical-thinking",
+        "communication",
+        "epistemology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/general-semantics/latest.json"
+    },
+    {
       "name": "Goodhart's Law | when a measure becomes a target it ceases to be a good measure",
       "slug": "goodhart-s-law-when-a-measure-becomes-a-target-it-ceases-to-be-a-good-measure",
       "version": 1,
@@ -660,6 +773,21 @@
       "path": "skills/halakha/latest.json"
     },
     {
+      "name": "Hermeneutics | Gadamer/Schleiermacher: interpretation, hermeneutic circle, fusion of horizons",
+      "slug": "hermeneutics-gadamer-schleiermacher-interpretation-hermeneutic-circle-fusion-of-horizons",
+      "version": 1,
+      "description": "Hermeneutics in the Schleiermacher-Gadamer tradition is the theory and practice of interpretation across linguistic, historical, and cultural distance, centered on the hermeneutic circle, historically effected understanding, prejudgment, and the fusion of horizons.",
+      "domains": [
+        "philosophy",
+        "interpretation",
+        "literary-theory",
+        "theology",
+        "law"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/hermeneutics-gadamer-schleiermacher-interpretation-hermeneutic-circle-fusion-of-horizons/latest.json"
+    },
+    {
       "name": "Heuristics and Biases Program",
       "slug": "heuristics-and-biases-program",
       "version": 1,
@@ -672,6 +800,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/heuristics-and-biases-program/latest.json"
+    },
+    {
+      "name": "Humean Empiricism",
+      "slug": "humean-empiricism",
+      "version": 1,
+      "description": "Humean Empiricism is David Hume's account of knowledge and belief as grounded in impressions, habit, and custom, sharply limiting reason's authority over causation, induction, selfhood, miracles, and practical motivation.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-science",
+        "metaphysics",
+        "moral-psychology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/humean-empiricism/latest.json"
     },
     {
       "name": "Hypothetico-Deductive Method",
@@ -923,6 +1065,34 @@
       ],
       "review_status": "approved",
       "path": "skills/maqasid-al-shariah/latest.json"
+    },
+    {
+      "name": "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
+      "slug": "mechanism-design-reverse-game-theory-design-rules-so-selfish-play-yields-desired-outcomes",
+      "version": 1,
+      "description": "Mechanism Design is reverse game theory: it starts from a desired social outcome and designs rules, messages, allocations, and payments so that self-interested agents, acting on private information, produce that outcome in equilibrium.",
+      "domains": [
+        "economics",
+        "game-theory",
+        "institutional-design",
+        "market-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/mechanism-design-reverse-game-theory-design-rules-so-selfish-play-yields-desired-outcomes/latest.json"
+    },
+    {
+      "name": "Minimax Regret",
+      "slug": "minimax-regret",
+      "version": 1,
+      "description": "Minimax Regret is a decision rule for uncertainty without reliable probabilities: compare each act by the largest regret it could produce relative to the best act in each state of the world, then choose the act whose worst regret is smallest.",
+      "domains": [
+        "decision-theory",
+        "statistics",
+        "risk-analysis",
+        "strategy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/minimax-regret/latest.json"
     },
     {
       "name": "Minimum Description Length",
@@ -1219,6 +1389,20 @@
       "path": "skills/replication-and-robustness-thinking/latest.json"
     },
     {
+      "name": "Robust Decision Making",
+      "slug": "robust-decision-making",
+      "version": 1,
+      "description": "Robust Decision Making is RAND's analytic framework for choosing strategies that perform satisfactorily across many plausible futures by stress-testing options, identifying vulnerabilities, and adaptively improving plans under deep uncertainty.",
+      "domains": [
+        "decision-theory",
+        "public-policy",
+        "risk-analysis",
+        "systems-planning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/robust-decision-making/latest.json"
+    },
+    {
       "name": "Rule Consequentialism",
       "slug": "rule-consequentialism",
       "version": 1,
@@ -1287,6 +1471,34 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/socratic-method-elenchus/latest.json"
+    },
+    {
+      "name": "Speech Act Theory | Austin/Searle: locutionary/illocutionary/perlocutionary acts; performatives",
+      "slug": "speech-act-theory-austin-searle-locutionary-illocutionary-perlocutionary-acts-performatives",
+      "version": 1,
+      "description": "Speech Act Theory analyzes language as action, distinguishing what is said, what act is performed in saying it, and what effects are produced by saying it, with special attention to performatives, felicity conditions, illocutionary force, and institutional context.",
+      "domains": [
+        "philosophy-of-language",
+        "linguistics",
+        "pragmatics",
+        "communication"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/speech-act-theory-austin-searle-locutionary-illocutionary-perlocutionary-acts-performatives/latest.json"
+    },
+    {
+      "name": "Steelmanning",
+      "slug": "steelmanning",
+      "version": 1,
+      "description": "Steelmanning is the discipline of reconstructing the strongest defensible version of an opposing view before evaluating or rebutting it, replacing caricature with charitable, adversarially robust understanding.",
+      "domains": [
+        "argumentation",
+        "critical-thinking",
+        "deliberation",
+        "epistemology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/steelmanning/latest.json"
     },
     {
       "name": "Stoicism | dichotomy of control, virtue as the only good, negative visualization",

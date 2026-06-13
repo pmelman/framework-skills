@@ -1,0 +1,128 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Korzybski uses the cow example to show abstraction levels. The event-level animal is an unrepeatable process in the world; the object-level perception selects only some characteristics; the label 'Bessie' selects again; the phrase 'cow' or 'good milk cow' selects still fewer features and imports classifications. General Semantics disciplines the analysis by indexing and dating: Bessie-1933 is not Bessie-1934, and this cow is not all cows. The corrective is consciousness of abstracting: treat each statement as a map that omits most of the territory.",
+      "problem": "In Science and Sanity, Korzybski's standard examples of a cow, its name, and successive descriptions illustrate how language abstracts from an event that has indefinitely many characteristics."
+    },
+    {
+      "analysis": "The menu is not the meal: the word or description can guide action, but it cannot feed anyone. General Semantics reads the mistake as identification, a confusion of orders of abstraction in which verbal maps are treated as direct territory. The remedy is to check the lower-order facts, add dating and indexing, and revise the map when experience resists it. A restaurant review, recipe, or label is useful only as a fallible abstraction from actual eating, cooking, and bodily response.",
+      "problem": "Korzybski's famous map-territory and menu-meal formulations warn against confusing symbols, descriptions, or classifications with the nonverbal events they represent."
+    }
+  ],
+  "core_claims": [
+    "Human maladjustment often comes from identifying words, labels, and abstractions with the nonverbal events they only partially represent.",
+    "Every statement abstracts: it selects some characteristics, omits indefinitely many others, and therefore must be treated as incomplete.",
+    "Saner evaluation requires consciousness of abstracting, an explicit awareness of the level and limits of one's descriptions.",
+    "Extensional devices such as indexing, dating, quotation marks, and hyphens reduce overgeneralization by marking differences hidden by ordinary language.",
+    "Aristotelian subject-predicate and identity forms encourage false fixity by making process-events look like stable things with inherent essences.",
+    "The nervous system and language form a feedback process: semantic reactions shape perception, emotion, and behavior, not just verbal reports.",
+    "E-prime reduces some identification errors by removing forms of 'to be' that imply identity, predication, or premature certainty."
+  ],
+  "description": "General Semantics is Korzybski's discipline for improving evaluation by distinguishing maps from territories, tracking levels of abstraction, and revising language habits that create identification, overgeneralization, and confused semantic reactions.",
+  "domains": [
+    "semantics",
+    "critical-thinking",
+    "communication",
+    "epistemology"
+  ],
+  "failure_modes": [
+    "Linguistic overreach: practitioners may treat changes in wording, especially E-prime, as if they automatically solve empirical, political, or psychological problems.",
+    "Anti-Aristotelian caricature: rejecting identity language can become a vague hostility to logic or classification rather than a disciplined check on abstraction.",
+    "Jargon substitution: terms like 'semantic reaction' and 'consciousness of abstracting' can become new labels that are themselves mistaken for understanding.",
+    "Excessive qualification: indexing, dating, and abstraction warnings can make communication cumbersome and indecisive when ordinary categories are adequate.",
+    "Map skepticism without map improvement: noticing that all maps omit can slide into relativism unless paired with testing maps against territory."
+  ],
+  "key_vocabulary": {
+    "Abstraction": "The selection of some characteristics from an event or object while leaving out others; abstraction occurs at every level from perception to theory.",
+    "Consciousness of abstracting": "Awareness that one's perceptions, words, and theories are partial abstractions rather than the whole event.",
+    "Dating": "Marking statements with time, such as person-2026, to avoid treating changing processes as fixed entities.",
+    "E-prime": "English written without forms of 'to be', intended to reduce identity and predication habits that imply more certainty or fixity than the evidence supports.",
+    "Extensional devices": "Practical notational habits such as indexing, dating, quotation marks, et cetera, and hyphens that keep evaluations tied to particulars.",
+    "Identification": "The semantic error of treating different abstraction levels as the same, such as confusing a label with the thing labeled.",
+    "Indexing": "Marking members of a class as distinct, such as apple1 and apple2, to block false generalization from one case to all cases.",
+    "Map-territory relation": "The relation between a representation and what it represents; useful maps resemble the territory structurally but never equal it.",
+    "Semantic reaction": "The total nervous-system response to words, symbols, and meanings, including emotional and behavioral reactions.",
+    "Structural differential": "Korzybski's teaching device for showing how events, objects, labels, and inferences differ by abstraction level."
+  },
+  "name": "General Semantics",
+  "operative_procedure": [
+    "Locate the territory: identify the nonverbal events, observations, behaviors, or measurements the statements are supposed to map.",
+    "Separate abstraction levels: distinguish event, object-level perception, descriptive label, inference, theory, and evaluation.",
+    "Search for identification: flag places where a word, category, role, diagnosis, metric, or story is being treated as identical with the thing represented.",
+    "Apply indexing and dating: specify which instance, which observer, which context, and which time-slice the claim concerns.",
+    "Replace intensional definitions with extensional checks: ask for examples, observations, operations, and consequences rather than verbal essences.",
+    "Use quotation marks or reformulation for loaded labels whose connotations may be driving semantic reactions.",
+    "Optionally translate key claims into E-prime to reveal hidden identity, predication, and certainty assumptions.",
+    "Compare the map's structure with the territory: identify what the current representation preserves, distorts, omits, or invents.",
+    "Revise the map and the reaction together: update language, expectations, and behavior in light of lower-order evidence."
+  ],
+  "relationships": {
+    "ancestors": [
+      "The Map-Territory Distinction",
+      "Pragmatism",
+      "Operationalism",
+      "Non-Aristotelian Logic"
+    ],
+    "composes_with": [
+      "The Map-Territory Distinction",
+      "Cognitive Behavioral Framing",
+      "Fallacy Analysis",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "E-prime",
+      "Neuro-Linguistic Programming",
+      "Media Ecology",
+      "Rational Emotive Behavior Therapy"
+    ],
+    "related": [
+      "The Map-Territory Distinction",
+      "Ordinary Language Philosophy",
+      "Verificationism",
+      "Pragmatism"
+    ],
+    "rivals": [
+      "Classical Logic",
+      "Ordinary Language Philosophy",
+      "Conceptual Analysis",
+      "Essentialism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "General Semantics is useful for defusing category mistakes, stale labels, reified metrics, ideological language, interpersonal misreadings, and abstraction errors in analysis and communication. Its empirical and therapeutic ambitions exceed what later scholarship generally grants it, and its anti-Aristotelian rhetoric can be broader than the practical discipline requires.",
+  "source_summary": "Authored from model knowledge of Korzybski's General Semantics, Hayakawa's exposition, and later E-prime discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Alfred Korzybski, Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics"
+    },
+    {
+      "kind": "primary",
+      "title": "Alfred Korzybski, Manhood of Humanity"
+    },
+    {
+      "kind": "secondary",
+      "title": "S. I. Hayakawa, Language in Thought and Action"
+    },
+    {
+      "kind": "secondary",
+      "title": "D. David Bourland Jr., 'A Linguistic Note: Writing in E-Prime'"
+    },
+    {
+      "kind": "tertiary",
+      "title": "General semantics (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/General_semantics"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A conflict or analysis is being driven by labels, categories, slogans, or metrics that may be mistaken for the reality they describe.",
+    "People are generalizing from one case, time, or context as if a word names a fixed essence.",
+    "A discussion needs to distinguish observation, inference, evaluation, and theory before deciding what is true.",
+    "Emotional reactions to wording are shaping judgment more than direct evidence from the situation.",
+    "A representation, model, diagnosis, or description is useful but is being treated as complete, final, or identical with its object."
+  ]
+}

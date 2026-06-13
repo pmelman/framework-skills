@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Mill's procedure is recognizably steelmanning even though the modern label is later: he does not treat Christianity as the weakest superstition available to ridicule. He reconstructs it as a serious moral doctrine containing partial truths about self-renunciation, humility, and inward moral discipline, then argues that it is incomplete when it suppresses pagan virtues such as magnanimity, public spirit, and self-assertion. The response gains force because it first states what Christianity contributes at its best before criticizing its one-sidedness.",
+      "problem": "In On Liberty, John Stuart Mill argues that even doctrines one believes false must be heard because adversaries may hold part of the truth; his discussion of Christian and pagan ethics reconstructs Christianity's moral strength before criticizing its incompleteness."
+    },
+    {
+      "analysis": "Rapoport's rules operationalize steelmanning: first restate the target's position so clearly that the target can recognize it; then identify points of agreement; then specify what has been learned; only then introduce disagreement. Applied to a dispute, this turns the opponent from a caricature into the strongest available argument. The critic must answer the best version of the view, including its true motivations and strongest evidence, rather than the easiest formulation.",
+      "problem": "Anatol Rapoport's debate rules, later popularized by Daniel Dennett, require a critic to express an opponent's position clearly, list agreements, and acknowledge learning before rebuttal."
+    }
+  ],
+  "core_claims": [
+    "A criticism is epistemically weak if it defeats only a version of the opposing view that competent advocates would reject.",
+    "The strongest reconstruction of a view may be more coherent, qualified, and evidence-sensitive than any single opponent's actual wording.",
+    "Understanding an opponent's central motivation and success conditions is a prerequisite for locating the real disagreement.",
+    "A good rebuttal should leave the opponent saying, in effect, that their view has been understood before it has been challenged.",
+    "Agreement-finding is not concession theater; it isolates the exact proposition, inference, or priority where disagreement remains.",
+    "Steelmanning can improve one's own view by importing the rival's strongest insight before deciding whether the rival conclusion follows."
+  ],
+  "description": "Steelmanning is the discipline of reconstructing the strongest defensible version of an opposing view before evaluating or rebutting it, replacing caricature with charitable, adversarially robust understanding.",
+  "domains": [
+    "argumentation",
+    "critical-thinking",
+    "deliberation",
+    "epistemology"
+  ],
+  "failure_modes": [
+    "Inventing a position the opponent does not hold: excessive reconstruction can replace the real dispute with a more sophisticated thesis that lacks social or textual accountability.",
+    "False symmetry: strengthening every side can imply that all positions deserve equal standing even when evidence, expertise, or harm is asymmetrical.",
+    "Conflict avoidance: the practice can become endless restatement and agreement-finding that never reaches the hard objection.",
+    "Status laundering: a polished steelman may make a bad argument seem more credible than its actual warrants allow.",
+    "Misplaced charity toward strategic bad faith: adversaries can exploit steelmanning by letting critics supply rigor, qualifications, and evidence they never accepted."
+  ],
+  "key_vocabulary": {
+    "Charitable reconstruction": "Restating a view in its most plausible coherent form while preserving its actual commitments.",
+    "Crux": "The proposition, value, or inference on which the disagreement most depends; if it changed, the overall view would likely change.",
+    "Ideological Turing Test": "A test of whether one can present an opposing view so well that its adherents cannot easily distinguish the presentation from one by an insider.",
+    "Principle of Charity": "The interpretive norm of reading others as making true, rational, or coherent claims where the evidence permits.",
+    "Rapoport's Rules": "A sequence for criticism: restate the opponent, note agreements, report what was learned, and only then rebut.",
+    "Steelman": "The strongest defensible version of a position, often stronger than its first or most common presentation.",
+    "Straw man": "A weakened or distorted version of a position that is easier to refute than the real view.",
+    "Sympathetic objection": "A criticism that preserves the target view's best motivations and evidence while challenging its decisive move."
+  },
+  "name": "Steelmanning",
+  "operative_procedure": [
+    "State the opponent's thesis in neutral language, separating the claim itself from tone, tribal markers, and poor presentations.",
+    "Identify the view's strongest motivation: the real problem, value, evidence, or harm that makes intelligent people find it compelling.",
+    "Replace weak premises with the strongest premises the view can legitimately use while staying faithful to its identity.",
+    "Add necessary qualifications, scope limits, and distinctions that a competent defender would make.",
+    "Run an Ideological Turing Test: ask whether an informed advocate would recognize the reconstruction as fair and forceful.",
+    "List substantive agreements and the parts of the rival view that improve or constrain your own position.",
+    "Find the crux: isolate the smallest number of claims, tradeoffs, or inferences on which your disagreement actually turns.",
+    "Respond to the steelman directly, making clear which strengthened premise, inference, empirical claim, or value priority you reject.",
+    "Revise your own position if the steelman exposes a true omission, then report the remaining disagreement without reverting to the weaker target."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Principle of Charity",
+      "Socratic Method",
+      "Millian Liberalism"
+    ],
+    "composes_with": [
+      "Red Teaming",
+      "Reflective Equilibrium",
+      "Dialectical Method",
+      "Fallacy Analysis"
+    ],
+    "descendants": [
+      "Ideological Turing Test",
+      "Double-Crux",
+      "Rapoport's Rules"
+    ],
+    "related": [
+      "Principle of Charity",
+      "Red Teaming",
+      "Socratic Method",
+      "Reflective Equilibrium"
+    ],
+    "rivals": [
+      "Straw Man Argumentation",
+      "Adversarial Debate",
+      "Suspicious Hermeneutics",
+      "Fallacy Analysis"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Steelmanning is strongest in intellectual disagreement, product and policy debates, peer review, negotiation, and conflict where the goal is truth-tracking or durable mutual understanding. It is less appropriate when rapid protective action is needed, when the target view is already precisely specified, or when bad-faith actors use charitable reconstruction to evade responsibility for what they actually said or did.",
+  "source_summary": "Authored from model knowledge of Mill, Rapoport, Dennett, and contemporary rationalist debate norms, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John Stuart Mill, On Liberty"
+    },
+    {
+      "kind": "primary",
+      "title": "Anatol Rapoport, Fights, Games, and Debates"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel C. Dennett, Intuition Pumps and Other Tools for Thinking"
+    },
+    {
+      "kind": "secondary",
+      "title": "Scott Alexander, 'Weak Men Are Superweapons'"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A disagreement is stuck because each side is answering a caricature or the weakest public representative of the other side.",
+    "You need to criticize a view while preserving trust with people who hold it.",
+    "A decision depends on whether a rival position has a real insight that your current view is missing.",
+    "A debate contains heat, slogan substitution, or tribal sorting that obscures the actual crux.",
+    "You are preparing a rebuttal and need it to survive review by the strongest informed defenders of the target view."
+  ]
+}

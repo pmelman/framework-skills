@@ -1,0 +1,128 @@
+{
+  "name": "Effective Altruism",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Effective Altruism is a practical and philosophical framework for using evidence, reason, and impartial welfare concern to identify where marginal resources can do the most good, especially through cause prioritization by scale, tractability, neglectedness, and counterfactual impact.",
+  "domains": [
+    "ethics",
+    "philanthropy",
+    "decision-theory",
+    "public-policy"
+  ],
+  "when_to_use": [
+    "you must allocate scarce charitable, policy, or career resources among causes with very different beneficiaries and evidence bases",
+    "a morally urgent problem has emotionally salient options, but the best use of marginal resources may lie elsewhere",
+    "you need to compare interventions by expected impact rather than by proximity, popularity, or institutional habit",
+    "an action's value depends on what would happen otherwise, including replacement effects and room for more funding",
+    "you are choosing between near-term measurable benefits and speculative but potentially enormous long-run benefits"
+  ],
+  "core_claims": [
+    "Moral importance should be assessed impartially: equal units of welfare matter equally regardless of where, when, or to whom they occur.",
+    "Large differences in cost-effectiveness are common enough that cause selection can dominate program execution in determining impact.",
+    "A cause's priority is approximately a function of scale, tractability, and neglectedness, not of emotional salience or local visibility.",
+    "The relevant effect of an altruistic action is counterfactual: the difference between the world with the action and the closest world without it.",
+    "Marginal resources should move toward the best remaining opportunities, so a cause can be extremely important yet low priority if it is already crowded or lacks room for more funding.",
+    "Expected value reasoning can justify prioritizing low-probability, high-stakes opportunities when probabilities and interventions are not arbitrary.",
+    "Career choice can be an altruistic lever comparable to or larger than donation choice because it controls future labor, influence, and option value."
+  ],
+  "key_vocabulary": {
+    "Cause prioritization": "The comparative ranking of broad problem areas before selecting specific interventions. Effective altruism treats this as a central decision because differences between causes can exceed differences within a cause.",
+    "Scale": "The magnitude of the problem if solved or substantially reduced, usually measured in welfare, lives, quality-adjusted life-years, income gains, or long-run value.",
+    "Tractability": "How much progress additional resources are expected to produce. A tractable problem has plausible interventions with evidence, mechanisms, or leverage points that can move outcomes.",
+    "Neglectedness": "How few resources are already aimed at a problem relative to its scale. Neglected causes are more likely to have high marginal returns.",
+    "Counterfactual impact": "The difference an action makes compared with what would have happened otherwise, including replacement, crowding, and displacement effects.",
+    "Room for more funding": "The amount of additional funding or labor an intervention can productively absorb before marginal returns fall.",
+    "Expected value": "The probability-weighted value of possible outcomes. Effective altruism uses it to compare options under uncertainty while checking sensitivity to assumptions.",
+    "Moral circle expansion": "The extension of moral concern to beings or future persons whose welfare is neglected by current institutions."
+  },
+  "operative_procedure": [
+    "Define the altruistic objective in impartial welfare terms, naming whose interests count and what proxy for benefit will be used.",
+    "List candidate cause areas before listing favored organizations or actions, so the comparison is not anchored on existing loyalties.",
+    "Estimate scale for each cause: the number of affected beings, severity of harm or benefit, duration, and whether future generations or nonhuman animals are included.",
+    "Estimate tractability: identify interventions, causal mechanisms, evidence strength, bottlenecks, and the expected change from an extra dollar, hour, or career.",
+    "Estimate neglectedness and room for more funding: map current spending, talent, attention, institutional momentum, and marginal absorption capacity.",
+    "Compute rough expected impact ranges, explicitly separating empirical uncertainty, moral weights, and discounting or time-horizon assumptions.",
+    "Apply counterfactual reasoning: subtract what donors, governments, employers, or replacement workers would likely do without the proposed action.",
+    "Compare options by marginal expected value, then run robustness checks for worldview diversification, downside risk, reputational risk, and model error.",
+    "Select the action or portfolio with the strongest case, state the crux assumptions that would change the ranking, and define feedback signals for later updating."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "GiveWell's early charity evaluation compared global health interventions and highlighted deworming programs, including Deworm the World, as unusually cost-effective because randomized trials suggested school-based deworming could improve health, school attendance, and later earnings at low cost.",
+      "analysis": "The effective altruist analysis begins with cause prioritization rather than donor affinity: intestinal worm infections affected large numbers of poor children, making scale high. Tractability appeared high because mass school-based treatment was cheap and logistically simple, with trial evidence suggesting benefits. Neglectedness was substantial relative to rich-country causes because very little philanthropic money targeted deworming. Counterfactually, an additional donor dollar could plausibly fund treatments that otherwise would not occur. The recommendation was therefore to prioritize deworming among global health charities, while later EA practice also treated the result as sensitive to evidence quality, external validity, and whether long-run income effects replicated."
+    },
+    {
+      "problem": "GiveWell and many effective altruists have repeatedly used the Against Malaria Foundation as a benchmark top charity because it funds insecticide-treated bed nets to prevent malaria deaths.",
+      "analysis": "The framework scores malaria prevention highly on scale because malaria kills and sickens many people, especially children in low-income countries. Tractability is unusually concrete: insecticide-treated nets reduce mosquito transmission, distributions can be audited, and cost-per-net can be estimated. Neglectedness and room for more funding are assessed by comparing funding gaps in national malaria programs against donor commitments. Counterfactual impact is not simply 'nets bought' but deaths and morbidity averted relative to what governments and other funders would otherwise cover. The EA-shaped conclusion is that AMF is attractive when the marginal distribution gap is real and monitoring confirms nets reach households, while its priority can fall if malaria funding becomes crowded or insecticide resistance undermines tractability."
+    }
+  ],
+  "failure_modes": [
+    "Spurious precision: cost-effectiveness spreadsheets can hide fragile moral weights, uncertain causal chains, and wide confidence intervals behind single-number rankings.",
+    "Cause myopia from quantifiability: interventions with measurable near-term outcomes can crowd out institutional, political, or justice-oriented work whose benefits are harder to estimate.",
+    "Fanaticism under tiny probabilities: expected value reasoning can be misused to justify extreme commitments to speculative scenarios without adequate epistemic discipline.",
+    "Counterfactual overconfidence: analysts may assert what would have happened otherwise while underestimating strategic responses, replacement labor, or funding displacement.",
+    "Moral alienation and legitimacy loss: impartial optimization can neglect relationships, rights, participation, and local agency, making technically efficient actions politically or ethically brittle.",
+    "Community epistemic lock-in: deference to centralized evaluators or fashionable cause areas can make a movement that prizes evidence slow to notice correlated mistakes."
+  ],
+  "scope_and_limits": "Effective Altruism is strongest for allocating marginal philanthropic resources, comparing global welfare interventions, and making explicit tradeoffs under uncertainty. It is less decisive when moral theories disagree sharply about rights, duties, justice, or person-affecting views; when evidence is thin or manipulable; or when legitimacy, democratic agency, and institutional power are central to the problem. Its conclusions should be treated as decision-relevant estimates, not moral permissions to ignore constraints.",
+  "source_texts": [
+    {
+      "title": "Peter Singer, 'Famine, Affluence, and Morality' (1972)",
+      "kind": "primary"
+    },
+    {
+      "title": "William MacAskill, Doing Good Better (2015)",
+      "kind": "primary"
+    },
+    {
+      "title": "Toby Ord, The Moral Imperative Toward Cost-Effectiveness in Global Health (2013)",
+      "kind": "primary"
+    },
+    {
+      "title": "Benjamin Todd and 80,000 Hours, Career Guide",
+      "kind": "secondary",
+      "url": "https://80000hours.org/career-guide/"
+    },
+    {
+      "title": "Effective altruism (Wikipedia)",
+      "kind": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/Effective_altruism"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Utilitarianism",
+      "Expected Value Reasoning",
+      "Decision Theory",
+      "Fermi Estimation"
+    ],
+    "ancestors": [
+      "Utilitarianism",
+      "Expected Utility Theory",
+      "Cost-Benefit Analysis",
+      "Population Ethics"
+    ],
+    "descendants": [
+      "Longtermism",
+      "Cause Prioritization",
+      "Earning to Give",
+      "AI Safety Prioritization"
+    ],
+    "rivals": [
+      "Kantian Deontology",
+      "Care Ethics | Gilligan/Noddings: relationships and dependency as moral center",
+      "Luck Egalitarianism | neutralize unchosen luck; hold people to chosen risk",
+      "Rights-Based Ethics"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Expected Value Reasoning",
+      "Counterfactual Reasoning",
+      "Fermi Estimation"
+    ]
+  },
+  "built_at": "2026-06-13T03:08:38Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Singer, MacAskill, Ord, GiveWell, and 80,000 Hours sources, without fetched source text."
+}

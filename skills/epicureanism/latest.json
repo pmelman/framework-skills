@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Epicurus argues that death should not disturb us because good and bad require sensation, and death is the privation of sensation. While we exist, death is not present; when death is present, we do not exist as subjects of harm. The framework removes anxiety by dissolving the imagined posthumous sufferer and redirecting attention to the quality, limits, and pleasures of mortal life. The result is ataraxia, not recklessness: death's inevitability makes vain ambition and fear of divine punishment irrational.",
+      "problem": "In the Letter to Menoeceus, Epicurus presents the standard argument that death is nothing to us."
+    },
+    {
+      "analysis": "Epicurus classifies desires to decide which pleasures to pursue. Natural and necessary desires, such as food, shelter, bodily safety, and friendship, should be secured because they remove pain and are easy to satisfy. Natural but unnecessary desires, such as luxurious food, may be enjoyed when available but should not enslave the mind. Vain desires for fame, limitless wealth, and immortality create disturbance because they have no natural limit. The recommendation is simple living with stable friendship, producing aponia and ataraxia rather than maximal stimulation.",
+      "problem": "Epicurus's Principal Doctrines and Letter to Menoeceus distinguish natural and necessary desires from natural unnecessary desires and empty or vain desires."
+    }
+  ],
+  "core_claims": [
+    "Pleasure is the beginning and end of the blessed life, but the highest pleasure is stable freedom from bodily pain and mental disturbance rather than continuous indulgence.",
+    "Desires have natural limits; desires without natural limits, especially for fame, power, wealth, and immortality, reliably produce anxiety.",
+    "Death is not bad for the one who dies because all good and bad consist in sensation, and death removes sensation.",
+    "The gods, if they exist as blessed and imperishable beings, neither govern human affairs nor punish human beings, so fear of divine intervention is irrational.",
+    "Prudence is greater than philosophy's abstract display because it calculates which pleasures to choose and which pains to accept for a tranquil life.",
+    "Friendship is one of the greatest means to security and pleasure because it reduces fear, supports self-sufficiency, and stabilizes ordinary life.",
+    "Justice is a mutual agreement neither to harm nor be harmed, valued because it secures peace rather than because it exists as an independent cosmic command."
+  ],
+  "description": "Epicureanism is a Hellenistic ethical framework that seeks pleasure understood as tranquil freedom from pain and disturbance, using desire classification, prudent choice, friendship, naturalistic explanation, and the removal of death and divine fears.",
+  "domains": [
+    "ethics",
+    "practical-philosophy",
+    "ancient-philosophy",
+    "wellbeing"
+  ],
+  "failure_modes": [
+    "Crude hedonist misreading: treating Epicureanism as indulgence reverses its central discipline of limiting desire and preferring stable tranquility over intense stimulation.",
+    "Quietist withdrawal: avoiding political and social disturbance can become neglect of preventable injustice or dependency on others who maintain public order.",
+    "Underestimating grief and attachment: the argument that death is nothing may not address the relational loss experienced by survivors or anticipatory grief.",
+    "Over-pruning aspiration: labeling ambitious projects as vain can protect tranquility but also flatten excellence, creativity, and public contribution.",
+    "Security fixation: the pursuit of undisturbed safety can become its own source of anxiety if every possible pain is treated as a threat to ataraxia."
+  ],
+  "key_vocabulary": {
+    "Aponia": "Freedom from bodily pain; paired with ataraxia as the stable condition of pleasure.",
+    "Ataraxia": "Freedom from mental disturbance, fear, and anxiety; the central Epicurean condition of tranquility.",
+    "Hedonic calculus": "Prudent comparison of pleasures and pains over time, including choosing some pains for greater pleasure and rejecting some pleasures that bring greater disturbance.",
+    "Kinetic pleasure": "Active pleasure involving stimulation or the process of satisfying a desire, such as eating when hungry.",
+    "Katastematic pleasure": "Stable pleasure consisting in a condition of lack of pain or disturbance, rather than active stimulation.",
+    "Natural and necessary desires": "Desires grounded in nature and required for happiness, bodily ease, or life itself, such as food, shelter, and friendship.",
+    "Natural but unnecessary desires": "Desires grounded in nature but not required for tranquility, such as luxurious versions of simple satisfactions.",
+    "Tetrapharmakos": "The fourfold remedy: do not fear gods, do not worry about death, what is good is easy to obtain, and what is terrible is easy to endure.",
+    "Vain desires": "Empty desires produced by false belief, such as limitless wealth, fame, domination, or immortality."
+  },
+  "name": "Epicureanism",
+  "operative_procedure": [
+    "Name the disturbance: identify the fear, craving, pain, social pressure, or belief that is disrupting tranquility.",
+    "Apply the tetrapharmakos: test whether fear of gods, fear of death, exaggeration of need, or exaggeration of suffering is driving the problem.",
+    "Classify each desire as natural and necessary, natural but unnecessary, or vain; reject the assumption that intensity proves importance.",
+    "Calculate pleasure prudently: compare short-term pleasure and pain with long-term aponia, ataraxia, dependence, risk, and regret.",
+    "Prefer simple satisfactions that meet natural limits and preserve self-sufficiency.",
+    "Choose or refuse pains instrumentally: accept pains that secure greater tranquility and reject pleasures that bring greater disturbance.",
+    "Strengthen friendship and mutual security as primary conditions of a pleasant life.",
+    "Deflate supernatural, status, and immortality anxieties through naturalistic explanation and attention to present sensation.",
+    "State the recommended way of life in terms of stable pleasure, reduced fear, and desires brought within natural limits."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Democritean Atomism",
+      "Cyrenaic Hedonism",
+      "Socratic Ethics"
+    ],
+    "composes_with": [
+      "Stoicism",
+      "Utilitarianism",
+      "Cognitive Behavioral Framing",
+      "The Middle Way"
+    ],
+    "descendants": [
+      "Lucretian Naturalism",
+      "Modern Secular Humanism",
+      "Negative Hedonism",
+      "Utilitarianism"
+    ],
+    "related": [
+      "Stoicism",
+      "Utilitarianism",
+      "The Four Purusharthas",
+      "Ahimsa"
+    ],
+    "rivals": [
+      "Stoicism",
+      "Aristotelian Virtue Ethics",
+      "Kantian Deontology",
+      "Christian Asceticism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Epicureanism is strongest for personal ethics, anxiety about death, desire management, consumption choices, friendship, and designing a life with low dependence on fortune. It is weaker for duties under injustice, heroic sacrifice, political obligation, and cases where tranquility conflicts with public responsibility or demanding forms of love.",
+  "source_summary": "Authored from model knowledge of Epicurus, Lucretius, Diogenes Laertius, and standard scholarship on Epicurean ethics, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Epicurus, Letter to Menoeceus"
+    },
+    {
+      "kind": "primary",
+      "title": "Epicurus, Principal Doctrines"
+    },
+    {
+      "kind": "primary",
+      "title": "Lucretius, De Rerum Natura"
+    },
+    {
+      "kind": "secondary",
+      "title": "Epicurus (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/epicurus/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A choice is being distorted by fear of death, divine punishment, status loss, or limitless future insecurity.",
+    "You need to distinguish genuine needs from socially amplified wants before deciding what to pursue.",
+    "A pleasure is tempting but may create dependence, anxiety, pain, or regret greater than its enjoyment.",
+    "A life-design question centers on tranquility, friendship, sufficiency, and freedom from unnecessary disturbance.",
+    "Someone equates happiness with achievement, luxury, or intensity and needs a rival account of stable wellbeing."
+  ]
+}

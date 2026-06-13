@@ -1,0 +1,124 @@
+{
+  "name": "Robust Decision Making",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Robust Decision Making is RAND's analytic framework for choosing strategies that perform satisfactorily across many plausible futures by stress-testing options, identifying vulnerabilities, and adaptively improving plans under deep uncertainty.",
+  "domains": [
+    "decision-theory",
+    "public-policy",
+    "risk-analysis",
+    "systems-planning"
+  ],
+  "when_to_use": [
+    "a long-term decision must be made under deep uncertainty where stakeholders cannot agree on probability distributions",
+    "the goal is an acceptable strategy across many plausible futures rather than an optimal strategy for a best-estimate forecast",
+    "a proposed plan may fail only under specific combinations of external conditions that need to be discovered",
+    "policy choices can be adapted over time as signposts reveal which future is unfolding",
+    "stakeholders disagree about models, values, or assumptions but can compare vulnerabilities and tradeoffs"
+  ],
+  "core_claims": [
+    "For many climate, water, infrastructure, and security decisions, uncertainty is too deep for a single predictive forecast to justify an optimal plan.",
+    "A good strategy should be robust: it should meet performance thresholds across a wide range of plausible futures, even if it is not optimal in any one forecast.",
+    "Decision analysis should run backward from candidate strategies and their vulnerabilities rather than forward from one agreed probability distribution.",
+    "Exploratory modeling over thousands of cases can reveal the combinations of assumptions under which a strategy fails.",
+    "Stakeholder deliberation improves when it focuses on tradeoffs, thresholds, and vulnerabilities instead of forcing premature agreement about probabilities.",
+    "Adaptive strategies with signposts and triggers can outperform static plans because they preserve flexibility as uncertainty resolves.",
+    "Regret and satisficing are often more decision-relevant than expected value when probabilities are deeply contested."
+  ],
+  "key_vocabulary": {
+    "Deep uncertainty": "A condition in which parties do not know or cannot agree on models, probability distributions, or the value of outcomes.",
+    "Robust strategy": "A strategy that performs well enough across many plausible futures, rather than maximizing expected performance in one forecast.",
+    "Exploratory modeling": "The systematic simulation of many plausible futures by varying assumptions, parameters, models, and policy choices.",
+    "Vulnerability analysis": "The identification of conditions under which a candidate strategy fails to meet its performance goals.",
+    "Satisficing threshold": "A minimum acceptable performance level used to judge whether a strategy succeeds in a future.",
+    "Scenario discovery": "A statistical and visual process for finding clusters of futures where a strategy succeeds or fails.",
+    "Tradeoff curve": "A representation of how strategies exchange performance across objectives, such as cost, reliability, equity, and environmental quality.",
+    "Adaptive strategy": "A plan with near-term actions plus signposts, triggers, and contingent actions for later adjustment."
+  },
+  "operative_procedure": [
+    "Frame the decision with stakeholders: define choices, objectives, performance metrics, constraints, and the time horizon.",
+    "Identify uncertainties that could change the decision, including external drivers, model structures, parameter ranges, implementation behavior, and value assumptions.",
+    "Generate candidate strategies, including current plans, low-regret options, adaptive variants, and deliberately contrasting alternatives.",
+    "Run exploratory models across many plausible futures rather than relying on a single forecast or probability-weighted scenario set.",
+    "Evaluate each strategy against satisficing thresholds and multiple objectives in every modeled future.",
+    "Perform vulnerability analysis or scenario discovery to find the combinations of conditions under which each strategy fails.",
+    "Revise strategies to reduce vulnerabilities, add flexibility, hedge against severe failures, or improve tradeoffs across objectives.",
+    "Compare strategies by robustness, regret, cost, equity, and stakeholder acceptability, making the robustness-performance tradeoff explicit.",
+    "Define adaptive signposts, monitoring indicators, triggers, and contingent actions so the chosen strategy can change as evidence arrives."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "RAND's work with the Inland Empire Utilities Agency in Southern California used Robust Decision Making to evaluate long-term water management under uncertain climate change, population growth, conservation, supply, and cost assumptions.",
+      "analysis": "The decision was not framed as finding the most likely water future. Stakeholders specified objectives such as reliable supply and affordability, then analysts tested water-management portfolios across many climate and demand futures. Vulnerability analysis identified combinations of hot-dry climate, high growth, and supply constraints where existing plans failed performance thresholds. The RDM move was to revise the plan with options such as conservation, recycling, stormwater capture, and adaptive triggers, seeking a portfolio that was acceptable across many plausible futures rather than optimal for one forecast."
+    },
+    {
+      "problem": "RAND and collaborators applied Robust Decision Making in Colorado River Basin planning, where future flows, climate change, demand, legal constraints, and management responses are deeply uncertain.",
+      "analysis": "The framework treats the basin plan as a strategy to stress-test against thousands of plausible hydrologic and demand futures. Performance is measured against thresholds such as reservoir levels, shortage frequency, and delivery reliability. Scenario discovery identifies futures where current operating rules become vulnerable, for example combinations of sustained low flows and high demand. Candidate strategies are then compared by robustness: conservation, transfers, augmentation, and adaptive operating rules are valuable if they reduce failure across many futures without unacceptable cost or distributional harm. The output is a map of vulnerabilities and adaptive options, not a single forecast of river flow."
+    }
+  ],
+  "failure_modes": [
+    "Scenario sprawl: running many futures can create an illusion of completeness while still omitting structural surprises or political constraints.",
+    "Threshold manipulation: robustness results can be driven by arbitrary satisficing thresholds chosen to favor a preferred strategy.",
+    "Model dependence disguised as model freedom: exploratory modeling still inherits the assumptions, equations, and blind spots of the simulation platform.",
+    "Process heaviness: stakeholder-driven RDM can be too slow or expensive for urgent decisions with simple dominant actions.",
+    "Mediocrity bias: robust strategies may settle for acceptable performance everywhere while missing high-upside investments that require commitment.",
+    "Implementation drift: adaptive triggers are often specified in reports but not embedded in institutions with authority, funding, and monitoring capacity."
+  ],
+  "scope_and_limits": "Robust Decision Making is strongest for long-lived public infrastructure, climate adaptation, water management, defense planning, and other policy domains with deep uncertainty and multiple objectives. It is less useful when probabilities are reliable enough for expected utility optimization, when a decision is too small to justify exploratory modeling, or when no model can connect choices to outcomes. It requires stakeholder work because robustness is always relative to objectives and acceptable thresholds.",
+  "source_texts": [
+    {
+      "title": "Robert J. Lempert, Steven W. Popper, and Steven C. Bankes, Shaping the Next One Hundred Years: New Methods for Quantitative, Long-Term Policy Analysis (2003)",
+      "kind": "primary",
+      "url": "https://www.rand.org/pubs/monograph_reports/MR1626.html"
+    },
+    {
+      "title": "Robert J. Lempert and David G. Groves, 'Identifying and Evaluating Robust Adaptive Policy Responses to Climate Change for Water Management Agencies in the American West' (2010)",
+      "kind": "primary"
+    },
+    {
+      "title": "RAND Corporation, Robust Decision Making",
+      "kind": "secondary",
+      "url": "https://www.rand.org/topics/robust-decision-making.html"
+    },
+    {
+      "title": "Decision Making under Deep Uncertainty: From Theory to Practice (Marchau et al., 2019)",
+      "kind": "secondary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Minimax Regret",
+      "Scenario Planning",
+      "Decision Theory",
+      "Systems Thinking"
+    ],
+    "ancestors": [
+      "Decision Analysis",
+      "Exploratory Modeling",
+      "Satisficing",
+      "Robust Control"
+    ],
+    "descendants": [
+      "Dynamic Adaptive Policy Pathways",
+      "Many-Objective Robust Decision Making",
+      "Decision Making under Deep Uncertainty",
+      "Climate Adaptation Pathways"
+    ],
+    "rivals": [
+      "Expected Utility Theory",
+      "Cost-Benefit Analysis",
+      "Forecast-Based Planning",
+      "Optimization"
+    ],
+    "composes_with": [
+      "Scenario Planning",
+      "Minimax Regret",
+      "Systems Thinking",
+      "Pre-Mortem"
+    ]
+  },
+  "built_at": "2026-06-13T03:08:38Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of RAND Robust Decision Making literature by Lempert, Popper, Bankes, Groves, and deep-uncertainty planning sources, without fetched source text."
+}

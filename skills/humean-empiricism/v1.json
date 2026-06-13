@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Hume denies that reason perceives necessary connection in the billiard balls themselves. Observation gives a sequence: one ball moves, contacts another, and the second moves. Repetition produces a habit of expecting the second motion after the first, and this felt determination of the mind is projected as causal necessity. The analysis separates impressions from ideas: the sensory impressions never contain necessary power; the idea of cause arises from constant conjunction plus custom.",
+      "problem": "In the Enquiry and Treatise, Hume's billiard-ball example asks what we actually perceive when one moving ball strikes another and the second moves."
+    },
+    {
+      "analysis": "Hume evaluates miracle testimony by comparing probabilities grounded in experience. A miracle is a violation of a law of nature, and a law of nature is supported by uniform experience; testimony is also known by experience to be fallible through error, passion, interest, and credulity. The rational judge accepts miracle testimony only if its falsehood would be more miraculous than the event it reports. In ordinary cases, custom and evidence favor the natural regularity over the report.",
+      "problem": "In 'Of Miracles,' Hume asks when testimony can justify belief in an alleged violation of a law of nature."
+    }
+  ],
+  "core_claims": [
+    "All legitimate ideas must be traceable to prior impressions; an idea with no impression-source is suspect or meaningless.",
+    "Relations of ideas are knowable a priori but say only what is demonstratively necessary; matters of fact depend on experience and can always be denied without contradiction.",
+    "Causal necessity is not perceived in objects; it arises from the mind's habit after observing constant conjunction.",
+    "Induction cannot be justified by reason without circularity because any appeal to the future resembling the past already assumes the principle at issue.",
+    "Belief is a lively idea associated with a present impression, not a purely intellectual assent produced by deductive proof.",
+    "The self, as introspectively examined, is a bundle of changing perceptions rather than an impression of a simple, persisting substance.",
+    "Reason alone does not motivate action; passions supply ends, and reason discovers relations among ideas and means to desired ends."
+  ],
+  "description": "Humean Empiricism is David Hume's account of knowledge and belief as grounded in impressions, habit, and custom, sharply limiting reason's authority over causation, induction, selfhood, miracles, and practical motivation.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-science",
+    "metaphysics",
+    "moral-psychology"
+  ],
+  "failure_modes": [
+    "Self-undermining skepticism: pressing Hume's doubts without his naturalistic appeal to custom can paralyze ordinary inquiry and action.",
+    "Overzealous meaning tests: rejecting any concept not easily traced to a simple impression can prematurely discard theoretical entities and abstract structures useful in science.",
+    "Psychologizing justification away: explaining belief by habit does not by itself settle which inductive practices are more reliable or normatively warranted.",
+    "Flattening causation into mere regularity: Hume's critique can obscure interventions, mechanisms, and counterfactual dependence needed in scientific causal inference.",
+    "Miracle-test overextension: the demand for extraordinary testimony can become closed-mindedness if background probabilities are fixed dogmatically rather than updated by evidence."
+  ],
+  "key_vocabulary": {
+    "Association of ideas": "The mind's tendency to move among ideas by resemblance, contiguity, and cause or effect.",
+    "Belief": "For Hume, a more vivid, forceful, steady conception of an idea, usually enlivened by relation to a present impression.",
+    "Constant conjunction": "The repeated observation that events of one type are followed by events of another type, forming the basis for causal expectation.",
+    "Copy principle": "The thesis that every genuine idea is copied from a prior impression or combination of impressions.",
+    "Custom or habit": "The non-rational psychological mechanism by which repeated experience produces expectation and belief.",
+    "Impressions": "Immediate, forceful perceptions such as sensations, passions, and emotions.",
+    "Ideas": "Fainter copies of impressions used in memory, imagination, and thought.",
+    "Matters of fact": "Contingent claims about the world known through experience; their negation is always conceivable.",
+    "Problem of induction": "The challenge that no non-circular rational proof shows that unobserved cases will resemble observed cases.",
+    "Relations of ideas": "Necessary truths discoverable by mere thought, such as mathematics and definitions, whose denial implies contradiction."
+  },
+  "name": "Humean Empiricism",
+  "operative_procedure": [
+    "Classify the claim as a relation of ideas or a matter of fact; do not demand the same kind of warrant from both.",
+    "For each key idea, apply the copy principle: identify the impression or impressions from which the idea could have arisen.",
+    "If no impression-source can be found, treat the term as confused, merely verbal, or in need of reconstruction.",
+    "For causal claims, separate observed constant conjunction from any asserted necessary connection, power, or hidden force.",
+    "Ask what custom or habit has trained the mind to expect, and distinguish that psychological expectation from demonstrative proof.",
+    "For inductive projections, expose the assumption that the future will resemble the past; assess the strength, uniformity, and scope of the past experience instead of pretending to prove induction deductively.",
+    "For testimony, weigh the reliability of the report against the regularity of contrary experience, including motives, number of witnesses, independence, and background probability.",
+    "For self, substance, or metaphysical claims, look for the relevant impression and consider whether only a bundle of perceptions has been observed.",
+    "Conclude with a mitigated skeptical judgment: state what experience and custom license in practice, while marking what reason has not demonstrated."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Lockean Empiricism",
+      "Berkeleian Empiricism",
+      "Newtonian Experimental Philosophy"
+    ],
+    "composes_with": [
+      "Naturalized Epistemology",
+      "Falsificationism",
+      "Bayesian Epistemology",
+      "Moral Sentimentalism"
+    ],
+    "descendants": [
+      "Logical Positivism",
+      "Naturalized Epistemology",
+      "Verificationism",
+      "Moral Sentimentalism"
+    ],
+    "related": [
+      "Evidentialism",
+      "The Is-Ought Distinction",
+      "Verificationism",
+      "Instrumentalism"
+    ],
+    "rivals": [
+      "Cartesian Rationalism",
+      "Kantian Transcendental Idealism",
+      "Inference to the Best Explanation",
+      "Scientific Realism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Humean Empiricism is powerful for auditing metaphysical claims, causal inferences, testimony, induction, and overconfident appeals to reason. It is deliberately deflationary and skeptical, so it needs supplementation when one must build positive scientific methodology, causal models, moral norms, or accounts of abstract theoretical entities.",
+  "source_summary": "Authored from model knowledge of Hume's Treatise, Enquiries, Dialogues, and standard scholarship on empiricism, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "David Hume, A Treatise of Human Nature"
+    },
+    {
+      "kind": "primary",
+      "title": "David Hume, An Enquiry Concerning Human Understanding"
+    },
+    {
+      "kind": "primary",
+      "title": "David Hume, Dialogues Concerning Natural Religion"
+    },
+    {
+      "kind": "secondary",
+      "title": "David Hume (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/hume/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A claim relies on causation, necessity, substance, selfhood, or metaphysical power that may outrun experience.",
+    "An argument treats induction as deductively certain rather than as a habit formed from repeated observation.",
+    "A report of an extraordinary event must be weighed against stable background regularities and the fallibility of testimony.",
+    "A concept sounds meaningful but its experiential source is unclear.",
+    "A debate confuses demonstrative truths with contingent matters of fact."
+  ]
+}

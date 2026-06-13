@@ -1,0 +1,130 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:39Z",
+  "canonical_examples": [
+    {
+      "analysis": "Austin's wedding formula is not primarily a report about an inner state; uttered in the right ceremony by the right person under the right conditions, it helps constitute the marriage act. The locution is the sentence spoken, the illocutionary act is marrying or undertaking the marital commitment, and the intended perlocutionary effects may include reassuring the partner or informing witnesses. If the speaker is already married, coerced, not authorized to participate, or joking on a stage, the performative misfires or is abused because the felicity conditions are not satisfied.",
+      "problem": "Austin's performative example: a person says 'I do' in a wedding ceremony. What kind of action has occurred, and when would it fail?"
+    },
+    {
+      "analysis": "Searle treats the sentence as an indirect speech act. The locutionary content is a question about the hearer's ability. The primary illocutionary force, in ordinary dinner-table circumstances, is a request to pass the salt, inferred through shared background assumptions, conversational cooperation, and the obvious relevance of the salt. The perlocutionary effect sought is that the hearer passes it. A literal answer of 'yes' without action exploits the gap between sentence type and illocutionary force, showing why speech act analysis must identify what is done in saying something, not just what the sentence semantically encodes.",
+      "problem": "Searle's indirect request example: someone at dinner asks, 'Can you pass the salt?'"
+    }
+  ],
+  "core_claims": [
+    "Utterances do not merely describe states of affairs; under the right conditions they perform actions such as promising, ordering, warning, marrying, naming, and apologizing.",
+    "The meaning of an utterance must be analyzed at least across locutionary content, illocutionary force, and perlocutionary effect.",
+    "Performatives are governed by felicity conditions rather than truth conditions alone; they can misfire, be void, or be abused even when grammatically well formed.",
+    "Illocutionary force is partly conventional and institutionally situated: the same sentence can count as a question, order, joke, bet, verdict, or promise depending on uptake and context.",
+    "Indirect speech acts show that sentence mood does not determine communicative action; hearers infer primary force through shared background, rules, and conversational expectations.",
+    "Sincere performance of many speech acts requires specific psychological states, but the public act is not reducible to a private mental episode.",
+    "Institutional facts are created and maintained by collectively recognized declarations that assign status functions, such as counting a piece of paper as money or a person as married."
+  ],
+  "description": "Speech Act Theory analyzes language as action, distinguishing what is said, what act is performed in saying it, and what effects are produced by saying it, with special attention to performatives, felicity conditions, illocutionary force, and institutional context.",
+  "domains": [
+    "philosophy-of-language",
+    "linguistics",
+    "pragmatics",
+    "communication"
+  ],
+  "failure_modes": [
+    "Reducing every communicative problem to speaker intention while neglecting convention, authority, uptake, and institutional setting.",
+    "Treating felicity conditions as if they were simple checklists when real contexts involve contested authority and ambiguous roles.",
+    "Confusing perlocutionary success with illocutionary performance: a warning can be issued even if nobody becomes alarmed.",
+    "Over-classifying utterances into rigid taxonomies while missing irony, fiction, ritual, code-switching, or strategic ambiguity.",
+    "Ignoring power: who can declare, command, forgive, or accuse is shaped by institutions and social hierarchy, not grammar alone.",
+    "The characteristic practitioner error is literalism in reverse, where the analyst confidently assigns an indirect force without enough evidence of shared background or uptake."
+  ],
+  "key_vocabulary": {
+    "Constitutive rule": "A rule of the form that X counts as Y in context C, making possible institutional acts such as promising, scoring, marrying, or declaring.",
+    "Declaration": "A speech act that changes institutional reality by being successfully performed, such as pronouncing a couple married or declaring a meeting open.",
+    "Felicity conditions": "The conventional, contextual, intentional, and procedural conditions that must hold for a performative speech act to succeed.",
+    "Illocutionary act": "The act performed in saying something, such as asserting, promising, ordering, warning, requesting, or apologizing.",
+    "Illocutionary force": "The practical force that makes an utterance count as a particular kind of act rather than merely a sentence with content.",
+    "Indirect speech act": "An utterance whose literal sentence form differs from its primary illocutionary act, as when a question functions as a request.",
+    "Locutionary act": "The production of a meaningful utterance with particular words, grammar, and propositional content.",
+    "Perlocutionary act": "The effects produced by saying something, such as persuading, frightening, amusing, insulting, or causing someone to act.",
+    "Performative": "An utterance that performs the act it names or conventionally enacts, provided the relevant felicity conditions are met.",
+    "Uptake": "The hearer's recognition of the force of an utterance, often necessary for the speech act to be fully accomplished."
+  },
+  "name": "Speech Act Theory | Austin/Searle: locutionary/illocutionary/perlocutionary acts; performatives",
+  "operative_procedure": [
+    "Identify the utterance and scene: record the exact words, speaker, hearer, medium, timing, institutional setting, and surrounding action.",
+    "Separate locution from force: state the literal sentence content before deciding what act the speaker performed in saying it.",
+    "Classify the illocutionary act: determine whether the utterance asserts, asks, commands, promises, declares, apologizes, warns, permits, names, or performs another act.",
+    "Check felicity conditions: test authority, procedure, context, sincerity, uptake, preparatory conditions, and whether the act is void, misfired, or abused.",
+    "Distinguish perlocutionary effects: identify what the utterance caused or aimed to cause, and keep those effects separate from whether the illocutionary act occurred.",
+    "Analyze indirectness: if grammatical form and practical force diverge, explain the inference from shared background, relevance, politeness, institutional roles, or conversational norms.",
+    "Inspect constitutive rules: where the act depends on an institution, state what rule makes these words count as that act in this context.",
+    "Compare contested readings: test alternative forces against context and uptake, especially for jokes, threats, hints, coercion, fiction, and ritual speech.",
+    "Synthesize the communicative action: report what was said, what was done in saying it, what effects followed, and which felicity or uptake failures explain disagreement."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Ordinary Language Philosophy",
+      "Pragmatics",
+      "Analytic Philosophy",
+      "Philosophy of Language"
+    ],
+    "composes_with": [
+      "Ordinary Language Philosophy",
+      "Hermeneutics | Gadamer/Schleiermacher: interpretation, hermeneutic circle, fusion of horizons",
+      "Principle of Charity",
+      "Argumentation Theory | Toulmin model: claim, grounds, warrant, backing, rebuttal"
+    ],
+    "descendants": [
+      "Pragmatics",
+      "Conversation Analysis",
+      "Discourse Analysis",
+      "Social Ontology"
+    ],
+    "related": [
+      "Ordinary Language Philosophy",
+      "Conceptual Analysis",
+      "Hermeneutics | Gadamer/Schleiermacher: interpretation, hermeneutic circle, fusion of horizons",
+      "Gricean Pragmatics"
+    ],
+    "rivals": [
+      "Logical Positivism",
+      "Verificationism",
+      "Truth-Conditional Semantics",
+      "Classical Logic"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Speech Act Theory is strongest for diagnosing what utterances do in context: promises, orders, threats, apologies, institutional declarations, indirect requests, conversational breakdowns, and disputes over authority or uptake. It is weaker when the main issue is syntax, formal truth conditions, unconscious motive, macro-social causation, or empirical prediction independent of communicative context.",
+  "source_summary": "Authored from model knowledge of named sources in Austin's and Searle's speech act theory, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "J. L. Austin, How to Do Things with Words"
+    },
+    {
+      "kind": "primary",
+      "title": "John R. Searle, Speech Acts: An Essay in the Philosophy of Language"
+    },
+    {
+      "kind": "primary",
+      "title": "John R. Searle, Expression and Meaning: Studies in the Theory of Speech Acts"
+    },
+    {
+      "kind": "secondary",
+      "title": "Speech Acts (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/speech-acts/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Speech act (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Speech_act"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a dispute turns on what someone did by saying something, not merely on whether the sentence was true or false",
+    "an utterance such as a promise, apology, order, warning, threat, declaration, or verdict may have changed obligations or social facts",
+    "literal wording and practical meaning diverge, as in hints, indirect requests, sarcasm, ritual formulas, or institutional speech",
+    "communication failed because authority, procedure, sincerity, uptake, or context was missing or contested",
+    "you need to distinguish the content of an utterance from its force and from its actual effects on an audience"
+  ]
+}

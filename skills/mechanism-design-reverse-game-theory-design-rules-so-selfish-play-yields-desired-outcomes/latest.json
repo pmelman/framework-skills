@@ -1,0 +1,129 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:39Z",
+  "canonical_examples": [
+    {
+      "analysis": "The designer wants efficient allocation when each bidder privately knows their own valuation. In an English auction, open ascending bids can reveal willingness to pay, but strategic behavior and collusion remain possible. In Vickrey's sealed-bid second-price auction, each bidder's dominant strategy is to report their true valuation: bidding below value risks losing an item worth more than the price paid, and bidding above value risks winning at a price above value. The allocation goes to the highest valuer while the price is set by the second-highest valuation, separating allocation from the winner's own price report. This is the standard mechanism-design result that truthful revelation can be made incentive compatible by changing the payment rule.",
+      "problem": "William Vickrey's auction problem: allocate a single good to the bidder who values it most when bidders have private values and may shade bids strategically."
+    },
+    {
+      "analysis": "The desiderata are stability and strategy-proofness for one side of the market, not merely a high aggregate score. The Gale-Shapley deferred-acceptance mechanism asks one side, such as medical residents, to propose in preference order while hospitals tentatively hold their best current offers. Rejections are final; tentative matches can be displaced by more preferred proposals. The process terminates in a stable matching with no resident-hospital pair who would both rather match with each other than with their assigned partners. When residents propose, truthful preference reporting is a dominant strategy for residents, making the mechanism robust against the most relevant private information problem on that side.",
+      "problem": "Gale and Shapley's college admissions and marriage model, later used in medical residency matching: match two sides with private preferences while avoiding blocking pairs."
+    }
+  ],
+  "core_claims": [
+    "A social choice goal can often be reached by redesigning the game form rather than by exhorting agents to change their preferences.",
+    "A mechanism succeeds only through its equilibrium behavior; an attractive outcome rule is inadequate if strategic agents will not reveal or choose the inputs that make it work.",
+    "Incentive compatibility is a constraint on institutions: truthful reporting must be optimal for each participant given the mechanism's rules and the information available.",
+    "The revelation principle implies that many implementable outcomes can be analyzed as direct mechanisms in which agents report their types truthfully in equilibrium.",
+    "Private information and hidden action create different design problems: adverse selection calls for screening and revelation, while moral hazard calls for monitoring, bonding, or risk-sharing incentives.",
+    "Impossibility and tradeoff theorems are central results, not exceptions: efficiency, budget balance, individual rationality, fairness, and strategy-proofness generally cannot all be maximized at once.",
+    "Good mechanisms make undesired strategic moves unprofitable or irrelevant, instead of assuming away strategic manipulation."
+  ],
+  "description": "Mechanism Design is reverse game theory: it starts from a desired social outcome and designs rules, messages, allocations, and payments so that self-interested agents, acting on private information, produce that outcome in equilibrium.",
+  "domains": [
+    "economics",
+    "game-theory",
+    "institutional-design",
+    "market-design"
+  ],
+  "failure_modes": [
+    "Overfitting the mechanism to a tidy type space: the design works on paper because valuations, actions, and information are simplified beyond recognition.",
+    "Assuming equilibrium play without checking comprehension, bounded rationality, repeated relationships, or norms that change what participants actually optimize.",
+    "Optimizing incentive compatibility while neglecting legitimacy: participants may reject or route around a mechanism they experience as unfair even when it is formally strategy-proof.",
+    "Ignoring collusion and side payments: mechanisms that are incentive compatible for isolated individuals can fail when agents coordinate outside the official rules.",
+    "Treating the revelation principle as a construction manual: it simplifies analysis, but direct truthful mechanisms may be impractical, privacy-invasive, or politically unacceptable.",
+    "The characteristic practitioner error is payment-rule tunnel vision, where transfers solve the formal model while distributional, legal, and administrative constraints make the institution unusable."
+  ],
+  "key_vocabulary": {
+    "Allocation rule": "The part of a mechanism that maps reported information or actions to who receives which goods, rights, assignments, or outcomes.",
+    "Dominant-strategy incentive compatibility": "A mechanism property in which truthful reporting is optimal for each agent regardless of what others report.",
+    "Game form": "The rules of interaction before utilities are attached: available messages or actions, outcome mapping, timing, and information structure.",
+    "Implementation": "The achievement of a desired social choice rule as an equilibrium outcome of a specified game form.",
+    "Individual rationality": "A participation constraint requiring agents to prefer joining the mechanism to taking their outside option.",
+    "Mechanism": "An institution or rule system that specifies messages, actions, allocations, payments, and information flows.",
+    "Revelation principle": "The result that any outcome implementable by some mechanism can, under standard assumptions, be studied through an equivalent direct mechanism in which agents truthfully report their types.",
+    "Social choice function": "A mapping from agents' private types or preferences to the collective outcome the designer wants to implement.",
+    "Type": "An agent's private information relevant to payoffs, such as valuation, cost, ability, or preference ordering.",
+    "Vickrey-Clarke-Groves mechanism": "A family of mechanisms that induces truthful reporting by charging agents for the externality their participation imposes on others."
+  },
+  "name": "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
+  "operative_procedure": [
+    "State the social choice objective: specify the allocation, matching, public decision, or behavioral outcome the designer wants, and name the welfare, fairness, revenue, or stability criterion being optimized.",
+    "Identify agents, types, actions, and outside options: distinguish what agents privately know from what the designer can observe or verify.",
+    "Choose the solution concept: decide whether implementation requires dominant strategies, Bayesian Nash equilibrium, subgame perfection, stability, or another equilibrium notion appropriate to the information structure.",
+    "Write the game form: define the messages or actions agents can take, the timing of moves, what information is revealed, and how reports map to allocations and transfers.",
+    "Check incentive constraints: for each type, test whether the desired report or action is optimal given the mechanism and the assumed beliefs about others.",
+    "Check participation, feasibility, and budget constraints: verify individual rationality, no impossible allocations, legal or administrative feasibility, and whether transfers balance or need subsidy.",
+    "Stress-test manipulation: look for bid shading, preference misreporting, collusion, entry deterrence, false-name participation, gaming of metrics, and side contracts.",
+    "Compare tradeoffs: explicitly state what the mechanism sacrifices among efficiency, revenue, equity, simplicity, privacy, budget balance, and robustness.",
+    "Recommend the rule package: present the allocation rule, payment or penalty rule, information policy, enforcement mechanism, and monitoring needed for implementation."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Game Theory",
+      "Social Choice Theory",
+      "Welfare Economics",
+      "Principal-Agent Analysis"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Expected Utility Theory",
+      "Goodhart's Law | when a measure becomes a target it ceases to be a good measure",
+      "Principal-Agent Analysis"
+    ],
+    "descendants": [
+      "Auction Theory",
+      "Market Design",
+      "Matching Theory",
+      "VCG Mechanism Design"
+    ],
+    "related": [
+      "Game Theory",
+      "Decision Theory",
+      "Contract Theory",
+      "Social Contract Theory"
+    ],
+    "rivals": [
+      "Behavioral Economics",
+      "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community",
+      "Command-and-Control Regulation",
+      "Deliberative Democracy"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Mechanism Design is strongest when the designer can specify rules, observe outcomes, and model incentives among agents with private information, such as auctions, matching markets, procurement, platform rules, voting procedures, and contract settings. It is weaker when preferences are unstable, values are incommensurable, legitimacy matters more than incentive compatibility, enforcement is unavailable, or informal norms dominate the official game form.",
+  "source_summary": "Authored from model knowledge of named sources in mechanism design, auction theory, and matching theory, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Leonid Hurwicz, 'Optimality and Informational Efficiency in Resource Allocation Processes' (1960)"
+    },
+    {
+      "kind": "primary",
+      "title": "William Vickrey, 'Counterspeculation, Auctions, and Competitive Sealed Tenders' (1961)"
+    },
+    {
+      "kind": "primary",
+      "title": "Theodore Groves, 'Incentives in Teams' (1973)"
+    },
+    {
+      "kind": "primary",
+      "title": "David Gale and Lloyd S. Shapley, 'College Admissions and the Stability of Marriage' (1962)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Mechanism Design (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Mechanism_design"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you can set or change the rules of a market, platform, organization, auction, vote, or matching process, and participant incentives will determine the outcome",
+    "participants hold private information about values, costs, preferences, or effort, and simple requests for honesty are predictably unreliable",
+    "a system is being gamed because the official metric, payment, or allocation rule rewards behavior different from the desired social outcome",
+    "you need a rule that remains workable when agents pursue their own payoffs rather than the designer's stated objective",
+    "you face tradeoffs among efficiency, fairness, revenue, budget balance, simplicity, and strategic robustness in an institutional design"
+  ]
+}

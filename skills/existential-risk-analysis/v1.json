@@ -1,0 +1,129 @@
+{
+  "name": "Existential Risk Analysis",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Existential Risk Analysis evaluates hazards that could permanently destroy humanity's long-term potential through extinction, unrecoverable civilizational collapse, or irreversible value lock-in, using expected-value reasoning under extreme stakes and deep uncertainty.",
+  "domains": [
+    "risk-analysis",
+    "future-studies",
+    "decision-theory",
+    "public-policy"
+  ],
+  "when_to_use": [
+    "a hazard could cause human extinction, permanent civilizational collapse, or irreversible loss of future potential",
+    "low annual probabilities may still dominate ordinary risks because the downside includes all future generations",
+    "standard risk management discounts rare tail events too heavily or treats unprecedented events as impossible",
+    "you must compare prevention, resilience, and response options for technological or natural catastrophes",
+    "uncertainty is so large that scenario structure, early warning, and robust precautions matter more than precise forecasts"
+  ],
+  "core_claims": [
+    "A risk can be morally dominant despite a very low probability if it threatens humanity's entire future value.",
+    "Existential catastrophe includes more than extinction: unrecoverable collapse or permanent dystopian value lock-in can also destroy long-term potential.",
+    "Anthropogenic risks are generally more decision-relevant than most natural risks because they are increasing, poorly sampled, and more controllable by policy.",
+    "Historical frequency is a weak guide for unprecedented technologies; absence of past catastrophe is not strong evidence of safety when observation is conditional on survival.",
+    "Prevention and resilience should be evaluated by their effect on the probability of existential catastrophe, not only by lives saved in the initiating disaster.",
+    "Global coordination failures, information hazards, and dual-use research can make the act of studying a risk change the risk itself.",
+    "Expected-value calculations at existential scale require explicit sensitivity analysis because small probability shifts can swamp ordinary policy benefits."
+  ],
+  "key_vocabulary": {
+    "Existential risk": "A risk that threatens the premature extinction of Earth-originating intelligent life or the permanent and drastic destruction of its potential for future development.",
+    "Existential catastrophe": "The realized event or process that causes extinction, unrecoverable collapse, or irreversible loss of humanity's long-term potential.",
+    "Global catastrophic risk": "A risk causing severe worldwide harm; it is broader than existential risk because civilization may recover.",
+    "Astronomical stakes": "The idea that the potential future contains enormous numbers of possible lives or value, making small changes in existential risk morally significant.",
+    "Anthropic shadow": "The observation-selection problem that catastrophes preventing observers from existing will be underrepresented in historical evidence.",
+    "Value lock-in": "A future in which flawed values or institutions become permanently entrenched, preventing later moral correction.",
+    "Information hazard": "Information that increases risk by enabling misuse, panic, arms racing, or dangerous capability development.",
+    "Differential technological development": "The strategy of accelerating protective technologies and governance while slowing especially dangerous capabilities."
+  },
+  "operative_procedure": [
+    "Define the existential endpoint: extinction, unrecoverable collapse, permanent stagnation, or value lock-in, and distinguish it from ordinary large-scale harm.",
+    "Construct a causal pathway from initiating hazard to existential catastrophe, identifying escalation steps, safeguards, recovery mechanisms, and points of no return.",
+    "Estimate probability ranges over relevant time horizons, using base rates where meaningful and correcting for anthropic shadow and unprecedented technology.",
+    "Assess exposure, vulnerability, and resilience: which systems fail, which redundancies remain, and whether post-catastrophe recovery is plausible.",
+    "Evaluate interventions by marginal reduction in existential probability, not merely by mitigation of immediate casualties or economic losses.",
+    "Compare prevention, monitoring, response, and resilience portfolios under expected value, maximin, and robustness checks.",
+    "Identify governance and dual-use constraints: coordination problems, verification, secrecy, arms-race incentives, and information hazards.",
+    "Run sensitivity analysis on moral weights, time horizon, discount rate, probability estimates, and recovery assumptions.",
+    "State priority actions with uncertainty intervals, key cruxes, warning indicators, and research that would most reduce decision-relevant uncertainty."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Nick Bostrom's existential risk work uses asteroid and comet impacts as a natural-risk benchmark: a sufficiently large impact could cause global devastation and possibly extinction, but astronomical surveys and deflection technologies may reduce the risk.",
+      "analysis": "The analysis first separates ordinary catastrophe from existential catastrophe: most impacts are local or regional, while only very large objects plausibly threaten human survival or permanent collapse. Historical and geological base rates are more informative here than for novel technologies, so probability can be bounded by impact frequency estimates. Tractability is high because near-Earth object surveys, orbit prediction, and deflection missions target specific causal links before impact. Neglectedness was historically meaningful, but falls as space agencies fund detection. The resulting recommendation is not panic but targeted prevention: complete surveys of large near-Earth objects, maintain deflection capability, and treat asteroid risk as a useful comparison class for less measurable anthropogenic risks."
+    },
+    {
+      "problem": "Bostrom, Ord, and other existential risk authors treat engineered pandemics as a major anthropogenic risk because biotechnology may enable pathogens with transmissibility, lethality, or immune escape beyond naturally occurring pandemics.",
+      "analysis": "The existential endpoint is not just a pandemic with many deaths, but extinction or unrecoverable collapse through repeated waves, social breakdown, or inability to preserve enough technical capacity for recovery. Historical pandemics provide only a weak lower-bound because engineered biology changes the distribution and because survival filters the record. The causal pathway includes lab capability diffusion, design or synthesis, release, detection delay, global spread, medical countermeasure failure, and institutional breakdown. Interventions are scored by existential probability reduction: pathogen-agnostic surveillance, secure DNA synthesis screening, PPE and ventilation, rapid vaccine platforms, and governance of risky research. The framework also flags information hazards because publishing detailed pathogen designs can increase the risk under analysis."
+    }
+  ],
+  "failure_modes": [
+    "Probability theater: analysts may assign precise numbers to unprecedented hazards where the real work is scenario decomposition and sensitivity analysis.",
+    "Scope insensitivity in reverse: astronomical stakes can make almost any speculative risk appear dominant if probability discipline is weak.",
+    "Neglect of non-existential harms: focusing on the far future can underweight present injustice, trauma, and recoverable but severe global catastrophes.",
+    "Security mindset overreach: information-hazard reasoning can become a rationale for secrecy, elite control, or avoiding peer criticism.",
+    "Single-risk fixation: communities can overfit to fashionable risks and miss correlated vulnerabilities across food, energy, governance, and infrastructure.",
+    "Technocratic substitution: risk models can underplay legitimacy, democratic consent, and geopolitical incentives that determine whether safeguards are adopted."
+  ],
+  "scope_and_limits": "Existential Risk Analysis is most useful when a decision plausibly changes the probability of extinction, unrecoverable collapse, or irreversible loss of future potential. It is weaker for ordinary safety decisions, distributive conflicts, or cases where the existential pathway is rhetorically asserted rather than causally specified. It should be paired with governance, institutional, and ethical frameworks because estimating tail risk does not by itself authorize who should control dangerous systems.",
+  "source_texts": [
+    {
+      "title": "Nick Bostrom, 'Existential Risks: Analyzing Human Extinction Scenarios and Related Hazards' (2002)",
+      "kind": "primary",
+      "url": "https://nickbostrom.com/existential/risks"
+    },
+    {
+      "title": "Nick Bostrom, 'Astronomical Waste: The Opportunity Cost of Delayed Technological Development' (2003)",
+      "kind": "primary",
+      "url": "https://nickbostrom.com/astronomical/waste"
+    },
+    {
+      "title": "Toby Ord, The Precipice: Existential Risk and the Future of Humanity (2020)",
+      "kind": "primary"
+    },
+    {
+      "title": "Martin Rees, Our Final Hour (2003)",
+      "kind": "secondary"
+    },
+    {
+      "title": "Global catastrophic risk (Wikipedia)",
+      "kind": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/Global_catastrophic_risk"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Expected Value Reasoning",
+      "Effective Altruism",
+      "Antifragility",
+      "Pre-Mortem"
+    ],
+    "ancestors": [
+      "Risk Analysis",
+      "Expected Utility Theory",
+      "Futures Studies",
+      "Precautionary Principle"
+    ],
+    "descendants": [
+      "AI Safety Risk Analysis",
+      "Biosecurity Risk Analysis",
+      "Longtermism",
+      "Civilizational Resilience"
+    ],
+    "rivals": [
+      "Cost-Benefit Analysis",
+      "Deep Ecology",
+      "Prioritarianism",
+      "Normal Accident Theory"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Scenario Planning",
+      "Robust Decision Making",
+      "Red Teaming"
+    ]
+  },
+  "built_at": "2026-06-13T03:08:38Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Bostrom, Ord, Rees, and global catastrophic risk literature, without fetched source text."
+}
