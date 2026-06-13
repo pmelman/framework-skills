@@ -1,0 +1,121 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:29Z",
+  "canonical_examples": [
+    {
+      "analysis": "The Lindy reasoning is that a nonperishable work's past survival is evidence of selection across changing audiences, institutions, translations, and rivals. The Iliad has already survived millennia of replacement pressure, so its remaining cultural life should be estimated differently from a new bestseller. The framework does not claim immortality; it treats age as evidence that hazard declines with survival for some cultural artifacts.",
+      "problem": "Taleb uses ancient texts such as Homer's Iliad as examples of nonperishable cultural works whose expected remaining life increases with their current age."
+    },
+    {
+      "analysis": "A Broadway show is nonperishable in the relevant sense: it can keep running as long as demand persists, and each additional week of survival is evidence that demand, reputation, and institutional support have passed another test. The Lindy move is to update expected remaining run length upward with current run length, unlike a human actor whose biological remaining life generally falls with age.",
+      "problem": "The original Lindy observation, associated with show-business discussions at Lindy's delicatessen and later Mandelbrot, concerned Broadway shows: the longer a show had run, the longer it could be expected to continue running."
+    }
+  ],
+  "core_claims": [
+    "For some nonperishable things, expected remaining lifetime is proportional to current age rather than decreasing with age.",
+    "Survival through time is evidence of robustness against many past selection pressures, competitors, fashions, and environments.",
+    "The Lindy effect applies to informational, cultural, institutional, and technological artifacts more readily than to organisms or mechanically wearing parts.",
+    "Newness is negative evidence when most new things die young and only a minority survive repeated selection.",
+    "Age is not a direct cause of future survival; it is a signal that the thing has already passed filters that killed alternatives.",
+    "A thing can be Lindy within one reference class and fragile in another, so choosing the correct class is part of the analysis.",
+    "Forecasts for durable ideas, books, practices, and institutions should often start from survival curves rather than trend enthusiasm or recent popularity."
+  ],
+  "description": "The Lindy Effect is a longevity heuristic for nonperishable things: the longer an idea, book, technology, institution, or practice has survived, the longer its expected remaining life, because age reveals survival through selection.",
+  "domains": [
+    "forecasting",
+    "risk",
+    "culture",
+    "strategy"
+  ],
+  "failure_modes": [
+    "Applying Lindy to perishable organisms, machinery, or consumables mistakes biological or physical aging for cultural survival.",
+    "The characteristic practitioner error is treating age as proof of truth or moral worth rather than as evidence of persistence.",
+    "Survivorship bias can hide the many old things that disappeared from the record and make traditions look more robust than they were.",
+    "Reference-class abuse can manufacture Lindy support by grouping a fragile new variant with an ancient broad category.",
+    "Institutional protection, coercion, monopoly, or path dependence can make something old without making it broadly robust or desirable.",
+    "Rapid environmental change can break the historical selection regime, weakening the inference from past survival to future survival."
+  ],
+  "key_vocabulary": {
+    "Age as evidence": "The use of current age as an empirical signal that something has survived prior selection pressures. It is evidential, not magical.",
+    "Hazard rate": "The conditional probability that something dies or disappears during a period given that it has survived so far.",
+    "Lindy-compatible": "A thing whose expected remaining life plausibly rises with current age because it is nonperishable and selected by continued use or attention.",
+    "Nonperishable": "Not subject to an intrinsic biological or mechanical expiration in the relevant sense. Ideas, books, practices, and institutions can be nonperishable even though copies or carriers decay.",
+    "Reference class": "The comparison group used to interpret survival, such as novels, programming languages, religions, restaurants, or medical practices.",
+    "Selection pressure": "The competitive, environmental, institutional, or cultural forces that eliminate some things and allow others to persist.",
+    "Survival curve": "A function describing what share of a cohort remains alive or in use at different ages. Lindy claims a particular pattern for some nonperishables.",
+    "Survivorship bias": "The error of observing only survivors and ignoring the many failed alternatives that once looked similar."
+  },
+  "name": "Lindy Effect | expected longevity proportional to current age for non-perishables",
+  "operative_procedure": [
+    "Define the object being forecast and decide whether it is nonperishable in the relevant sense: idea, book, practice, institution, technology, brand, protocol, or work of art.",
+    "Choose a defensible reference class. Compare like with like, avoiding broad categories that smuggle an old lineage into a fragile new variant.",
+    "Estimate current age from the point at which the object entered meaningful exposure to selection, not merely from invention, publication, or branding.",
+    "Ask what selection pressures it has survived: competition, translation, fashion shifts, regulation, economic cycles, technological changes, criticism, and institutional turnover.",
+    "Distinguish persistence from truth, virtue, and efficiency. Lindy supports a longevity forecast, not automatic endorsement.",
+    "Check for artificial preservation: subsidy, coercion, lock-in, monopoly, archival accident, or lack of alternatives may explain survival without broad robustness.",
+    "Assess whether the future environment resembles the past selection regime or whether a regime break weakens the inference.",
+    "Forecast in proportional terms: all else equal, longer current survival implies longer expected remaining survival than a new entrant in the same class.",
+    "Use Lindy as a prior and update with concrete evidence about current adoption, replacement threats, legal constraints, costs, and functional performance."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Survival Analysis",
+      "Power Laws",
+      "Risk Heuristics"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Antifragility",
+      "Chesterton's Fence",
+      "Base Rate Reasoning"
+    ],
+    "descendants": [
+      "Lindy Heuristic",
+      "Tradition-Based Forecasting",
+      "Cultural Longevity Analysis"
+    ],
+    "related": [
+      "Survivorship Bias",
+      "Evolutionary Thinking",
+      "Long Tail Theory",
+      "The Map-Territory Distinction"
+    ],
+    "rivals": [
+      "Disruptive Innovation",
+      "Recency Bias",
+      "Trend Forecasting",
+      "Technological Determinism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Lindy Effect is strongest for forecasting the persistence of nonperishable cultural, informational, institutional, and technological artifacts when survival itself is meaningful evidence. It is weaker for biological lives, wearing machines, fashion cycles dominated by artificial promotion, cases with severe survivorship bias, or environments undergoing structural breaks.",
+  "source_summary": "Authored from model knowledge of Benoit Mandelbrot, Nassim Nicholas Taleb, show-business Lindy discussions, survival analysis, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Benoit Mandelbrot, The Fractal Geometry of Nature"
+    },
+    {
+      "kind": "primary",
+      "title": "Nassim Nicholas Taleb, The Black Swan: The Impact of the Highly Improbable"
+    },
+    {
+      "kind": "primary",
+      "title": "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder"
+    },
+    {
+      "kind": "secondary",
+      "title": "Lindy effect (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lindy_effect"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "You need to forecast how long a nonperishable idea, book, practice, institution, technology, protocol, or cultural artifact may persist.",
+    "A new thing is being compared with an old survivor, and recent excitement may be crowding out base-rate survival evidence.",
+    "The object has no natural biological expiration, but it does face selection through use, attention, competition, or institutional support.",
+    "Past survival through changing conditions may be more informative than current popularity, novelty, or expert enthusiasm.",
+    "You need a prior for durability before deeper evidence about function, adoption, costs, and replacement threats is available."
+  ]
+}

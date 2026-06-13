@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:27Z",
+  "canonical_examples": [
+    {
+      "analysis": "Rasmussen's analysis treats risk in socio-technical systems as migration within a space bounded by economic pressure, workload pressure, and safety limits. Organizations do not simply violate rules; they adapt locally to production demands, resource constraints, and ambiguous feedback. Accidents occur when ordinary adaptations gradually move work toward or across the boundary of safe performance. The resilience-engineering lesson is to monitor drift, understand work-as-done, and create capacity to adapt before the boundary is crossed.",
+      "problem": "Jens Rasmussen's dynamic safety model explains how organizations migrate toward the boundary of acceptable performance under pressure."
+    },
+    {
+      "analysis": "The Columbia investigation showed a gap between work-as-imagined and work-as-done: foam strikes had become treated as maintenance concerns rather than urgent flight-safety signals, and organizational channels did not generate effective challenge. A resilience-engineering analysis asks how the system normally succeeded despite hazards, how production pressure and normalization shaped adaptation, and what capacities to monitor, respond, learn, and anticipate were weak. The recommendation is not only more rules but stronger operational feedback, cross-boundary escalation, and resources for adaptive response.",
+      "problem": "The 2003 Space Shuttle Columbia accident is widely used in safety literature to illustrate organizational drift, normalization of deviance, and weak signals in a complex socio-technical system."
+    }
+  ],
+  "core_claims": [
+    "Safety is not merely the absence of accidents; it is the presence of adaptive capacity that allows systems to succeed under varying conditions.",
+    "Work-as-done routinely differs from work-as-imagined because practitioners must adjust procedures to real constraints, tradeoffs, and surprises.",
+    "The same performance adjustments that create everyday success can contribute to failure when conditions combine differently or margins erode.",
+    "Counting failures alone gives an impoverished picture of safety because most risk management is visible in successful adaptations that prevent failure.",
+    "Complex socio-technical systems drift toward boundaries under production, workload, and economic pressures unless feedback and resources make the boundary visible and manageable.",
+    "Resilience requires capacities to monitor, respond, learn, and anticipate, not only compliance with prescribed procedures."
+  ],
+  "description": "Resilience Engineering is a safety framework that treats safety as adaptive capacity in complex socio-technical systems, emphasizing work-as-done versus work-as-imagined, performance variability, drift, and the capacities to monitor, respond, learn, and anticipate.",
+  "domains": [
+    "safety-science",
+    "systems-engineering",
+    "human-factors",
+    "organizational-risk"
+  ],
+  "failure_modes": [
+    "Romanticizing adaptation: local workarounds can be intelligent and necessary, but they can also hide eroding margins and normalize risky practice.",
+    "Turning resilience into vague positivity: without concrete capacities, constraints, signals, and resources, the label explains little.",
+    "Blaming procedures too easily: gaps between work-as-imagined and work-as-done may show poor procedure design, resource scarcity, conflicting goals, or hidden expertise.",
+    "Underweighting hard engineering barriers: adaptive capacity complements but does not replace redundancy, containment, fail-safe design, and physical hazard controls.",
+    "Post-accident hindsight: practitioners can overread drift after failure while ignoring why the same adaptations seemed reasonable and often successful beforehand."
+  ],
+  "key_vocabulary": {
+    "Anticipate": "The capacity to imagine future threats, opportunities, and changing conditions before they become immediate demands.",
+    "Drift": "The gradual movement of practice toward a boundary of safe performance under pressure, often without any single dramatic violation.",
+    "Learn": "The capacity to revise models, procedures, resources, and assumptions from both failures and successful adaptations.",
+    "Monitor": "The capacity to track what matters for current and emerging risk, including weak signals, changing margins, and operational reality.",
+    "Performance variability": "The normal variation in how work is carried out as people adjust to conditions. It is a source of both success and failure.",
+    "Respond": "The capacity to act effectively when conditions deviate from plan, including improvisation, escalation, and resource mobilization.",
+    "Work-as-done": "How work is actually performed in context, including adaptations, tradeoffs, and informal practices.",
+    "Work-as-imagined": "How managers, designers, procedures, or regulators believe work is performed, often represented in plans, rules, and diagrams."
+  },
+  "name": "Resilience Engineering | safety as adaptive capacity, work-as-done vs work-as-imagined",
+  "operative_procedure": [
+    "Define the socio-technical system, including people, technology, procedures, incentives, regulators, resource constraints, and operational environment.",
+    "Elicit work-as-imagined from procedures, training, metrics, design assumptions, and management expectations.",
+    "Observe or reconstruct work-as-done, paying attention to adaptations, shortcuts, handoffs, informal expertise, and tradeoffs that make normal success possible.",
+    "Identify performance variability and ask when the same adjustment is helpful, harmless, or hazardous under different combinations of conditions.",
+    "Map pressures and boundaries: production pressure, workload, economic constraints, safety margins, escalation thresholds, and signs of drift.",
+    "Assess the four resilience potentials: ability to respond, monitor, learn, and anticipate.",
+    "Look for weak signals, normalization, brittle dependencies, and places where feedback from operations fails to reach decision-makers.",
+    "Recommend changes that increase adaptive capacity: margin, staffing, cross-checks, escalation paths, operational learning, simulation, authority to pause work, and better monitoring of actual practice."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Human Factors",
+      "Cybernetics",
+      "High Reliability Organization Theory",
+      "Cognitive Systems Engineering"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Cybernetics",
+      "Normal Accidents Theory",
+      "Antifragility"
+    ],
+    "descendants": [
+      "Safety-II",
+      "Functional Resonance Analysis Method",
+      "Resilience Assessment Grid"
+    ],
+    "related": [
+      "Normal Accidents Theory",
+      "High Reliability Organization Theory",
+      "Antifragility",
+      "Systems Thinking"
+    ],
+    "rivals": [
+      "Normal Accidents Theory",
+      "Root Cause Analysis",
+      "Swiss Cheese Model",
+      "Compliance-Based Safety"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Resilience Engineering is strongest for complex, high-risk socio-technical systems where people continuously adapt: aviation, healthcare, nuclear power, spaceflight, emergency response, software operations, and process industries. It is less useful for simple hazards with stable controls, purely mechanical failure analysis, or contexts where basic compliance and engineering barriers are absent. It should not be used to shift responsibility for under-resourced systems onto frontline adaptability.",
+  "source_summary": "Authored from model knowledge of named sources on resilience engineering, Safety-II, work-as-done, Rasmussen's dynamic safety model, and socio-technical safety, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Erik Hollnagel, David D. Woods, and Nancy Leveson, Resilience Engineering: Concepts and Precepts (2006)"
+    },
+    {
+      "kind": "primary",
+      "title": "Erik Hollnagel, Safety-I and Safety-II: The Past and Future of Safety Management (2014)"
+    },
+    {
+      "kind": "primary",
+      "title": "Jens Rasmussen, 'Risk Management in a Dynamic Society: A Modelling Problem,' Safety Science (1997)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Diane Vaughan, The Challenger Launch Decision (1996)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Columbia Accident Investigation Board Report (2003)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a high-risk operation usually succeeds because practitioners constantly adapt to messy real conditions",
+    "procedures, dashboards, or management accounts do not match how frontline work is actually done",
+    "near misses, weak signals, or informal workarounds suggest safety margins are drifting under production or workload pressure",
+    "post-incident analysis is stuck on rule violations and misses the normal adaptations that made the event possible",
+    "you need to improve a system's capacity to monitor, respond, learn, and anticipate rather than only add compliance checks"
+  ]
+}

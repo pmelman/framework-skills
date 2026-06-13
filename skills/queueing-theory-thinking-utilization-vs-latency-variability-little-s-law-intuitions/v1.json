@@ -1,0 +1,128 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:29Z",
+  "canonical_examples": [
+    {
+      "analysis": "Erlang's telephone problem is a queueing problem because calls arrive randomly, operators or circuits provide finite service capacity, and blocked or waiting calls are the user-visible harm. The framework estimates arrival rate, service rate, number of servers, and acceptable delay or blocking probability. It then sizes capacity from traffic intensity rather than from average calls alone, because randomness means that even if average demand is below capacity, bursts create waiting or loss.",
+      "problem": "A. K. Erlang developed telephone traffic theory to decide how many switchboard operators or trunk lines were needed for randomly arriving calls."
+    },
+    {
+      "analysis": "Little's law treats the shop as a stable flow system: average work in process equals average throughput times average flow time. If parts wait on the floor for weeks while completions per week are known, the implied lead time follows directly from WIP divided by throughput. The prescription is not to keep every machine busy; it is to reduce WIP, variability, or bottleneck congestion when the law reveals that excess inventory is mechanically producing long lead times.",
+      "problem": "John D. C. Little's law, L = lambda W, is used in manufacturing and service systems to relate average work in process, throughput, and waiting or flow time."
+    }
+  ],
+  "core_claims": [
+    "In a stable flow system, average inventory in the system equals average arrival or throughput rate multiplied by average time in the system: L = lambda W.",
+    "As utilization approaches 100 percent, expected waiting time rises nonlinearly; high utilization is purchased with long queues and fragile service.",
+    "Variability in arrivals or service times increases waiting even when average capacity exceeds average demand.",
+    "Capacity cannot be evaluated only by averages; burstiness, service-time distribution, number of servers, and queue discipline determine user-visible delay.",
+    "Reducing work in process is mathematically equivalent to reducing cycle time at a fixed throughput under Little's law.",
+    "Pooling servers or demand streams can reduce waiting by absorbing variability, but only when pooling does not add routing cost, skill mismatch, or priority harm.",
+    "A queue is often information about insufficient slack, variability, batching, priority rules, or a bottleneck rather than evidence that workers should simply work harder."
+  ],
+  "description": "Queueing Theory Thinking applies queueing intuitions to service, operations, software, support, healthcare, networks, and project flow: utilization, variability, arrival rates, service rates, queue discipline, and Little's law explain why small capacity margins can produce large delays.",
+  "domains": [
+    "operations",
+    "service-design",
+    "systems",
+    "software-delivery"
+  ],
+  "failure_modes": [
+    "Using steady-state formulas on systems that are transient, seasonal, overloaded, or rapidly changing can produce precise but irrelevant delay estimates.",
+    "The characteristic practitioner error is targeting high resource utilization while being surprised by exploding latency and backlog.",
+    "Averages can hide tail latency; users experience the 95th or 99th percentile wait, not only the mean.",
+    "Assuming arrivals are independent and service times are simple can miss batching, correlations, priority interruptions, rework, and human scheduling constraints.",
+    "Pooling capacity can harm quality when servers are not interchangeable or when routing complexity increases handoff and setup time.",
+    "Queue metrics can justify dehumanizing service if waiting costs, fairness, urgency, and abandonment are reduced to throughput arithmetic."
+  ],
+  "key_vocabulary": {
+    "Arrival rate": "The rate at which work, calls, customers, requests, or patients enter the system, often denoted lambda.",
+    "Balking and reneging": "Balking occurs when arrivals choose not to join a queue; reneging occurs when they leave after waiting. Both change observed demand and user experience.",
+    "Cycle time": "The total time an item spends in the system, including waiting and service. In Kanban and operations contexts it is closely related to Little's law.",
+    "Queue discipline": "The rule for choosing who or what is served next, such as first-in-first-out, priority, shortest job first, or emergency triage.",
+    "Service rate": "The rate at which a server completes work, often denoted mu. It must be compared to arrival rate and variability, not treated alone.",
+    "Traffic intensity": "The load placed on service capacity, often summarized by utilization rho. Values near one signal sharply increasing delay.",
+    "Utilization": "The fraction of service capacity that is busy. Very high utilization leaves little slack to absorb variability.",
+    "Variability": "Randomness or burstiness in arrival and service processes. Higher variability increases waiting for the same average rates.",
+    "Work in process": "The number of items currently inside the system. Under Little's law, reducing WIP reduces average flow time if throughput is held constant."
+  },
+  "name": "Queueing Theory Thinking | utilization vs latency, variability, Little's law intuitions",
+  "operative_procedure": [
+    "Define the queueing system boundary: what counts as arrival, waiting, service, completion, abandonment, and rework.",
+    "Measure or estimate arrival rate, service rate, number of servers, work in process, cycle time, and utilization over a representative period.",
+    "Use Little's law as a consistency check: L = lambda W. If WIP, throughput, and cycle time disagree, find hidden inventory, blocked work, or measurement error.",
+    "Check utilization against latency. Treat capacity near full utilization as a warning that small fluctuations will create disproportionate waiting.",
+    "Identify variability in arrivals and service times: bursts, batching, interrupts, setup differences, skill specialization, and long-tail jobs.",
+    "Inspect queue discipline and priorities. Ask who waits, who jumps the line, what fairness or urgency rule is being applied, and whether it creates starvation.",
+    "Look for bottlenecks, blocking, and feedback: queues upstream, starvation downstream, abandonment, rework loops, and demand suppressed by visible waits.",
+    "Evaluate interventions: add capacity, reduce variability, split or pool queues, cap WIP, smooth arrivals, shorten service time, change priority rules, or add self-service.",
+    "Report expected tradeoffs in throughput, average delay, tail delay, utilization, fairness, cost, and resilience to demand spikes."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Operations Research",
+      "Probability Theory",
+      "Teletraffic Engineering"
+    ],
+    "composes_with": [
+      "Theory of Constraints",
+      "Systems Thinking",
+      "Little's Law",
+      "Lean Manufacturing"
+    ],
+    "descendants": [
+      "Teletraffic Engineering",
+      "Kanban Flow Metrics",
+      "Call Center Workforce Management"
+    ],
+    "related": [
+      "Control Theory Thinking",
+      "Bottleneck Analysis",
+      "Service Operations",
+      "Network Performance Analysis"
+    ],
+    "rivals": [
+      "Local Optimization",
+      "Cost Accounting",
+      "Average-Case Planning",
+      "Resource Efficiency Management"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Queueing Theory Thinking is strongest for recurring flow systems with measurable arrivals, waiting, service capacity, and completion: call centers, clinics, software teams, manufacturing, logistics, cloud services, support desks, and approval workflows. It is weaker for one-off projects, creative work with poorly defined service completion, systems dominated by strategic behavior, or cases where moral priority overrides delay minimization.",
+  "source_summary": "Authored from model knowledge of A. K. Erlang, John D. C. Little, queueing theory, operations research, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "A. K. Erlang, 'The Theory of Probabilities and Telephone Conversations'"
+    },
+    {
+      "kind": "primary",
+      "title": "John D. C. Little, 'A Proof for the Queuing Formula: L = lambda W'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Leonard Kleinrock, Queueing Systems, Volume 1: Theory"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Queueing theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Queueing_theory"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Little's law (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Little%27s_law"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "People, requests, jobs, patients, tickets, or materials are waiting for limited service capacity.",
+    "A system looks adequately staffed on average but still suffers long delays, bursts, backlogs, or missed service levels.",
+    "High utilization is being celebrated while lead time, response time, or tail latency is deteriorating.",
+    "Work in process is growing and the team needs to understand the implied cycle-time cost.",
+    "Arrival patterns or service times are variable, batched, interrupted, or heavy-tailed.",
+    "A proposed fix changes staffing, WIP limits, pooling, priority rules, batching, or appointment scheduling."
+  ]
+}

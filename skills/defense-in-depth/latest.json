@@ -1,0 +1,128 @@
+{
+  "name": "Defense in Depth",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Defense in Depth is a safety and security framework that protects critical functions with multiple, independent, diverse, and monitored layers so that no single failure, bypass, or human error can directly produce catastrophe; Reason's Swiss cheese model explains accidents as alignment of holes across layers.",
+  "domains": [
+    "safety",
+    "security",
+    "risk-management",
+    "systems-engineering"
+  ],
+  "when_to_use": [
+    "a single safeguard failure could expose people, assets, data, or mission-critical operations to severe harm",
+    "threats or failure modes can bypass any one control through error, degradation, attack, or unexpected conditions",
+    "existing controls are redundant in name but share the same assumptions, operators, power source, software, or approval path",
+    "latent weaknesses may accumulate across organizational, technical, procedural, and emergency-response layers",
+    "the problem requires containment, detection, delay, recovery, and consequence reduction rather than only prevention"
+  ],
+  "core_claims": [
+    "Catastrophic loss is prevented by a barrier system, not by trusting any single barrier to be perfect.",
+    "Layers must be sufficiently independent; duplicated controls with the same common-cause vulnerability do not provide true depth.",
+    "Effective defense combines prevention, detection, delay, response, containment, recovery, and consequence mitigation.",
+    "Reason's Swiss cheese model predicts accidents when latent conditions and active failures align holes across multiple defenses.",
+    "A weak later layer can be acceptable only if earlier layers reduce frequency and later layers reliably limit consequences when prevention fails.",
+    "Monitoring and testing are part of the defense because unobserved degradation turns layers into assumed rather than real safeguards.",
+    "Procedural controls are weaker than engineered, automated, passive, or independently verified controls when human error is foreseeable."
+  ],
+  "key_vocabulary": {
+    "Layer": "A distinct safeguard, control, barrier, or response capability intended to reduce likelihood, detect failure, contain harm, or mitigate consequences.",
+    "Barrier": "A physical, technical, administrative, or organizational control that blocks or interrupts a hazard or threat path.",
+    "Independence": "The degree to which one layer can fail without causing or predicting failure of another layer.",
+    "Diversity": "Use of different mechanisms, technologies, people, or assumptions so a common defect or attack does not defeat all layers.",
+    "Swiss cheese model": "James Reason's model in which each defense layer has holes, and accidents occur when holes temporarily align across layers.",
+    "Latent condition": "A hidden weakness in design, maintenance, staffing, incentives, training, or organization that lies dormant until combined with active failures.",
+    "Active failure": "An unsafe act, equipment failure, or local error at the point of operation that can trigger harm when defenses are already weakened.",
+    "Common-cause failure": "A single condition, such as shared power, software, environment, supplier, or decision process, that disables multiple defenses together.",
+    "Residual risk": "The remaining risk after all layers are considered, including the possibility that layers degrade, are bypassed, or fail together."
+  },
+  "operative_procedure": [
+    "Define the asset, mission, hazard, or threat path to be controlled, including the unacceptable end states.",
+    "Map the sequence from initiating event to harm: initiation, propagation, exposure, impact, detection, response, and recovery.",
+    "Inventory existing layers across prevention, detection, delay, containment, mitigation, recovery, and emergency response.",
+    "For each layer, specify what it blocks, how it is triggered, who or what maintains it, and what evidence shows it works.",
+    "Evaluate independence and diversity: look for shared power, software, operators, procedures, assumptions, sensors, incentives, suppliers, or environmental vulnerabilities.",
+    "Use the Swiss cheese model to identify holes: latent conditions, active failures, bypasses, degradation, maintenance gaps, alarm fatigue, and normalization of exceptions.",
+    "Add or redesign layers where a single point of failure, common-cause path, or unmonitored degradation can reach the unacceptable end state.",
+    "Prefer passive, engineered, automated, fail-safe, and independently verified controls over controls that depend only on memory, vigilance, or policy.",
+    "Define tests, drills, monitoring, ownership, and escalation paths so each layer remains real under stress.",
+    "State residual risk and the scenarios where layers could still align; decide whether additional margin, redesign, or risk acceptance is justified."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Nuclear safety doctrine, including IAEA and INSAG discussions, treats defense in depth as a hierarchy of levels that prevent abnormal operation, control failures, manage accidents, and mitigate off-site consequences.",
+      "analysis": "The framework does not rely on one perfect reactor safety system. It asks whether normal operating limits prevent initiating events, control systems detect and correct deviations, engineered safety features contain accidents, accident-management procedures preserve core and containment functions, and emergency planning mitigates consequences. The analysis also checks independence: backup power, cooling, containment, instrumentation, and operator response must not all fail from the same flood, fire, design error, or organizational blind spot. Residual risk is judged by whether multiple levels would have to fail before public harm occurs."
+    },
+    {
+      "problem": "James Reason's Swiss cheese model explains organizational accidents in aviation, medicine, and industrial systems as the alignment of holes in successive defenses rather than as a single frontline mistake.",
+      "analysis": "A defense-in-depth analysis identifies the slices: design standards, training, procedures, supervision, alarms, checklists, physical barriers, staffing, maintenance, and emergency response. It then looks for holes in each slice, including latent conditions such as production pressure, poor interface design, deferred maintenance, and weak reporting. An active failure becomes catastrophic only when these holes align. The recommendation is to close or offset holes across layers, especially with independent engineered barriers and monitoring, rather than merely disciplining the person nearest the event."
+    }
+  ],
+  "failure_modes": [
+    "Redundancy illusion: layers appear multiple on paper but depend on the same people, software, power, assumptions, or approval process.",
+    "Procedural overreliance: the system counts policies, training, and checklists as equivalent to engineered barriers even when stress makes human performance unreliable.",
+    "Layer drift: safeguards degrade, are bypassed for convenience, or are disabled by maintenance without compensating controls.",
+    "Complexity backfire: added layers create interactions, alarm overload, handoff confusion, or hidden coupling that introduces new failure paths.",
+    "Unowned residual risk: no one is accountable for testing whether the full barrier system works under realistic scenarios.",
+    "Complacency: the presence of many layers encourages riskier operation, thinner margins, or delayed redesign."
+  ],
+  "scope_and_limits": "Defense in Depth is strongest for safety-critical engineering, cybersecurity, nuclear operations, aviation, medicine, process safety, finance controls, and critical infrastructure where severe harm can follow single-point failure. It is less useful when the hazard can be eliminated entirely, when added layers impose unacceptable latency or complexity, or when the main risk is strategic uncertainty rather than a traceable harm path. It should be combined with FMEA or hazard analysis to discover failure paths and with HRO practices to keep layers attentive and maintained.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "James Reason, Managing the Risks of Organizational Accidents"
+    },
+    {
+      "kind": "primary",
+      "title": "James Reason, Human Error"
+    },
+    {
+      "kind": "primary",
+      "title": "International Atomic Energy Agency, Defence in Depth in Nuclear Safety, INSAG-10"
+    },
+    {
+      "kind": "primary",
+      "title": "Jerome H. Saltzer and Michael D. Schroeder, 'The Protection of Information in Computer Systems'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Swiss cheese model (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Swiss_cheese_model"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Failure Mode and Effects Analysis",
+      "High-Reliability Organizations",
+      "Margin of Safety",
+      "Systems Thinking"
+    ],
+    "ancestors": [
+      "Military Defense in Depth",
+      "Nuclear Safety",
+      "Systems Safety"
+    ],
+    "descendants": [
+      "Swiss Cheese Model",
+      "Zero Trust Architecture",
+      "Layered Security",
+      "Barrier Management"
+    ],
+    "rivals": [
+      "Single Point Optimization",
+      "Perimeter Security",
+      "Root Cause Analysis",
+      "Lean Minimalism"
+    ],
+    "composes_with": [
+      "Failure Mode and Effects Analysis",
+      "Margin of Safety",
+      "High-Reliability Organizations",
+      "Red Teaming"
+    ]
+  },
+  "built_at": "2026-06-13T03:21:28Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Reason's Swiss cheese model, nuclear safety defense-in-depth doctrine, and information-security layering sources, without fetched source text."
+}

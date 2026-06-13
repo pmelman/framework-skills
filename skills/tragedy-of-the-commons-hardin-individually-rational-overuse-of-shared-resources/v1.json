@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:27Z",
+  "canonical_examples": [
+    {
+      "analysis": "Hardin's pasture is structured so each herdsman receives nearly the full private benefit of adding one more animal while the added grazing damage is shared across all users. The individually rational calculation therefore favors adding cattle, and every herdsman faces the same incentive. Because the pasture is finite, these rational increments accumulate into collective ruin. The tragedy is not ignorance of scarcity but an incentive structure in which private gain and shared cost diverge under open access.",
+      "problem": "Garrett Hardin's central example imagines herdsmen sharing an open pasture and deciding whether to add additional cattle."
+    },
+    {
+      "analysis": "Hardin treats pollution as the inverse of the pasture problem: instead of taking a resource unit out of the commons, each actor puts waste into it. The polluter receives the private benefit of cheap disposal while the ecological and health costs are dispersed among many others. If every actor follows that incentive, the shared sink is overloaded. A tragedy-of-the-commons analysis therefore looks for limits, mutual coercion, pricing, liability, or property-right changes that realign private disposal decisions with shared carrying capacity.",
+      "problem": "Hardin extends the commons logic to pollution, where individuals and firms discharge wastes into air, water, or land treated as common sinks."
+    }
+  ],
+  "core_claims": [
+    "A common resource can be destroyed by individually rational users when each captures concentrated benefits while dispersing marginal costs across the group.",
+    "Open access is structurally different from governed common property: the tragedy arises when exclusion, monitoring, or enforceable rules are absent or ineffective.",
+    "Appeals to conscience alone are unstable because they selectively disadvantage cooperators while leaving defectors' incentives intact.",
+    "A finite commons requires some form of limiting institution: mutual coercion, property rights, quotas, pricing, access rules, or other enforceable constraints.",
+    "The marginal logic is cumulative: each additional appropriation or discharge may look harmless alone while collectively exceeding carrying capacity.",
+    "Population growth or growth in use intensity makes unmanaged commons more fragile because the margin for unpriced use shrinks."
+  ],
+  "description": "Tragedy of the Commons is Garrett Hardin's framework for cases where individually rational use of an open-access shared resource produces collective overuse, depletion, or pollution because private benefits are concentrated while costs are shared.",
+  "domains": [
+    "environmental-policy",
+    "institutional-design",
+    "economics",
+    "collective-action"
+  ],
+  "failure_modes": [
+    "Conflating open access with commons: Hardin's tragedy describes unmanaged or weakly governed access, not all common-property regimes.",
+    "Defaulting too quickly to privatization or central control: Ostrom showed that many communities manage common-pool resources with local rules, monitoring, and sanctions.",
+    "Moralizing users as selfish rather than analyzing the payoff structure that makes overuse individually rational.",
+    "Ignoring power and distribution: imposed limits may protect the resource while unfairly assigning costs to weaker users or latecomers.",
+    "Overextending the model to resources that are not subtractable, rivalrous, or congestion-prone in the relevant way."
+  ],
+  "key_vocabulary": {
+    "Carrying capacity": "The maximum sustained level of use a resource can absorb without degradation. The tragedy begins when cumulative use exceeds this limit.",
+    "Common-pool resource": "A resource from which exclusion is difficult and one user's appropriation subtracts from what remains for others, such as fisheries, grazing land, or irrigation water.",
+    "Externality": "A cost or benefit of an action imposed on others but not fully reflected in the actor's private calculation.",
+    "Mutual coercion, mutually agreed upon": "Hardin's phrase for collectively accepted restrictions that constrain individual use for the sake of preserving the commons.",
+    "Open access": "A situation in which users can appropriate or pollute without effective exclusion, monitoring, or enforceable rules.",
+    "Overuse": "Resource use beyond the level the system can regenerate or absorb, producing depletion, congestion, or pollution.",
+    "Private benefit/shared cost asymmetry": "The incentive pattern in which one actor gains most of the benefit of an additional use while only a fraction of the cost falls on that actor."
+  },
+  "name": "Tragedy of the Commons | Hardin: individually rational overuse of shared resources",
+  "operative_procedure": [
+    "Identify the commons: specify the shared resource or sink, its boundaries, users, and whether use is subtractable or congestion-prone.",
+    "Determine whether the situation is open access or governed common property by checking exclusion, monitoring, access rules, and sanctioning capacity.",
+    "Map the marginal incentive: who receives the benefit of one more unit of appropriation or pollution, and how are the costs distributed?",
+    "Estimate the carrying capacity or sustainability constraint that cumulative individual actions threaten to exceed.",
+    "Show the collective-action logic: explain why each user may rationally add use even though universalizing that choice degrades the resource.",
+    "Evaluate governance options: mutual coercion, quotas, licenses, property rights, taxes, liability, local self-governance, monitoring, or graduated sanctions.",
+    "Check fairness and feasibility: identify who bears the cost of restraint, who has voice in rulemaking, and whether enforcement is credible.",
+    "Synthesize the recommendation by naming the incentive asymmetry, the resource limit, the expected degradation path, and the institution needed to align private decisions with shared preservation."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Externality Theory",
+      "Population Ecology",
+      "Game Theory"
+    ],
+    "composes_with": [
+      "Ostrom's Commons Governance",
+      "Game Theory",
+      "Coasean Bargaining",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Common-Pool Resource Theory",
+      "Environmental Economics",
+      "Climate Collective Action"
+    ],
+    "related": [
+      "Ostrom's Commons Governance",
+      "Game Theory",
+      "Coasean Bargaining",
+      "Collective Action Theory"
+    ],
+    "rivals": [
+      "Ostrom's Commons Governance",
+      "Coasean Bargaining",
+      "Hayekian Spontaneous Order",
+      "Public Goods Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Tragedy of the Commons is strongest for open-access or weakly governed resources where use is rivalrous, cumulative, and ecologically or operationally bounded. It applies to grazing, fisheries, groundwater, pollution sinks, congestion, and some digital attention or infrastructure cases when marginal use imposes shared costs. It is limited when communities have effective governance, when the resource is nonrival, when exclusion is easy, or when power, colonialism, and legal dispossession are the main drivers of degradation.",
+  "source_summary": "Authored from model knowledge of named sources on Hardin's tragedy of the commons, common-pool resources, collective action, and Ostrom's critique, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Garrett Hardin, 'The Tragedy of the Commons,' Science (1968)",
+      "url": "https://www.science.org/doi/10.1126/science.162.3859.1243"
+    },
+    {
+      "kind": "secondary",
+      "title": "Elinor Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action (1990)"
+    },
+    {
+      "kind": "secondary",
+      "title": "National Research Council, The Drama of the Commons (2002)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Tragedy of the commons (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "many users can draw from or dump into a shared resource while each bears only a fraction of the resulting damage",
+    "a resource is visibly degrading despite each user's action seeming privately reasonable or marginally harmless",
+    "voluntary restraint is failing because users who comply are disadvantaged relative to users who continue extracting or polluting",
+    "policy debate turns on whether a resource needs quotas, pricing, property rights, monitoring, sanctions, or collective rules",
+    "an apparently technical sustainability problem is driven by open-access incentives and weak governance"
+  ]
+}

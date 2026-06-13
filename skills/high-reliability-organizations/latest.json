@@ -1,0 +1,121 @@
+{
+  "name": "High-Reliability Organizations",
+  "version": 1,
+  "schema_version": 3,
+  "description": "High-Reliability Organizations is Weick and Sutcliffe's framework for explaining how organizations operating hazardous, tightly coupled systems sustain very low failure rates through mindful organizing: preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, and deference to expertise.",
+  "domains": [
+    "organizational-theory",
+    "safety",
+    "risk-management",
+    "operations"
+  ],
+  "when_to_use": [
+    "a small operational error could escalate into catastrophic harm",
+    "frontline work is complex, time-pressured, and only partly visible to formal management",
+    "near misses, weak signals, and anomalies are being normalized or explained away",
+    "formal authority does not reliably track who has the relevant expertise during fast-moving events",
+    "the organization must maintain reliability while adapting to surprise rather than merely complying with procedures"
+  ],
+  "core_claims": [
+    "Exceptional reliability in hazardous operations is produced by ongoing mindful organizing, not by absence of hazards or perfect procedures.",
+    "Near misses are data about system vulnerability; treating them as proof of safety erodes reliability.",
+    "Simplified explanations are dangerous in complex operations because they hide weak signals, local variation, and interacting causes.",
+    "Operational awareness must be continuously refreshed at the front line; strategic plans and dashboards are too delayed and abstract to control real-time risk.",
+    "During anomalies and emergencies, decision rights should migrate toward the person with the most relevant expertise rather than remain fixed by hierarchy.",
+    "Reliability depends on resilience: the capacity to detect, contain, improvise around, and learn from unexpected disruptions before they become catastrophic.",
+    "A high-reliability culture makes bad news easier to report than suppress by rewarding attention to failure rather than only success metrics."
+  ],
+  "key_vocabulary": {
+    "Mindful organizing": "A collective pattern of attention and action that keeps people alert to small failures, operational detail, and unexpected events.",
+    "Preoccupation with failure": "The disciplined search for small errors, near misses, anomalies, and weak signals as evidence of vulnerability.",
+    "Reluctance to simplify": "The refusal to collapse complex events into easy categories or single causes before local detail and alternative interpretations have been examined.",
+    "Sensitivity to operations": "Real-time awareness of the actual work, constraints, handoffs, and deviations occurring at the front line.",
+    "Commitment to resilience": "The capability to absorb strain, improvise, recover, and learn when plans or safeguards fail.",
+    "Deference to expertise": "The migration of authority to people with the most relevant situational knowledge, regardless of rank, when conditions demand it.",
+    "Weak signal": "A small irregularity, near miss, or discomfort that may indicate a developing failure path before standard metrics show trouble.",
+    "Normalization of deviance": "The gradual acceptance of departures from safe practice because previous departures did not immediately produce disaster."
+  },
+  "operative_procedure": [
+    "Define the hazardous operation, the unacceptable failure states, and the places where small deviations can couple into large consequences.",
+    "Elicit recent near misses, anomalies, workarounds, surprises, and uncomfortable observations; treat each as evidence rather than noise.",
+    "Apply preoccupation with failure by asking what the organization has learned only because it was lucky, what almost failed, and what bad news is hard to report.",
+    "Apply reluctance to simplify by generating multiple interpretations of each anomaly, including technical, human, coordination, incentive, and environmental explanations.",
+    "Map sensitivity to operations: identify what frontline operators actually see, what management sees too late, and where handoffs, workload, or production pressure obscure risk.",
+    "Check deference to expertise by tracing who gets listened to during abnormal conditions and whether authority can migrate quickly to the person with the relevant knowledge.",
+    "Assess resilience capacity: reserves, cross-training, recovery routines, improvisation authority, communication channels, and practice under surprise.",
+    "Recommend changes that strengthen mindful organizing, such as near-miss reporting, anomaly review, real-time operational briefings, flattened escalation paths, and simulation of rare disruptions.",
+    "Specify indicators that would show reliability is degrading: silence about bad news, repeated workarounds, simplified explanations, expert override by rank, or declining recovery margin."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Weick and Roberts analyze flight-deck operations on U.S. Navy aircraft carriers, where aircraft launch and recovery occur in a crowded, noisy, hazardous environment with very little tolerance for error.",
+      "analysis": "The HRO analysis does not say the carrier is safe because it has rules; it asks how collective mindfulness is maintained while danger is constant. Flight-deck crews sustain sensitivity to operations through close attention to aircraft position, deck status, weather, signals, and handoffs. They are preoccupied with failure because small deviations can kill immediately, and deference to expertise appears when local operators with direct situational knowledge can stop or redirect activity. Reliability is explained by a collective mind: interrelating, heedful contribution, and subordination of individual action to the joint task."
+    },
+    {
+      "problem": "Weick and Sutcliffe use nuclear power plants and air traffic control as paradigmatic settings where rare catastrophic failure must be prevented despite complexity, coupling, and surprise.",
+      "analysis": "A high-reliability reading treats a quiet control room or normal traffic day as potentially misleading. The analysis searches for near misses, ambiguous alarms, maintenance workarounds, and communication gaps rather than only compliance with procedure. Reluctance to simplify keeps operators from forcing an anomaly into a familiar category too soon; sensitivity to operations asks what controllers or plant operators are actually seeing at the moment; deference to expertise requires that technical authority shift to the person who understands the live abnormal condition. The goal is not zero surprise but rapid detection, containment, and recovery."
+    }
+  ],
+  "failure_modes": [
+    "Safety theater: organizations adopt HRO language and rituals while punishing inconvenient reports or protecting production targets from challenge.",
+    "Near-miss overload: every anomaly is escalated without triage, causing fatigue and making significant weak signals harder to distinguish.",
+    "Expertise capture: deference to expertise becomes deference to charismatic veterans, excluding dissenting novices or specialists with relevant evidence.",
+    "Local optimization: frontline resilience hides chronic understaffing, brittle design, or weak governance by repeatedly improvising around preventable problems.",
+    "Complacency through success: long accident-free periods are interpreted as proof of control rather than as periods in which drift and normalization of deviance can accumulate.",
+    "Ambiguous accountability: emphasizing system mindfulness can be misused to avoid assigning responsibility for decisions that knowingly suppress bad news."
+  ],
+  "scope_and_limits": "High-Reliability Organizations is strongest for hazardous operational systems such as aviation, nuclear power, health care, emergency response, military operations, and critical infrastructure. It is less useful for low-consequence settings, purely financial portfolio choices, or problems where reliability can be achieved by simple automation or elimination of the hazard. It diagnoses organizational attention and authority patterns, not detailed component failure probabilities.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Karl E. Weick and Kathleen M. Sutcliffe, Managing the Unexpected: Sustained Performance in a Complex World"
+    },
+    {
+      "kind": "primary",
+      "title": "Karl E. Weick and Karlene H. Roberts, 'Collective Mind in Organizations: Heedful Interrelating on Flight Decks'"
+    },
+    {
+      "kind": "primary",
+      "title": "Todd R. La Porte and Paula M. Consolini, 'Working in Practice But Not in Theory: Theoretical Challenges of High-Reliability Organizations'"
+    },
+    {
+      "kind": "secondary",
+      "title": "High reliability organization (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/High_reliability_organization"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Systems Thinking",
+      "Pre-mortem",
+      "Defense in Depth",
+      "Root Cause Analysis"
+    ],
+    "ancestors": [
+      "Organizational Theory",
+      "Normal Accident Theory",
+      "Sensemaking"
+    ],
+    "descendants": [
+      "Crew Resource Management",
+      "Safety-II",
+      "Resilience Engineering"
+    ],
+    "rivals": [
+      "Normal Accident Theory",
+      "Bureaucratic Compliance",
+      "Taylorism",
+      "Root Cause Analysis"
+    ],
+    "composes_with": [
+      "Failure Mode and Effects Analysis",
+      "Defense in Depth",
+      "Red Teaming",
+      "OODA Loop"
+    ]
+  },
+  "built_at": "2026-06-13T03:21:28Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Weick and Sutcliffe's high-reliability organization literature and named related sources, without fetched source text."
+}

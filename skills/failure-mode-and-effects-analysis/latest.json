@@ -1,0 +1,124 @@
+{
+  "name": "Failure Mode and Effects Analysis",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Failure Mode and Effects Analysis is a preventive reliability method that decomposes a system, process, or design into functions, enumerates how each element can fail, scores the effects by severity, occurrence, and detection, and prioritizes controls or redesign before failure occurs.",
+  "domains": [
+    "engineering",
+    "quality",
+    "risk-analysis",
+    "operations"
+  ],
+  "when_to_use": [
+    "a product, process, or service must be reviewed before release for predictable ways it can fail",
+    "failure risks need to be compared across components or process steps using severity, likelihood, and detectability",
+    "designers need to decide which controls, tests, alarms, or redesigns deserve priority",
+    "a change to materials, suppliers, process flow, software, or operating conditions may introduce new failure paths",
+    "the team needs a structured artifact that assigns failure causes, effects, current controls, actions, and owners"
+  ],
+  "core_claims": [
+    "Reliability can be improved before incidents occur by systematically enumerating credible failure modes for every function or process step.",
+    "A failure mode is not the same as its cause or its effect; useful analysis separates how the item fails, why it fails, and what happens next.",
+    "Severity, occurrence, and detection are distinct dimensions; a rare failure may still demand action if its effect is severe and current controls cannot detect it.",
+    "Detection controls reduce risk only if they can discover the failure mode or cause before the effect reaches the customer, operator, or patient.",
+    "The most valuable output is a set of prioritized actions that reduce severity, occurrence, or improve detection, not the risk ranking table itself.",
+    "FMEA should be revised when design assumptions, process capability, field data, or operating conditions change because the risk profile is design-context dependent.",
+    "High-risk single-point failures should trigger redesign, redundancy, proof testing, poka-yoke, or independent safeguards rather than mere procedural reminders."
+  ],
+  "key_vocabulary": {
+    "Function": "The required purpose of a component, subsystem, process step, or service interaction. Failure modes are defined relative to functions.",
+    "Failure mode": "The specific manner in which an item or step could fail to perform its function, such as leaking, sticking open, omitting a check, or producing an out-of-tolerance part.",
+    "Effect": "The consequence of a failure mode at the local level, system level, customer level, or safety level.",
+    "Cause": "The mechanism or condition that produces the failure mode, such as wear, contamination, wrong torque, software logic error, or operator mis-selection.",
+    "Severity": "A ranking of the seriousness of the effect if the failure reaches the user or system.",
+    "Occurrence": "A ranking of how likely the cause or failure mode is under the expected design or process conditions.",
+    "Detection": "A ranking of how likely current controls are to detect the cause or failure mode before the effect occurs.",
+    "Risk Priority Number": "The traditional product of severity, occurrence, and detection rankings. Modern practice treats it as a prioritization aid, not an absolute measure.",
+    "Current controls": "Existing prevention or detection measures, such as design standards, inspections, tests, alarms, checklists, fixtures, or statistical process control.",
+    "Recommended action": "A concrete change assigned to an owner and due date that lowers risk by reducing severity, reducing occurrence, or improving detection."
+  },
+  "operative_procedure": [
+    "Define the scope, boundary, operating conditions, and level of analysis: system FMEA, design FMEA, process FMEA, service FMEA, or software-oriented variant.",
+    "Break the subject into functions, interfaces, components, or process steps, making each row specific enough that failure modes can be named concretely.",
+    "For each function or step, list credible failure modes: no function, partial function, intermittent function, degraded function, unintended function, wrong timing, wrong quantity, or wrong output.",
+    "For each failure mode, state local, next-level, end-user, safety, regulatory, and mission effects; assign a severity rating based on the worst credible effect.",
+    "Identify causes and mechanisms for each failure mode, then list current prevention and detection controls separately.",
+    "Rate occurrence for each cause and detection for each control using the organization's scale; compute RPN or apply an action-priority table if the standard uses one.",
+    "Prioritize action on high-severity, high-occurrence, low-detection, and single-point failure cases rather than mechanically chasing the largest numerical product.",
+    "Specify recommended actions, owners, due dates, and verification evidence; prefer design elimination, mistake-proofing, redundancy, and robust controls over warnings or training alone.",
+    "Re-rate severity, occurrence, and detection after actions are implemented, document residual risk, and update the FMEA when field data, design changes, or process changes appear."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "The U.S. military's MIL-P-1629 and later MIL-STD-1629A made FMEA a formal reliability procedure for military systems, requiring analysts to identify how each item could fail and what each failure would do to the mission.",
+      "analysis": "A framework-shaped analysis decomposes the system into items and functions, then records each item's failure mode, cause, local effect, next-higher-level effect, and end effect. A pump, for example, may fail by no output, reduced output, leakage, or unintended operation; each mode receives effects on the subsystem and mission. Criticality analysis then prioritizes modes by severity and probability so design changes, redundancy, inspection, or maintenance controls address the failures most consequential to mission success."
+    },
+    {
+      "problem": "NASA and its contractors used FMEA and Critical Items Lists in Apollo-era human spaceflight to identify failures that could endanger crew or mission before launch.",
+      "analysis": "The Apollo use case forces severity to dominate: a low-probability valve, seal, guidance, or life-support failure can be unacceptable if it threatens crew survival and is not detectable or recoverable in flight. FMEA separates the failure mode from its cause and effect, asks what controls exist before launch and in operation, and identifies critical items requiring redesign, redundancy, acceptance testing, inspection, operating limits, or explicit waiver. The result is not a general worry list but a traceable inventory of critical failure paths and controls."
+    }
+  ],
+  "failure_modes": [
+    "Worksheet ritual: teams fill rows and scores without making design, control, or ownership changes.",
+    "False precision: ordinal severity, occurrence, and detection scores are multiplied as though they were calibrated measurements.",
+    "Enumeration blind spots: analysts list familiar component failures but miss interface failures, software-state failures, human actions, common-cause failures, and organizational controls.",
+    "Severity dilution: high-severity hazards are allowed to wait because their RPN is lower than moderate issues with inflated occurrence scores.",
+    "Static document decay: the FMEA is not updated after design changes, supplier changes, field failures, or process drift.",
+    "Training-as-control bias: teams over-credit warnings, procedures, and training even when the failure mode should be eliminated or mistake-proofed."
+  ],
+  "scope_and_limits": "FMEA is strongest for bounded designs, manufacturing processes, medical processes, software functions, maintenance tasks, and service workflows where functions and steps can be enumerated. It is weaker for open-ended strategic uncertainty, adversarial behavior, poorly understood complex systems, and failures driven by culture or incentives unless those are translated into concrete process or control failures. It is prospective and systematic, but it is not a substitute for testing, fault-tree quantification, or post-incident investigation.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "MIL-STD-1629A, Procedures for Performing a Failure Mode, Effects and Criticality Analysis"
+    },
+    {
+      "kind": "primary",
+      "title": "SAE International, J1739 Potential Failure Mode and Effects Analysis in Design, Manufacturing and Assembly Processes"
+    },
+    {
+      "kind": "primary",
+      "title": "AIAG and VDA, FMEA Handbook"
+    },
+    {
+      "kind": "secondary",
+      "title": "Failure mode and effects analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Pre-mortem",
+      "Defense in Depth",
+      "Root Cause Analysis",
+      "Systems Thinking"
+    ],
+    "ancestors": [
+      "Reliability Engineering",
+      "Quality Management",
+      "Military Systems Safety"
+    ],
+    "descendants": [
+      "Failure Mode, Effects, and Criticality Analysis",
+      "Design FMEA",
+      "Process FMEA",
+      "Healthcare FMEA"
+    ],
+    "rivals": [
+      "Fault Tree Analysis",
+      "Root Cause Analysis",
+      "Pre-mortem",
+      "Hazard and Operability Study"
+    ],
+    "composes_with": [
+      "Margin of Safety",
+      "Defense in Depth",
+      "High-Reliability Organizations",
+      "Theory of Constraints"
+    ]
+  },
+  "built_at": "2026-06-13T03:21:28Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of MIL-STD-1629A, SAE and AIAG-VDA FMEA practice, NASA reliability history, and named quality sources, without fetched source text."
+}

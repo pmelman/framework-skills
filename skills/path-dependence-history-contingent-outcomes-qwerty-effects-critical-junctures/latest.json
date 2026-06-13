@@ -1,0 +1,117 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:27Z",
+  "canonical_examples": [
+    {
+      "analysis": "David's analysis treats QWERTY not as the inevitable efficient keyboard but as a historically stabilized standard. Early typewriter design choices, training investments, producer commitments, typing schools, and employer expectations created increasing returns to the installed layout. Once enough complementary skills and equipment accumulated, each actor's individually sensible choice was to keep using QWERTY, even if a rival layout could claim technical superiority. The explanation therefore turns on sequence, increasing returns, and switching costs rather than static optimality.",
+      "problem": "Paul A. David's 'Clio and the Economics of QWERTY' asks why the QWERTY keyboard persisted despite claims that alternative layouts such as Dvorak were more efficient."
+    },
+    {
+      "analysis": "Arthur frames the problem as a competition among technologies subject to increasing returns: early purchases raise a technology's future attractiveness through learning, supplier experience, complementary products, and user expectations. Small historical events can push adoption toward one technology, and once adoption passes a threshold, positive feedback makes exit increasingly costly. The eventual dominant technology is therefore not necessarily the ex ante best one; it may be the one favored by early random events that became self-reinforcing.",
+      "problem": "W. Brian Arthur's work on competing technologies with increasing returns analyzes how one technology can become locked in even when alternatives remain viable."
+    }
+  ],
+  "core_claims": [
+    "The order of events can be causally decisive: the same set of options can produce different outcomes when early events occur in a different sequence.",
+    "Increasing returns, learning effects, coordination effects, and adaptive expectations can make an initially small advantage self-reinforcing.",
+    "Lock-in can preserve an outcome that is locally rational for each actor to continue but globally inferior to an unavailable or costly alternative path.",
+    "Critical junctures are periods when contingent choices have unusually high downstream leverage because institutional, technical, or behavioral routines have not yet hardened.",
+    "Path-dependent processes are not merely historically influenced; they exhibit mechanisms that make later reversal harder because prior choices change payoffs, capabilities, or expectations.",
+    "Efficiency explanations are incomplete when they infer present superiority from survival alone, because selection can operate on historically constrained alternatives rather than all possible arrangements."
+  ],
+  "description": "Path Dependence explains history-contingent outcomes in which early events, critical junctures, increasing returns, switching costs, and institutional or technological lock-in shape later possibilities and make some trajectories hard to reverse.",
+  "domains": [
+    "economic-history",
+    "institutional-analysis",
+    "technology-strategy",
+    "political-economy"
+  ],
+  "failure_modes": [
+    "Just-so historicism: attributing any persistence to path dependence without identifying the self-reinforcing mechanism that converts early events into later constraint.",
+    "Overclaiming inefficiency: lock-in does not prove the locked-in outcome is inferior; the rival path may be costly, untested, or worse under full-system conditions.",
+    "Freezing agency out of the analysis: path dependence constrains later choices but does not eliminate entrepreneurs, coalitions, shocks, or deliberate institutional redesign.",
+    "Mistaking ordinary chronology for causation: because one event came before another does not show that sequencing altered payoffs, expectations, or feasible options.",
+    "Neglecting path creation: practitioners can become so focused on inherited lock-in that they miss moments when actors actively construct new paths through standards, coalitions, and complementary investments."
+  ],
+  "key_vocabulary": {
+    "Adaptive expectations": "Expectations that become more favorable as more actors adopt a practice or technology. They matter because people choose partly on what they believe others will choose.",
+    "Critical juncture": "A relatively open period in which contingent decisions have unusually durable consequences. After the juncture, institutions or technologies harden and alternatives become harder to pursue.",
+    "Increasing returns": "A process in which the payoff to an option rises as it is used more. Learning, network effects, scale economies, and complementary assets are common sources.",
+    "Lock-in": "A state in which an outcome persists because switching away is individually or collectively costly, even when another path might appear superior.",
+    "Path creation": "The active construction of a new trajectory through entrepreneurial action, coalition-building, standards, and investments rather than passive inheritance of past choices.",
+    "Self-reinforcement": "A feedback process in which prior adoption or institutionalization makes continued adoption more likely.",
+    "Switching costs": "The costs of abandoning an established path, including retraining, compatibility loss, transition risk, stranded assets, and coordination failures.",
+    "Unchosen alternatives": "Paths that were historically possible but became inaccessible or expensive after earlier commitments changed the choice environment."
+  },
+  "name": "Path Dependence | history-contingent outcomes, QWERTY effects, critical junctures",
+  "operative_procedure": [
+    "Define the outcome whose persistence or dominance needs explanation, and separate it from the claim that the outcome is efficient.",
+    "Reconstruct the sequence of relevant events, marking early contingencies, decisions, accidents, and timing effects that preceded stabilization.",
+    "Locate critical junctures where multiple paths were live and later commitments had not yet hardened.",
+    "Identify the self-reinforcing mechanism: increasing returns, learning effects, network externalities, coordination effects, institutional complementarities, adaptive expectations, or switching costs.",
+    "Trace how each round of adoption, investment, rulemaking, or learning altered later payoffs and narrowed the feasible set.",
+    "Test the lock-in claim by asking what would be required to switch paths and who would bear the transition costs.",
+    "Compare the surviving path with plausible unchosen alternatives without assuming either historical survival or counterfactual superiority proves efficiency.",
+    "Synthesize the diagnosis: name the path, the critical juncture, the reinforcement mechanism, the current constraints, and any windows for path-breaking or path creation."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Historical Institutionalism",
+      "Increasing Returns Economics",
+      "Evolutionary Economics"
+    ],
+    "composes_with": [
+      "Network Effects and Lock-in",
+      "Chesterton's Fence",
+      "Systems Thinking",
+      "Counterfactual Reasoning"
+    ],
+    "descendants": [
+      "Historical Institutionalism",
+      "Punctuated Equilibrium",
+      "Network Effects and Lock-in"
+    ],
+    "related": [
+      "Network Effects and Lock-in",
+      "Hayekian Spontaneous Order",
+      "Ostrom's Commons Governance",
+      "Evolutionary Game Theory"
+    ],
+    "rivals": [
+      "Neoclassical Equilibrium Analysis",
+      "Efficient Markets Hypothesis",
+      "First Principles",
+      "Rational Choice Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Path Dependence is strongest when present outcomes seem historically arbitrary, resistant to change, or stabilized by cumulative commitments rather than current superiority alone. It is especially useful for institutions, standards, technologies, legal regimes, and organizational routines. It is weaker when no reinforcing mechanism can be shown, when actors can switch cheaply, or when a simple performance advantage explains persistence. It diagnoses historical constraint, not fatalism.",
+  "source_summary": "Authored from model knowledge of named sources on path dependence, QWERTY, increasing returns, critical junctures, and historical institutionalism, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Paul A. David, 'Clio and the Economics of QWERTY,' American Economic Review (1985)"
+    },
+    {
+      "kind": "primary",
+      "title": "W. Brian Arthur, 'Competing Technologies, Increasing Returns, and Lock-In by Historical Events,' Economic Journal (1989)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Paul Pierson, Politics in Time: History, Institutions, and Social Analysis (2004)"
+    },
+    {
+      "kind": "secondary",
+      "title": "James Mahoney, 'Path Dependence in Historical Sociology,' Theory and Society (2000)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a present standard, institution, or routine persists even though alternatives look technically or normatively attractive",
+    "small early events, accidents, or sequencing differences seem to have had outsized downstream effects",
+    "participants keep choosing an incumbent option because skills, complements, expectations, or infrastructure have accumulated around it",
+    "a reform proposal underestimates transition costs, coordination burdens, or stranded investments created by prior commitments",
+    "you need to explain why similar places, firms, or technologies diverged after an early critical juncture"
+  ]
+}

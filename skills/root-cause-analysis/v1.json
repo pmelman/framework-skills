@@ -1,0 +1,126 @@
+{
+  "name": "Root Cause Analysis",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Root Cause Analysis is a post-incident investigation framework for tracing an adverse event from immediate symptoms through causal chains to correctable physical, human, process, and systemic causes, using tools such as 5 Whys, fishbone diagrams, timelines, and corrective-action verification.",
+  "domains": [
+    "quality",
+    "operations",
+    "safety",
+    "organizational-learning"
+  ],
+  "when_to_use": [
+    "an incident, defect, outage, accident, or near miss has already occurred and recurrence must be prevented",
+    "the obvious trigger explains what happened but not why the organization was vulnerable to it",
+    "multiple departments, process steps, human decisions, and technical conditions may have combined to produce the event",
+    "leaders are tempted to stop at operator error, bad luck, or a single failed component",
+    "corrective actions need to address causes the organization can verify and control"
+  ],
+  "core_claims": [
+    "The apparent cause of an incident is often only the last link in a longer causal chain.",
+    "A useful root cause is a condition that, if corrected, would prevent or materially reduce recurrence of the same class of event.",
+    "Human error should usually be treated as a symptom requiring explanation, not as a terminal cause.",
+    "Incidents often have multiple root causes across materials, methods, machines, measurement, environment, management, and incentives.",
+    "Asking why repeatedly is valuable only when each answer is evidence-based and causally necessary, not when it becomes speculative storytelling.",
+    "Corrective actions should be matched to causes and verified for effectiveness; training and reminders are weak actions when process or design controls are feasible.",
+    "Distinguishing containment, correction, corrective action, and preventive action prevents teams from mistaking recovery for learning."
+  ],
+  "key_vocabulary": {
+    "Problem statement": "A precise description of the event, defect, impact, time, place, and scope that avoids embedding an assumed cause.",
+    "Proximate cause": "The immediate event or condition that directly preceded the failure, such as a broken part, incorrect action, or missed check.",
+    "Root cause": "An underlying controllable condition that explains why the proximate cause was possible and whose correction reduces recurrence.",
+    "5 Whys": "A questioning technique that repeatedly asks why a condition occurred until the analysis reaches a controllable process, design, or system cause.",
+    "Fishbone diagram": "Ishikawa's cause-and-effect diagram that organizes possible causes into categories such as people, methods, machines, materials, measurement, and environment.",
+    "Causal chain": "A sequence of linked conditions and events showing how causes combined to produce the outcome.",
+    "Corrective action": "A change intended to eliminate or reduce a root cause, with owner, due date, and verification of effectiveness.",
+    "Containment": "Immediate action to limit harm or stop further spread before deeper causes have been corrected.",
+    "Contributing factor": "A condition that increased likelihood or severity but may not by itself have been sufficient to cause the event."
+  },
+  "operative_procedure": [
+    "Write a neutral problem statement specifying what happened, where, when, how detected, who or what was affected, and the measurable impact.",
+    "Contain the immediate harm without treating containment as the final fix.",
+    "Build an evidence timeline from normal operation through detection, response, and recovery; mark assumptions separately from verified facts.",
+    "Identify the proximate causes and failure points: what changed, broke, was missed, or departed from expected operation.",
+    "Run 5 Whys on each major causal branch, stopping only at causes that are evidence-supported, controllable, and not merely blame labels.",
+    "Use a fishbone diagram or equivalent categories to force breadth across people, methods, machines, materials, measurement, environment, management, and incentives.",
+    "Distinguish root causes from contributing factors and symptoms; test each candidate by asking whether correcting it would plausibly prevent recurrence.",
+    "Select corrective and preventive actions that change process, design, controls, incentives, information, or resources, preferring stronger controls over retraining alone.",
+    "Assign owners, due dates, verification methods, and recurrence metrics; follow up to confirm the corrective actions worked."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Taiichi Ohno popularized the 5 Whys in the Toyota Production System with machine-failure examples where stopping at the immediate malfunction would miss the maintenance cause.",
+      "analysis": "The RCA move is to begin with the observed failure, such as a machine stopping, then ask why through successive causes: overload, inadequate lubrication, pump failure, worn shaft, missing strainer or maintenance condition. Each answer must be grounded in observation. The root cause is not simply 'the machine stopped' or 'the operator failed'; it is the controllable condition in the maintenance or design system that allowed the failure mode to recur. Corrective action therefore changes maintenance standards, inspection, filtration, or design rather than merely restarting the machine."
+    },
+    {
+      "problem": "The Columbia Accident Investigation Board examined the 2003 Space Shuttle Columbia disaster, where foam striking the wing during launch was the physical trigger but not the whole explanation.",
+      "analysis": "A root-cause analysis separates the proximate physical cause from systemic causes. Foam shedding and wing breach explain the immediate mechanism of loss, but the investigation asks why foam shedding was normalized, why prior anomalies did not trigger stronger action, why imagery requests and dissent were not handled effectively, and how schedule pressure and organizational culture shaped risk acceptance. Corrective action must therefore address technical debris hazards and inspection capability as well as decision processes, communication, and safety governance."
+    }
+  ],
+  "failure_modes": [
+    "Single-cause fixation: the team declares one root cause in a multi-causal system and misses interacting conditions.",
+    "Blame termination: analysis stops at human error, inattention, or noncompliance without explaining why the action made sense or was possible in context.",
+    "Speculative 5 Whys: each why answer becomes a plausible story rather than a claim tied to evidence.",
+    "Weak corrective actions: retraining, reminders, and policy restatements substitute for design, process, control, or incentive changes.",
+    "Confirmation bias: the investigation is steered toward a politically acceptable cause or a cause matching the investigator's specialty.",
+    "Overreach: analysts label broad culture or management as the root cause without converting it into specific, verifiable, changeable conditions."
+  ],
+  "scope_and_limits": "Root Cause Analysis is strongest after discrete incidents, defects, outages, adverse events, and near misses where evidence can be collected and recurrence prevention matters. It is weaker for forecasting novel failures before any event has occurred, for diffuse social problems without clear event boundaries, or for complex adaptive systems where causality is probabilistic and distributed. It should be paired with prospective methods such as FMEA and with organizational learning practices when incidents reveal systemic drift.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Taiichi Ohno, Toyota Production System: Beyond Large-Scale Production"
+    },
+    {
+      "kind": "primary",
+      "title": "Kaoru Ishikawa, Guide to Quality Control"
+    },
+    {
+      "kind": "primary",
+      "title": "U.S. Department of Energy, Root Cause Analysis Guidance Document"
+    },
+    {
+      "kind": "primary",
+      "title": "Columbia Accident Investigation Board Report"
+    },
+    {
+      "kind": "secondary",
+      "title": "Root cause analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Root_cause_analysis"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Systems Thinking",
+      "Failure Mode and Effects Analysis",
+      "Pre-mortem",
+      "High-Reliability Organizations"
+    ],
+    "ancestors": [
+      "Quality Management",
+      "Toyota Production System",
+      "Accident Investigation"
+    ],
+    "descendants": [
+      "5 Whys",
+      "Ishikawa Diagram",
+      "Corrective and Preventive Action"
+    ],
+    "rivals": [
+      "Systems Thinking",
+      "Normal Accident Theory",
+      "Pre-mortem",
+      "Blame Culture"
+    ],
+    "composes_with": [
+      "Failure Mode and Effects Analysis",
+      "Defense in Depth",
+      "High-Reliability Organizations",
+      "Double-Loop Learning"
+    ]
+  },
+  "built_at": "2026-06-13T03:21:28Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Toyota 5 Whys, Ishikawa cause-and-effect analysis, DOE RCA guidance, and accident investigation literature, without fetched source text."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:21:09Z",
+  "generated_at": "2026-06-13T03:28:35Z",
   "skills": [
     {
       "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
@@ -423,6 +423,20 @@
       "path": "skills/creative-destruction-schumpeter-innovation-destroying-incumbent-structures/latest.json"
     },
     {
+      "name": "Cybernetics | Wiener/Ashby: requisite variety, homeostasis, communication and control",
+      "slug": "cybernetics-wiener-ashby-requisite-variety-homeostasis-communication-and-control",
+      "version": 1,
+      "description": "Cybernetics is the study of communication, feedback, and control in animals, machines, organizations, and social systems, associated with Norbert Wiener, W. Ross Ashby, Stafford Beer, and concepts such as homeostasis, circular causality, and requisite variety.",
+      "domains": [
+        "systems-thinking",
+        "control",
+        "cognitive-science",
+        "organizational-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/cybernetics-wiener-ashby-requisite-variety-homeostasis-communication-and-control/latest.json"
+    },
+    {
       "name": "Cynefin Framework",
       "slug": "cynefin-framework",
       "version": 1,
@@ -463,6 +477,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/deconstruction-derrida-destabilizing-binary-oppositions-diff-rance-close-reading-against-the-grain/latest.json"
+    },
+    {
+      "name": "Defense in Depth",
+      "slug": "defense-in-depth",
+      "version": 1,
+      "description": "Defense in Depth is a safety and security framework that protects critical functions with multiple, independent, diverse, and monitored layers so that no single failure, bypass, or human error can directly produce catastrophe; Reason's Swiss cheese model explains accidents as alignment of holes across layers.",
+      "domains": [
+        "safety",
+        "security",
+        "risk-management",
+        "systems-engineering"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/defense-in-depth/latest.json"
     },
     {
       "name": "Dependent Origination",
@@ -690,6 +718,20 @@
       "path": "skills/expressivism-moral-claims-express-attitudes-not-facts-ayer-blackburn-gibbard/latest.json"
     },
     {
+      "name": "Failure Mode and Effects Analysis",
+      "slug": "failure-mode-and-effects-analysis",
+      "version": 1,
+      "description": "Failure Mode and Effects Analysis is a preventive reliability method that decomposes a system, process, or design into functions, enumerates how each element can fail, scores the effects by severity, occurrence, and detection, and prioritizes controls or redesign before failure occurs.",
+      "domains": [
+        "engineering",
+        "quality",
+        "risk-analysis",
+        "operations"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/failure-mode-and-effects-analysis/latest.json"
+    },
+    {
       "name": "Fallacy Analysis",
       "slug": "fallacy-analysis",
       "version": 1,
@@ -885,6 +927,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/heuristics-and-biases-program/latest.json"
+    },
+    {
+      "name": "High-Reliability Organizations",
+      "slug": "high-reliability-organizations",
+      "version": 1,
+      "description": "High-Reliability Organizations is Weick and Sutcliffe's framework for explaining how organizations operating hazardous, tightly coupled systems sustain very low failure rates through mindful organizing: preoccupation with failure, reluctance to simplify, sensitivity to operations, commitment to resilience, and deference to expertise.",
+      "domains": [
+        "organizational-theory",
+        "safety",
+        "risk-management",
+        "operations"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/high-reliability-organizations/latest.json"
     },
     {
       "name": "Humean Empiricism",
@@ -1096,6 +1152,20 @@
       "path": "skills/lakatos-s-research-programmes-progressive-vs-degenerating-programmes-hard-core-protective-belt/latest.json"
     },
     {
+      "name": "Leverage Points | Meadows: where to intervene in a system, ranked by power",
+      "slug": "leverage-points-meadows-where-to-intervene-in-a-system-ranked-by-power",
+      "version": 1,
+      "description": "Leverage Points is Donella Meadows's ranked framework for finding places to intervene in a system, from shallow parameter tweaks to deep changes in information flows, rules, goals, and paradigms.",
+      "domains": [
+        "systems",
+        "policy",
+        "organizational-change",
+        "strategy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/leverage-points-meadows-where-to-intervene-in-a-system-ranked-by-power/latest.json"
+    },
+    {
       "name": "Liberation Theology",
       "slug": "liberation-theology",
       "version": 1,
@@ -1122,6 +1192,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/libertarianism-nozick-self-ownership-side-constraints-entitlement-theory-of-justice/latest.json"
+    },
+    {
+      "name": "Lindy Effect | expected longevity proportional to current age for non-perishables",
+      "slug": "lindy-effect-expected-longevity-proportional-to-current-age-for-non-perishables",
+      "version": 1,
+      "description": "The Lindy Effect is a longevity heuristic for nonperishable things: the longer an idea, book, technology, institution, or practice has survived, the longer its expected remaining life, because age reveals survival through selection.",
+      "domains": [
+        "forecasting",
+        "risk",
+        "culture",
+        "strategy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/lindy-effect-expected-longevity-proportional-to-current-age-for-non-perishables/latest.json"
     },
     {
       "name": "Lojong",
@@ -1164,6 +1248,20 @@
       ],
       "review_status": "approved",
       "path": "skills/maqasid-al-shariah/latest.json"
+    },
+    {
+      "name": "Margin of Safety",
+      "slug": "margin-of-safety",
+      "version": 1,
+      "description": "Margin of Safety is a decision and design principle, central in value investing and engineering, that requires a deliberate buffer between estimated capacity or value and the demanded load, price, or exposure so errors, uncertainty, and adverse variation do not produce ruin.",
+      "domains": [
+        "engineering",
+        "investing",
+        "risk-management",
+        "decision-making"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/margin-of-safety/latest.json"
     },
     {
       "name": "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
@@ -1292,6 +1390,20 @@
       "path": "skills/network-effects-and-lock-in/latest.json"
     },
     {
+      "name": "Normal Accidents Theory | Perrow: tight coupling + interactive complexity make accidents inevitable",
+      "slug": "normal-accidents-theory-perrow-tight-coupling-interactive-complexity-make-accidents-inevitable",
+      "version": 1,
+      "description": "Normal Accidents Theory is Charles Perrow's framework for explaining why accidents become inevitable in systems that combine tight coupling with interactive complexity, especially high-risk technologies such as nuclear power, chemical plants, aircraft, and other tightly integrated socio-technical systems.",
+      "domains": [
+        "safety-science",
+        "risk-analysis",
+        "systems-engineering",
+        "organizational-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/normal-accidents-theory-perrow-tight-coupling-interactive-complexity-make-accidents-inevitable/latest.json"
+    },
+    {
       "name": "Nudge and Choice Architecture",
       "slug": "nudge-and-choice-architecture",
       "version": 1,
@@ -1390,6 +1502,20 @@
       "path": "skills/overton-window/latest.json"
     },
     {
+      "name": "Pareto Principle | 80/20 concentration of effects; vital few vs trivial many",
+      "slug": "pareto-principle-80-20-concentration-of-effects-vital-few-vs-trivial-many",
+      "version": 1,
+      "description": "The Pareto Principle is a concentration heuristic for analyzing skewed outcome distributions: in many domains, a small minority of inputs, causes, customers, products, or defects produces a large majority of effects. It directs attention to the vital few before the trivial many.",
+      "domains": [
+        "prioritization",
+        "operations",
+        "quality-management",
+        "strategy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/pareto-principle-80-20-concentration-of-effects-vital-few-vs-trivial-many/latest.json"
+    },
+    {
       "name": "Pascal's Wager",
       "slug": "pascal-s-wager",
       "version": 1,
@@ -1402,6 +1528,20 @@
       ],
       "review_status": "approved",
       "path": "skills/pascal-s-wager/latest.json"
+    },
+    {
+      "name": "Path Dependence | history-contingent outcomes, QWERTY effects, critical junctures",
+      "slug": "path-dependence-history-contingent-outcomes-qwerty-effects-critical-junctures",
+      "version": 1,
+      "description": "Path Dependence explains history-contingent outcomes in which early events, critical junctures, increasing returns, switching costs, and institutional or technological lock-in shape later possibilities and make some trajectories hard to reverse.",
+      "domains": [
+        "economic-history",
+        "institutional-analysis",
+        "technology-strategy",
+        "political-economy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/path-dependence-history-contingent-outcomes-qwerty-effects-critical-junctures/latest.json"
     },
     {
       "name": "Pikuach Nefesh",
@@ -1502,6 +1642,20 @@
       "path": "skills/public-choice-theory-politics-as-exchange-among-self-interested-actors-rent-seeking/latest.json"
     },
     {
+      "name": "Queueing Theory Thinking | utilization vs latency, variability, Little's law intuitions",
+      "slug": "queueing-theory-thinking-utilization-vs-latency-variability-little-s-law-intuitions",
+      "version": 1,
+      "description": "Queueing Theory Thinking applies queueing intuitions to service, operations, software, support, healthcare, networks, and project flow: utilization, variability, arrival rates, service rates, queue discipline, and Little's law explain why small capacity margins can produce large delays.",
+      "domains": [
+        "operations",
+        "service-design",
+        "systems",
+        "software-delivery"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/queueing-theory-thinking-utilization-vs-latency-variability-little-s-law-intuitions/latest.json"
+    },
+    {
       "name": "Rationalism | Descartes/Spinoza/Leibniz: knowledge from reason, innate ideas, method of doubt",
       "slug": "rationalism-descartes-spinoza-leibniz-knowledge-from-reason-innate-ideas-method-of-doubt",
       "version": 1,
@@ -1572,6 +1726,20 @@
       "path": "skills/replication-and-robustness-thinking/latest.json"
     },
     {
+      "name": "Resilience Engineering | safety as adaptive capacity, work-as-done vs work-as-imagined",
+      "slug": "resilience-engineering-safety-as-adaptive-capacity-work-as-done-vs-work-as-imagined",
+      "version": 1,
+      "description": "Resilience Engineering is a safety framework that treats safety as adaptive capacity in complex socio-technical systems, emphasizing work-as-done versus work-as-imagined, performance variability, drift, and the capacities to monitor, respond, learn, and anticipate.",
+      "domains": [
+        "safety-science",
+        "systems-engineering",
+        "human-factors",
+        "organizational-risk"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/resilience-engineering-safety-as-adaptive-capacity-work-as-done-vs-work-as-imagined/latest.json"
+    },
+    {
       "name": "Robust Decision Making",
       "slug": "robust-decision-making",
       "version": 1,
@@ -1584,6 +1752,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/robust-decision-making/latest.json"
+    },
+    {
+      "name": "Root Cause Analysis",
+      "slug": "root-cause-analysis",
+      "version": 1,
+      "description": "Root Cause Analysis is a post-incident investigation framework for tracing an adverse event from immediate symptoms through causal chains to correctable physical, human, process, and systemic causes, using tools such as 5 Whys, fishbone diagrams, timelines, and corrective-action verification.",
+      "domains": [
+        "quality",
+        "operations",
+        "safety",
+        "organizational-learning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/root-cause-analysis/latest.json"
     },
     {
       "name": "Rule Consequentialism",
@@ -1626,6 +1808,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument/latest.json"
+    },
+    {
+      "name": "Second-Order Thinking | and-then-what: downstream and reflexive consequences",
+      "slug": "second-order-thinking-and-then-what-downstream-and-reflexive-consequences",
+      "version": 1,
+      "description": "Second-Order Thinking is the discipline of asking 'and then what?' before acting: it evaluates downstream, indirect, delayed, incentive, and reflexive consequences rather than stopping at immediate effects.",
+      "domains": [
+        "decision-making",
+        "strategy",
+        "policy",
+        "risk-analysis"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/second-order-thinking-and-then-what-downstream-and-reflexive-consequences/latest.json"
     },
     {
       "name": "Signaling Theory | costly signals as credibility (Spence, Zahavi handicap principle)",
@@ -1933,6 +2129,20 @@
       ],
       "review_status": "approved",
       "path": "skills/tikkun-olam/latest.json"
+    },
+    {
+      "name": "Tragedy of the Commons | Hardin: individually rational overuse of shared resources",
+      "slug": "tragedy-of-the-commons-hardin-individually-rational-overuse-of-shared-resources",
+      "version": 1,
+      "description": "Tragedy of the Commons is Garrett Hardin's framework for cases where individually rational use of an open-access shared resource produces collective overuse, depletion, or pollution because private benefits are concentrated while costs are shared.",
+      "domains": [
+        "environmental-policy",
+        "institutional-design",
+        "economics",
+        "collective-action"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/tragedy-of-the-commons-hardin-individually-rational-overuse-of-shared-resources/latest.json"
     },
     {
       "name": "TRIZ",

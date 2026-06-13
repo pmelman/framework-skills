@@ -1,0 +1,125 @@
+{
+  "name": "Margin of Safety",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Margin of Safety is a decision and design principle, central in value investing and engineering, that requires a deliberate buffer between estimated capacity or value and the demanded load, price, or exposure so errors, uncertainty, and adverse variation do not produce ruin.",
+  "domains": [
+    "engineering",
+    "investing",
+    "risk-management",
+    "decision-making"
+  ],
+  "when_to_use": [
+    "the estimate of value, load, demand, cost, or capacity is uncertain and errors could be costly",
+    "the downside of being wrong is asymmetric, irreversible, or ruinous",
+    "a plan appears acceptable only if forecasts, tolerances, or valuations are nearly exact",
+    "historical variation, model error, hidden defects, or adverse environments could push actual conditions beyond expected conditions",
+    "you need to decide how much discount, reserve, factor of safety, or slack is required before committing"
+  ],
+  "core_claims": [
+    "A decision can be rational only if it remains acceptable after allowing for meaningful error in the central estimate.",
+    "The required margin should increase with uncertainty, leverage, irreversibility, correlation, and severity of downside.",
+    "Paying exactly estimated intrinsic value, or designing exactly to expected load, converts ordinary estimation error into unacceptable risk.",
+    "Margin of safety is not the same as pessimism; it is a quantified buffer that permits favorable action only when the gap is large enough.",
+    "Buffers are most valuable when probabilities are hard to know but consequences of exceeding capacity are severe.",
+    "A margin that protects against independent small errors may fail under common-cause stress, regime change, fraud, or correlated assumptions.",
+    "The discipline is selective: when no adequate margin is available, the correct action is to pass, redesign, reduce exposure, or wait."
+  ],
+  "key_vocabulary": {
+    "Intrinsic value": "In value investing, an estimate of what a security or business is worth based on assets, earnings power, cash flows, or liquidation value.",
+    "Market price": "The price currently offered by the market. Margin of safety exists when price is sufficiently below conservative value.",
+    "Factor of safety": "In engineering, the ratio of capacity or strength to expected load or demand, chosen to cover uncertainty and variation.",
+    "Allowable stress": "A design limit set below material strength so that ordinary variation, defects, and loading uncertainty do not cause failure.",
+    "Reserve": "Extra capacity, cash, time, inventory, or structural strength held beyond the expected requirement.",
+    "Estimation error": "The gap between calculated value, load, or capacity and the true value revealed under real conditions.",
+    "Ruin risk": "A downside outcome that permanently impairs survival, solvency, safety, or mission continuity.",
+    "Conservatism": "The practice of using assumptions that intentionally lean against overvaluation or underdesign, especially where evidence is weak."
+  },
+  "operative_procedure": [
+    "Define the quantity being compared: intrinsic value versus price, capacity versus load, cash reserve versus drawdown, schedule versus required work, or collateral versus exposure.",
+    "Estimate the base case using conservative methods and show the assumptions that drive value, demand, strength, or cost.",
+    "Identify uncertainty sources: measurement error, model error, cyclicality, hidden defects, leverage, environmental stress, human behavior, and correlated shocks.",
+    "Assess downside severity and reversibility: distinguish tolerable underperformance from safety failure, insolvency, mission loss, or permanent capital loss.",
+    "Choose a required margin based on uncertainty and downside, such as a purchase discount, factor of safety, reserve ratio, stress-test buffer, or capacity slack.",
+    "Test the decision under adverse but plausible assumptions; ask whether the margin survives lower value, higher load, slower recovery, worse liquidity, or simultaneous errors.",
+    "Commit only if the observed margin exceeds the required margin after transaction costs, implementation limits, and hidden correlations.",
+    "If the margin is inadequate, reduce exposure, redesign, add capacity, hedge, gather better evidence, or decline the opportunity.",
+    "Monitor erosion of the margin as prices, loads, leverage, defects, volatility, or operating conditions change."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Benjamin Graham's value-investing practice favored buying securities at a large discount to conservatively estimated value, including net-current-asset stocks selling below liquidation-like asset values.",
+      "analysis": "The margin-of-safety analysis begins by estimating value conservatively rather than accepting market price as truth. If a company sells well below net current asset value after liabilities, the investor has a buffer against errors in asset valuation, business deterioration, and market volatility. The recommendation is not 'cheap stocks are good' but 'buy only when price is sufficiently below conservative value that ordinary mistakes are unlikely to cause permanent loss.' If the discount disappears or the balance sheet quality is doubtful, the margin is gone."
+    },
+    {
+      "problem": "Engineering design codes for structures, machines, and pressure vessels require allowable stresses or load factors so components are not designed merely to the expected working load.",
+      "analysis": "The engineering use computes expected loads and material capacity, then inserts a factor of safety because loads, materials, fabrication, corrosion, fatigue, and inspection are uncertain. A pressure vessel or bridge member that barely meets the nominal load has no protection against variance. Margin-of-safety reasoning lowers allowable stress or raises required capacity so the design can tolerate credible deviations before failure. If consequences are severe or uncertainty is high, the factor must be larger or the design must add redundancy, inspection, or redesign."
+    }
+  ],
+  "failure_modes": [
+    "False conservatism: assumptions are labeled conservative while several small optimistic assumptions compound into an inadequate buffer.",
+    "Overconfidence in intrinsic value: investors treat a precise valuation model as reliable enough that a nominal discount becomes a real margin.",
+    "Wasted slack: excessive buffers can make designs too heavy, capital too idle, schedules too slow, or portfolios too timid.",
+    "Correlation blindness: the same shock erodes value, liquidity, collateral, and cash flow at once, defeating margins calculated independently.",
+    "Static margin: a buffer that existed at purchase or design approval is not rechecked as price, leverage, corrosion, demand, or volatility changes.",
+    "Moral hazard: visible buffers invite managers, operators, or counterparties to consume the slack through riskier behavior."
+  ],
+  "scope_and_limits": "Margin of Safety is strongest where estimates are uncertain and downside is asymmetric: value investing, structural and mechanical design, leverage, reserves, schedules, capacity planning, and safety-critical commitments. It is less useful when upside opportunity requires speed and small reversible experiments, when the relevant uncertainty is not captured by a single capacity-demand comparison, or when added slack changes behavior enough to create new risk. It complements but does not replace probabilistic analysis, diversification, testing, and layered safeguards.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Benjamin Graham, The Intelligent Investor"
+    },
+    {
+      "kind": "primary",
+      "title": "Benjamin Graham and David L. Dodd, Security Analysis"
+    },
+    {
+      "kind": "primary",
+      "title": "Seth A. Klarman, Margin of Safety"
+    },
+    {
+      "kind": "secondary",
+      "title": "Budynas and Nisbett, Shigley's Mechanical Engineering Design"
+    },
+    {
+      "kind": "secondary",
+      "title": "Factor of safety (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Factor_of_safety"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Robust Decision Making",
+      "Minimax Regret",
+      "Expected-Value Reasoning",
+      "Defense in Depth"
+    ],
+    "ancestors": [
+      "Value Investing",
+      "Structural Engineering",
+      "Conservative Decision-Making"
+    ],
+    "descendants": [
+      "Value at Risk Limits",
+      "Stress Testing",
+      "Load and Resistance Factor Design"
+    ],
+    "rivals": [
+      "Expected Utility Theory",
+      "Kelly Criterion",
+      "Optimization",
+      "Just-in-Time"
+    ],
+    "composes_with": [
+      "Failure Mode and Effects Analysis",
+      "Defense in Depth",
+      "Robust Decision Making",
+      "Inversion"
+    ]
+  },
+  "built_at": "2026-06-13T03:21:28Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Graham and Dodd value investing, Klarman's Margin of Safety, engineering factor-of-safety practice, and named design sources, without fetched source text."
+}
