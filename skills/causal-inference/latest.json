@@ -1,0 +1,127 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:10+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Pearl's sprinkler graph separates observation from intervention. Rain causes wet grass and also affects whether the sprinkler is on; the sprinkler causes wet grass. Observing the sprinkler is on changes beliefs about rain and therefore about wet grass through ordinary conditioning. Intervening with do(Sprinkler=on) cuts incoming arrows into the sprinkler, so the causal question is evaluated in a modified graph where the sprinkler is set externally. The result is not P(Wet grass | Sprinkler=on) but P(Wet grass | do(Sprinkler=on)).",
+      "problem": "In Pearl's standard sprinkler example, rain influences both the sprinkler and wet grass, and the sprinkler also influences wet grass. What is the effect of turning the sprinkler on?"
+    },
+    {
+      "analysis": "The graph is Smoking -> Tar -> Cancer and Smoking -> Cancer. Tar mediates part of smoking's effect on cancer while smoking also has a direct path. To estimate the total effect of smoking on cancer, do not condition on tar, because that blocks a causal pathway whose contribution belongs in the total effect. To estimate the direct effect not through tar, compare worlds where smoking is set while tar is held fixed; that is a controlled direct effect. The framework forces the analyst to specify which causal estimand is meant before adjusting.",
+      "problem": "Pearl uses smoking, tar deposits, and lung cancer to distinguish total causal effects from direct and mediated effects."
+    }
+  ],
+  "core_claims": [
+    "Causal claims are not determined by joint probability distributions alone; they require assumptions about interventions encoded in a causal model.",
+    "The effect of X on Y is represented by an intervention distribution P(Y | do(X=x)), which generally differs from the observational conditional P(Y | X=x).",
+    "Directed acyclic graphs make causal assumptions explicit by representing direct causal relations and implied conditional independencies.",
+    "Confounding arises when an open back-door path connects treatment to outcome; valid adjustment blocks noncausal paths without blocking causal pathways or opening colliders.",
+    "The do-calculus gives formal rules for transforming some interventional queries into estimable observational quantities under graphical assumptions.",
+    "Counterfactuals require a structural causal model with equations and exogenous variables, not only a graph or regression equation.",
+    "Identification is prior to estimation: no amount of sample size or statistical sophistication estimates a causal effect that the assumed graph does not identify."
+  ],
+  "description": "Causal Inference in Pearl's structural causal model tradition uses directed acyclic graphs, interventions, the do-operator, and counterfactual semantics to distinguish causal effects from association and to determine when causal questions are identifiable from data.",
+  "domains": [
+    "statistics",
+    "causal-reasoning",
+    "social-science",
+    "machine-learning"
+  ],
+  "failure_modes": [
+    "Graph laundering: drawing a DAG can make speculative causal assumptions look objective; the result is only as credible as the substantive knowledge behind the graph.",
+    "Overadjustment: controlling for mediators, colliders, or descendants of colliders can bias an estimate that would have been less biased unadjusted.",
+    "Identification-estimation confusion: analysts may report precise coefficients for a quantity that is not the causal estimand or is not identifiable under the graph.",
+    "Acyclic simplification: feedback systems, equilibrium behavior, and time-varying treatments can be distorted if forced into a static DAG without care.",
+    "Transportability neglect: an effect identified in one population or experimental regime may not transport to another without additional assumptions."
+  ],
+  "key_vocabulary": {
+    "Back-door criterion": "A graphical condition for valid covariate adjustment: block all noncausal paths from treatment to outcome that enter the treatment through an arrow into it, without conditioning on inappropriate variables.",
+    "Collider": "A variable caused by two other variables on a path. Conditioning on a collider can open a spurious association between its causes.",
+    "Confounder": "A common cause of treatment and outcome that creates association not due to the treatment's causal effect.",
+    "Counterfactual": "A claim about what would have happened to the same unit under a different intervention, evaluated through a structural causal model.",
+    "DAG": "A directed acyclic graph whose arrows encode assumed direct causal relations and whose missing arrows encode substantive exclusions.",
+    "Do-operator": "Pearl's notation do(X=x) for an intervention that sets X to x and cuts the usual causes of X in the model.",
+    "Front-door criterion": "An identification strategy using a mediator that intercepts all directed paths from treatment to outcome under specific no-unblocked-back-door conditions.",
+    "Identifiability": "The property that a causal quantity can be uniquely computed from the observed data distribution plus the stated causal assumptions.",
+    "Structural causal model": "A model with variables, directed relations, exogenous disturbances, and structural equations that define interventions and counterfactuals."
+  },
+  "name": "Causal Inference",
+  "operative_procedure": [
+    "State the causal query as an estimand. Specify whether the target is a total effect, direct effect, mediated effect, policy intervention, or counterfactual probability, using do-operator language where appropriate.",
+    "Define units, variables, timing, and treatment versions. Make clear what counts as X, Y, covariates, mediators, colliders, and possible outcomes over time.",
+    "Draw the DAG from substantive assumptions. Include common causes, mediators, selection variables, and arrows required by temporal and domain knowledge; treat missing arrows as explicit assumptions.",
+    "Read the graph for open paths. Identify directed causal paths from treatment to outcome, back-door paths, colliders, and variables that should not be conditioned on.",
+    "Choose an identification strategy. Apply the back-door criterion, front-door criterion, instrumental-variable logic, randomized intervention, or do-calculus transformation as the graph permits.",
+    "Translate the identified estimand into an estimable statistical quantity. Write the adjustment formula or other functional of the observed distribution before choosing a model.",
+    "Estimate and diagnose. Fit an appropriate statistical model, check positivity, measurement quality, model sensitivity, and whether adjustment variables are measured before treatment.",
+    "Answer counterfactual questions with structural assumptions. For individual-level 'what if' claims, specify or acknowledge the required structural equations and exogenous terms.",
+    "Report assumptions separately from estimates. Explain which arrows, exclusions, and adjustment choices drive the conclusion and how the answer would change under plausible rival graphs."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Probability theory",
+      "Structural equation modeling",
+      "Potential Outcomes Framework",
+      "Bayesian networks"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Counterfactual Reasoning",
+      "Decision Theory",
+      "Replication and Robustness Thinking"
+    ],
+    "descendants": [
+      "Do-Calculus",
+      "Causal Discovery",
+      "Transportability Theory",
+      "Mediation Analysis"
+    ],
+    "related": [
+      "Counterfactual Reasoning",
+      "Bayesian Epistemology",
+      "Systems Thinking",
+      "Strong Inference"
+    ],
+    "rivals": [
+      "Pure Prediction",
+      "Frequentist Regression Modeling",
+      "Rubin Causal Model",
+      "Inference to the Best Explanation"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Pearl-style causal inference is strongest when the analyst can state credible causal assumptions, temporal ordering, and a target intervention. It is indispensable for distinguishing association from effect, but it does not discover causality by notation alone. Its limits include dependence on untestable graphical assumptions, difficulty with poorly defined treatments, feedback loops, measurement error, and transport across populations.",
+  "source_summary": "Authored from model knowledge of Pearl's Causality, The Book of Why, Probabilistic Reasoning in Intelligent Systems, and standard causal graph literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Judea Pearl, Causality: Models, Reasoning, and Inference (2000; 2nd ed. 2009)"
+    },
+    {
+      "kind": "primary",
+      "title": "Judea Pearl, Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference (1988)"
+    },
+    {
+      "kind": "primary",
+      "title": "Judea Pearl and Dana Mackenzie, The Book of Why: The New Science of Cause and Effect (2018)"
+    },
+    {
+      "kind": "primary",
+      "title": "Judea Pearl, 'Causal Diagrams for Empirical Research,' Biometrika (1995)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Causal Inference (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Causal_inference"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need to distinguish whether X causes Y rather than merely predicts or correlates with Y",
+    "observational data may contain confounding, selection effects, mediation, or collider bias",
+    "a policy, experiment, or product change asks what would happen under an intervention",
+    "different adjustment sets could reverse or distort the estimated effect",
+    "the question involves counterfactuals about what would have happened under a different treatment"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:10+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The Fermi move is to decompose an unknown count into rough factors: Chicago population, fraction of households with pianos, tuning frequency per piano per year, workdays per tuner, and tunings per tuner per day. Plausible round numbers might be 3 million people, 3 people per household, 1 piano per 20 households, 1 tuning per piano per year, 250 workdays, and 4 tunings per day. That gives about 50,000 tunings per year and about 1,000 tunings per tuner per year, or roughly 50 piano tuners. The point is not exactness but a transparent order-of-magnitude answer.",
+      "problem": "The classic Fermi problem asks: how many piano tuners are there in Chicago?"
+    },
+    {
+      "analysis": "Fermi estimated the bomb's energy by turning a qualitative physical event into a rough measurement. He released small paper scraps as the shock wave passed, observed how far they moved, and used the displacement, estimated air density, and blast-wave reasoning to infer an order-of-magnitude yield. His estimate was close enough to the later instrumented result to demonstrate the framework's power: exploit a simple observable, approximate the governing relation, and compute a bounded magnitude quickly.",
+      "problem": "At the Trinity nuclear test, Enrico Fermi famously estimated the blast yield by observing the displacement of falling paper scraps."
+    }
+  ],
+  "core_claims": [
+    "Many seemingly unknowable quantities can be estimated within an order of magnitude by decomposing them into easier factors.",
+    "A transparent chain of rough estimates is often more decision-useful than an opaque precise number produced by a black-box model.",
+    "Errors in independent multiplicative factors partly cancel on a logarithmic scale, making rough products surprisingly informative.",
+    "The correct first target under ignorance is usually scale, not exact value; distinguishing 10^3 from 10^6 can settle many decisions.",
+    "Physical units and dimensional consistency are strong error detectors in approximate reasoning.",
+    "Explicit assumptions make ignorance auditable: the estimate improves fastest by replacing the most sensitive guessed factor with evidence.",
+    "Round numbers are a feature, not a defect, when precision would falsely imply knowledge the estimator does not have."
+  ],
+  "description": "Fermi Estimation is an order-of-magnitude reasoning method that answers hard quantitative questions by decomposing an unknown into simpler factors, assigning rough but defensible values, and checking the resulting scale.",
+  "domains": [
+    "quantitative-reasoning",
+    "decision-making",
+    "science",
+    "engineering"
+  ],
+  "failure_modes": [
+    "Correlated errors: if all guessed factors lean in the same direction because of a shared bad assumption, multiplication amplifies rather than cancels error.",
+    "False confidence from neat arithmetic: a clean estimate can hide wild uncertainty if ranges and sensitivity are not reported.",
+    "Bad decomposition: choosing factors that are not exhaustive, overlap, or miss a binding constraint can produce a plausible but wrong magnitude.",
+    "Ignoring heavy tails: averages are misleading when a distribution is dominated by rare extreme cases, such as wealth, city size, or catastrophic risk.",
+    "Unit slippage: mixing incompatible units or time bases can silently destroy the estimate."
+  ],
+  "key_vocabulary": {
+    "Back-of-the-envelope calculation": "A quick, approximate computation intended to reveal scale and feasibility rather than exact truth.",
+    "Bounding": "Using plausible upper and lower limits to constrain an unknown quantity and test whether the answer is stable enough for the decision.",
+    "Dimensional analysis": "Checking that the units in a calculation combine to the unit required by the question; often used to catch structural mistakes.",
+    "Factor decomposition": "Breaking an unknown quantity into a product or sum of easier-to-estimate quantities.",
+    "Geometric mean": "A central value for multiplicative estimates and ranges; often better than the arithmetic mean for order-of-magnitude reasoning.",
+    "Order of magnitude": "A power-of-ten scale. Being right within one order of magnitude usually means being within about a factor of ten.",
+    "Reference class": "A comparable class of known cases used to anchor a rough estimate.",
+    "Sensitivity analysis": "Varying each assumption to identify which guessed factor most affects the final estimate.",
+    "Sanity check": "An independent test of whether the answer is plausible, often using another decomposition or known benchmark."
+  },
+  "name": "Fermi Estimation",
+  "operative_procedure": [
+    "State the unknown with units. Write the target quantity, geography, time period, and desired order of magnitude before estimating.",
+    "Choose a decomposition. Express the unknown as a product, sum, flow, stock, or rate equation whose factors are easier to estimate.",
+    "Assign round values or ranges. Use powers of ten, simple fractions, reference classes, and everyday anchors; prefer explicit roughness over spurious precision.",
+    "Carry units through the calculation. Cancel units step by step to ensure the decomposition actually produces the target quantity.",
+    "Compute the central estimate. Multiply or add the factors, rounding aggressively and keeping only significant scale information.",
+    "Bound the answer. Recalculate with optimistic and pessimistic plausible values, preferably using logarithmic ranges for multiplicative factors.",
+    "Run an independent sanity check. Use a different decomposition, known benchmark, conservation constraint, or per-capita comparison to see whether the magnitude agrees.",
+    "Identify sensitivity. Name the one or two assumptions whose replacement with real data would most improve the estimate.",
+    "Report the result as a range and decision implication. Say what order of magnitude is likely and whether that is enough to answer the practical question."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Dimensional Analysis",
+      "Scientific Estimation",
+      "Engineering Approximation",
+      "Mental Calculation"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Decision Theory",
+      "First-Principles Reasoning",
+      "Occam's Razor"
+    ],
+    "descendants": [
+      "Back-of-the-Envelope Calculation",
+      "Market Sizing",
+      "Reference Class Forecasting",
+      "Guesstimation"
+    ],
+    "related": [
+      "First-Principles Reasoning",
+      "The Map-Territory Distinction",
+      "Systems Thinking",
+      "Decision Theory"
+    ],
+    "rivals": [
+      "Detailed Simulation",
+      "Exact Enumeration",
+      "Pure Intuition",
+      "Econometric Forecasting"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Fermi Estimation is strongest for quick feasibility checks, market sizing, scientific approximations, and prioritization under limited information. It is weak when the answer depends on legal definitions, exact counts, discontinuities, adversarial behavior, or tail-dominated distributions. It should be treated as a scale-finding instrument, not a substitute for measurement when decisions require precision.",
+  "source_summary": "Authored from model knowledge of Enrico Fermi's estimation practice, classic Fermi problems, and later guesstimation pedagogy, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Enrico Fermi, collected accounts of the Trinity test paper-scrap yield estimate"
+    },
+    {
+      "kind": "secondary",
+      "title": "Hans Christian von Baeyer, The Fermi Solution: Essays on Science (1993)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Lawrence Weinstein and John A. Adam, Guesstimation: Solving the World's Problems on the Back of a Cocktail Napkin (2008)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Fermi problem (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fermi_problem"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need a quantitative answer but direct data are missing, expensive, or too slow to obtain",
+    "the decision only requires knowing the rough scale, feasibility, or dominant driver",
+    "a problem seems unknowable until broken into population, rate, frequency, area, or unit-cost factors",
+    "a precise model or forecast would create false confidence because inputs are mostly guesses",
+    "you need to audit whether a claimed number is even plausible"
+  ]
+}

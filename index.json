@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T01:55:44Z",
+  "generated_at": "2026-06-13T02:47:00Z",
   "skills": [
     {
       "name": "Advaita Vedanta",
@@ -45,6 +45,20 @@
       "path": "skills/anekantavada/latest.json"
     },
     {
+      "name": "Antifragility",
+      "slug": "antifragility",
+      "version": 1,
+      "description": "Antifragility is Nassim Nicholas Taleb's framework for identifying and designing systems that benefit from volatility, stressors, errors, variation, and time because their payoff to disorder is convex rather than merely robust.",
+      "domains": [
+        "risk",
+        "systems-thinking",
+        "decision-theory",
+        "strategy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/antifragility/latest.json"
+    },
+    {
       "name": "Aristotelian Virtue Ethics",
       "slug": "aristotelian-virtue-ethics",
       "version": 1,
@@ -86,6 +100,34 @@
       "path": "skills/bayesian-epistemology/latest.json"
     },
     {
+      "name": "Causal Inference",
+      "slug": "causal-inference",
+      "version": 1,
+      "description": "Causal Inference in Pearl's structural causal model tradition uses directed acyclic graphs, interventions, the do-operator, and counterfactual semantics to distinguish causal effects from association and to determine when causal questions are identifiable from data.",
+      "domains": [
+        "statistics",
+        "causal-reasoning",
+        "social-science",
+        "machine-learning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/causal-inference/latest.json"
+    },
+    {
+      "name": "Chesterton's Fence",
+      "slug": "chesterton-s-fence",
+      "version": 1,
+      "description": "Chesterton's Fence is a conservative-reform heuristic: before abolishing a rule, institution, or constraint that seems pointless, understand what function it served and what problem its removal may revive.",
+      "domains": [
+        "policy",
+        "institutional-design",
+        "risk-analysis",
+        "organizational-change"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/chesterton-s-fence/latest.json"
+    },
+    {
       "name": "Conceptual Analysis",
       "slug": "conceptual-analysis",
       "version": 1,
@@ -112,6 +154,20 @@
       ],
       "review_status": "approved",
       "path": "skills/confucian-ren-and-li/latest.json"
+    },
+    {
+      "name": "Control Theory Thinking",
+      "slug": "control-theory-thinking",
+      "version": 1,
+      "description": "Control Theory Thinking analyzes systems as feedback loops with setpoints, sensors, error signals, actuators, delays, gains, disturbances, and stability constraints.",
+      "domains": [
+        "systems",
+        "engineering",
+        "operations",
+        "organizational-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/control-theory-thinking/latest.json"
     },
     {
       "name": "Counterfactual Reasoning",
@@ -170,6 +226,34 @@
       "path": "skills/dependent-origination/latest.json"
     },
     {
+      "name": "Double-Loop Learning",
+      "slug": "double-loop-learning",
+      "version": 1,
+      "description": "Double-Loop Learning is Chris Argyris and Donald Schon's framework for distinguishing ordinary error correction within existing governing assumptions from deeper learning that questions and revises those assumptions themselves.",
+      "domains": [
+        "organizational-learning",
+        "management",
+        "systems-thinking",
+        "education"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/double-loop-learning/latest.json"
+    },
+    {
+      "name": "Expected-Value Reasoning",
+      "slug": "expected-value-reasoning",
+      "version": 1,
+      "description": "Expected-Value Reasoning evaluates risky choices by multiplying each possible outcome's payoff by its probability and comparing the resulting weighted sums, with explicit attention to rare but high-impact tail outcomes.",
+      "domains": [
+        "decision-theory",
+        "risk-analysis",
+        "economics",
+        "policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/expected-value-reasoning/latest.json"
+    },
+    {
       "name": "Fallacy Analysis",
       "slug": "fallacy-analysis",
       "version": 1,
@@ -196,6 +280,20 @@
       ],
       "review_status": "approved",
       "path": "skills/falsificationism/latest.json"
+    },
+    {
+      "name": "Fermi Estimation",
+      "slug": "fermi-estimation",
+      "version": 1,
+      "description": "Fermi Estimation is an order-of-magnitude reasoning method that answers hard quantitative questions by decomposing an unknown into simpler factors, assigning rough but defensible values, and checking the resulting scale.",
+      "domains": [
+        "quantitative-reasoning",
+        "decision-making",
+        "science",
+        "engineering"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/fermi-estimation/latest.json"
     },
     {
       "name": "First-Principles Reasoning",
@@ -294,6 +392,20 @@
       ],
       "review_status": "approved",
       "path": "skills/inference-to-the-best-explanation/latest.json"
+    },
+    {
+      "name": "Jobs-to-be-Done",
+      "slug": "jobs-to-be-done",
+      "version": 1,
+      "description": "Jobs-to-be-Done is Clayton Christensen's demand-side innovation framework: customers 'hire' products and services to accomplish progress in specific circumstances, so product strategy should be organized around the job rather than the buyer category or product category.",
+      "domains": [
+        "innovation",
+        "product-strategy",
+        "marketing",
+        "entrepreneurship"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/jobs-to-be-done/latest.json"
     },
     {
       "name": "Just War Theory",
@@ -449,6 +561,20 @@
       "path": "skills/ordinary-language-philosophy/latest.json"
     },
     {
+      "name": "Overton Window",
+      "slug": "overton-window",
+      "version": 1,
+      "description": "The Overton Window is a political strategy framework describing the range of policy ideas that are publicly acceptable enough for officials to support, and how advocacy, events, and institutions can shift that range over time.",
+      "domains": [
+        "political-strategy",
+        "public-policy",
+        "social-change",
+        "communications"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/overton-window/latest.json"
+    },
+    {
       "name": "Pascal's Wager",
       "slug": "pascal-s-wager",
       "version": 1,
@@ -491,6 +617,34 @@
       "path": "skills/pragmatism/latest.json"
     },
     {
+      "name": "Pre-mortem",
+      "slug": "pre-mortem",
+      "version": 1,
+      "description": "Pre-mortem is Gary Klein's prospective-hindsight technique: before committing to a plan, assume it has failed disastrously and ask the team to explain why so latent risks can be surfaced and mitigated.",
+      "domains": [
+        "decision-making",
+        "project-management",
+        "risk-analysis",
+        "organizational-learning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/pre-mortem/latest.json"
+    },
+    {
+      "name": "Principal-Agent Analysis",
+      "slug": "principal-agent-analysis",
+      "version": 1,
+      "description": "Principal-Agent Analysis examines delegation under incentive conflict and information asymmetry, explaining how principals can design contracts, monitoring, governance, and accountability mechanisms to reduce agency costs.",
+      "domains": [
+        "economics",
+        "organizational-design",
+        "governance",
+        "contract-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/principal-agent-analysis/latest.json"
+    },
+    {
       "name": "Principle of Charity",
       "slug": "principle-of-charity",
       "version": 1,
@@ -505,6 +659,20 @@
       "path": "skills/principle-of-charity/latest.json"
     },
     {
+      "name": "Red Teaming",
+      "slug": "red-teaming",
+      "version": 1,
+      "description": "Red Teaming is an institutionalized adversarial practice in which an independent group attacks a plan, system, or belief from the perspective of an opponent or failure agent to expose vulnerabilities before commitment.",
+      "domains": [
+        "strategy",
+        "security",
+        "intelligence-analysis",
+        "organizational-decision-making"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/red-teaming/latest.json"
+    },
+    {
       "name": "Reflective Equilibrium",
       "slug": "reflective-equilibrium",
       "version": 1,
@@ -517,6 +685,34 @@
       ],
       "review_status": "approved",
       "path": "skills/reflective-equilibrium/latest.json"
+    },
+    {
+      "name": "Replication and Robustness Thinking",
+      "slug": "replication-and-robustness-thinking",
+      "version": 1,
+      "description": "Replication and Robustness Thinking evaluates whether empirical claims hold across independent repeats, datasets, methods, analytic specifications, laboratories, and populations, treating single findings as fragile until their stability and boundary conditions are known.",
+      "domains": [
+        "scientific-method",
+        "statistics",
+        "research-design",
+        "evidence-evaluation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/replication-and-robustness-thinking/latest.json"
+    },
+    {
+      "name": "Strong Inference",
+      "slug": "strong-inference",
+      "version": 1,
+      "description": "Strong Inference is John R. Platt's scientific method of formulating multiple alternative hypotheses, devising crucial experiments that exclude some of them, and iterating the process as a branching program of inquiry.",
+      "domains": [
+        "scientific-method",
+        "research-design",
+        "epistemology",
+        "experimental-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/strong-inference/latest.json"
     },
     {
       "name": "Sufism",
@@ -712,6 +908,20 @@
       ],
       "review_status": "approved",
       "path": "skills/tikkun-olam/latest.json"
+    },
+    {
+      "name": "TRIZ",
+      "slug": "triz",
+      "version": 1,
+      "description": "TRIZ is Genrich Altshuller's theory of inventive problem solving, using contradiction analysis, ideality, resources, and recurring inventive principles to generate non-compromise technical solutions.",
+      "domains": [
+        "engineering",
+        "innovation",
+        "product-design",
+        "problem-solving"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/triz/latest.json"
     },
     {
       "name": "Utilitarianism",

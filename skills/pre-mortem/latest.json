@@ -1,0 +1,116 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:13Z",
+  "canonical_examples": [
+    {
+      "analysis": "Klein's procedure asks the project team to imagine that the planned project has ended in a fiasco and to write down why. Prospective hindsight changes the social and cognitive task: people are no longer disloyal skeptics but historians explaining an already-known failure. The analysis then clusters reasons such as schedule fantasy, missing expertise, technical dependencies, and stakeholder resistance, and converts the most diagnostic causes into plan revisions or tripwires. The distinctive move is assuming failure first, then explaining it, rather than asking neutrally whether the plan might fail.",
+      "problem": "Gary Klein introduces the pre-mortem for a team about to launch a project that members privately suspect may be riskier than the official plan admits."
+    },
+    {
+      "analysis": "Kahneman describes asking a team to imagine, before final approval, that their plan has failed badly one year later and to write a brief history of the disaster. The exercise counters planning fallacy and group overconfidence by legitimizing private doubts before commitment. A framework-shaped analysis would collect independent failure stories, look for recurring causes such as underestimated integration work or weak demand, and amend the plan before approval. The pre-mortem is valuable precisely because it happens while the decision is still changeable.",
+      "problem": "Daniel Kahneman recommends a pre-mortem as a debiasing device when an organization is about to approve an important plan."
+    }
+  ],
+  "core_claims": [
+    "Assuming that a plan has already failed elicits different and often better evidence than asking whether it might fail.",
+    "Prospective hindsight reduces the social cost of dissent because criticism becomes an explanation of an imagined fact rather than opposition to the current proposal.",
+    "Independent first-pass failure stories are more informative than group brainstorming because they preserve weak signals and minority concerns.",
+    "The output should be a ranked set of plausible failure causes, early warning indicators, and plan changes, not a morale-lowering list of worries.",
+    "Pre-mortems are most valuable before commitment, when imagined failure can still alter scope, sequencing, staffing, reserves, or cancellation criteria.",
+    "The method specifically targets overconfidence, planning fallacy, and groupthink in project and strategy decisions."
+  ],
+  "description": "Pre-mortem is Gary Klein's prospective-hindsight technique: before committing to a plan, assume it has failed disastrously and ask the team to explain why so latent risks can be surfaced and mitigated.",
+  "domains": [
+    "decision-making",
+    "project-management",
+    "risk-analysis",
+    "organizational-learning"
+  ],
+  "failure_modes": [
+    "Generic pessimism: the team produces a broad worry list without causal specificity, probability, ownership, or mitigations.",
+    "Social filtering: participants still suppress politically sensitive failure causes unless responses are independent or psychologically safe.",
+    "No plan change: the exercise identifies real risks but leaves budget, schedule, staffing, scope, and kill criteria untouched.",
+    "Availability bias: vivid recent failures dominate the imagined postmortem even when the current plan has different risk structure.",
+    "Demoralization: if facilitated poorly, the pre-mortem can feel like ritual negativity rather than a practical design-improvement step."
+  ],
+  "key_vocabulary": {
+    "Early warning indicator": "An observable signal that a pre-mortem failure path is beginning to materialize.",
+    "Failure cause": "A specific mechanism that could plausibly produce the imagined fiasco, stated causally rather than as a vague concern.",
+    "Kill criterion": "A pre-agreed condition under which the project should be stopped, paused, or radically changed.",
+    "Planning fallacy": "The tendency to underestimate time, cost, and difficulty despite knowing similar efforts often overrun.",
+    "Prospective hindsight": "Imagining that a future event has already occurred and explaining it as history, which improves generation of relevant causes.",
+    "Risk owner": "The person or role accountable for monitoring a failure path and executing the mitigation or contingency.",
+    "Tripwire": "A threshold or signal that triggers review, escalation, contingency action, or cancellation."
+  },
+  "name": "Pre-mortem",
+  "operative_procedure": [
+    "State the plan, decision date, success criteria, and assumed operating environment clearly enough that failure has a concrete referent.",
+    "Create the prospective-hindsight prompt: 'It is a specified future date; this plan has failed badly. What happened?'",
+    "Have participants independently write failure narratives or cause lists before discussion, preserving private doubts and minority evidence.",
+    "Collect all causes without defending the plan, then cluster them into causal categories such as demand, execution, incentives, dependencies, technical feasibility, timing, and governance.",
+    "Identify the most plausible and highest-impact failure paths, distinguishing root causes from symptoms and downstream consequences.",
+    "For each priority path, define mitigations, contingencies, risk owners, early warning indicators, and tripwires.",
+    "Revise the plan: change scope, schedule, staffing, budget, sequencing, assumptions, communication, or kill criteria based on the findings.",
+    "Record residual risks that are consciously accepted and specify when the pre-mortem should be repeated as conditions change."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Naturalistic Decision Making",
+      "Prospective Hindsight",
+      "Postmortem Analysis"
+    ],
+    "composes_with": [
+      "Red Teaming",
+      "Expected-Value Reasoning",
+      "OODA Loop",
+      "Theory of Constraints"
+    ],
+    "descendants": [
+      "Project Risk Workshop",
+      "Failure Mode and Effects Analysis",
+      "Kill Criteria Planning"
+    ],
+    "related": [
+      "Counterfactual Reasoning",
+      "Fallacy Analysis",
+      "Systems Thinking",
+      "Decision Theory"
+    ],
+    "rivals": [
+      "Appreciative Inquiry",
+      "Best-Case Planning",
+      "Consensus Decision-Making",
+      "Design Thinking"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Pre-mortem is strongest for project approvals, strategy launches, product bets, migrations, and organizational initiatives where insiders hold dispersed doubts before commitment. It is not a full probabilistic risk model, adversary simulation, or engineering reliability method. It depends on participant knowledge and candor, and it can miss risks outside the team's experience or incentives.",
+  "source_summary": "Authored from model knowledge of Gary Klein's prospective-hindsight pre-mortem, Kahneman's debiasing discussion, and naturalistic decision-making literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Gary Klein, 'Performing a Project Premortem,' Harvard Business Review (2007)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel Kahneman, Thinking, Fast and Slow"
+    },
+    {
+      "kind": "primary",
+      "title": "Deborah J. Mitchell, J. Edward Russo, and Nancy Pennington, 'Back to the Future: Temporal Perspective in the Explanation of Events' (1989)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Gary Klein, Sources of Power: How People Make Decisions"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a project or strategy is about to be approved and failure would be costly",
+    "team members have private doubts but the meeting dynamic rewards confidence and alignment",
+    "the plan depends on optimistic assumptions about schedule, adoption, coordination, or technical feasibility",
+    "you need actionable failure paths, warning indicators, and mitigations before commitment",
+    "a previous postmortem would be useful, but waiting until after failure would be too expensive"
+  ]
+}

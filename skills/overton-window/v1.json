@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:17Z",
+  "canonical_examples": [
+    {
+      "analysis": "Lehman presented the window as a range of education-policy options a public official could support without losing viability. On schooling, proposals may range from no government schools through parental choice, charter schools, public-school reform, and compulsory state monopoly. The officeholder's practical menu is not the full ideological spectrum but the segment voters, donors, media, and institutions currently treat as acceptable. Advocacy can shift that menu, but the elected official is constrained by the window at the time of decision.",
+      "problem": "Joseph Overton and the Mackinac Center used school-choice policy to explain why politicians support only a subset of possible education reforms."
+    },
+    {
+      "analysis": "Same-sex marriage illustrates a major window shift. In much of U.S. politics in the 1990s, legal recognition was outside mainstream acceptability; civil unions later became a more discussable intermediate position; by the 2010s, marriage equality moved into the acceptable and then policy-enacted range, culminating in Obergefell v. Hodges in 2015. The framework tracks not the moral truth of the claim but its movement through public acceptability, coalition support, elite cues, court action, and electoral risk.",
+      "problem": "U.S. public and legal acceptance of same-sex marriage changed from politically marginal to nationally recognized over roughly two decades."
+    }
+  ],
+  "core_claims": [
+    "Politicians are constrained less by the total range of imaginable policy ideas than by the narrower range currently perceived as publicly acceptable.",
+    "Policy change often requires shifting the range of acceptable discourse before officeholders can safely enact the desired policy.",
+    "Ideas can move through recognizable zones such as unthinkable, radical, acceptable, sensible, popular, and policy.",
+    "Advocates outside the current window can alter the political cost of adjacent ideas by making them seem moderate, necessary, or inevitable.",
+    "The window is issue-specific and audience-specific; an idea can be acceptable in one jurisdiction, party, profession, or media ecosystem and toxic in another.",
+    "Elected officials usually follow rather than create the window, while activists, intellectuals, media, crises, and institutions often do more to shift it.",
+    "A crisis can rapidly move policies into acceptability that would otherwise have remained politically impossible."
+  ],
+  "description": "The Overton Window is a political strategy framework describing the range of policy ideas that are publicly acceptable enough for officials to support, and how advocacy, events, and institutions can shift that range over time.",
+  "domains": [
+    "political-strategy",
+    "public-policy",
+    "social-change",
+    "communications"
+  ],
+  "failure_modes": [
+    "It can encourage performative extremism: saying shocking things in the hope of moving the window without building institutions or persuasion capacity.",
+    "Practitioners may treat acceptability as a single national scale, ignoring local, partisan, class, professional, or institutional windows.",
+    "The framework can mistake media salience for durable acceptability; an idea can be highly discussed and still electorally toxic.",
+    "It may underplay material interests, veto points, courts, bureaucracy, and implementation capacity after an idea becomes acceptable.",
+    "Window-shifting can backfire by mobilizing opposition, making adjacent reforms seem more threatening rather than more reasonable."
+  ],
+  "key_vocabulary": {
+    "Acceptability": "The degree to which a policy can be publicly supported without unacceptable political, social, or institutional cost.",
+    "Adjacent possible": "A nearby position just outside or at the edge of current acceptability that advocates may try to normalize next.",
+    "Framing": "The language and narrative that make a proposal appear radical, sensible, popular, necessary, or dangerous.",
+    "Policy window": "The subset of possible policy options that officials can realistically support at a given time for a given audience.",
+    "Window shift": "A change in the boundaries of acceptability, caused by advocacy, elite endorsement, crisis, generational replacement, evidence, or institutional action.",
+    "Zones of acceptance": "The rough sequence often described as unthinkable, radical, acceptable, sensible, popular, and policy.",
+    "Political viability": "The ability of an official or institution to support an idea while retaining office, legitimacy, coalition support, or operating authority."
+  },
+  "name": "Overton Window",
+  "operative_procedure": [
+    "Define the policy issue and the specific audience whose acceptability boundary matters: electorate, party, legislature, court, profession, media sphere, or institution.",
+    "Map the full spectrum of proposals from most restrictive to most permissive, or from status quo to most transformative.",
+    "Classify each proposal's current zone: unthinkable, radical, acceptable, sensible, popular, or enacted policy, using evidence from polling, elite statements, media treatment, donor behavior, and electoral consequences.",
+    "Locate the current window: the range a viable official or institution can support without prohibitive cost.",
+    "Identify boundary mechanisms: taboos, interest groups, legal constraints, party coalitions, moral frames, crises, and trusted validators that hold the window in place.",
+    "Choose a shift strategy: normalize an adjacent idea, reframe the problem, introduce credible messengers, exploit a focusing event, split opposition, or make the status quo look extreme.",
+    "Assess backlash risk by asking who is threatened, what countermobilization is likely, and whether the target audience will see the move as sensible or manipulative.",
+    "Translate shifted acceptability into policy only after checking institutional veto points, implementation capacity, and coalition durability."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Public Choice Theory",
+      "Agenda-Setting Theory",
+      "Framing Theory",
+      "Policy Process Theory"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Systems Thinking",
+      "Principal-Agent Analysis",
+      "Pragmatism"
+    ],
+    "descendants": [
+      "Window-Shifting Strategy",
+      "Policy Entrepreneurship",
+      "Narrative Policy Framework",
+      "Advocacy Coalition Framework"
+    ],
+    "related": [
+      "Pragmatism",
+      "Game Theory",
+      "Systems Thinking",
+      "Utilitarianism"
+    ],
+    "rivals": [
+      "Median Voter Theorem",
+      "Technocracy",
+      "Rational Choice Institutionalism",
+      "Elite Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Overton Window is strongest for political communication, advocacy strategy, and explaining why imaginable policies are not yet viable. It is not a theory of policy merit, justice, or implementation, and it can mislead when acceptability is less important than law, coercive power, bureaucratic capacity, or organized material interests.",
+  "source_summary": "Authored from model knowledge of Joseph Overton's policy-window concept, Joseph Lehman's exposition, and standard political-strategy uses, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Joseph P. Overton, policy window concept as developed at the Mackinac Center for Public Policy"
+    },
+    {
+      "kind": "secondary",
+      "title": "Joseph G. Lehman, 'An Introduction to the Overton Window of Political Possibility'"
+    },
+    {
+      "kind": "secondary",
+      "title": "John W. Kingdon, Agendas, Alternatives, and Public Policies (1984)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Overton window (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Overton_window"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a policy proposal is technically possible but politically too risky for officials to endorse",
+    "advocates need to decide whether to push an ideal demand, an adjacent compromise, or a normalization campaign",
+    "public debate is changing faster than formal policy, and the question is what has become newly sayable or supportable",
+    "a crisis, court ruling, scandal, or social movement may have changed which options are politically viable",
+    "an idea's feasibility depends on acceptability among voters, party elites, donors, media, or institutional gatekeepers"
+  ]
+}

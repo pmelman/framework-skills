@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:13Z",
+  "canonical_examples": [
+    {
+      "analysis": "The Red Team, led by General Paul Van Riper, treated the exercise rules as a target surface rather than a script to validate the Blue Team's plan. It used low-tech communications, dispersed small craft, and unconventional tactics to exploit assumptions embedded in Blue's surveillance and command systems. Red Teaming therefore asks: what would a capable adversary do if not constrained by our doctrine, slides, or preferred tempo? The lesson is not that Blue's technology was useless, but that a plan validated only against a cooperative enemy is not yet tested.",
+      "problem": "The U.S. Millennium Challenge 2002 war game tested a technologically superior Blue force against a weaker but adaptive Red force."
+    },
+    {
+      "analysis": "The CIA's post-9/11 tradecraft reforms institutionalized contrarian techniques such as Devil's Advocacy, Team A/Team B, and Analysis of Competing Hypotheses to challenge consensus judgments. Applied to the Iraq WMD estimate, red-team logic would separate evidence from inference, ask what indicators would appear if stockpiles did not exist, and press collection gaps rather than treating absence of disconfirming evidence as confirmation. The adversarial role is procedural: assign competent analysts to attack the key judgment before it becomes policy commitment.",
+      "problem": "Intelligence agencies must assess a high-stakes national-security claim when organizational consensus and policy pressure may be converging too quickly."
+    }
+  ],
+  "core_claims": [
+    "Plans and beliefs become more reliable when a designated adversarial role is empowered to defeat them before real opponents or reality do.",
+    "The critique must model a capable, adaptive adversary or failure process, not merely list generic risks from the planner's perspective.",
+    "Independence, permission to dissent, and access to relevant information are design requirements; without them, red teaming becomes performative review.",
+    "A red team should attack assumptions, interfaces, incentives, and operational constraints, because these are where brittle plans usually fail.",
+    "A successful red-team exercise produces changed plans, controls, or decision thresholds, not just a catalog of objections.",
+    "The method deliberately creates role conflict inside an institution to counter confirmation bias, groupthink, and authority gradients."
+  ],
+  "description": "Red Teaming is an institutionalized adversarial practice in which an independent group attacks a plan, system, or belief from the perspective of an opponent or failure agent to expose vulnerabilities before commitment.",
+  "domains": [
+    "strategy",
+    "security",
+    "intelligence-analysis",
+    "organizational-decision-making"
+  ],
+  "failure_modes": [
+    "Theater of dissent: leaders commission a red team but limit scope, information, or consequences so the exercise legitimizes the original plan.",
+    "Caricatured adversaries: the red team attacks with implausible superpowers or foolish tactics instead of modeling realistic capability, incentives, and constraints.",
+    "Unintegrated findings: vulnerabilities are documented but not converted into design changes, contingencies, controls, or go/no-go criteria.",
+    "Adversarial overreach: the red team becomes attached to defeating the proposal and undervalues operational benefits, morale, timing, or acceptable risk.",
+    "Disclosure harm: aggressive probing of live systems or sensitive plans can create real security, legal, or trust damage if rules of engagement are weak."
+  ],
+  "key_vocabulary": {
+    "Adversary emulation": "Testing from the point of view, capabilities, and incentives of a specific opponent rather than a generic critic.",
+    "Assumption surfacing": "Making implicit beliefs, dependencies, and constraints explicit so they can be attacked and tested.",
+    "Blue team": "The team defending the plan, system, estimate, or organization under test.",
+    "Devil's advocacy": "A structured dissent technique in which someone is assigned to argue against the favored conclusion regardless of personal belief.",
+    "Rules of engagement": "The authorized scope, methods, limits, reporting channels, and safety constraints for the red-team exercise.",
+    "Team A/Team B": "A competitive analytic structure that has separate groups develop rival interpretations or estimates from available evidence.",
+    "Threat model": "A structured account of what can go wrong, who or what can cause it, what they can do, and what assets or objectives are at risk.",
+    "Vulnerability": "A weakness in assumptions, design, process, incentives, or defenses that an adversary or failure process can exploit."
+  },
+  "name": "Red Teaming",
+  "operative_procedure": [
+    "Define the object under attack: a plan, system, estimate, policy, launch decision, or operational concept, including what success and failure mean.",
+    "Set rules of engagement that grant independence, access, scope, safety limits, escalation paths, and authority to report uncomfortable findings.",
+    "Build the threat model: identify adversaries or failure agents, their goals, capabilities, constraints, information, incentives, and likely adaptations.",
+    "Surface Blue Team assumptions, critical dependencies, decision thresholds, and single points of failure before beginning the attack.",
+    "Generate attack paths using adversary emulation, devil's advocacy, alternative hypotheses, abuse cases, and exploitation of interfaces or incentives.",
+    "Prioritize vulnerabilities by exploitability, impact, detectability, and the adversary's likely preference order rather than by internal embarrassment.",
+    "Run the challenge: simulate, tabletop, probe, war-game, or analytically argue the attack paths against the plan under realistic constraints.",
+    "Debrief in a blameless but concrete format that distinguishes confirmed breaks, plausible weaknesses, unknowns, and false alarms.",
+    "Force integration: convert findings into changed plans, controls, monitoring, contingencies, collection requirements, or explicit risk acceptance."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Military Wargaming",
+      "Devil's Advocacy",
+      "Intelligence Analysis"
+    ],
+    "composes_with": [
+      "Pre-mortem",
+      "OODA Loop",
+      "Game Theory",
+      "Fallacy Analysis"
+    ],
+    "descendants": [
+      "Penetration Testing",
+      "Adversarial Machine Learning Evaluation",
+      "Security Chaos Engineering"
+    ],
+    "related": [
+      "Game Theory",
+      "Counterfactual Reasoning",
+      "Systems Thinking",
+      "Falsificationism"
+    ],
+    "rivals": [
+      "Consensus Decision-Making",
+      "Appreciative Inquiry",
+      "Design Thinking",
+      "Best-Case Planning"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Red Teaming is strongest for high-stakes plans, security systems, military and intelligence assessments, product launches, and organizational decisions vulnerable to groupthink or motivated reasoning. It is less useful when the adversary model is unknowable, when leaders will not act on findings, or when adversarial probing would create more harm than learning. It should complement, not replace, constructive design and ordinary quality assurance.",
+  "source_summary": "Authored from model knowledge of military red teaming, intelligence-analysis tradecraft, cybersecurity practice, and canonical cases such as Millennium Challenge 2002, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Micah Zenko, Red Team: How to Succeed by Thinking Like the Enemy"
+    },
+    {
+      "kind": "primary",
+      "title": "Richards J. Heuer Jr., Psychology of Intelligence Analysis"
+    },
+    {
+      "kind": "primary",
+      "title": "CIA, A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis"
+    },
+    {
+      "kind": "secondary",
+      "title": "U.S. Army, The Applied Critical Thinking Handbook"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a plan or belief has high stakes and has mostly been examined by people invested in its success",
+    "an adaptive opponent, competitor, attacker, regulator, or failure process can exploit weaknesses in the plan",
+    "the team shows signs of consensus, authority pressure, optimism bias, or reluctance to voice dissent",
+    "a system's interfaces, assumptions, or controls need to be tested before launch or commitment",
+    "leaders need concrete vulnerabilities and mitigations rather than a general risk register"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:10+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The Open Science Collaboration treated a published finding as less secure if it depended on one lab, one sample, and one analytic path. By preregistering replication protocols and comparing original effect sizes with replication effect sizes across 100 studies, it found that many effects were smaller and many did not meet conventional significance in replication. The framework's lesson is not that every failed replication proves fraud or falsehood, but that a finding's credibility rises when the effect survives independent implementation and shrinks when it is labile across reasonable repeats.",
+      "problem": "The Open Science Collaboration's 2015 project attempted to replicate 100 psychology studies."
+    },
+    {
+      "analysis": "The Many Labs projects test whether effects hold across sites, samples, and procedural variants. A robust effect should appear with similar direction and interpretable heterogeneity across many laboratories; a fragile effect may appear only in the originating context or under narrow implementation details. The analysis therefore shifts from 'was the original p-value below .05?' to 'how stable is the effect distribution across independent settings, and what moderators explain variation?'",
+      "problem": "The Many Labs replication projects coordinated multiple laboratories to test prominent psychological effects under shared protocols."
+    }
+  ],
+  "core_claims": [
+    "A single statistically significant study is weak evidence until its result survives independent replication or principled robustness checks.",
+    "Effect credibility depends on stability across datasets, operationalizations, model specifications, laboratories, and populations, not only on a reported p-value.",
+    "Researcher degrees of freedom can manufacture apparent findings unless analytic choices are preregistered, multiverse-tested, or transparently reported.",
+    "Replication failure is evidence about a claim's scope, effect size, and implementation sensitivity, not automatically proof that the original result was impossible.",
+    "Robust findings usually show convergent support across methods with different biases; identical-method repetition alone is insufficient for broad generalization.",
+    "Publication bias and selective reporting distort the visible literature, making meta-analytic averages too optimistic unless bias is modeled.",
+    "Smaller-than-original replication effects are expected when initial findings passed through selection, low power, and winner's-curse inflation."
+  ],
+  "description": "Replication and Robustness Thinking evaluates whether empirical claims hold across independent repeats, datasets, methods, analytic specifications, laboratories, and populations, treating single findings as fragile until their stability and boundary conditions are known.",
+  "domains": [
+    "scientific-method",
+    "statistics",
+    "research-design",
+    "evidence-evaluation"
+  ],
+  "failure_modes": [
+    "Mechanical replicationism: demanding exact repetition can miss whether the theoretical claim generalizes beyond a narrow procedure.",
+    "Context blindness: dismissing an effect after a failed replication may ignore real moderators, implementation differences, or population changes.",
+    "Robustness theater: running many alternative specifications but reporting only those that preserve the preferred conclusion recreates the original problem.",
+    "Equating robustness with truth: a stable association can still be confounded, biased by shared measurement error, or causally misinterpreted.",
+    "Punitive culture: treating replication as accusation can discourage collaboration and make original authors defensive rather than informative."
+  ],
+  "key_vocabulary": {
+    "Analytic flexibility": "The range of defensible choices in cleaning, excluding, transforming, modeling, and testing data; unreported flexibility can inflate false positives.",
+    "Conceptual replication": "A test of the same theoretical claim using different operationalizations or procedures, useful for assessing generality.",
+    "Direct replication": "A close repeat of an original study's methods to test whether the same operational result recurs.",
+    "Effect size shrinkage": "The tendency for replication estimates to be smaller than original estimates, often due to selection, low power, or winner's curse.",
+    "Heterogeneity": "Variation in effect sizes across studies, sites, samples, or methods that may indicate moderators or instability.",
+    "Multiverse analysis": "Estimating a claim across many reasonable analytic specifications to see whether the conclusion depends on arbitrary choices.",
+    "Preregistration": "Publicly specifying hypotheses, design, exclusions, and analyses before observing outcomes, reducing undisclosed flexibility.",
+    "Publication bias": "The distortion created when significant or surprising findings are more likely to be published than null or contrary results.",
+    "Robustness check": "A test of whether a result survives reasonable changes in data, measures, model form, exclusions, or assumptions.",
+    "Triangulation": "Combining methods with different biases so that convergence increases confidence more than any single method could."
+  },
+  "name": "Replication and Robustness Thinking",
+  "operative_procedure": [
+    "State the empirical claim precisely. Separate the phenomenon, effect size, population, setting, measurement, and causal interpretation.",
+    "Classify the existing evidence. Distinguish single-study evidence, direct replications, conceptual replications, meta-analyses, multi-site studies, and robustness analyses.",
+    "Inspect the original study's fragility. Check sample size, power, preregistration, exclusions, multiple outcomes, analytic flexibility, measurement reliability, and incentives for selective reporting.",
+    "Seek independent replication. Give special weight to studies run by different teams, sites, samples, and instruments, especially when protocols were preregistered.",
+    "Compare effect sizes, not just significance. Ask whether replications preserve direction, magnitude, uncertainty intervals, and practical importance.",
+    "Run or evaluate robustness checks. Vary reasonable model specifications, covariates, inclusion rules, operational definitions, datasets, and time periods.",
+    "Map heterogeneity and boundary conditions. Treat variation across labs, populations, or methods as information about when the claim holds.",
+    "Assess publication and selection bias. Look for file-drawer risk, p-curve or selection patterns, registered reports, null results, and disproportionate original effect sizes.",
+    "Update confidence by convergence. Increase confidence when different methods with different biases agree; decrease it when the claim depends on one dataset, one lab, or one analytic path."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Experimental Method",
+      "Frequentist statistics",
+      "Meta-analysis",
+      "Open Science"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Causal Inference",
+      "Strong Inference",
+      "Falsificationism"
+    ],
+    "descendants": [
+      "Registered Reports",
+      "Many Analysts Design",
+      "Multiverse Analysis",
+      "Open Science Practices"
+    ],
+    "related": [
+      "Falsificationism",
+      "Strong Inference",
+      "Bayesian Epistemology",
+      "The Map-Territory Distinction"
+    ],
+    "rivals": [
+      "Single-Study Significance Testing",
+      "Inference to the Best Explanation",
+      "Exploratory Data Analysis",
+      "Narrative Review"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Replication and Robustness Thinking is strongest for empirical claims supported by statistical studies, especially where publication bias and analytic flexibility are plausible. It is less straightforward for unique historical events, rare disasters, qualitative interpretation, or fast-changing populations where exact repetition is impossible. Robustness improves credibility but does not by itself establish causal identification or theoretical explanation.",
+  "source_summary": "Authored from model knowledge of the replication crisis literature, Open Science Collaboration, Many Labs projects, and robustness-analysis methodology, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Open Science Collaboration, 'Estimating the reproducibility of psychological science,' Science (2015)"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard A. Klein et al., 'Investigating Variation in Replicability: A Many Labs Replication Project,' Social Psychology (2014)"
+    },
+    {
+      "kind": "primary",
+      "title": "John P. A. Ioannidis, 'Why Most Published Research Findings Are False,' PLOS Medicine (2005)",
+      "url": "https://doi.org/10.1371/journal.pmed.0020124"
+    },
+    {
+      "kind": "primary",
+      "title": "Simmons, Nelson, and Simonsohn, 'False-Positive Psychology,' Psychological Science (2011)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Replication crisis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Replication_crisis"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "an empirical claim rests on one study, one dataset, one lab, or one analytic specification",
+    "a reported effect may be sensitive to exclusions, model choices, measurement definitions, or publication bias",
+    "you need to decide whether a finding generalizes across populations, methods, settings, or time",
+    "replication attempts disagree and the question is whether the effect is false, smaller, or context-dependent",
+    "a literature contains many significant findings but weak transparency about null results and researcher degrees of freedom"
+  ]
+}

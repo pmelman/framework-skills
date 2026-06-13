@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:10+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Platt presents the Meselson-Stahl experiment as strong inference because it staged alternative hypotheses against a decisive observation. Conservative replication, semiconservative replication, and dispersive replication predict different density patterns after bacteria are shifted from heavy nitrogen to light nitrogen. The observed hybrid band after one generation and separate heavy-light pattern after two generations eliminated the conservative and dispersive alternatives, leaving semiconservative replication. The experiment was powerful because the alternatives were explicit before the test.",
+      "problem": "How did the Meselson-Stahl experiment determine the mode of DNA replication?"
+    },
+    {
+      "analysis": "Platt praises the PaJaMo experiment because it forced rival models of gene regulation to make conflicting time-course predictions. If induction required making a positive cytoplasmic activator, enzyme appearance would follow one pattern; if a repressor blocked expression and could be removed or diluted, the timing would differ. By using bacterial mating to introduce lac genes and observing enzyme synthesis before inducer entry, the experiment supported the repressor model. The method was not open-ended observation but a planned exclusion test among alternatives.",
+      "problem": "In molecular biology, the Pardee-Jacob-Monod PaJaMo experiment tested competing accounts of lac operon regulation."
+    }
+  ],
+  "core_claims": [
+    "Scientific progress accelerates when investigators hold several live hypotheses simultaneously instead of defending a favored one.",
+    "A good experiment is designed so that plausible hypotheses predict different observable outcomes before data are collected.",
+    "Exclusion is more reliable than confirmation: eliminating wrong alternatives is the engine of cumulative knowledge.",
+    "Vague hypotheses are scientifically weak because they do not expose themselves to crucial tests.",
+    "Sequential branching logic can turn inquiry into a decision tree, where each result determines the next discriminating experiment.",
+    "Fields stagnate when they accumulate measurements without arranging them to decide between explicit rival explanations.",
+    "Intellectual discipline requires regularly asking 'What experiment would disprove this?' for each live hypothesis."
+  ],
+  "description": "Strong Inference is John R. Platt's scientific method of formulating multiple alternative hypotheses, devising crucial experiments that exclude some of them, and iterating the process as a branching program of inquiry.",
+  "domains": [
+    "scientific-method",
+    "research-design",
+    "epistemology",
+    "experimental-science"
+  ],
+  "failure_modes": [
+    "False exhaustiveness: the listed hypotheses may omit the true mechanism, so eliminating all but one can create premature certainty.",
+    "Pseudo-crucial experiments: real systems often allow auxiliary assumptions that rescue a hypothesis from an apparently decisive result.",
+    "Premature narrowing: the framework can undervalue exploratory observation when the phenomenon is not yet well enough characterized to state alternatives.",
+    "Binary theatrics: researchers may force complex continua into yes/no tests that erase heterogeneity or mechanism mixtures.",
+    "Sociological resistance: labs invested in a favored hypothesis may nominally list alternatives while designing weak tests of their own view."
+  ],
+  "key_vocabulary": {
+    "Alternative hypotheses": "Multiple live, mutually discriminable explanations considered at the same time rather than one favored explanation tested in isolation.",
+    "Crucial experiment": "An experiment whose possible outcomes would rule out at least one serious hypothesis because the hypotheses make different predictions.",
+    "Exclusion": "The deliberate elimination of hypotheses that fail discriminating tests; for Platt this is the central mark of rapid scientific progress.",
+    "Hypothesis tree": "A branching structure of alternatives and follow-up tests, where each experimental result determines which branch remains live.",
+    "Multiple working hypotheses": "The older Chamberlin ideal that investigators should avoid parental attachment to a single explanation by developing several at once.",
+    "Prediction table": "An explicit mapping from each hypothesis to expected observations under a proposed test.",
+    "Strong inference": "Platt's name for the cycle of alternative hypotheses, crucial experiments, execution, and iterative subhypotheses.",
+    "Weak inference": "Research that gathers facts or confirms a favored idea without a design capable of excluding serious alternatives."
+  },
+  "name": "Strong Inference",
+  "operative_procedure": [
+    "Formulate several alternative hypotheses. State them clearly enough that they can conflict with one another in expected observations.",
+    "Check that the alternatives are serious. Remove straw hypotheses, add missing plausible mechanisms, and note whether the set is exhaustive or merely current.",
+    "Derive discriminating predictions. Build a prediction table showing what each hypothesis expects under candidate observations or interventions.",
+    "Design a crucial experiment. Prefer a test where at least one live hypothesis would be excluded by each possible result.",
+    "Specify exclusion criteria in advance. Define what result would count against each hypothesis before seeing the data.",
+    "Run the experiment with controls that protect the inference. Ensure measurement, manipulation, and background assumptions are strong enough that a failed prediction really matters.",
+    "Eliminate, revise, or branch. Remove hypotheses that fail, split surviving hypotheses into more precise subhypotheses, and design the next discriminating test.",
+    "Track the inquiry as a tree. Report which branches were killed, which remain, what auxiliary assumptions were used, and what crucial experiment comes next."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Multiple Working Hypotheses",
+      "Falsificationism",
+      "Experimental Method",
+      "Baconian Induction"
+    ],
+    "composes_with": [
+      "Falsificationism",
+      "Causal Inference",
+      "Replication and Robustness Thinking",
+      "Inference to the Best Explanation"
+    ],
+    "descendants": [
+      "Adversarial Collaboration",
+      "Registered Reports",
+      "Severe Testing",
+      "Eliminative Induction"
+    ],
+    "related": [
+      "Falsificationism",
+      "Bayesian Epistemology",
+      "Inference to the Best Explanation",
+      "Verificationism"
+    ],
+    "rivals": [
+      "Inference to the Best Explanation",
+      "Verificationism",
+      "Exploratory Data Analysis",
+      "Normal Science"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Strong Inference is strongest where hypotheses can be sharply formulated and experiments can produce discriminating outcomes, as in parts of molecular biology, physics, and controlled laboratory science. It is weaker in early exploratory fields, historical sciences, complex social settings, and domains where mechanisms overlap or interventions are impossible. It complements but does not replace estimation, measurement, theory-building, and replication.",
+  "source_summary": "Authored from model knowledge of Platt's Science essay, Chamberlin's multiple working hypotheses, and standard examples from molecular biology, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John R. Platt, 'Strong Inference,' Science (1964)"
+    },
+    {
+      "kind": "primary",
+      "title": "T. C. Chamberlin, 'The Method of Multiple Working Hypotheses,' Science (1890)"
+    },
+    {
+      "kind": "primary",
+      "title": "Matthew Meselson and Franklin W. Stahl, 'The Replication of DNA in Escherichia coli,' Proceedings of the National Academy of Sciences (1958)"
+    },
+    {
+      "kind": "primary",
+      "title": "François Jacob and Jacques Monod, 'Genetic Regulatory Mechanisms in the Synthesis of Proteins,' Journal of Molecular Biology (1961)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a research question has several plausible explanations and the field is drifting toward confirmation of a favorite story",
+    "new data collection is possible and can be designed to discriminate among rival hypotheses",
+    "existing evidence supports multiple mechanisms that need to be separated rather than blended",
+    "a team is accumulating observations without specifying what result would change its mind",
+    "you need to turn a vague inquiry into a sequence of decisive tests"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:13Z",
+  "canonical_examples": [
+    {
+      "analysis": "Watt's centrifugal governor measures engine speed and feeds that measurement back into the steam valve. If speed rises above the implicit setpoint, the spinning balls move outward and reduce steam input; if speed falls, they move inward and admit more steam. Control Theory Thinking reads the mechanism as a negative-feedback loop with sensor, comparator, actuator, plant, and lag. The design problem is stability: too weak a response fails to regulate speed, while too strong or delayed a response causes hunting and oscillation.",
+      "problem": "James Watt's steam-engine governor regulates engine speed despite changing load."
+    },
+    {
+      "analysis": "The thermostat is the canonical everyday feedback controller. It senses room temperature, compares it with a setpoint, and turns heating or cooling on or off. The gap between actual and desired temperature is the error signal; hysteresis prevents rapid switching near the setpoint; thermal lag explains overshoot after the furnace turns off. The framework therefore asks not merely what the desired temperature is, but how measurement, delay, gain, and actuation shape the room's behavior over time.",
+      "problem": "A household thermostat maintains room temperature around a chosen setting."
+    }
+  ],
+  "core_claims": [
+    "A system can be understood by the loop connecting measured output, comparison to a setpoint, corrective action, and the plant being controlled.",
+    "Negative feedback reduces error but can create oscillation or instability when gain is too high, measurement is noisy, or delays are large.",
+    "The same intervention can stabilize or destabilize depending on loop timing, actuator authority, and where the measurement is taken.",
+    "Good control requires distinguishing the desired setpoint from the measured variable, the true system state, and the proxy being optimized.",
+    "Feedforward control can improve response to known disturbances, but feedback is required to correct unmodeled disturbances and drift.",
+    "Integral action eliminates persistent steady-state error but can produce windup and overshoot when actuators saturate.",
+    "A policy or organization that rewards lagging indicators often overcorrects because it acts on stale error signals."
+  ],
+  "description": "Control Theory Thinking analyzes systems as feedback loops with setpoints, sensors, error signals, actuators, delays, gains, disturbances, and stability constraints.",
+  "domains": [
+    "systems",
+    "engineering",
+    "operations",
+    "organizational-design"
+  ],
+  "failure_modes": [
+    "Proxy control: optimizing the measured variable while the true objective drifts, producing Goodhart-style failure.",
+    "Overtuning: increasing gain to correct error faster, only to create overshoot, oscillation, or instability because of lag.",
+    "Delay blindness: treating feedback as instantaneous when sensing, reporting, decision, and actuation delays dominate behavior.",
+    "Actuator fantasy: designing a controller whose corrective action exceeds the authority, speed, or precision of available mechanisms.",
+    "Ignoring saturation and windup: accumulated corrective pressure keeps rising while the actuator is maxed out, causing severe overshoot when constraints release.",
+    "Single-loop myopia: stabilizing one local variable can destabilize the larger system through coupled loops and hidden feedback."
+  ],
+  "key_vocabulary": {
+    "Actuator": "The mechanism that changes the system, such as a valve, motor, budget allocation, staffing change, or policy lever.",
+    "Disturbance": "An external or internal influence that pushes the controlled variable away from the desired trajectory.",
+    "Error signal": "The difference between the setpoint and the measured output; controllers act on this gap.",
+    "Feedback loop": "A causal loop in which system output is measured and used to influence future input or action.",
+    "Gain": "The strength of the controller's response to an error signal; high gain corrects quickly but can amplify noise and instability.",
+    "Hysteresis": "A deliberate band or memory in switching behavior that prevents rapid toggling near a threshold.",
+    "Lag": "Delay between action and observed effect, often the source of overshoot and oscillation.",
+    "Negative feedback": "Feedback that counteracts deviation from a setpoint and tends to stabilize a variable.",
+    "Plant": "The system being controlled, including its dynamics, constraints, and response to inputs.",
+    "Setpoint": "The target value or desired state against which measurements are compared."
+  },
+  "name": "Control Theory Thinking",
+  "operative_procedure": [
+    "Define the controlled variable and the setpoint, separating the real objective from the available measurement proxy.",
+    "Draw the feedback loop: plant, sensor, comparator, controller, actuator, output, disturbances, and information or action delays.",
+    "Identify the error signal and ask how the controller transforms error into corrective action, including proportional, integral, derivative, threshold, or manual rules.",
+    "Estimate loop gain, actuator authority, measurement noise, saturation limits, and the main lags between action and observed effect.",
+    "Analyze stability: look for overshoot, oscillation, hunting, drift, steady-state error, and coupled loops that reinforce or fight the controller.",
+    "Check whether feedforward signals can anticipate known disturbances before feedback error accumulates.",
+    "Design tuning changes: adjust gain, damping, hysteresis, sampling frequency, escalation thresholds, buffers, or integral limits.",
+    "Test the loop against disturbances and edge cases, especially delayed response, noisy measurement, actuator saturation, and changing setpoints.",
+    "Report the control diagnosis: what variable is being controlled, what failure mode the loop exhibits, and what tuning or redesign would improve stability."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Cybernetics",
+      "Classical Control Theory",
+      "Servomechanism Theory"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Theory of Constraints",
+      "OODA Loop",
+      "TRIZ"
+    ],
+    "descendants": [
+      "PID Control",
+      "Modern Control Theory",
+      "Model Predictive Control",
+      "Control Systems Engineering"
+    ],
+    "related": [
+      "Systems Thinking",
+      "OODA Loop",
+      "The Map-Territory Distinction",
+      "Theory of Constraints"
+    ],
+    "rivals": [
+      "Linear Planning",
+      "Open-Loop Planning",
+      "Root Cause Analysis",
+      "First-Principles Reasoning"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Control Theory Thinking is strongest for engineered, operational, organizational, and policy systems where measured outputs trigger corrective action over time. It reveals instability from lag, gain, saturation, and poor measurement. It is weaker when goals are contested, variables cannot be measured, actors strategically manipulate sensors, or the system is better modeled as one-shot choice than ongoing regulation.",
+  "source_summary": "Authored from model knowledge of classical control theory, cybernetics, Watt's governor, thermostat examples, and standard feedback-control literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Norbert Wiener, Cybernetics: Or Control and Communication in the Animal and the Machine"
+    },
+    {
+      "kind": "primary",
+      "title": "James Clerk Maxwell, 'On Governors' (1868)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Katsuhiko Ogata, Modern Control Engineering"
+    },
+    {
+      "kind": "secondary",
+      "title": "Gene F. Franklin, J. David Powell, and Abbas Emami-Naeini, Feedback Control of Dynamic Systems"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a system repeatedly misses a target and corrective actions seem to overshoot, lag, or oscillate",
+    "performance depends on feedback from measurements, dashboards, sensors, reviews, or market signals",
+    "a team is changing incentives or policies without understanding the loop from action to measured response",
+    "the chosen metric may be a poor proxy for the real objective being controlled",
+    "delays, noisy measurements, or limited actuator authority may explain persistent underperformance"
+  ]
+}

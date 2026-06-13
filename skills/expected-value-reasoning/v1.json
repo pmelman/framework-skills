@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:13Z",
+  "canonical_examples": [
+    {
+      "analysis": "Pascal frames belief as a wager under uncertainty: if God exists, the payoff of belief is infinite beatitude; if God does not exist, the finite costs of religious practice are comparatively small. Expected-value reasoning multiplies each outcome by its probability and sums across possibilities. Because any positive probability of an infinite payoff dominates finite losses, Pascal concludes that the rational wager is to cultivate belief. The example also exposes a known stress point for the framework: infinite utilities and many-gods alternatives can make the expected value unstable or undefined.",
+      "problem": "Blaise Pascal's wager asks whether a person should live as if Christianity is true despite uncertainty about God's existence."
+    },
+    {
+      "analysis": "Bernoulli compares the expected monetary value of the St. Petersburg lottery, which is infinite, with the finite price a prudent person would pay. Straight monetary expectation recommends paying any finite amount, but observed choices do not. His analysis preserves the expectation form while replacing money with utility: each doubling of money has diminishing marginal utility, so the expected utility can be finite. The case shows both the power and the limits of expected-value reasoning: the object being averaged must be the decision-relevant payoff, not a crude proxy.",
+      "problem": "The St. Petersburg paradox offers a lottery that pays 2^n coins when the first heads appears on toss n, producing infinite expected monetary value."
+    }
+  ],
+  "core_claims": [
+    "A risky option is evaluated by summing probability-weighted payoffs across mutually exclusive outcomes, not by its most likely outcome or by its best-case story.",
+    "A low-probability outcome can rationally dominate a decision when its payoff magnitude is large enough; tail outcomes are not discarded merely because they are rare.",
+    "The correct comparison is marginal expected value between live alternatives, including opportunity costs and the value of information.",
+    "Risk neutrality follows from expected monetary value only when payoffs are linear in money; otherwise the expectation should be taken over utility or welfare.",
+    "Pascalian or St. Petersburg-style cases reveal that unbounded or infinite payoffs can make naive expected-value maximization indeterminate or exploitable.",
+    "When probabilities are badly misspecified, expected-value calculations create false precision while still correctly forcing assumptions into the open."
+  ],
+  "description": "Expected-Value Reasoning evaluates risky choices by multiplying each possible outcome's payoff by its probability and comparing the resulting weighted sums, with explicit attention to rare but high-impact tail outcomes.",
+  "domains": [
+    "decision-theory",
+    "risk-analysis",
+    "economics",
+    "policy"
+  ],
+  "failure_modes": [
+    "False precision: converting vague uncertainty into point probabilities can make a speculative model look more grounded than it is.",
+    "Pascal's mugging: tiny probabilities of enormous payoffs can hijack action unless priors, bounded utilities, or robustness constraints are imposed.",
+    "Payoff misspecification: optimizing expected dollars, lives, clicks, or time can be wrong when the real objective has nonlinear utility, distributional constraints, or moral side constraints.",
+    "Independence errors: adding expected values across correlated risks double-counts diversification benefits or understates shared failure modes.",
+    "Risk-blind recommendations: a higher expected value can be unacceptable when ruin, liquidity limits, rights constraints, or irreversible losses matter more than the average."
+  ],
+  "key_vocabulary": {
+    "Dominance by expectation": "An option dominates by expectation when its probability-weighted payoff exceeds alternatives even if it is not best in most individual states.",
+    "Expected utility": "The probability-weighted average of utility rather than money or raw outcome units, used when marginal value is nonlinear.",
+    "Expected value": "The sum of each outcome's payoff multiplied by its probability: EV = sum p_i x_i.",
+    "Opportunity cost": "The value of the best forgone alternative; expected-value comparisons should use incremental payoff against this baseline.",
+    "Payoff": "The decision-relevant value of an outcome, which may be money, utility, welfare, lives saved, time, or another explicitly chosen objective.",
+    "Risk aversion": "A preference pattern in which the utility of gains is concave, making a certain payoff preferable to a risky option with the same monetary expectation.",
+    "Sensitivity analysis": "Recomputing the decision across plausible probability and payoff ranges to see whether the recommendation depends on fragile assumptions.",
+    "Tail outcome": "A low-probability, high-impact result that can materially change the expected value despite being unlikely."
+  },
+  "name": "Expected-Value Reasoning",
+  "operative_procedure": [
+    "Define the decision alternatives and the baseline. State what action is being compared to what counterfactual, so payoffs are marginal rather than absolute.",
+    "Enumerate mutually exclusive and collectively relevant outcome states for each alternative, including downside and upside tail outcomes rather than only central cases.",
+    "Assign probabilities to each state, recording whether they come from frequencies, calibrated judgment, market odds, models, or explicit guesses.",
+    "Specify the payoff metric and transform it if needed: use utility, welfare, or loss functions rather than raw money when marginal value is nonlinear.",
+    "Compute EV or expected utility for each alternative by summing probability times payoff across states.",
+    "Compare marginal expected values, subtracting costs, opportunity costs, and implementation burdens that differ between alternatives.",
+    "Run sensitivity analysis on the largest probability and payoff assumptions, especially tails, to identify break-even points and assumption fragility.",
+    "Check for constraints that expectation alone should not override: ruin, rights, ambiguity, liquidity, irreversible harm, and correlated failures.",
+    "Report the recommendation with the decisive terms in the calculation, the tail outcomes included, and the assumptions that would reverse the decision."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Decision Theory",
+      "Probability Theory",
+      "Utilitarianism"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Cost-Benefit Analysis",
+      "Pre-mortem",
+      "Decision Theory"
+    ],
+    "descendants": [
+      "Expected Utility Theory",
+      "Cost-Benefit Analysis",
+      "Quantitative Risk Analysis"
+    ],
+    "related": [
+      "Decision Theory",
+      "Bayesian Epistemology",
+      "Pascal's Wager",
+      "Utilitarianism"
+    ],
+    "rivals": [
+      "Maximin",
+      "Precautionary Principle",
+      "Kantian Deontology",
+      "Minimax Regret"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Expected-Value Reasoning is strongest when alternatives, outcome ranges, probabilities, and payoff metrics can be made explicit enough to compare. It is especially useful in finance, insurance, policy analysis, engineering risk, and prioritization under uncertainty. It is weakest under deep uncertainty, contested moral payoffs, unbounded utilities, rights constraints, and situations where average performance hides unacceptable ruin or distributional consequences.",
+  "source_summary": "Authored from model knowledge of standard decision-theory sources, Pascal's wager, Bernoulli's St. Petersburg analysis, and expected-utility literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Blaise Pascal, Pensees"
+    },
+    {
+      "kind": "primary",
+      "title": "Daniel Bernoulli, 'Exposition of a New Theory on the Measurement of Risk' (1738)"
+    },
+    {
+      "kind": "primary",
+      "title": "John von Neumann and Oskar Morgenstern, Theory of Games and Economic Behavior (1944)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Decision Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/decision-theory/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you face a choice under uncertainty where outcomes can be assigned rough probabilities and comparable payoffs",
+    "a rare catastrophic or extremely valuable outcome may outweigh ordinary-case performance",
+    "stakeholders are arguing from anecdotes, best cases, or worst cases and need the whole outcome distribution made explicit",
+    "resources must be allocated among options with different costs, success probabilities, and impact magnitudes",
+    "a decision depends on whether more information is worth buying before committing"
+  ]
+}

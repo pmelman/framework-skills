@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:17Z",
+  "canonical_examples": [
+    {
+      "analysis": "Chesterton's rule says the reformer who does not see the fence's use is precisely the person least entitled to remove it. The fence may mark a boundary, manage livestock, prevent trespass, reduce conflict, or preserve a forgotten safety function. The correct first move is historical and functional inquiry: who built it, what problem existed then, what failures did it prevent, and whether those conditions still hold. Removal becomes reasonable only after the old function is understood and judged obsolete or better served another way.",
+      "problem": "In G. K. Chesterton's fence example, a reformer finds a fence across a road and says, 'I do not see the use of this; let us clear it away.'"
+    },
+    {
+      "analysis": "Chesterton applies the same logic to inherited institutions. A modern critic may see an institution as arbitrary, restrictive, or irrational, but its endurance is evidence that it once solved a real coordination, moral, legal, or social problem. The framework does not say the institution must remain; it says abolition is epistemically irresponsible until the critic can state the institution's original and current functions, including hidden ones, and show that removing it will not recreate the problem it contained.",
+      "problem": "In The Thing, Chesterton argues that social institutions should not be destroyed merely because reformers do not understand why earlier people created them."
+    }
+  ],
+  "core_claims": [
+    "A rule, custom, or institution that appears useless may encode a solution to a problem no longer visible to the reformer.",
+    "Ignorance of a rule's function is evidence against immediate abolition, not evidence that the rule lacks a function.",
+    "The burden of proof lies first on the remover to explain why the fence was built and what will happen when its function disappears.",
+    "Social arrangements often have latent functions that differ from their official justifications.",
+    "Reform is more reliable when it preserves or replaces the old function rather than merely eliminating the old form.",
+    "Inherited constraints deserve investigation, not deference as such; once their function is understood, they may be removed, redesigned, or strengthened."
+  ],
+  "description": "Chesterton's Fence is a conservative-reform heuristic: before abolishing a rule, institution, or constraint that seems pointless, understand what function it served and what problem its removal may revive.",
+  "domains": [
+    "policy",
+    "institutional-design",
+    "risk-analysis",
+    "organizational-change"
+  ],
+  "failure_modes": [
+    "It can become status quo bias: treating the mere existence of a rule as sufficient evidence that it should remain.",
+    "Historical function can be mistaken for current value; a rule may have solved a past problem while now causing greater harm.",
+    "Power-preserving institutions often generate elaborate justifications; understanding a function does not make it legitimate.",
+    "The search for hidden functions can become unfalsifiable, delaying needed reform indefinitely.",
+    "Practitioners may overfocus on why a rule was created and underweight changed technology, changed values, or changed risk levels."
+  ],
+  "key_vocabulary": {
+    "Abolition": "Removing a rule, institution, or constraint entirely. Chesterton's Fence treats abolition as the final step after functional diagnosis, not the opening move.",
+    "Burden of explanation": "The reformer's obligation to explain the old rule's purpose before removing it. The point is epistemic humility rather than automatic preservation.",
+    "Fence": "The visible rule, barrier, process, custom, or institution whose purpose is not obvious to the current observer.",
+    "Function": "The problem the fence solved or the effect it produced, including unofficial or latent effects not captured in formal rationale.",
+    "Latent function": "A real consequence of a rule or institution that may not appear in its stated purpose, such as coordination, signaling, or risk containment.",
+    "Reform": "Changing the fence after understanding its function, ideally preserving valuable functions while reducing cost or harm.",
+    "Status quo bias": "The failure mode of overvaluing existing arrangements merely because they exist, even when their function is obsolete or harmful."
+  },
+  "name": "Chesterton's Fence",
+  "operative_procedure": [
+    "Identify the fence: the rule, institution, norm, design constraint, bureaucratic step, or taboo proposed for removal.",
+    "State the reformer's objection precisely: cost, delay, unfairness, incoherence, lost opportunity, or conflict with present goals.",
+    "Reconstruct the origin story: who created the fence, after what failure or conflict, under what constraints, and for whose benefit?",
+    "Distinguish official purpose from latent function by asking what behavior the fence prevents, enables, signals, coordinates, or makes costly.",
+    "Test current conditions: whether the original problem still exists, has changed form, or is now handled by another mechanism.",
+    "Model removal effects, including second-order effects on incentives, trust, safety, coordination, and enforcement.",
+    "Choose a reform posture: retain, remove, replace, narrow, sunset, or experiment, making explicit how any valuable old function will be preserved.",
+    "Set a review trigger so the fence does not survive only because it was once understood."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Conservatism",
+      "Institutional Economics",
+      "Functionalism",
+      "Prudence"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Second-Order Thinking",
+      "Principal-Agent Analysis",
+      "Risk Analysis"
+    ],
+    "descendants": [
+      "Institutional Chestertonianism",
+      "Legacy System Analysis",
+      "Policy Sunset Review",
+      "Change Impact Assessment"
+    ],
+    "related": [
+      "Systems Thinking",
+      "Pragmatism",
+      "The Map-Territory Distinction",
+      "Theory of Constraints"
+    ],
+    "rivals": [
+      "First-Principles Reasoning",
+      "Creative Destruction",
+      "Zero-Based Budgeting",
+      "Radical Critique"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Chesterton's Fence is strongest for inherited rules, legacy systems, institutional reform, compliance processes, and social norms whose purpose is unclear. It is not an argument against reform, and it is weak where urgent harm requires immediate suspension before full historical diagnosis can be completed.",
+  "source_summary": "Authored from model knowledge of G. K. Chesterton's statement of the fence heuristic and later institutional uses, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "G. K. Chesterton, The Thing: Why I Am a Catholic (1929)"
+    },
+    {
+      "kind": "primary",
+      "title": "G. K. Chesterton, Orthodoxy (1908)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Friedrich A. Hayek, The Constitution of Liberty (1960)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Chesterton's fence (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/G._K._Chesterton#Chesterton%27s_fence"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a team wants to remove a rule, review step, norm, interface constraint, or institution mainly because its purpose is not obvious",
+    "a legacy process looks wasteful but has survived across many failures, leadership changes, or operating conditions",
+    "a reform may eliminate friction without knowing what risk, coordination problem, or abuse that friction contained",
+    "a policy debate treats inherited arrangements as irrational without reconstructing the problem they originally addressed",
+    "a system has hidden dependencies and removing one visible barrier could change incentives or safety properties elsewhere"
+  ]
+}

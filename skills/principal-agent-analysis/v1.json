@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:17Z",
+  "canonical_examples": [
+    {
+      "analysis": "Berle and Means identify the modern corporation's separation of ownership and control. Shareholders are principals who supply capital and bear residual risk, while managers are agents with superior information and control over day-to-day decisions. Because managers can pursue perks, empire-building, job security, or low effort while shareholders want firm value, governance mechanisms such as boards, disclosure, voting rights, takeover threats, and performance pay try to reduce agency costs. The analysis predicts neither pure trust nor pure command will suffice where monitoring is costly.",
+      "problem": "In the modern public corporation, dispersed shareholders own the firm while professional managers control operations."
+    },
+    {
+      "analysis": "Akerlof's used-car market shows adverse selection before contracting. Sellers know whether a car is a good car or a lemon, but buyers cannot observe quality directly. Buyers therefore offer an average price, which drives high-quality sellers out and leaves a worse pool of cars. The principal-agent lens treats the information asymmetry as a contracting problem: warranties, certification, reputation, inspections, or signaling can align expectations and make quality credible.",
+      "problem": "In Akerlof's 'market for lemons,' used-car buyers cannot tell high-quality cars from defective ones, while sellers know more."
+    }
+  ],
+  "core_claims": [
+    "Delegation creates agency problems when an agent's interests differ from the principal's and the principal cannot perfectly observe the agent's action or information.",
+    "Information asymmetry is not incidental; hidden action and hidden information systematically change behavior before and after contracts are made.",
+    "Monitoring, bonding, incentives, and residual-loss tradeoffs create agency costs that cannot usually be reduced to zero.",
+    "A contract or governance design should be judged by the behavior it induces under self-interest, not by the duties it states on paper.",
+    "High-powered incentives improve effort alignment but can distort multitask work, risk-taking, reporting, and long-term stewardship.",
+    "Adverse selection is addressed by screening, signaling, certification, or separating contracts; moral hazard is addressed by monitoring, incentive alignment, risk-sharing, and accountability.",
+    "The optimal arrangement often tolerates some misalignment because perfect monitoring or perfect incentives would cost more than the residual loss."
+  ],
+  "description": "Principal-Agent Analysis examines delegation under incentive conflict and information asymmetry, explaining how principals can design contracts, monitoring, governance, and accountability mechanisms to reduce agency costs.",
+  "domains": [
+    "economics",
+    "organizational-design",
+    "governance",
+    "contract-theory"
+  ],
+  "failure_modes": [
+    "It can become cynical reductionism, interpreting all professional judgment, loyalty, ethics, or public service as disguised self-interest.",
+    "Poorly designed incentives can produce gaming, metric fixation, risk shifting, or neglect of unmeasured tasks.",
+    "The framework can overstate the principal's legitimacy; sometimes the agent has better knowledge of the mission or affected stakeholders than the formal principal.",
+    "Monitoring can crowd out intrinsic motivation and trust, increasing the very opportunism it was meant to prevent.",
+    "Treating one actor as the sole principal can hide multiple-principal problems, conflicting mandates, and accountability to third parties."
+  ],
+  "key_vocabulary": {
+    "Adverse selection": "A hidden-information problem before contracting, where one side knows quality, risk, or type and the other cannot distinguish it cheaply.",
+    "Agency cost": "The total cost of delegation, including monitoring expenditures, bonding expenditures, and residual loss from remaining misalignment.",
+    "Agent": "The actor delegated to act on behalf of another, often with better information about actions, effort, type, or local conditions.",
+    "Bonding": "Actions by the agent that credibly limit opportunism or reassure the principal, such as warranties, collateral, disclosure commitments, or reputation at stake.",
+    "Hidden action": "An action or effort level the principal cannot observe directly, creating moral hazard after agreement.",
+    "Hidden information": "Private knowledge about type, quality, risk, or circumstances that affects the value of a contract or delegation.",
+    "Moral hazard": "A post-contract problem where the agent takes inefficient risks, shirks, or otherwise changes behavior because consequences are partly borne by the principal.",
+    "Principal": "The actor who delegates authority, resources, or discretion and whose objectives the agent is supposed to advance.",
+    "Residual loss": "The welfare loss that remains after feasible monitoring, bonding, and incentive alignment have been applied."
+  },
+  "name": "Principal-Agent Analysis",
+  "operative_procedure": [
+    "Identify the delegation: who is the principal, who is the agent, what authority or task is delegated, and what outcome the principal wants.",
+    "Specify each party's objective function, risk exposure, outside options, time horizon, and constraints rather than assuming shared goals.",
+    "Diagnose the information problem: hidden action, hidden information, unverifiable outcomes, noisy performance measures, or multiple principals.",
+    "Classify the agency problem as adverse selection, moral hazard, multitask distortion, risk shifting, hold-up, or common-agency conflict.",
+    "Estimate agency costs: monitoring costs, bonding costs, incentive costs, and residual loss from misalignment that remains.",
+    "Design alignment mechanisms appropriate to the diagnosis: screening, signaling, certification, audits, reporting, boards, performance pay, warranties, clawbacks, fiduciary duties, or staged delegation.",
+    "Check incentive side effects: gaming metrics, excessive risk, short-termism, reduced intrinsic motivation, burden shifting, and neglect of unmeasured goals.",
+    "Choose the least-bad governance arrangement by comparing the cost of stronger control against the expected reduction in residual loss."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Contract Theory",
+      "Information Economics",
+      "Property Rights Theory",
+      "Public Choice Theory"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Decision Theory",
+      "Theory of Constraints",
+      "Chesterton's Fence"
+    ],
+    "descendants": [
+      "Agency Theory",
+      "Mechanism Design",
+      "Corporate Governance",
+      "Transaction Cost Economics"
+    ],
+    "related": [
+      "Game Theory",
+      "Decision Theory",
+      "Systems Thinking",
+      "Utilitarianism"
+    ],
+    "rivals": [
+      "Stewardship Theory",
+      "Stakeholder Theory",
+      "Virtue Ethics",
+      "Relational Contracting"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Principal-Agent Analysis is strongest where delegation, information asymmetry, and incentive conflict are central: corporate governance, regulation, procurement, employment, medicine, insurance, and politics. It is weaker when shared identity, professional norms, intrinsic motivation, or moral obligations dominate behavior, and it must be adapted for multiple principals and networked accountability.",
+  "source_summary": "Authored from model knowledge of principal-agent theory, agency costs, information economics, and corporate-governance literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Michael C. Jensen and William H. Meckling, 'Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure' (1976)"
+    },
+    {
+      "kind": "primary",
+      "title": "Adolf A. Berle and Gardiner C. Means, The Modern Corporation and Private Property (1932)"
+    },
+    {
+      "kind": "primary",
+      "title": "George A. Akerlof, 'The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism' (1970)"
+    },
+    {
+      "kind": "primary",
+      "title": "Stephen A. Ross, 'The Economic Theory of Agency: The Principal's Problem' (1973)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Jean-Jacques Laffont and David Martimort, The Theory of Incentives: The Principal-Agent Model (2002)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "one party delegates work, authority, capital, or discretion to another party whose incentives may differ",
+    "the actor making decisions has better information than the actor who bears much of the cost or risk",
+    "a contract, metric, bonus, regulation, or governance process is producing gaming, shirking, excessive risk, or short-termism",
+    "buyers, voters, patients, shareholders, managers, contractors, or regulators cannot cheaply verify quality, effort, or type",
+    "a proposed accountability mechanism must balance monitoring cost against trust, discretion, and residual misalignment"
+  ]
+}

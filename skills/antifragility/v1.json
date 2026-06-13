@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:10+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The Hydra is Taleb's emblem of antifragility because the harm event is not merely resisted; it creates more capacity. Cutting off one head changes the system's future payoff surface by producing two heads, so volatility has a positive convex payoff rather than a linear loss. The useful lesson is not mythological resilience but structure: a system is antifragile when local damage, variation, or stress causes overcompensating growth in the whole or in future states.",
+      "problem": "In Antifragile, Taleb contrasts fragile objects with the mythological Hydra, whose severed head is replaced by two heads."
+    },
+    {
+      "analysis": "Hormesis shows that the dose-response curve is not monotone harm. Small toxic or stressful exposures can activate repair mechanisms and leave the organism stronger than before, while large exposures remain destructive. Antifragility therefore asks for bounded, frequent, recoverable stressors, not unlimited risk: the medicine is in the convex region of the exposure curve, and crossing into ruinous dose destroys the system.",
+      "problem": "Taleb repeatedly uses hormesis: organisms can benefit from small doses of stressors or toxins that would be harmful in large doses."
+    }
+  ],
+  "core_claims": [
+    "Some systems have convex exposure to volatility: bounded shocks improve them more than comparable calm or prediction accuracy would.",
+    "Robustness and resilience are not the opposite of fragility; the opposite of fragility is gain from disorder, error, time, and stress.",
+    "Optimization for average conditions often removes redundancy and optionality, making a system more fragile to tail events even while improving short-run efficiency.",
+    "Small, frequent failures can be beneficial when they prevent hidden risk accumulation and reveal weak components before they become systemic.",
+    "Optionality is a practical substitute for prediction: owning many low-cost, high-upside options lets a system benefit from uncertainty without forecasting its source.",
+    "Systems exposed to ruin are not antifragile at the decision-maker's level, even if some subparts learn or adapt after shocks.",
+    "Skin in the game is an epistemic filter: people who bear downside risk reveal more reliable knowledge about fragility than detached forecasters."
+  ],
+  "description": "Antifragility is Nassim Nicholas Taleb's framework for identifying and designing systems that benefit from volatility, stressors, errors, variation, and time because their payoff to disorder is convex rather than merely robust.",
+  "domains": [
+    "risk",
+    "systems-thinking",
+    "decision-theory",
+    "strategy"
+  ],
+  "failure_modes": [
+    "Romanticizing stress: practitioners can mistake any pressure, austerity, or chaos for beneficial disorder, ignoring dose, recovery capacity, and irreversible damage.",
+    "Ignoring level of analysis: a market, ecosystem, or institution may improve through failures that are catastrophic for particular people or firms; the framework can hide who pays the cost.",
+    "Treating convexity as a slogan: without identifying the actual payoff function, downside cap, and upside exposure, claims of antifragility become unfalsifiable.",
+    "Underweighting coordination and justice: 'let small failures happen' can be a poor prescription where failures impose externalities on unwilling third parties.",
+    "Confusing optionality with indecision: collecting options without exercising, pruning, or paying attention to carrying costs can become expensive drift."
+  ],
+  "key_vocabulary": {
+    "Antifragile": "A property of systems that improve from disorder, volatility, variation, stressors, or errors rather than merely surviving them.",
+    "Barbell strategy": "A portfolio posture that combines extreme safety on one side with small, capped-downside speculative exposures on the other, avoiding fragile middle-risk exposure.",
+    "Convexity": "A payoff shape where gains from favorable variation exceed losses from unfavorable variation of similar size. Convex exposure makes volatility helpful when downside is bounded.",
+    "Fragile": "A system whose losses accelerate under stress or volatility, especially when rare events can cause ruin.",
+    "Hormesis": "A dose-response pattern in which small exposures to a stressor stimulate beneficial adaptation while large exposures remain harmful.",
+    "Optionality": "The possession of choices with limited downside and open-ended upside; it allows benefit from uncertainty without precise prediction.",
+    "Robust": "Able to withstand shocks without major change, but not improved by them. Taleb distinguishes robustness from antifragility.",
+    "Skin in the game": "Exposure of the decision-maker to consequences, especially downside, which filters bad risk transfer and cheap talk.",
+    "Via negativa": "Improvement by removing harmful elements rather than adding complex interventions; often preferred when systems are opaque.",
+    "Ruin": "An absorbing or irreversible loss state. Antifragile practice avoids exposures where one bad event prevents future adaptation."
+  },
+  "name": "Antifragility",
+  "operative_procedure": [
+    "Name the system and the level of analysis. Specify whether the relevant unit is a person, firm, portfolio, institution, ecosystem, or society; do not transfer antifragility claims across levels without argument.",
+    "Map exposures to volatility, time, error, stress, and randomness. Identify what changes when the environment becomes more variable rather than only what happens under average conditions.",
+    "Classify payoff shape. Ask whether shocks produce accelerating losses, roughly neutral effects, or capped losses with open-ended gains; label the exposure fragile, robust, or antifragile.",
+    "Locate ruin and irreversible harm. Identify absorbing downside states, externalized losses, and tail dependencies that would prevent the system from staying in the game.",
+    "Search for optionality. Inventory low-cost options, reversible experiments, slack, redundancy, and trial-and-error mechanisms that let the system gain from favorable surprises.",
+    "Apply via negativa before additive design. Remove sources of fragility such as leverage, over-optimization, hidden coupling, and single points of failure before adding complex controls.",
+    "Design bounded stressors. Introduce small, frequent, recoverable variation or tests that reveal weakness and stimulate adaptation without crossing the ruin threshold.",
+    "Use barbell allocation where prediction is weak. Put critical assets and functions in very safe positions while reserving limited budgets for high-upside experiments.",
+    "Check skin in the game. Verify that those choosing the exposure bear meaningful downside and cannot transfer fragility to others while keeping upside."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Stoicism",
+      "Probability theory",
+      "Evolutionary thinking",
+      "Complex systems theory"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "OODA Loop",
+      "Decision Theory",
+      "The Map-Territory Distinction"
+    ],
+    "descendants": [
+      "Barbell Strategy",
+      "Skin in the Game",
+      "Optionality Thinking",
+      "Via Negativa"
+    ],
+    "related": [
+      "Black Swan Theory",
+      "Precautionary Principle",
+      "Resilience Engineering",
+      "Complex Adaptive Systems"
+    ],
+    "rivals": [
+      "Expected Utility Theory",
+      "Forecast-Based Planning",
+      "Optimization Theory",
+      "Cost-Benefit Analysis"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Antifragility is strongest for opaque, nonlinear systems exposed to uncertainty: portfolios, institutions, supply chains, health practices, organizational design, and risk governance. It is weaker where harms are irreversible, where experimentation violates rights or consent, or where payoff convexity cannot be specified. It should not be used to justify imposing stress on others without attention to level of analysis, externalities, and ruin.",
+  "source_summary": "Authored from model knowledge of Taleb's Antifragile, The Black Swan, Fooled by Randomness, and related discussions of convexity, optionality, hormesis, and skin in the game, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Nassim Nicholas Taleb, Antifragile: Things That Gain from Disorder (2012)"
+    },
+    {
+      "kind": "primary",
+      "title": "Nassim Nicholas Taleb, The Black Swan: The Impact of the Highly Improbable (2007)"
+    },
+    {
+      "kind": "primary",
+      "title": "Nassim Nicholas Taleb, Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (2001)"
+    },
+    {
+      "kind": "primary",
+      "title": "Nassim Nicholas Taleb, Skin in the Game: Hidden Asymmetries in Daily Life (2018)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you are evaluating a system exposed to shocks, volatility, errors, stress, or rapid environmental change",
+    "a plan looks efficient under average conditions but may hide tail risk, leverage, tight coupling, or single points of failure",
+    "you can choose between prediction-heavy control and bounded trial-and-error with reversible downside",
+    "small failures, stress tests, or variation might reveal weaknesses before they accumulate into systemic collapse",
+    "a decision-maker may keep upside while transferring downside risk to other people or to the future"
+  ]
+}

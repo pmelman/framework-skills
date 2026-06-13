@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:17Z",
+  "canonical_examples": [
+    {
+      "analysis": "Christensen's analysis asks what job commuters hired the milkshake to do, not what demographic segment bought it. Morning buyers wanted something that made a boring commute more engaging, lasted a long time, could be consumed one-handed, and prevented midmorning hunger. Competing solutions were bananas, bagels, doughnuts, coffee, and doing nothing, not just other milkshakes. The improvement path was therefore thickness, convenient purchase, and portability rather than flavor-line proliferation.",
+      "problem": "A fast-food chain wanted to increase milkshake sales and first tried conventional customer segmentation and product attributes."
+    },
+    {
+      "analysis": "In Christensen's steel mini-mill account, incumbents interpreted demand from the supply side: integrated mills served high-margin sheet steel and dismissed rebar as unattractive. Mini-mills were hired first for the low-end job of producing cheap rebar, where lower quality was acceptable and cost mattered most. As their process improved, they moved upmarket into bars, rods, structural steel, and eventually sheet steel. The job lens explains the foothold and migration path better than an incumbent-centered product category view.",
+      "problem": "Integrated steel companies ignored mini-mills because mini-mills began in low-margin rebar and did not satisfy mainstream customers' full performance expectations."
+    }
+  ],
+  "core_claims": [
+    "Customers do not primarily buy products or attributes; they hire a solution to make progress in a particular circumstance.",
+    "The proper unit of analysis is the job and its context, not the customer demographic, product category, or expressed preference.",
+    "A job has functional, social, and emotional dimensions that together explain why apparently dissimilar alternatives compete.",
+    "Nonconsumption and makeshift workarounds are evidence of unmet jobs, not absence of demand.",
+    "Innovation succeeds when it improves the customer's progress on the job's success criteria, even if it looks inferior on incumbent product metrics.",
+    "Segmentation by job is more stable than segmentation by customer type because the same person hires different solutions in different circumstances.",
+    "Demand is revealed by switching behavior: what the customer fired, hired, considered, and rejected."
+  ],
+  "description": "Jobs-to-be-Done is Clayton Christensen's demand-side innovation framework: customers 'hire' products and services to accomplish progress in specific circumstances, so product strategy should be organized around the job rather than the buyer category or product category.",
+  "domains": [
+    "innovation",
+    "product-strategy",
+    "marketing",
+    "entrepreneurship"
+  ],
+  "failure_modes": [
+    "Vague job statements can become inspirational slogans rather than causal explanations of switching behavior.",
+    "Teams often smuggle product categories back into the job definition, such as 'get a better dashboard,' instead of naming the customer's underlying progress.",
+    "Overfocusing on interview narratives can miss structural constraints, channel economics, regulation, or technical feasibility.",
+    "A job may be real but too infrequent, low willingness-to-pay, or operationally expensive to support a business.",
+    "Practitioners can mistake any customer goal for a JTBD; the useful jobs are tied to concrete circumstances, struggling moments, and observable tradeoffs."
+  ],
+  "key_vocabulary": {
+    "Competing solutions": "All alternatives the customer could hire for the job, including substitutes from other categories, workarounds, and nonconsumption.",
+    "Demand-side analysis": "Analysis that starts from the customer's circumstance and desired progress rather than the seller's product, market category, or capabilities.",
+    "Forces of progress": "The pushes, pulls, anxieties, and habits that shape whether a customer switches from an old solution to a new one.",
+    "Functional dimension": "The practical task or outcome the customer needs, such as saving time, reducing effort, or completing a workflow.",
+    "Job": "The progress a person is trying to make in a particular circumstance. A good job statement is stable, product-agnostic, and causally connected to choice.",
+    "Nonconsumption": "A situation where people do not buy existing solutions because they are too costly, complex, inaccessible, or ill-suited to the job.",
+    "Social and emotional dimensions": "The identity, status, confidence, anxiety, or relationship effects that shape whether a solution feels suitable for the job.",
+    "Switching": "The act of firing an old solution and hiring a new one, revealing the tradeoffs that matter more reliably than stated preference."
+  },
+  "name": "Jobs-to-be-Done",
+  "operative_procedure": [
+    "Start with a struggling moment: identify the circumstance where people seek progress, delay action, improvise, or switch solutions.",
+    "Define the job in product-agnostic language: what progress is the person trying to make, under what constraints, and with what desired outcome?",
+    "Separate functional, social, and emotional dimensions so the analysis does not collapse the job into a task checklist.",
+    "List the full competitive set: direct products, cross-category substitutes, manual workarounds, internal processes, and nonconsumption.",
+    "Reconstruct the switching story: what pushed the customer away from the old solution, what pulled them toward the new one, what anxieties blocked change, and what habits preserved the status quo?",
+    "Identify job success criteria and tradeoffs: speed, reliability, convenience, confidence, status, risk reduction, price, learning burden, and timing.",
+    "Segment demand by job circumstance rather than customer demographic, then test whether people with different profiles make the same hire for the same reason.",
+    "Design or reposition the offering to perform the job better on the criteria that cause hiring, and avoid optimizing attributes irrelevant to the job."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Disruptive Innovation",
+      "Marketing Myopia",
+      "Pragmatism",
+      "Outcome-Driven Innovation"
+    ],
+    "composes_with": [
+      "First-Principles Reasoning",
+      "Theory of Constraints",
+      "Systems Thinking",
+      "Decision Theory"
+    ],
+    "descendants": [
+      "Demand-Side Sales",
+      "Outcome-Driven Innovation",
+      "Switch Interviews",
+      "Product Discovery"
+    ],
+    "related": [
+      "Disruptive Innovation",
+      "Design Thinking",
+      "Lean Startup",
+      "Value Proposition Design"
+    ],
+    "rivals": [
+      "Demographic Segmentation",
+      "Technology-Push Innovation",
+      "Resource-Based View",
+      "Blue Ocean Strategy"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Jobs-to-be-Done is strongest for product discovery, innovation strategy, segmentation, positioning, and explaining switching behavior in markets where customers choose among alternatives. It is weaker where demand is coerced, heavily regulated, purely procurement-driven, or where users, buyers, and beneficiaries are sharply separated without enough access to each group's job.",
+  "source_summary": "Authored from model knowledge of Clayton Christensen's Jobs-to-be-Done writings and associated innovation literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Clayton M. Christensen, Taddy Hall, Karen Dillon, and David S. Duncan, Competing Against Luck: The Story of Innovation and Customer Choice (2016)"
+    },
+    {
+      "kind": "primary",
+      "title": "Clayton M. Christensen, Scott Cook, and Taddy Hall, 'Marketing Malpractice: The Cause and the Cure,' Harvard Business Review (2005)"
+    },
+    {
+      "kind": "primary",
+      "title": "Clayton M. Christensen, The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (1997)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Anthony W. Ulwick, What Customers Want: Using Outcome-Driven Innovation to Create Breakthrough Products and Services (2005)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a product team has lots of demographic or persona data but still cannot explain why customers switch, churn, or refuse to buy",
+    "customers use unexpected workarounds or substitute products from unrelated categories",
+    "feature requests conflict because users are trying to make different kinds of progress in different circumstances",
+    "an innovation looks weak on incumbent product metrics but may satisfy an underserved low-end, new-market, or nonconsuming demand",
+    "a market category is crowded and the real competition may be the customer's current habit, spreadsheet, manual process, or inaction"
+  ]
+}

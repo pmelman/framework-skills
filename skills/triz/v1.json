@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:13Z",
+  "canonical_examples": [
+    {
+      "analysis": "Altshuller's classic teaching examples include the need to remove metal particles from grain without damaging the grain. TRIZ first states the contradiction: the particles must be strongly affected for separation, while the grain must remain unaffected. The inventive move is to change the field interaction rather than intensify mechanical sorting: magnetize or exploit magnetic properties of the metal so a magnetic field removes it selectively. This reflects the TRIZ pattern of resolving a contradiction by finding a resource or field that acts on one component and not the other.",
+      "problem": "A process must separate unwanted iron particles from grain without crushing or otherwise harming the grain."
+    },
+    {
+      "analysis": "The tanker example is a standard TRIZ illustration of using an available resource and changing state. Ice in northern waters is dangerous to hulls, but water itself can become a protective object: freeze water around the vessel or use ice as a temporary structural medium to move or support the load. The contradiction is that the ship needs strong protection without adding permanent heavy armor. TRIZ points toward principles such as Preliminary Action, Phase Transition, and Use of Resources: use the environment's own water/ice as a temporary protective or load-bearing element.",
+      "problem": "A vessel or cargo operation in icy water needs protection from ice damage without adding heavy permanent structure."
+    }
+  ],
+  "core_claims": [
+    "Inventive problems are usually contradictions: improving one parameter makes another worse, and breakthrough solutions remove the contradiction rather than compromise between them.",
+    "Patterns of invention recur across industries, so solutions can be abstracted from one domain and transferred to another.",
+    "A system's ideality increases when useful functions rise and harmful functions, costs, and complexity fall; the ideal final result delivers the function with minimal mechanism.",
+    "Existing resources in the system, supersystem, environment, time, fields, and substances should be exploited before adding new components.",
+    "Technical systems evolve along recognizable lines such as increasing dynamism, segmentation, controllability, and transition to fields or micro-level effects.",
+    "Psychological inertia traps designers inside familiar domain solutions; TRIZ deliberately translates the problem into abstract parameters and inventive principles to escape it."
+  ],
+  "description": "TRIZ is Genrich Altshuller's theory of inventive problem solving, using contradiction analysis, ideality, resources, and recurring inventive principles to generate non-compromise technical solutions.",
+  "domains": [
+    "engineering",
+    "innovation",
+    "product-design",
+    "problem-solving"
+  ],
+  "failure_modes": [
+    "Matrix ritualism: mechanically selecting principles from the contradiction matrix without understanding the physical contradiction or system resources.",
+    "Over-abstraction: translating the problem so generically that the suggested principles become vague prompts rather than design constraints.",
+    "Patent-pattern bias: TRIZ is strongest for technical systems and can mislead when applied uncritically to social, ethical, or market problems.",
+    "Ignoring implementation economics: an inventive resolution can be technically elegant but worse on manufacturability, reliability, regulation, or user adoption.",
+    "Contradiction misframing: choosing the wrong improving and worsening parameters sends the search toward irrelevant principles."
+  ],
+  "key_vocabulary": {
+    "Contradiction": "A situation where improving one system parameter worsens another, or where the same parameter must have opposite values in different conditions.",
+    "Contradiction matrix": "A TRIZ lookup table mapping improving and worsening engineering parameters to commonly successful inventive principles.",
+    "Ideal final result": "The imagined state where the desired function is achieved with no added cost, complexity, or harm, ideally by the system itself.",
+    "Ideality": "The ratio-like aim of increasing useful functions while reducing harmful functions and costs.",
+    "Inventive principle": "One of Altshuller's recurring solution patterns, such as Segmentation, Prior Action, Dynamics, or Another Dimension.",
+    "Physical contradiction": "A contradiction in which a feature must be both present and absent, high and low, hot and cold, or otherwise opposite under different conditions.",
+    "Psychological inertia": "The tendency to search only within familiar concepts, components, and industry habits.",
+    "Resource": "Anything already available in the system or environment, including materials, fields, geometry, time, information, waste, and unused functions.",
+    "Substance-field model": "A representation of interacting substances and fields used in TRIZ to diagnose insufficient or harmful functions."
+  },
+  "name": "TRIZ",
+  "operative_procedure": [
+    "State the specific technical problem and the useful function being sought, separating the desired result from the current implementation.",
+    "Identify the system, supersystem, subsystems, available resources, harmful effects, constraints, and the stage of the system's evolution.",
+    "Formulate the technical contradiction: what parameter should improve, and what parameter worsens if the obvious solution is used.",
+    "Where possible, sharpen it into a physical contradiction: what property must have opposite values, and under what times, places, conditions, or scales.",
+    "Define the ideal final result: the function is achieved while added mechanism, cost, harm, and complexity approach zero.",
+    "Use TRIZ operators such as the contradiction matrix, 40 inventive principles, separation principles, substance-field analysis, and effects databases to generate candidate directions.",
+    "Translate abstract principles back into domain-specific concepts using available resources before adding new parts or processes.",
+    "Evaluate candidates by contradiction resolution, ideality gain, feasibility, secondary harms, and compatibility with manufacturing or operational constraints.",
+    "Iterate on the contradiction if all candidates are compromises; a good TRIZ answer should make the original tradeoff less binding."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Patent Analysis",
+      "Engineering Design",
+      "Dialectical Thinking"
+    ],
+    "composes_with": [
+      "First-Principles Reasoning",
+      "Theory of Constraints",
+      "Systems Thinking",
+      "Control Theory Thinking"
+    ],
+    "descendants": [
+      "ARIZ",
+      "Systematic Innovation",
+      "Substance-Field Analysis"
+    ],
+    "related": [
+      "First-Principles Reasoning",
+      "Theory of Constraints",
+      "Systems Thinking",
+      "Design Thinking"
+    ],
+    "rivals": [
+      "Brainstorming",
+      "Design Thinking",
+      "Trial and Error",
+      "Morphological Analysis"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "TRIZ is strongest for technical and engineering problems where a real contradiction blocks improvement and where analogical solution patterns from other domains can transfer. It is weaker for open-ended taste, brand, political, or interpersonal problems where objectives are contested and physical contradictions are not the limiting structure. It should be paired with testing, cost analysis, and user validation.",
+  "source_summary": "Authored from model knowledge of Altshuller's TRIZ writings, standard contradiction and inventive-principle materials, and systematic innovation literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Genrich Altshuller, Creativity as an Exact Science"
+    },
+    {
+      "kind": "primary",
+      "title": "Genrich Altshuller, And Suddenly the Inventor Appeared"
+    },
+    {
+      "kind": "secondary",
+      "title": "Yuri Salamatov, TRIZ: The Right Solution at the Right Time"
+    },
+    {
+      "kind": "secondary",
+      "title": "Darrell Mann, Hands-On Systematic Innovation"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "an engineering or product problem is stuck because improving one parameter worsens another",
+    "the team keeps proposing compromises rather than eliminating the underlying tradeoff",
+    "a technical system needs a more elegant solution using fewer parts, less cost, or fewer harmful side effects",
+    "domain experts are trapped in familiar solution patterns and need cross-industry invention analogies",
+    "available materials, fields, timing, geometry, or environmental resources may solve the problem if reframed"
+  ]
+}

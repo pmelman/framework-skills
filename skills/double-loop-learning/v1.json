@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:56:17Z",
+  "canonical_examples": [
+    {
+      "analysis": "The thermostat example separates single-loop from double-loop learning. A thermostat that detects a room is too cold and turns on heat corrects an error inside a fixed governing variable: maintain the preset temperature. Double-loop learning would ask whether the preset itself, the comfort standard, the occupancy assumptions, or the energy-use norm should change. The example shows that error correction is not enough when the control variable is itself part of the problem.",
+      "problem": "Argyris and Schon's standard thermostat analogy: a device detects that room temperature differs from a preset target and activates heating to restore the target."
+    },
+    {
+      "analysis": "Argyris uses this case to show how Model I reasoning blocks learning. Managers say they want valid information and commitment, but in practice they unilaterally control the agenda, suppress negative data, and treat disagreement as disloyalty. Single-loop fixes improve presentation, monitoring, or compliance while preserving those governing variables. Double-loop learning surfaces the undiscussable norms, tests whether unilateral control is producing defensive routines, and moves toward Model II values: valid information, free and informed choice, and internal commitment.",
+      "problem": "A management team repeatedly fails to learn from project breakdowns because meetings avoid embarrassment, disagreement, and criticism of senior assumptions."
+    }
+  ],
+  "core_claims": [
+    "Organizations can correct visible errors while preserving the governing variables that produced those errors; such single-loop correction often stabilizes the underlying dysfunction.",
+    "The decisive learning question is not only whether action matched intention, but whether the intentions, norms, policies, and problem frames should be altered.",
+    "Defensive routines protect individuals and organizations from embarrassment or threat, and thereby make the most important premises undiscussable.",
+    "Model I theories-in-use favor unilateral control, winning, suppressing negative feelings, and acting rationally; they predictably produce low-validity information and weak learning.",
+    "Model II learning requires publicly testable claims, valid information, free and informed choice, and internal commitment rather than compliance.",
+    "Espoused theories often diverge from theories-in-use; reliable diagnosis must infer governing variables from behavior, not from stated values alone."
+  ],
+  "description": "Double-Loop Learning is Chris Argyris and Donald Schon's framework for distinguishing ordinary error correction within existing governing assumptions from deeper learning that questions and revises those assumptions themselves.",
+  "domains": [
+    "organizational-learning",
+    "management",
+    "systems-thinking",
+    "education"
+  ],
+  "failure_modes": [
+    "Endless assumption-questioning can become avoidance of operational repair; some problems really are single-loop defects in execution.",
+    "Practitioners can perform openness rhetorically while preserving Model I control, turning double-loop language into another defensive routine.",
+    "Surfacing governing variables without psychological safety or authority to change them can increase cynicism and threat.",
+    "The framework can overattribute failure to defensive reasoning when material constraints, incentives, or technical skill gaps are the primary cause.",
+    "Double-loop inquiry is slow and socially demanding; using it for every minor variance can exhaust attention and make learning rituals feel punitive."
+  ],
+  "key_vocabulary": {
+    "Defensive routine": "A practiced pattern that prevents people from experiencing embarrassment or threat while also preventing them from examining the causes of that threat.",
+    "Double-loop learning": "Learning that detects and corrects error by changing the governing variables, norms, policies, or objectives that shaped the original action.",
+    "Espoused theory": "The values, strategies, and assumptions people claim guide their action. Argyris contrasts it with the theory actually revealed in behavior.",
+    "Governing variables": "The values, goals, policies, and assumptions that define what counts as success and constrain acceptable action.",
+    "Model I": "A theory-in-use organized around unilateral control, winning, minimizing negative feelings, and appearing rational. It tends to create defensiveness and low-validity information.",
+    "Model II": "A theory-in-use organized around valid information, free and informed choice, and internal commitment. It is the normative pattern Argyris associates with productive learning.",
+    "Single-loop learning": "Learning that detects and corrects error without changing the governing variables, like a thermostat restoring a preset temperature.",
+    "Theory-in-use": "The implicit action theory that can be inferred from what people actually do, especially under stress or conflict."
+  },
+  "name": "Double-Loop Learning",
+  "operative_procedure": [
+    "Name the error or persistent mismatch between intended and actual outcomes without yet treating it as an execution defect.",
+    "Map the current single-loop response: what correction, control, training, incentive, or monitoring action is being used to restore the existing target?",
+    "Elicit the governing variables that make the current response sensible: targets, success criteria, taboos, role assumptions, control preferences, and risk definitions.",
+    "Compare espoused theory with theory-in-use by using concrete episodes: what people said they valued versus what their actions protected when stakes rose.",
+    "Identify defensive routines and undiscussables: what information is not allowed into the conversation, what embarrassment is being avoided, and who benefits from that avoidance.",
+    "Test whether the governing variables are valid by asking what evidence would change them and whether affected actors can challenge them publicly.",
+    "Redesign toward Model II conditions: valid information, free and informed choice, joint control of inquiry, and internal commitment to the revised action.",
+    "Run a new action experiment and check both loops: whether the immediate error improved and whether the revised governing variables changed behavior under pressure."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Action Science",
+      "Organizational Learning",
+      "Cybernetics",
+      "Theory of Action"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "OODA Loop",
+      "Reflective Equilibrium",
+      "Theory of Constraints"
+    ],
+    "descendants": [
+      "Learning Organization",
+      "After-Action Review",
+      "Adaptive Leadership",
+      "Psychological Safety"
+    ],
+    "related": [
+      "OODA Loop",
+      "Systems Thinking",
+      "Pragmatism",
+      "Reflective Equilibrium"
+    ],
+    "rivals": [
+      "Single-Loop Learning",
+      "Total Quality Management",
+      "Behaviorism",
+      "Management by Objectives"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Double-Loop Learning is strongest for recurring organizational failures, policy contradictions, and interpersonal patterns where ordinary fixes preserve the conditions that create the problem. It is less useful for one-off technical defects, emergencies requiring rapid execution, or settings where participants cannot safely examine governing assumptions.",
+  "source_summary": "Authored from model knowledge of Chris Argyris and Donald Schon's work on organizational learning and action science, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Chris Argyris and Donald A. Schon, Organizational Learning: A Theory of Action Perspective (1978)"
+    },
+    {
+      "kind": "primary",
+      "title": "Chris Argyris, Reasoning, Learning, and Action: Individual and Organizational (1982)"
+    },
+    {
+      "kind": "primary",
+      "title": "Chris Argyris, Overcoming Organizational Defenses: Facilitating Organizational Learning (1990)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Peter M. Senge, The Fifth Discipline: The Art and Practice of the Learning Organization (1990)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a recurring error persists even after better procedures, training, monitoring, or incentives have been applied",
+    "people can describe the official lesson learned, but behavior under pressure keeps reproducing the same pattern",
+    "important facts are treated as embarrassing, disloyal, politically unsafe, or otherwise undiscussable",
+    "a team is optimizing to a target that may itself be outdated, harmful, or contradicted by its stated purpose",
+    "the gap between stated values and actual decisions is central to the problem"
+  ]
+}
