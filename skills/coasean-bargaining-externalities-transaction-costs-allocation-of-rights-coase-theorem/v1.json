@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:53Z",
+  "canonical_examples": [
+    {
+      "analysis": "Coase's cattle-and-crops example treats the straying cattle not as a one-sided harm but as a reciprocal problem: preventing crop damage by restraining cattle also prevents some cattle production. If bargaining is costless and the rancher's cattle damage is worth less than the crop protection gained, the parties will bargain to reduce the herd, build a fence, or compensate the farmer regardless of whether liability initially rests with the rancher or the farmer. The initial entitlement affects who pays whom, but not the efficient allocation. Once negotiation, measurement, and enforcement are costly, the legal rule matters because it determines whether the cheapest avoider and the lowest-cost bargain will actually be reached.",
+      "problem": "In 'The Problem of Social Cost,' a rancher's cattle stray onto neighboring farmland and damage crops."
+    },
+    {
+      "analysis": "Coase uses the railway sparks cases to show why simply making the railroad pay for crop fires can be inefficient. The social question is whether the value of running trains exceeds the crop losses and the costs of prevention available to both sides, such as spark arresters, altered planting, firebreaks, or fewer train runs. With zero transaction costs, railroad and farmers would bargain to the efficient level of train operation and crop exposure whatever the liability rule. With many dispersed farmers, hard-to-measure damages, and strategic holdout, the assignment of liability changes behavior and should be chosen for its administrative and bargaining-cost consequences.",
+      "problem": "Railroad engines emit sparks that sometimes set nearby crops on fire, a standard nuisance case discussed by Coase."
+    }
+  ],
+  "core_claims": [
+    "An externality is a reciprocal-cost problem: stopping A from harming B often harms A, so the relevant question is which arrangement has the higher total value.",
+    "If property rights are well-defined and transaction costs are zero, voluntary bargaining will reach an efficient allocation regardless of the initial legal assignment of rights.",
+    "The initial allocation of rights affects wealth distribution even when it does not affect allocative efficiency.",
+    "When transaction costs are positive, legal rules, liability standards, and property entitlements affect whether efficient bargains are discovered and enforced.",
+    "Policy should compare the total social product under alternative institutional arrangements, not merely identify the party that physically caused the damage.",
+    "The cheapest-cost avoider may be the injurer, the victim, or both jointly; efficient law should create incentives for the party able to avoid harm at lowest cost.",
+    "Government correction of externalities is itself costly and error-prone, so market failure must be compared with administrative and legal failure."
+  ],
+  "description": "Coasean Bargaining analyzes externalities by assigning rights, estimating transaction costs, and asking whether parties can bargain to a higher-valued allocation; the Coase theorem shows that with zero transaction costs and clear entitlements, bargaining reaches efficient outcomes regardless of initial rights.",
+  "domains": [
+    "law-and-economics",
+    "economics",
+    "institutional-design",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "Zero-transaction-cost reasoning can be mistaken for a policy prescription, leading practitioners to ignore bargaining costs, information costs, strategic behavior, and enforcement costs.",
+    "The framework can underplay distribution: the same efficient allocation may be reached through very different transfers and bargaining power.",
+    "It can individualize harms that are diffuse, irreversible, intergenerational, or rights-based, where bargaining by affected parties is impossible or morally inappropriate.",
+    "Poor entitlement specification can make the analysis circular: the conclusion depends on assuming the very property rights whose design is at issue.",
+    "The characteristic practitioner error is to say 'let them bargain' where high transaction costs, collective action problems, or holdout make bargaining predictably fail."
+  ],
+  "key_vocabulary": {
+    "Cheapest-cost avoider": "The party that can prevent or reduce the harm at the lowest opportunity cost. Coasean analysis asks who can avoid which margin of damage most cheaply, not who looks morally responsible.",
+    "Coase theorem": "The proposition that, with clear rights and zero transaction costs, parties will bargain to an efficient allocation regardless of the initial assignment of entitlements.",
+    "Entitlement": "The legally recognized right to use, exclude, pollute, be free from nuisance, or receive compensation. Its initial allocation shapes bargaining positions and wealth transfers.",
+    "Externality": "A cost or benefit of an activity borne by someone outside the immediate transaction. Coase reframes it as a reciprocal conflict over incompatible resource uses.",
+    "Liability rule": "A rule that permits an activity but requires payment for damages. It differs from a property rule, which lets the entitlement holder block the activity unless they agree to transfer the right.",
+    "Property rule": "A protection of an entitlement that can be transferred only by the holder's consent, making voluntary bargaining central.",
+    "Reciprocal harm": "The idea that avoiding harm to one party imposes costs on another; the problem is choosing the arrangement with the greatest net social product.",
+    "Social cost": "The total opportunity cost of alternative arrangements, including production gains, damage losses, prevention costs, bargaining costs, litigation costs, and administrative costs.",
+    "Transaction costs": "The costs of identifying parties, measuring harms, negotiating, drafting agreements, preventing holdout, monitoring compliance, and enforcing bargains."
+  },
+  "name": "Coasean Bargaining | externalities, transaction costs, allocation of rights (Coase theorem)",
+  "operative_procedure": [
+    "Define the conflicting uses: specify the activities, resources, parties, and physical or legal incompatibility producing the alleged externality.",
+    "Reframe the harm as reciprocal: state what is lost if the injurer is restrained and what is lost if the victim bears the damage.",
+    "Identify the candidate entitlements: list plausible property rules, liability rules, nuisance rules, regulatory permits, or no-liability baselines.",
+    "Estimate the value of each use and the prevention options: include output value, damage value, avoidance technology, relocation, timing changes, precautions, and joint adjustments.",
+    "Assess transaction costs: count the number of parties, information problems, measurement difficulty, bargaining costs, holdout, free-riding, enforcement, and court or agency competence.",
+    "Apply the zero-transaction-cost benchmark: ask what bargain would be struck if rights were clear and bargaining were costless, and separate the efficient allocation from the distribution of payments.",
+    "Choose the positive-transaction-cost institution: assign rights or liability to minimize the sum of damage, prevention, bargaining, litigation, administrative, and error costs.",
+    "Check distribution and rights constraints: state who gains, who pays, whether affected parties can consent, and whether non-compensable rights or irreversibility limit bargaining.",
+    "Recommend the rule and bargaining channel: specify the entitlement, default rule, compensation mechanism, information requirements, and enforcement arrangement."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Welfare Economics",
+      "Property Rights Theory",
+      "Institutional Economics",
+      "Common Law Reasoning"
+    ],
+    "composes_with": [
+      "Transaction Cost Economics",
+      "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
+      "Public Choice Theory | politics as exchange among self-interested actors; rent-seeking",
+      "Cost-Benefit Analysis"
+    ],
+    "descendants": [
+      "Law and Economics",
+      "Property Rights Theory",
+      "Transaction Cost Economics",
+      "New Institutional Economics"
+    ],
+    "related": [
+      "Game Theory",
+      "Auction Theory",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Utilitarianism"
+    ],
+    "rivals": [
+      "Pigouvian Taxation",
+      "Command-and-Control Regulation",
+      "Rawlsian Justice as Fairness",
+      "Rights-Based Ethics",
+      "Environmental Justice"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Coasean Bargaining is strongest for externalities among identifiable parties where rights, damages, and avoidance costs can be specified: nuisance, property conflicts, spectrum rights, pollution disputes, and liability design. It is weaker for large-number harms, public goods, nonmarket values, irreversible ecological losses, severe power imbalances, and cases where consent or rights cannot be reduced to compensating transfers.",
+  "source_summary": "Authored from model knowledge of Coase, law-and-economics, property-rights theory, and transaction-cost economics, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "R. H. Coase, 'The Problem of Social Cost' (1960)"
+    },
+    {
+      "kind": "primary",
+      "title": "R. H. Coase, 'The Federal Communications Commission' (1959)"
+    },
+    {
+      "kind": "primary",
+      "title": "Guido Calabresi and A. Douglas Melamed, 'Property Rules, Liability Rules, and Inalienability: One View of the Cathedral' (1972)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Coase theorem (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Coase_theorem"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a conflict is framed as an externality, nuisance, spillover, pollution problem, or incompatible use of a resource",
+    "the policy choice turns on who should hold a right to act, exclude, be compensated, or block another party's activity",
+    "affected parties might bargain, contract, merge, compensate, insure, or trade rights if entitlements are clear enough",
+    "the physical source of harm is easy to name but the efficient avoider may be the victim, injurer, or both jointly",
+    "a proposed tax, ban, liability rule, or property right must be compared against bargaining, litigation, and administrative costs"
+  ]
+}

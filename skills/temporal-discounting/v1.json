@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "The choice is not simply smaller versus larger reward; it is a test of how the subjective value of a reward decays with delay. The immediate marshmallow has high present utility because the child is in a hot affective state and the reward is vivid, while the second marshmallow is discounted because waiting requires attention control. The framework predicts that changing cues and self-control supports matters: hiding the marshmallow, reframing it abstractly, or introducing commitment devices reduces present bias and makes the delayed reward more choice-worthy.",
+      "problem": "In Walter Mischel's delay-of-gratification studies, a child can eat one marshmallow now or wait and receive two marshmallows later."
+    },
+    {
+      "analysis": "A hyperbolic discount function makes the preference between two future rewards unstable as both move closer to the present. While both options are distant, $110 in 31 days can dominate $100 in 30 days; when the earlier reward becomes immediate, $100 now can dominate $110 tomorrow. The reversal is the signature of present bias, not a mere change in wealth. The corrective move is to evaluate the entire intertemporal plan ex ante and use precommitment, deadlines, or automatic savings so the later self is not overruled at the moment of temptation.",
+      "problem": "Standard intertemporal-choice examples ask people to choose between $100 today and $110 tomorrow, or between $100 in 30 days and $110 in 31 days."
+    }
+  ],
+  "core_claims": [
+    "People and organizations often discount delayed rewards at a declining rate over time, so preferences can reverse as an earlier payoff approaches the present.",
+    "Present bias gives immediate costs and benefits disproportionate weight relative to equally sized future costs and benefits.",
+    "Exponential discounting produces time-consistent plans; hyperbolic or quasi-hyperbolic discounting predicts predictable self-control conflict between earlier and later selves.",
+    "Commitment devices can improve welfare when an agent's earlier preferences about future behavior are systematically defeated by later temptation.",
+    "The same nominal payoff can have different choice value depending on delay, salience, affective state, and whether the delay is framed as acceleration or postponement.",
+    "Policies and products that change timing, defaults, or liquidity can alter behavior without changing lifetime payoffs, because timing itself changes subjective value."
+  ],
+  "description": "Temporal Discounting analyzes how agents value costs and benefits that occur at different times, with special attention to present bias, hyperbolic discounting, preference reversal, and intertemporal self-control.",
+  "domains": [
+    "behavioral-economics",
+    "decision-theory",
+    "psychology",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "Treating impatience as irrational by default: a high discount rate can be reasonable under mortality risk, liquidity constraint, insecure institutions, or urgent present need.",
+    "Assuming a single stable discount rate: real choices often vary by domain, magnitude, framing, affect, and whether the delay concerns gains or losses.",
+    "Overusing commitment devices: locking in future behavior can harm agents when new information arrives or when circumstances change.",
+    "Confusing measured delay discounting with moral weakness: experiments can capture trust, scarcity, uncertainty, and transaction costs as much as pure self-control.",
+    "Ignoring collective time horizons: institutional discounting can differ from individual discounting, especially in climate, infrastructure, and pension decisions."
+  ],
+  "key_vocabulary": {
+    "Commitment device": "A mechanism that restricts future options or raises the cost of acting on temptation, such as automatic saving, deadlines, penalties, or self-exclusion.",
+    "Delay discounting": "The reduction in subjective value assigned to a reward or cost because it occurs later rather than now.",
+    "Exponential discounting": "A constant-rate model in which value declines by the same proportion per unit of time, yielding time-consistent preferences.",
+    "Hyperbolic discounting": "A declining-rate model in which near-term delays matter disproportionately more than equal delays in the distant future.",
+    "Intertemporal choice": "A decision whose costs and benefits occur at different times, requiring tradeoffs between present and future welfare.",
+    "Preference reversal": "A change in ranking between two options as time passes, such as preferring a larger-later reward in advance but a smaller-sooner reward when it becomes immediate.",
+    "Present bias": "The extra weight placed on immediate gratification or immediate pain relative to all future moments.",
+    "Quasi-hyperbolic discounting": "The beta-delta model that separates ordinary patience over time from an additional present-bias parameter for immediate outcomes.",
+    "Self-control problem": "A conflict between an earlier plan and a later impulse created by time-inconsistent preferences."
+  },
+  "name": "Temporal Discounting",
+  "operative_procedure": [
+    "List the intertemporal options. Specify each option's immediate and delayed costs, benefits, risks, and who experiences them.",
+    "Locate the time profile. Mark which consequences are immediate, near-term, delayed, recurring, or irreversible; separate one-time payoffs from streams of payoffs.",
+    "Estimate discounting behavior. Ask whether the observed choice pattern is better represented by exponential discounting, hyperbolic discounting, or quasi-hyperbolic present bias.",
+    "Test for preference reversal. Compare choices made in advance with choices made when the earlier payoff is imminent; identify where the smaller-sooner option becomes dominant.",
+    "Diagnose the self-control environment. Note salience, affect, liquidity, uncertainty, trust, scarcity, and transaction costs before attributing the pattern to impatience alone.",
+    "Model welfare from multiple temporal standpoints. Compare the immediate self's ranking with the planned or long-run ranking, and state which standpoint the recommendation serves.",
+    "Design timing interventions. Consider commitment devices, defaults, reminders, cooling-off periods, automatic escalation, liquidity buffers, or delayed gratification supports.",
+    "Check for overcommitment and option value. Preserve flexibility where future information may legitimately change the best choice.",
+    "Synthesize the recommendation. State the time-inconsistency mechanism, the likely reversal point, and the least restrictive intervention that aligns behavior with the chosen time horizon."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Discounted Utility Theory",
+      "Expected Utility Theory",
+      "Behavioral Economics"
+    ],
+    "composes_with": [
+      "Prospect Theory",
+      "Nudge and Choice Architecture",
+      "Decision Theory",
+      "Pre-mortem"
+    ],
+    "descendants": [
+      "Quasi-Hyperbolic Discounting",
+      "Commitment Device Design",
+      "Behavioral Public Finance"
+    ],
+    "related": [
+      "Bounded Rationality",
+      "Dual-Process Theory",
+      "Heuristics and Biases Program",
+      "Satisficing"
+    ],
+    "rivals": [
+      "Expected Utility Theory",
+      "Rational Choice Theory",
+      "Classical Liberalism",
+      "Stoicism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Temporal Discounting is strongest for choices where timing itself changes value: saving, addiction, procrastination, health behavior, climate policy, infrastructure, and product design. It is less complete when the main issue is strategic interaction, moral obligation, identity, rights, or uncertainty about whether future payoffs will materialize. It should distinguish genuine present bias from rational response to scarcity, risk, distrust, or changing information.",
+  "source_summary": "Authored from model knowledge of named sources on temporal discounting, hyperbolic discounting, delay of gratification, and intertemporal choice, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Paul A. Samuelson, 'A Note on Measurement of Utility,' Review of Economic Studies (1937)"
+    },
+    {
+      "kind": "primary",
+      "title": "George Ainslie, Picoeconomics: The Strategic Interaction of Successive Motivational States within the Person (1992)"
+    },
+    {
+      "kind": "primary",
+      "title": "David Laibson, 'Golden Eggs and Hyperbolic Discounting,' Quarterly Journal of Economics (1997)"
+    },
+    {
+      "kind": "primary",
+      "title": "Walter Mischel, Yuichi Shoda, and Monica L. Rodriguez, 'Delay of Gratification in Children,' Science (1989)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Temporal discounting (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Temporal_discounting"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "You face a choice where costs and benefits occur at different times and the attractive option changes as the payoff gets closer.",
+    "A plan that looked best in advance is repeatedly abandoned when immediate temptation, pain, or convenience arrives.",
+    "A policy or product changes behavior mostly by altering timing, liquidity, deadlines, reminders, or access rather than by changing total payoffs.",
+    "A long-run investment, savings, health, or maintenance decision is being crowded out by short-run rewards or short-run avoidance.",
+    "You need to distinguish genuine impatience from uncertainty, scarcity, distrust, or rational need for present resources."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "Hayek's point is that a higher price of tin transmits enough information for economizing action without requiring users to know the cause. Whether a mine collapsed, demand rose, or shipping was interrupted, the price signal tells dispersed users to conserve tin, search for substitutes, and redirect tin toward higher-valued uses. A central planner would need vast local knowledge of inventories, substitutions, urgency, and production possibilities; the price system coordinates those fragments through relative bids.",
+      "problem": "In 'The Use of Knowledge in Society,' Hayek asks how users of tin should respond when some fact has made tin more scarce."
+    },
+    {
+      "analysis": "The common law is treated as an evolved order rather than a fully designed code. Judges decide particular disputes using inherited rules, precedent, and local facts; over time, workable rules are selected, refined, and generalized. Hayek's analysis favors humility about wholesale legal reconstruction: law can embody practical knowledge no designer can fully articulate, though reforms may still remove rules that block general-purpose coordination.",
+      "problem": "Hayek contrasts evolved legal orders and common-law traditions with legislation that attempts to construct social order from a comprehensive plan."
+    }
+  ],
+  "core_claims": [
+    "Much economically relevant knowledge is local, tacit, time-bound, and dispersed among people who cannot transmit it fully to a central authority.",
+    "Market prices compress dispersed knowledge about relative scarcity and opportunity cost into signals that guide action by people who do not know the underlying causes.",
+    "Complex social orders can be the result of human action but not of human design.",
+    "Attempts to replace decentralized adjustment with comprehensive planning fail when the planner lacks the local knowledge needed to rank uses and substitutions.",
+    "Rules of just conduct, property, contract, and general law can enable spontaneous coordination without specifying particular outcomes.",
+    "Constructivist rationalism overestimates what can be explicitly designed and underestimates evolved institutions that store tacit knowledge.",
+    "Competition is a discovery procedure: it reveals costs, preferences, and possibilities that are not known before the process runs."
+  ],
+  "description": "Hayekian Spontaneous Order explains how complex coordination can emerge from decentralized action under general rules, especially through price signals that communicate dispersed knowledge without central command.",
+  "domains": [
+    "political-economy",
+    "economics",
+    "institutional-design",
+    "social-theory"
+  ],
+  "failure_modes": [
+    "Romanticizing emergence: not every spontaneous order is just, efficient, stable, or worth preserving.",
+    "Ignoring power and initial entitlements: price signals reflect purchasing power and property rights, not only need or social value.",
+    "Treating all planning as knowledge-destroying: local, modular, and feedback-rich planning can work where objectives are narrow and information is available.",
+    "Using humility as a veto against reform: evolved institutions can preserve exclusion, monopoly, or coercion as well as useful knowledge.",
+    "Mistaking price for complete knowledge: prices omit externalities, public goods, distributional claims, and values that are not expressed through exchange."
+  ],
+  "key_vocabulary": {
+    "Catallaxy": "Hayek's term for the market order created by many exchanges under rules of property and contract, without a common hierarchy of ends.",
+    "Competition as discovery": "The idea that competition reveals information about costs, wants, methods, and opportunities that no participant knew in advance.",
+    "Constructivist rationalism": "Hayek's label for the belief that social institutions should be justified or rebuilt as products of explicit rational design.",
+    "Dispersed knowledge": "Knowledge divided among many agents, often local and situation-specific, so it cannot be aggregated completely by a planner.",
+    "General rules": "Abstract, stable rules such as property, contract, and legal equality that coordinate expectations without commanding particular outcomes.",
+    "Price signal": "A relative price that communicates scarcity and opportunity cost, inducing adjustment by people who need not know why conditions changed.",
+    "Spontaneous order": "An ordered pattern produced by human actions under rules but not by a single directing mind or shared plan.",
+    "Tacit knowledge": "Practical know-how and contextual judgment that people can use but cannot fully articulate or transmit as data."
+  },
+  "name": "Hayekian Spontaneous Order",
+  "operative_procedure": [
+    "Identify the coordination problem. Specify what must be coordinated: resource allocation, legal expectations, supply adjustment, innovation, or social norms.",
+    "Map dispersed knowledge. List which facts are local, tacit, changing, or privately held, and who is best positioned to notice them.",
+    "Find the coordinating signals. Examine prices, profits, losses, reputation, precedent, norms, and other feedback that transmit information across agents.",
+    "Separate rules from outcomes. Ask whether the system needs general rules that enable adjustment or direct commands that prescribe particular allocations.",
+    "Run the knowledge test. For any proposed intervention, state exactly what the planner must know, how quickly it changes, and whether that knowledge can be collected without destroying the incentives to reveal it.",
+    "Analyze the discovery process. Ask what competition or decentralized experimentation will reveal that is currently unknown.",
+    "Check institutional preconditions. Assess property rights, contract enforcement, rule of law, entry, exit, and whether coercion or monopoly blocks genuine discovery.",
+    "Account for non-price failures. Identify externalities, public goods, distributional constraints, and values that price signals do not encode.",
+    "Recommend rule-level changes. Prefer interventions that improve signals, lower barriers, internalize externalities, or strengthen general rules over commands that require comprehensive knowledge."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Liberalism",
+      "Austrian Economics",
+      "Scottish Enlightenment Moral Philosophy"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Evolutionary Game Theory",
+      "Ostrom's Commons Governance",
+      "Mechanism Design"
+    ],
+    "descendants": [
+      "Market Process Theory",
+      "Knowledge Problem",
+      "Polycentric Governance"
+    ],
+    "related": [
+      "Classical Liberalism",
+      "Libertarianism",
+      "The Map-Territory Distinction",
+      "Systems Thinking"
+    ],
+    "rivals": [
+      "Central Planning",
+      "Utilitarianism",
+      "Mechanism Design",
+      "Industrial Policy",
+      "Technocracy"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Hayekian Spontaneous Order is most useful for analyzing market coordination, legal evolution, institutional humility, and reforms where local knowledge and feedback are central. It is weaker where power, externalities, public goods, emergency mobilization, rights violations, or distributional baselines dominate the problem. It should be used as a knowledge and coordination analysis, not as a blanket defense of any existing market outcome.",
+  "source_summary": "Authored from model knowledge of named Hayek sources on spontaneous order, dispersed knowledge, prices, and competition as discovery, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "F. A. Hayek, 'The Use of Knowledge in Society,' American Economic Review (1945)"
+    },
+    {
+      "kind": "primary",
+      "title": "F. A. Hayek, The Constitution of Liberty (1960)"
+    },
+    {
+      "kind": "primary",
+      "title": "F. A. Hayek, Law, Legislation and Liberty, Volume 1: Rules and Order (1973)"
+    },
+    {
+      "kind": "primary",
+      "title": "F. A. Hayek, 'Competition as a Discovery Procedure' (1968)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Friedrich Hayek (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/friedrich-hayek/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A coordination problem involves many actors with local, changing, or tacit information that no central party can easily collect.",
+    "A proposed plan assumes the designer can know enough to allocate resources, set outputs, or rank uses across many contexts.",
+    "Prices, profits, losses, reputations, or legal precedents appear to be carrying information across people who do not share a common plan.",
+    "An institution seems to work through evolved rules, norms, or feedback rather than through explicit design.",
+    "You need to evaluate whether a reform improves general rules and signals or substitutes centralized judgment for decentralized discovery."
+  ]
+}

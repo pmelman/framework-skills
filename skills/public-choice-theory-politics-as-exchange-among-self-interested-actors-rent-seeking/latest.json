@@ -1,0 +1,128 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:53Z",
+  "canonical_examples": [
+    {
+      "analysis": "Buchanan and Tullock analyze collective choice as exchange under rules. A unanimity rule reduces external costs because no one can be forced into a collective action they reject, but it raises decision costs because each participant can hold out. Majority rule lowers decision costs but allows winning coalitions to impose costs on minorities. The constitutional-choice problem is therefore not to discover the public interest directly, but to choose decision rules by comparing expected decision costs and expected external costs before knowing one's position in future votes.",
+      "problem": "In The Calculus of Consent, citizens must choose constitutional voting rules for collective decisions."
+    },
+    {
+      "analysis": "Tullock's rent-seeking case treats a monopoly privilege, tariff, license, or subsidy as a prize created by political authority. Firms spend resources lobbying, litigating, donating, or organizing to capture that prize, and those expenditures are social costs even when they are privately rational. The loss is not just the deadweight triangle from monopoly pricing; it includes the resources burned competing for the transfer and the defensive spending by opponents. Public choice predicts concentrated beneficiaries will organize more effectively than diffuse taxpayers or consumers, so inefficient privileges can persist.",
+      "problem": "A firm or industry seeks a tariff, monopoly license, subsidy, or regulation that raises its profits at public expense."
+    }
+  ],
+  "core_claims": [
+    "Political actors should be modeled with the same self-interest, information limits, and incentive responsiveness used to model market actors.",
+    "Collective decisions impose decision costs and external costs; no voting rule eliminates both, so constitutional rules require tradeoffs.",
+    "Concentrated benefits and diffuse costs make small organized groups politically stronger than large unorganized publics.",
+    "Rent seeking converts resources into political transfers rather than new social product, so its social cost exceeds the visible transfer.",
+    "Bureaucrats, regulators, and elected officials pursue budgets, discretion, reelection, prestige, ideology, or career security rather than a single public welfare function.",
+    "Government failure is not an accident of bad personnel; it follows from predictable incentives in voting, lobbying, bureaucracy, and collective action.",
+    "Policy analysis must compare imperfect markets with imperfect politics, not compare real markets to an ideal benevolent planner."
+  ],
+  "description": "Public Choice Theory applies economic reasoning to politics, treating voters, politicians, bureaucrats, regulators, and interest groups as incentive-responsive actors engaged in political exchange, collective choice, and rent seeking.",
+  "domains": [
+    "political-economy",
+    "public-policy",
+    "economics",
+    "institutional-design"
+  ],
+  "failure_modes": [
+    "It can become cynical monocausal analysis, reducing public service, ideology, identity, duty, and deliberation to private material gain.",
+    "The framework may understate cases where norms, professionalism, constitutional culture, or public-spirited motivation materially constrain behavior.",
+    "It can treat democratic redistribution as rent seeking without distinguishing predatory privilege from broadly legitimate social insurance or rights enforcement.",
+    "Practitioners may diagnose government failure while ignoring market failure, private coercion, or the institutional reforms needed to make exit and competition real.",
+    "The characteristic practitioner error is assuming that exposing incentives is enough, without specifying a politically feasible rule change that improves the equilibrium."
+  ],
+  "key_vocabulary": {
+    "Concentrated benefits, diffuse costs": "A political pattern in which beneficiaries of a policy have strong incentives to organize while each payer or consumer loses too little to monitor or oppose effectively.",
+    "Constitutional choice": "The selection of rules for making future collective decisions, ideally considered before specific winners and losers are known.",
+    "Decision costs": "The time, bargaining, information, and agreement costs of reaching collective decisions under a given rule.",
+    "External costs": "Costs imposed by collective decisions on people who opposed them or did not consent to them.",
+    "Government failure": "A systematic policy failure caused by political incentives, information problems, bureaucracy, or interest-group pressure, not merely by bad intentions.",
+    "Logrolling": "Vote trading among legislators or groups, which can enable mutually beneficial political exchange or bundle inefficient favors into winning coalitions.",
+    "Rational ignorance": "The voter tendency to remain poorly informed because one vote has a tiny probability of changing the outcome while information is costly.",
+    "Rent seeking": "Expenditure of resources to obtain transfers, privileges, barriers to entry, subsidies, or regulatory advantages through politics rather than production.",
+    "Special interest": "An organized group with a concentrated stake in policy outcomes and lower collective-action barriers than the general public."
+  },
+  "name": "Public Choice Theory | politics as exchange among self-interested actors; rent-seeking",
+  "operative_procedure": [
+    "Identify the political arena: specify the election, legislature, agency, court, referendum, procurement process, or regulatory body where choices are made.",
+    "List the actors and payoffs: include voters, politicians, bureaucrats, regulators, firms, unions, advocacy groups, taxpayers, consumers, and latent losers.",
+    "Map benefit-cost concentration: determine who receives concentrated benefits, who bears diffuse costs, and who has enough at stake to organize.",
+    "Diagnose information incentives: assess rational ignorance, agenda control, complexity, opacity, and whether voters or monitors can attribute responsibility.",
+    "Analyze collective-action capacity: compare group size, selective incentives, funding, repeat play, identity, and organizational infrastructure.",
+    "Identify rent-seeking channels: look for lobbying, licensing, tariffs, subsidies, procurement favoritism, regulatory barriers, litigation, revolving doors, and logrolling.",
+    "Compare institutional alternatives: weigh market failure against government failure under realistic incentives, not against idealized planners or idealized markets.",
+    "Move to constitutional rules: recommend changes to voting rules, transparency, fiscal constraints, sunset clauses, competition, federalism, anti-capture safeguards, or property-right baselines.",
+    "State the predicted equilibrium: explain which coalition is likely to win, what costs are hidden, and what rule change would alter the incentives."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Game Theory",
+      "Welfare Economics",
+      "Social Choice Theory",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order"
+    ],
+    "composes_with": [
+      "Principal-Agent Analysis",
+      "Coasean Bargaining | externalities, transaction costs, allocation of rights (Coase theorem)",
+      "Constitutional Political Economy",
+      "Collective Action Theory"
+    ],
+    "descendants": [
+      "Constitutional Political Economy",
+      "Rent-Seeking Theory",
+      "Regulatory Capture Theory",
+      "Bureaucratic Budget Maximization"
+    ],
+    "related": [
+      "Game Theory",
+      "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Overton Window"
+    ],
+    "rivals": [
+      "Deliberative Democracy",
+      "Civic Republicanism",
+      "Rawlsian Justice as Fairness",
+      "Pluralism",
+      "Technocracy"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Public Choice Theory is strongest for analyzing regulation, subsidies, tariffs, licensing, bureaucracy, voting rules, lobbying, procurement, and constitutional design. It is weaker where identity, public reason, legitimacy, emergency coordination, social movements, or professional ethics dominate material incentives, and it should not be used as a blanket proof that collective action is impossible.",
+  "source_summary": "Authored from model knowledge of Buchanan, Tullock, Olson, Niskanen, Downs, and rent-seeking literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "James M. Buchanan and Gordon Tullock, The Calculus of Consent: Logical Foundations of Constitutional Democracy (1962)"
+    },
+    {
+      "kind": "primary",
+      "title": "Mancur Olson, The Logic of Collective Action: Public Goods and the Theory of Groups (1965)"
+    },
+    {
+      "kind": "primary",
+      "title": "Gordon Tullock, 'The Welfare Costs of Tariffs, Monopolies, and Theft' (1967)"
+    },
+    {
+      "kind": "primary",
+      "title": "William A. Niskanen, Bureaucracy and Representative Government (1971)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Public choice (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Public_choice"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a policy creates concentrated winners and diffuse losers, especially through subsidies, tariffs, licensing, procurement, or regulation",
+    "political actors claim to serve the public interest but face reelection, budget, prestige, ideology, donor, or career incentives",
+    "voters, taxpayers, or consumers have weak incentives to learn details while organized groups have strong incentives to lobby",
+    "a proposed government fix for market failure may itself be captured, gamed, delayed, or expanded by interested actors",
+    "the problem is less what policy would be ideal and more what rules would produce tolerable political incentives"
+  ]
+}

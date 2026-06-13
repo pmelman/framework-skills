@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "Experimental philosophy treats the philosopher's intuition about intentional action as an empirical claim about ordinary judgments, not as transparent conceptual evidence. Knobe varied cases in which a side effect helped or harmed the environment while the chairman cared only about profit. Participants tended to say the harmful side effect was intentional but the helpful side effect was not. The result suggests that moral valence affects folk intentionality judgments, so any theory of intentional action that assumes a morally neutral folk concept must be revised or explained.",
+      "problem": "In Joshua Knobe's chairman cases, do ordinary people judge that a foreseen but unwanted side effect was brought about intentionally?"
+    },
+    {
+      "analysis": "The early experimental-philosophy response is to stop treating a single classroom intuition about Gettier cases as universal data. Weinberg, Nichols, and Stich surveyed participants from different cultural backgrounds and reported variation in epistemic intuitions about whether the protagonist really knows. The framework uses that variation to challenge the evidential status of armchair appeals to 'our' intuition: if judgments vary with culture or demographic features, a theory of knowledge cannot simply cite the intuition as a stable datum without explaining whose judgment matters and why.",
+      "problem": "Do Gettier-style cases elicit the same knowledge intuitions across cultural groups, or are epistemic intuitions variable?"
+    }
+  ],
+  "core_claims": [
+    "Philosophical arguments that rely on claims about ordinary intuitions make empirical commitments about how people actually judge cases.",
+    "Folk judgments about philosophically important concepts can vary with moral valence, order effects, wording, culture, socioeconomic background, or personality.",
+    "A philosopher's own intuition is not automatically representative of the relevant linguistic or conceptual community.",
+    "Empirical studies can defeat, qualify, or redirect armchair premises without themselves settling the normative philosophical question.",
+    "The evidential role of intuitions must be specified: some projects need descriptive folk concepts, while others can justify revisionary concepts that depart from common judgment.",
+    "Variation in intuitions is theoretically informative rather than mere noise when it tracks features a philosophical theory had treated as irrelevant."
+  ],
+  "description": "Experimental Philosophy uses empirical methods, especially surveys and behavioral experiments, to test claims about folk intuitions and ordinary concepts that philosophers often rely on in arguments about knowledge, action, responsibility, meaning, and morality.",
+  "domains": [
+    "metaphilosophy",
+    "epistemology",
+    "philosophy-of-action",
+    "moral-psychology",
+    "empirical-methods"
+  ],
+  "failure_modes": [
+    "Treating survey responses as if they directly settled normative questions, when they may only reveal descriptive patterns in judgment.",
+    "Designing thin vignettes whose wording, order, or comprehension demands create artifacts that are mistaken for stable intuitions.",
+    "Overgeneralizing from unrepresentative samples, especially convenience samples or online panels with weak attention controls.",
+    "Assuming that variation debunks armchair philosophy in every domain, even when the philosophical claim is explicitly revisionary or technical.",
+    "Replacing conceptual analysis with data collection without specifying how the empirical result bears on the target argument."
+  ],
+  "key_vocabulary": {
+    "Armchair philosophy": "Philosophical method that relies primarily on reflection, conceptual analysis, and intuitions rather than systematic empirical study.",
+    "Folk intuition": "An ordinary person's pre-theoretical judgment about a case, concept, or attribution, often used as evidence in philosophical argument.",
+    "Knobe effect": "The finding that people's judgments about whether a side effect was intentional are influenced by whether the side effect is morally bad or good.",
+    "Negative program": "The experimental-philosophy project of challenging the reliability or representativeness of philosophers' intuitions.",
+    "Positive program": "The project of using empirical data about concepts and judgments to construct better philosophical and psychological theories.",
+    "Vignette study": "An experiment in which participants read a short scenario and answer questions designed to elicit judgments about philosophically relevant concepts.",
+    "Intuition variation": "Systematic differences in judgments across demographic, cultural, moral, or presentation conditions.",
+    "Conceptual competence": "The practical ability to apply a concept; experimental philosophers test whether this competence behaves as philosophers assume."
+  },
+  "name": "Experimental Philosophy | testing folk intuitions empirically to discipline philosophical claims",
+  "operative_procedure": [
+    "Identify the philosophical argument and isolate the premise that appeals to what people would say, find intuitive, or ordinarily mean.",
+    "Specify the target population: philosophers, competent speakers, ordinary adults, a cultural group, legal actors, children, or another relevant community.",
+    "Operationalize the disputed intuition in controlled vignettes or tasks, keeping the philosophical contrast while removing confounds where possible.",
+    "Vary the philosophically relevant factor and plausible nuisance factors such as wording, order, moral valence, stakes, culture, and demographic background.",
+    "Collect empirical judgments with adequate sample size, comprehension checks, and transparent exclusions.",
+    "Analyze whether the alleged intuition is stable, widespread, variable, or sensitive to factors the armchair argument ignored.",
+    "Map the result back to the philosophical role of the intuition: descriptive semantics, conceptual analysis, evidence about cognition, or a premise in a normative argument.",
+    "Decide whether the result supports the original argument, forces a restriction to a subgroup, motivates an error theory, or licenses a revisionary concept.",
+    "Report both the empirical finding and the residual philosophical question that the data do not by themselves answer."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Ordinary Language Philosophy",
+      "Naturalized Epistemology",
+      "Cognitive Science"
+    ],
+    "composes_with": [
+      "Conceptual Analysis",
+      "Replication and Robustness Thinking",
+      "Heuristics and Biases Program",
+      "Moral Sentimentalism"
+    ],
+    "descendants": [
+      "Experimental Epistemology",
+      "Experimental Ethics",
+      "Experimental Jurisprudence"
+    ],
+    "related": [
+      "Ordinary Language Philosophy",
+      "Naturalized Epistemology",
+      "Conceptual Analysis",
+      "Heuristics and Biases Program"
+    ],
+    "rivals": [
+      "Conceptual Analysis",
+      "Rationalism | Descartes/Spinoza/Leibniz: knowledge from reason, innate ideas, method of doubt",
+      "Knowledge-First Epistemology",
+      "Ordinary Language Philosophy"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Experimental Philosophy is strongest when a philosophical argument relies on claims about ordinary intuitions, folk concepts, or patterns of judgment. It is less decisive for purely formal, explicitly revisionary, historical, theological, or normative arguments whose warrant does not depend on folk judgment. Empirical results should discipline philosophical claims, not replace the need to interpret what those results mean.",
+  "source_summary": "Authored from model knowledge of Knobe's intentional action work, Weinberg/Nichols/Stich on epistemic intuitions, the Knobe and Nichols experimental philosophy collection, and standard survey literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Joshua Knobe, 'Intentional Action and Side Effects in Ordinary Language'"
+    },
+    {
+      "kind": "primary",
+      "title": "Jonathan M. Weinberg, Shaun Nichols, and Stephen Stich, 'Normativity and Epistemic Intuitions'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Joshua Knobe and Shaun Nichols, Experimental Philosophy"
+    },
+    {
+      "kind": "secondary",
+      "title": "Experimental Philosophy (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/experimental-philosophy/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a philosophical argument depends on what ordinary people supposedly intuit about a case",
+    "you suspect a judgment changes with wording, culture, moral framing, stakes, or presentation order",
+    "a theorist cites 'our concept' or 'what we would say' without evidence about the relevant population",
+    "a debate turns on whether intuitions are stable data or artifacts of a case description",
+    "you need to distinguish a descriptive claim about folk concepts from a normative or revisionary claim"
+  ]
+}

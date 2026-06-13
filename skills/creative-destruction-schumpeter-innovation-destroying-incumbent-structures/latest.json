@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:53Z",
+  "canonical_examples": [
+    {
+      "analysis": "Schumpeter treats the railroad as more than a cheaper transport technology. It reorganized the location of production, the scale of markets, the value of land, the viability of canals and older carriage trades, and the structure of finance and industry around new possibilities. The innovation created new combinations while destroying older capital values and ways of life. A creative-destruction analysis therefore asks not just whether transport became more efficient, but which incumbent assets, skills, towns, and firms were devalued as the new system became the organizing center of economic life.",
+      "problem": "Schumpeter repeatedly used the railroad as an example of capitalist innovation transforming and displacing older economic structures."
+    },
+    {
+      "analysis": "In Schumpeter's textile example, mechanized factory production does not merely add another producer to a stable market. It changes the production function, lowers costs, expands output, requires new capital organization, and undermines craft and household modes of production. The entrepreneur's new combination earns temporary profit because it breaks from routine; imitation then diffuses the innovation, erodes the profit, and leaves a new industrial structure behind. The destructive side is inseparable from the creative side because the old cost structure and skill base cannot remain dominant under the new technique.",
+      "problem": "Industrial-era mechanized textile production displaced older craft and putting-out systems while creating new factories and markets."
+    }
+  ],
+  "core_claims": [
+    "Capitalism develops through discontinuous innovation that creates new combinations rather than through smooth equilibrium adjustment alone.",
+    "The entrepreneur's function is to break routine by introducing new products, production methods, markets, sources of supply, or industrial organizations.",
+    "Monopoly profit can be temporary entrepreneurial profit from innovation, not merely a static sign of inefficiency.",
+    "Innovation destroys incumbent firms, skills, assets, routines, and social arrangements as part of the same process by which it creates new value.",
+    "Competition that matters most is often competition from the new commodity, technology, source of supply, or organization, not marginal price competition among similar firms.",
+    "Credit and finance are central because new combinations require command over resources before their returns exist.",
+    "Long-run capitalist dynamism can generate short-run waste, unemployment, and dislocation that static welfare analysis underweights."
+  ],
+  "description": "Creative Destruction is Schumpeter's account of capitalist development as waves of entrepreneurial innovation that create new products, methods, markets, and organizations while destroying incumbent structures, assets, and routines.",
+  "domains": [
+    "economics",
+    "innovation",
+    "strategy",
+    "economic-history"
+  ],
+  "failure_modes": [
+    "It can romanticize disruption, treating avoidable harm, fraud, monopoly abuse, or labor immiseration as automatically justified by innovation.",
+    "Practitioners may confuse ordinary churn, cost cutting, or speculative hype with genuine new combinations that transform production or markets.",
+    "The framework can understate institutional preconditions such as law, science, infrastructure, labor skills, public investment, and finance.",
+    "It may overfocus on heroic entrepreneurs and underplay collective invention, user innovation, maintenance, and incremental improvement.",
+    "The characteristic practitioner error is assuming displaced workers, regions, and capabilities will be smoothly reabsorbed because aggregate innovation is positive."
+  ],
+  "key_vocabulary": {
+    "Capitalist development": "Endogenous economic change driven by innovation from within the capitalist system, not merely growth from population, savings, or external shocks.",
+    "Creative destruction": "The incessant process by which innovation creates new economic structures while destroying old firms, assets, routines, skills, and market positions.",
+    "Entrepreneur": "The actor who carries out new combinations, disrupting routine production and opening a temporary advantage.",
+    "Entrepreneurial profit": "Temporary profit earned from successfully introducing a new combination before imitation, competition, or institutional adjustment erodes it.",
+    "Gales of creative destruction": "Schumpeter's image for capitalism's recurring waves of transformation that revolutionize the economic structure from within.",
+    "Imitation": "The diffusion of an innovation by rivals, which normalizes the new combination and eliminates the original entrepreneur's exceptional profit.",
+    "Innovation": "The commercial introduction of a new combination, not merely invention; it includes new products, methods, markets, supplies, and organizational forms.",
+    "New combination": "Schumpeter's term for recombining resources in a novel economic use, such as a new good, production method, market, supply source, or industry organization.",
+    "Routine": "Established patterns of production and management that reproduce existing equilibrium until broken by entrepreneurial action."
+  },
+  "name": "Creative Destruction | Schumpeter: innovation destroying incumbent structures",
+  "operative_procedure": [
+    "Identify the new combination: specify whether the change is a new good, production method, market, supply source, financial arrangement, or organization of industry.",
+    "Distinguish invention from innovation: ask whether the novelty has been commercially implemented and reorganizes resource use, not merely imagined or prototyped.",
+    "Map the incumbent structure: list the firms, assets, skills, routines, regulations, geographies, and profit pools organized around the old combination.",
+    "Trace the entrepreneurial break from routine: identify who mobilizes credit, labor, technology, distribution, and legitimacy to make the new combination viable.",
+    "Estimate temporary entrepreneurial profit: explain why the innovator can earn above-normal returns before imitation or counterattack.",
+    "Analyze destruction: specify which capital, jobs, capabilities, business models, communities, and institutions are devalued or displaced.",
+    "Analyze diffusion and imitation: determine how quickly rivals, complements, standards, finance, and consumers normalize the innovation.",
+    "Assess system-level transformation: ask whether the innovation merely improves a margin or changes the architecture of production, consumption, and competition.",
+    "Recommend adaptation: identify whether incumbents should imitate, cannibalize themselves, exit, specialize in complements, lobby for protection, or support transition for displaced stakeholders."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Political Economy",
+      "Marxian Political Economy",
+      "Austrian Economics",
+      "Evolutionary Economics"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Market Process Theory",
+      "Diffusion of Innovations",
+      "Antifragility"
+    ],
+    "descendants": [
+      "Disruptive Innovation",
+      "Evolutionary Economics",
+      "Innovation Systems Theory",
+      "Technology S-Curve"
+    ],
+    "related": [
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Public Choice Theory | politics as exchange among self-interested actors; rent-seeking",
+      "Chesterton's Fence",
+      "Theory of Constraints"
+    ],
+    "rivals": [
+      "Neoclassical Equilibrium Analysis",
+      "Industrial Policy",
+      "Stakeholder Theory",
+      "Precautionary Principle",
+      "Steady-State Economics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Creative Destruction is strongest for analyzing capitalist development, technological disruption, incumbent decline, entrepreneurial strategy, industrial transformation, and innovation policy. It is weaker for stable public goods, subsistence economies, ecological limits, care work, and cases where preserving capabilities or communities is the central value rather than maximizing dynamic transformation.",
+  "source_summary": "Authored from model knowledge of Schumpeter's works on entrepreneurship, capitalist development, and innovation-driven structural change, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Joseph A. Schumpeter, The Theory of Economic Development (1911; English translation 1934)"
+    },
+    {
+      "kind": "primary",
+      "title": "Joseph A. Schumpeter, Business Cycles: A Theoretical, Historical, and Statistical Analysis of the Capitalist Process (1939)"
+    },
+    {
+      "kind": "primary",
+      "title": "Joseph A. Schumpeter, Capitalism, Socialism and Democracy (1942)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Creative destruction (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Creative_destruction"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a new technology, business model, production method, platform, market, or supply source is displacing incumbent firms or routines",
+    "the main question is dynamic transformation rather than static efficiency at a single moment",
+    "temporary monopoly profits, venture finance, imitation, and incumbent decline are central to the problem",
+    "an innovation creates value while destroying existing jobs, skills, assets, towns, regulations, or organizational forms",
+    "a firm, industry, or policy maker must decide whether to protect incumbents, accelerate transition, imitate, or absorb disruption"
+  ]
+}

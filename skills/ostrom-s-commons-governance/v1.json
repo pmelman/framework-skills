@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "Ostrom treats the irrigation system as a common-pool resource: water is subtractable, and excluding users is costly but possible through local rules. The successful cases do not rely simply on private property or state command. They define who may draw water, match allocation rules to local hydrology and labor duties, monitor use by accountable irrigators, sanction violations gradually, and provide local arenas for rule revision and dispute resolution. The governance unit is nested in larger legal and administrative systems that recognize local rulemaking.",
+      "problem": "In Governing the Commons, Ostrom analyzes long-enduring farmer-managed irrigation institutions in places such as Nepal, Spain, and the Philippines."
+    },
+    {
+      "analysis": "The fishery fails if each fisher maximizes individual catch while the stock is subtractable and hard to exclude from. Ostrom's framework asks whether appropriators can craft enforceable harvest rules: defined membership, locally matched quotas or seasons, monitoring by users or accountable monitors, graduated sanctions for overharvesting, low-cost conflict resolution, and recognition by external authorities. The recommendation is not simply privatization or state regulation; it is to build institutions that make reciprocal restraint credible and adaptive.",
+      "problem": "Ostrom uses coastal and inshore fisheries as recurring common-pool resource cases where open access can lead to overharvesting."
+    }
+  ],
+  "core_claims": [
+    "Common-pool resources are vulnerable because exclusion is costly and one user's appropriation subtracts from what remains for others.",
+    "Users can sometimes govern commons sustainably without either full privatization or centralized state control.",
+    "Long-enduring commons institutions tend to have clearly defined boundaries for both the resource and the authorized users.",
+    "Rules work best when appropriation and provision obligations are congruent with local ecological and social conditions.",
+    "Monitoring and graduated sanctions are necessary because trust alone rarely sustains restraint under repeated temptation.",
+    "Appropriators need collective-choice arrangements that let them revise rules as conditions change.",
+    "Effective commons governance is often polycentric and nested, with local rules embedded in larger legal systems that minimally recognize user self-organization."
+  ],
+  "description": "Ostrom's Commons Governance explains how communities can sustainably manage common-pool resources through locally crafted rules, monitoring, graduated sanctions, conflict-resolution mechanisms, and nested institutions.",
+  "domains": [
+    "institutional-design",
+    "political-economy",
+    "environmental-governance",
+    "collective-action"
+  ],
+  "failure_modes": [
+    "Applying the design principles as a checklist without diagnosing the resource ecology, user community, and legal setting.",
+    "Romanticizing community: local governance can be captured by elites, exclude outsiders, or enforce unfair burdens.",
+    "Underestimating scale: global commons such as climate change often lack the shared identity, monitoring, and boundary conditions of local commons.",
+    "Ignoring external authorities: local rules can be undermined if courts, states, or markets refuse to recognize them.",
+    "Mistaking common property for open access: a governed commons has rules and membership; open access is the absence or breakdown of effective exclusion."
+  ],
+  "key_vocabulary": {
+    "Appropriators": "The users who withdraw resource units from a common-pool resource, such as fishers, irrigators, or herders.",
+    "Clearly defined boundaries": "Rules that specify both the resource system and the people authorized to use it.",
+    "Collective-choice arrangements": "Procedures that allow most affected users to participate in modifying operational rules.",
+    "Common-pool resource": "A resource system where exclusion is costly and use by one person subtracts from what others can use.",
+    "Congruence": "The fit between local ecological conditions, appropriation rules, provision duties, and the distribution of benefits and costs.",
+    "Graduated sanctions": "Penalties that begin mild and become stronger for repeated or serious violations, preserving cooperation while deterring opportunism.",
+    "Monitoring": "Observation of resource conditions and user behavior by monitors who are users themselves or accountable to users.",
+    "Nested enterprises": "Multiple layers of governance in which local rules are embedded in larger institutions for larger resource systems.",
+    "Polycentric governance": "A system with multiple overlapping centers of decision-making authority that coordinate, compete, and learn."
+  },
+  "name": "Ostrom's Commons Governance",
+  "operative_procedure": [
+    "Classify the resource. Determine whether the problem is a common-pool resource by testing subtractability and difficulty of exclusion.",
+    "Define the action arena. Identify appropriators, providers, monitors, external authorities, resource units, and the resource system boundary.",
+    "Diagnose incentives and information. Map who benefits from overuse, who pays provision costs, what users know locally, and where monitoring is feasible.",
+    "Evaluate boundary rules. Ask whether authorized users and resource boundaries are clearly defined enough to prevent open-access dynamics.",
+    "Assess rule congruence. Compare appropriation rules and provision duties with local ecological conditions, seasonal variation, labor contributions, and user needs.",
+    "Inspect governance rights. Determine whether users can participate in changing operational rules and whether outside authorities recognize that right.",
+    "Check enforcement architecture. Look for accountable monitoring, graduated sanctions, and low-cost conflict-resolution mechanisms.",
+    "Look for nested structure. For larger systems, identify whether local units are linked to regional or national institutions without being flattened by them.",
+    "Recommend institutional repairs. Strengthen the weakest design principles while guarding against elite capture, exclusion, and scale mismatch."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Collective Action Theory",
+      "New Institutional Economics",
+      "Game Theory"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Hayekian Spontaneous Order",
+      "Systems Thinking",
+      "Mechanism Design"
+    ],
+    "descendants": [
+      "Polycentric Governance",
+      "Institutional Analysis and Development Framework",
+      "Social-Ecological Systems Framework"
+    ],
+    "related": [
+      "Principal-Agent Analysis",
+      "Evolutionary Game Theory",
+      "Mechanism Design",
+      "Classical Liberalism"
+    ],
+    "rivals": [
+      "Tragedy of the Commons",
+      "Privatization",
+      "Central Planning",
+      "Pigouvian Taxation",
+      "Command-and-Control Regulation"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Ostrom's framework is strongest for common-pool resources with identifiable users, repeated interaction, observable behavior, and some capacity for local rulemaking. It is harder to apply to open-ended global commons, highly mobile populations, anonymous one-shot users, or settings where state violence, corporate power, or legal nonrecognition prevents self-governance. It is an institutional diagnostic, not a guarantee that every community arrangement is fair or sustainable.",
+  "source_summary": "Authored from model knowledge of named Ostrom sources on common-pool resources, design principles, and polycentric governance, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Elinor Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action (1990)"
+    },
+    {
+      "kind": "primary",
+      "title": "Elinor Ostrom, 'Beyond Markets and States: Polycentric Governance of Complex Economic Systems,' American Economic Review (2010)"
+    },
+    {
+      "kind": "primary",
+      "title": "Elinor Ostrom, Understanding Institutional Diversity (2005)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Elinor Ostrom (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Elinor_Ostrom"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A shared resource is being depleted because users can withdraw from it while exclusion is costly or contested.",
+    "The choice appears falsely limited to privatization, centralized state control, or unmanaged open access.",
+    "Local users possess practical knowledge needed for rulemaking, monitoring, and adaptation.",
+    "Cooperation is possible but vulnerable to free riding, weak monitoring, unclear boundaries, or missing sanctions.",
+    "A governance design must coordinate local rules with larger legal, ecological, or administrative systems."
+  ]
+}

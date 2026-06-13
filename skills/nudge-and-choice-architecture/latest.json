@@ -1,0 +1,121 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "The enrollment form is choice architecture because a default must be chosen even if the designer pretends to be neutral. Under opt-in, inertia and procrastination leave many employees unenrolled; under automatic enrollment, the same inertia keeps many enrolled. A nudge analysis asks whether saving is plausibly welfare-promoting for the chooser, whether opt-out is easy, and whether contribution escalation can align current inertia with long-run preferences without forbidding nonparticipation.",
+      "problem": "Thaler and Sunstein use automatic enrollment in retirement savings plans, including Save More Tomorrow, as a central example of default effects."
+    },
+    {
+      "analysis": "The cafeteria does not coerce anyone; it changes salience, convenience, and order of encounter. Placing fruit at eye level and less healthy foods in less prominent positions can predictably shift choices while preserving freedom to choose any item. The framework treats the layout as unavoidable choice architecture and asks whether it is transparent, welfare-promoting, and respectful of heterogeneous preferences.",
+      "problem": "In Nudge, Carolyn the cafeteria director must decide how to arrange foods in a school cafeteria."
+    }
+  ],
+  "core_claims": [
+    "There is no neutral choice architecture: defaults, ordering, framing, salience, and effort costs affect choices whether or not designers acknowledge them.",
+    "Small changes in the presentation of options can predictably alter behavior without materially changing incentives or banning options.",
+    "Defaults are especially powerful because inertia, procrastination, implied endorsement, and transaction costs make non-choice consequential.",
+    "Libertarian paternalism is justified when it steers people toward choices they would endorse under better information, attention, and self-control while preserving easy exit.",
+    "Good choice architecture should make beneficial behavior easier, make costs and consequences visible, and map choices to outcomes in terms users understand.",
+    "Nudges are most legitimate when transparent, welfare-oriented, evidence-tested, and cheap to resist."
+  ],
+  "description": "Nudge and Choice Architecture designs the context in which decisions are made so predictable cognitive biases, defaults, framing effects, and salience steer behavior while preserving freedom of choice.",
+  "domains": [
+    "behavioral-economics",
+    "public-policy",
+    "product-design",
+    "decision-theory"
+  ],
+  "failure_modes": [
+    "Manipulation through opacity: nudges can become covert steering that exploits users rather than helping them choose.",
+    "Designer overconfidence: architects may mistake their own welfare judgments for the chooser's interests, especially across cultures or life circumstances.",
+    "Dark patterns: the same mechanisms used for welfare-promoting nudges can be used to trap users, hide costs, or make exit difficult.",
+    "Neglecting structural constraints: nudges can distract from material problems such as poverty, unsafe products, monopoly power, or missing services.",
+    "One-size-fits-all defaults: heterogeneous users can be harmed when the default is optimized for the average case."
+  ],
+  "key_vocabulary": {
+    "Choice architecture": "The design of the environment in which people choose, including defaults, order, framing, salience, feedback, and effort.",
+    "Default rule": "The option that takes effect if the chooser does nothing; often the most powerful feature of a choice environment.",
+    "Framing": "The way equivalent information is presented, such as gains versus losses, which can change decisions.",
+    "Libertarian paternalism": "The view that institutions may steer choices toward welfare-promoting options while preserving freedom to choose otherwise.",
+    "Nudge": "A feature of choice architecture that predictably changes behavior without forbidding options or significantly changing economic incentives.",
+    "Opt-in": "A design where the chooser must actively select participation; non-action produces nonparticipation.",
+    "Opt-out": "A design where participation occurs by default but the chooser can actively decline.",
+    "Salience": "The prominence or attention-grabbing quality of an option or consequence.",
+    "Sludge": "Friction, paperwork, delay, or complexity that impedes beneficial action or makes exit and claims unnecessarily difficult."
+  },
+  "name": "Nudge and Choice Architecture",
+  "operative_procedure": [
+    "Define the target choice. Specify the decision, population, options, current default, and the behavior that is producing avoidable error or welfare loss.",
+    "Map the existing choice architecture. Identify defaults, ordering, framing, salience, timing, feedback, complexity, and effort costs already shaping behavior.",
+    "Diagnose behavioral mechanisms. Determine whether inertia, present bias, loss aversion, limited attention, social norms, or confusion explains the current pattern.",
+    "State the welfare criterion. Explain why the proposed direction plausibly helps choosers by their own interests, not merely the architect's convenience.",
+    "Design the least restrictive nudge. Adjust defaults, simplification, reminders, ordering, disclosure, feedback, or active choice while preserving meaningful opt-out.",
+    "Remove sludge. Reduce unnecessary friction for beneficial actions and for exit, correction, cancellation, or complaint.",
+    "Test effects empirically. Use field experiments, A/B tests, audits, or staged rollout to measure behavior, welfare proxies, heterogeneity, and unintended consequences.",
+    "Audit legitimacy. Check transparency, ease of resistance, distributional effects, privacy, and whether a stronger intervention is required for serious harms.",
+    "Iterate the architecture. Revise defaults and presentation as evidence, user preferences, and institutional goals change."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Behavioral Economics",
+      "Heuristics and Biases Program",
+      "Prospect Theory"
+    ],
+    "composes_with": [
+      "Temporal Discounting",
+      "Prospect Theory",
+      "Dual-Process Theory",
+      "Jobs-to-be-Done"
+    ],
+    "descendants": [
+      "Behavioral Public Policy",
+      "Sludge Auditing",
+      "Dark Patterns Analysis"
+    ],
+    "related": [
+      "Bounded Rationality",
+      "Heuristics and Biases Program",
+      "Goodhart's Law",
+      "Mechanism Design"
+    ],
+    "rivals": [
+      "Classical Liberalism",
+      "Libertarianism",
+      "Rational Choice Theory",
+      "Kantian Deontology",
+      "Command-and-Control Regulation"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Nudge and Choice Architecture is strongest when predictable decision errors arise from default effects, friction, salience, framing, or limited attention, and when preserving choice is important. It is weaker where coercion, rights, severe harms, poverty, market power, or misinformation require stronger structural remedies. Its legitimacy depends on transparency, welfare criteria, easy exit, and empirical testing.",
+  "source_summary": "Authored from model knowledge of named Thaler, Sunstein, and behavioral economics sources on nudges, defaults, and choice architecture, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Richard H. Thaler and Cass R. Sunstein, Nudge: Improving Decisions About Health, Wealth, and Happiness (2008)"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard H. Thaler and Shlomo Benartzi, 'Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving,' Journal of Political Economy (2004)"
+    },
+    {
+      "kind": "primary",
+      "title": "Cass R. Sunstein, Why Nudge? The Politics of Libertarian Paternalism (2014)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Nudge theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Nudge_theory"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A decision environment is producing predictable mistakes because of defaults, friction, framing, salience, timing, or limited attention.",
+    "People retain formal freedom of choice but non-choice, confusion, or procrastination determines many outcomes.",
+    "A product, policy, or form must choose an order, default, prompt, disclosure, or enrollment path that will shape behavior.",
+    "You need to improve take-up of a beneficial action without banning alternatives or materially changing incentives.",
+    "A process contains sludge: unnecessary effort, paperwork, waiting, or complexity that blocks users from actions they already want to take."
+  ]
+}

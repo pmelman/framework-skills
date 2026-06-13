@@ -1,0 +1,127 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "The QWERTY case is used to show how early adoption, training, complementary assets, and expectations can make a standard persist even if rivals claim technical superiority. The value of learning a keyboard layout rises when employers, schools, typewriter makers, and other typists use the same layout. Switching is individually costly even if collective switching might be beneficial, so history matters and the installed base becomes a barrier to displacement.",
+      "problem": "Paul David's classic discussion of QWERTY treats the keyboard layout as a case of path dependence and possible lock-in."
+    },
+    {
+      "analysis": "The videocassette standards battle illustrates indirect network effects through complementary goods. Consumers preferred the format with more available titles and rental outlets; studios and rental stores preferred the format with more consumers. Once VHS gained an installed-base advantage, expectations and complements reinforced adoption. Technical quality alone did not settle the market because the platform's value scaled with users and available content.",
+      "problem": "The VHS versus Betamax competition is a standard case in the literature on increasing returns, compatibility, and standard wars."
+    }
+  ],
+  "core_claims": [
+    "A product or platform can become more valuable to each user as the number of other users, complements, or compatible adopters increases.",
+    "Markets with strong network effects can tip toward a dominant standard even when multiple equilibria are possible.",
+    "Early adoption advantages can be amplified by expectations, complements, learning, and switching costs, creating path dependence.",
+    "Lock-in occurs when users remain with an incumbent because moving is costly relative to the private benefit of switching, even if a coordinated move would be better.",
+    "Compatibility, interoperability, and standards can determine competitive outcomes as much as intrinsic product quality.",
+    "Subsidizing one side of a platform can be rational when it increases participation on another side and raises total network value.",
+    "Installed base is a strategic asset: it affects developer incentives, user expectations, pricing power, and the feasibility of entrant coordination."
+  ],
+  "description": "Network Effects and Lock-in analyzes markets where value rises with adoption, complements, and compatibility, producing tipping, path dependence, switching costs, platform strategy, and durable dominance.",
+  "domains": [
+    "strategy",
+    "economics",
+    "technology",
+    "platforms"
+  ],
+  "failure_modes": [
+    "Invoking network effects where ordinary scale economies or brand preference are doing the work.",
+    "Assuming winner-take-all inevitability: multi-homing, interoperability, regulation, niche differentiation, or weak cross-side effects can prevent tipping.",
+    "Confusing lock-in with satisfaction: users may stay because the product is best for them, not because switching costs trap them.",
+    "Overvaluing early growth: subsidized adoption without durable complements, retention, or monetization can create fragile networks.",
+    "Ignoring negative network effects: congestion, spam, reduced trust, or status dilution can make additional users lower value."
+  ],
+  "key_vocabulary": {
+    "Compatibility": "The ability of products, services, or users to interoperate, allowing network value to extend across systems.",
+    "Direct network effect": "A value increase caused directly by more users of the same network, such as telephones or messaging apps.",
+    "Indirect network effect": "A value increase caused by more complements on another side of the market, such as games for a console or apps for an operating system.",
+    "Installed base": "The existing population of users, devices, data, complements, and habits that supports a platform or standard.",
+    "Lock-in": "Persistence of a choice because switching costs, coordination costs, or complementary investments make exit privately unattractive.",
+    "Multi-homing": "Participation in multiple competing networks or platforms, which weakens exclusivity and can reduce lock-in.",
+    "Path dependence": "A process in which early events shape later outcomes because adoption, learning, expectations, or complements accumulate over time.",
+    "Platform": "An intermediary or technical base that enables interactions between user groups, developers, sellers, advertisers, or complementors.",
+    "Switching costs": "Costs of moving to an alternative, including data migration, retraining, lost contacts, contract penalties, and uncertainty.",
+    "Tipping": "Movement of a market toward one dominant network or standard once adoption passes a threshold."
+  },
+  "name": "Network Effects and Lock-in",
+  "operative_procedure": [
+    "Define the network. Identify the product, standard, or platform and the relevant sides: users, developers, sellers, buyers, advertisers, or complementors.",
+    "Classify the effects. Separate direct network effects, indirect network effects, data effects, scale economies, brand effects, and learning effects.",
+    "Measure adoption structure. Estimate installed base, active use, complement availability, engagement, multi-homing, and compatibility with rivals.",
+    "Locate feedback loops. Explain how each new participant changes value for others and how expectations about future adoption influence current adoption.",
+    "Assess switching and coordination costs. Identify data portability, retraining, lost relationships, contract terms, integration costs, and collective-action barriers.",
+    "Analyze tipping conditions. Look for thresholds, multiple equilibria, subsidy needs, critical complements, and whether one side should be priced below cost to grow the other.",
+    "Test durability. Check for interoperability, regulation, open standards, niche differentiation, congestion, negative network effects, and entrant wedge strategies.",
+    "Evaluate welfare and strategy. Distinguish private lock-in from social efficiency; consider compatibility mandates, portability, standard-setting, bundling, subsidies, or ecosystem investment.",
+    "Synthesize the recommendation. State whether the system is likely to tip, remain fragmented, or permit coexistence, and identify the highest-leverage adoption or interoperability move."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Industrial Organization",
+      "Increasing Returns Economics",
+      "Path Dependence"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Mechanism Design",
+      "Systems Thinking",
+      "Jobs-to-be-Done"
+    ],
+    "descendants": [
+      "Platform Strategy",
+      "Two-Sided Market Theory",
+      "Standard Wars Analysis"
+    ],
+    "related": [
+      "Auction Theory",
+      "Principal-Agent Analysis",
+      "Goodhart's Law",
+      "Theory of Constraints"
+    ],
+    "rivals": [
+      "Perfect Competition",
+      "Resource-Based View",
+      "Disruptive Innovation",
+      "Classical Liberalism",
+      "Contestable Markets Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Network Effects and Lock-in is strongest for platforms, standards, communication tools, marketplaces, software ecosystems, payment systems, and other settings where adoption and complements change user value. It is weaker for products whose value is mostly standalone, where switching is cheap, where users can multi-home easily, or where regulation and interoperability neutralize incumbent advantages. It must separate true network effects from ordinary scale, quality, brand, or distribution advantages.",
+  "source_summary": "Authored from model knowledge of named sources on network externalities, path dependence, increasing returns, lock-in, and platform competition, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "W. Brian Arthur, 'Competing Technologies, Increasing Returns, and Lock-In by Historical Events,' Economic Journal (1989)"
+    },
+    {
+      "kind": "primary",
+      "title": "Paul A. David, 'Clio and the Economics of QWERTY,' American Economic Review (1985)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael L. Katz and Carl Shapiro, 'Network Externalities, Competition, and Compatibility,' American Economic Review (1985)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Carl Shapiro and Hal R. Varian, Information Rules: A Strategic Guide to the Network Economy (1999)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Network effect (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Network_effect"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A product, marketplace, protocol, or standard becomes more valuable as more users, complements, or compatible adopters join.",
+    "An incumbent seems hard to displace despite a rival's better standalone features or lower price.",
+    "Early adoption, expectations, training, data, complements, or interoperability are shaping market outcomes.",
+    "Users hesitate to switch because of migration costs, lost relationships, retraining, integrations, or coordination problems.",
+    "A platform must decide which side to subsidize, how to seed complements, or whether to pursue compatibility with rivals."
+  ]
+}

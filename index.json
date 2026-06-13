@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:13:33Z",
+  "generated_at": "2026-06-13T03:21:09Z",
   "skills": [
     {
       "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
@@ -255,6 +255,20 @@
       "path": "skills/classical-logic/latest.json"
     },
     {
+      "name": "Coasean Bargaining | externalities, transaction costs, allocation of rights (Coase theorem)",
+      "slug": "coasean-bargaining-externalities-transaction-costs-allocation-of-rights-coase-theorem",
+      "version": 1,
+      "description": "Coasean Bargaining analyzes externalities by assigning rights, estimating transaction costs, and asking whether parties can bargain to a higher-valued allocation; the Coase theorem shows that with zero transaction costs and clear entitlements, bargaining reaches efficient outcomes regardless of initial rights.",
+      "domains": [
+        "law-and-economics",
+        "economics",
+        "institutional-design",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/coasean-bargaining-externalities-transaction-costs-allocation-of-rights-coase-theorem/latest.json"
+    },
+    {
       "name": "Cognitive Behavioral Framing | CBT: thoughts-feelings-behavior loops, cognitive distortions",
       "slug": "cognitive-behavioral-framing-cbt-thoughts-feelings-behavior-loops-cognitive-distortions",
       "version": 1,
@@ -295,6 +309,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/communitarianism-macintyre-sandel-selves-and-goods-constituted-by-community/latest.json"
+    },
+    {
+      "name": "Comparative Advantage | Ricardo: gains from trade even with absolute inferiority",
+      "slug": "comparative-advantage-ricardo-gains-from-trade-even-with-absolute-inferiority",
+      "version": 1,
+      "description": "Comparative Advantage, classically associated with David Ricardo, explains how parties can gain from specialization and trade according to relative opportunity costs, even when one party is absolutely less productive in every activity.",
+      "domains": [
+        "economics",
+        "trade",
+        "strategy",
+        "resource-allocation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/comparative-advantage-ricardo-gains-from-trade-even-with-absolute-inferiority/latest.json"
     },
     {
       "name": "Conceptual Analysis",
@@ -381,6 +409,20 @@
       "path": "skills/counterfactual-reasoning/latest.json"
     },
     {
+      "name": "Creative Destruction | Schumpeter: innovation destroying incumbent structures",
+      "slug": "creative-destruction-schumpeter-innovation-destroying-incumbent-structures",
+      "version": 1,
+      "description": "Creative Destruction is Schumpeter's account of capitalist development as waves of entrepreneurial innovation that create new products, methods, markets, and organizations while destroying incumbent structures, assets, and routines.",
+      "domains": [
+        "economics",
+        "innovation",
+        "strategy",
+        "economic-history"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/creative-destruction-schumpeter-innovation-destroying-incumbent-structures/latest.json"
+    },
+    {
       "name": "Cynefin Framework",
       "slug": "cynefin-framework",
       "version": 1,
@@ -407,6 +449,20 @@
       ],
       "review_status": "approved",
       "path": "skills/decision-theory/latest.json"
+    },
+    {
+      "name": "Deconstruction | Derrida: destabilizing binary oppositions, différance, close reading against the grain",
+      "slug": "deconstruction-derrida-destabilizing-binary-oppositions-diff-rance-close-reading-against-the-grain",
+      "version": 1,
+      "description": "Deconstruction, associated with Jacques Derrida, is a practice of close reading that exposes how texts depend on unstable binary oppositions, deferred meaning, and excluded terms that undermine the hierarchies they appear to secure.",
+      "domains": [
+        "literary-theory",
+        "continental-philosophy",
+        "hermeneutics",
+        "critical-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/deconstruction-derrida-destabilizing-binary-oppositions-diff-rance-close-reading-against-the-grain/latest.json"
     },
     {
       "name": "Dependent Origination",
@@ -605,6 +661,21 @@
       "path": "skills/expected-value-reasoning/latest.json"
     },
     {
+      "name": "Experimental Philosophy | testing folk intuitions empirically to discipline philosophical claims",
+      "slug": "experimental-philosophy-testing-folk-intuitions-empirically-to-discipline-philosophical-claims",
+      "version": 1,
+      "description": "Experimental Philosophy uses empirical methods, especially surveys and behavioral experiments, to test claims about folk intuitions and ordinary concepts that philosophers often rely on in arguments about knowledge, action, responsibility, meaning, and morality.",
+      "domains": [
+        "metaphilosophy",
+        "epistemology",
+        "philosophy-of-action",
+        "moral-psychology",
+        "empirical-methods"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/experimental-philosophy-testing-folk-intuitions-empirically-to-discipline-philosophical-claims/latest.json"
+    },
+    {
       "name": "Expressivism | moral claims express attitudes, not facts (Ayer, Blackburn, Gibbard)",
       "slug": "expressivism-moral-claims-express-attitudes-not-facts-ayer-blackburn-gibbard",
       "version": 1,
@@ -773,6 +844,20 @@
       "path": "skills/halakha/latest.json"
     },
     {
+      "name": "Hayekian Spontaneous Order",
+      "slug": "hayekian-spontaneous-order",
+      "version": 1,
+      "description": "Hayekian Spontaneous Order explains how complex coordination can emerge from decentralized action under general rules, especially through price signals that communicate dispersed knowledge without central command.",
+      "domains": [
+        "political-economy",
+        "economics",
+        "institutional-design",
+        "social-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/hayekian-spontaneous-order/latest.json"
+    },
+    {
       "name": "Hermeneutics | Gadamer/Schleiermacher: interpretation, hermeneutic circle, fusion of horizons",
       "slug": "hermeneutics-gadamer-schleiermacher-interpretation-hermeneutic-circle-fusion-of-horizons",
       "version": 1,
@@ -870,6 +955,20 @@
       ],
       "review_status": "approved",
       "path": "skills/inference-to-the-best-explanation/latest.json"
+    },
+    {
+      "name": "Information Asymmetry | Akerlof lemons, adverse selection, moral hazard",
+      "slug": "information-asymmetry-akerlof-lemons-adverse-selection-moral-hazard",
+      "version": 1,
+      "description": "Information Asymmetry analyzes markets and contracts where one party has private information about quality, risk, type, effort, or action, producing adverse selection before exchange and moral hazard after exchange.",
+      "domains": [
+        "economics",
+        "contract-theory",
+        "market-design",
+        "insurance"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/information-asymmetry-akerlof-lemons-adverse-selection-moral-hazard/latest.json"
     },
     {
       "name": "Instrumentalism | theories as prediction tools, not literal descriptions",
@@ -1179,6 +1278,34 @@
       "path": "skills/naturalized-epistemology/latest.json"
     },
     {
+      "name": "Network Effects and Lock-in",
+      "slug": "network-effects-and-lock-in",
+      "version": 1,
+      "description": "Network Effects and Lock-in analyzes markets where value rises with adoption, complements, and compatibility, producing tipping, path dependence, switching costs, platform strategy, and durable dominance.",
+      "domains": [
+        "strategy",
+        "economics",
+        "technology",
+        "platforms"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/network-effects-and-lock-in/latest.json"
+    },
+    {
+      "name": "Nudge and Choice Architecture",
+      "slug": "nudge-and-choice-architecture",
+      "version": 1,
+      "description": "Nudge and Choice Architecture designs the context in which decisions are made so predictable cognitive biases, defaults, framing effects, and salience steer behavior while preserving freedom of choice.",
+      "domains": [
+        "behavioral-economics",
+        "public-policy",
+        "product-design",
+        "decision-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/nudge-and-choice-architecture/latest.json"
+    },
+    {
       "name": "Occam's Razor",
       "slug": "occam-s-razor",
       "version": 1,
@@ -1207,6 +1334,20 @@
       "path": "skills/ooda-loop/latest.json"
     },
     {
+      "name": "Opportunity Cost and Marginal Analysis | think at the margin; cost as foregone alternative",
+      "slug": "opportunity-cost-and-marginal-analysis-think-at-the-margin-cost-as-foregone-alternative",
+      "version": 1,
+      "description": "Opportunity Cost and Marginal Analysis evaluates choices by comparing the value of the next-best foregone alternative with the incremental benefits and costs of one more unit of action, correcting decisions that focus on visible spending, sunk costs, or totals instead of margins.",
+      "domains": [
+        "economics",
+        "decision-theory",
+        "resource-allocation",
+        "policy-analysis"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/opportunity-cost-and-marginal-analysis-think-at-the-margin-cost-as-foregone-alternative/latest.json"
+    },
+    {
       "name": "Ordinary Language Philosophy",
       "slug": "ordinary-language-philosophy",
       "version": 1,
@@ -1219,6 +1360,20 @@
       ],
       "review_status": "approved",
       "path": "skills/ordinary-language-philosophy/latest.json"
+    },
+    {
+      "name": "Ostrom's Commons Governance",
+      "slug": "ostrom-s-commons-governance",
+      "version": 1,
+      "description": "Ostrom's Commons Governance explains how communities can sustainably manage common-pool resources through locally crafted rules, monitoring, graduated sanctions, conflict-resolution mechanisms, and nested institutions.",
+      "domains": [
+        "institutional-design",
+        "political-economy",
+        "environmental-governance",
+        "collective-action"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/ostrom-s-commons-governance/latest.json"
     },
     {
       "name": "Overton Window",
@@ -1333,6 +1488,34 @@
       "path": "skills/prospect-theory/latest.json"
     },
     {
+      "name": "Public Choice Theory | politics as exchange among self-interested actors; rent-seeking",
+      "slug": "public-choice-theory-politics-as-exchange-among-self-interested-actors-rent-seeking",
+      "version": 1,
+      "description": "Public Choice Theory applies economic reasoning to politics, treating voters, politicians, bureaucrats, regulators, and interest groups as incentive-responsive actors engaged in political exchange, collective choice, and rent seeking.",
+      "domains": [
+        "political-economy",
+        "public-policy",
+        "economics",
+        "institutional-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/public-choice-theory-politics-as-exchange-among-self-interested-actors-rent-seeking/latest.json"
+    },
+    {
+      "name": "Rationalism | Descartes/Spinoza/Leibniz: knowledge from reason, innate ideas, method of doubt",
+      "slug": "rationalism-descartes-spinoza-leibniz-knowledge-from-reason-innate-ideas-method-of-doubt",
+      "version": 1,
+      "description": "Rationalism, in the early modern tradition of Descartes, Spinoza, and Leibniz, treats reason as an independent source of knowledge, emphasizes innate ideas or principles, and uses methodic doubt and deductive system-building to seek foundations more secure than sensory experience.",
+      "domains": [
+        "epistemology",
+        "metaphysics",
+        "philosophy-of-mind",
+        "methodology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/rationalism-descartes-spinoza-leibniz-knowledge-from-reason-innate-ideas-method-of-doubt/latest.json"
+    },
+    {
       "name": "Red Teaming",
       "slug": "red-teaming",
       "version": 1,
@@ -1443,6 +1626,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument/latest.json"
+    },
+    {
+      "name": "Signaling Theory | costly signals as credibility (Spence, Zahavi handicap principle)",
+      "slug": "signaling-theory-costly-signals-as-credibility-spence-zahavi-handicap-principle",
+      "version": 1,
+      "description": "Signaling Theory explains how informed actors credibly communicate hidden quality, type, intention, or fitness through observable signals whose costs make imitation unattractive for lower-quality senders.",
+      "domains": [
+        "economics",
+        "biology",
+        "communication",
+        "game-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/signaling-theory-costly-signals-as-credibility-spence-zahavi-handicap-principle/latest.json"
     },
     {
       "name": "Social Contract Theory",
@@ -1569,6 +1766,20 @@
       ],
       "review_status": "approved",
       "path": "skills/tawhid/latest.json"
+    },
+    {
+      "name": "Temporal Discounting",
+      "slug": "temporal-discounting",
+      "version": 1,
+      "description": "Temporal Discounting analyzes how agents value costs and benefits that occur at different times, with special attention to present bias, hyperbolic discounting, preference reversal, and intertemporal self-control.",
+      "domains": [
+        "behavioral-economics",
+        "decision-theory",
+        "psychology",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/temporal-discounting/latest.json"
     },
     {
       "name": "The Four Purusharthas",
