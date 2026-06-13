@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:37+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Bonjour uses cases like Norman to reject the idea that a belief is justified merely because it was reliably caused. Norman's belief that the President is in New York may be true and may arise from a reliable clairvoyant faculty, but Norman has no beliefs about clairvoyance, no independent support, and no place in his background system that makes this belief cohere. A coherentist diagnosis is that the isolated belief is unjustified because it is not inferentially integrated with the rest of Norman's doxastic system; reliability outside the believer's perspective is not enough for justification.",
+      "problem": "Laurence Bonjour's clairvoyant Norman forms the true belief that the President is in New York, caused by a reliable clairvoyant power, while having no evidence for having such a power."
+    },
+    {
+      "analysis": "Neurath's boat image denies that inquiry can step outside all belief to find an external foundation. The sailors must replace planks while staying afloat; likewise, epistemic agents revise some beliefs by relying on others that remain provisionally in place. Coherentism treats justification as a property of the evolving system: a belief gains or loses status as it contributes to explanatory integration, consistency, and mutual support within the web, not by being tied to an indubitable starting point.",
+      "problem": "Otto Neurath compares knowledge to sailors who must rebuild their boat at sea, replacing planks while never standing on a dry dock foundation."
+    }
+  ],
+  "core_claims": [
+    "A belief is justified by belonging to a coherent system of beliefs rather than by resting on non-inferential foundations.",
+    "Mutual support can generate justification even when no member of the system is epistemically privileged as basic.",
+    "Coherence requires more than logical consistency; explanatory integration, inferential connectedness, and absence of ad hoc repairs all matter.",
+    "The regress of justification is best answered by a holistic network structure, not by stopping points or infinite chains.",
+    "Experiential reports justify only as elements within a broader belief system that interprets, cross-checks, and integrates them.",
+    "An isolated true belief, even if caused by a reliable process, is epistemically defective when it cannot be situated within the believer's reasons.",
+    "System-level comparison is prior to belief-by-belief certification: the better justified belief set is the more coherent total view."
+  ],
+  "description": "Coherentism is an epistemological theory on which justification arises from the mutual support, consistency, and explanatory integration of beliefs within a whole system, rather than from privileged basic beliefs or an external reliability condition. It answers the regress problem by treating justification as holistic and networked.",
+  "domains": [
+    "epistemology",
+    "philosophy",
+    "theory-of-justification",
+    "belief-revision"
+  ],
+  "failure_modes": [
+    "Isolation objection: a belief system can be internally coherent while poorly connected to the world, making coherence seem insufficient for empirical justification.",
+    "Alternative coherent systems: incompatible worldviews may each be internally coherent, leaving the framework without a decisive discriminator.",
+    "Circularity risk: mutual support can collapse into disguised question-begging when the same claims are recycled without independent constraint.",
+    "Conservatism: the framework can overprotect entrenched belief webs by treating disruptive evidence as less coherent rather than as a reason to revise deeply.",
+    "Practitioner over-systematizing: coherentists can mistake elegance, narrative unity, or ideological fit for epistemic support."
+  ],
+  "key_vocabulary": {
+    "Coherence": "A system-level relation involving consistency, explanatory integration, probabilistic fit, and inferential connectedness. It is stronger than merely avoiding contradiction.",
+    "Doxastic system": "The agent's set or network of beliefs considered as a whole. Coherentism evaluates justification against this system rather than in isolation.",
+    "Explanatory integration": "The way a belief helps explain, predict, or organize other beliefs in the system. Highly integrated beliefs do more justificatory work.",
+    "Foundations": "Allegedly basic beliefs that justify others without themselves needing inferential support. Coherentism denies that justification requires such beliefs.",
+    "Holism": "The view that epistemic status belongs primarily to an interconnected whole and only derivatively to individual beliefs.",
+    "Input problem": "The challenge of explaining how experience constrains a coherent belief system if justification is entirely internal to beliefs.",
+    "Mutual support": "Reciprocal reinforcement among beliefs in which each gains credibility through its relations to others. The support must be systematic rather than a small vicious circle.",
+    "Regress problem": "The problem that every justified belief appears to require a further justifying belief. Coherentism answers by rejecting linear chains in favor of networks."
+  },
+  "name": "Coherentism",
+  "operative_procedure": [
+    "State the target belief and the relevant doxastic system. Do not evaluate the belief as a lone proposition.",
+    "Map inferential relations. Identify which beliefs support, explain, entail, probabilify, or conflict with the target belief.",
+    "Test consistency. Remove or flag direct contradictions and tensions that cannot be explained by ambiguity, context, or defeasible exceptions.",
+    "Assess explanatory integration. Ask whether the target belief increases the system's explanatory power, simplicity, scope, and predictive organization.",
+    "Check experiential anchoring as system input. Determine how observation reports or memories are interpreted within the belief web and whether they create pressure for revision.",
+    "Compare rival belief systems. Evaluate whether accepting, rejecting, or modifying the target belief yields the more coherent total view.",
+    "Look for ad hoc repairs. Penalize changes that preserve coherence only by adding isolated exceptions, immunizing clauses, or unexplained asymmetries.",
+    "Issue a holistic judgment. Report the target belief's justificatory status as a function of its role in the best available coherent system, while noting unresolved tensions and rival coherent alternatives."
+  ],
+  "relationships": {
+    "ancestors": [
+      "British Idealism",
+      "Hegelian Dialectic",
+      "Neurath's Boat",
+      "Quinean Confirmation Holism"
+    ],
+    "composes_with": [
+      "Reflective Equilibrium",
+      "Inference to the Best Explanation",
+      "Bayesian Epistemology",
+      "Conceptual Analysis"
+    ],
+    "descendants": [
+      "Explanatory Coherentism",
+      "Coherence Theory of Truth",
+      "Web of Belief"
+    ],
+    "related": [
+      "Reflective Equilibrium",
+      "Bayesian Epistemology",
+      "Inference to the Best Explanation",
+      "Pragmatism"
+    ],
+    "rivals": [
+      "Foundationalism",
+      "Reliabilism",
+      "Infinitism",
+      "Classical Empiricism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Coherentism is most useful for evaluating broad belief systems, interpretive theories, worldview conflicts, and cases where justification depends on many mutually interacting commitments. It is weaker when immediate perceptual warrant, external reliability, or causal connection to the world is the central issue. Its central burden is explaining how experience and reality constrain a belief web without reintroducing foundations.",
+  "source_summary": "Authored from model knowledge of BonJour, Lehrer, Quine, Neurath, and standard epistemology literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Laurence Bonjour, The Structure of Empirical Knowledge (1985)"
+    },
+    {
+      "kind": "primary",
+      "title": "Keith Lehrer, Theory of Knowledge (1990)"
+    },
+    {
+      "kind": "primary",
+      "title": "W. V. O. Quine and J. S. Ullian, The Web of Belief (1970)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Coherentist Theories of Epistemic Justification (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/justep-coherence/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Coherentism (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Coherentism"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a belief's support depends on how it fits with many other commitments rather than on one decisive observation",
+    "you are comparing whole worldviews, interpretations, or theories that each explain different parts of the evidence",
+    "the justification chain threatens to regress indefinitely and no obvious basic stopping point is available",
+    "new information conflicts with an established belief web and you must decide what to revise",
+    "the problem turns on explanatory fit, consistency, and mutual reinforcement among claims"
+  ]
+}

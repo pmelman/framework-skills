@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:38Z",
+  "canonical_examples": [
+    {
+      "analysis": "Duhem argued that physical theory is not an explanation revealing the hidden nature of reality but a system that classifies and summarizes experimental laws. On an instrumentalist reading, the theoretical machinery of mechanics or electrodynamics earns its keep by organizing observations and yielding accurate predictions. The analyst should therefore ask how well the theory connects measurable quantities, not whether its abstract posits are literally mirrored in nature.",
+      "problem": "Pierre Duhem's account of physical theory treats theories as economical classifications of experimental laws rather than metaphysical explanations."
+    },
+    {
+      "analysis": "The Copenhagen-influenced attitude toward quantum mechanics often treats the wavefunction and formalism as tools for calculating probabilities of measurement outcomes while discouraging literal pictures of microscopic reality. Instrumentalism says the theory succeeds when it predicts spectra, scattering, and detector clicks with reliable accuracy. Questions about what the wavefunction really is may be bracketed as metaphysical surplus unless they change observable predictions or experimental practice.",
+      "problem": "Quantum mechanics predicts measurement outcomes with extraordinary success while interpretations disagree about the literal ontology of the wavefunction."
+    }
+  ],
+  "core_claims": [
+    "The primary function of a scientific theory is to organize experience and generate reliable predictions, not to state literal truths about hidden reality.",
+    "Theoretical entities can be useful calculational devices without being objects one should believe approximately exist.",
+    "Empirical success warrants acceptance-for-use, not metaphysical commitment to the theory's unobservable posits.",
+    "Rival theories or interpretations that make the same observable predictions can be equivalent for scientific purposes despite different ontologies.",
+    "Questions with no difference in possible observation, prediction, or intervention should be treated as idle or postponed in scientific inquiry.",
+    "A false or idealized model may be scientifically excellent if it is simple, tractable, and predictively reliable within its domain.",
+    "Scientific progress can consist in better instruments of prediction and control without cumulative convergence on a literal picture of the world."
+  ],
+  "description": "Instrumentalism treats scientific theories as tools for prediction, organization, and practical control rather than literal descriptions of observable and unobservable reality. It accepts theories for their empirical performance while withholding realist commitment to their theoretical posits.",
+  "domains": [
+    "philosophy-of-science",
+    "epistemology",
+    "scientific-method",
+    "modeling"
+  ],
+  "failure_modes": [
+    "Explanatory underreach: refusing realist interpretation can leave the success of science looking brute or unexplained.",
+    "Innovation myopia: treating theories only as prediction devices may undervalue ontology-guided research that discovers new mechanisms or entities.",
+    "Equivalence overstatement: supposedly equivalent formulations can diverge in fruitfulness, extension, or intervention even if current predictions match.",
+    "Practical conservatism: bracketing unobservable structure may discourage riskier theoretical commitments that would open new experiments.",
+    "Self-undermining language: practitioners often rely on realist talk in laboratories, engineering, and causal intervention even while officially denying commitment."
+  ],
+  "key_vocabulary": {
+    "Acceptance": "Using a theory as reliable for prediction or control without believing its theoretical claims are literally true.",
+    "Black-box model": "A model valued for mapping inputs to outputs accurately while leaving internal mechanisms uninterpreted or unspecified.",
+    "Calculational device": "A theoretical posit or formal structure used to derive predictions without ontological commitment.",
+    "Empirical adequacy": "Success in saving the observable phenomena. Instrumentalism often treats this as sufficient for scientific acceptance.",
+    "Fictionalism": "The view that some theoretical claims may be useful fictions: scientifically legitimate without being literally true.",
+    "Observable consequence": "A prediction, measurement, or practical outcome that can be checked without settling the theory's hidden ontology.",
+    "Saving the phenomena": "The aim of accounting for observed regularities and appearances through a theory's predictive structure.",
+    "Theoretical posit": "An entity, process, or structure introduced by a theory, especially one not directly observable. Instrumentalists treat such posits cautiously."
+  },
+  "name": "Instrumentalism | theories as prediction tools, not literal descriptions",
+  "operative_procedure": [
+    "Define the practical aim. Specify the predictions, classifications, or interventions the theory is being used to support.",
+    "Separate observables from posits. List what is measured or predicted directly and what is introduced as theoretical machinery.",
+    "Evaluate empirical performance. Judge the theory by accuracy, reliability, scope within domain, simplicity, and tractability.",
+    "Bracket surplus ontology. Treat claims about unobservable reality as optional unless they alter observable consequences or practical use.",
+    "Compare empirically equivalent alternatives. If rivals yield the same predictions, prefer the one that is simpler, more usable, or more fruitful for the task rather than more metaphysically vivid.",
+    "Mark domain limits. State where the instrument works, where idealizations matter, and where extrapolation would be unsafe.",
+    "Translate explanation into use. Replace 'what really exists?' with 'what does this formalism let us predict, control, or organize?'",
+    "Report acceptance-for-use. Recommend whether to rely on the theory operationally while explicitly withholding or minimizing literal ontological commitment."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Empiricism",
+      "Logical Positivism",
+      "Pragmatism"
+    ],
+    "composes_with": [
+      "Verificationism",
+      "The Map-Territory Distinction",
+      "Expected-Value Reasoning",
+      "Model-Based Reasoning"
+    ],
+    "descendants": [
+      "Constructive Empiricism",
+      "Model Fictionalism",
+      "Operationalism"
+    ],
+    "related": [
+      "Scientific Realism",
+      "Verificationism",
+      "Pragmatism",
+      "Hypothetico-Deductive Method"
+    ],
+    "rivals": [
+      "Scientific Realism",
+      "Inference to the Best Explanation",
+      "Entity Realism",
+      "Structural Realism",
+      "Metaphysical Realism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Instrumentalism is strongest when models are highly idealized, empirically successful, or interpretation-laden, and when practical prediction matters more than ontology. It is weaker when causal intervention, cross-domain explanation, or discovery of new entities depends on taking theoretical structure seriously. It should not be confused with denying science's usefulness; it denies that usefulness by itself warrants literal belief.",
+  "source_summary": "Authored from model knowledge of instrumentalist philosophy of science, including Duhem, pragmatist and positivist themes, and quantum-mechanical examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Pierre Duhem, The Aim and Structure of Physical Theory (1906)"
+    },
+    {
+      "kind": "primary",
+      "title": "Bas C. van Fraassen, The Scientific Image (1980)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Dewey, Logic: The Theory of Inquiry (1938)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Scientific Realism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/scientific-realism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A theory predicts well, but its hidden entities or mechanisms are disputed or metaphysically costly.",
+    "The immediate task is reliable calculation, classification, or control rather than deciding what unobservables really exist.",
+    "Several interpretations make the same observable predictions and the decision should turn on usability rather than ontology.",
+    "A model is known to be idealized or literally false but remains accurate within a practical domain.",
+    "A debate is stalled by metaphysical claims that do not change any measurement, prediction, or intervention."
+  ]
+}

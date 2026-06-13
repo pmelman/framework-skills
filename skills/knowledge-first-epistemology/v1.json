@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Williamson uses fake-barn cases to resist analyzing knowledge as justified true belief plus an anti-luck condition. The subject has a true belief formed by normal perception, but the environment is filled with indistinguishable fakes, so the subject does not know. Knowledge-first epistemology treats this verdict as evidence that knowledge is a primitive epistemic state whose boundaries are not captured by independently specified belief, truth, justification, and safety components.",
+      "problem": "In fake-barn country, Henry looks at the only real barn in a landscape filled with realistic fake barns and believes 'that is a barn.'"
+    },
+    {
+      "analysis": "Williamson argues that if a condition like feeling cold were luminous, then whenever it obtained one would be in a position to know it obtained. But gradual changes and margins for error generate a sorites-style problem: small differences between adjacent cases cannot always be discriminated, so guaranteed self-knowledge fails. The result supports knowledge-first epistemology by denying that mental states are always transparently knowable and by making knowledge a demanding primitive condition on evidence.",
+      "problem": "In Williamson's anti-luminosity argument, a person moves gradually from feeling cold to not feeling cold, with adjacent moments too similar to discriminate reliably."
+    }
+  ],
+  "core_claims": [
+    "Knowledge is not analyzable into belief, truth, justification, and an extra condition; it is a primitive epistemic and mental state.",
+    "The subject's evidence is exactly what the subject knows, so evidential support is grounded in knowledge rather than in appearances or justified beliefs.",
+    "Belief should be understood partly in relation to knowledge: believing is treating a proposition as if one knows it, not a more basic state from which knowledge is built.",
+    "Many central epistemic norms, including assertion and practical reasoning, are knowledge norms: one should assert or use p as a premise only if one knows p.",
+    "Gettier and fake-barn cases show the failure of reductive analyses, not merely the need for a better fourth condition.",
+    "Mental states are not generally luminous; even being in a condition does not guarantee being in a position to know that one is in it.",
+    "Skeptical pressure is best handled by examining the role of knowledge in evidence and action, not by reducing knowledge to internal justification."
+  ],
+  "description": "Knowledge-First Epistemology, associated especially with Timothy Williamson, treats knowledge as a primitive, unanalyzable mental state that explains evidence, belief, assertion, and rational action rather than being explained by them.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-mind",
+    "philosophy-of-language",
+    "analytic-philosophy"
+  ],
+  "failure_modes": [
+    "Primitive-label complacency: invoking knowledge as primitive can become a way to stop analysis before giving a useful explanation of a hard case.",
+    "Evidence restriction: identifying evidence with knowledge may undercount apparent evidence, misleading experiences, and rational inquiry under uncertainty.",
+    "Overstrict action norms: the knowledge norm for assertion or practical reasoning can make ordinary responsible action look impermissible whenever knowledge is absent.",
+    "Dialectical stalemate: rivals who demand reductive analysis may see the framework as refusing the original project rather than solving it.",
+    "Case-intuition dependence: arguments from fake barns, luminosity, and assertion norms can inherit contested intuitions about what subjects know."
+  ],
+  "key_vocabulary": {
+    "Anti-luminosity": "Williamson's thesis that many conditions are not such that, whenever they obtain, one is in a position to know they obtain. It challenges the transparency of the mental.",
+    "Evidence equals knowledge": "The claim that a subject's total evidence consists of all and only what the subject knows.",
+    "Fake-barn case": "A Gettier-style case where a true perceptual belief fails to be knowledge because the environment contains many indistinguishable fakes.",
+    "Knowledge norm of assertion": "The norm that one should assert p only if one knows p, often used to show knowledge's explanatory priority in language.",
+    "Knowledge-first": "The methodological stance that starts with knowledge as basic and explains other epistemic notions through it.",
+    "Mental state": "Williamson argues that knowing is a state of mind, not merely belief plus external success.",
+    "Reductive analysis": "The project of defining knowledge in more basic terms such as justified true belief. Knowledge-first epistemology rejects this project.",
+    "Safety": "A condition often proposed for knowledge: roughly, one could not easily have been wrong. Knowledge-first theorists may use safety but deny it analyzes knowledge."
+  },
+  "name": "Knowledge-First Epistemology",
+  "operative_procedure": [
+    "Start with the knowledge question directly: ask whether the subject knows p, without first trying to decompose the issue into belief, truth, justification, and a fourth condition.",
+    "Treat knowledge as explanatorily prior: use the presence or absence of knowledge to explain evidence, assertion, belief, and rational action rather than deriving knowledge from those notions.",
+    "Determine the subject's evidence by asking what the subject knows: exclude mere appearances, hunches, or justified falsehoods from the evidence set.",
+    "Test action and assertion by knowledge norms: ask whether p is known well enough to assert it, rely on it as a premise, or use it in practical reasoning.",
+    "Use Gettier cases diagnostically: when justified true belief fails, treat the failure as evidence against reductive analysis rather than as a prompt to add another condition.",
+    "Check environmental and modal features: consider fake barns, deception, nearby error, and safety, while resisting the claim that these features provide a full analysis.",
+    "Examine luminosity assumptions: challenge claims that subjects must always be positioned to know their own present mental conditions.",
+    "Synthesize by reversing explanation: state what knowledge the agent has, what follows for evidence and permissible assertion/action, and which rival reductive account would misdescribe the case."
+  ],
+  "relationships": {
+    "ancestors": [
+      "The Gettier Problem",
+      "Ordinary Language Philosophy",
+      "Analytic Epistemology"
+    ],
+    "composes_with": [
+      "Philosophy of Mind",
+      "Philosophy of Language",
+      "Decision Theory"
+    ],
+    "descendants": [
+      "Knowledge Norm of Assertion",
+      "Knowledge-First Decision Theory",
+      "E equals K Thesis"
+    ],
+    "related": [
+      "The Gettier Problem",
+      "Epistemic Contextualism",
+      "Reliabilism",
+      "Conceptual Analysis"
+    ],
+    "rivals": [
+      "Evidentialism",
+      "Virtue Epistemology",
+      "Epistemic Contextualism",
+      "Classical Foundationalism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Knowledge-First Epistemology is strongest for debates about the analysis of knowledge, evidence, assertion, action norms, Gettier cases, and the transparency of mental states. It is less helpful when a task requires a fine-grained account of rational credence under uncertainty, a theory of blameless false belief, or an operational measure of justification independent of knowledge.",
+  "source_summary": "Authored from model knowledge of Williamson, knowledge norms literature, and standard discussions of knowledge-first epistemology, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Timothy Williamson, Knowledge and its Limits (2000)"
+    },
+    {
+      "kind": "primary",
+      "title": "Timothy Williamson, 'Knowing and Asserting' (1996)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Hawthorne, Knowledge and Lotteries (2004)"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Analysis of Knowledge (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/knowledge-analysis/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A Gettier, fake-barn, or lottery case makes all reductive analyses of knowledge look unstable.",
+    "You need to decide what counts as a subject's evidence, especially whether mere appearances or justified false beliefs count.",
+    "A dispute concerns whether someone may assert, act on, or reason from a proposition without knowing it.",
+    "A theory assumes that agents can always know their own present mental conditions, and that assumption needs scrutiny.",
+    "You want to explain belief, evidence, and assertion by starting from knowledge rather than reducing knowledge to them."
+  ]
+}

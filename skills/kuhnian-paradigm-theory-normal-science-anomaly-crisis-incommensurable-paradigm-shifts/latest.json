@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:38Z",
+  "canonical_examples": [
+    {
+      "analysis": "Ptolemaic astronomy functioned as a paradigm: it supplied legitimate problems, mathematical techniques, standards of adequacy, and a world-picture in which celestial motion was organized around Earth. Copernican heliocentrism was not adopted simply because it solved every puzzle immediately; it reorganized the field's exemplars, standards, and ontology. The transition was a scientific revolution because key terms such as planet and motion changed their role, practitioners saw a different order in the same heavens, and the new paradigm opened a different program of normal science culminating in Kepler and Newton.",
+      "problem": "The Copernican Revolution displaced Ptolemaic geocentric astronomy."
+    },
+    {
+      "analysis": "For much of the eighteenth century, phlogiston theory guided normal chemical research by defining combustion as the release of phlogiston and giving chemists puzzle-solutions to refine. Anomalies accumulated around weight gain in calcination and the role of gases. Lavoisier's oxygen chemistry did not merely add a correction; it changed the taxonomy of substances, the meaning of combustion, and the standards for chemical explanation. Kuhn treats this as a paradigm shift: a crisis in one framework was resolved by adopting another that made chemists work in a reorganized world.",
+      "problem": "Lavoisier's oxygen theory replaced phlogiston chemistry in explanations of combustion and calcination."
+    }
+  ],
+  "core_claims": [
+    "Mature sciences are organized by paradigms: shared exemplars, instruments, standards, and metaphysical commitments that define legitimate puzzle-solving.",
+    "Normal science is not mainly a search for novelties; it is the articulation of a paradigm through puzzle-solving under accepted rules.",
+    "Anomalies do not falsify a paradigm one by one; they usually remain tolerated until they obstruct central work and contribute to crisis.",
+    "Scientific revolutions replace one paradigm with another, changing standards of evidence, legitimate problems, and the perceived structure of the world.",
+    "Competing paradigms can be incommensurable because their key terms, taxonomies, and exemplars do not map cleanly onto each other.",
+    "Paradigm choice is not governed by a single algorithm; accuracy, scope, simplicity, fruitfulness, and coherence matter, but scientists may weight them differently.",
+    "Textbook histories hide revolutionary discontinuities by presenting past science as a cumulative march toward the present paradigm."
+  ],
+  "description": "Kuhnian Paradigm Theory models science as alternating between normal puzzle-solving within a paradigm and revolutionary episodes in which accumulated anomalies and crisis lead to an incommensurable paradigm shift. It emphasizes exemplars, disciplinary matrices, anomaly management, and historically situated standards of theory choice.",
+  "domains": [
+    "philosophy-of-science",
+    "history-of-science",
+    "epistemology",
+    "scientific-change"
+  ],
+  "failure_modes": [
+    "Relativist overreach: Kuhn's incommensurability is often misread as saying evidence never constrains paradigm choice, which erases his theory-choice values.",
+    "Revolution inflation: labeling any conceptual change a paradigm shift dilutes the framework's focus on field-wide changes in exemplars, standards, and problem spaces.",
+    "Anomaly counting: merely listing anomalies misses Kuhn's point that anomalies matter when they disrupt central puzzle-solving within a paradigm.",
+    "Neglecting normal science: practitioners may romanticize crisis and novelty while ignoring the disciplined, productive puzzle work that Kuhn treats as the bulk of mature science.",
+    "Retrospective smoothing: analysts can reproduce the textbook distortion Kuhn criticized by making a revolution look inevitable after the fact."
+  ],
+  "key_vocabulary": {
+    "Anomaly": "A phenomenon that resists assimilation to the reigning paradigm's expected puzzle-solutions. It becomes crisis-producing only when it is persistent and central enough to disturb normal science.",
+    "Crisis": "A period in which confidence in a paradigm weakens because significant anomalies resist resolution and alternative approaches become thinkable.",
+    "Disciplinary matrix": "Kuhn's later term for the shared symbolic generalizations, models, values, and exemplars that bind a scientific community.",
+    "Exemplar": "A concrete problem-solution that trains practitioners in how to see and solve legitimate problems. Exemplars carry more practical authority than explicit rules.",
+    "Incommensurability": "The partial non-translatability between paradigms whose taxonomies, standards, and exemplary problems differ. It makes paradigm choice comparative rather than mechanically decisive.",
+    "Normal science": "Research conducted under a settled paradigm, aimed at articulating it, extending it, and solving its puzzles rather than overthrowing it.",
+    "Paradigm": "A shared scientific achievement that supplies models, standards, instruments, and exemplary solutions for a community's work.",
+    "Scientific revolution": "A non-cumulative transition in which one paradigm is displaced by another, reorganizing what counts as a problem, solution, and fact."
+  },
+  "name": "Kuhnian Paradigm Theory | normal science, anomaly, crisis, incommensurable paradigm shifts",
+  "operative_procedure": [
+    "Identify the scientific community. Specify the field, practitioners, journals, training practices, instruments, and shared exemplars at issue.",
+    "Reconstruct the reigning paradigm. Name its central exemplars, accepted problems, standards of solution, background commitments, and normal-science agenda.",
+    "Classify the work being done. Distinguish ordinary puzzle-solving from novelty-seeking, ad hoc repair, methodological dispute, or revolutionary proposal.",
+    "Locate anomalies in paradigm terms. Ask which observations or failures resist expected solution and why they matter to the paradigm's own central commitments.",
+    "Assess crisis conditions. Determine whether anomalies are persistent, public, central, and accompanied by loss of confidence or proliferation of alternatives.",
+    "Compare rival paradigms as worlds of practice. Examine how each organizes terms, taxonomies, instruments, exemplars, and standards rather than comparing isolated propositions only.",
+    "Analyze incommensurability. Identify concepts that change meaning, standards that shift weight, and problems that cease to be problems or become newly visible.",
+    "Explain conversion and consolidation. Show why practitioners moved, how the new paradigm opened normal science, and how later textbooks may recast the transition as cumulative."
+  ],
+  "relationships": {
+    "ancestors": [
+      "History of Science",
+      "Pragmatism",
+      "Sociology of Knowledge"
+    ],
+    "composes_with": [
+      "Lakatos's Research Programmes",
+      "Scientific Realism",
+      "Conceptual Analysis",
+      "The Map-Territory Distinction"
+    ],
+    "descendants": [
+      "Social Constructivism",
+      "Science and Technology Studies",
+      "Postpositivist Philosophy of Science"
+    ],
+    "related": [
+      "Falsificationism",
+      "Verificationism",
+      "Hypothetico-Deductive Method",
+      "Strong Inference"
+    ],
+    "rivals": [
+      "Falsificationism",
+      "Lakatos's Research Programmes",
+      "Scientific Realism",
+      "Logical Positivism",
+      "Cumulative Scientific Realism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Kuhnian Paradigm Theory is best for historical and sociological analysis of mature sciences undergoing deep conceptual change. It is weaker as a real-time decision rule for accepting or rejecting a theory, and it can understate continuity across revolutions when applied without care. It analyzes communities, exemplars, and standards rather than isolated hypotheses.",
+  "source_summary": "Authored from model knowledge of Kuhn's account of normal science, anomaly, crisis, incommensurability, and scientific revolutions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Thomas S. Kuhn, The Structure of Scientific Revolutions (1962)"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas S. Kuhn, 'Objectivity, Value Judgment, and Theory Choice' (1977)"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas S. Kuhn, The Essential Tension (1977)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Thomas Kuhn (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/thomas-kuhn/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A scientific field appears to be solving puzzles under shared assumptions rather than debating fundamentals.",
+    "Persistent anomalies are accumulating, but practitioners disagree about whether they threaten the field's foundations.",
+    "A dispute involves competing standards of evidence, legitimate problems, or meanings of core terms rather than one neutral dataset.",
+    "A historical episode looks less like cumulative improvement and more like a reorganization of a community's world-picture.",
+    "Participants in a technical debate seem to talk past one another because their exemplars and taxonomies differ."
+  ]
+}

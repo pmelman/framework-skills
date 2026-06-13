@@ -1,0 +1,126 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:37+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Goldman's fake-barn case shows why actual truth is not enough for knowledge. Henry's visual process in the region is not reliably connected to barn facts, because the same method would very easily have produced false barn beliefs when aimed at facades. Although the particular object is a real barn and Henry's belief is true, the relevant process type, ordinary visual barn-identification in fake-barn county, has a poor truth ratio in the local environment. Process reliabilism therefore withholds knowledge.",
+      "problem": "Goldman's Henry drives through a region full of fake barn facades, happens to look at the only real barn, and forms the true belief 'there is a barn.'"
+    },
+    {
+      "analysis": "Goldman's Truetemp forms true temperature beliefs because an implanted device causes them, but he has no evidence that the process exists. Simple reliabilism says the belief may be justified if the belief-forming process is in fact reliable, even if Truetemp cannot internally cite reasons for trusting it. The case exposes reliabilism's externalist character: justification depends on the objective truth-conduciveness of the process, not solely on the subject's accessible perspective.",
+      "problem": "In the Truetemp case, a person unknowingly has a reliable temperature-detecting device implanted in his brain and spontaneously forms accurate beliefs about room temperature."
+    }
+  ],
+  "core_claims": [
+    "A true belief counts as knowledge only if it is produced or sustained by a belief-forming process that is reliable in the relevant environment.",
+    "Justification can depend on external facts about the causal history and truth-conduciveness of a belief, even when the subject cannot access those facts reflectively.",
+    "Perception, memory, introspection, and valid inference are epistemically good because they usually produce true beliefs, not because they rest on indubitable foundations.",
+    "Gettier-style luck is excluded when the truth of the belief is appropriately connected to a reliable process rather than accidentally coinciding with it.",
+    "The same psychological method can be reliable in one environment and unreliable in another; reliability is indexed to process type and operating conditions.",
+    "A belief produced by wishful thinking, guessing, or prejudice is unjustified even if it happens to be true, because the process has a poor truth ratio.",
+    "Internal coherence among beliefs is not sufficient for justification if the processes generating the system are not truth-conducive."
+  ],
+  "description": "Reliabilism is an externalist theory of knowledge and justification, associated especially with Alvin Goldman, according to which a belief is epistemically justified or qualifies as knowledge when it is formed by cognitive processes that reliably produce true beliefs in the relevant circumstances. It shifts attention from accessible reasons to the truth-conducive performance of belief-forming mechanisms.",
+  "domains": [
+    "epistemology",
+    "philosophy",
+    "cognitive-science",
+    "theory-of-knowledge"
+  ],
+  "failure_modes": [
+    "Generality problem: any belief token can be described under many process types, and reliabilist verdicts can change depending on which type is selected.",
+    "New evil demon problem: a deceived subject with careful reasoning and experiences like ours seems internally justified, but their processes are globally unreliable in the demon world.",
+    "Clairvoyance and strange-process cases: unknown reliable faculties can seem to confer justification too cheaply when the subject has no reason to trust them.",
+    "Environment sensitivity: a normally reliable method can fail in hostile settings such as fake-barn county, making the relevant environment hard to delimit.",
+    "Practitioner black-boxing: reliabilists can skip the subject's reasons and social accountability by appealing too quickly to process performance."
+  ],
+  "key_vocabulary": {
+    "Externalism": "The view that factors outside the subject's reflective access can determine epistemic status. Reliabilism is a leading externalist theory.",
+    "Fake barn case": "A Gettier-style case where a true perceptual belief fails to be knowledge because the local environment makes the belief-forming method unreliable.",
+    "Generality problem": "The difficulty of specifying the relevant process type for a belief. A process may look reliable under one description and unreliable under another.",
+    "Process reliabilism": "Goldman's view that justified belief is belief produced by a reliable cognitive process or method.",
+    "Relevant environment": "The conditions under which a process's reliability is assessed. Choosing this environment is often decisive.",
+    "Reliable process": "A belief-forming process that produces a high ratio of true to false beliefs in relevant nearby or normal cases.",
+    "Truth-conduciveness": "The tendency of a method, faculty, or process to lead to true beliefs rather than merely coherent or psychologically satisfying beliefs.",
+    "Virtue reliabilism": "A descendant view that treats knowledge as true belief arising from stable intellectual abilities or competences."
+  },
+  "name": "Reliabilism",
+  "operative_procedure": [
+    "State the target belief, its truth status if known, and the cognitive route by which the subject formed or sustained it.",
+    "Type the belief-forming process. Describe the method at the right level of generality, such as visual perception in normal light, testimony from an expert, wishful thinking, memory, or statistical inference.",
+    "Identify the relevant environment. Specify the actual or nearby conditions in which the process operates, including unusual deception, noise, expertise, incentives, or hostile design.",
+    "Estimate reliability. Ask whether that process type in that environment produces a high ratio of true beliefs to false beliefs.",
+    "Check for epistemic luck. Determine whether the belief's truth is connected to the process's reliability or merely accidental, as in Gettier and fake-barn cases.",
+    "Consider defeaters and process interactions. Include evidence the subject has against the process, higher-order doubts, calibration failures, and whether other reliable processes correct it.",
+    "Contrast internal reasons with external reliability. Note where an internalist would object that the subject lacks accessible support, and decide whether the reliabilist verdict should diverge.",
+    "Synthesize the status. Report whether the belief is reliably formed, justified, and knowledge, naming the process type, environment, reliability basis, and remaining generality concerns."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Causal Theory of Knowledge",
+      "Naturalized Epistemology",
+      "Analytic Epistemology",
+      "The Gettier Problem"
+    ],
+    "composes_with": [
+      "Causal Inference",
+      "Bayesian Epistemology",
+      "Error Statistics",
+      "Dual-Process Theory"
+    ],
+    "descendants": [
+      "Virtue Reliabilism",
+      "Process Reliabilism",
+      "Safety and Sensitivity Theories of Knowledge",
+      "Social Epistemology"
+    ],
+    "related": [
+      "The Gettier Problem",
+      "Causal Inference",
+      "Naturalized Epistemology",
+      "Error Statistics"
+    ],
+    "rivals": [
+      "Foundationalism",
+      "Coherentism",
+      "Evidentialism",
+      "Internalism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Reliabilism is strongest for diagnosing knowledge, epistemic luck, cognitive process quality, testimony, perception, memory, and AI or institutional belief pipelines where truth-conducive mechanisms matter. It is weaker when the problem demands first-person reasons, deliberative responsibility, or justification under radical deception. Its hardest technical issue is specifying the relevant process type and environment without tailoring them to the desired verdict.",
+  "source_summary": "Authored from model knowledge of Goldman, Nozick, Sosa, Plantinga, Cohen, and standard reliabilist epistemology literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Alvin I. Goldman, 'What Is Justified Belief?' (1979)"
+    },
+    {
+      "kind": "primary",
+      "title": "Alvin I. Goldman, Epistemology and Cognition (1986)"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert Nozick, Philosophical Explanations (1981)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Reliabilist Epistemology (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/reliabilism/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Reliabilism (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Reliabilism"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a belief is true but may be lucky, accidental, or formed by a bad method",
+    "you need to evaluate whether a cognitive process, instrument, witness, or pipeline tends to produce truth",
+    "the subject lacks accessible reasons but may still have used a dependable belief-forming faculty",
+    "environmental conditions may make an ordinarily reliable method unreliable",
+    "the problem turns on Gettier cases, epistemic luck, process quality, or externalist justification"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:37+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Rissanen's point is that the polynomial with the smallest training error is not automatically the best inference. MDL encodes both the model class/parameters and the residual data left unexplained by the model. A very high-degree polynomial can drive the residual code length down, but it requires a long description of many parameter values and tends to encode noise as structure. A low-degree polynomial may leave a somewhat longer residual code, but its shorter model description can minimize the total two-part code. The MDL recommendation is therefore to choose the polynomial degree at which added parameters no longer pay for themselves in compressed description of the observations.",
+      "problem": "In Rissanen-style curve fitting, several polynomials fit a set of noisy data points; higher-degree polynomials reduce training error, but the data may contain random noise."
+    },
+    {
+      "analysis": "The crude code transmits every image independently and pays repeatedly for regularities such as smooth regions, edges, and repeated textures. A model-based code first describes a probabilistic image model or dictionary, then encodes only the deviations of the observed image from that model. MDL evaluates the full codelength: if the dictionary is too small, the residuals remain long; if it is too elaborate, the dictionary itself becomes expensive. The preferred representation is the one with minimum total description length, explaining why compression and statistical modeling become the same problem in the MDL literature.",
+      "problem": "A family of image compression schemes ranges from raw pixel transmission to increasingly elaborate model-based encodings with dictionaries, predictors, and residuals."
+    }
+  ],
+  "core_claims": [
+    "The best model is the one that yields the shortest total code for the model plus the data encoded with the help of that model, not the one with the lowest in-sample error.",
+    "Regularity is whatever permits compression: a pattern counts as learned only insofar as it shortens the description of observations relative to a naive code.",
+    "Model complexity must be charged in the same currency as goodness of fit; extra parameters are justified only when they reduce residual codelength by more than their own encoding cost.",
+    "Universal codes allow model selection without assigning a substantive prior probability to each candidate model, while still imposing an Occam penalty.",
+    "Overfitting is the result of encoding noise in the model part rather than leaving it in the data-to-model residual part.",
+    "Different model classes can be compared by their stochastic complexity or normalized maximum likelihood codelength, not merely by parameter counts."
+  ],
+  "description": "Minimum Description Length is an information-theoretic model selection principle, developed by Jorma Rissanen, that chooses the hypothesis or statistical model that permits the shortest lossless description of the data when both the model and its residual errors are encoded. It formalizes Occam's Razor by treating simplicity and fit as competing contributions to total codelength.",
+  "domains": [
+    "statistics",
+    "machine-learning",
+    "information-theory",
+    "model-selection"
+  ],
+  "failure_modes": [
+    "Code dependence: different coding schemes can change the apparent description length unless the analysis uses well-justified universal codes or shows invariance at the needed scale.",
+    "Confusing compression with causal explanation: a model can compress observations well by exploiting correlational regularities while giving a poor account of interventions or mechanisms.",
+    "Small-sample instability: stochastic complexity penalties can dominate or fluctuate when data are scarce, making model rankings sensitive to implementation details.",
+    "Hidden modeling choices: the framework can look objective while smuggling in assumptions through the choice of model class, parameter precision, data representation, and allowable codes.",
+    "Practitioner overreach: MDL can mislead its users into treating the shortest code as the true structure of the world rather than the best tradeoff inside a specified representational language."
+  ],
+  "key_vocabulary": {
+    "Codelength": "The number of bits required to describe an object under a specified code. MDL compares candidate explanations by total codelength, not by verbal simplicity.",
+    "Data-to-model code": "The part of a two-part description that encodes the observed data given the chosen model. It corresponds to residual error or negative log-likelihood.",
+    "Model code": "The part of a description that specifies the model class, parameters, or hypothesis being used. It is the explicit price paid for complexity.",
+    "Normalized Maximum Likelihood": "A universal coding construction that assigns codelength based on how well a model fits the observed data relative to all data it could have fit. It is central to refined MDL.",
+    "Overfitting": "Encoding accidental noise as if it were reusable structure. In MDL terms, the model part becomes too long for the residual savings it buys.",
+    "Stochastic complexity": "The shortest achievable universal description length of data relative to a model class. It generalizes simple parameter-count penalties.",
+    "Two-part code": "A description that first transmits a model and then transmits the data using that model. Crude MDL often reasons in this form.",
+    "Universal code": "A coding scheme that performs well across a class of possible sources without knowing the true source in advance."
+  },
+  "name": "Minimum Description Length",
+  "operative_procedure": [
+    "Specify the data representation. State exactly what observations must be encoded and what background conventions are free rather than paid for.",
+    "Define the candidate model classes. List the hypotheses, parameterized families, grammars, predictors, or compressors that are allowed to explain the data.",
+    "Choose the coding interpretation. Use a two-part code for transparent analysis or a refined universal code such as normalized maximum likelihood when comparing statistical model classes.",
+    "Compute the model codelength. Estimate the bits needed to identify the model class and encode its parameters at the precision justified by the data.",
+    "Compute the data-to-model codelength. Encode the residuals or negative log-likelihood of the observed data under each candidate model.",
+    "Add the two lengths. Compare total description length, not fit alone and not simplicity alone.",
+    "Inspect the tradeoff point. Identify where added complexity stops producing enough residual compression to pay for itself.",
+    "Report the selected model and the rejected alternatives. Explain which regularities were worth encoding, which apparent patterns were left as noise, and how sensitive the result is to the coding scheme and model class."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Occam's Razor",
+      "Algorithmic Information Theory",
+      "Information Theory",
+      "Maximum Likelihood Estimation"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Frequentist Hypothesis Testing",
+      "Causal Inference",
+      "Replication and Robustness Thinking"
+    ],
+    "descendants": [
+      "Normalized Maximum Likelihood",
+      "Minimum Message Length",
+      "Kolmogorov Complexity Approaches to Induction"
+    ],
+    "related": [
+      "Occam's Razor",
+      "Bayesian Epistemology",
+      "Frequentist Hypothesis Testing",
+      "Error Statistics"
+    ],
+    "rivals": [
+      "Akaike Information Criterion",
+      "Bayesian Model Selection",
+      "Cross-Validation",
+      "Inference to the Best Explanation"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Minimum Description Length is strongest for model selection, statistical learning, pattern discovery, and compression problems where candidate representations can be made explicit and scored in bits. It is less suitable when the key issue is causal identification, moral judgment, semantic interpretation, or choosing among frameworks whose representational languages are not comparable. Its apparent objectivity depends on careful specification of data representation, model class, and coding scheme.",
+  "source_summary": "Authored from model knowledge of Rissanen, Grunwald, Li and Vitanyi, and standard MDL literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Jorma Rissanen, 'Modeling by Shortest Data Description' (1978)"
+    },
+    {
+      "kind": "primary",
+      "title": "Jorma Rissanen, Stochastic Complexity in Statistical Inquiry (1989)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Peter D. Grunwald, The Minimum Description Length Principle (2007)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Ming Li and Paul Vitanyi, An Introduction to Kolmogorov Complexity and Its Applications"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Minimum description length (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Minimum_description_length"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you must choose among models that trade better fit against greater complexity",
+    "training error keeps improving but you suspect the model is memorizing noise",
+    "candidate explanations can be expressed as codes, grammars, predictors, or probabilistic models",
+    "you need a principled Occam penalty without relying on an informal simplicity judgment",
+    "the problem asks whether an apparent pattern is reusable structure or accidental fluctuation"
+  ]
+}

@@ -1,7 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T02:55:16Z",
+  "generated_at": "2026-06-13T03:03:30Z",
   "skills": [
+    {
+      "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
+      "slug": "abduction-peirce-inference-generating-explanatory-hypotheses-distinct-from-ibe-evaluation",
+      "version": 1,
+      "description": "Abduction in Peirce's sense is the inferential stage that responds to surprising facts by generating explanatory hypotheses for further inquiry. It is distinct from later inference-to-the-best-explanation evaluation: abduction proposes a plausible explanation, deduction draws its consequences, and induction tests it.",
+      "domains": [
+        "logic",
+        "epistemology",
+        "philosophy-of-science",
+        "inquiry"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/abduction-peirce-inference-generating-explanatory-hypotheses-distinct-from-ibe-evaluation/latest.json"
+    },
     {
       "name": "Advaita Vedanta",
       "slug": "advaita-vedanta",
@@ -170,6 +184,20 @@
       "path": "skills/cognitive-behavioral-framing-cbt-thoughts-feelings-behavior-loops-cognitive-distortions/latest.json"
     },
     {
+      "name": "Coherentism",
+      "slug": "coherentism",
+      "version": 1,
+      "description": "Coherentism is an epistemological theory on which justification arises from the mutual support, consistency, and explanatory integration of beliefs within a whole system, rather than from privileged basic beliefs or an external reliability condition. It answers the regress problem by treating justification as holistic and networked.",
+      "domains": [
+        "epistemology",
+        "philosophy",
+        "theory-of-justification",
+        "belief-revision"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/coherentism/latest.json"
+    },
+    {
       "name": "Conceptual Analysis",
       "slug": "conceptual-analysis",
       "version": 1,
@@ -296,6 +324,20 @@
       "path": "skills/dual-process-theory-system-1-system-2-cognition-kahneman-stanovich/latest.json"
     },
     {
+      "name": "Epistemic Contextualism",
+      "slug": "epistemic-contextualism",
+      "version": 1,
+      "description": "Epistemic Contextualism is the semantic view that the truth of knowledge attributions depends on the conversational context, so standards for saying someone 'knows' can shift with stakes, salience, and practical purposes.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-language",
+        "pragmatics",
+        "analytic-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/epistemic-contextualism/latest.json"
+    },
+    {
       "name": "Error Statistics",
       "slug": "error-statistics",
       "version": 1,
@@ -308,6 +350,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/error-statistics/latest.json"
+    },
+    {
+      "name": "Evidentialism",
+      "slug": "evidentialism",
+      "version": 1,
+      "description": "Evidentialism is the Conee-Feldman view that epistemic justification is entirely determined by evidence: a belief is justified exactly when it fits the evidence possessed by the subject.",
+      "domains": [
+        "epistemology",
+        "ethics-of-belief",
+        "argumentation",
+        "analytic-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/evidentialism/latest.json"
     },
     {
       "name": "Expected Utility Theory",
@@ -392,6 +448,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/first-principles-reasoning/latest.json"
+    },
+    {
+      "name": "Foundationalism",
+      "slug": "foundationalism",
+      "version": 1,
+      "description": "Foundationalism is an epistemological theory that answers the regress of justification by distinguishing basic beliefs, which possess non-inferential warrant, from nonbasic beliefs, whose justification depends on proper support from those foundations. It models knowledge as an epistemic structure with a grounded base and an inferential superstructure.",
+      "domains": [
+        "epistemology",
+        "philosophy",
+        "theory-of-justification",
+        "skepticism"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/foundationalism/latest.json"
     },
     {
       "name": "Four Noble Truths",
@@ -534,6 +604,20 @@
       "path": "skills/inference-to-the-best-explanation/latest.json"
     },
     {
+      "name": "Instrumentalism | theories as prediction tools, not literal descriptions",
+      "slug": "instrumentalism-theories-as-prediction-tools-not-literal-descriptions",
+      "version": 1,
+      "description": "Instrumentalism treats scientific theories as tools for prediction, organization, and practical control rather than literal descriptions of observable and unobservable reality. It accepts theories for their empirical performance while withholding realist commitment to their theoretical posits.",
+      "domains": [
+        "philosophy-of-science",
+        "epistemology",
+        "scientific-method",
+        "modeling"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/instrumentalism-theories-as-prediction-tools-not-literal-descriptions/latest.json"
+    },
+    {
       "name": "Inversion | solve problems backwards; avoid stupidity rather than seek brilliance (Jacobi, Munger)",
       "slug": "inversion-solve-problems-backwards-avoid-stupidity-rather-than-seek-brilliance-jacobi-munger",
       "version": 1,
@@ -603,6 +687,48 @@
       "path": "skills/karma-yoga/latest.json"
     },
     {
+      "name": "Knowledge-First Epistemology",
+      "slug": "knowledge-first-epistemology",
+      "version": 1,
+      "description": "Knowledge-First Epistemology, associated especially with Timothy Williamson, treats knowledge as a primitive, unanalyzable mental state that explains evidence, belief, assertion, and rational action rather than being explained by them.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-mind",
+        "philosophy-of-language",
+        "analytic-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/knowledge-first-epistemology/latest.json"
+    },
+    {
+      "name": "Kuhnian Paradigm Theory | normal science, anomaly, crisis, incommensurable paradigm shifts",
+      "slug": "kuhnian-paradigm-theory-normal-science-anomaly-crisis-incommensurable-paradigm-shifts",
+      "version": 1,
+      "description": "Kuhnian Paradigm Theory models science as alternating between normal puzzle-solving within a paradigm and revolutionary episodes in which accumulated anomalies and crisis lead to an incommensurable paradigm shift. It emphasizes exemplars, disciplinary matrices, anomaly management, and historically situated standards of theory choice.",
+      "domains": [
+        "philosophy-of-science",
+        "history-of-science",
+        "epistemology",
+        "scientific-change"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/kuhnian-paradigm-theory-normal-science-anomaly-crisis-incommensurable-paradigm-shifts/latest.json"
+    },
+    {
+      "name": "Lakatos's Research Programmes | progressive vs degenerating programmes; hard core + protective belt",
+      "slug": "lakatos-s-research-programmes-progressive-vs-degenerating-programmes-hard-core-protective-belt",
+      "version": 1,
+      "description": "Lakatos's Methodology of Scientific Research Programmes evaluates science through historically extended programmes with a hard core, protective belt, negative heuristic, and positive heuristic. Programmes are judged by whether their problemshifts are progressive or degenerating relative to rivals.",
+      "domains": [
+        "philosophy-of-science",
+        "methodology",
+        "history-of-science",
+        "epistemology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/lakatos-s-research-programmes-progressive-vs-degenerating-programmes-hard-core-protective-belt/latest.json"
+    },
+    {
       "name": "Liberation Theology",
       "slug": "liberation-theology",
       "version": 1,
@@ -645,6 +771,20 @@
       "path": "skills/maqasid-al-shariah/latest.json"
     },
     {
+      "name": "Minimum Description Length",
+      "slug": "minimum-description-length",
+      "version": 1,
+      "description": "Minimum Description Length is an information-theoretic model selection principle, developed by Jorma Rissanen, that chooses the hypothesis or statistical model that permits the shortest lossless description of the data when both the model and its residual errors are encoded. It formalizes Occam's Razor by treating simplicity and fit as competing contributions to total codelength.",
+      "domains": [
+        "statistics",
+        "machine-learning",
+        "information-theory",
+        "model-selection"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/minimum-description-length/latest.json"
+    },
+    {
       "name": "Modal Reasoning",
       "slug": "modal-reasoning",
       "version": 1,
@@ -671,6 +811,20 @@
       ],
       "review_status": "approved",
       "path": "skills/mussar/latest.json"
+    },
+    {
+      "name": "Naturalized Epistemology",
+      "slug": "naturalized-epistemology",
+      "version": 1,
+      "description": "Naturalized Epistemology, in Quine's programmatic sense, reconceives epistemology as part of empirical psychology: the scientific study of how sensory input and cognitive mechanisms generate theories of the world, without appeal to an external first philosophy.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-science",
+        "cognitive-science",
+        "analytic-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/naturalized-epistemology/latest.json"
     },
     {
       "name": "Occam's Razor",
@@ -855,6 +1009,20 @@
       "path": "skills/reflective-equilibrium/latest.json"
     },
     {
+      "name": "Reliabilism",
+      "slug": "reliabilism",
+      "version": 1,
+      "description": "Reliabilism is an externalist theory of knowledge and justification, associated especially with Alvin Goldman, according to which a belief is epistemically justified or qualifies as knowledge when it is formed by cognitive processes that reliably produce true beliefs in the relevant circumstances. It shifts attention from accessible reasons to the truth-conducive performance of belief-forming mechanisms.",
+      "domains": [
+        "epistemology",
+        "philosophy",
+        "cognitive-science",
+        "theory-of-knowledge"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/reliabilism/latest.json"
+    },
+    {
       "name": "Replication and Robustness Thinking",
       "slug": "replication-and-robustness-thinking",
       "version": 1,
@@ -881,6 +1049,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/satisficing/latest.json"
+    },
+    {
+      "name": "Scientific Realism | unobservables posited by mature science approximately exist; no-miracles argument",
+      "slug": "scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument",
+      "version": 1,
+      "description": "Scientific Realism holds that mature, predictively successful science gives approximately true descriptions of both observable and unobservable aspects of the world. Its signature no-miracles argument claims that scientific success would be inexplicable if central theoretical posits did not approximately exist.",
+      "domains": [
+        "philosophy-of-science",
+        "metaphysics",
+        "epistemology",
+        "scientific-method"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument/latest.json"
     },
     {
       "name": "Socratic Method | elenchus",
@@ -1174,6 +1356,20 @@
       ],
       "review_status": "approved",
       "path": "skills/verificationism/latest.json"
+    },
+    {
+      "name": "Virtue Epistemology",
+      "slug": "virtue-epistemology",
+      "version": 1,
+      "description": "Virtue Epistemology evaluates knowledge, justification, and inquiry through intellectual virtues and vices: stable excellences or competences of the knower that make true belief creditable to the agent rather than merely lucky.",
+      "domains": [
+        "epistemology",
+        "ethics",
+        "philosophy-of-mind",
+        "education"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/virtue-epistemology/latest.json"
     },
     {
       "name": "Wu Wei",

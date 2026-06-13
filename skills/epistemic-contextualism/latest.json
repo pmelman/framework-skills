@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "DeRose argues that both ordinary and high-stakes utterances can be correct because the standards for 'knows' shift with context. In the low-stakes case, ordinary evidence that the bank was open recently suffices for saying the person knows it will be open Saturday. In the high-stakes case, the practical importance of being right raises the conversational standard, making the same evidence insufficient for a true knowledge attribution. The subject's evidence need not change; the truth conditions of the knowledge attribution shift.",
+      "problem": "In Keith DeRose's bank cases, a person has the same memory that the bank was open on Saturday two weeks ago. In a low-stakes case they say they know it will be open this Saturday; in a high-stakes case, where a deposit must clear to avoid serious trouble, they deny knowing."
+    },
+    {
+      "analysis": "Cohen uses the airport case to show that conversationally salient error possibilities raise epistemic standards. Before the possibility of schedule changes is raised, the itinerary may be enough for an ordinary true claim that Smith knows the flight stops in Chicago. Once the alternative is made salient, the same evidence no longer meets the contextually operative standard. Contextualism preserves ordinary knowledge talk while explaining why skeptical or high-scrutiny contexts make knowledge denials sound correct.",
+      "problem": "In Stewart Cohen's airport case, Smith's itinerary says the flight stops in Chicago, but someone raises the possibility that the airline changed the schedule at the last minute."
+    }
+  ],
+  "core_claims": [
+    "The truth conditions of sentences of the form 'S knows that p' vary with the context of the attributor, not merely with the subject's evidence.",
+    "Practical stakes, salient alternatives, and conversational purposes can raise or lower the epistemic standards governing knowledge attributions.",
+    "A subject with unchanged evidence can be truly said to know in one conversational context and truly said not to know in another.",
+    "Skeptical arguments gain force by raising standards for 'knows' rather than by showing that ordinary knowledge attributions are generally false.",
+    "Contextualism is a semantic thesis about knowledge ascriptions, not the simple claim that knowledge itself comes and goes whenever interests change.",
+    "Ordinary low-standards knowledge claims are often true even though stricter philosophical or high-stakes contexts make denial appropriate.",
+    "Disagreement over whether someone 'knows' can be partly metalinguistic: speakers may be operating with different standards rather than contradicting over a fixed property."
+  ],
+  "description": "Epistemic Contextualism is the semantic view that the truth of knowledge attributions depends on the conversational context, so standards for saying someone 'knows' can shift with stakes, salience, and practical purposes.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-language",
+    "pragmatics",
+    "analytic-philosophy"
+  ],
+  "failure_modes": [
+    "Subject-attributor confusion: analysts can mistakenly treat contextualism as saying the subject's mental state changes, when the primary claim concerns the attributor's context.",
+    "Relativism drift: loose use of contextualism can collapse into the claim that anyone's knowledge claim is true by their own standards, erasing the framework's semantic discipline.",
+    "Stakes overreach: not every practical consequence raises epistemic standards; salience, conversational aims, and linguistic practice matter.",
+    "Skepticism deflation without resolution: contextualism can explain why skeptical arguments feel compelling without satisfying those who want a single invariant anti-skeptical answer.",
+    "Diagnostic circularity: practitioners may infer a standard shift merely from intuitions about cases, then use the shift to explain the same intuitions."
+  ],
+  "key_vocabulary": {
+    "Attributor context": "The conversational context of the person ascribing or denying knowledge. Contextualism makes this context central to the truth conditions of knowledge claims.",
+    "Epistemic standards": "The level of evidence, reliability, or elimination of alternatives required for a knowledge attribution to be true in a context.",
+    "High-stakes case": "A case where being wrong has serious practical consequences, often making stricter knowledge attributions seem appropriate.",
+    "Invariantism": "The rival view that 'knows' has the same truth conditions across contexts, even if assertability or practical reasoning varies.",
+    "Salient alternatives": "Possibilities of error made relevant by conversation or practical setting; their salience can raise standards for knowledge.",
+    "Semantic ascent": "The move from asking whether S knows that p to asking how the word 'knows' functions in a context.",
+    "Skeptical context": "A context in which radical error possibilities, such as dreaming or deception, are made salient and ordinary knowledge claims become harder to assert truly.",
+    "Standards shift": "The contextual change in how demanding the knowledge predicate is, often triggered by stakes, alternatives, or conversational purposes."
+  },
+  "name": "Epistemic Contextualism",
+  "operative_procedure": [
+    "Identify the knowledge attribution: state who says or denies 'S knows that p,' who the subject is, and what proposition is at issue.",
+    "Separate subject factors from attributor factors: record the subject's evidence, reliability, and belief, then separately record the speaker's conversational context.",
+    "Diagnose the operative standards: ask what error possibilities are salient, what practical stakes are present, and what conversational purposes govern the attribution.",
+    "Compare contexts: test whether the same subject with the same evidence would be evaluated differently in ordinary, high-stakes, skeptical, or expert contexts.",
+    "Distinguish truth from assertability: decide whether the contextualist claim is that the attribution is true in that context, not merely prudent, polite, or conversationally appropriate.",
+    "Handle skeptical pressure: explain whether skeptical alternatives raise standards so high that ordinary knowledge denials become true in the philosophical context while ordinary claims remain true elsewhere.",
+    "Render the semantic verdict: say which knowledge attributions are true or false relative to which contexts, and specify the standard shift responsible for the difference.",
+    "Flag invariantist alternatives: note how a subject-sensitive invariantist, pragmatic encroachment theorist, or knowledge-first theorist would redescribe the same case."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Ordinary Language Philosophy",
+      "Relevant Alternatives Theory",
+      "Conceptual Analysis"
+    ],
+    "composes_with": [
+      "Pragmatics",
+      "The Gettier Problem",
+      "Philosophy of Language"
+    ],
+    "descendants": [
+      "Subject-Sensitive Invariantism",
+      "Interest-Relative Invariantism",
+      "Epistemic Relativism"
+    ],
+    "related": [
+      "Relevant Alternatives Theory",
+      "The Gettier Problem",
+      "Pragmatism",
+      "Conceptual Analysis"
+    ],
+    "rivals": [
+      "Knowledge-First Epistemology",
+      "Evidentialism",
+      "Classical Invariantism",
+      "Pragmatic Encroachment"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Epistemic Contextualism is strongest for disputes about knowledge attributions, skeptical arguments, high-stakes cases, and the pragmatics of ordinary epistemic language. It is less useful when the task is to model the subject's internal evidence, specify a metaphysical nature of knowledge independent of language, or give decision rules for action under uncertainty.",
+  "source_summary": "Authored from model knowledge of DeRose, Cohen, Lewis, and standard SEP-style discussions of epistemic contextualism, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Keith DeRose, 'Contextualism and Knowledge Attributions' (1992)"
+    },
+    {
+      "kind": "primary",
+      "title": "Stewart Cohen, 'How to Be a Fallibilist' (1988)"
+    },
+    {
+      "kind": "primary",
+      "title": "David Lewis, 'Elusive Knowledge' (1996)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Epistemic Contextualism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/contextualism-epistemology/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "Two speakers make opposed knowledge claims about the same subject and evidence, and both claims sound appropriate in their settings.",
+    "A high-stakes or skeptical context makes an ordinary claim to know suddenly seem too strong.",
+    "A dispute turns on how the word 'knows' functions in conversation rather than on new evidence available to the subject.",
+    "You need to explain why ordinary knowledge claims survive everyday scrutiny but fail under philosophical skeptical pressure.",
+    "An analysis must distinguish the subject's epistemic position from the speaker's standards for attributing knowledge."
+  ]
+}

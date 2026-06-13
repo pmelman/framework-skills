@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Sosa treats the shot as an apt performance only if its success manifests the archer's competence rather than luck. A shot can be accurate without being adroit, and it can be accurate and adroit without being apt if wind, trickery, or luck explains the hit. Applied to belief, the relevant question is not merely whether the proposition is true or justified, but whether the believer's cognitive success is because of intellectual competence. Knowledge is apt belief: true belief whose truth is creditable to the agent's epistemic ability.",
+      "problem": "In Ernest Sosa's archer analogy, an archer hits the target. What must be true for the hit to count as an achievement rather than luck?"
+    },
+    {
+      "analysis": "Zagzebski's case preserves justified true belief while severing truth from virtue. The agent responsibly forms the belief from seemingly good evidence, but the belief is true only because of a lucky substitution of another cup. Virtue epistemology diagnoses the failure as a credit problem: the truth of the belief is not attributable to intellectual virtue. Knowledge requires a true belief arising from acts of intellectual virtue, not merely a belief that happens to be justified and true.",
+      "problem": "In Linda Zagzebski's coffee case, a person has strong evidence that there is coffee in a cup, but the original coffee has been replaced by different coffee, so the belief 'there is coffee in the cup' is true by luck."
+    }
+  ],
+  "core_claims": [
+    "The primary unit of epistemic evaluation is the agent's intellectual character or competence, not an isolated belief considered apart from the believer.",
+    "Knowledge is a form of cognitive achievement: a true belief counts as knowledge only when its truth is because of the subject's intellectual virtue or ability.",
+    "Gettier cases succeed because they create justified true beliefs whose truth is not creditable to the believer's epistemic agency.",
+    "Intellectual virtues include both reliable faculties such as perception and memory and responsibilist traits such as open-mindedness, intellectual courage, conscientiousness, and humility.",
+    "Epistemic normativity is partly aretaic: blame, praise, admirable inquiry, and intellectual vice cannot be reduced to impersonal evidential fit.",
+    "A belief may be internally well supported yet epistemically defective if it issues from intellectual vice, negligence, wishful thinking, or closed-mindedness.",
+    "The value of knowledge over mere true belief is explained by the value of cognitive success attributable to the knower, analogous to the value of an achievement over a lucky success."
+  ],
+  "description": "Virtue Epistemology evaluates knowledge, justification, and inquiry through intellectual virtues and vices: stable excellences or competences of the knower that make true belief creditable to the agent rather than merely lucky.",
+  "domains": [
+    "epistemology",
+    "ethics",
+    "philosophy-of-mind",
+    "education"
+  ],
+  "failure_modes": [
+    "Credit inflation: practitioners can over-attribute true belief to the agent's virtue while ignoring environmental luck, testimony, institutions, instruments, or social scaffolding.",
+    "Virtue-list vagueness: without a disciplined account of which traits are genuinely epistemic virtues, the framework can become a flattering inventory of favored intellectual manners.",
+    "Moralized epistemology: responsibilist versions can confuse being a good person or admirable inquirer with having knowledge in mundane perceptual and testimonial cases.",
+    "Ability masking: hostile, deceptive, or abnormal environments can make competent agents fail, so evaluating only success may understate the role of circumstances.",
+    "Elitism about knowers: emphasizing intellectual excellence can wrongly deny knowledge to children, ordinary agents, or cognitively limited agents who know through reliable but unreflective faculties."
+  ],
+  "key_vocabulary": {
+    "Apt belief": "A true belief that is true because of the believer's competence. In Sosa's terminology, aptness adds creditable success to mere accuracy and adroitness.",
+    "Epistemic credit": "The attribution of a true belief's success to the knower's ability, virtue, or agency rather than to luck or accident.",
+    "Intellectual virtue": "A stable excellence that tends toward epistemic goods such as truth, understanding, and responsible inquiry. It may be a reliable faculty, a cultivated character trait, or both.",
+    "Intellectual vice": "A stable defect such as closed-mindedness, arrogance, carelessness, gullibility, or dogmatism that obstructs responsible truth-seeking.",
+    "Reliabilist virtue epistemology": "The Sosa/Greco family of views that emphasizes cognitive abilities or competences that reliably produce true belief.",
+    "Responsibilist virtue epistemology": "The Code/Zagzebski family of views that emphasizes cultivated traits of intellectual character, motivation, and agency.",
+    "Success from ability": "The central explanatory relation in which a cognitive success is knowledge only when it manifests the relevant epistemic competence.",
+    "Virtue-theoretic value problem": "The problem of explaining why knowledge is more valuable than mere true belief; virtue epistemology answers by treating knowledge as an achievement."
+  },
+  "name": "Virtue Epistemology",
+  "operative_procedure": [
+    "Identify the epistemic performance: state the belief, inquiry, judgment, or testimony to be evaluated and the epistemic good at stake, such as truth, knowledge, understanding, or responsible inquiry.",
+    "Locate the agent's relevant intellectual virtues and vices: perception, memory, inference, open-mindedness, intellectual courage, conscientiousness, humility, dogmatism, negligence, or gullibility.",
+    "Ask whether the true belief, if true, is creditable to the agent's competence: distinguish accuracy from aptness by testing whether the truth is because of the virtue rather than luck, manipulation, or environmental accident.",
+    "Separate reliabilist and responsibilist dimensions: evaluate both the reliability of the cognitive faculty and the agent's intellectual motives, care, and character in forming or sustaining the belief.",
+    "Check for Gettier-style luck: look for false lemmas, abnormal environments, lucky substitutions, deceptive testimony, or coincidental truth that disconnect success from ability.",
+    "Assess intellectual responsibility under the agent's situation: consider what evidence, alternatives, social position, expertise, and time were available to the agent without demanding impossible reflection.",
+    "Render the aretaic verdict: classify the case as knowledge, apt belief, merely justified true belief, responsible ignorance, negligent belief, or vice-driven error, and explain which virtues or vices make the verdict hold.",
+    "Prescribe cultivation or repair: identify which intellectual habits, inquiry practices, communities, or institutional supports would increase apt belief and reduce the relevant vices."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Virtue Ethics",
+      "Reliabilism",
+      "The Gettier Problem"
+    ],
+    "composes_with": [
+      "Social Epistemology",
+      "Conceptual Analysis",
+      "Educational Philosophy"
+    ],
+    "descendants": [
+      "Virtue Responsibilism",
+      "Virtue Reliabilism",
+      "Epistemic Injustice"
+    ],
+    "related": [
+      "The Gettier Problem",
+      "Reliabilism",
+      "Responsibilism",
+      "Social Epistemology"
+    ],
+    "rivals": [
+      "Evidentialism",
+      "Knowledge-First Epistemology",
+      "Classical Foundationalism",
+      "Epistemic Contextualism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Virtue Epistemology is strongest when the question concerns epistemic agency, intellectual character, inquiry habits, education, Gettier cases, or why knowledge is more valuable than lucky true belief. It is less precise as a formal rule for updating degrees of belief, less natural for purely institutional knowledge systems, and contested between reliabilist accounts of competence and responsibilist accounts of character.",
+  "source_summary": "Authored from model knowledge of Sosa, Zagzebski, Greco, Code, and SEP-style surveys of virtue epistemology, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Ernest Sosa, Knowledge in Perspective (1991)"
+    },
+    {
+      "kind": "primary",
+      "title": "Linda Trinkaus Zagzebski, Virtues of the Mind (1996)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Greco, Achieving Knowledge (2010)"
+    },
+    {
+      "kind": "primary",
+      "title": "Lorraine Code, Epistemic Responsibility (1987)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Virtue Epistemology (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/epistemology-virtue/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A belief is true or well supported, but you need to know whether the agent deserves epistemic credit for getting it right.",
+    "An inquiry failure seems rooted in arrogance, closed-mindedness, negligence, gullibility, or lack of intellectual courage rather than lack of evidence alone.",
+    "A Gettier-style case makes justified true belief look too lucky to count as knowledge.",
+    "You are evaluating the epistemic quality of a person, community, classroom, expert practice, or testimony source rather than a single proposition in isolation.",
+    "You need recommendations about cultivating better habits of inquiry, not only rules for accepting or rejecting propositions."
+  ]
+}

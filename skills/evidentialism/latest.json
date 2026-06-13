@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Conee and Feldman use cases like this to argue for mentalism: only the evidence possessed by the subject determines doxastic justification. The two agents are internally alike, so the same evidence supports the same doxastic attitude for both, even if one is embedded in a reliable environment and the other is not. Evidentialism therefore rejects external reliability as sufficient to make one justified and the other unjustified when their evidence is identical.",
+      "problem": "In Conee and Feldman's mental duplicates case, two subjects have exactly the same experiences, memories, and seemings, but one is in a normal world and the other is deceived by an evil demon."
+    },
+    {
+      "analysis": "Clifford's shipowner lacks evidence adequate to support belief that the ship is seaworthy. His sincere confidence, comfort, and eventual luck do not justify the belief, because the available evidence fits suspension or investigation rather than belief. Evidentialism diagnoses the wrong as believing beyond what one's evidence supports; the epistemic defect exists even before any bad outcome occurs.",
+      "problem": "In W. K. Clifford's shipowner case, an owner convinces himself without adequate inspection that an emigrant ship is seaworthy, sends it to sea, and it sinks."
+    }
+  ],
+  "core_claims": [
+    "A person is justified in believing p at a time if and only if the person's evidence at that time supports believing p.",
+    "Justification supervenes on evidence: two subjects with the same evidence have the same justified doxastic attitudes, regardless of differences in reliability or environment.",
+    "The basic epistemic options are belief, disbelief, and suspension; evidence can make any one of these the fitting attitude toward a proposition.",
+    "Doxastic justification requires both propositional support and proper basing: having evidence for p is not enough if the belief is held for the wrong reason.",
+    "Epistemic justification is primarily synchronic: what a subject is now justified in believing depends on the evidence the subject now has.",
+    "Blameless, sincere, useful, or reliably produced belief can still be unjustified if it does not fit the subject's evidence.",
+    "Evidence consists in the mental states or information available to the subject, not in external facts inaccessible to the subject."
+  ],
+  "description": "Evidentialism is the Conee-Feldman view that epistemic justification is entirely determined by evidence: a belief is justified exactly when it fits the evidence possessed by the subject.",
+  "domains": [
+    "epistemology",
+    "ethics-of-belief",
+    "argumentation",
+    "analytic-philosophy"
+  ],
+  "failure_modes": [
+    "Evidence inventory bias: practitioners may quietly include only articulate reasons and ignore perceptual seemings, memories, background knowledge, or defeaters.",
+    "Static snapshot error: focusing on current evidence can underplay duties to gather more evidence, investigate, or repair negligence in how the evidence set was acquired.",
+    "Internalist isolation: the framework can make deceived subjects as justified as normal subjects, which many externalists find too detached from truth-conducive reliability.",
+    "Basing problem neglect: analysts can show that evidence supports p but fail to ask whether the agent believes p because of that evidence.",
+    "Over-intellectualization: demanding explicit evidential fit can misdescribe ordinary perceptual, testimonial, or skill-based knowledge as if every justified belief required argument."
+  ],
+  "key_vocabulary": {
+    "Basing relation": "The relation that holds when a belief is formed or sustained because of the evidence that supports it. It distinguishes merely having good evidence from believing for that evidence.",
+    "Defeater": "Evidence that weakens, cancels, or undermines the support one has for a belief. Evidential assessment must include both supporting and defeating evidence.",
+    "Disbelief": "The doxastic attitude of believing that p is false. Evidence can fit disbelief just as it can fit belief or suspension.",
+    "Doxastic attitude": "A stance toward a proposition, typically belief, disbelief, or suspension of judgment.",
+    "Evidential fit": "The relation between a body of evidence and the doxastic attitude it makes epistemically appropriate.",
+    "Mentalism": "Conee and Feldman's thesis that justificatory status is determined by the subject's mental states.",
+    "Propositional justification": "Having evidence that supports p, whether or not one actually believes p.",
+    "Suspension of judgment": "Withholding both belief and disbelief when the evidence is balanced, insufficient, or defeated."
+  },
+  "name": "Evidentialism",
+  "operative_procedure": [
+    "State the target proposition and attitude: identify whether the subject believes p, disbelieves p, or suspends judgment about p.",
+    "Inventory the subject's possessed evidence at the relevant time: include experiences, memories, seemings, testimony, arguments, background beliefs, and known defeaters.",
+    "Assess evidential fit: ask which attitude toward p is supported by that total evidence: belief, disbelief, or suspension.",
+    "Separate propositional from doxastic justification: determine first whether the evidence supports p, then whether the subject's actual belief is based on that supporting evidence.",
+    "Apply mentalist parity: if two subjects have the same evidence, assign the same justificatory status even if their external environments or reliabilities differ.",
+    "Handle defeaters explicitly: subtract, weaken, or overturn support where contrary evidence, unreliability evidence, peer disagreement, or higher-order evidence is present.",
+    "Avoid pragmatic contamination: exclude comfort, usefulness, moral benefit, social pressure, and practical stakes unless they bear evidentially on whether p is true.",
+    "Render the verdict: say whether the belief, disbelief, or suspension is justified at that time, what evidence makes it fitting, and what additional evidence would change the status."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Ethics of Belief",
+      "Internalism",
+      "Classical Foundationalism"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Argument Mapping",
+      "Critical Thinking"
+    ],
+    "descendants": [
+      "Evidentialist Internalism",
+      "Mentalism",
+      "Higher-Order Evidence Theory"
+    ],
+    "related": [
+      "Conceptual Analysis",
+      "The Gettier Problem",
+      "Bayesian Epistemology",
+      "Critical Thinking"
+    ],
+    "rivals": [
+      "Reliabilism",
+      "Virtue Epistemology",
+      "Knowledge-First Epistemology",
+      "Pragmatism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Evidentialism is strongest for assessing whether a belief fits a subject's reasons, experiences, and defeaters at a time, especially in ethics-of-belief disputes and internalist justification debates. It is less suited to explaining environmental luck, cognitive reliability, social knowledge systems, practical stakes in assertion, or the value of knowledge over justified true belief.",
+  "source_summary": "Authored from model knowledge of Conee and Feldman, Clifford, and standard internalist evidentialist literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Earl Conee and Richard Feldman, 'Evidentialism' (1985)"
+    },
+    {
+      "kind": "primary",
+      "title": "Earl Conee and Richard Feldman, Evidentialism: Essays in Epistemology (2004)"
+    },
+    {
+      "kind": "primary",
+      "title": "W. K. Clifford, 'The Ethics of Belief' (1877)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Internalist vs. Externalist Conceptions of Epistemic Justification (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/justep-intext/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "You need to decide whether a person's belief, disbelief, or suspension fits the evidence they actually possess.",
+    "Two agents differ externally, but their experiences, memories, reasons, and seeming evidence are the same.",
+    "A belief is sincere, useful, popular, or reliably caused, but its evidential support is disputed.",
+    "A disagreement turns on defeaters, higher-order evidence, or whether the subject ignored available counterevidence.",
+    "You need an internalist assessment of justification rather than a verdict based on truth, knowledge, virtue, or practical success."
+  ]
+}

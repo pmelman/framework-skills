@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:37+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Descartes treats the dream and demon doubts as challenges to ordinary inferential beliefs, sensory beliefs, and mathematical beliefs. The cogito survives because the very act of doubting confirms the existence of the doubter as a thinking thing. In foundationalist terms, 'I think, I exist' functions as a basic belief: it is not justified by another premise but by its self-presenting or indubitable character. Other beliefs can be rebuilt only if they are connected to such secure foundations by acceptable inference.",
+      "problem": "In Descartes's Meditations, radical doubt undermines sensory and mathematical beliefs until the meditator reaches the cogito: 'I think, therefore I am.'"
+    },
+    {
+      "analysis": "Chisholm's example distinguishes direct acquaintance with an appeared-to state from a risky claim about an external object. The belief 'I am appeared to redly' is a candidate for basic justification because its warrant does not depend on inferring that a red object is present; the experience itself presents the state. The external-world belief 'there is a red thing before me' is nonbasic and must be justified by principles connecting appeared-to states with likely facts about the world.",
+      "problem": "Roderick Chisholm's epistemology uses self-presenting states such as being appeared to redly as candidates for immediately justified beliefs."
+    }
+  ],
+  "core_claims": [
+    "The regress of justification must terminate in basic beliefs that are justified without deriving their justification from further beliefs.",
+    "Nonbasic beliefs are justified only when they are properly inferred from, or otherwise supported by, basic beliefs.",
+    "A belief can be epistemically basic because of self-evidence, incorrigibility, direct acquaintance, perception, memory, or another non-inferential source of warrant.",
+    "A structure of justification is asymmetric: foundations support superstructure beliefs, but the superstructure does not confer the original warrant on the foundations.",
+    "Skeptical pressure is answered by identifying which beliefs retain warrant without needing antecedent proof.",
+    "Strong foundationalism demands infallible or indubitable foundations; modest foundationalism allows fallible but prima facie justified basic beliefs.",
+    "Circular mutual support cannot by itself create original justification; it must ultimately depend on some non-inferential warrant."
+  ],
+  "description": "Foundationalism is an epistemological theory that answers the regress of justification by distinguishing basic beliefs, which possess non-inferential warrant, from nonbasic beliefs, whose justification depends on proper support from those foundations. It models knowledge as an epistemic structure with a grounded base and an inferential superstructure.",
+  "domains": [
+    "epistemology",
+    "philosophy",
+    "theory-of-justification",
+    "skepticism"
+  ],
+  "failure_modes": [
+    "Myth of the Given: treating raw experience as already propositionally structured and justificatory can hide the conceptual work required to make experience into a reason.",
+    "Too narrow foundations: demanding certainty or incorrigibility may leave too few beliefs to support ordinary knowledge.",
+    "Too permissive foundations: allowing many beliefs to be basic can make the view collapse into dogmatism or an unearned stopping rule.",
+    "Inferential gap: even if basic beliefs are secure, the move from experience to external-world claims may require principles that are themselves hard to justify.",
+    "Practitioner stopping too early: foundationalists can mislabel a culturally familiar assumption as basic when it is actually inferred, inherited, or defeasible."
+  ],
+  "key_vocabulary": {
+    "Basic belief": "A belief justified without depending for its justification on another belief. Different foundationalists disagree about whether basic beliefs must be infallible.",
+    "Direct acquaintance": "Immediate awareness of an experience, property, or mental state. It is often invoked to explain non-inferential warrant.",
+    "Epistemic regress": "The problem that a justified belief seems to require a further justifying belief, producing infinite regress, circularity, or arbitrary stopping unless some beliefs are basic.",
+    "Incorrigibility": "A status sometimes attributed to beliefs about one's own current conscious states, such that the believer cannot be mistaken about them.",
+    "Modest foundationalism": "A version allowing fallible, defeasible basic beliefs, especially perceptual and memory beliefs, to provide prima facie warrant.",
+    "Nonbasic belief": "A belief whose justification depends on inferential or evidential support from other justified beliefs.",
+    "Prima facie justification": "Initial warrant that holds unless defeated by counterevidence. Modest foundationalists often use it to explain ordinary perceptual knowledge.",
+    "Self-evidence": "A property of propositions whose truth is supposedly grasped directly once they are understood."
+  },
+  "name": "Foundationalism",
+  "operative_procedure": [
+    "State the target belief. Clarify whether it is perceptual, introspective, mathematical, memorial, testimonial, or theoretical.",
+    "Ask whether the target is basic or nonbasic. Determine whether its alleged warrant is immediate or depends on other beliefs.",
+    "If basic, identify the source of non-inferential warrant. Specify whether it is self-evidence, incorrigibility, direct acquaintance, perception, memory, or another foundational source.",
+    "Test for defeaters. Check whether the alleged basic belief is undermined by illusion, disagreement, incoherence, unreliable conditions, or higher-order doubt.",
+    "If nonbasic, trace the inferential chain. Identify the supporting beliefs and the rule, evidence relation, or bridge principle that transmits justification.",
+    "Continue the regress audit. Follow each supporting belief until it reaches acceptable foundations or exposes circularity, infinite regress, or arbitrary stopping.",
+    "Evaluate the strength of the foundation. Classify the analysis as strong foundationalist if it requires certainty, or modest foundationalist if it allows defeasible prima facie warrant.",
+    "Synthesize the justificatory structure. Report which beliefs serve as foundations, which are superstructure, how warrant is transmitted, and where the structure is vulnerable."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Cartesian Rationalism",
+      "Classical Empiricism",
+      "Aristotelian Demonstration",
+      "Sense-Datum Theory"
+    ],
+    "composes_with": [
+      "Classical Logic",
+      "Conceptual Analysis",
+      "Bayesian Epistemology",
+      "Causal Inference"
+    ],
+    "descendants": [
+      "Modest Foundationalism",
+      "Phenomenal Conservatism",
+      "Classical Internalism"
+    ],
+    "related": [
+      "The Gettier Problem",
+      "Cartesian Skepticism",
+      "Classical Logic",
+      "Conceptual Analysis"
+    ],
+    "rivals": [
+      "Coherentism",
+      "Reliabilism",
+      "Infinitism",
+      "Pragmatism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Foundationalism is strongest when a problem concerns the structure of justification, skeptical regress, immediate experience, or the difference between inferential and non-inferential warrant. It is less helpful for social knowledge, theory choice across large belief systems, or cases where external reliability matters more than accessible reasons. Its persuasiveness depends on giving a credible account of basic beliefs without making them either too scarce or too cheap.",
+  "source_summary": "Authored from model knowledge of Descartes, Chisholm, Audi, BonJour, Sellars, and standard foundationalism literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Rene Descartes, Meditations on First Philosophy (1641)"
+    },
+    {
+      "kind": "primary",
+      "title": "Roderick Chisholm, Theory of Knowledge (1966)"
+    },
+    {
+      "kind": "primary",
+      "title": "Wilfrid Sellars, Empiricism and the Philosophy of Mind (1956)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Foundationalist Theories of Epistemic Justification (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/justep-foundational/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Foundationalism (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Foundationalism"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a justification chain keeps asking for a further reason and needs a non-arbitrary stopping point",
+    "you must distinguish beliefs supported by inference from beliefs warranted immediately by experience or reflection",
+    "skeptical doubt challenges whether ordinary beliefs have any ultimate ground",
+    "the problem turns on whether perception, memory, introspection, or self-evidence can justify without further argument",
+    "an argument depends on hidden premises and you need to trace what ultimately supports them"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:36Z",
+  "canonical_examples": [
+    {
+      "analysis": "Quine replaces the Cartesian project of justifying science from a prior foundation with an empirical study of how sensory stimulation leads to scientific theory. The operative question becomes psychological and linguistic: how do humans, as natural organisms, move from meager sensory input to a rich theory of the external world? The old normative demand for first philosophy is abandoned; epistemology becomes a chapter of empirical psychology inside the very science it studies.",
+      "problem": "In Quine's 'Epistemology Naturalized,' the traditional epistemologist asks how our theory of the world can be justified from sensory evidence."
+    },
+    {
+      "analysis": "Quine's holism treats logic, mathematics, and empirical claims as parts of one web of belief facing experience collectively. Because recalcitrant experience can be accommodated by revising different parts of the web, even logical laws are in principle revisable, though central commitments are protected by conservatism and practical cost. Naturalized epistemology analyzes such revision as scientific theory adjustment under empirical pressure, not as deduction from incorrigible foundations.",
+      "problem": "In 'Two Dogmas of Empiricism,' Quine argues that no statement is immune to revision, including statements of logic, if revision best preserves the overall scientific system."
+    }
+  ],
+  "core_claims": [
+    "Epistemology should be continuous with empirical science rather than an autonomous first philosophy that validates science from outside.",
+    "The central epistemological problem is how sensory stimulation produces theory, prediction, and belief in actual human organisms.",
+    "There is no sharp analytic-synthetic boundary capable of isolating truths by meaning alone from truths answerable to experience.",
+    "Confirmation is holistic: experience tests whole networks of belief, not individual hypotheses one by one in isolation.",
+    "Normative epistemology cannot rely on a foundation of indubitable givens; it must use the best available empirical psychology, linguistics, and science of cognition.",
+    "Circularity in using science to study knowledge is not vicious, because the demand for an external validation of science is a failed remnant of Cartesian foundationalism.",
+    "Meaning and evidence are publicly anchored in stimulus, behavior, translation, and scientific practice rather than private mental objects."
+  ],
+  "description": "Naturalized Epistemology, in Quine's programmatic sense, reconceives epistemology as part of empirical psychology: the scientific study of how sensory input and cognitive mechanisms generate theories of the world, without appeal to an external first philosophy.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-science",
+    "cognitive-science",
+    "analytic-philosophy"
+  ],
+  "failure_modes": [
+    "Normativity loss: the framework can slide from explaining how people form beliefs to evading the question of how they ought to form beliefs.",
+    "Scientism: practitioners can treat current science as epistemically self-certifying and overlook philosophical critique of scientific categories, methods, and institutions.",
+    "Descriptive conservatism: studying actual cognition may legitimize existing belief-forming habits even when they are biased, unjust, or unreliable.",
+    "Overcorrection against foundations: rejecting Cartesian certainty can lead to dismissing all a priori, conceptual, or normative work as useless.",
+    "Behaviorist residue: Quine's own emphasis on stimulation and observable behavior can underdescribe internal cognitive architecture and social epistemic structures."
+  ],
+  "key_vocabulary": {
+    "Analytic-synthetic distinction": "The alleged boundary between truths grounded in meaning alone and truths grounded in fact. Quine argues that this boundary cannot bear the epistemological weight placed on it.",
+    "First philosophy": "A standpoint outside empirical science from which science is supposed to be justified. Naturalized epistemology rejects this aspiration.",
+    "Holism": "The view that statements face the tribunal of experience as a corporate body. Revision can occur at many points in the web of belief.",
+    "Indeterminacy of translation": "Quine's thesis that behavioral evidence can underdetermine a unique correct translation manual between languages.",
+    "Normative naturalism": "The attempt to preserve epistemic evaluation while grounding it in empirical facts about cognition, reliability, and successful inquiry.",
+    "Observation sentence": "A sentence closely tied to sensory stimulation and intersubjective assent, used by Quine to connect language with empirical input.",
+    "Sensory stimulation": "The proximal input to the organism from which scientific theory is somehow generated; Quine uses it to frame the naturalized epistemological problem.",
+    "Web of belief": "The interconnected system of scientific, logical, mathematical, and ordinary claims that is adjusted in response to experience."
+  },
+  "name": "Naturalized Epistemology",
+  "operative_procedure": [
+    "Reject the demand for external validation: do not try to justify science from a standpoint prior to science; treat the knower as a natural organism within the world.",
+    "State the input-output problem: identify the relevant sensory input, linguistic behavior, cognitive mechanisms, and resulting beliefs or theories.",
+    "Locate the belief within the web: map which background theories, meanings, logical commitments, and practical interests support the target claim.",
+    "Apply confirmation holism: ask how recalcitrant experience bears on the whole network and which revisions would restore predictive and explanatory success.",
+    "Use empirical resources: bring in psychology, cognitive science, linguistics, neuroscience, and social science where they explain actual belief formation.",
+    "Translate normative questions into naturalistic terms: evaluate methods by reliability, prediction, adaptation, error correction, and integration with successful science.",
+    "Check for underdetermination: identify cases where available evidence permits multiple theories, translations, or revisions, and note what pragmatic virtues guide choice.",
+    "Synthesize without first philosophy: give an account of how the belief-forming process works, how it can be improved, and what empirical findings would change the account."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Pragmatism",
+      "Logical Empiricism",
+      "Behaviorism"
+    ],
+    "composes_with": [
+      "Cognitive Science",
+      "Bayesian Epistemology",
+      "Reliabilism"
+    ],
+    "descendants": [
+      "Experimental Philosophy",
+      "Evolutionary Epistemology",
+      "Cognitive Science of Reasoning"
+    ],
+    "related": [
+      "Pragmatism",
+      "Philosophy of Science",
+      "Reliabilism",
+      "Bayesian Epistemology"
+    ],
+    "rivals": [
+      "Conceptual Analysis",
+      "Classical Foundationalism",
+      "Evidentialism",
+      "Knowledge-First Epistemology"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Naturalized Epistemology is strongest for questions about actual belief formation, science as a human practice, underdetermination, cognitive mechanisms, and the continuity of philosophy with empirical inquiry. It is weakest when the task requires a purely normative criterion of justification, armchair conceptual analysis, or an account of epistemic obligation independent of empirical psychology.",
+  "source_summary": "Authored from model knowledge of Quine, post-Quinean naturalism, and standard SEP-style discussions of naturalized epistemology, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "W. V. O. Quine, 'Epistemology Naturalized' (1969)"
+    },
+    {
+      "kind": "primary",
+      "title": "W. V. O. Quine, 'Two Dogmas of Empiricism' (1951)"
+    },
+    {
+      "kind": "primary",
+      "title": "W. V. O. Quine, Word and Object (1960)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Naturalism in Epistemology (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/epistemology-naturalized/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A problem asks how real human beings form, revise, or sustain beliefs through perception, language, and cognition.",
+    "A proposed justification depends on a supposedly science-independent foundation for science itself.",
+    "You need to analyze theory choice when evidence underdetermines multiple compatible belief systems.",
+    "A debate turns on whether conceptual analysis or empirical psychology should control epistemological explanation.",
+    "You are evaluating an epistemic practice by its actual reliability, predictive success, or cognitive mechanisms rather than by a priori conditions alone."
+  ]
+}
