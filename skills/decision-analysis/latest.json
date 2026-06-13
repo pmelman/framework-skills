@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:55Z",
+  "canonical_examples": [
+    {
+      "analysis": "A decision tree separates the wildcatter's controllable choices from uncertain states of nature. The analyst assigns prior probabilities to dry, wet, and soaking outcomes, attaches payoffs net of drilling and testing costs, and folds the tree back by expected monetary value. The seismic test is evaluated by comparing the expected value with and without sample information; if the expected value of sample information exceeds the test cost, the rational recommendation is to test before drilling, otherwise decide directly. Sensitivity analysis then asks which probability or payoff estimates would reverse the recommendation.",
+      "problem": "Howard Raiffa's decision-analysis tradition uses the oil wildcatter problem: decide whether to drill for oil, optionally after buying a seismic test."
+    },
+    {
+      "analysis": "The decision is represented as alternatives, uncertain weather states, and consequences measured in the decision maker's utility rather than raw money alone. If the umbrella's inconvenience is small relative to the disutility of getting soaked, the expected utility of carrying it can dominate even when rain is less likely than no rain. The value of a forecast is the expected improvement from conditioning the carry/no-carry choice on the forecast, minus the cost or delay of obtaining it.",
+      "problem": "Introductory decision-analysis texts commonly use the umbrella decision: decide whether to carry an umbrella under uncertain rain."
+    }
+  ],
+  "core_claims": [
+    "A good decision is judged by the quality of the choice given information available at the time, not by whether uncertainty later resolves favorably.",
+    "Decision problems should be decomposed into alternatives, uncertain events, consequences, preferences, and information options before recommending action.",
+    "Uncertainty belongs in explicit probabilities and consequences belong in explicit values or utilities, making hidden judgment calls inspectable.",
+    "The value of information is the expected improvement in decision quality from learning before acting; information has no value if it would not change the chosen action.",
+    "Decision trees and influence diagrams can be solved by rollback: chance nodes are averaged, decision nodes take the best available branch, and downstream values propagate backward.",
+    "Sensitivity analysis is not optional because recommendations often hinge on a small number of probabilities, utilities, or costs."
+  ],
+  "description": "Decision Analysis structures consequential choices under uncertainty using decision trees, probabilities, utilities, value of information, and sensitivity analysis to identify the action with the best expected value for a stated decision maker.",
+  "domains": [
+    "decision-theory",
+    "management",
+    "risk-analysis",
+    "operations-research"
+  ],
+  "failure_modes": [
+    "False objectivity: precise trees and expected values can hide weak probability estimates, contested utilities, or political choices about whose preferences count.",
+    "Outcome bias in review: practitioners may abandon good processes after unlucky outcomes or praise bad processes after lucky ones, undermining decision quality learning.",
+    "Utility misspecification: monetizing everything can erase risk attitude, irreversible loss, distributional concerns, and non-compensatory values.",
+    "Overgrown trees: modeling every contingency can create a brittle decision tree whose complexity exceeds the quality of available estimates.",
+    "Ignoring implementation: the formally optimal alternative may fail if organizational constraints, incentives, or timing prevent execution."
+  ],
+  "key_vocabulary": {
+    "Decision tree": "A graphical model that alternates decision nodes, chance nodes, and terminal consequences. It supports rollback analysis from outcomes to present choice.",
+    "Expected monetary value": "The probability-weighted average of monetary consequences. It is appropriate only when money is the right value scale and risk attitude is approximately neutral.",
+    "Expected utility": "The probability-weighted average of utility-valued consequences. It incorporates risk attitudes and non-linear preferences over outcomes.",
+    "Sensitivity analysis": "Systematic variation of uncertain inputs to see whether the recommended action changes. It identifies the estimates that deserve scrutiny.",
+    "State of nature": "An uncertain condition not controlled by the decision maker, such as market demand, weather, or resource presence.",
+    "Value of information": "The expected gain from resolving or reducing uncertainty before committing to an action. Perfect information and sample information set upper and practical bounds.",
+    "Rollback": "The method of solving a decision tree backward from terminal consequences: average at chance nodes and choose the best branch at decision nodes."
+  },
+  "name": "Decision Analysis",
+  "operative_procedure": [
+    "Frame the decision from a named decision maker's perspective, including the actual choice deadline and the alternatives that are still available.",
+    "Structure the model into decision nodes, chance nodes, information options, and terminal consequences; use a decision tree or influence diagram.",
+    "Assign probabilities to states of nature and conditional probabilities to any tests, forecasts, or signals that may be observed before acting.",
+    "Define the value scale: use money only when acceptable, otherwise elicit utilities that reflect risk attitude, time, irreversibility, and non-monetary consequences.",
+    "Calculate expected value or expected utility by rollback, averaging chance nodes and selecting the best branch at decision nodes.",
+    "Compute the value of perfect and sample information; buy information only when expected improvement exceeds its cost and can change the decision.",
+    "Run one-way and multi-way sensitivity analysis on pivotal probabilities, payoffs, utilities, and costs; identify thresholds where the recommendation changes.",
+    "Recommend the alternative, state the assumptions on which it depends, and distinguish decision quality from eventual outcome quality."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Decision Theory",
+      "Expected Utility Theory",
+      "Bayesian Epistemology",
+      "Operations Research"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Expected-Value Reasoning",
+      "Fermi Estimation",
+      "Pre-mortem"
+    ],
+    "descendants": [
+      "Decision Quality",
+      "Influence Diagrams",
+      "Real Options Analysis",
+      "Multi-Criteria Decision Analysis"
+    ],
+    "related": [
+      "Decision Theory",
+      "Expected Utility Theory",
+      "Minimax Regret",
+      "Robust Decision Making"
+    ],
+    "rivals": [
+      "Satisficing",
+      "Minimax Regret",
+      "Robust Decision Making",
+      "Prospect Theory",
+      "OODA Loop"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Decision Analysis is strongest for consequential choices where alternatives, uncertainties, consequences, and preferences can be made explicit enough to compare. It is limited by elicitation quality, model scope, contested values, and situations where strategic interaction, deep uncertainty, or rapid adaptation matter more than a single optimized choice.",
+  "source_summary": "This skill was authored from model knowledge of Raiffa, Schlaifer, Howard, Keeney, and decision-analysis literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Howard Raiffa, Decision Analysis: Introductory Lectures on Choices Under Uncertainty (1968)"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert Schlaifer, Analysis of Decisions under Uncertainty (1969)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Ralph L. Keeney, Value-Focused Thinking (1992)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Ronald A. Howard and Ali E. Abbas, Foundations of Decision Analysis (2015)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Decision analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Decision_analysis"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you face a consequential choice under uncertainty and can enumerate real alternatives before a decision deadline",
+    "the team is mixing facts, probabilities, preferences, and risk attitudes in an unstructured debate",
+    "you need to know whether buying a study, test, forecast, or pilot would be worth its cost before committing",
+    "a recommendation depends on uncertain probabilities or payoffs and needs explicit sensitivity thresholds",
+    "the decision should be evaluated by process quality rather than hindsight about a lucky or unlucky outcome"
+  ]
+}

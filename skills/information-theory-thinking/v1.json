@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:55Z",
+  "canonical_examples": [
+    {
+      "analysis": "Shannon treats printed English as a stochastic source rather than as meanings. If letters were equiprobable and independent, each letter would carry log2(27) bits including space; because English has uneven letter frequencies and strong sequential constraints, its actual entropy per symbol is much lower. The redundancy is not a defect: it is what lets readers reconstruct a smudged word or a noisy telegraph message. The framework therefore asks how many bits the source really emits, how much surprise remains after context, and how much redundancy can be removed or used for error correction.",
+      "problem": "Shannon's 1948 analysis estimates the entropy and redundancy of printed English by asking how predictable the next character is from prior characters."
+    },
+    {
+      "analysis": "The channel has a fixed capacity determined by bandwidth and noise, not by the sender's intentions. If the source coding plus error-control coding keeps the information rate below capacity, arbitrarily reliable communication is possible in principle; if the rate exceeds capacity, no clever code can force reliable transmission. The engineering recommendation is to measure the channel's noise and capacity, compress away source redundancy where useful, then add structured redundancy for error correction until the bit rate fits below the channel limit.",
+      "problem": "Shannon's noisy-channel coding theorem asks whether messages can be transmitted reliably over a noisy telecommunication channel."
+    }
+  ],
+  "core_claims": [
+    "Information is measured by reduction in uncertainty: an event with probability p carries -log2(p) bits, so rarer outcomes are more informative than expected ones.",
+    "The entropy of a source is the expected surprise of its messages and sets the theoretical lower bound for lossless compression.",
+    "Redundancy increases message length relative to entropy, but the same redundancy can make messages robust against noise and partial corruption.",
+    "A communication channel has a finite capacity, determined by its signal and noise properties; reliable transmission is possible only when the information rate is below that capacity.",
+    "The semantic importance of a message is orthogonal to its Shannon information; a meaningless random string can have high entropy while an important expected warning can have low surprise.",
+    "Evidence can be represented as bits of discrimination among hypotheses: observations that sharply shrink the live hypothesis space carry more information than observations compatible with many alternatives."
+  ],
+  "description": "Information Theory Thinking applies Shannon's concepts of entropy, surprise, redundancy, noise, and channel capacity to problems where uncertainty must be measured, compressed, transmitted, or converted into evidence.",
+  "domains": [
+    "information-theory",
+    "communication",
+    "statistics",
+    "systems"
+  ],
+  "failure_modes": [
+    "Semantic blindness: Shannon information deliberately ignores meaning, value, and truth, so high-bit messages can be useless or false while low-bit messages can be decisive.",
+    "Independence assumptions: treating symbols, observations, or signals as independent can overstate entropy and understate how much context already predicts the message.",
+    "Capacity fetishism: maximizing throughput can degrade interpretation, trust, or action if the receiver's cognitive channel is the bottleneck rather than the wire.",
+    "False precision in bits: assigning probabilities to poorly understood events can make an analysis look quantitative while merely hiding judgment calls in the distribution.",
+    "Confusing compression with explanation: a compact code or model may predict well without identifying causal structure."
+  ],
+  "key_vocabulary": {
+    "Bit": "A unit of information equal to the uncertainty removed by distinguishing between two equally likely alternatives. In Shannon's framework it is a logarithmic measure, not a small physical object.",
+    "Channel capacity": "The maximum rate at which information can be transmitted through a channel with arbitrarily low error under given noise conditions. Rates above capacity cannot be made reliable by coding alone.",
+    "Entropy": "The expected surprise of a source's outputs. It quantifies uncertainty before observation and the average number of bits needed to encode messages from that source.",
+    "Mutual information": "The amount by which observing one variable reduces uncertainty about another. It is useful for asking whether a signal actually carries evidence about a target.",
+    "Noise": "Random or uncontrolled variation introduced between sender and receiver. Noise consumes channel capacity and motivates error-correcting redundancy.",
+    "Redundancy": "Structure or repetition beyond the source entropy. It can be compressed away for efficiency or deliberately added to detect and correct errors.",
+    "Source coding": "The compression problem: representing messages from a source with as few bits as possible while preserving the required information.",
+    "Surprise": "The information content of a specific outcome, calculated as -log2(p). An outcome expected with high probability carries little surprise; an unlikely outcome carries many bits."
+  },
+  "name": "Information Theory Thinking",
+  "operative_procedure": [
+    "Define the source, message alphabet, receiver, and decision or reconstruction task; do not start with meanings until the signal path is explicit.",
+    "List the possible messages or states and assign probabilities from data, elicitation, or a stated model.",
+    "Compute surprise for salient observations using -log2(p), then compute source entropy as expected surprise across the distribution.",
+    "Separate redundancy from entropy: identify predictable structure that can be compressed away and redundancy that should be preserved or added for error detection.",
+    "Map the channel: identify bandwidth, noise, loss, delay, and the receiver's decoding limits; estimate whether the message rate is below channel capacity.",
+    "Measure evidential value with discrimination: ask how much the observation reduces the hypothesis space or mutual uncertainty between signal and state.",
+    "Design the code or communication protocol: compress source redundancy where efficiency matters, add error-correcting redundancy where reliability matters, and keep the rate under capacity.",
+    "Report the semantic remainder explicitly: state what the bit analysis does and does not say about truth, importance, incentives, or action."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Probability Theory",
+      "Statistical Mechanics",
+      "Telecommunication Engineering"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Minimum Description Length",
+      "Signal Detection Theory",
+      "Cybernetics"
+    ],
+    "descendants": [
+      "Algorithmic Information Theory",
+      "Coding Theory",
+      "Rate-Distortion Theory",
+      "Information Bottleneck"
+    ],
+    "related": [
+      "Cybernetics",
+      "Control Theory Thinking",
+      "Minimum Description Length",
+      "The Map-Territory Distinction"
+    ],
+    "rivals": [
+      "Hermeneutics",
+      "Speech Act Theory",
+      "Pragmatism",
+      "Causal Inference"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Information Theory Thinking is strongest when a problem involves uncertainty, coding, compression, noisy transmission, measurement value, or evidence as discrimination among alternatives. It is limited when meaning, social context, causation, practical value, or normative stakes matter more than uncertainty reduction. It should usually be paired with semantic, causal, or decision frameworks before making recommendations.",
+  "source_summary": "This skill was authored from model knowledge of Shannon, Weaver, Cover and Thomas, and related information theory sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Claude E. Shannon, 'A Mathematical Theory of Communication' (1948)"
+    },
+    {
+      "kind": "primary",
+      "title": "Claude E. Shannon and Warren Weaver, The Mathematical Theory of Communication (1949)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Thomas M. Cover and Joy A. Thomas, Elements of Information Theory (1991)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Information theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Information_theory"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need to quantify how much an observation should reduce uncertainty among possible states or hypotheses",
+    "a communication, sensing, or reporting system is losing accuracy because messages pass through noise, bottlenecks, or limited attention",
+    "a dataset, code, or model appears bloated and you need to distinguish compressible redundancy from irreducible uncertainty",
+    "you must decide whether additional measurements, labels, or signals would add real evidence rather than repeat what is already known",
+    "a system's throughput, error rate, or reliability depends on matching message rate to channel capacity"
+  ]
+}

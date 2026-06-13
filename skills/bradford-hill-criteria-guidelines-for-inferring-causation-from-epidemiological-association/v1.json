@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "Hill's address treats cigarette smoking and lung cancer as the motivating case for moving from observed association to causal judgment. The association was strong: heavy smokers had far higher lung-cancer mortality than non-smokers. It was consistent across retrospective and prospective studies, showed a biological gradient with amount smoked, had a plausible mechanism through smoke constituents, cohered with rising lung-cancer incidence and animal/pathological evidence, and temporality was satisfied because smoking preceded disease. Specificity was imperfect because smoking causes several diseases and lung cancer has other causes, but Hill explicitly warned that none of the viewpoints is decisive alone. The convergence of strength, consistency, temporality, gradient, plausibility, coherence, and experimental reduction after cessation made a causal interpretation more reasonable than confounding or bias.",
+      "problem": "Doll, Hill, and later epidemiologists observed that cigarette smokers had much higher lung-cancer rates than non-smokers. Should the association be treated as causal?"
+    },
+    {
+      "analysis": "Snow's cholera investigation is a classic pre-Hill case that the Hill viewpoints can retrospectively organize. Temporality was clear because exposure to contaminated water preceded illness. Strength appeared in the much higher mortality among households supplied by the Southwark and Vauxhall Company compared with Lambeth. Consistency appeared across local outbreaks and comparisons. Plausibility and coherence came from the waterborne theory of cholera and the geographic clustering around contaminated pumps, even before the microbe was identified. The natural experiment created by different water companies supplied an experimental-analog contrast. The criteria do not prove causation deductively, but they show why contaminated water became the better causal interpretation than miasma.",
+      "problem": "John Snow found that cholera deaths in London clustered among people using particular water supplies, especially around the Broad Street pump and in districts served by polluted water companies."
+    }
+  ],
+  "core_claims": [
+    "An epidemiological association should not be promoted to causation by statistical significance alone; causal judgment requires a structured comparison of alternative explanations such as bias, confounding, reverse causation, and chance.",
+    "Temporality is the only indispensable Hill consideration: a putative cause that does not precede the outcome cannot be the cause of that outcome.",
+    "Strength of association matters because very large relative risks are harder, though not impossible, to explain entirely by uncontrolled confounding or measurement error.",
+    "Consistency across populations, places, investigators, and study designs increases causal credibility because it makes a single local artifact less likely.",
+    "A dose-response relationship counts for causation when exposure ordering is credible, but its absence does not refute causation if thresholds, saturation, or exposure misclassification are plausible.",
+    "Biological plausibility and coherence are evidential supports, not vetoes; lack of a known mechanism often reflects limits of current science rather than absence of causation.",
+    "The Hill considerations are viewpoints for disciplined judgment, not a checklist whose satisfied item count mechanically decides causality."
+  ],
+  "description": "Bradford Hill Criteria are a set of epidemiological viewpoints for judging when an observed association is likely to reflect causation, emphasizing temporality, strength, consistency, dose-response, plausibility, coherence, experimental evidence, analogy, and specificity while resisting mechanical checklist use.",
+  "domains": [
+    "epidemiology",
+    "causal-reasoning",
+    "public-health",
+    "evidence-evaluation"
+  ],
+  "failure_modes": [
+    "Checklist literalism: counting satisfied criteria as if Hill supplied a scoring rule can produce spurious certainty and ignores his warning that no criterion except temporality is necessary or sufficient.",
+    "Mechanism conservatism: treating lack of biological plausibility as disconfirming can block recognition of real causes before mechanisms are discovered.",
+    "Specificity overreach: demanding one cause for one disease misleads in chronic disease epidemiology, where exposures often have multiple effects and outcomes usually have multiple causes.",
+    "Confounding under-analysis: strong-looking Hill alignment can still be produced by socioeconomic, occupational, behavioral, or measurement confounding if alternative explanations are not explicitly examined.",
+    "Publication-pattern illusion: apparent consistency can reflect selective publication, shared data sources, or common biases rather than independent replication."
+  ],
+  "key_vocabulary": {
+    "Analogy": "Reasoning from a known causal relationship to a similar exposure-outcome relationship. It is a weak but sometimes useful support when direct mechanism evidence is incomplete.",
+    "Biological gradient": "A dose-response pattern in which greater exposure is associated with greater risk or severity. It supports causation when exposure measurement and temporality are credible.",
+    "Coherence": "Fit between the proposed causal claim and what is already known from natural history, biology, laboratory evidence, and population trends.",
+    "Consistency": "Replication of the association across different studies, populations, circumstances, and methods. Consistency reduces the probability that one study-specific artifact explains the association.",
+    "Experiment": "Evidence from deliberate intervention, natural experiment, cessation, or exposure reduction that changes outcome frequency in the predicted direction.",
+    "Plausibility": "The availability of a credible biological or social mechanism connecting exposure to outcome. Hill treats plausibility as useful but limited by current knowledge.",
+    "Specificity": "A narrow link between a particular exposure and a particular disease. It is strongest for infectious or occupational cases and weakest for multifactorial chronic disease.",
+    "Strength": "The magnitude of association, commonly expressed as a relative risk or odds ratio. Stronger associations are less easily explained by modest confounding.",
+    "Temporality": "The requirement that exposure occur before disease onset. It is the necessary causal ordering condition among Hill's viewpoints."
+  },
+  "name": "Bradford Hill Criteria | guidelines for inferring causation from epidemiological association",
+  "operative_procedure": [
+    "State the exposure, outcome, population, and observed measure of association; separate the association itself from the causal interpretation under consideration.",
+    "Establish temporality first: determine whether exposure preceded onset, whether latency is biologically credible, and whether reverse causation remains possible.",
+    "Evaluate strength and precision of association using relative and absolute measures, confidence intervals, and sensitivity to plausible unmeasured confounding.",
+    "Assess consistency across independent studies, populations, settings, measurement strategies, and designs; distinguish genuine replication from repeated use of the same biased evidence stream.",
+    "Look for biological gradient, including monotonic dose-response, threshold effects, saturation, exposure duration, and risk reduction after exposure cessation.",
+    "Test plausibility, coherence, and analogy against mechanistic, toxicological, clinical, historical, and population-trend evidence without making current mechanistic ignorance decisive.",
+    "Search for experimental or quasi-experimental support: randomized prevention trials, natural experiments, policy changes, removal of exposure, or dechallenge-rechallenge patterns.",
+    "Synthesize a causal judgment by comparing the Hill pattern against rival explanations: chance, bias, confounding, selection, measurement error, and reverse causation; report which viewpoints carry the most weight and which remain weak."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Epidemiological Reasoning",
+      "Inductive Inference",
+      "Mill's Methods"
+    ],
+    "composes_with": [
+      "Causal Inference",
+      "Counterfactual Reasoning",
+      "Bayesian Epistemology",
+      "Inference to the Best Explanation"
+    ],
+    "descendants": [
+      "Evidence-Based Medicine",
+      "Causal Guidelines in Epidemiology",
+      "Weight of Evidence Analysis"
+    ],
+    "related": [
+      "Causal Inference",
+      "Falsificationism",
+      "Inference to the Best Explanation",
+      "Controlled Experimentation | randomization, blinding, controls as inference engine (RCT thinking)"
+    ],
+    "rivals": [
+      "Randomized Controlled Trial Hierarchy",
+      "Humean Empiricism",
+      "Falsificationism",
+      "Pure Statistical Associationism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Bradford Hill Criteria are strongest for public-health and epidemiological problems where randomized exposure is impossible, unethical, or unavailable and decision-makers must judge whether an observed association is causal enough to justify action. They are weaker for single-case causation, mechanistic laboratory inference, and formally identifiable causal effects where structural models or randomized trials can estimate interventions more directly. The framework supports disciplined causal judgment, not proof.",
+  "source_summary": "Authored from model knowledge of Austin Bradford Hill's 'The Environment and Disease: Association or Causation?', Doll and Hill's smoking studies, John Snow's cholera investigations, and modern epidemiological discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Austin Bradford Hill, 'The Environment and Disease: Association or Causation?' (1965)"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard Doll and A. Bradford Hill, 'Smoking and Carcinoma of the Lung' (1950)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Snow, On the Mode of Communication of Cholera (1855)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Bradford Hill criteria (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bradford_Hill_criteria"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "You observe an exposure-outcome association in population data and need to decide whether it is likely causal enough to guide action.",
+    "Randomized exposure would be unethical, infeasible, or historically unavailable, but public-health stakes require causal judgment.",
+    "A statistically significant epidemiological result could still be explained by confounding, bias, reverse causation, or chance.",
+    "Several observational studies disagree or vary in effect size, and you need to weigh whether the pattern is coherent rather than merely noisy.",
+    "A proposed causal claim lacks direct experimental proof but has possible dose-response, mechanism, temporal, or replication evidence."
+  ]
+}

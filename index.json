@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:28:35Z",
+  "generated_at": "2026-06-13T03:34:31Z",
   "skills": [
     {
       "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
@@ -143,6 +143,20 @@
       "path": "skills/augustinian-theology/latest.json"
     },
     {
+      "name": "Backcasting",
+      "slug": "backcasting",
+      "version": 1,
+      "description": "Backcasting reasons backward from a desired future or success condition to identify the milestones, policies, investments, and present actions needed to make that future attainable.",
+      "domains": [
+        "strategic-planning",
+        "sustainability",
+        "policy",
+        "innovation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/backcasting/latest.json"
+    },
+    {
       "name": "Bayesian Epistemology",
       "slug": "bayesian-epistemology",
       "version": 1,
@@ -169,6 +183,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/bounded-rationality/latest.json"
+    },
+    {
+      "name": "Bradford Hill Criteria | guidelines for inferring causation from epidemiological association",
+      "slug": "bradford-hill-criteria-guidelines-for-inferring-causation-from-epidemiological-association",
+      "version": 1,
+      "description": "Bradford Hill Criteria are a set of epidemiological viewpoints for judging when an observed association is likely to reflect causation, emphasizing temporality, strength, consistency, dose-response, plausibility, coherence, experimental evidence, analogy, and specificity while resisting mechanical checklist use.",
+      "domains": [
+        "epidemiology",
+        "causal-reasoning",
+        "public-health",
+        "evidence-evaluation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/bradford-hill-criteria-guidelines-for-inferring-causation-from-epidemiological-association/latest.json"
     },
     {
       "name": "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
@@ -395,6 +423,34 @@
       "path": "skills/control-theory-thinking/latest.json"
     },
     {
+      "name": "Controlled Experimentation | randomization, blinding, controls as inference engine (RCT thinking)",
+      "slug": "controlled-experimentation-randomization-blinding-controls-as-inference-engine-rct-thinking",
+      "version": 1,
+      "description": "Controlled Experimentation treats randomization, blinding, controls, allocation concealment, and pre-specified outcome comparison as a designed inference engine for estimating intervention effects by constructing a credible counterfactual.",
+      "domains": [
+        "experimental-design",
+        "statistics",
+        "medicine",
+        "causal-reasoning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/controlled-experimentation-randomization-blinding-controls-as-inference-engine-rct-thinking/latest.json"
+    },
+    {
+      "name": "Conway's Law | system designs mirror communication structures of their organizations",
+      "slug": "conway-s-law-system-designs-mirror-communication-structures-of-their-organizations",
+      "version": 1,
+      "description": "Conway's Law is the organizational-design principle that systems tend to mirror the communication structures of the organizations that build them, making architecture, team boundaries, coordination costs, and interface design mutually reinforcing.",
+      "domains": [
+        "software-architecture",
+        "organizational-design",
+        "systems-thinking",
+        "management"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/conway-s-law-system-designs-mirror-communication-structures-of-their-organizations/latest.json"
+    },
+    {
       "name": "Counterfactual Reasoning",
       "slug": "counterfactual-reasoning",
       "version": 1,
@@ -451,6 +507,20 @@
       "path": "skills/cynefin-framework/latest.json"
     },
     {
+      "name": "Decision Analysis",
+      "slug": "decision-analysis",
+      "version": 1,
+      "description": "Decision Analysis structures consequential choices under uncertainty using decision trees, probabilities, utilities, value of information, and sensitivity analysis to identify the action with the best expected value for a stated decision maker.",
+      "domains": [
+        "decision-theory",
+        "management",
+        "risk-analysis",
+        "operations-research"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/decision-analysis/latest.json"
+    },
+    {
       "name": "Decision Theory",
       "slug": "decision-theory",
       "version": 1,
@@ -505,6 +575,34 @@
       ],
       "review_status": "approved",
       "path": "skills/dependent-origination/latest.json"
+    },
+    {
+      "name": "Differential Diagnosis | clinical reasoning: generate, rank, and exclude candidate causes",
+      "slug": "differential-diagnosis-clinical-reasoning-generate-rank-and-exclude-candidate-causes",
+      "version": 1,
+      "description": "Differential Diagnosis is the clinical reasoning framework that generates candidate causes for a patient's presentation, ranks them by likelihood and danger, then uses targeted history, examination, tests, and time to rule in, rule out, or revise diagnoses.",
+      "domains": [
+        "medicine",
+        "clinical-reasoning",
+        "diagnostics",
+        "decision-making"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/differential-diagnosis-clinical-reasoning-generate-rank-and-exclude-candidate-causes/latest.json"
+    },
+    {
+      "name": "Dimensional Analysis | units as constraint and sanity check; scaling arguments",
+      "slug": "dimensional-analysis-units-as-constraint-and-sanity-check-scaling-arguments",
+      "version": 1,
+      "description": "Dimensional Analysis uses units, dimensions, dimensionless groups, and scaling laws as hard constraints on equations, estimates, experiments, and physical intuition.",
+      "domains": [
+        "physics",
+        "engineering",
+        "modeling",
+        "estimation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/dimensional-analysis-units-as-constraint-and-sanity-check-scaling-arguments/latest.json"
     },
     {
       "name": "Divine Command Theory",
@@ -1027,6 +1125,20 @@
       "path": "skills/information-asymmetry-akerlof-lemons-adverse-selection-moral-hazard/latest.json"
     },
     {
+      "name": "Information Theory Thinking",
+      "slug": "information-theory-thinking",
+      "version": 1,
+      "description": "Information Theory Thinking applies Shannon's concepts of entropy, surprise, redundancy, noise, and channel capacity to problems where uncertainty must be measured, compressed, transmitted, or converted into evidence.",
+      "domains": [
+        "information-theory",
+        "communication",
+        "statistics",
+        "systems"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/information-theory-thinking/latest.json"
+    },
+    {
       "name": "Instrumentalism | theories as prediction tools, not literal descriptions",
       "slug": "instrumentalism-theories-as-prediction-tools-not-literal-descriptions",
       "version": 1,
@@ -1360,6 +1472,20 @@
       ],
       "review_status": "approved",
       "path": "skills/mussar/latest.json"
+    },
+    {
+      "name": "Natural Selection Thinking",
+      "slug": "natural-selection-thinking",
+      "version": 1,
+      "description": "Natural Selection Thinking explains adaptive-looking order through variation, selection, and retention: variants arise, environments differentially filter them, and successful variants are copied or inherited into the next round.",
+      "domains": [
+        "biology",
+        "evolution",
+        "complex-systems",
+        "organizational-learning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/natural-selection-thinking/latest.json"
     },
     {
       "name": "Naturalized Epistemology",
@@ -1698,6 +1824,20 @@
       "path": "skills/reflective-equilibrium/latest.json"
     },
     {
+      "name": "Regression to the Mean | extreme observations revert; mistaking reversion for causation",
+      "slug": "regression-to-the-mean-extreme-observations-revert-mistaking-reversion-for-causation",
+      "version": 1,
+      "description": "Regression to the Mean is the statistical principle that extreme observations tend to be followed by less extreme observations when measurements are imperfectly correlated, making natural reversion easy to mistake for causal change.",
+      "domains": [
+        "statistics",
+        "causal-reasoning",
+        "decision-theory",
+        "research-methods"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/regression-to-the-mean-extreme-observations-revert-mistaking-reversion-for-causation/latest.json"
+    },
+    {
       "name": "Reliabilism",
       "slug": "reliabilism",
       "version": 1,
@@ -1796,6 +1936,20 @@
       "path": "skills/satisficing/latest.json"
     },
     {
+      "name": "Scenario Planning",
+      "slug": "scenario-planning",
+      "version": 1,
+      "description": "Scenario Planning develops several plausible, coherent futures around critical uncertainties so decision makers can test strategy, notice weak signals, and prepare for discontinuity without pretending to forecast one future.",
+      "domains": [
+        "strategy",
+        "foresight",
+        "risk-management",
+        "organizational-learning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/scenario-planning/latest.json"
+    },
+    {
       "name": "Scientific Realism | unobservables posited by mature science approximately exist; no-miracles argument",
       "slug": "scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument",
       "version": 1,
@@ -1822,6 +1976,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/second-order-thinking-and-then-what-downstream-and-reflexive-consequences/latest.json"
+    },
+    {
+      "name": "Signal Detection Theory | discriminability vs response criterion; hits, false alarms, ROC",
+      "slug": "signal-detection-theory-discriminability-vs-response-criterion-hits-false-alarms-roc",
+      "version": 1,
+      "description": "Signal Detection Theory analyzes decisions under perceptual or informational uncertainty by separating sensitivity to signal from response bias, using hits, misses, false alarms, correct rejections, criteria, and ROC curves.",
+      "domains": [
+        "statistics",
+        "psychology",
+        "decision-theory",
+        "diagnostics"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/signal-detection-theory-discriminability-vs-response-criterion-hits-false-alarms-roc/latest.json"
     },
     {
       "name": "Signaling Theory | costly signals as credibility (Spence, Zahavi handicap principle)",
@@ -1934,6 +2102,20 @@
       ],
       "review_status": "approved",
       "path": "skills/sufism/latest.json"
+    },
+    {
+      "name": "Survivorship Bias and Selection Effects | unseen failures distort inference (Wald's bombers)",
+      "slug": "survivorship-bias-and-selection-effects-unseen-failures-distort-inference-wald-s-bombers",
+      "version": 1,
+      "description": "Survivorship Bias and Selection Effects is the inference framework for detecting how visible survivors, sampled cases, nonresponse, censoring, and missing failures distort conclusions about causes, performance, and risk.",
+      "domains": [
+        "statistics",
+        "causal-reasoning",
+        "risk-analysis",
+        "research-methods"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/survivorship-bias-and-selection-effects-unseen-failures-distort-inference-wald-s-bombers/latest.json"
     },
     {
       "name": "Systems Thinking",
@@ -2131,6 +2313,20 @@
       "path": "skills/tikkun-olam/latest.json"
     },
     {
+      "name": "Toyota Production System | lean: waste elimination, pull, jidoka, kaizen, genchi genbutsu",
+      "slug": "toyota-production-system-lean-waste-elimination-pull-jidoka-kaizen-genchi-genbutsu",
+      "version": 1,
+      "description": "Toyota Production System is the lean production framework built around just-in-time flow, jidoka, waste elimination, standardized work, kaizen, and direct observation of actual work to improve quality, cost, delivery, and human problem-solving.",
+      "domains": [
+        "operations",
+        "manufacturing",
+        "management",
+        "process-improvement"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/toyota-production-system-lean-waste-elimination-pull-jidoka-kaizen-genchi-genbutsu/latest.json"
+    },
+    {
       "name": "Tragedy of the Commons | Hardin: individually rational overuse of shared resources",
       "slug": "tragedy-of-the-commons-hardin-individually-rational-overuse-of-shared-resources",
       "version": 1,
@@ -2143,6 +2339,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/tragedy-of-the-commons-hardin-individually-rational-overuse-of-shared-resources/latest.json"
+    },
+    {
+      "name": "Triage Thinking | allocate scarce resources by urgency x salvageability",
+      "slug": "triage-thinking-allocate-scarce-resources-by-urgency-x-salvageability",
+      "version": 1,
+      "description": "Triage Thinking allocates scarce attention, time, personnel, equipment, or treatment by sorting cases according to urgency, expected benefit, and salvageability under resource constraints.",
+      "domains": [
+        "medicine",
+        "emergency-management",
+        "resource-allocation",
+        "ethics"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/triage-thinking-allocate-scarce-resources-by-urgency-x-salvageability/latest.json"
     },
     {
       "name": "TRIZ",

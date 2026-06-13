@@ -1,0 +1,121 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:55Z",
+  "canonical_examples": [
+    {
+      "analysis": "Shell did not treat the future oil price as a single forecast. Its planners built coherent alternative futures around geopolitical power, producer-country behavior, and energy demand, including a world in which supply was constrained and prices rose sharply. When the 1973 oil shock arrived, the value was not prediction bragging rights but organizational readiness: managers had already rehearsed implications, warning signs, and strategic moves for a discontinuous oil environment.",
+      "problem": "Royal Dutch Shell's scenario-planning practice is widely associated with preparation for the 1973 oil crisis."
+    },
+    {
+      "analysis": "The Mont Fleur process used named scenarios to make political-economic possibilities discussable: paths such as Ostrich, Lame Duck, Icarus, and Flight of the Flamingos represented different combinations of inclusion, transition capacity, and economic discipline. The analysis did not ask which scenario was most probable; it asked what choices would make desirable futures more plausible and what warning signs would indicate drift toward dangerous ones. The scenarios created a shared language across adversarial groups during South Africa's transition.",
+      "problem": "The Mont Fleur scenarios in early-1990s South Africa explored possible futures after apartheid."
+    }
+  ],
+  "core_claims": [
+    "For deep uncertainties, multiple internally coherent futures are more decision-useful than a single best forecast.",
+    "Scenarios should be plausible, divergent, and causally structured; they are not predictions, preferences, or simple high-medium-low cases.",
+    "The value of scenarios lies in changing present perception and preparedness, not in assigning precise probabilities to futures.",
+    "Critical uncertainties should be separated from predetermined elements, because robust strategy depends on what is uncertain versus already in motion.",
+    "A good scenario set exposes assumptions and rehearses strategic responses before weak signals become obvious to everyone.",
+    "Scenario names and narratives matter because memorable futures become shared strategic language inside organizations."
+  ],
+  "description": "Scenario Planning develops several plausible, coherent futures around critical uncertainties so decision makers can test strategy, notice weak signals, and prepare for discontinuity without pretending to forecast one future.",
+  "domains": [
+    "strategy",
+    "foresight",
+    "risk-management",
+    "organizational-learning"
+  ],
+  "failure_modes": [
+    "Forecast relapse: converting scenarios into disguised point forecasts or ranking them by preferred probability destroys the method's purpose.",
+    "Decorative storytelling: vivid narratives without causal logic, decision implications, or signposts become workshop theater rather than strategic preparation.",
+    "Axis laziness: choosing obvious two-by-two axes can force shallow quadrants that miss the real uncertainties and predetermined trends.",
+    "Preference contamination: labeling the desired future as the realistic one and the feared future as implausible prevents genuine rehearsal.",
+    "No strategic uptake: scenarios fail when they are not connected to decisions, options, trigger points, and monitoring routines."
+  ],
+  "key_vocabulary": {
+    "Critical uncertainty": "A high-impact uncertainty whose resolution would materially change strategy. Scenario sets are often organized around several such uncertainties.",
+    "Predetermined element": "A force already in motion whose consequences are relatively locked in, such as demographics or infrastructure commitments. It anchors scenarios so they are not pure fantasy.",
+    "Scenario logics": "The causal structures that explain why each future unfolds. They distinguish serious scenarios from arbitrary stories.",
+    "Signposts": "Observable indicators that suggest the world is moving toward one scenario logic rather than another. They support monitoring and timely adaptation.",
+    "Strategic wind-tunneling": "Testing a strategy against each scenario to see where it succeeds, fails, or requires contingent options.",
+    "Weak signal": "An early, ambiguous indication of emerging change. Scenario work trains attention to signals that standard forecasts may ignore."
+  },
+  "name": "Scenario Planning",
+  "operative_procedure": [
+    "Clarify the focal issue, decision horizon, and strategic choices that the scenarios must inform.",
+    "Map driving forces across political, economic, social, technological, environmental, legal, and industry-specific domains.",
+    "Separate predetermined elements from uncertainties, then select the critical uncertainties with the greatest impact and genuine unpredictability.",
+    "Develop a small set of divergent scenario logics; ensure each future is plausible, internally coherent, and materially different for the decision.",
+    "Write memorable scenario narratives with names, causal sequences, actors, constraints, and end states rather than generic optimistic or pessimistic labels.",
+    "Wind-tunnel current strategy and candidate options through every scenario, identifying robust moves, hedges, bets, and vulnerabilities.",
+    "Define signposts and monitoring routines that would indicate which scenario logic is becoming more salient.",
+    "Use the scenarios to revise mental models and near-term actions while preserving them as multiple live futures, not as a ranked forecast list."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Futures Studies",
+      "Military Planning",
+      "Systems Thinking"
+    ],
+    "composes_with": [
+      "Robust Decision Making",
+      "Pre-mortem",
+      "OODA Loop",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Shell Scenario Planning",
+      "Strategic Foresight",
+      "Transformative Scenario Planning"
+    ],
+    "related": [
+      "Robust Decision Making",
+      "Backcasting",
+      "Second-Order Thinking",
+      "Cynefin Framework"
+    ],
+    "rivals": [
+      "Expected-Value Reasoning",
+      "Decision Analysis",
+      "Forecasting",
+      "Fermi Estimation",
+      "Minimax Regret"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Scenario Planning is strongest when uncertainty is deep, time horizons are long, and strategic readiness matters more than point prediction. It is limited for short-cycle operational decisions needing immediate optimization, for problems with stable probability distributions, and for organizations unwilling to connect narratives to choices and monitoring.",
+  "source_summary": "This skill was authored from model knowledge of Shell scenario practice, Wack, Schwartz, van der Heijden, and scenario-planning sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Pierre Wack, 'Scenarios: Uncharted Waters Ahead' (1985)"
+    },
+    {
+      "kind": "primary",
+      "title": "Pierre Wack, 'Scenarios: Shooting the Rapids' (1985)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Peter Schwartz, The Art of the Long View (1991)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Kees van der Heijden, Scenarios: The Art of Strategic Conversation (1996)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Scenario planning (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Scenario_planning"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "the future environment is deeply uncertain and a point forecast would create false confidence",
+    "a strategy must survive several plausible political, technological, market, or ecological futures",
+    "leaders are trapped in a single official future and need to expose hidden assumptions",
+    "early warning signs matter because the cost of waiting for certainty would be high",
+    "conflicting stakeholders need a shared language for discussing futures without prematurely agreeing on predictions"
+  ]
+}

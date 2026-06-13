@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:55Z",
+  "canonical_examples": [
+    {
+      "analysis": "Darwin treats domesticated breeds as a visible selection process: pigeons vary in beak, plumage, body shape, and behavior; breeders choose variants that better match desired traits; inheritance retains selected traits across generations. The lesson is not that breeders create variation from nothing, but that cumulative selection can transform a population by repeatedly filtering heritable variation. Natural selection substitutes environmental survival and reproduction for the breeder's deliberate choice.",
+      "problem": "Darwin's Origin of Species uses artificial selection in domesticated pigeons to make cumulative selection intelligible."
+    },
+    {
+      "analysis": "The population already contained variation in moth coloration. Industrial soot changed the selective environment by darkening tree bark, making dark moths less visible to predators and pale moths more vulnerable; reproduction then retained and amplified the dark form. When pollution controls changed the environment again, the selective advantage reversed. The explanation therefore requires variation, selection pressure, differential reproductive success, and retention across generations, not a single moth adapting by effort.",
+      "problem": "Industrial melanism in the peppered moth became a standard example of natural selection in action."
+    }
+  ],
+  "core_claims": [
+    "Adaptive order can arise without foresight when heritable variation is filtered by differential survival and reproduction over many iterations.",
+    "Selection acts on phenotypic differences in a specific environment, while evolutionary change is measured as a shift in population composition across generations.",
+    "The unit that gets copied and retained need not be the same as the visible trait being selected; genes, organisms, practices, and designs can occupy different roles in a selection explanation.",
+    "Fitness is environment-relative: a trait that is advantageous under one set of selection pressures can become neutral or harmful when the environment changes.",
+    "Variation must precede selection; a selection process cannot reliably discover options that are never generated or made available to be copied.",
+    "Retention mechanisms matter as much as selection pressure because useful variants disappear unless they are transmitted with sufficient fidelity."
+  ],
+  "description": "Natural Selection Thinking explains adaptive-looking order through variation, selection, and retention: variants arise, environments differentially filter them, and successful variants are copied or inherited into the next round.",
+  "domains": [
+    "biology",
+    "evolution",
+    "complex-systems",
+    "organizational-learning"
+  ],
+  "failure_modes": [
+    "Adaptationism: assuming every trait is an optimized adaptation rather than considering drift, constraint, byproducts, exaptation, or historical contingency.",
+    "Just-so storytelling: narrating a plausible selection advantage without evidence that the relevant variation, selection pressure, and retention mechanism existed.",
+    "Lamarckian slippage: describing individuals as adapting by need or effort when the framework requires population-level change in inherited variants.",
+    "Ignoring multi-level selection: focusing only on individuals can miss gene-level, group-level, or cultural selection dynamics that favor different outcomes.",
+    "Treating current success as global optimality: selection finds locally viable forms under past environments, not necessarily efficient or morally desirable designs."
+  ],
+  "key_vocabulary": {
+    "Adaptation": "A trait shaped by selection because it contributed to reproductive or copying success in relevant ancestral environments. The term requires an evidential link to selection, not merely usefulness now.",
+    "Differential fitness": "Systematic differences in survival, reproduction, or copying success among variants. Selection occurs only when those differences affect representation in later rounds.",
+    "Exaptation": "A trait that evolved for one role or no role and was later co-opted for a new function. It guards against assuming present function explains original origin.",
+    "Heritability": "The degree to which variation is transmitted across generations or iterations. Without retention, selection cannot accumulate gains.",
+    "Retention": "The copying, inheritance, memory, or institutionalization that carries selected variants forward. It is the third element that makes cumulative selection possible.",
+    "Selection pressure": "An environmental condition that makes some variants more likely than others to survive, reproduce, spread, or be copied.",
+    "Variation": "Differences among entities in a population before selection operates. Variation may be random with respect to fitness even when generated by structured mechanisms."
+  },
+  "name": "Natural Selection Thinking",
+  "operative_procedure": [
+    "Specify the population of entities whose composition changes over time: organisms, genes, routines, products, ideas, firms, or practices.",
+    "Identify the variants already present or generated each round, and distinguish random variation from directed search or design.",
+    "State the selection environment and the specific selection pressures that make some variants more likely to survive, reproduce, spread, or be copied.",
+    "Define the retention mechanism: genetic inheritance, imitation, documentation, institutional memory, market replication, or another copying channel.",
+    "Trace differential fitness over iterations, showing how variant frequencies change rather than saying a single entity adapts.",
+    "Look for constraints, tradeoffs, drift, byproducts, and exaptations before concluding that a trait is an adaptation.",
+    "Test the selection story against historical or comparative evidence: did the trait appear after the pressure, did it spread where the pressure was present, and did it decline when the pressure changed?",
+    "Translate the analysis into intervention terms: alter variation generation, selection criteria, or retention mechanisms depending on which part of the cycle is producing the result."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Darwinian Evolution",
+      "Malthusian Population Theory",
+      "Artificial Selection"
+    ],
+    "composes_with": [
+      "Evolutionary Game Theory",
+      "Systems Thinking",
+      "Path Dependence",
+      "Signaling Theory"
+    ],
+    "descendants": [
+      "Evolutionary Game Theory",
+      "Memetics",
+      "Universal Darwinism",
+      "Evolutionary Epistemology"
+    ],
+    "related": [
+      "Antifragility",
+      "Creative Destruction",
+      "Hayekian Spontaneous Order",
+      "Ostrom's Commons Governance"
+    ],
+    "rivals": [
+      "Intelligent Design",
+      "Lamarckism",
+      "First-Principles Reasoning",
+      "Root Cause Analysis"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Natural Selection Thinking is useful for explaining cumulative adaptation in biological, cultural, organizational, and market settings when variants are copied and filtered over time. It is weaker for one-off events, systems without retention, cases dominated by deliberate design, and normative questions where survival or spread is not evidence of goodness.",
+  "source_summary": "This skill was authored from model knowledge of Darwin, modern evolutionary synthesis, Dawkins, Hull, and related selectionist sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Charles Darwin, On the Origin of Species (1859)"
+    },
+    {
+      "kind": "primary",
+      "title": "Charles Darwin, The Variation of Animals and Plants under Domestication (1868)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Richard Dawkins, The Selfish Gene (1976)"
+    },
+    {
+      "kind": "secondary",
+      "title": "David L. Hull, Science as a Process (1988)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Natural selection (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Natural_selection"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "an adaptive-looking pattern has emerged without a clear central designer or plan",
+    "a population of ideas, products, routines, organisms, or organizations changes composition across repeated rounds",
+    "you need to explain why some variants spread while others disappear under a particular environment",
+    "a system keeps reproducing an undesirable behavior because its selection and retention mechanisms reward it",
+    "you are comparing interventions that change variation generation, selection criteria, or copying fidelity"
+  ]
+}

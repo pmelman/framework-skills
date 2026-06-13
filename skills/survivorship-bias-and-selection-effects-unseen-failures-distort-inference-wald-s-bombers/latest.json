@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:51Z",
+  "canonical_examples": [
+    {
+      "analysis": "Wald's analysis reverses the naive inference. The bullet holes on returning aircraft mark damage locations compatible with survival; the missing data are aircraft hit elsewhere that did not return. Armor should be added where survivors have few holes, especially engines and other critical areas, because hits there are more likely to remove planes from the observed sample.",
+      "problem": "In World War II, analysts inspected bullet holes on returning bombers to decide where to add armor; Abraham Wald argued that the observed holes were from aircraft that survived."
+    },
+    {
+      "analysis": "The fund sample is conditioned on survival, so failed or merged funds are underrepresented or absent. Average historical returns among surviving funds are upward biased because poor performers disproportionately disappear. A selection-aware analysis reconstructs the original cohort, includes dead funds, and estimates performance over the full launch population rather than the visible survivors.",
+      "problem": "Mutual-fund performance studies based only on currently existing funds report attractive past returns, while funds that closed or merged after poor performance are absent."
+    }
+  ],
+  "core_claims": [
+    "Observed cases are often selected by the very outcome being explained, so the visible sample can have systematically different causes than the target population.",
+    "Failures, dropouts, nonresponses, censored observations, and missing cases carry causal information, not just inconvenience.",
+    "Conditioning on survival can reverse recommendations: the traits common among survivors may be irrelevant to success or merely compatible with not failing.",
+    "Averages computed over survivors overstate durability, performance, safety, profitability, and effectiveness when attrition is nonrandom.",
+    "The correct reference class is usually the initial risk set or opportunity set, not the set that remains visible after selection.",
+    "Selection effects arise before analysis begins: sampling frames, publication filters, institutional records, and platform algorithms decide what can be observed.",
+    "Counterfactual missingness asks which cases would have appeared had they not failed, been censored, been rejected, or lacked the chance to enter the sample."
+  ],
+  "description": "Survivorship Bias and Selection Effects is the inference framework for detecting how visible survivors, sampled cases, nonresponse, censoring, and missing failures distort conclusions about causes, performance, and risk.",
+  "domains": [
+    "statistics",
+    "causal-reasoning",
+    "risk-analysis",
+    "research-methods"
+  ],
+  "failure_modes": [
+    "Seeing survivorship bias everywhere and dismissing useful samples even when attrition is measured, random, or substantively irrelevant.",
+    "Correcting only by adding known failures while ignoring the deeper selection mechanism that determined entry into the dataset.",
+    "Assuming missing cases resemble observed cases; in selection problems, their difference is usually the point.",
+    "Overcorrecting from a vivid canonical case such as Wald's bombers and reversing the inference mechanically without mapping the selection path.",
+    "Practitioners can become so focused on unseen failures that they underuse legitimate evidence from survivors about mechanisms of resilience."
+  ],
+  "key_vocabulary": {
+    "Attrition": "Loss of cases over time through failure, dropout, closure, death, nonresponse, merger, or censoring.",
+    "Censoring": "Partial observation of cases because the event of interest has not occurred, cannot be observed after a point, or is hidden by the observation process.",
+    "Collider bias": "Distortion caused by conditioning on a common effect of two variables, creating or hiding associations in the selected sample.",
+    "Missing failures": "Cases that would change the inference but are absent because they failed before observation or reporting.",
+    "Risk set": "The full set of cases initially exposed to the possibility of success, failure, selection, or survival.",
+    "Sampling frame": "The operational list or process from which observations are drawn; it determines what kinds of cases can enter the data.",
+    "Selection mechanism": "The rule, process, incentive, or accident that determines which cases become visible and which remain unseen.",
+    "Survivorship bias": "Bias from analyzing only cases that passed through a survival filter while excluding those that did not.",
+    "Truncation": "A form of missingness where cases outside a range or condition are entirely absent from the dataset."
+  },
+  "name": "Survivorship Bias and Selection Effects | unseen failures distort inference (Wald's bombers)",
+  "operative_procedure": [
+    "Define the target population or original risk set: who or what could have succeeded, failed, survived, responded, or appeared.",
+    "Describe the observed sample and state the exact survival, publication, availability, platform, or reporting filter that makes cases visible.",
+    "List the missing categories: failures, dropouts, nonrespondents, rejected applicants, closed firms, unpublished studies, censored cases, and never-observed entrants.",
+    "Ask whether selection is related to the outcome, predictors, or both; if it is, treat the observed sample as biased until shown otherwise.",
+    "Reconstruct or approximate the denominator using cohorts, registries, archival records, negative cases, audits, or sensitivity bounds.",
+    "Compare survivor-only estimates with estimates that include attrition, censoring adjustments, inverse-probability weighting, or explicit selection models where appropriate.",
+    "Reverse-check the intuitive recommendation: ask whether features visible among survivors mark causes of success or merely locations where failure was survivable.",
+    "Report conclusions with the selection mechanism attached, naming which unseen cases would most threaten the inference."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Sampling Theory",
+      "Selection Bias",
+      "Causal Inference"
+    ],
+    "composes_with": [
+      "Causal Inference",
+      "Regression to the Mean",
+      "Base Rate Reasoning",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Publication Bias Analysis",
+      "Heckman Selection Model",
+      "Missing Data Analysis"
+    ],
+    "related": [
+      "Availability Heuristic",
+      "Collider Bias",
+      "Selection Bias",
+      "Risk Analysis"
+    ],
+    "rivals": [
+      "Case Study Method",
+      "Success Literature",
+      "Naive Inductivism",
+      "Narrative Explanation"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "This framework is strongest when evidence comes from visible winners, surviving firms, returning equipment, published studies, current customers, retained employees, or any dataset filtered by success or availability. It does not by itself estimate the missing cases; it points to the denominator and selection process that must be reconstructed. It should be paired with causal inference, sampling design, and domain knowledge before making corrections.",
+  "source_summary": "This skill was authored from model knowledge of Abraham Wald's bomber analysis, selection-bias statistics, finance survivorship studies, and missing-data literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Abraham Wald, 'A Method of Estimating Plane Vulnerability Based on Damage of Survivors'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Howard Wainer, 'The Most Dangerous Equation'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Burton G. Malkiel, 'Returns from Investing in Equity Mutual Funds 1971 to 1991'"
+    },
+    {
+      "kind": "secondary",
+      "title": "James J. Heckman, 'Sample Selection Bias as a Specification Error'"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Survivorship bias (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "evidence comes mainly from winners, survivors, current customers, returning equipment, published studies, or organizations still in operation",
+    "a recommendation is inferred from traits common among successful cases without observing failed cases that had the same traits",
+    "a denominator is missing: you can see who made it through the filter but not who entered and disappeared",
+    "performance, safety, investment returns, startup lessons, or career advice is based on records that exclude closures, deaths, dropouts, or nonresponses",
+    "the observation process itself depends on success, survival, publication, willingness to respond, or platform visibility"
+  ]
+}

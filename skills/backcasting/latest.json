@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:55Z",
+  "canonical_examples": [
+    {
+      "analysis": "Lovins begins from a desirable energy future with efficient end use, renewable flows, and reduced dependence on centralized hard energy systems. From that endpoint, the analysis works backward to identify present investments that would make the path feasible: efficiency standards, decentralized technologies, changed utility incentives, and avoided lock-in to large fossil or nuclear infrastructure. The method differs from forecasting because it does not extrapolate current energy demand; it asks what present choices are required if the soft path is to be reached.",
+      "problem": "Amory Lovins's 'soft energy paths' work is a canonical backcasting-style analysis of a desirable energy future."
+    },
+    {
+      "analysis": "The Natural Step defines success conditions for a sustainable society first, then asks organizations to reason backward from those conditions to today's decisions. Actions are screened for whether they move in the right direction, provide a flexible platform for later steps, and offer sufficient return to sustain the transition. The framework therefore avoids optimizing marginal improvements inside an unsustainable present system and instead sequences current moves by their fit with the desired end state.",
+      "problem": "The Natural Step's ABCD planning method uses backcasting from sustainability principles."
+    }
+  ],
+  "core_claims": [
+    "When the desired future is discontinuous from current trends, reasoning backward from the endpoint is more useful than forecasting forward from the present.",
+    "A target future must be specified as success conditions or system requirements before choosing present actions.",
+    "Present actions should be judged by whether they keep the path to the desired future open, not only by whether they improve current metrics incrementally.",
+    "Backcasting exposes lock-in: some near-term investments are bad because they make later transition steps more expensive or impossible.",
+    "Milestones should be derived by working backward through necessary preconditions, dependencies, and institutional changes.",
+    "The method is normative as well as analytical: it starts from a chosen desirable future and then tests feasibility and pathways."
+  ],
+  "description": "Backcasting reasons backward from a desired future or success condition to identify the milestones, policies, investments, and present actions needed to make that future attainable.",
+  "domains": [
+    "strategic-planning",
+    "sustainability",
+    "policy",
+    "innovation"
+  ],
+  "failure_modes": [
+    "Vision fantasy: an inspiring endpoint without physical, institutional, financial, or political feasibility checks produces aspiration rather than a pathway.",
+    "Single-path rigidity: treating the first backward path as the plan can miss uncertainty, optionality, and the need for adaptive milestones.",
+    "Endpoint capture: powerful stakeholders may define the desired future so narrowly that the process legitimizes their preferences.",
+    "Present-state neglect: ignoring current constraints, assets, and transition costs can make early steps impossible to execute.",
+    "Incrementalism in disguise: if the endpoint merely extrapolates current trends, the analysis loses the distinctive advantage of backcasting."
+  ],
+  "key_vocabulary": {
+    "ABCD method": "The Natural Step planning sequence: build awareness, baseline current reality, create solutions, and decide priorities. It operationalizes backcasting from sustainability principles.",
+    "Backcasting": "A planning method that starts with a desired future and works backward to identify the actions and preconditions needed to reach it.",
+    "Desired future": "The specified end state, success condition, or normative target from which the pathway is derived. It must be clear enough to constrain present choices.",
+    "Lock-in": "A present commitment that narrows future options through infrastructure, standards, habits, skills, or political commitments. Backcasting treats avoidable lock-in as a major hazard.",
+    "Milestone": "An intermediate condition that must be reached on the way from the present to the desired future. Milestones are placed by reverse reasoning from endpoint dependencies.",
+    "Pathway": "A sequenced route linking present action to the desired future through milestones, enabling conditions, and decision points.",
+    "Success conditions": "Principles or requirements that define what it would mean for the future state to satisfy the goal, especially in sustainability planning."
+  },
+  "name": "Backcasting",
+  "operative_procedure": [
+    "Define the desired future as concrete success conditions, constraints, and outcomes at a stated time horizon.",
+    "Describe current reality honestly: assets, gaps, trends, lock-ins, institutions, capabilities, and constraints.",
+    "Work backward from the endpoint to identify necessary preconditions immediately before success, then repeat backward until reaching the present.",
+    "Convert preconditions into milestones, decision points, and enabling actions, preserving dependencies and timing.",
+    "Screen near-term actions for three tests: movement toward the desired future, flexibility for later steps, and adequate return or support to continue the transition.",
+    "Identify lock-ins to avoid and platform investments that keep multiple viable pathways open.",
+    "Stress-test the pathway against uncertainty, political resistance, resource constraints, and possible changes in the endpoint.",
+    "Translate the backward pathway into a forward implementation roadmap with owners, triggers, measures, and revision cycles."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Futures Studies",
+      "Strategic Planning",
+      "Sustainability Science"
+    ],
+    "composes_with": [
+      "Scenario Planning",
+      "Inversion",
+      "Theory of Constraints",
+      "Leverage Points"
+    ],
+    "descendants": [
+      "The Natural Step",
+      "Transition Management",
+      "Mission-Oriented Innovation Policy"
+    ],
+    "related": [
+      "Scenario Planning",
+      "Inversion",
+      "Second-Order Thinking",
+      "Robust Decision Making"
+    ],
+    "rivals": [
+      "Forecasting",
+      "Expected-Value Reasoning",
+      "Incrementalism",
+      "OODA Loop",
+      "Satisficing"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Backcasting is strongest for transformative goals, sustainability transitions, policy design, and strategy where current trends lead away from the desired state. It is limited when there is no legitimate agreement on the desired future, when immediate adaptation matters more than endpoint planning, or when uncertainty is so deep that many endpoints must be explored through scenarios first.",
+  "source_summary": "This skill was authored from model knowledge of Robinson, Lovins, The Natural Step, Dreborg, and backcasting literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John B. Robinson, 'Energy backcasting: A proposed method of policy analysis' (1982)"
+    },
+    {
+      "kind": "primary",
+      "title": "Amory B. Lovins, Soft Energy Paths: Toward a Durable Peace (1977)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Karl-Henrik Robert, The Natural Step Story (2002)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Karl H. Dreborg, 'Essence of backcasting' (1996)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Backcasting (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Backcasting"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a desired future is clear enough to plan from, but current trends will not reach it on their own",
+    "the problem is a transition challenge involving infrastructure, policy, capabilities, or behavior change over time",
+    "near-term choices risk locking the system into a path that conflicts with long-term goals",
+    "stakeholders need to translate a vision or target into milestones and present actions",
+    "ordinary forecasting keeps reproducing the current trajectory instead of revealing what must change"
+  ]
+}
