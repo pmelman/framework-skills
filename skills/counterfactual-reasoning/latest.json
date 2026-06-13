@@ -1,0 +1,102 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Counterfactual Reasoning specifies the test: holding everything else constant, would the launch have succeeded with better marketing? Would it have succeeded with a better product? If we can find comparable product launches where only marketing differed, or where only the product differed, we can evaluate these counterfactuals empirically. Absent such data, structural reasoning applies: if the product was demonstrably inferior on dimensions customers care about, no level of marketing would have produced success in the closest worlds — making the product flaw a more fundamental cause. This is INUS condition analysis: the flaw was an Insufficient but Necessary part of an Unnecessary but Sufficient condition for failure.",
+      "problem": "A company's new product launch failed. The CEO argues it was due to poor marketing. The marketing director argues it was due to a flawed product. How should this causal dispute be adjudicated?"
+    },
+    {
+      "analysis": "This is a classic counterfactual in economic history. The claim is: if the bailouts had not occurred, the financial system would have collapsed further, and GDP would have fallen by an additional X%. Evaluating it requires a structural model of the financial system — the counterfactual world without bailouts must be constructed by tracing the consequences of cascading bank failures. Economists disagree about the model, generating different estimates of the counterfactual. The analysis is fragile because it involves a large departure from the actual world (major institutional failure) where the similarity metric is contested and structural models are highly uncertain.",
+      "problem": "A policymaker asks: did the 2008 bank bailouts prevent a second Great Depression?"
+    }
+  ],
+  "core_claims": [
+    "Causal claims are inherently counterfactual: to say that A caused B is to say (at minimum) that if A had not occurred, B would not have occurred — the counterfactual dependence theory of causation.",
+    "Counterfactuals are evaluated relative to the closest possible worlds where the antecedent is true, using a notion of similarity between worlds (Lewis-Stalnaker semantics).",
+    "Not all counterfactuals are equally determinate: the further the hypothetical departs from the actual world, the more the similarity metric is contested, making remote counterfactuals less reliable than proximate ones.",
+    "Counterfactual reasoning is essential for learning from experience: understanding what would have happened under an alternative choice is necessary for improving future decisions.",
+    "Causal graphs (structural causal models) formalize counterfactual reasoning by representing the structural equations that govern how variables respond to interventions (Pearl's do-calculus).",
+    "Attribution and moral responsibility depend on counterfactual reasoning: an agent is typically held responsible for an outcome only if, had they acted differently, the outcome would not have occurred."
+  ],
+  "description": "Counterfactual Reasoning is the cognitive and formal practice of evaluating what would have happened (or would happen) if conditions had been (or were) different from how they actually are, enabling analysis of causation, responsibility, decision-making, and policy by comparing the actual world to relevant alternatives. It underlies causal inference, historical analysis, regret-based learning, and the evaluation of interventions.",
+  "domains": [
+    "causation",
+    "epistemology",
+    "decision-theory",
+    "history"
+  ],
+  "failure_modes": [
+    "Backtracking contamination: allowing the counterfactual to revise earlier causes when the analytical question is about downstream effects — e.g., 'if the war hadn't happened, everything before it would have been different too,' which dissolves the causal question rather than answering it.",
+    "Cherry-picking the comparison world: selecting a closest counterfactual world that is convenient for the desired conclusion rather than genuinely closest, often by specifying 'holding everything else fixed' while actually allowing strategically chosen changes.",
+    "Overconfidence in remote counterfactuals: treating causal conclusions about highly hypothetical or distant alternatives as if they were as reliable as proximate counterfactuals, ignoring that model uncertainty compounds rapidly as the antecedent departs from actuality."
+  ],
+  "key_vocabulary": {
+    "Backtracking Counterfactual": "A counterfactual that traces causes backwards in time: 'if the effect had not occurred, the cause would not have occurred either' — generally excluded from causal analysis but relevant to epistemic contexts.",
+    "Causal Inference": "The task of identifying actual causal relationships from data; counterfactual reasoning is the conceptual foundation underlying methods like regression discontinuity, instrumental variables, and potential outcomes (Rubin causal model).",
+    "Closest Possible World": "In Lewis-Stalnaker semantics, the hypothetical world that differs minimally from the actual world in order to make the counterfactual's antecedent true; the relevant comparison class.",
+    "Counterfactual Conditional": "A conditional of the form 'If A had been the case (but A was not the case), then C would have been the case' — evaluated in terms of what holds in the closest possible worlds where A is true.",
+    "Counterfactual Regret": "The gap between the actual outcome and the best outcome achievable under an alternative strategy; minimizing counterfactual regret over many rounds drives learning in regret-minimization algorithms.",
+    "Structural Causal Model": "Judea Pearl's framework representing causal relationships as structural equations over a directed acyclic graph; counterfactuals are evaluated by intervening on (do-ing) variables rather than conditioning."
+  },
+  "name": "Counterfactual Reasoning",
+  "operative_procedure": [
+    "State the actual situation. Establish what actually happened: which actions were taken, what outcomes resulted, what conditions obtained. Be explicit about the timeline and the causal structure.",
+    "Formulate the counterfactual antecedent. Specify precisely what is being changed in the hypothetical: 'if X had not happened,' 'if decision D had been made differently,' 'if condition C had obtained.' Keep the change as minimal as possible to isolate the causal question.",
+    "Construct the closest counterfactual world. Holding as much of the actual world fixed as the antecedent allows, trace what would follow under the hypothetical. Identify which downstream events would change and which would remain the same. Be explicit about what you are holding fixed and why.",
+    "Assess robustness. Does the counterfactual conclusion hold across a range of plausible closest worlds, or only under a narrow specification of 'closeness'? If the conclusion is highly sensitive to contested similarity judgments, mark it as fragile.",
+    "Draw causal and responsibility conclusions. Where counterfactual dependence is established, identify the causal chain. Distinguish but-for causation (necessary condition) from contributory causation (one of several sufficient conditions). Apply to responsibility attribution, intervention design, or policy evaluation as appropriate.",
+    "Synthesize. State what the counterfactual analysis establishes about causation, responsibility, or alternative courses of action, and identify what it cannot establish — particularly for remote hypotheticals where the similarity metric is underdetermined."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Modal Reasoning",
+      "Classical Logic"
+    ],
+    "composes_with": [
+      "Modal Reasoning",
+      "Decision Theory",
+      "Game Theory",
+      "Thought Experiments",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Causal Inference",
+      "Potential Outcomes Framework",
+      "Structural Causal Models"
+    ],
+    "related": [
+      "Modal Reasoning",
+      "Thought Experiments",
+      "Decision Theory",
+      "Bayesian Epistemology"
+    ],
+    "rivals": [
+      "Regularity Theory of Causation",
+      "Probabilistic Causation"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Counterfactual Reasoning is strongest in proximate, structured causal settings where the relevant variables are identified and the comparison worlds are well-specified — experimental or quasi-experimental research design, legal responsibility attribution, near-miss analysis in engineering. It is weakest for large-scale historical counterfactuals ('what if the Roman Empire had not fallen') where the similarity metric is underdetermined and the structural model is unknown. It is also limited in complex adaptive systems where removing one cause would have triggered compensatory dynamics that restore the outcome.",
+  "source_summary": "The philosophical analysis of counterfactuals was systematized by Robert Stalnaker ('A Theory of Conditionals,' 1968) and David Lewis (Counterfactuals, 1973), who proposed possible-worlds semantics for counterfactual conditionals: a counterfactual is true if the consequent holds in the closest possible worlds where the antecedent is true, with 'closeness' measured by overall similarity. Lewis's counterfactual dependence theory of causation made counterfactuals central to metaphysics of causation. Judea Pearl's structural causal models (Causality, 2000) provided a computational formalization using directed acyclic graphs and the do-operator, enabling rigorous counterfactual inference in empirical science. Donald Rubin's potential outcomes framework in statistics (1974 onwards) provides an equivalent formalization used in econometrics and epidemiology. The Stanford Encyclopedia of Philosophy entry 'Counterfactual Theories of Causation' surveys the philosophical landscape.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Counterfactual Theories of Causation — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "David Lewis, Counterfactuals (1973)"
+    },
+    {
+      "kind": "primary",
+      "title": "Judea Pearl, Causality: Models, Reasoning, and Inference (2000)"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert Stalnaker, 'A Theory of Conditionals,' in Studies in Logical Theory (1968)"
+    }
+  ],
+  "version": 1
+}

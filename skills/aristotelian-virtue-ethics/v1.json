@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Virtue ethics does not simply ask 'will this maximize outcomes?' or 'is this my duty?' It asks what honesty, kindness, and practical wisdom require together. A person of good character is neither brutally blunt (vice of excess: tactlessness) nor dishonestly evasive (vice of deficiency: flattery). The mean — honest, timely, compassionately delivered feedback — expresses both the virtue of truthfulness and the virtue of care. Practical wisdom (phronesis) determines the appropriate manner, timing, and framing for this particular person in this particular context.",
+      "problem": "A manager must decide whether to give honest but devastating feedback to a struggling employee who is visibly fragile and may react badly."
+    },
+    {
+      "analysis": "The virtuous person considers justice (users deserve protection), honesty (public deception is ongoing), practical wisdom (what disclosure method actually prevents harm?), and courage (disclosure carries personal risk). Responsible disclosure — private notification to the competitor with a reasonable remediation deadline, then public disclosure — reflects the mean between reckless immediate public disclosure (excess) and cowardly silence (deficiency). The analysis is irreducibly contextual: the right answer depends on the severity of the vulnerability, the competitor's likely response, and the engineer's specific role and relationships.",
+      "problem": "A software engineer discovers a serious security vulnerability in a competitor's widely-used product. Should they disclose it publicly immediately, notify the competitor privately first, or stay silent?"
+    }
+  ],
+  "core_claims": [
+    "The goal of human life is eudaimonia (flourishing or living well), which is an activity of the soul in accordance with virtue.",
+    "Virtues are stable character dispositions (hexeis) acquired by habituation and expressed in action, emotion, and perception.",
+    "Each virtue is the mean (mesotes) between two corresponding vices — one of excess, one of deficiency — relative to the agent and situation.",
+    "Practical wisdom (phronesis) is the master virtue: the capacity to perceive the morally salient features of a situation and deliberate well about what virtue requires.",
+    "Human beings are inherently social and political animals; flourishing requires participation in community and friendship (philia).",
+    "Moral education, role models, and political institutions are essential: virtue cannot be acquired through theory alone."
+  ],
+  "description": "Aristotelian Virtue Ethics holds that morality is fundamentally about the development of excellent character traits (virtues) that constitute and enable human flourishing (eudaimonia). Rather than asking 'what should I do?', it asks 'what kind of person should I be?' — grounding moral action in practical wisdom and the cultivation of character over time.",
+  "domains": [
+    "ethics",
+    "moral-psychology",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Cultural relativism risk: 'what a practically wise person would do' can unreflectively encode the biases of a particular culture or social class, making the framework conservative and resistant to moral progress.",
+    "Circularity: defining virtue by what the virtuous person does and the virtuous person by their virtues risks circular reasoning when identifying who counts as practically wise.",
+    "Limited guidance in novel or institutional contexts: the framework was developed for personal character in face-to-face communities; it provides less direct guidance for large-scale collective action, policy, and institutional design."
+  ],
+  "key_vocabulary": {
+    "Eudaimonia": "Often translated as 'happiness' or 'flourishing'; the final end (telos) of human life, constituted by excellent activity rather than a subjective feeling.",
+    "Habituation (ethismos)": "The process by which virtues are acquired through repeated practice — we become just by doing just acts, courageous by doing courageous acts.",
+    "Phronesis": "Practical wisdom: the intellectual virtue that perceives the morally relevant particulars of a situation and guides deliberation toward the right action.",
+    "Telos": "The natural end or purpose of a thing; for humans, the telos is eudaimonia, and virtues are the excellences that realize this end.",
+    "The mean (mesotes)": "The virtuous disposition as the intermediate point between two vices; not an arithmetic mean but what is appropriate relative to the agent and context.",
+    "Virtue (arete)": "A stable excellence of character — a disposition to act, feel, and perceive in the right way, at the right time, toward the right person, to the right extent."
+  },
+  "name": "Aristotelian Virtue Ethics",
+  "operative_procedure": [
+    "Identify the agent's situation and character. What is the relevant context? What virtues and vices are at stake — courage, honesty, justice, temperance, generosity? What character dispositions does the agent currently exhibit, and which are being tested?",
+    "Ask what a person of practical wisdom (phronesis) would do. Imagine a practically wise person — not an idealized saint but someone with good judgment, experience, and integrated virtuous character — in this exact situation. What would they perceive as salient? What would they do and feel?",
+    "Locate the relevant mean. For each virtue at issue, identify the excess and the deficiency. Where does the proposed action fall? Is it courageous or reckless? Generous or prodigal? Honest or brutally tactless? Aim for what is appropriate relative to the agent, the other parties, and the stakes.",
+    "Attend to the emotions. Virtue ethics treats appropriate emotional responses as part of moral excellence — not mere feelings to be suppressed. Ask whether the agent's emotional response is fitting: are they feeling what is appropriate, to the right degree, toward the right object?",
+    "Evaluate within the agent's narrative and community. Consider the agent's ongoing life, relationships, and roles. How does this action fit into their character development? What does it mean for their friendships, obligations to community, and long-term flourishing?",
+    "Synthesize. Offer a verdict framed not merely as 'do X' but as 'a person of good character, in these circumstances, would do X because it reflects virtue Y — and doing so will both express and reinforce excellent character.'"
+  ],
+  "relationships": {
+    "ancestors": [
+      "Platonic Ethics",
+      "Ancient Greek Philosophy",
+      "Teleological Ethics"
+    ],
+    "composes_with": [
+      "Reflective Equilibrium",
+      "Principle of Charity"
+    ],
+    "descendants": [
+      "Neo-Aristotelianism",
+      "Capabilities Approach (Sen/Nussbaum)",
+      "Care Ethics"
+    ],
+    "related": [
+      "Stoicism",
+      "Pragmatism",
+      "Reflective Equilibrium"
+    ],
+    "rivals": [
+      "Kantian Deontology",
+      "Utilitarianism",
+      "Moral Sentimentalism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Aristotelian Virtue Ethics is strongest in analyzing questions of personal character, professional ethics, friendship, parenting, and leadership — contexts where sustained relationships, emotional development, and narrative identity matter. It is well-suited to situations requiring judgment about particulars that resist rule-following. It is weakest as a guide to policy and distributive justice (where aggregation and rights matter more than character), in novel situations with no established virtuous exemplar, and where the agent's cultural background makes their intuitions about the virtuous mean unreliable.",
+  "source_summary": "Aristotle's moral philosophy is expounded primarily in the 'Nicomachean Ethics' (c. 350 BCE), supplemented by the 'Eudemian Ethics' and the 'Politics'. The Nicomachean Ethics develops the account of eudaimonia, the doctrine of the mean, the classification of virtues (Books II–V), the analysis of practical wisdom (Book VI), the discussion of akrasia (weakness of will, Book VII), and the treatment of friendship (Books VIII–IX). The twentieth-century revival of virtue ethics was catalyzed by G.E.M. Anscombe's 1958 paper 'Modern Moral Philosophy' and given its most influential form by Alasdair MacIntyre's 'After Virtue' (1981). Contemporary neo-Aristotelians include Rosalind Hursthouse, Martha Nussbaum, and Julia Annas.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Nicomachean Ethics — Aristotle"
+    },
+    {
+      "kind": "primary",
+      "title": "Politics — Aristotle (Books I, III, VII–VIII)"
+    },
+    {
+      "kind": "secondary",
+      "title": "After Virtue — Alasdair MacIntyre"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Aristotle's Ethics'"
+    }
+  ],
+  "version": 1
+}

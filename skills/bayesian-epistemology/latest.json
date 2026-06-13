@@ -1,0 +1,100 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "P(Disease) = 0.01 (prior). P(Positive|Disease) = 0.90 (likelihood). P(Positive|No Disease) = 0.09 (false positive rate). P(Positive) = 0.90×0.01 + 0.09×0.99 = 0.009 + 0.0891 = 0.0981. P(Disease|Positive) = (0.90×0.01)/0.0981 ≈ 0.092. Despite a positive test, the posterior probability of disease is only about 9.2%. The low base rate dominates. This illustrates why Bayesian reasoning is essential in diagnostic contexts.",
+      "problem": "A medical test for a rare disease (1% prevalence) has 90% sensitivity (true positive rate) and 91% specificity (true negative rate — 9% false positive rate). A patient tests positive. What is the probability they have the disease?"
+    },
+    {
+      "analysis": "T2's extra parameters spread its predictive probability over many more possible datasets, so P(Data|T2) is lower than P(Data|T1) for any single dataset — the likelihood penalizes complexity. Under equal priors, P(T1|Data) > P(T2|Data). This is the Bayesian rationale for Occam's Razor: simpler models are favored when they fit equally well because they assign higher probability to the observed data.",
+      "problem": "Two theories explain the same dataset: T1 (a simple linear model) and T2 (a complex polynomial with many free parameters). Both fit the data equally well."
+    }
+  ],
+  "core_claims": [
+    "Rational agents have degrees of belief (credences) that conform to the axioms of probability theory.",
+    "When a rational agent learns that evidence E is true, they update their credence in hypothesis H from P(H) to P(H|E), computed via Bayes's theorem: P(H|E) = P(E|H)·P(H) / P(E).",
+    "Evidence E confirms hypothesis H relative to background knowledge if and only if P(H|E) > P(H) — the posterior exceeds the prior.",
+    "Subjective Bayesianism permits any coherent prior; objective Bayesianism imposes constraints of rationality, symmetry, or calibration on priors.",
+    "Dutch Book arguments show that agents with credences violating the probability axioms are susceptible to sure financial loss, providing a pragmatic justification for probabilistic coherence.",
+    "Long-run convergence results (Bayesian merging-of-opinions theorems) show that agents with different priors will converge on similar posteriors given sufficient shared evidence."
+  ],
+  "description": "Bayesian Epistemology is the view that rational degrees of belief (credences) obey the probability calculus, and that rational belief revision consists in updating credences by conditionalization on new evidence using Bayes's theorem. It provides a formal framework for modeling evidence, confirmation, and rational inference under uncertainty.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-science",
+    "probability",
+    "formal-methods"
+  ],
+  "failure_modes": [
+    "Prior sensitivity: conclusions can be dominated by contested prior assignments rather than evidence, especially when evidence is sparse. Reporting results across a range of priors (sensitivity analysis) is essential.",
+    "The problem of the priors (reference class problem): determining what counts as a rational prior for novel or unique events is philosophically contested and often intractable.",
+    "Treating Bayesian updating as a complete theory of scientific method: Bayesian epistemology models individual belief revision well but does not fully address theory change, the role of simplicity in science, or how to specify hypothesis spaces."
+  ],
+  "key_vocabulary": {
+    "Conditionalization": "The rule that rational belief revision consists in replacing P(H) with P(H|E) when E is learned.",
+    "Credence": "A degree of belief, ranging from 0 (certain falsehood) to 1 (certainty), assigned to a proposition by a rational agent.",
+    "Dutch Book": "A set of bets, each individually acceptable to an agent with incoherent credences, that guarantees the agent a net loss regardless of outcomes — used to argue for probabilistic coherence.",
+    "Likelihood P(E|H)": "The probability that the evidence would be observed if the hypothesis were true; the key term linking evidence to hypothesis.",
+    "Posterior probability P(H|E)": "The credence assigned to a hypothesis after conditioning on evidence E.",
+    "Prior probability P(H)": "The credence assigned to a hypothesis before taking the current evidence into account."
+  },
+  "name": "Bayesian Epistemology",
+  "operative_procedure": [
+    "Identify the hypothesis space. State the hypothesis H being evaluated and its live alternatives; these should be mutually exclusive and jointly exhaustive if possible.",
+    "Assign priors. Elicit or stipulate prior credences P(H) and P(¬H) for each hypothesis, reflecting background knowledge before the present evidence. Note any strong prior commitments and their justifications.",
+    "Assess the likelihood. For each hypothesis, ask: how probable is the evidence E given that this hypothesis is true? Assign P(E|H) and P(E|¬H). This is often the most tractable and least controversial step.",
+    "Apply Bayes's theorem. Compute P(H|E) = [P(E|H) · P(H)] / [P(E|H)·P(H) + P(E|¬H)·P(¬H)]. Track how much the posterior differs from the prior — this is the evidential impact of E.",
+    "Iterate over new evidence. Repeat steps 2–4 as additional evidence arrives, using each posterior as the prior for the next update. Track how credences evolve across the evidence stream.",
+    "Synthesize. Report the current posterior credences, identify which evidence shifted beliefs most and why, and flag hypotheses that remain live despite the evidence. Note if priors are contested and perform sensitivity analysis: does the conclusion hold across a range of reasonable priors?"
+  ],
+  "relationships": {
+    "ancestors": [
+      "Probability theory (Kolmogorov)",
+      "Inverse probability (Bayes, Laplace)",
+      "Subjective expected utility theory"
+    ],
+    "composes_with": [
+      "Inference to the Best Explanation",
+      "Occam's Razor",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Objective Bayesianism",
+      "Formal Learning Theory",
+      "Bayesian networks"
+    ],
+    "related": [
+      "Falsificationism",
+      "Inference to the Best Explanation",
+      "Occam's Razor"
+    ],
+    "rivals": [
+      "Falsificationism",
+      "Frequentist statistics",
+      "Formal Learning Theory"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Bayesian Epistemology is exceptionally powerful for quantitative reasoning under uncertainty, medical diagnosis, statistical inference, machine learning, and decision analysis. It provides a rigorous account of how evidence confirms or disconfirms hypotheses and makes the influence of priors explicit. Its limits include: dependence on well-specified hypothesis spaces (hard for novel theories), sensitivity to prior choice, computational intractability for complex models, and ongoing philosophical debate about the objectivity of priors. It is less directly applicable to qualitative or purely conceptual analysis.",
+  "source_summary": "Bayesian Epistemology formalizes the idea, traced to Thomas Bayes's posthumous 1763 essay and Laplace's subsequent work, that rational credences are probabilities updated by conditionalization. The Stanford Encyclopedia of Philosophy entries on Bayesian Epistemology and Bayes's Theorem (plato.stanford.edu/entries/epistemology-bayesian/, plato.stanford.edu/entries/bayes-theorem/) survey the formalism, Dutch Book arguments for coherence, confirmation theory, and the subjective/objective debate. Rudolf Carnap's inductive logic, F.P. Ramsey's subjective probability, and L.J. Savage's decision theory are major 20th-century developments. Contemporary Bayesian epistemology engages with the problem of priors, convergence theorems, Bayesian networks, and applications in machine learning and philosophy of science, including the Bayesian explication of Occam's Razor through marginal likelihoods.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Bayesian Epistemology (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/epistemology-bayesian/"
+    },
+    {
+      "kind": "secondary",
+      "title": "Bayes's Theorem (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/bayes-theorem/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Bayesian epistemology (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bayesian_epistemology"
+    }
+  ],
+  "version": 1
+}

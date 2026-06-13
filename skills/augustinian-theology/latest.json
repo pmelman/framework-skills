@@ -1,0 +1,94 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Augustine would identify this as the phenomenology of inquietudo: the person has made career achievement their summum bonum, but finite goods cannot satisfy a heart made for the infinite. The emptiness is not a psychological malfunction but a theological signal — the disordered love (cupiditas) that treated success as ultimate is now revealing its inadequacy. The Augustinian prescription is not to abandon work but to re-order love: to receive work as a penultimate good in service of deeper goods (neighbor, vocation, God), so that its achievements and disappointments alike are held lightly.",
+      "problem": "A successful professional finds that after achieving every career goal, they feel empty and anxious, unable to enjoy what they worked for."
+    },
+    {
+      "analysis": "Augustine would apply the two-cities analysis and the libido dominandi diagnosis. The rhetoric of 'freedom' and 'order' may mask the City of Man's characteristic desire for domination and glory. True justice is nearly impossible to achieve in earthly politics (vera iustitia is an eschatological reality); what earthly states can achieve is approximate peace through restrained force. The Augustinian analyst asks: is this action ordered toward genuine common good and approximate peace, or is it a civilized expression of the lust to dominate? The clue lies in whether the nation applies the same standards to itself that it applies to others.",
+      "problem": "A nation justifies aggressive foreign policy by claiming it is spreading freedom and order to ungoverned regions."
+    }
+  ],
+  "core_claims": [
+    "The human heart is restless until it rests in God (cor nostrum inquietum est donec requiescat in te): all human striving is a displaced longing for the divine.",
+    "Original sin has wounded the human will (concupiscence), making it prone to disordered love — loving lesser goods as if they were the highest good.",
+    "Grace is sovereign: human beings cannot achieve salvation, moral wholeness, or even sustained virtue without the prior and unmerited gift of divine grace.",
+    "History is the unfolding drama of two cities — the City of God (civitas Dei), ordered by love of God, and the City of Man (civitas terrena), ordered by self-love — which are intermingled until the final judgment.",
+    "Evil has no positive ontological substance; it is privatio boni, the privation or absence of good — a distortion or diminishment rather than a co-equal force.",
+    "True justice, virtue, and peace are only fully realized in God; earthly political orders produce at best an imperfect, approximate peace."
+  ],
+  "description": "Augustinian Theology is the systematic theological vision of Augustine of Hippo (354–430 CE), centering on the radical dependence of all creation on God, the corruption of human nature by original sin, the sovereignty of divine grace, and the pilgrimage of the soul (and the City of God) through history toward its rest in God. It provides a framework for analyzing human motivation, social life, history, and suffering through the lens of disordered love (cupiditas) versus ordered love (caritas).",
+  "domains": [
+    "theology",
+    "christianity",
+    "ethics",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Fatalistic passivity: reading Augustine's emphasis on grace and the fallenness of earthly orders as a warrant for political quietism or abandonment of reform, when Augustine himself engaged actively with social and ecclesiastical problems.",
+    "Ecclesial triumphalism: identifying the institutional Church straightforwardly with the City of God, when Augustine explicitly said the two cities are intermingled and the Church contains both wheat and tares.",
+    "Neglecting the created goodness of earthly things: treating all finite goods as mere temptations or illusions, rather than real goods that are genuinely good but not ultimate."
+  ],
+  "key_vocabulary": {
+    "Caritas": "Ordered love: love properly directed toward God above all and toward neighbor and self in relation to God; the foundation of virtue.",
+    "City of God (Civitas Dei)": "The community of those who love God above all; its earthly form is the Church on pilgrimage; its heavenly form is the eternal community.",
+    "City of Man (Civitas Terrena)": "The community ordered by self-love and the lust for domination (libido dominandi); approximated by earthly political orders.",
+    "Cupiditas": "Disordered love: love turned away from God toward lesser goods as ultimate ends; the root of sin and social disorder.",
+    "Privatio boni": "Evil as privation of good; evil is not a substance but a lack or distortion of the goodness proper to a being.",
+    "Restlessness (Inquietudo)": "The condition of the soul that has not yet found its rest in God; the phenomenological signature of misplaced love."
+  },
+  "name": "Augustinian Theology",
+  "operative_procedure": [
+    "Diagnose the love disorder. Identify what the person, institution, or situation is treating as its ultimate good. Is it ordered toward God and genuine flourishing, or toward a finite good (security, reputation, power, pleasure) treated as ultimate?",
+    "Apply the privatio boni analysis to suffering or evil. Where evil, suffering, or failure is present, ask: what good is being distorted, diminished, or absent? Avoid treating evil as an independent force; trace it to what is lacking.",
+    "Map the two-cities tension. In social or political problems, identify which impulses reflect caritas (genuine service, justice, common good) and which reflect cupiditas or libido dominandi (domination, self-aggrandizement, zero-sum competition).",
+    "Assess the role of grace and limits of will. Where willpower, discipline, or institutional reform is proposed as the solution, ask: does this account for the structural wound of disordered desire? What external aid, community, or conversion is needed that effort alone cannot supply?",
+    "Situate in the pilgrim narrative. Place the problem in its temporal frame: this is a situation on the way (in via), not yet at the final end (in patria). What partial, approximate goods are realistically achievable now? What awaits final resolution?",
+    "Synthesize. Offer an Augustinian reading that names the disordered love at the root, identifies what genuine goods are at stake, prescribes the re-ordering of love (whether through community, prayer, conversion, or structural reform), and maintains appropriate humility about earthly outcomes."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Thomistic Natural Law",
+      "Ignatian Discernment"
+    ],
+    "descendants": [
+      "Thomistic Natural Law",
+      "Just War Theory",
+      "Ignatian Discernment"
+    ],
+    "related": [
+      "Thomistic Natural Law",
+      "Just War Theory",
+      "Liberation Theology"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Augustinian Theology is especially powerful for diagnosing hidden idolatry, the psychology of disordered desire, the limits of political utopianism, and the phenomenology of spiritual restlessness. It is less well-suited to generating specific policy prescriptions or detailed ethical casuistry (where Thomistic Natural Law is stronger). It can be misread as endorsing pessimism about history rather than a chastened but genuine hope.",
+  "source_summary": "Augustine of Hippo's two towering works — the Confessions (397–400 CE) and The City of God (413–426 CE) — constitute the primary sources for Augustinian theology. The Confessions develops the psychology of restless desire and the narrative of conversion; The City of God provides his political theology, philosophy of history, and theodicy. Peter Brown's intellectual biography (1967, revised 2000) remains the standard modern account. The Stanford Encyclopedia of Philosophy entry on Augustine covers his epistemology, ethics, and political thought. Augustine's influence on Western Christianity (both Catholic and Protestant) is so pervasive that most subsequent Christian theology is in some sense a response to or development of his positions.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Augustine, Confessions (397–400 CE)"
+    },
+    {
+      "kind": "primary",
+      "title": "Augustine, The City of God (413–426 CE)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Augustine — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "secondary",
+      "title": "Peter Brown, Augustine of Hippo: A Biography (1967)"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Dependent origination analysis: the cycle is not simply a character flaw but a conditioned chain. Tracing backward: overwork (the presenting phenomenon) arises from commitments and habits (becoming); those arise from clinging (to identity as 'productive person,' to approval); that clinging arises from craving (for validation, status, security); that craving arises from feeling-tone (the pleasant feeling of accomplishment and the aversive feeling of inadequacy); those feelings arise from contact with stimuli (work demands, colleague recognition); contact arises from the sense bases; the sense bases from the whole psychophysical organism shaped by prior formations. The critical intervention: craving/clinging level — the identity structure driving overwork. 'Intending to change' targets behavior (a downstream link) without addressing the upstream conditions (ignorance of the causal chain, craving for validation). The analysis points to working on the craving and view level, not just scheduling.",
+      "problem": "A person keeps finding themselves in cycles of overwork, burnout, recovery, and overwork again, and cannot understand why they keep repeating the pattern despite intending to change."
+    },
+    {
+      "analysis": "Dependent origination rejects the premise of a single causal origin. The question 'who started it?' assumes that one entity caused the conflict independently — but the conflict arose from a web of interdependent conditions: historical grievances, communication failures, structural inequities, reactive patterns on both sides, and perhaps external pressures. Mapping the conditions (not the 'blame') reveals multiple intervention points. Cessation path: which conditions, if removed or addressed, would reduce the ongoing momentum of the conflict? These are likely structural and communicative rather than simply a matter of one party capitulating.",
+      "problem": "A community conflict has escalated to a point where each side accuses the other of being the cause of the problem."
+    }
+  ],
+  "core_claims": [
+    "No phenomenon — mental or physical — exists independently; all arise in dependence on a web of conditions (pratyaya) and causes (hetu).",
+    "The twelve-link chain (nidana) traces the origination of suffering from ignorance (avijja) through formations, consciousness, name-and-form, the six sense bases, contact, feeling, craving, clinging, becoming, birth, and aging-and-death.",
+    "The doctrine is not deterministic: understanding the causal chain enables intervention — removing the originating condition (ignorance, craving) breaks the chain.",
+    "Dependent origination entails non-self (anatta): since the 'self' arises dependently, there is no fixed, independent self-entity — only a process.",
+    "In Madhyamaka philosophy (Nagarjuna), dependent origination and emptiness (sunyata) are equivalent: to say a thing arises dependently is to say it lacks intrinsic existence.",
+    "The doctrine applies across three time-scales: moment-to-moment mental arising (cittuppada), within a single life, and across lifetimes in the full twelve-link account."
+  ],
+  "description": "Dependent Origination (Pali: paticca-samuppada; Sanskrit: pratityasamutpada) is the Buddhist doctrine that all phenomena arise in dependence on conditions — nothing exists independently, permanently, or by its own essence. The classical formulation is a twelve-link chain tracing how ignorance gives rise, through a series of conditioned steps, to the full cycle of suffering and rebirth. More broadly, it is a universal causal principle: 'When this exists, that comes to be; with the arising of this, that arises. When this does not exist, that does not come to be; with the cessation of this, that ceases.'",
+  "domains": [
+    "buddhism",
+    "metaphysics",
+    "causality",
+    "liberation"
+  ],
+  "failure_modes": [
+    "Causal infinitism: using dependent origination to defer action indefinitely because every condition has prior conditions — the analysis should identify tractable intervention points, not generate infinite regress.",
+    "Fatalism: misreading conditionality as determinism — since conditions produce outcomes, nothing can be changed. This inverts the doctrine; the whole point is that changing conditions changes outcomes.",
+    "Reductionism: applying only the twelve-link chain in its literal rebirth-cosmological sense and missing the moment-to-moment psychological application, which is the most practically useful register."
+  ],
+  "key_vocabulary": {
+    "Avijja": "Ignorance — the first link; specifically, not knowing the Four Noble Truths; the root condition from which the entire chain of suffering unfolds.",
+    "Nidana": "A link or condition in the twelve-link chain; each of the twelve steps from ignorance to death-and-sorrow is a nidana.",
+    "Paticca-samuppada": "Dependent origination — the universal principle of conditioned co-arising; phenomena arise in dependence on conditions and cease when conditions cease.",
+    "Sankhara": "Mental formations or volitional formations — the second link; karma-generating mental activities conditioned by ignorance that in turn condition consciousness.",
+    "Sunyata": "Emptiness — in Madhyamaka, the metaphysical equivalent of dependent origination: that which arises dependently lacks intrinsic own-nature (svabhava).",
+    "Tanha": "Craving — the eighth link, and the critical intervention point; where craving is loosened, the remaining links (clinging, becoming, birth, death) lose their momentum."
+  },
+  "name": "Dependent Origination",
+  "operative_procedure": [
+    "Identify the presenting phenomenon. Name the situation, problem, or suffering clearly — this is the 'that' in the formula 'when this exists, that comes to be.' Treat it as a conditioned arising, not a fixed fact.",
+    "Trace the conditions backward. Ask: what conditions give rise to this phenomenon? Work upstream from the presenting problem through its enabling conditions — do not stop at the first causal level. Apply the chain: what had to be true for this to arise?",
+    "Locate the critical intervention links. Not all links are equally accessible. Find the conditions that are (a) most causally potent, and (b) most within reach of change. In the twelve-link model, craving (tanha) and ignorance (avijja) are primary targets; in practical situations, map these to the specific cognitive or behavioral conditions at play.",
+    "Model the forward chain. If nothing changes, where do current conditions lead? Project the consequences of maintained conditions forward — 'with the arising of this, that arises.' Use this to make the cost of inaction concrete.",
+    "Identify the cessation path. Apply the reverse formula: 'with the cessation of this, that ceases.' For each critical condition identified, ask what its cessation would require and what downstream effects its removal would produce.",
+    "Synthesize a causal map and leverage strategy. Produce an account of the problem as a web of conditions, identify the highest-leverage intervention points, and formulate a response that addresses root conditions rather than symptoms — making explicit that removing the condition removes the problem, not merely managing it."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Four Noble Truths",
+      "The Middle Way",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Lojong"
+    ],
+    "related": [
+      "Four Noble Truths",
+      "The Noble Eightfold Path",
+      "The Middle Way",
+      "Systems Thinking"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Dependent origination is exceptionally powerful for understanding how situations, mental states, and systemic problems are produced by webs of conditions rather than single causes or essential properties. It corrects both magical thinking (things just are as they are) and simple linear causation (X caused Y). It is less suited to normative questions — it describes how things arise but does not by itself say which conditions are worth cultivating; that requires the Four Noble Truths and the Eightfold Path to orient the analysis toward liberation. It also does not directly address resource allocation or strategic prioritization; it identifies conditions, but judgment about which to address requires other frameworks.",
+  "source_summary": "Dependent origination (paticca-samuppada) is one of the most fundamental and universally attested doctrines across all Buddhist schools. The twelve-link chain is analyzed in detail in the Nidana-samyutta of the Samyutta Nikaya (SN 12), particularly the Paticca-samuppada-vibhanga Sutta (SN 12.2). The Kaccayanagotta Sutta (SN 12.15) explicitly links it to the Middle Way. Nagarjuna's Mulamadhyamakakarika (c. 2nd century CE) built its entire metaphysics on identifying dependent origination with emptiness, arguing in chapter 24 that 'whatever is dependently co-arisen, that is explained to be emptiness.' All major Buddhist traditions — Theravada, Madhyamaka, Yogacara, Zen, and Tibetan — affirm dependent origination as central, though they interpret its implications differently.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Paticca-samuppada-vibhanga Sutta (SN 12.2) — analysis of the twelve links"
+    },
+    {
+      "kind": "primary",
+      "title": "Kaccayanagotta Sutta (SN 12.15) — dependent origination and the Middle Way"
+    },
+    {
+      "kind": "primary",
+      "title": "Nagarjuna, Mulamadhyamakakarika Chapter 26 — dependent origination and liberation"
+    },
+    {
+      "kind": "secondary",
+      "title": "Bhikkhu Bodhi, 'The Connected Discourses of the Buddha' (Wisdom Publications, 2000) — SN Nidana-vagga"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: Buddhist Philosophy of No-Self"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Pratītyasamutpāda"
+    }
+  ],
+  "version": 1
+}

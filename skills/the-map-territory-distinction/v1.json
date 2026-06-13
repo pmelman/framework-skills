@@ -1,0 +1,96 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Lines of code is a map for productivity. When the metric was introduced, people optimized for the map rather than the territory (actual valuable output). The map omitted code quality, maintainability, and business impact — features of the territory that matter far more. This is Goodhart's Law as a map-territory failure: once a measure becomes a target, it ceases to be a good measure. The fix is to return to the territory (what outputs actually matter?) and build a richer, harder-to-game map.",
+      "problem": "A company tracks employee productivity via lines of code written per day. Engineers start gaming the metric, producing verbose, inefficient code to hit targets while actual product quality deteriorates."
+    },
+    {
+      "analysis": "Both sides are using the same word ('freedom') as a map, but they are pointing at different territories — negative liberty (freedom from interference) vs. positive liberty (freedom to achieve real capabilities). The apparent contradiction dissolves when the map-territory distinction is applied: the word is the same but the territories are different. Productive dialogue requires each side to specify what they mean concretely — to descend the abstraction ladder to observable states of affairs — rather than fighting over the label.",
+      "problem": "Two political factions both claim to be defending 'freedom.' Their policy prescriptions are diametrically opposed, and each accuses the other of bad faith."
+    }
+  ],
+  "core_claims": [
+    "Any representation of reality (map) is a selective, lossy abstraction of the actual state of affairs (territory); it captures some features and necessarily omits others.",
+    "The map is not the territory: no model, theory, concept, or word is identical to the thing it represents, and treating it as such produces predictable errors.",
+    "All maps have a purpose and a scale; a map that is useful for one purpose will be misleading at a different scale or for a different question.",
+    "Humans are prone to 'semantic reactions' in which they respond to the word or model as if it were the thing itself, generating confusion and conflict.",
+    "Good epistemic hygiene requires continually checking back against the territory: updating maps when they diverge from new observations rather than defending the map against reality.",
+    "Every observer's map is conditioned by their prior experiences, language, culture, and cognitive architecture — there is no view from nowhere."
+  ],
+  "description": "The Map-Territory Distinction is the epistemological principle, originating with Alfred Korzybski's dictum 'the map is not the territory,' that any model, concept, theory, or representation of reality is necessarily an abstraction that omits, distorts, or simplifies the territory it depicts — and that confusing the map with the territory generates systematic errors in reasoning and action. The distinction is foundational to critical thinking about models, language, and cognition.",
+  "domains": [
+    "epistemology",
+    "rationality",
+    "systems-thinking",
+    "cognitive-science"
+  ],
+  "failure_modes": [
+    "Paralytic skepticism: using the map-territory distinction as a generic defeater ('that's just a model') to avoid engaging with any framework, rather than asking whether the map is good enough for the purpose at hand.",
+    "Infinite regress: insisting on direct access to 'the territory' as if unmediated perception were possible, ignoring that all observation is theory-laden and all 'territory' is itself accessed through perceptual and conceptual maps.",
+    "Neglecting pragmatic adequacy: treating all maps as equally deficient because none is the territory, rather than evaluating maps by their fitness for purpose — a road map doesn't need to show geology to be a good road map."
+  ],
+  "key_vocabulary": {
+    "Abstraction Ladder": "S.I. Hayakawa's extension of Korzybski: a hierarchy from concrete specifics (this particular cow) to abstract generalities ('livestock,' 'wealth'), where moving up the ladder loses detail and moving down gains it.",
+    "Map": "Any representation, model, theory, concept, belief, or word that stands in for some portion of reality; to be evaluated by its accuracy and fitness for purpose.",
+    "Model Error": "The class of mistakes arising when a map's built-in assumptions, omissions, or distortions cause predictions or decisions to go wrong in the territory.",
+    "Semantic Reaction": "Korzybski's term for an automatic emotional or behavioral response to a word or symbol as if it were the thing itself, bypassing verification against reality.",
+    "Structural Differential": "Korzybski's diagram illustrating the hierarchy from event (submicroscopic process) to object to verbal description, showing at each level what is retained and what is abstracted away.",
+    "Territory": "The actual state of affairs, independent of any particular representation — the referent that maps attempt to describe."
+  },
+  "name": "The Map-Territory Distinction",
+  "operative_procedure": [
+    "Identify the maps in play. For the user's problem, enumerate all the representations being used: models, categories, theories, labels, metrics, plans, narratives. Make explicit what each map claims about the territory.",
+    "Locate the territory. Ask: what is the actual referent? What observable facts, behaviors, or states of affairs does each map purport to represent? Where is the map being applied, and is that the domain it was built for?",
+    "Find the gaps and distortions. For each map, ask: what does this representation omit? What assumptions or simplifications are built into it? What features of the territory are invisible at this map's resolution or scale?",
+    "Check for map-territory conflation. Identify where in the user's reasoning (or in the conflict being analyzed) the map is being treated as the territory: where categories are being mistaken for natural kinds, where labels are driving responses rather than observed realities, where the model's elegance is substituting for empirical verification.",
+    "Update maps against territory. Where the territory diverges from the current map, recommend revising the map rather than dismissing the observations. Distinguish a good map that needs revision from a bad one that should be discarded.",
+    "Synthesize. Produce a clearer picture of which maps are reliable guides in this situation, which are misleading, and what additional grounding in the territory would reduce the risk of model error in the user's decision or analysis."
+  ],
+  "relationships": {
+    "ancestors": [
+      "General Semantics",
+      "Pragmatism"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Bayesian Epistemology",
+      "Counterfactual Reasoning",
+      "Thought Experiments"
+    ],
+    "descendants": [
+      "Model Theory",
+      "Goodhart's Law"
+    ],
+    "related": [
+      "Systems Thinking",
+      "Bayesian Epistemology",
+      "Fallacy Analysis",
+      "First Principles"
+    ],
+    "rivals": [
+      "Naive Realism",
+      "Strong Social Constructivism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Map-Territory Distinction is broadly applicable wherever models, metrics, categories, or theories are used to navigate reality — science, management, politics, medicine, law. It is a meta-level epistemic heuristic rather than a first-order theory: it diagnoses a class of errors but does not by itself specify what the correct map should be. Its strength is in prompting model-checking and humility; its limitation is that it can generate vague skepticism without specifying what a better map would look like.",
+  "source_summary": "The phrase 'the map is not the territory' originates with Alfred Korzybski, who presented it in a 1931 paper and developed it fully in Science and Sanity (1933), the foundational text of General Semantics. Korzybski's project was to bring the precision of scientific modeling to everyday language and thought, warning against 'semantic reactions' to symbols treated as if they were the things themselves. S.I. Hayakawa popularized the ideas, especially the abstraction ladder, in Language in Thought and Action (1949). The dictum has been independently rediscovered in many traditions: statistician George Box's aphorism 'all models are wrong, but some are useful' (1976) expresses the same insight in scientific modeling. The distinction informs contemporary epistemic humility in philosophy of science, decision theory, and cognitive science.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Alfred Korzybski, Science and Sanity: An Introduction to Non-Aristotelian Systems and General Semantics (1933)"
+    },
+    {
+      "kind": "secondary",
+      "title": "S.I. Hayakawa, Language in Thought and Action (1949)"
+    },
+    {
+      "kind": "secondary",
+      "title": "George Box, 'Science and Statistics,' Journal of the American Statistical Association (1976)"
+    }
+  ],
+  "version": 1
+}

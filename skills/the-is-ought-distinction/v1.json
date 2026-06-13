@@ -1,0 +1,102 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This argument moves from a descriptive evolutionary claim ('humans evolved to be hierarchical') to a normative conclusion ('we should not eliminate hierarchy'). Applying the is-ought distinction: the premises are factual; the conclusion is normative; the argument is invalid without a suppressed premise. The suppressed premise is something like 'whatever is natural or evolutionarily selected is morally good or should be preserved.' That premise needs independent justification — and it faces devastating counterexamples (disease, violence, and early death are also natural). The argument fails unless the normative premise is defended.",
+      "problem": "An evolutionary psychologist argues: 'Humans evolved to be hierarchical and competitive. Therefore, social hierarchy is natural and we should not try to eliminate it.'"
+    },
+    {
+      "analysis": "The premise is a descriptive empirical claim about deterrence. The conclusion is normative. The argument is invalid without a suppressed premise such as 'the only justification for capital punishment is deterrence' or 'punishment is only justified if it reduces crime better than alternatives.' If those normative premises are made explicit, they become the real site of moral debate — and there are other normative arguments for and against capital punishment (retribution, dignity, irreversibility) that the empirical premise alone cannot resolve.",
+      "problem": "A policy advocate argues: 'Studies show that capital punishment does not deter crime more than life imprisonment. Therefore, capital punishment is wrong.'"
+    }
+  ],
+  "core_claims": [
+    "Descriptive premises (what is the case) cannot by themselves entail normative conclusions (what ought to be the case) — the logical gap between 'is' and 'ought' is unbridgeable by facts alone.",
+    "Any argument from purely factual premises to a moral conclusion is either invalid or contains a suppressed normative premise.",
+    "The distinction demands that normative premises in moral arguments be made explicit rather than smuggled in as apparent facts.",
+    "Hume's observation applies universally: naturalistic, evolutionary, theological, and social arguments all commit the is-ought gap if they move from facts directly to norms.",
+    "The naturalistic fallacy (G.E. Moore's related but distinct point) is the error of defining moral goodness in terms of natural properties; both highlight the logical autonomy of moral discourse.",
+    "Identifying the gap does not preclude moral reasoning — it demands that it be explicit about its normative premises."
+  ],
+  "description": "The Is-Ought Distinction, identified by David Hume in the Treatise of Human Nature (1739), is the logical observation that normative conclusions ('ought' claims) cannot be validly derived from purely descriptive premises ('is' claims) alone. Any argument that moves from facts about the world to moral obligations requires at least one normative premise, and the failure to acknowledge this gap is a persistent error in moral reasoning.",
+  "domains": [
+    "metaethics",
+    "logic",
+    "epistemology",
+    "philosophy-of-science"
+  ],
+  "failure_modes": [
+    "Misusing the gap to dismiss moral argument entirely: the is-ought distinction shows that purely factual premises are insufficient for moral conclusions, not that moral reasoning is impossible — it requires, not forbids, explicit normative premises.",
+    "Applying it too broadly as a conversation-stopper: demanding infinite regress of normative justification ('but why ought we value X?') can stall legitimate moral reasoning rather than improve it.",
+    "Conflating with the naturalistic fallacy: the is-ought gap is a logical observation about argument structure; Moore's naturalistic fallacy is a separate (and disputed) metaethical claim about the undefinability of 'good'."
+  ],
+  "key_vocabulary": {
+    "Descriptive claim": "A statement about what is the case, in principle verifiable by empirical observation (e.g., 'humans evolved to be competitive').",
+    "Fact-value distinction": "The broader philosophical divide between factual and evaluative claims, of which the is-ought gap is the logical expression.",
+    "Is-ought gap": "Hume's observation of the logical discontinuity between descriptive statements about what is the case and normative statements about what ought to be the case.",
+    "Naturalistic fallacy": "G.E. Moore's term (related but distinct) for the error of identifying moral goodness with any natural property (e.g., 'good = pleasurable'); both it and the is-ought gap concern the irreducibility of normative claims.",
+    "Normative claim": "A statement about what ought to be the case, what is valuable, or what is right or wrong — not directly verifiable by observation alone.",
+    "Suppressed normative premise": "The hidden normative assumption that must be present for an argument to be valid when its stated premises are purely descriptive and its conclusion is normative."
+  },
+  "name": "The Is-Ought Distinction",
+  "operative_procedure": [
+    "Identify the conclusion. Determine whether the argument's conclusion is normative (what should be done, what is valuable, what is right) or purely descriptive. If normative, the is-ought distinction is engaged.",
+    "Audit the premises. List every premise of the argument. Classify each as purely descriptive (factual, empirical, scientific) or normative (value-laden, prescriptive). Note any ambiguous premises carefully.",
+    "Check for an illicit inference. Ask: can the normative conclusion follow validly from the descriptive premises alone? If the premises are all descriptive, no normative conclusion follows — there is an is-ought gap.",
+    "Surface the suppressed normative premise. Identify what normative premise would be needed to make the argument valid. State it explicitly (e.g., 'natural processes are morally good', 'whatever promotes survival is right', 'God's commands create obligations').",
+    "Evaluate the normative premise on its own merits. Now that the hidden normative premise is explicit, subject it to independent moral scrutiny. Is it well-supported? Does it beg the question? Does it cohere with other considered moral judgments?",
+    "Synthesize. Reconstruct the argument in valid form — descriptive premises plus explicit normative premise — and assess its overall strength. Note where the real moral work is being done (always in the normative premise) and what challenge that premise faces."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Humean Empiricism",
+      "Skepticism about Moral Rationalism",
+      "Logical Positivism (Ayer)"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "First Principles",
+      "Principle of Charity"
+    ],
+    "descendants": [
+      "Non-cognitivism (Ayer/Stevenson)",
+      "Expressivism (Blackburn/Gibbard)",
+      "Quasi-realism"
+    ],
+    "related": [
+      "Kantian Deontology",
+      "Utilitarianism",
+      "Reflective Equilibrium",
+      "Pragmatism"
+    ],
+    "rivals": [
+      "Moral Naturalism",
+      "Moral Realism",
+      "Divine Command Theory"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Is-Ought Distinction is a universal logical tool applicable to any moral, political, or practical argument that moves from facts to values. It is strongest as a critical diagnostic — exposing hidden normative premises in naturalistic, theological, evolutionary, and social arguments. It is also indispensable in policy analysis for distinguishing empirical from normative disagreements. Its limit is purely diagnostic: it tells you where the normative work is being done but does not by itself tell you what the correct normative premises are or how to adjudicate between rival ones.",
+  "source_summary": "The is-ought gap was identified by David Hume in Book III, Part I, Section I of 'A Treatise of Human Nature' (1739–40), where he observed that moral writers insensibly pass from 'is' to 'ought' without explaining how this transition is made. The passage generated centuries of philosophical debate about whether the gap is logically absolute or can be bridged via analytic connections. G.E. Moore's related 'naturalistic fallacy' (Principia Ethica, 1903) argued separately that 'good' is indefinable in natural terms. The gap became a touchstone of metaethics in the twentieth century, informing non-cognitivism (Ayer, Stevenson), expressivism (Blackburn, Gibbard), and debates about moral realism and naturalism. W.D. Hudson's edited volume 'The Is-Ought Problem' (1969) assembles the key texts.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "A Treatise of Human Nature (1739–40), Book III, Part I, Section I — David Hume"
+    },
+    {
+      "kind": "secondary",
+      "title": "Principia Ethica (1903), Chapter I — G.E. Moore (the naturalistic fallacy)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Hume's Moral Philosophy'"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Is-Ought Problem — W.D. Hudson (ed.)"
+    }
+  ],
+  "version": 1
+}

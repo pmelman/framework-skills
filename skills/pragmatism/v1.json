@@ -1,0 +1,101 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The pragmatist applies the pragmatic maxim: if the two theories make no different predictions and suggest no different research directions, there is no practical cash value to debating their metaphysical truth. The meaningful question is which is more fruitful as a research instrument. If one opens up new lines of inquiry or simplifies calculation, it should be preferred — not because it is 'more true' in some correspondence sense, but because it is more useful. This is instrumentalism applied to scientific theory choice.",
+      "problem": "Two scientific theories make identical predictions about all known experiments but differ in their ontological claims about unobservable entities. Does it matter which is true?"
+    },
+    {
+      "analysis": "A pragmatist approach sets aside theoretical arguments and asks: what are the concrete expected outcomes? What is the track record of this framework in similar organizations? Run a structured pilot in one unit, observe measurable outcomes (morale, productivity, coordination), and revise the theory of the framework based on results. Commit to broader adoption only if the evidence warrants it. The framework is a hypothesis, not a doctrine.",
+      "problem": "An organization is debating whether to adopt a new management framework. Advocates make strong theoretical arguments; critics are skeptical."
+    }
+  ],
+  "core_claims": [
+    "The meaning of a concept or belief is exhausted by its practical consequences — its cash value in experience and action (Peirce's pragmatic maxim).",
+    "Truth is not a static correspondence with reality but what works in practice: what proves durable, fruitful, and coherent in the long run of inquiry.",
+    "Beliefs are instruments for acting in the world, not pictures of it; they are to be evaluated by how well they guide action and solve problems.",
+    "Inquiry is a social and self-correcting process: communities of inquirers converge on truth through continued testing, revision, and dialogue.",
+    "There is no sharp fact/value distinction: scientific and ethical claims are both subject to the same pragmatic scrutiny and revision.",
+    "Philosophy should be continuous with science and practice, addressing concrete human problems rather than purely abstract metaphysical puzzles."
+  ],
+  "description": "Pragmatism is a philosophical tradition originating with Charles Sanders Peirce, William James, and John Dewey that evaluates beliefs, theories, and meanings by their practical consequences and problem-solving utility. It rejects the idea that truth is a correspondence to mind-independent reality, instead treating truth as what works — what proves fruitful, coherent, and useful in guiding inquiry and action.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-science",
+    "ethics",
+    "philosophy-of-language"
+  ],
+  "failure_modes": [
+    "Conflation of 'works' with 'convenient' or 'currently believed': if 'what works' means 'what works for the dominant group right now,' pragmatism can ratify injustice as pragmatically successful.",
+    "Anti-theoretical bias: the emphasis on practical consequences can lead to under-valuing theoretical work whose payoffs are long-term or indirect, impoverishing the intellectual culture that enables later practical progress.",
+    "Relativism: if truth is just what works for a given community, pragmatism risks collapsing into relativism — different communities could have incompatible 'truths' with no standard for adjudicating between them."
+  ],
+  "key_vocabulary": {
+    "Cash value": "James's metaphor for the practical, experiential difference a belief makes — a belief with no cash value (no difference in experience or action) is meaningless.",
+    "Fallibilism": "The view that all our beliefs — including scientific ones — are subject to revision in light of new evidence or better arguments; certainty is never final.",
+    "Instrumentalism": "Dewey's view that concepts, theories, and ideas are tools (instruments) for solving problems, not representations of fixed reality.",
+    "Meliorism": "The pragmatist commitment to the belief that the world can be made better through human effort and intelligent inquiry — a middle position between optimism and pessimism.",
+    "Pragmatic maxim": "Peirce's principle: 'Consider what effects, that might conceivably have practical bearings, we conceive the object of our conception to have. Then, our conception of these effects is the whole of our conception of the object.'",
+    "Warranted assertibility": "Dewey's preferred replacement for 'truth': a claim is warrantedly assertible if it has been established through rigorous inquiry and withstands scrutiny from the community of inquirers."
+  },
+  "name": "Pragmatism",
+  "operative_procedure": [
+    "Clarify the practical stakes. Apply the pragmatic maxim: what concrete difference to experience, action, or outcomes does the question at hand make? Strip away any metaphysical formulations that have no practical consequences.",
+    "Identify what is working and what is not. Treat the current situation as a problem to be solved. What beliefs, strategies, or frameworks have produced good outcomes so far? Where are the recurring failures, blockages, or inadequacies in current thinking?",
+    "Generate candidate solutions as hypotheses. Formulate alternative approaches, principles, or beliefs as testable hypotheses about what will work better. Avoid treating any single framework as fixed; all are provisional instruments.",
+    "Test consequences through inquiry. Ask of each candidate: what would follow in practice if this approach were adopted? What evidence, experience, or experiment would distinguish successful from unsuccessful approaches? Where possible, test small before committing fully.",
+    "Revise in light of results. Adopt the approach that proves most fruitful and durable in practice; be willing to revise or abandon approaches that fail, regardless of their theoretical elegance or prior authority.",
+    "Synthesize. Articulate the most warranted practical response — the course of action that best survives testing against reality — while acknowledging its provisional status and identifying what would trigger further revision."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Empiricism (Hume/Mill)",
+      "Darwinism",
+      "American Transcendentalism"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "First Principles",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Neopragmatism (Rorty/Putnam)",
+      "Instrumentalism",
+      "Naturalized Epistemology"
+    ],
+    "related": [
+      "Bayesian Epistemology",
+      "Systems Thinking",
+      "Decision Theory"
+    ],
+    "rivals": [
+      "Kantian Deontology",
+      "Foundationalism",
+      "Rationalism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Pragmatism is strongest in applied inquiry, organizational problem-solving, scientific methodology, and policy evaluation — contexts where the question is 'does this approach actually work?' and where feedback from experience is available. It is a powerful antidote to empty scholasticism and paralysis by metaphysical debate. It is weakest in contexts requiring clear moral constraints that must hold regardless of outcomes (where Kantian deontology is needed), and where 'what works' is contested among parties with different interests, requiring a prior account of fairness.",
+  "source_summary": "Pragmatism was founded by Charles Sanders Peirce, whose 1878 paper 'How to Make Our Ideas Clear' introduced the pragmatic maxim. William James popularized and extended the doctrine in 'Pragmatism' (1907), applying it to truth, religion, and metaphysics. John Dewey developed the most comprehensive pragmatist system — instrumentalism — in works including 'Experience and Nature' (1925) and 'Logic: The Theory of Inquiry' (1938), applying pragmatist ideas to education, democracy, and science. The tradition was revived in the late twentieth century by Richard Rorty ('Philosophy and the Mirror of Nature', 1979) and Hilary Putnam, who developed neo-pragmatist positions on truth, realism, and ethics.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "How to Make Our Ideas Clear (1878) — Charles Sanders Peirce"
+    },
+    {
+      "kind": "primary",
+      "title": "Pragmatism: A New Name for Some Old Ways of Thinking (1907) — William James"
+    },
+    {
+      "kind": "primary",
+      "title": "Experience and Nature (1925) — John Dewey"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Pragmatism'"
+    }
+  ],
+  "version": 1
+}

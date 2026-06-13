@@ -1,0 +1,96 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The extremes are: (1) rigid ascetic self-denial enforced by self-mortification — every lapse is proof of worthlessness; (2) indulgence rationalized as natural — the harm is minimized or denied. Both extremes fail. The Middle Way asks: what actually leads to wellbeing and reduces suffering? The middle is not 'moderate drinking' (that may be a genuine medical contra-indication) — it is a compassionate, consistent, pragmatically informed approach to recovery that avoids both the punishing rigidity of extreme 1 and the self-deception of extreme 2. The middle is determined by what works, not by splitting the difference between extremes.",
+      "problem": "A person recovering from addiction swings between total abstinence with harsh self-judgment when they lapse, and periodic binge drinking justified as 'balance.' They feel trapped between two bad options."
+    },
+    {
+      "analysis": "Eternalism/rigidity pole: strict processes as if the org were a machine with fixed parts. Nihilism/dissolution pole: full autonomy as if structure itself were the problem. The Middle Way: neither 'processes are inherently good' nor 'processes are inherently bad' — processes arise dependently (sunyata of management theory). What works depends on team maturity, task type, and organizational context. The middle is a context-sensitive, empirically adjusted approach that holds both clarity of expectations (legitimate structure) and genuine creative latitude (legitimate autonomy) without treating either as absolute.",
+      "problem": "A manager cannot decide whether to establish strict processes and metrics (risk: stifling creativity, micromanagement) or to give teams full autonomy (risk: chaos, lack of accountability)."
+    }
+  ],
+  "core_claims": [
+    "Extreme positions — whether in conduct, belief, or metaphysics — generate suffering and obscure truth; a middle orientation is both more accurate and more liberating.",
+    "The original formulation identifies two behavioral extremes: devotion to sensual pleasure (kama-sukha-llikanuyoga) and devotion to self-mortification (atta-kilamath-anuyoga) — the Noble Eightfold Path avoids both.",
+    "Epistemologically, the Middle Way rejects both eternalism (sassatavada — things exist absolutely and permanently) and nihilism (ucchedavada — things do not exist at all, there is no continuity, no karma).",
+    "Nagarjuna's Madhyamaka extends the Middle Way to emptiness (sunyata): phenomena are neither intrinsically existent nor simply non-existent — they arise dependently and exist conventionally.",
+    "The Middle Way is not a compromise or mediocrity but a precise diagnosis: both extremes are wrong, and the middle is not a halfway point but a different kind of position altogether.",
+    "Pragmatically, the Middle Way favors what works (what leads to liberation, calm, insight) over what is theoretically elegant or doctrinally pure."
+  ],
+  "description": "The Middle Way (Pali: majjhima patipada; Sanskrit: madhyama pratipad) is the Buddha's principle of avoiding extremes — originally the avoidance of sensual indulgence and self-mortification as paths to liberation, later generalized into a broad epistemological and ethical orientation that seeks the mean between paired opposites: existence and non-existence, eternalism and nihilism, rigid rule-following and moral laxity. In Madhyamaka philosophy, Nagarjuna extended it to the metaphysical: the middle between 'things exist absolutely' and 'things do not exist at all.'",
+  "domains": [
+    "buddhism",
+    "ethics",
+    "epistemology",
+    "metaphysics"
+  ],
+  "failure_modes": [
+    "Centrism fallacy: assuming the middle is always arithmetically between two poles — e.g., 'both sides have a point' applied to cases where one side is simply wrong, leading to false equivalence.",
+    "Avoiding the Middle Way's own demand: using 'balance' as a permanent hedge that never commits to any position, which becomes a failure of practical wisdom (phronesis) rather than an expression of it.",
+    "Conflating the early behavioral Middle Way (between indulgence and asceticism) with the Madhyamaka metaphysical Middle Way (between existence and non-existence) — these are related but distinct applications."
+  ],
+  "key_vocabulary": {
+    "Majjhima Patipada": "The Middle Way — the path avoiding the two extremes; the practical and philosophical orientation of Buddhism across its traditions.",
+    "Sassatavada": "Eternalism — the view that the self and world exist permanently and absolutely; one of the extremes rejected by the Middle Way.",
+    "Sunyata": "Emptiness — in Madhyamaka, the lack of intrinsic existence (svabhava) in phenomena; things exist dependently, not absolutely. The Middle Way between existence and non-existence.",
+    "Svabhava": "Own-nature or intrinsic existence — what Nagarjuna argues phenomena lack; things do not exist by virtue of themselves but only in dependence.",
+    "Ucchedavada": "Nihilism — the view that death is complete annihilation, that karma has no effect, that nothing persists; the other extreme rejected by the Middle Way.",
+    "Upaya": "Skillful means — the practical application of the Middle Way to teaching and practice: what is most effective for this person in this situation, rather than rigid adherence to one approach."
+  },
+  "name": "The Middle Way",
+  "operative_procedure": [
+    "Identify the paired extremes structuring the problem. For every tension in the user's situation, name the two poles being pulled toward: too much / too little, absolute / nothing, control / surrender, dogmatism / relativism. Do not assume one pole is correct.",
+    "Test both extremes for their failure modes. For each pole, ask: what goes wrong if this is taken to its conclusion? What suffering, error, or blindness does each extreme generate? Make this concrete for the user's specific situation.",
+    "Look for what both extremes are getting right. The Middle Way is not a compromise — each extreme typically tracks a genuine partial truth. Identify what is correct in each before moving past them.",
+    "Locate the middle position as a qualitatively different orientation. The middle is not '50% of each extreme' but a different kind of stance. For practical problems, ask: what approach reduces suffering and increases clarity without overcorrecting? For metaphysical or belief problems, ask: what description is most accurate to how things actually are?",
+    "Check for rigidity in the middle position itself. The Middle Way can itself become dogma ('I must always be balanced'). Apply it reflexively: is the insistence on balance itself becoming an extreme?",
+    "Synthesize the middle path response. Produce guidance that names both extremes, explains why neither works, and articulates the qualitatively different orientation that avoids both — with specific, actionable implications for the user's problem."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Four Noble Truths",
+      "The Noble Eightfold Path",
+      "Dependent Origination",
+      "Anekantavada"
+    ],
+    "descendants": [
+      "Lojong"
+    ],
+    "related": [
+      "Four Noble Truths",
+      "The Noble Eightfold Path",
+      "Dependent Origination"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Middle Way is strongest when a problem genuinely involves two harmful extremes both of which contain partial validity, and when the practitioner needs a principled way to resist being pulled toward either pole. It is also strong as an epistemological check against dogmatism. It is weakest in cases where the two poles are not actually symmetric — where one position is simply more accurate or more ethical, and 'balance' would be false equivalence. It should not be used to suggest that every dispute has a valid middle ground.",
+  "source_summary": "The Middle Way is introduced in the Dhammacakkappavattana Sutta (SN 56.11) as the practical orientation the Buddha discovered between his earlier life of luxury and his years of extreme asceticism. The Kaccayanagotta Sutta (SN 12.15) extends it to the ontological: the Middle Way avoids both the view that 'everything exists' and 'everything does not exist,' grounding this in dependent origination. Nagarjuna (c. 150–250 CE) developed the Middle Way into a full systematic philosophy in the Mulamadhyamakakarika, arguing that emptiness (sunyata) is itself the middle position between intrinsic existence and absolute non-existence. Jay Garfield's translation and commentary (1995) is the standard scholarly reference in English. The Madhyamaka school (in both Indian and Tibetan lineages) built its entire epistemology on this foundation.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Dhammacakkappavattana Sutta (SN 56.11) — original statement of the Middle Way"
+    },
+    {
+      "kind": "primary",
+      "title": "Kaccayanagotta Sutta (SN 12.15) — the Middle Way between existence and non-existence"
+    },
+    {
+      "kind": "primary",
+      "title": "Nagarjuna, Mulamadhyamakakarika (Fundamental Verses on the Middle Way), c. 2nd century CE"
+    },
+    {
+      "kind": "secondary",
+      "title": "Jay Garfield, 'The Fundamental Wisdom of the Middle Way' (Oxford University Press, 1995)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Middle Way"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The classical analysis: S knows that P iff (1) P is true, (2) S believes P, and (3) S is justified in believing P. Edmund Gettier (1963) produced counterexamples showing that all three conditions can be met yet the subject clearly does not know (see The Gettier Problem). The Gettier problem spawned decades of refined analyses: adding a fourth 'no false lemma' condition, causal theories, reliability theories, and eventually contextualism and virtue epistemology. This is a paradigm case of conceptual analysis by method of cases.",
+      "problem": "What is knowledge?"
+    },
+    {
+      "analysis": "Proposed analysis: a bodily movement is an action iff it is caused by the agent's intention or reason. Counterexamples test this: reflex movements (not actions) are caused by stimuli, not reasons — so conditions may need to specify a causal structure. Deviant causal chains (the agent intends to raise an arm, this nervousness causes an arm to rise accidentally) show that causal connection alone is insufficient — the causal chain must be 'the right kind.' Successive refinements of 'the right kind' define much of action theory.",
+      "problem": "What is an action (as opposed to mere bodily movement)?"
+    }
+  ],
+  "core_claims": [
+    "Concepts have application conditions — features that are individually necessary and jointly sufficient for something to fall under the concept.",
+    "Analysis proceeds by a method of cases: constructing clear instances and clear non-instances to test proposed conditions, and refining the analysis when counterexamples show a condition is neither necessary nor sufficient.",
+    "Successful analysis yields a priori knowledge: understanding the concept tells us what must be true of any instance, regardless of empirical investigation.",
+    "Philosophical puzzles often arise from conceptual confusion; analysis dissolves puzzles by clarifying what we mean.",
+    "The standard form of analysis is a biconditional: 'X is F if and only if X has properties G, H, I…' — knowledge being the most famous target (true, justified belief, etc.).",
+    "Conceptual analysis is in tension with the 'paradox of analysis': if an analysis is correct, it seems merely to report what we already knew; if it is informative, it seems to change the subject."
+  ],
+  "description": "Conceptual Analysis is the philosophical method of clarifying a concept by identifying the necessary and sufficient conditions for its application — typically by examining what cases clearly fall under the concept, what cases clearly do not, and what intuitions govern borderline cases. It is the dominant method of analytic philosophy, aiming to articulate what we implicitly know when we competently use a concept.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-language",
+    "methodology",
+    "metaphysics"
+  ],
+  "failure_modes": [
+    "The paradox of analysis stalemate: if an analysis is fully explicit, it may seem either trivially true or question-begging, making it unclear what philosophical progress is achieved.",
+    "Counterexample proliferation without convergence: in domains like knowledge or causation, counterexamples can be generated indefinitely without yielding consensus, suggesting the concept may be irreducibly vague or context-dependent.",
+    "Analyzing concepts in isolation from use: extracting conditions from intuitions while ignoring how the concept functions in actual discourse and practice can yield analyses that are technically coherent but practically empty."
+  ],
+  "key_vocabulary": {
+    "Analysis (classical)": "A statement of necessary and sufficient conditions for a concept, typically in the form 'X is F iff X is G and H and I…'",
+    "Counterexample": "A case that satisfies the proposed analysis but clearly fails to fall under the concept (or vice versa), thereby refuting the analysis.",
+    "Method of cases": "The technique of generating hypothetical or actual cases to test whether proposed conditions for a concept are necessary, sufficient, or neither.",
+    "Necessary condition": "A condition that must be met for the concept to apply; if the condition is absent, the concept definitely does not apply.",
+    "Paradox of analysis": "The puzzle that if an analysis is correct (the analysandum and analysans mean the same), it seems trivially uninformative; if informative, it seems to mean something different.",
+    "Sufficient condition": "A condition whose presence guarantees the concept applies; if the condition is present, the concept definitely applies."
+  },
+  "name": "Conceptual Analysis",
+  "operative_procedure": [
+    "Identify the target concept. State precisely which concept is to be analyzed (e.g., knowledge, causation, freedom, justice). Distinguish the concept from neighboring concepts it might be confused with.",
+    "Propose candidate conditions. Formulate a set of conditions — initially those that seem most central to the concept — as a provisional analysis: 'X is F iff X has features G, H, I…'",
+    "Generate test cases. Construct or recall clear positive instances (things that clearly are F), clear negative instances (things that clearly are not F), and importantly, borderline or challenging cases designed to stress-test the proposed conditions.",
+    "Apply the method of cases. For each proposed condition, ask: (a) Is it necessary? Find any case that is clearly F but lacks the condition — if found, the condition is not necessary. (b) Is it sufficient? Find any case that has the condition but is clearly not F — if found, the condition is not sufficient.",
+    "Revise and iterate. Modify the analysis in response to counterexamples: add, remove, or refine conditions. Repeat steps 2–4 until no counterexamples remain or the analysis is shown to be unreachable.",
+    "Synthesize. State the best analysis achieved, identify residual problem cases and why they resist resolution, and assess whether the concept may be vague, family-resemblance, or otherwise resistant to classical analysis."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Socratic definition",
+      "Aristotelian genus-differentia definition",
+      "Fregean analysis of concepts"
+    ],
+    "composes_with": [
+      "The Gettier Problem",
+      "Ordinary Language Philosophy",
+      "Principle of Charity"
+    ],
+    "descendants": [
+      "Experimental philosophy",
+      "Contextualism in epistemology",
+      "Explication (Carnap)"
+    ],
+    "related": [
+      "Ordinary Language Philosophy",
+      "Verificationism",
+      "The Gettier Problem"
+    ],
+    "rivals": [
+      "Ordinary Language Philosophy",
+      "Pragmatism",
+      "Quine's naturalized epistemology"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Conceptual Analysis is the foundational method of analytic philosophy and is strongest when concepts are sufficiently determinate and shared intuitions are reliable — epistemology, philosophy of mind, formal ethics, and philosophy of language have been its most productive domains. It is weakest when applied to vague, essentially contested, or culturally variable concepts. Wittgenstein's critique (family resemblance), Quine's skepticism about analyticity, and experimental philosophy's findings about intuition variability all challenge its foundations. Despite these challenges, it remains indispensable as a clarificatory tool and serves as the backbone of ordinary language philosophy.",
+  "source_summary": "Conceptual Analysis as a self-conscious philosophical method is associated with G.E. Moore and Bertrand Russell at the turn of the 20th century and became the defining methodology of analytic philosophy. The Stanford Encyclopedia of Philosophy covers it under 'Analysis' (plato.stanford.edu/entries/analysis/), tracing connections to Aristotle, Socrates, Frege, Moore, and Russell, and surveying the paradox of analysis and challenges from Wittgenstein, Quine, and experimental philosophy. The method's most celebrated episode — the analysis of knowledge — was transformed by Edmund Gettier's 1963 paper producing counterexamples to the justified true belief account. Subsequent decades produced reliabilist, causal, and virtue-epistemological alternatives, illustrating both the method's productivity and its resistance to final resolution.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Analysis (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/analysis/"
+    },
+    {
+      "kind": "secondary",
+      "title": "Analytic Philosophy (Stanford Encyclopedia of Philosophy)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Conceptual analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Conceptual_analysis"
+    }
+  ],
+  "version": 1
+}

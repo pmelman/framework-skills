@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Material continuity: none. Functional continuity: different products, possibly different industry. Causal-historical continuity: there is an unbroken legal and corporate registration chain. The answer depends on context. For legal liability (e.g., historical torts), courts typically follow causal-historical continuity — the legal entity persists. For branding claims ('over 50 years of excellence'), critics may contest the claim if nothing substantive connects present to past. For employee culture, functional continuity matters. The Ship of Theseus reveals that 'same company' is not a single question but several, answered by different criteria for different purposes.",
+      "problem": "A company founded 50 years ago has changed its ownership, headquarters, entire product line, all employees, and brand name. Is it 'the same company' that was founded then?"
+    },
+    {
+      "analysis": "This is Parfit's personal identity problem in clinical form. Material continuity (brain and body) is largely intact. Psychological continuity — the Lockean criterion most tied to personal identity and moral responsibility — is severely disrupted. On Locke's and Parfit's view, the psychological connections that ground responsibility and promise-keeping have been severed. On a biological-continuity view, this remains the same person. The Ship of Theseus framework reveals that the question 'same person?' may need to be disaggregated: same legal person (yes), same moral agent with those prior commitments (contested), same experiential subject (contested). Parfit's radical conclusion: personal identity may not be what matters — what matters is psychological continuity and connectedness, not numerical identity.",
+      "problem": "A person undergoes radical changes in values, memories, and personality following a serious illness. Their family asks: is this still the same person? Are prior commitments and promises binding?"
+    }
+  ],
+  "core_claims": [
+    "An object can persist through complete material replacement if there is sufficient continuity of form, function, or causal-historical connection — but what counts as 'sufficient' is precisely what the puzzle contests.",
+    "At least three competing criteria of identity are at stake: material identity (same matter), functional/structural identity (same form and function), and historical-causal identity (same causal chain of origin).",
+    "Hobbes's extension of the puzzle (if the discarded planks are reassembled, which ship is the original?) shows that competing identity criteria can yield conflicting, equally defensible answers — suggesting identity may be indeterminate or relative to a purpose.",
+    "The puzzle reveals that identity claims are often conventional or interest-relative: which facts count as continuity depends on why we are asking the identity question (legal ownership, sentimental value, navigational function).",
+    "Personal identity is a direct analogue: as cells, memories, beliefs, and values change over a lifetime, what makes the person at 70 the same person as at 20? — the Ship of Theseus is often used as a scaffold for theories of personal identity.",
+    "Gradual change and sudden change may yield different intuitions even when the end states are identical, suggesting that the manner of transition, not just the result, influences identity judgments."
+  ],
+  "description": "The Ship of Theseus is a classical philosophical puzzle about personal identity and persistence through change: if an object (or person, institution, or concept) is gradually replaced piece by piece until none of the original material remains, is it still the same object? The puzzle probes competing criteria of identity — material continuity, functional continuity, and psychological/historical continuity — and reveals that our everyday identity concepts can be indeterminate or context-dependent.",
+  "domains": [
+    "metaphysics",
+    "personal-identity",
+    "philosophy-of-language",
+    "organizational-theory"
+  ],
+  "failure_modes": [
+    "Treating the puzzle as merely verbal: dismissing the Ship of Theseus as a mere semantic dispute about the word 'same,' and thereby missing the genuine metaphysical question about what makes identity claims true independently of our linguistic conventions.",
+    "Selecting a criterion dogmatically: insisting on material continuity (or any single criterion) as the one true test of identity without examining whether it tracks what matters for the purposes at hand.",
+    "Ignoring vagueness: demanding a sharp answer (same or not same) when the identity relation is genuinely vague or indeterminate across the spectrum of intermediate cases."
+  ],
+  "key_vocabulary": {
+    "Causal-Historical Continuity": "The criterion that identity is preserved through an unbroken causal chain linking the object at one time to the object at another — even through complete material replacement.",
+    "Endurantism": "The opposing view that objects persist by being wholly present at each moment of their existence, making the identity puzzles more acute because the same whole object must somehow endure change.",
+    "Four-Dimensionalism": "The view that objects persist by having different temporal parts (stages) at different times, dissolving some puzzles of identity by reframing 'the same object' as a mereological sum of temporal parts.",
+    "Functional Continuity": "The criterion that an object persists as the same object if it continues to perform the same function and maintain the same structure, regardless of material replacement.",
+    "Gradual Replacement": "The incremental substitution of parts over time, each replacement individually preserving intuitive identity while collectively effecting complete material change; the puzzle's core mechanism.",
+    "Material Continuity": "The criterion that an object persists as the same object only if it retains (most of) its original material constituents."
+  },
+  "name": "The Ship of Theseus",
+  "operative_procedure": [
+    "Identify the identity claim. State precisely what is claimed to be the same over time: is it an object, institution, person, belief system, relationship, or concept? What is the time span and the nature of the change involved?",
+    "Map the changes. Catalog what has changed and what has remained constant: material composition, structure and function, causal-historical lineage, legal continuity, psychological continuity (for persons/organizations). Distinguish gradual from discontinuous change.",
+    "Apply each identity criterion. For each of the major criteria (material, functional, causal-historical), ask: does the object satisfy this criterion? Where criteria converge, identity is uncontroversial. Where they diverge, the puzzle becomes real.",
+    "Identify the interest-relative dimension. Ask: why does this identity question matter in this context? Is it for legal purposes (ownership, contracts), practical purposes (maintenance, reliability), moral purposes (responsibility, promise-keeping), or sentimental purposes? The appropriate identity criterion often follows from the purpose.",
+    "Test with the Hobbes extension. If the original parts were reassembled, would there be two candidates for being the 'same' object? If yes, determine which candidate better satisfies the criterion that matters for the current purpose. If both are equally valid, acknowledge genuine indeterminacy.",
+    "Synthesize. Deliver a verdict on the identity question, specifying which criterion it rests on and for what purpose. Identify whether the indeterminacy is genuine (there is no fact of the matter) or merely apparent (the right criterion is determined by context). Apply this to the user's practical or philosophical concern."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Pre-Socratic Metaphysics",
+      "Heraclitean Philosophy"
+    ],
+    "composes_with": [
+      "Thought Experiments",
+      "Modal Reasoning",
+      "Counterfactual Reasoning"
+    ],
+    "descendants": [
+      "Personal Identity Theory",
+      "Four-Dimensionalism"
+    ],
+    "related": [
+      "Thought Experiments",
+      "Modal Reasoning",
+      "Counterfactual Reasoning",
+      "First Principles"
+    ],
+    "rivals": [
+      "Simple View of Personal Identity",
+      "Eliminativism about Identity"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Ship of Theseus framework is strongest as an analytical tool for identity questions involving change over time — personal identity, institutional continuity, software versioning, species identity in biology, legal succession. It is weakest as a decision procedure on its own because it reveals criteria without adjudicating between them; it must be combined with interest-relative analysis to yield practical conclusions. It is not well-suited to problems where change is binary rather than gradual, or where the relevant continuity relations are empirically rather than conceptually contested.",
+  "source_summary": "The Ship of Theseus paradox is recorded by Plutarch in Life of Theseus (c. 75 CE), who reports that the Athenians preserved Theseus's ship by replacing planks as they decayed, prompting the philosophical question of whether it remained the same ship. Thomas Hobbes sharpened the puzzle in De Corpore (1655) by adding the reassembly variant, showing that material and functional criteria can yield incompatible answers. John Locke's theory of personal identity (Essay Concerning Human Understanding, 1689) applied a psychological-continuity criterion to persons that has dominated subsequent discussion. Derek Parfit's Reasons and Persons (1984) radicalized the problem by arguing that personal identity is not what matters — psychological continuity without numerical identity is all that grounds our practical concerns. The Stanford Encyclopedia of Philosophy entry 'Identity over Time' surveys the full range of contemporary positions including endurantism, four-dimensionalism, and stage theory.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Identity over Time — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "Plutarch, Life of Theseus (c. 75 CE)"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas Hobbes, De Corpore, Part II, Chapter 11 (1655)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Derek Parfit, Reasons and Persons, Part III (1984)"
+    }
+  ],
+  "version": 1
+}

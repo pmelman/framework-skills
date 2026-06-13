@@ -1,0 +1,98 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This is a Moksha-Artha-Kama conflict, often arising in mid-life. The Four Purusharthas framework resists the binary of 'stay in career vs. renounce everything.' Moksha does not require destroying Artha; in fact, the tradition is skeptical of premature renunciation that bypasses the full engagement with householder life. The framework asks: has the person genuinely completed their householder duties (family responsibilities, community contributions)? Is the emptiness a sign that Moksha should now be given more weight, or is it a sign that Kama (genuine pleasure, relationship, aesthetic richness) has been neglected within the professional life? The recommended response may be to enrich the current life with Kama and meaning-seeking before radical renunciation.",
+      "problem": "A successful professional is financially secure and respected in their career (Artha achieved) but feels empty and asks whether they should quit and pursue spiritual practice exclusively."
+    },
+    {
+      "analysis": "This is a Dharma-Artha conflict. The Four Purusharthas framework is clear that Artha pursued in violation of Dharma is not a legitimate human aim—it becomes adharma (disorder). The tradition's texts (including the Arthashastra itself) insist that sustainable Artha requires Dharmic foundation. The entrepreneur is not choosing between profit and ethics as equal alternatives; they are choosing between Artha-within-Dharma and the destruction of genuine prosperity through adharma. The framework counsels: find the business approach that maximizes Artha within Dharmic constraint, rather than treating the constraint as an obstacle.",
+      "problem": "An entrepreneur is considering a business action that would significantly increase profit (Artha) but involves treating workers in ways that feel exploitative."
+    }
+  ],
+  "core_claims": [
+    "Human life has four irreducible, legitimate aims: moral order (Dharma), material well-being (Artha), pleasure and desire (Kama), and liberation (Moksha).",
+    "All four aims are genuine goods; the ascetic dismissal of Artha and Kama as base is a distortion—the tradition validates the full range of human aspiration.",
+    "Dharma functions as the regulative principle that orients and constrains the pursuit of Artha and Kama; prosperity and pleasure pursued outside Dharma become destructive.",
+    "Moksha (liberation from the cycle of samsara) is the ultimate aim, but it is not attainable by bypassing the other three; mature engagement with life is a preparation for liberation.",
+    "The purusharthas are life-stage sensitive: different phases of life (the ashrama system) appropriately emphasize different aims—youth and householder life permit fuller engagement with Artha and Kama.",
+    "Conflict among the four aims is the normal condition of human life; wisdom consists in knowing how to balance and sequence them, not in eliminating the tension."
+  ],
+  "description": "The Four Purusharthas (Sanskrit: purusha-artha, 'human aims') is the classical Hindu framework identifying four irreducible goals of human life—Dharma (right conduct), Artha (prosperity and power), Kama (pleasure and desire), and Moksha (liberation)—held to encompass all legitimate human striving and to require integration rather than exclusive pursuit of any single aim.",
+  "domains": [
+    "ethics",
+    "hinduism",
+    "philosophy",
+    "life-design"
+  ],
+  "failure_modes": [
+    "Treating the four aims as a simple checklist rather than a dynamic, tension-laden integration misses the framework's sophistication—the four aims genuinely conflict and require wisdom to navigate, not just enumeration.",
+    "Elevating Moksha as the only 'real' aim and dismissing Artha and Kama as base distorts the tradition; the purusharthas affirm the full range of human striving as legitimate.",
+    "Applying the framework without attention to life-stage context gives misleading guidance—the appropriate balance for a young householder differs substantially from that of an elder approaching renunciation."
+  ],
+  "key_vocabulary": {
+    "Artha": "Material prosperity, power, political and economic success; a legitimate aim of human life encompassing wealth, security, and effective action in the world.",
+    "Ashrama": "The four life stages in classical Hindu thought (student, householder, forest dweller, renunciant) within which the purusharthas are differently weighted and practiced.",
+    "Dharma": "Right conduct, duty, moral order; the obligation to act in accordance with cosmic and social order, appropriate to one's nature, role, and circumstance.",
+    "Kama": "Desire, pleasure, love, aesthetic experience; the legitimate pursuit of sensory and emotional satisfaction, including romantic love, beauty, and enjoyment.",
+    "Moksha": "Liberation; freedom from the cycle of birth, death, and rebirth (samsara); the ultimate aim that gives the others their ultimate context.",
+    "Purusha": "Person, human being; the 'artha' of 'purusha' means 'purpose' or 'aim'—hence purusharthas are the purposes of a person."
+  },
+  "name": "The Four Purusharthas",
+  "operative_procedure": [
+    "Map the problem to the four aims. For the user's situation, identify which purusharthas are in play: Is this a question of right conduct (Dharma)? Of material success or power (Artha)? Of pleasure, desire, or relationship (Kama)? Of meaning, freedom, or ultimate purpose (Moksha)?",
+    "Identify which aim is being suppressed or over-pursued. Most problems arise from collapsing the four aims into one—pursuing only Artha while neglecting Dharma, or mortifying Kama in the name of Moksha, or so emphasizing pleasure that material security is destroyed. Name the imbalance specifically.",
+    "Apply the Dharma constraint. Ask: what does right conduct demand in this situation—given the user's relationships, roles, and the interests of those affected? Where Artha or Kama is in conflict with Dharma, Dharma takes precedence as the regulative principle.",
+    "Respect the life-stage context. Assess where the user is in their life journey. Are they in a phase appropriately oriented toward building (Artha, Kama) or toward meaning and release (Moksha)? A 25-year-old householder and a 70-year-old elder face legitimately different weightings.",
+    "Identify what the situation is calling for. Not all problems require balance across all four—sometimes a situation genuinely calls for prioritizing one aim. Ask: what does wholeness demand here, given this person's specific life and moment?",
+    "Synthesize an integrated response. Produce a recommendation that honors the full human being—neither purely ascetic nor purely hedonistic nor purely utilitarian. Name which aims are in play, how Dharma should regulate the others, and what an integrated life response looks like."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Karma Yoga",
+      "Advaita Vedanta",
+      "Ahimsa"
+    ],
+    "descendants": [
+      "Karma Yoga"
+    ],
+    "related": [
+      "Karma Yoga",
+      "Advaita Vedanta",
+      "Ahimsa",
+      "Aristotelian Virtue Ethics"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Four Purusharthas is most powerful as a life-orientation and decision-framing tool for questions about balance, priority, and what a good life requires. It is particularly valuable for mid-life crises, career transitions, and questions about the relationship between worldly success and spiritual aspiration. It is less useful as a granular decision procedure for specific ethical dilemmas (it does not tell you exactly what to do) and depends on the cultural and philosophical context of Hindu dharmic thought for its full coherence.",
+  "source_summary": "The Four Purusharthas are discussed throughout classical Sanskrit literature—the Arthashastra focuses on Artha, the Kamasutra opens with an explication of all four aims, and the Mahabharata (especially Shantiparva) provides extensive philosophical discussion of their interrelation. The framework represents a pluralistic and non-ascetic strand of Hindu thought that validates worldly engagement as spiritually legitimate. Contemporary scholars including Gavin Flood and David Kinsley have emphasized the purusharthas as a comprehensive theory of human flourishing. URL verification was not available; Wikipedia covers the topic under 'Purusharthas.'",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Arthashastra, Kautilya (c. 4th-3rd century BCE)"
+    },
+    {
+      "kind": "primary",
+      "title": "Kamasutra, Vatsyayana (c. 4th century CE) — Book 1 on the Purusharthas"
+    },
+    {
+      "kind": "primary",
+      "title": "Mahabharata, Shantiparva (extensive discussion of the four aims)"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Aims of Life: Kama, Artha, Dharma, Moksha, Gavin Flood, in 'An Introduction to Hinduism', 1996"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Purusharthas"
+    }
+  ],
+  "version": 1
+}

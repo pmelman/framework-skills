@@ -1,0 +1,101 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Smith has a justified true belief. His justification rests on the false belief that Jones will get the job; the proposition comes out true only because Smith has the same number of coins. All three JTB conditions are met, yet intuitively Smith does not know — the truth is accidental relative to his justification. This is Gettier's original counterexample. The problem: any inference from a justified false belief to a true conclusion can generate such a case.",
+      "problem": "Case I (Gettier 1963): Smith has excellent evidence that Jones will get the job (the boss told him) and that Jones has ten coins in his pocket. Smith forms the justified belief: 'The man who will get the job has ten coins in his pocket.' In fact, Smith gets the job, and Smith — unknown to himself — also has ten coins in his pocket. Does Smith know 'The man who will get the job has ten coins in his pocket'?"
+    },
+    {
+      "analysis": "S has a justified true belief — there is a sheep in the field — but the justification (the sheep-shaped rock) is independent of the truth-maker (the hidden sheep). S does not know there is a sheep in the field. This variant shows the problem does not require inference: even perceptually-based JTB is susceptible to Gettier-style failure. It highlights the role of causal connection: S's belief is not causally connected in the right way to the fact that makes it true.",
+      "problem": "The sheep in the field (Chisholm/Lehrer): S looks across a field, sees what appears to be a sheep, and forms the justified belief 'There is a sheep in the field.' In fact, what S sees is a rock that looks like a sheep — but there is a sheep hidden behind a rock in another part of the field."
+    }
+  ],
+  "core_claims": [
+    "Justified true belief is not sufficient for knowledge: a subject can have all three — justification, truth, and belief — yet lack knowledge because the truth is coincidental relative to the justification.",
+    "Gettier cases have a common structure: a false belief that is justified leads, via valid inference, to a true belief; the truth of the conclusion is secured by something independent of the justification.",
+    "The Gettier problem refuted a 2,000-year-old analysis of knowledge and demonstrated that philosophical theories can fail on precisely constructed counterexamples.",
+    "No subsequent analysis of knowledge has achieved consensus: each proposed 'fourth condition' or alternative theory faces new Gettier-style counterexamples or other objections.",
+    "The Gettier problem illustrates the method of cases as philosophy's primary means of testing conceptual analyses.",
+    "Some epistemologists respond by abandoning the analysis project for knowledge, turning to virtue epistemology, reliabilism, or contextualism as alternatives."
+  ],
+  "description": "The Gettier Problem, introduced by Edmund Gettier in a landmark 1963 paper, is the demonstration that the classical tripartite analysis of knowledge as justified true belief is insufficient: a subject can have a justified true belief that nonetheless does not constitute knowledge, because the belief's truth is accidental relative to the justification. It is both a specific philosophical problem and a general methodological lesson about how to test theories by counterexample.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-mind",
+    "methodology"
+  ],
+  "failure_modes": [
+    "Generating Gettier cases that do not honor ordinary intuitions: if the constructed scenario is too artificial or the intuition is contested, it cannot serve as a decisive counterexample.",
+    "Mistaking the Gettier problem for a merely technical puzzle: the problem reveals deep structural features of the relationship between justification and truth-tracking, not just a gap in a definition.",
+    "Abandoning the analysis project prematurely: concluding that because no analysis has succeeded, knowledge cannot be analyzed — without exploring whether different analytical frameworks (reliabilist, virtue-theoretic) might succeed."
+  ],
+  "key_vocabulary": {
+    "Epistemic luck": "The phenomenon in which a belief's truth is due to luck relative to the agent's epistemic situation; Gettier cases are paradigm instances of 'veritic luck.'",
+    "Gettier case": "A scenario in which a subject has a justified true belief that intuitively fails to count as knowledge because the truth is 'accidentally' related to the justification.",
+    "Justified True Belief (JTB)": "The classical tripartite analysis of knowledge: S knows P iff (1) P is true, (2) S believes P, and (3) S is justified in believing P.",
+    "No false lemma condition": "A proposed fourth condition: S knows P only if S's inference does not essentially depend on any false intermediate belief — a direct response to Gettier's original cases.",
+    "Reliabilism": "The view (Goldman) that a belief constitutes knowledge if it is produced by a reliable cognitive process, regardless of internally accessible justification — an alternative to the JTB framework.",
+    "Virtue epistemology": "The approach (Sosa, Zagzebski) that grounds knowledge in cognitive or intellectual virtues — stable dispositions to form beliefs well — rather than in belief-by-belief justification conditions."
+  },
+  "name": "The Gettier Problem",
+  "operative_procedure": [
+    "State the analysis under test. Identify the proposed necessary and sufficient conditions for the concept being analyzed (classically: knowledge as JTB).",
+    "Construct a Gettier-style case. Build a scenario with the following structure: (a) the agent forms a false belief, (b) this false belief provides justification for a further belief, (c) the further belief happens to be true by coincidence, and (d) intuitively the agent does not know the further proposition.",
+    "Test the analysis. Show that all proposed conditions are satisfied in the constructed case, while intuition firmly delivers the verdict that the relevant state (e.g., knowledge) is absent. This demonstrates the conditions are not sufficient.",
+    "Diagnose the gap. Identify precisely why the analysis fails: what is it about the case that makes the belief 'accidentally true' relative to the justification? Characterize the form of epistemic luck at work.",
+    "Evaluate proposed repairs. For each proposed additional condition or revised analysis: (a) does it exclude the Gettier case? (b) does it avoid over-exclusion (cutting out genuine knowledge)? (c) does it face new Gettier-style counterexamples?",
+    "Synthesize. Report what the Gettier problem teaches about the concept under analysis: is the original analysis simply incomplete (needing a fourth condition), fundamentally misguided (requiring a different framework), or does it reveal that the concept is irreducibly context-sensitive or vague?"
+  ],
+  "relationships": {
+    "ancestors": [
+      "Plato's Meno/Theaetetus (knowledge as justified true belief)",
+      "Conceptual Analysis"
+    ],
+    "composes_with": [
+      "Conceptual Analysis",
+      "Principle of Charity"
+    ],
+    "descendants": [
+      "Reliabilism",
+      "Virtue epistemology",
+      "Contextualism in epistemology",
+      "Knowledge-first epistemology (Williamson)"
+    ],
+    "related": [
+      "Conceptual Analysis",
+      "Bayesian Epistemology",
+      "Ordinary Language Philosophy"
+    ],
+    "rivals": [
+      "Knowledge-first epistemology (Williamson)",
+      "Pragmatist accounts of knowledge"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Gettier Problem is primarily a methodological and epistemological tool: it is one of the clearest demonstrations in philosophy that even very plausible, long-standing analyses can be refuted by a well-constructed case. As a framework, it is directly applicable whenever one is evaluating a proposed set of necessary and sufficient conditions for any concept, not only knowledge. Its scope is limited to the analysis project: it is less relevant to pragmatist, contextualist, or virtue-epistemological approaches that do not seek classical analyses. It is also a lesson in the limits of a priori conceptual analysis versus empirical and naturalistic approaches.",
+  "source_summary": "Edmund Gettier's 'Is Justified True Belief Knowledge?' (1963, Analysis 23:121–123) is one of the most cited and transformative papers in 20th-century analytic philosophy. In approximately 3 pages, Gettier produced two counterexamples refuting the tripartite JTB analysis attributed to Plato (Meno, Theaetetus) and entrenched in 20th-century epistemology. The Stanford Encyclopedia of Philosophy's entry on 'The Analysis of Knowledge' (plato.stanford.edu/entries/knowledge-analysis/) surveys the half-century of responses: no-false-lemma conditions, causal theories (Goldman), reliability theories, virtue epistemology (Sosa, Zagzebski), and Timothy Williamson's knowledge-first approach that treats 'knows' as primitive. The problem not only reshaped epistemology but transformed philosophical methodology, demonstrating the power of counterexamples and entrenching the method of cases as philosophy's primary analytical tool.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "The Analysis of Knowledge (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/knowledge-analysis/"
+    },
+    {
+      "kind": "primary",
+      "title": "Is Justified True Belief Knowledge? — Edmund Gettier (1963)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Epistemology (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/epistemology/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Gettier problem (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Gettier_problem"
+    }
+  ],
+  "version": 1
+}

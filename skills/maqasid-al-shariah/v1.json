@@ -1,0 +1,94 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Maqasid analysis identifies two essentials in tension: protection of religion (din) and protection of intellect (aql). Both are daruriyyat-level concerns. The policy claims to protect din by preventing misinformation, but it simultaneously threatens aql by restricting the free inquiry and critical reasoning that Islamic scholarship has traditionally valued. The maslaha-mafsada analysis asks: is the harm from misinformation at the daruriyyat level (does it actually destroy the foundations of religion for the community?), or is the restriction of inquiry a greater mafsada at the same level? A maqasid-based analysis would likely demand narrow, well-targeted restrictions rather than broad censorship, to preserve both essentials.",
+      "problem": "A government is considering a policy that significantly restricts freedom of expression to prevent the spread of religious misinformation."
+    },
+    {
+      "analysis": "The maqasid of protection of property (mal) is the primary essential at stake. The prohibition of riba exists to prevent exploitation and unjust enrichment — these are the maqasid behind the rule. The analysis asks: does the fee-based instrument replicate the harmful economic dynamics that riba prohibition was designed to prevent (exploitation of the borrower, concentration of wealth, instability), or does it genuinely differ in economic effect? If the instrument achieves the same outcomes as riba despite formal compliance, it defeats the maqasid of the prohibition. If it genuinely avoids the harms of riba while serving legitimate economic need (hajiyyat), it may be permissible — but only if evaluated against the purposes, not merely the form.",
+      "problem": "An Islamic finance institution is evaluating whether a novel financial instrument that closely resembles riba (interest) but is structured as a fee is permissible."
+    }
+  ],
+  "core_claims": [
+    "Islamic law (Shariah) is not an arbitrary set of commands but a purposive system designed to protect and promote specific human goods (the maqasid); understanding these purposes is essential for correct legal reasoning.",
+    "The five essential objectives (al-daruriyyat al-khams) are: protection of religion (din), life (nafs), intellect/reason (aql), lineage/family (nasl), and property (mal).",
+    "Legal rulings are classified by priority into three levels: essentials (daruriyyat, must be protected), needs (hajiyyat, important but not essential), and embellishments (tahsiniyyat, refinements).",
+    "Where a specific ruling appears to undermine the very objectives it was meant to protect, the ruling should be re-examined and may not apply — the letter of the law cannot be used to defeat its own spirit.",
+    "Maslaha (public interest or welfare) is a legitimate source of legal reasoning when it aligns with the maqasid; harm (mafsada) to the five essentials must be prevented even in the absence of explicit textual prohibition.",
+    "The maqasid framework enables dynamic and contextual jurisprudence that can respond to unprecedented situations while remaining grounded in Islamic values."
+  ],
+  "description": "Maqasid al-Shariah (the Objectives or Higher Purposes of Islamic Law) is a jurisprudential framework, systematized by al-Ghazali (1058–1111) and al-Shatibi (d. 1388), that identifies the overarching goals that Islamic law is designed to protect and promote — traditionally the five essentials: religion, life, intellect, lineage/family, and property. It enables jurists to reason about the spirit behind legal rulings, adjudicate novel cases, and evaluate whether a given rule or action serves or defeats Islamic law's ultimate purposes.",
+  "domains": [
+    "ethics",
+    "islam",
+    "jurisprudence",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Maslaha expansionism: using the concept of public interest so broadly that it overrides clear textual rulings without adequate justification, effectively turning maqasid into a tool for arbitrary reinterpretation.",
+    "Reduction to five boxes: treating the five essentials as an exhaustive checklist rather than a framework for purposive reasoning, so that analysis becomes mechanical rather than genuinely purposive.",
+    "Ignoring the hierarchy: failing to apply the priority ordering of essentials, or treating all three levels (daruriyyat, hajiyyat, tahsiniyyat) as equally weighty, leading to disproportionate trade-offs."
+  ],
+  "key_vocabulary": {
+    "Daruriyyat": "The essential necessities — the five objectives whose violation destroys the foundations of human social and religious life: religion, life, intellect, lineage, and property.",
+    "Hajiyyat": "Complementary needs; goods that are important for avoiding hardship and facilitate the preservation of the essentials, but whose absence does not destroy social order.",
+    "Mafsada": "Harm or corruption; the negative counterpart to maslaha; prevention of mafsada to the five essentials is a legal obligation.",
+    "Maqasid al-Shariah": "The higher objectives or purposes of Islamic law; the goals the law is designed to achieve and protect.",
+    "Maslaha": "Public interest or welfare; a source of legal reasoning that justifies rulings that promote demonstrable human benefit aligned with the maqasid.",
+    "Tahsiniyyat": "Embellishments or refinements; goods that improve the quality of life and conduct but are neither essential nor complementary necessities."
+  },
+  "name": "Maqasid al-Shariah",
+  "operative_procedure": [
+    "Identify which of the five essentials are at stake. For the problem at hand, determine which maqasid are implicated: Does it concern religion (din)? Life and health (nafs)? Reason and education (aql)? Family and reproduction (nasl)? Property and economic welfare (mal)? A problem may touch several simultaneously.",
+    "Classify the level of priority. Is the threatened or at-stake essential at the daruriyyat level (its absence or violation would cause grave irreversible harm), the hajiyyat level (important but reversible harm), or the tahsiniyyat level (refinement)? The analysis gives greatest weight to protection at the daruriyyat level.",
+    "Assess the maslaha-mafsada balance. Does the proposed action, law, or policy promote the relevant essentials (maslaha) or harm them (mafsada)? Be specific: who benefits, who is harmed, and at which level of necessity?",
+    "Check for conflict between essentials. Where two essentials are in tension (e.g., a policy that promotes economic welfare but harms health), apply the traditional priority ordering and seek solutions that minimize sacrifice of higher-ranked essentials.",
+    "Evaluate the specific ruling against the maqasid. Does the specific textual rule under consideration (if there is one) serve or undermine the maqasid in this context? If applying the rule literally would defeat its own purposes, this is a signal for re-examination via ijtihad or consideration of exceptions.",
+    "Synthesize a judgment. Produce a maqasid-informed evaluation: does the proposed action, policy, or ruling adequately protect all relevant essentials? Where trade-offs are unavoidable, are they proportionate and ordered to the highest-priority goods? Recommend how the situation should be handled to best serve the higher purposes of the law."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Ijtihad",
+      "Tawhid",
+      "Just War Theory"
+    ],
+    "descendants": [
+      "Ijtihad"
+    ],
+    "related": [
+      "Ijtihad",
+      "Tawhid",
+      "Just War Theory",
+      "Thomistic Natural Law"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Maqasid al-Shariah is most powerful in Islamic jurisprudence for adjudicating novel cases, evaluating policy, and resolving apparent conflicts between specific rulings. It provides a bridge between classical fiqh and contemporary problems. It is strongest when used by jurists trained in the classical tradition who can situate maqasid reasoning within the full body of Islamic law; in untrained hands it can become a license for ad hoc conclusions. It works best alongside Ijtihad and Tawhid rather than as a standalone tool.",
+  "source_summary": "The maqasid framework was adumbrated by al-Juwayni (d. 1085) and developed systematically by al-Ghazali in Al-Mustasfa (c. 1109), where the five essentials were enumerated. Al-Shatibi's Al-Muwafaqat (c. 1388) provided the most thorough classical elaboration, grounding the maqasid in inductive analysis of the whole body of Islamic law. Modern scholars — notably Mohammad Hashim Kamali and Jasser Auda — have extended the framework to contemporary issues in human rights, governance, and bioethics. Auda's systems-theoretic reconstruction (2008) is particularly influential in contemporary academic Islamic jurisprudence. The framework is now central to Islamic legal reform discourse globally.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Abu Hamid al-Ghazali, Al-Mustasfa min Ilm al-Usul (c. 1109)"
+    },
+    {
+      "kind": "primary",
+      "title": "Ibrahim al-Shatibi, Al-Muwafaqat fi Usul al-Shariah (c. 1388)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Mohammad Hashim Kamali, Principles of Islamic Jurisprudence (1991)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Jasser Auda, Maqasid al-Shariah as Philosophy of Islamic Law (2008)"
+    }
+  ],
+  "version": 1
+}

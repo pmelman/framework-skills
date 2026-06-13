@@ -1,0 +1,102 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Popper observed that psychoanalytic theory can accommodate virtually any behavior: aggression and passivity, love and hate, are both explicable post hoc. Because no conceivable observation would count as a refutation, the theory is unfalsifiable by his criterion. Popper did not say this makes psychoanalysis worthless — it may have therapeutic value — but it does not qualify as empirical science.",
+      "problem": "Freudian psychoanalysis claims that repressed unconscious drives explain behavior. Is this a scientific theory?"
+    },
+    {
+      "analysis": "This is a paradigm case of bold, falsifiable prediction. Eddington's 1919 solar eclipse observations tested it: had the deflection been absent or matched the Newtonian value rather than Einstein's, General Relativity would have been refuted. The prediction was bold (differed clearly from background expectation), specific (quantitative), and risky. The theory's survival of this severe test constitutes high corroboration.",
+      "problem": "Einstein's General Theory of Relativity predicted that light passing near a massive body would be deflected by a specific, calculable amount — a prediction that differed from Newtonian mechanics."
+    }
+  ],
+  "core_claims": [
+    "A theory is empirically scientific if and only if it is falsifiable — it forbids some possible observations.",
+    "No finite number of confirming instances can verify a universal scientific claim; a single well-established counter-instance can refute it.",
+    "Science progresses through bold conjectures followed by genuine attempts at refutation; theories that survive severe tests gain corroboration (not confirmation).",
+    "The demarcation criterion distinguishes science from metaphysics, pseudo-science, and unfalsifiable ideology — without implying that unfalsifiable claims are meaningless or worthless.",
+    "Ad hoc modifications that shield a theory from refutation by redefining or narrowing its predictions reduce its scientific status.",
+    "Corroboration is a measure of how well a theory has withstood serious attempts at falsification, not a probability of truth."
+  ],
+  "description": "Falsificationism, developed by Karl Popper, holds that the demarcation criterion separating genuine science from non-science is falsifiability: a theory is scientific if and only if it makes predictions that could, in principle, be shown false by observation. Science advances not by confirming theories but by subjecting them to severe tests and eliminating those that fail.",
+  "domains": [
+    "philosophy-of-science",
+    "epistemology",
+    "methodology",
+    "logic"
+  ],
+  "failure_modes": [
+    "Naive falsificationism: treating any single anomaly as decisive refutation, ignoring that experiments are theory-laden and may be the source of error (the Duhem-Quine problem — any test involves auxiliary hypotheses).",
+    "Misusing demarcation as dismissal: concluding that because a claim is unfalsifiable it is false, meaningless, or worthless. Popper's demarcation marks the boundary of empirical science, not the boundary of legitimate inquiry.",
+    "Conflating corroboration with confirmation: treating a theory's survival of tests as evidence that it is probably true, which Popper explicitly rejected."
+  ],
+  "key_vocabulary": {
+    "Conjecture and refutation": "Popper's model of scientific method: propose bold hypotheses, then rigorously attempt to falsify them.",
+    "Corroboration": "Popper's term for the degree to which a hypothesis has survived severe empirical tests; it is explicitly not a probability or degree of confirmation.",
+    "Demarcation criterion": "The criterion that separates empirical science from non-science; for Popper, this is falsifiability rather than verifiability.",
+    "Falsifiability": "The logical property of a statement such that it is possible, in principle, to specify an observation that would contradict it.",
+    "Modus tollens": "The deductive inference form (if P then Q; not-Q; therefore not-P) that underlies the logic of falsification: if theory T predicts O, and O is false, then T is false.",
+    "Verisimilitude": "Popper's concept of 'truth-likeness': a theory closer to the truth is one that, roughly, has more true and fewer false consequences than its rivals."
+  },
+  "name": "Falsificationism",
+  "operative_procedure": [
+    "Identify the theory or claim under scrutiny. State it precisely enough to determine what it predicts and what it forbids.",
+    "Test for falsifiability. Ask: does the claim make any prediction that could in principle be contradicted by observation? If nothing conceivable could count against it, flag it as unfalsifiable and note this limits its empirical scientific status.",
+    "Generate the most severe tests. Identify observations or experiments that would, if they came out the 'wrong' way, straightforwardly refute the theory. Prefer tests where the theory's prediction is bold — most unlike what we would expect by chance or by rival theories.",
+    "Evaluate outcomes. If the test result contradicts the prediction, apply modus tollens: the theory (or one of its auxiliary hypotheses) must be revised or rejected. If the theory passes, record corroboration — it survived a severe test.",
+    "Scrutinize defensive moves. If a revision is proposed to save the theory from refutation, ask whether it is independently motivated and itself testable, or merely ad hoc. Ad hoc patches reduce scientific standing.",
+    "Synthesize. Summarize the corroboration status of the theory: which predictions have been severely tested and survived, which remain untested, and whether any refuting instance remains unaddressed."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Verificationism",
+      "Logical Positivism",
+      "Humean inductivism"
+    ],
+    "composes_with": [
+      "Occam's Razor",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Lakatos's Methodology of Scientific Research Programmes",
+      "Mayo's Error Statistics"
+    ],
+    "related": [
+      "Bayesian Epistemology",
+      "Verificationism",
+      "Occam's Razor",
+      "Inference to the Best Explanation"
+    ],
+    "rivals": [
+      "Verificationism",
+      "Bayesian Epistemology",
+      "Kuhnian paradigm theory"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Falsificationism is strongest as a guide to scientific method: it identifies what makes a hypothesis genuinely empirically committal and guards against theories that are too flexible to be informative. It is also a useful diagnostic for detecting unfalsifiable pseudo-explanations in discourse. Its limits are well-documented: the Duhem-Quine thesis shows that falsification always targets a conjunction of theory plus auxiliaries; sophisticated falsificationism (Lakatos's research programmes) is needed to handle real scientific episodes. It is less directly applicable to mathematics, ethics, and metaphysics, where falsifiability is not the relevant criterion of evaluation.",
+  "source_summary": "Karl Popper developed falsificationism primarily in 'The Logic of Scientific Discovery' (Logik der Forschung, 1934; English 1959) as a response to the problem of induction and as a demarcation criterion against Logical Positivist verificationism. The Stanford Encyclopedia of Philosophy's entry on Karl Popper (plato.stanford.edu/entries/popper/) documents his views on corroboration, verisimilitude, and the critical rationalist tradition. 'Conjectures and Refutations' (1963) extends the framework to social science and the critique of Marxism and Freudianism. Major subsequent critics include Duhem, Quine, Kuhn, and Lakatos, whose methodology of scientific research programmes is a sophisticated development of Popperian ideas that better fits actual scientific practice by allowing temporary anomalies within progressive research programmes.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Karl Popper (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/popper/"
+    },
+    {
+      "kind": "primary",
+      "title": "The Logic of Scientific Discovery — Karl Popper"
+    },
+    {
+      "kind": "primary",
+      "title": "Conjectures and Refutations — Karl Popper"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Falsifiability (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Falsifiability"
+    }
+  ],
+  "version": 1
+}

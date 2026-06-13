@@ -1,0 +1,95 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Karma Yoga diagnoses the problem as sanga—attachment to the outcome (the promotion) and its effect on self-image. The svadharma analysis asks: is this person genuinely called to pursue growth in their field and apply their capacities? If yes, then preparing and applying is their duty. The paralysis arises from conflating 'I should apply' (action) with 'I must get this result' (attachment). The Gita's teaching separates these: apply with full effort, prepare thoroughly, bring your best—and release the result. The result depends on countless factors outside the actor's control. The action is the user's; the fruit belongs to a larger order. Fear of failure is fear about ego-identity, not about the action itself.",
+      "problem": "A professional is paralyzed about whether to pursue a promotion because they fear failure and what it would mean for their self-image if they don't get it."
+    },
+    {
+      "analysis": "The resentment reveals that the action was not genuinely nishkama (desireless)—it was performed with an implicit expectation of recognition (phala). Karma Yoga does not condemn this; it diagnoses it clearly. The corrective is not to suppress resentment but to examine the original intention: was this action an offering, or was it a transaction? The practice recommended is Ishvara-arpana: re-dedicate the work to a purpose or value beyond recognition. This does not make the user a doormat—legitimate needs for acknowledgment can be addressed directly—but it distinguishes the work's intrinsic value from the ego's need for validation.",
+      "problem": "A volunteer working on a community project feels resentful because their contributions are not being acknowledged or appreciated by others."
+    }
+  ],
+  "core_claims": [
+    "Action is unavoidable; the question is not whether to act but how—with or without attachment (sanga) to results.",
+    "Attachment to the fruits of action (phala) binds the actor to the cycle of karma and rebirth (samsara); desireless action (nishkama karma) liberates.",
+    "The self that acts is not the true Self (Atman); identifying with the actor-ego causes suffering; recognizing the deeper Self enables action without bondage.",
+    "One's svadharma—one's own duty appropriate to one's nature, station, and circumstance—must be performed even imperfectly, rather than another's dharma performed well.",
+    "All actions performed as an offering to the divine (Ishvara-arpana) are purified; the doer becomes an instrument rather than an originator.",
+    "The purification of the mind through selfless action is a prerequisite for the knowledge (jnana) that directly realizes liberation."
+  ],
+  "description": "Karma Yoga is one of the four classical paths to liberation (moksha) in Hindu philosophy, systematically expounded in the Bhagavad Gita, centered on the discipline of selfless action—performing one's duty without attachment to results. It holds that right action, performed as an offering and without ego-investment in outcomes, purifies the mind and leads to spiritual liberation.",
+  "domains": [
+    "ethics",
+    "hinduism",
+    "philosophy",
+    "spirituality"
+  ],
+  "failure_modes": [
+    "Misreading 'detachment from results' as indifference to quality or effort—Karma Yoga demands full engagement and excellent action; detachment is about ego-investment in outcomes, not about caring about the work.",
+    "Using nishkama karma as a spiritual rationalization for avoiding difficult decisions or for quietist passivity when action is required—the Gita is explicit that inaction is not an option; the question is only how one acts.",
+    "Applying Karma Yoga to override legitimate concerns about injustice by telling victims they should simply perform their duty without complaint—svadharma includes standing against wrong when that is one's duty."
+  ],
+  "key_vocabulary": {
+    "Ishvara-arpana": "Offering to God; the practice of dedicating all actions and their results to the divine, transforming every act into worship.",
+    "Nishkama karma": "Desireless action; action performed without attachment to its fruits or results—the central practice of Karma Yoga.",
+    "Phala": "Fruit or result of action; the Bhagavad Gita's injunction is to renounce attachment to phala while still acting fully and well.",
+    "Sanga": "Attachment, association; in the context of Karma Yoga, the clinging to outcomes, roles, or results that binds the actor and generates karmic consequences.",
+    "Svadharma": "One's own duty; the specific set of responsibilities appropriate to one's nature, social role, stage of life, and circumstance—distinct from another's dharma (paradharma).",
+    "Yoga": "Lit. 'union' or 'discipline'; in Karma Yoga, the disciplined practice of action itself as a means of union with the ultimate reality."
+  },
+  "name": "Karma Yoga",
+  "operative_procedure": [
+    "Identify the action and the attachment. For the user's problem, clarify: what action is called for, and what outcome is the user clinging to? Name the specific attachment—to success, recognition, security, a particular result—that is creating anxiety, paralysis, or distortion.",
+    "Clarify svadharma. What is the user's actual duty in this situation—given their role, relationships, capacities, and circumstances? Distinguish between what they are genuinely called to do (svadharma) and what they are doing to secure a particular outcome or avoid discomfort.",
+    "Separate action from outcome. Apply the Gita's core teaching: 'You have a right to perform your actions, but not to the fruits thereof' (BG 2:47). Identify which aspects of the situation are within the user's action-sphere versus which belong to consequences, others' responses, and fate.",
+    "Reframe as offering. Invite the user to consider performing the required action as an offering—to a purpose, a value, or the divine—rather than as a transaction seeking a specific return. What changes if the action is its own justification?",
+    "Address ego-identification. Where is the user identifying with the role or the outcome ('I am a success/failure'; 'this reflects on who I am')? Apply the Atman/ego distinction: the deeper Self is not diminished by any outcome; only the ego-construct is at stake.",
+    "Synthesize the Karma Yoga response. Produce a directive: act fully, act according to svadharma, release attachment to outcomes, dedicate the action to something beyond the ego. Name specifically what the user should do and what they should let go of."
+  ],
+  "relationships": {
+    "ancestors": [
+      "The Four Purusharthas",
+      "Advaita Vedanta"
+    ],
+    "composes_with": [
+      "Advaita Vedanta",
+      "The Four Purusharthas",
+      "Ahimsa"
+    ],
+    "descendants": [],
+    "related": [
+      "The Four Purusharthas",
+      "Advaita Vedanta",
+      "Ahimsa",
+      "Stoicism"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Karma Yoga is most powerful for addressing action-paralysis rooted in ego-attachment, burnout from transactional giving, and the suffering that arises from clinging to outcomes beyond one's control. It pairs well with situations requiring sustained effort under uncertainty. It is less helpful as a complete ethical system—it does not, by itself, adjudicate between competing duties or determine what the right action is (only that one should act according to svadharma). In contexts of genuine injustice or structural oppression, its emphasis on performing one's duty can be misused if svadharma is not critically examined.",
+  "source_summary": "Karma Yoga is systematically expounded in the Bhagavad Gita (c. 2nd century BCE-2nd century CE), particularly in chapters 2-5, where Krishna instructs Arjuna on the path of selfless action as both an ethical discipline and a means of liberation. Swami Vivekananda's 1896 lectures 'Karma Yoga' gave the concept widespread modern articulation, emphasizing its compatibility with active service in the world. The teaching that one has a right to action but not to its fruits (BG 2:47) is among the most cited philosophical statements in Indian thought. URL verification was not available; Wikipedia covers the topic under 'Karma yoga.'",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Bhagavad Gita (esp. chapters 2-5 on Karma Yoga)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Karma Yoga, Swami Vivekananda, 1896"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Bhagavad Gita: A New Translation, Georg Feuerstein, 2011"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Karma yoga"
+    }
+  ],
+  "version": 1
+}

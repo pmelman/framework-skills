@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/pmelman/framework-skills/main/schema/framework-skill.schema.json",
+  "title": "FrameworkSkill",
+  "description": "A thinking framework rendered as an applicable skill: distinctive claims, vocabulary, an executable procedure, failure modes, and provenance. schema_version 3 adds when_to_use (problem-first indicators).",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Bumped per regeneration/revision of this skill."
+    },
+    "schema_version": {
+      "type": "integer",
+      "enum": [2, 3]
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Framework-first summary shown in the catalog/manifest."
+    },
+    "domains": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1
+    },
+    "core_claims": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "Distinctive, falsifiable-ish assertions — no platitudes a rival framework would also assert."
+    },
+    "key_vocabulary": {
+      "type": "object",
+      "additionalProperties": {
+        "anyOf": [
+          { "type": "string" },
+          { "type": "object" }
+        ]
+      },
+      "description": "Term -> definition; nested objects allowed for structured entries."
+    },
+    "operative_procedure": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "Executable steps in the framework's own vocabulary. A model given only this skill should produce a recognizably framework-shaped analysis."
+    },
+    "canonical_examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "problem": { "type": "string", "minLength": 1 },
+          "analysis": { "type": "string", "minLength": 1 }
+        },
+        "required": ["problem", "analysis"],
+        "additionalProperties": false
+      },
+      "description": "From real sources only; never invented."
+    },
+    "failure_modes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "scope_and_limits": {
+      "type": "string"
+    },
+    "source_texts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "url": { "type": "string" },
+          "kind": { "type": "string", "enum": ["primary", "secondary", "tertiary"] }
+        },
+        "required": ["title", "kind"],
+        "additionalProperties": false
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "properties": {
+        "related": { "$ref": "#/$defs/nameList" },
+        "ancestors": { "$ref": "#/$defs/nameList" },
+        "descendants": { "$ref": "#/$defs/nameList" },
+        "rivals": { "$ref": "#/$defs/nameList" },
+        "composes_with": { "$ref": "#/$defs/nameList" }
+      },
+      "required": ["related", "ancestors", "descendants", "rivals", "composes_with"],
+      "additionalProperties": false,
+      "description": "Display names of other frameworks. Entries need not resolve to existing skills — dangling references mark skills worth authoring."
+    },
+    "built_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "builder_model": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["approved", "needs_attention"]
+    },
+    "source_summary": {
+      "type": "string"
+    },
+    "when_to_use": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "schema_version 3+: concrete problem-first indicators that this framework applies, e.g. 'you face a decision under uncertainty with quantifiable evidence'."
+    }
+  },
+  "required": [
+    "name",
+    "version",
+    "schema_version",
+    "description",
+    "domains",
+    "core_claims",
+    "key_vocabulary",
+    "operative_procedure",
+    "canonical_examples",
+    "failure_modes",
+    "scope_and_limits",
+    "source_texts",
+    "relationships",
+    "built_at",
+    "builder_model",
+    "review_status",
+    "source_summary"
+  ],
+  "additionalProperties": false,
+  "if": {
+    "properties": { "schema_version": { "const": 3 } }
+  },
+  "then": {
+    "required": ["when_to_use"]
+  },
+  "$defs": {
+    "nameList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

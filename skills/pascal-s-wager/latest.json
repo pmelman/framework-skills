@@ -1,0 +1,100 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This is a structurally similar decision to Pascal's Wager: a finite certain cost versus an unbounded potential loss. Standard expected utility analysis validates purchasing the insurance if the probability times the magnitude of loss exceeds the premium. The Wager's contribution to this kind of reasoning is the recognition that very small probabilities of very large outcomes should not be dismissed — a precursor to modern tail-risk and catastrophic-risk reasoning. Unlike the Wager, the insurance case avoids infinite utilities and the many-gods problem.",
+      "problem": "An investor is deciding whether to take a small, fixed cost to insure against a catastrophically bad outcome that has a very small but non-negligible probability."
+    },
+    {
+      "analysis": "Pascal's Wager logic is directly relevant: if the potential loss is civilizational (unboundedly large) and the probability is non-negligible, expected utility analysis strongly favors significant investment in prevention regardless of the exact probability. The many-gods objection has an analogue here (there are many catastrophic risks competing for resources), and the analysis must be supplemented by prioritization under scarcity. The Wager structure nonetheless provides a formal justification for taking low-probability catastrophic risks seriously rather than dismissing them on grounds of low probability alone.",
+      "problem": "A policymaker is deciding whether to spend a significant but finite amount on prevention of a low-probability, potentially civilization-ending technological risk (e.g., advanced pandemic, runaway AI)."
+    }
+  ],
+  "core_claims": [
+    "When the potential payoff of an option is infinite and the cost is finite, expected utility maximization requires choosing that option regardless of how low its probability is.",
+    "Belief in God, if God exists and rewards belief, yields infinite positive utility (eternal salvation); disbelief, if God exists, yields infinite negative utility (eternal damnation).",
+    "Belief in God, if God does not exist, costs only finite goods (some worldly pleasures or convenience); disbelief if God does not exist yields only finite gain.",
+    "Given infinite payoff for belief vs. finite payoff for disbelief, the rational wager is belief — independently of whether one assigns God's existence a high or low probability.",
+    "Pascal treats the argument as practical rather than theoretical: he is arguing for the rationality of cultivating belief, not for the truth of theism.",
+    "The argument is foundational for later decision theory and game theory as an early example of reasoning under uncertainty about extreme outcomes."
+  ],
+  "description": "Pascal's Wager is a decision-theoretic argument by Blaise Pascal (Pensées, c. 1660) that it is rationally required to wager on the existence of God, because if God exists the expected utility of belief is infinite while the cost of belief is finite, making belief the dominant strategy regardless of the prior probability of God's existence.",
+  "domains": [
+    "decision-theory",
+    "philosophy-of-religion",
+    "epistemology",
+    "ethics"
+  ],
+  "failure_modes": [
+    "The many-gods objection: the argument applies equally to any religion with infinite afterlife rewards or punishments, including mutually incompatible ones — it fails to uniquely identify which deity to wager on.",
+    "The problem of genuine belief: forced or instrumentally motivated belief may not be the kind of belief that produces the infinite payoff (a sincere God would not reward insincere belief), and humans cannot simply choose to believe on command.",
+    "Infinite utility makes expected utility theory ill-behaved: Pascal's Mugging (Bostrom) shows that admitting infinite utilities into decision theory generates paradoxes — any tiny claimed probability of an infinite payoff can override any other consideration, making rational action impossible."
+  ],
+  "key_vocabulary": {
+    "Dominance argument": "An argument that one option is better than another across all possible states of the world (or in the worst case); Pascal's argument is a dominance-style argument using infinite values.",
+    "Expected utility": "The probability-weighted average of the utilities of all possible outcomes of an option; Pascal's argument is that the infinite expected utility of belief dominates any finite expected utility of disbelief.",
+    "Infinite utility": "Pascal's claim that eternal salvation (or damnation) has infinite positive (or negative) utility, which when multiplied by any positive probability yields infinite expected value.",
+    "Many-gods objection": "The objection that Pascal's argument applies equally to belief in any of infinitely many possible deities with different and conflicting requirements, making the argument indeterminate.",
+    "Pragmatic belief formation": "The view that beliefs can be adopted for pragmatic reasons (what it is useful to believe) rather than only for epistemic reasons (what the evidence supports); the Wager is an early example.",
+    "The Wager": "The decision matrix in which belief and disbelief are compared across the possible states 'God exists' and 'God does not exist,' with their respective payoffs."
+  },
+  "name": "Pascal's Wager",
+  "operative_procedure": [
+    "Identify the decision under uncertainty. Confirm that the problem involves a choice between options where one option has a possible outcome of extreme (potentially unbounded) positive or negative utility, and the agent's probability assignment to that outcome is non-zero.",
+    "Construct the decision matrix. List the options (e.g., believe, do not believe) and the relevant states of the world (e.g., God exists, God does not exist). Fill in the utility values for each option-state pair.",
+    "Evaluate dominance. Check whether one option dominates across all states. If any option yields an infinite expected utility, flag that it will dominate expected-utility calculations regardless of how low the probability is assigned to the relevant state.",
+    "Apply the many-gods (and many-options) objection. Ask: are there other possible states or options that also carry infinite utility but in different or conflicting directions? If so, the dominance argument may not uniquely favor one option. Identify which of the infinitely many 'wager-style' options are actually available and mutually exclusive.",
+    "Assess the pragmatic belief-formation step. Even granting the expected-utility calculation, can one actually choose to believe something on the basis of a wager? Note James's 'will to believe' and the distinction between decision to believe and involuntary belief. What practical steps follow — ritual, community, inquiry?",
+    "Synthesize. Evaluate whether the infinite-utility structure of the original problem justifies the dominant-option conclusion, acknowledge the major objections (many gods, moral integrity, genuine belief vs. performance), and specify what the argument actually establishes and what it does not."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Scholastic Theology",
+      "Early Probability Theory (Fermat/Pascal)",
+      "Natural Theology"
+    ],
+    "composes_with": [
+      "Decision Theory",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Expected Utility Theory",
+      "Existential Risk Analysis",
+      "Pascal's Mugging"
+    ],
+    "related": [
+      "Decision Theory",
+      "Bayesian Epistemology",
+      "Pragmatism"
+    ],
+    "rivals": [
+      "Evidentialist Epistemology",
+      "Clifford's Ethics of Belief",
+      "Bayesian Epistemology (as corrective)"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Pascal's Wager is most valuable as a foundational illustration of decision-making under extreme uncertainty and as a template for thinking about low-probability, high-magnitude risks — including existential and catastrophic risks in policy and engineering. It is legitimately applied when options genuinely differ in their worst-case outcomes by orders of magnitude. It fails as an argument for religious belief specifically (due to the many-gods and sincere-belief objections) and becomes dangerous when applied mechanically to generate arbitrary action from speculative infinite utilities (Pascal's Mugging). It should be used in conjunction with Bayesian Epistemology and Decision Theory, not as a replacement for probabilistic reasoning.",
+  "source_summary": "Pascal's Wager appears in fragment §233 (Brunschvicg) / §680 (Lafuma) of Blaise Pascal's posthumously published 'Pensées' (1670). Pascal presents it as a practical argument for cultivating belief in God addressed to those who are not yet persuaded by metaphysical argument. The fragment explicitly employs a decision-theoretic structure with four cells (believe/disbelieve × God exists/does not exist) and argues that infinite expected utility dominates finite costs. The argument has been extensively analyzed by philosophers of religion, decision theorists, and epistemologists; major objections include Diderot's many-gods objection (18th c.), William James's discussion in 'The Will to Believe' (1897), and Nick Bostrom's 'Pascal's Mugging' (2009), which shows the dangers of unconstrained infinite-utility reasoning.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Pensées (c. 1660, published 1670) — Blaise Pascal, §233 (Brunschvicg numbering) / §680 (Lafuma numbering)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Pascal's Wager'"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Will to Believe (1897) — William James"
+    },
+    {
+      "kind": "secondary",
+      "title": "Pascal's Mugging — Nick Bostrom (Analysis, 2009)"
+    }
+  ],
+  "version": 1
+}

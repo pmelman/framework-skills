@@ -1,0 +1,94 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Just War analysis begins with jus ad bellum: the just cause criterion is met by the protection of innocent life (humanitarian intervention). Right intention requires that the intervention genuinely aims at stopping atrocities, not regime change for geopolitical gain. Legitimate authority is contested: UN Security Council authorization strengthens the case; unilateral action by a single state is weaker. Last resort requires that diplomatic pressure, sanctions, and international legal mechanisms have been tried and failed. Probability of success must be honestly assessed: a likely failed intervention that prolongs atrocities would fail this criterion. Proportionality weighs the harm of military action (civilian casualties, regional destabilization) against the harm of inaction. If all criteria are met, intervention may be just; if several fail, it is not — whatever the sympathetic cause.",
+      "problem": "A state is considering military intervention in a neighboring country where a government is committing mass atrocities against an ethnic minority."
+    },
+    {
+      "analysis": "This is a jus in bello question. Discrimination is satisfied if the target is genuinely a military target (the depot) and civilians are not directly targeted. Proportionality asks: does the military advantage (degrading enemy capacity) outweigh the anticipated civilian deaths? The commander must also ask whether all feasible precautions have been taken: timing the strike to minimize civilian presence, using precision munitions, giving warning if operationally possible. Double effect analysis: the civilian deaths are a foreseen but unintended side-effect, not the means of achieving the military goal. If the military advantage is significant and precautions are taken, the strike may be permissible; if the advantage is marginal or alternatives exist, it is not.",
+      "problem": "A military commander is considering a strike on a munitions depot in an urban area that will likely kill dozens of civilians."
+    }
+  ],
+  "core_claims": [
+    "War is sometimes morally permissible — pacifism and militarism are both wrong — but only when specific conditions of justice are met both in the decision to fight and in how fighting is conducted.",
+    "The jus ad bellum conditions (just cause, right intention, proper authority, last resort, probability of success, proportionality) must all be satisfied for a war to be justly initiated.",
+    "The jus in bello principles (discrimination/non-combatant immunity, proportionality in conduct) must be observed by all parties regardless of whether the war itself was justly begun.",
+    "Non-combatants retain moral immunity from direct attack; the deliberate targeting of civilians is never permissible.",
+    "Proportionality is a double requirement: anticipated goods must outweigh anticipated harms both for deciding to fight and for each military action within the conflict.",
+    "Emerging traditions add jus post bellum: obligations of justice in the transition from war to peace, including fair peace terms, accountability for war crimes, and reconstruction."
+  ],
+  "description": "Just War Theory is a tradition of moral reasoning — developed across Christian theology (Augustine, Aquinas), international law, and secular philosophy — that holds that war and organized violence are sometimes morally permissible but only under stringent conditions governing both the decision to go to war (jus ad bellum) and the conduct of war (jus in bello). It provides a systematic framework for evaluating the justice of armed conflict and coercive force.",
+  "domains": [
+    "ethics",
+    "political-philosophy",
+    "christianity",
+    "international-law"
+  ],
+  "failure_modes": [
+    "Just cause inflation: treating any national interest or grievance as a 'just cause,' so that the framework becomes a post-hoc rationalization for wars already decided on other grounds.",
+    "Treating jus ad bellum and jus in bello as independent: assuming that fighting for a just cause licenses any means — when in fact unjust conduct remains unjust regardless of the justice of the cause.",
+    "Probability-of-success neglect: ignoring this criterion (often because it seems coldly calculating) and launching interventions that fail and leave situations worse than before."
+  ],
+  "key_vocabulary": {
+    "Discrimination": "The principle that military force must distinguish between combatants (legitimate targets) and non-combatants (who may not be directly targeted).",
+    "Jus ad bellum": "The justice of going to war; the set of conditions (just cause, right intention, legitimate authority, last resort, proportionality, probability of success) that must be met to justify initiating armed conflict.",
+    "Jus in bello": "Justice in the conduct of war; the principles of discrimination (non-combatant immunity) and proportionality that govern how fighting may be carried out.",
+    "Jus post bellum": "Justice after war; obligations to establish a just and lasting peace, including appropriate peace terms, accountability for atrocities, and support for reconstruction.",
+    "Last Resort": "The condition that all reasonable non-violent alternatives (diplomacy, sanctions, negotiation) must have been exhausted or shown to be futile before war may be initiated.",
+    "Proportionality": "The requirement that the harm caused by a military action must not be excessive relative to the anticipated military advantage; applies both to the decision to go to war and to individual acts within it."
+  },
+  "name": "Just War Theory",
+  "operative_procedure": [
+    "Apply the jus ad bellum checklist to the decision to use force. Evaluate each criterion: (1) Is there a just cause (defense against aggression, protection of the innocent)? (2) Is the intention right (peace as the goal, not conquest or revenge)? (3) Is there legitimate authority (a recognized political body, not a private group)? (4) Is force a last resort? (5) Is there a reasonable probability of success? (6) Are the anticipated benefits proportionate to the anticipated harms? A 'no' on any criterion is a serious moral problem; multiple failures make the use of force unjust.",
+    "Apply the jus in bello principles to specific military actions. For each action (targeting decision, tactic, weapon system), ask: (1) Does it discriminate between combatants and non-combatants? (2) Is the collateral harm proportionate to the military advantage? (3) Are all feasible precautions being taken to minimize civilian harm?",
+    "Test for double effect where harm to innocents is unavoidable. Apply the Principle of Double Effect: (a) the act itself is not intrinsically evil; (b) the agent intends only the good effect; (c) the bad effect is not the means to the good effect; (d) there is proportionate reason for accepting the bad effect.",
+    "Assess the conduct of all parties, not only the initiator. Jus in bello applies regardless of which side has jus ad bellum; war crimes by a just party do not become permissible because the cause is just.",
+    "Apply jus post bellum to the transition from conflict. What peace terms are proportionate and not punitive? What accountability mechanisms are needed? What obligations of reconstruction exist toward the defeated population?",
+    "Synthesize with a judgment of overall justice. Produce an overall assessment: is the conflict just, unjust, or mixed (just cause but unjust conduct)? Name what would need to change for the situation to be brought closer to justice."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Augustinian Theology",
+      "Thomistic Natural Law"
+    ],
+    "composes_with": [
+      "Thomistic Natural Law",
+      "Kantian Deontology"
+    ],
+    "descendants": [],
+    "related": [
+      "Thomistic Natural Law",
+      "Augustinian Theology",
+      "Maqasid al-Shariah",
+      "Utilitarianism"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Just War Theory is the dominant Western framework for evaluating military force and is codified in international humanitarian law (Geneva Conventions, UN Charter). It is strongest when applied rigorously and honestly, as a constraint on force rather than a license for it. It is weakest in asymmetric warfare contexts (insurgencies, terrorism) where combatant/non-combatant distinctions are deliberately blurred, and in situations where all available options are bad. It presupposes state actors and organized conflict; it applies less cleanly to diffuse non-state violence.",
+  "source_summary": "Just War Theory has roots in Augustine (4th–5th c. CE), who justified defensive warfare while condemning aggression, and was systematized by Aquinas in the Summa Theologiae (Q. 40). Francisco de Vitoria and Hugo Grotius extended it to international law in the 16th–17th centuries. Michael Walzer's Just and Unjust Wars (1977) revitalized and secularized the framework for modern application, introducing the concept of 'moral equality of soldiers.' The tradition is now codified in international humanitarian law (the Geneva Conventions) and the UN Charter's Article 2(4) and Article 51. The Stanford Encyclopedia of Philosophy entry on 'War' and 'Just War' provide detailed academic treatment of the contemporary debates.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Augustine, Contra Faustum (c. 397 CE), Book XXII"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas Aquinas, Summa Theologiae II-II, Question 40 (On War)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Michael Walzer, Just and Unjust Wars (1977)"
+    },
+    {
+      "kind": "secondary",
+      "title": "War — Stanford Encyclopedia of Philosophy"
+    }
+  ],
+  "version": 1
+}

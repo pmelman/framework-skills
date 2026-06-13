@@ -1,0 +1,101 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Behind the veil of ignorance, a rational planner does not know whether they will be a wealthy homeowner, a low-income renter, or a new immigrant. From behind the veil, they cannot rationally risk being the low-income resident locked out of affordable housing near jobs. Principles that protect access to affordable housing and mobility — even at some cost to property values — are what rational choosers would select, because those principles protect whoever turns out to be in the worst position.",
+      "problem": "A city is designing its zoning policy. Wealthy neighborhoods want strict zoning that limits density; poorer residents want affordable housing near employment centers."
+    },
+    {
+      "analysis": "The veil of ignorance asks: if you did not know whether you would be the primary caregiver, the non-caregiving employee, or the employer bearing the cost, what policy would you choose? Not knowing your sex, family structure, or career stage, a rational person would choose more generous and flexible leave — because being the primary caregiver with minimal leave is a severe disadvantage, and behind the veil you cannot rule out occupying that position.",
+      "problem": "A company is setting its parental leave policy. Mostly male leadership proposes minimal leave."
+    }
+  ],
+  "core_claims": [
+    "Fair principles of justice must be chosen from behind a 'veil of ignorance' that strips away knowledge of one's own social position, talents, values, and life plan.",
+    "The original position — the hypothetical choice situation behind the veil — models impartiality by ensuring that self-interest cannot bias the selection of principles.",
+    "Rational agents in the original position would choose Rawls's two principles of justice: equal basic liberties, and that inequalities are only justified if they benefit the least-advantaged members of society (the difference principle).",
+    "The veil ensures that choosing principles is equivalent to choosing them fairly, because no one can tailor principles to favor their own known characteristics.",
+    "This is a device of representation, not a claim that actual deliberators can or should blank out their identities — it models what fair principles would look like.",
+    "The resulting principles reflect a reasonable risk-aversion (maximin): behind the veil, rational choosers protect against the worst possible position they might occupy."
+  ],
+  "description": "The Veil of Ignorance is a thought experiment devised by John Rawls in which principles of justice are chosen by rational agents who do not know their own place in society — their class, sex, race, natural talents, or conception of the good. By eliminating self-interested bias, the device generates principles that are fair to all because they are chosen by none who knows their own advantage.",
+  "domains": [
+    "political-philosophy",
+    "ethics",
+    "social-contract-theory",
+    "justice"
+  ],
+  "failure_modes": [
+    "Stripping away identity may strip away morally relevant particulars: critics (notably communitarians like Sandel) argue that self-knowledge is constitutive of the self, so a 'veil' that removes it produces an artificially thin and unrealistic model of persons.",
+    "The maximin rule may be too risk-averse: selecting the option that maximizes the minimum is not the only rational strategy behind the veil; a more risk-neutral agent might choose utilitarian principles instead.",
+    "Applicable only to institutional principles, not personal decisions: the veil is a device for choosing the basic structure of society, not for adjudicating individual ethical choices or personal relationships."
+  ],
+  "key_vocabulary": {
+    "Difference principle": "The second part of Rawls's second principle of justice: social and economic inequalities are just only if they are to the greatest benefit of the least-advantaged members of society.",
+    "Justice as fairness": "Rawls's name for his theory: principles of justice are those that would be agreed upon in conditions of fairness (the original position).",
+    "Maximin": "A decision rule that selects the option whose worst possible outcome is best; Rawls argues parties behind the veil would choose principles using maximin due to the stakes and their ignorance of their position.",
+    "Original position": "Rawls's hypothetical choice situation in which rational agents select principles of justice under the veil of ignorance, without knowledge of their own social position or conception of the good.",
+    "Primary goods": "The goods all rational persons are assumed to want regardless of their specific life plan (rights, liberties, opportunities, income, wealth, the social bases of self-respect) — the currency of Rawlsian justice.",
+    "Veil of ignorance": "The stipulated ignorance in the original position: parties do not know their class, race, sex, natural abilities, psychological predispositions, or conception of the good."
+  },
+  "name": "Veil of Ignorance",
+  "operative_procedure": [
+    "Establish the choice situation. Frame the problem as one about principles: what rule or policy should govern this type of situation? Translate the specific decision into a question about fair general principles that will apply to everyone in the relevant group.",
+    "Apply the veil. Instruct the user to reason as if they did not know which position in the situation they would occupy — whether they would be the employer or the employee, the majority or the minority, the talented or the disadvantaged, the beneficiary or the burdened.",
+    "Identify the range of positions. List the distinct social positions that the principle will affect and the range of advantages and disadvantages each position entails under the candidate principles.",
+    "Reason from maximin. Ask: which principle would a rational person choose if they might end up in the worst-off position? Rawls's insight is that behind the veil, fairness requires protecting those who would be least advantaged — a rational chooser cannot afford to gamble with the bottom.",
+    "Test for justifiability to all. Would the principle be acceptable to someone in the least-advantaged position, the most-advantaged position, and all positions in between? A principle that no one behind the veil would reject has prima facie claim to fairness.",
+    "Synthesize. State the principle(s) that emerge and explain why they are fair — because they were chosen under conditions that eliminate bias — then apply them to the user's original problem."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Social Contract Theory (Rousseau/Locke)",
+      "Kantian Moral Philosophy",
+      "Contractarianism"
+    ],
+    "composes_with": [
+      "Reflective Equilibrium",
+      "Kantian Deontology",
+      "Utilitarianism"
+    ],
+    "descendants": [
+      "Rawlsian Constructivism",
+      "Political Liberalism",
+      "Luck Egalitarianism"
+    ],
+    "related": [
+      "Kantian Deontology",
+      "Reflective Equilibrium",
+      "Utilitarianism"
+    ],
+    "rivals": [
+      "Libertarianism (Nozick)",
+      "Communitarianism (Sandel/MacIntyre)",
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Veil of Ignorance is a powerful tool for testing fairness in institutional design, policy, and rule-making — wherever the question is 'what principles should govern a practice that affects people with different interests?' It is particularly useful for revealing when proposed rules are self-servingly biased. It is not well-suited to personal ethics, relationships, or decisions that turn on particular facts about the parties' identities and histories. It presupposes liberal individualist assumptions that communitarians and some care ethicists dispute.",
+  "source_summary": "The veil of ignorance was introduced by John Rawls in 'A Theory of Justice' (1971) as the centerpiece of his 'original position' — a hypothetical choice situation designed to model fair conditions for selecting principles of justice. Rawls argued that rational parties behind the veil, using maximin reasoning, would choose two principles: equal basic liberties and the difference principle. He developed and refined the account in 'Political Liberalism' (1993) and 'Justice as Fairness: A Restatement' (2001). Critics include Robert Nozick (from a libertarian direction in 'Anarchy, State, and Utopia'), Michael Sandel (from a communitarian direction in 'Liberalism and the Limits of Justice'), and G.A. Cohen (arguing the difference principle does not go far enough in addressing inequality).",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "A Theory of Justice (1971) — John Rawls"
+    },
+    {
+      "kind": "primary",
+      "title": "Justice as Fairness: A Restatement (2001) — John Rawls"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Original Position'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Liberalism and the Limits of Justice (1982) — Michael Sandel (critique)"
+    }
+  ],
+  "version": 1
+}

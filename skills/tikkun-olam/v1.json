@@ -1,0 +1,98 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Food insecurity is a violation of the dignity (b'tselem Elohim) of those who go hungry, and a symptom of systemic injustice. Tikkun Olam reframes the response not as optional charity but as obligatory repair: tzedakah is justice, not generosity. The leader's actions should address both immediate need (food distribution—gemilut chasadim) and root causes (advocacy for living wages, zoning for grocery access, policy reform). The Kabbalistic framing adds that each act of feeding the hungry gathers divine sparks and contributes to cosmic repair. The framework insists the leader cannot simply give money and feel done—structural engagement is part of the tikkun.",
+      "problem": "A community leader wants to address chronic food insecurity in their neighborhood. How does tikkun olam frame this obligation?"
+    },
+    {
+      "analysis": "Tikkun Olam provides a strong grounding for environmental ethics. The world is entrusted to human stewardship (Genesis 2:15—l'ovdah ul'shomrah, 'to work it and guard it'), and environmental destruction scatters rather than gathers divine light. The framework motivates not only personal behavior change but systemic advocacy—lobbying for climate policy, supporting clean energy infrastructure, and holding corporations accountable. The person's individual recycling is meaningful but insufficient; tikkun demands engagement at the level where the real damage occurs.",
+      "problem": "A person asks whether recycling and environmental action are religiously motivated under Jewish frameworks."
+    }
+  ],
+  "core_claims": [
+    "The world as created is incomplete; human beings are called to participate with God in its ongoing repair and perfection.",
+    "Individual ethical acts—tzedakah (justice/charity), gemilut chasadim (acts of loving-kindness), and social justice—have cosmic significance.",
+    "The concept originates in Kabbalistic cosmology (Lurianic Kabbalah): divine light was scattered at creation and must be gathered through human action (tikkun).",
+    "In contemporary usage, tikkun olam extends to systemic social action: addressing poverty, oppression, environmental destruction, and injustice.",
+    "Jewish identity and practice are incomplete without engagement in repairing the world for all people, not only for Jews.",
+    "Every person possesses infinite worth (b'tselem Elohim—created in the image of God), making harm to any person a wound in the cosmic order requiring repair."
+  ],
+  "description": "Tikkun Olam (Hebrew: 'repair of the world') is a Jewish concept holding that human beings are partners with the divine in the ongoing work of repairing, completing, and perfecting the world through ethical action, justice, and compassion. In its modern form, it functions as a framework for social justice and moral responsibility oriented toward systemic betterment of the world.",
+  "domains": [
+    "ethics",
+    "judaism",
+    "social-justice",
+    "theology"
+  ],
+  "failure_modes": [
+    "Reducing tikkun olam to feel-good volunteerism or personal virtue-signaling without structural engagement strips it of its demand for systemic repair and can serve as a substitute for justice rather than its enactment.",
+    "Applying tikkun olam as a blank check for any progressive political cause conflates the framework with a partisan ideology and loses its grounding in Jewish legal and theological particularity.",
+    "Using tikkun olam to justify violations of halakha or to override Jewish legal obligations misunderstands the relationship—tikkun olam operates within, not above, the halakhic system."
+  ],
+  "key_vocabulary": {
+    "B'tselem Elohim": "Lit. 'in the image of God'; the biblical doctrine (Genesis 1:27) that every human being bears the divine image, grounding universal human dignity.",
+    "Gemilut Chasadim": "Acts of loving-kindness; deeds done for others without expectation of return, considered one of the three pillars on which the world stands (Pirkei Avot 1:2).",
+    "L'takken": "The infinitive 'to repair/correct'; the active verb form underlying the noun tikkun—denoting the human vocation as one of ongoing correction and healing.",
+    "Lurianic Kabbalah": "The 16th-century mystical system of Rabbi Isaac Luria (the Ari) in which creation involved a cosmic 'shattering of vessels' (shevirat hakelim), and human acts of tikkun gather the scattered divine sparks (nitzotzot).",
+    "Tikkun Olam": "Lit. 'repair of the world'; the obligation and aspiration to mend what is broken in society and the cosmos through ethical and spiritual action.",
+    "Tzedakah": "Lit. 'justice' or 'righteousness'; commonly translated as charity, but in Jewish law it is an obligatory act of justice, not merely voluntary generosity."
+  },
+  "name": "Tikkun Olam",
+  "operative_procedure": [
+    "Identify what is broken. Examine the user's problem to map the specific harm, injustice, or dysfunction that needs repair—at the individual, communal, or systemic level. Be specific: what exactly is damaged or unjust?",
+    "Locate the image of God at stake. Ask: whose dignity (b'tselem Elohim) is being violated or diminished in this situation? Make the human cost concrete and central.",
+    "Distinguish symptoms from roots. Tikkun Olam requires addressing systemic causes, not only immediate symptoms. What structural conditions produce or perpetuate this harm? What would a repaired world look like here?",
+    "Identify the user's sphere of repair. What acts of tzedakah, gemilut chasadim, or social action are within the user's power? Map the gap between where the world is and where it must be, then match that to actionable capacities.",
+    "Design the repair. Propose concrete, directional actions—individually, institutionally, politically—that move toward the repaired state. Prioritize actions that address root causes over palliative measures.",
+    "Synthesize with urgency and hope. Tikkun Olam holds that repair is real and possible, not utopian fantasy. Conclude with a statement of what the user can do, why it matters cosmically and practically, and what long-term direction it points toward."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Halakha"
+    ],
+    "composes_with": [
+      "Halakha",
+      "Mussar",
+      "Pikuach Nefesh"
+    ],
+    "descendants": [],
+    "related": [
+      "Halakha",
+      "Pikuach Nefesh",
+      "Mussar",
+      "Ahimsa"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Tikkun Olam is most powerful as a motivational and directional framework for social ethics, justice work, and communal responsibility—it names why repair matters and for whom. It is strong on orienting values but weaker as a decision procedure when hard tradeoffs must be made (it does not, by itself, tell you which repairs to prioritize or how to weigh competing harms). It can become vague when applied without the grounding in halakha and Jewish textual tradition that gave the concept its original precision.",
+  "source_summary": "Tikkun Olam originates in the Aleinu prayer's phrase 'l'takken olam b'malkhut Shaddai' and was elaborated into a full cosmological doctrine in 16th-century Lurianic Kabbalah, which described creation as a shattering of divine vessels requiring human action to repair. In modernity, the concept was secularized and expanded by American Jewish movements (particularly Reform and Conservative Judaism) into a framework for social justice activism grounded in Jewish obligation. The tension between its mystical origins and its contemporary social justice applications is a live debate in Jewish theology. URL verification was not available; Wikipedia covers the full history under 'Tikkun olam.'",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Lurianic Kabbalah: Etz Chaim (Tree of Life), Rabbi Isaac Luria / Rabbi Chaim Vital, 16th c."
+    },
+    {
+      "kind": "primary",
+      "title": "Pirkei Avot (Ethics of the Fathers), Mishnah"
+    },
+    {
+      "kind": "primary",
+      "title": "Aleinu prayer (liturgical source of the phrase 'l'takken olam b'malkhut Shaddai')"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Tikkun olam"
+    },
+    {
+      "kind": "secondary",
+      "title": "Repair the World: A Jewish Social Justice Organization"
+    }
+  ],
+  "version": 1
+}

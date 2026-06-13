@@ -1,0 +1,102 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "These intuitions pull in different directions. Using reflective equilibrium, the philosopher tests principles against both. Rawls's difference principle — that inequalities are just only if they benefit the least advantaged — represents an attempt to bring these intuitions into coherence: it respects productive incentives (labor entitlement intuition) while constraining inequality to benefit all (equality intuition). If the difference principle generates further counterintuitive implications (e.g., in cases of natural talent), both the principle and the intuitions are candidates for revision.",
+      "problem": "A political philosopher is constructing a theory of distributive justice. She holds the intuition that extreme inequality is unjust, but also the intuition that people are entitled to the fruits of their own labor."
+    },
+    {
+      "analysis": "The conflict between the absolute autonomy principle and the considered judgment forces a revision. Wide reflective equilibrium might draw on background theories of autonomy (is severely depressed decision-making fully autonomous?) and of beneficence, generating a more nuanced principle: autonomy is weighty but can be constrained where decision-making capacity is significantly compromised. The revised principle coheres with the judgment and with the background theory, while the original absolutist principle is abandoned.",
+      "problem": "A bioethicist initially accepts a principle of patient autonomy absolutely. But she has a considered judgment that a severely depressed patient requesting physician-assisted suicide should not automatically receive it."
+    }
+  ],
+  "core_claims": [
+    "Neither moral intuitions nor moral principles have absolute foundational priority; justification proceeds by mutual adjustment between them.",
+    "Considered moral judgments — intuitions formed under conditions of calm reflection, knowledge of facts, and absence of self-interest — carry genuine evidential weight.",
+    "Principles that conflict with firm considered judgments may need revision; intuitions that conflict with well-supported principles may also be revised or rejected.",
+    "Wide reflective equilibrium extends the method to include background theories of the person, society, and moral epistemology, not just principles and judgments.",
+    "The process is ongoing and revisable: equilibrium is never final but always provisional, open to disturbance by new cases or new theoretical insights.",
+    "Coherence across judgments, principles, and background theories — rather than derivation from self-evident axioms — is the appropriate standard for moral justification."
+  ],
+  "description": "Reflective Equilibrium is a method of moral justification developed by John Rawls in which we achieve coherence between our considered moral judgments (intuitions about cases) and general moral principles by iteratively revising both until they cohere. It treats neither pure theory nor raw intuition as foundational, but uses each to check and refine the other.",
+  "domains": [
+    "metaethics",
+    "ethics",
+    "epistemology",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Conservatism bias: if considered judgments reflect the dominant culture's biases (e.g., historical intuitions about racial hierarchy), equilibrating with those intuitions can entrench injustice rather than correct it.",
+    "Underdetermination: many different sets of principles can be brought into equilibrium with the same set of intuitions, making the method less action-guiding than it appears.",
+    "Infinite regress or circularity: because nothing is foundational, critics argue the method cannot ultimately escape the charge of bootstrapping — the 'equilibrium' achieved may be coherent but not truth-tracking."
+  ],
+  "key_vocabulary": {
+    "Background theories": "Deeper commitments about human nature, society, and epistemology that constrain and inform which principles and judgments are acceptable.",
+    "Coherentism": "The metaethical position that moral beliefs are justified by their coherence with other beliefs in a network, rather than by derivation from foundational axioms.",
+    "Considered judgments": "Moral intuitions formed under epistemically favorable conditions: full information, calm reflection, no personal stake, no obvious bias — these carry evidential weight about moral reality.",
+    "Moral principles": "General normative claims (e.g., 'torture is wrong', 'fairness requires equal opportunity') that organize and systematize considered judgments.",
+    "Narrow reflective equilibrium": "Coherence achieved between a set of considered judgments and the principles that systematize them, without revising background theoretical commitments.",
+    "Wide reflective equilibrium": "Rawls's fuller method: coherence among considered judgments, moral principles, and background theories (of the person, society, rationality) — all open to revision."
+  },
+  "name": "Reflective Equilibrium",
+  "operative_procedure": [
+    "Collect considered judgments. Gather the moral judgments about the problem — both the user's own and widely shared ones — that survive scrutiny: judgments made calmly, with relevant information, and without obvious bias or self-interest. Note their relative confidence.",
+    "Articulate candidate principles. Identify the general moral principles that would systematize or explain the considered judgments. These may come from moral theories (utilitarian, Kantian, virtue-based) or from more local generalizations.",
+    "Test for conflicts. Identify any cases where the principles and the considered judgments conflict with each other. Where does the principle imply something the judgment rejects, or vice versa?",
+    "Revise iteratively. For each conflict, decide whether to revise the principle (because the intuition is firm and the principle over-generalizes) or revise the intuition (because the principle reveals it as biased, parochial, or inconsistent with other firm judgments). Repeat until conflicts are minimized.",
+    "Incorporate background theories (wide equilibrium). Examine whether the emerging picture coheres with background commitments about the nature of persons, the purpose of moral reasoning, or the role of fairness and equality. Revise where incoherence persists.",
+    "Synthesize. Present the most coherent set of judgments and principles achievable given the materials — noting which judgments were revised and why, and identifying remaining tensions that resist resolution."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Coherentism",
+      "Pragmatism",
+      "Intuitionism (Sidgwick/Ross)"
+    ],
+    "composes_with": [
+      "Veil of Ignorance",
+      "Kantian Deontology",
+      "Aristotelian Virtue Ethics",
+      "Principle of Charity"
+    ],
+    "descendants": [
+      "Wide Reflective Equilibrium",
+      "Constructivism (Rawls)",
+      "Moral Intuitionism (contemporary)"
+    ],
+    "related": [
+      "Kantian Deontology",
+      "Utilitarianism",
+      "Aristotelian Virtue Ethics"
+    ],
+    "rivals": [
+      "Moral Foundationalism",
+      "Pure Intuitionism",
+      "Moral Rationalism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Reflective Equilibrium is strongest as a method for constructing and adjudicating between moral theories — it is the dominant methodology in analytic political philosophy and applied ethics. It is particularly powerful for revealing hidden inconsistencies in a moral worldview and for working out principles in contested areas like bioethics, distributive justice, and rights theory. It is weakest as an answer to moral skepticism (coherence does not guarantee truth), in contexts where the agent's considered judgments are severely distorted by ideology or limited perspective, and when action is needed immediately without time for extended revision.",
+  "source_summary": "Reflective equilibrium was introduced by John Rawls in his 1951 paper 'Outline of a Decision Procedure for Ethics' and developed as a central methodological tool in 'A Theory of Justice' (1971). Rawls distinguished narrow from wide reflective equilibrium in 'The Independence of Moral Theory' (1975), extending the method to include background theories. Norman Daniels provided the canonical philosophical analysis of the method in 'Wide Reflective Equilibrium and Theory Acceptance in Ethics' (1979) and in his entry in the Stanford Encyclopedia of Philosophy. The method became the dominant approach in analytic political philosophy and bioethics, though it faces ongoing debates about conservatism, circularity, and the relationship between coherence and moral truth.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "A Theory of Justice (1971) — John Rawls (Chapter 1, §4 and §9)"
+    },
+    {
+      "kind": "primary",
+      "title": "Outline of a Decision Procedure for Ethics (1951) — John Rawls"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Reflective Equilibrium'"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Method of Reflective Equilibrium — Norman Daniels"
+    }
+  ],
+  "version": 1
+}

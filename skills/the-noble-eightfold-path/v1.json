@@ -1,0 +1,95 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Right View: the short-term relief of avoiding conflict is outweighed by the long-term dukkha of eroded relationships — a view distorted by short-term craving for comfort. Right Intention: the lying is driven by ill-will avoidance and self-protection rather than goodwill and non-harm. Right Speech (samma vaca) is directly violated: speech should be truthful, timely, gentle, purposeful, and kindly. Right Effort: the effort should be to abandon the arising of the habitual deceptive impulse and to cultivate honest communication. The framework does not merely say 'be honest' — it situates the lying as a symptom of a whole pattern of view and intention, so the repair requires working at all three levels.",
+      "problem": "A person habitually lies to colleagues to avoid conflict, and this pattern is creating deeper distrust and isolation."
+    },
+    {
+      "analysis": "The samadhi group (Right Effort, Right Mindfulness, Right Concentration) is directly implicated. Right Effort: four aspects apply — restraining the arising of distraction, abandoning distraction once arisen, cultivating the arising of concentrated attention, and maintaining it. Right Mindfulness: building moment-to-moment awareness of when the mind has wandered before it snowballs. Right Concentration: the formal development of sustained one-pointed attention through meditation supports all cognitive tasks. Right View at base: recognizing that the wandering mind is conditioned, not fixed — it can be trained. The path analysis points to a structured practice rather than mere willpower.",
+      "problem": "A student cannot concentrate during study sessions; the mind constantly wanders to social media and social anxieties."
+    }
+  ],
+  "core_claims": [
+    "The path consists of eight factors grouped into three categories: wisdom (panna), ethical conduct (sila), and mental cultivation (samadhi).",
+    "The factors are not sequential stages but simultaneous, mutually reinforcing aspects of a single integrated practice.",
+    "Right View (samma ditthi) — correct understanding of the Four Noble Truths and the nature of reality — is both the starting point and the culminating achievement of the path.",
+    "The path constitutes the Middle Way between sensual indulgence and self-mortification; its cultivation is itself the expression of liberation, not merely a means to it.",
+    "Each factor has a mundane (lokiya) form accessible to ordinary practitioners and a transcendent (lokuttara) form that arises with deep insight.",
+    "Virtue (sila) stabilizes the mind, meditation (samadhi) clarifies it, and wisdom (panna) liberates it — each enabling the next."
+  ],
+  "description": "The Noble Eightfold Path (Ariya Atthangika Magga) is the Buddha's fourth Noble Truth made explicit: an eight-factor program of mental, ethical, and meditative cultivation that constitutes the path to the cessation of suffering. The eight factors — spanning wisdom, ethical conduct, and mental development — are to be cultivated simultaneously rather than sequentially, as mutually reinforcing aspects of a unified practice.",
+  "domains": [
+    "buddhism",
+    "ethics",
+    "practice",
+    "liberation"
+  ],
+  "failure_modes": [
+    "Sequential misreading: treating the eight factors as eight steps to be mastered in order rather than as simultaneous dimensions of practice — this turns the path into a ladder that may never be climbed.",
+    "Moralistic reduction: reducing the path to only the sila (ethics) factors and using it to judge others' conduct, while neglecting the wisdom and meditation factors that make ethical conduct authentic rather than rule-following.",
+    "Perfectionism: treating 'right' in each factor as demanding perfection, thereby discouraging engagement — the path is a direction of cultivation, not a threshold test."
+  ],
+  "key_vocabulary": {
+    "Magga-phala": "Path and fruit — the relationship between the cultivation of the eightfold path (magga) and the resulting insight attainments (phala); the path is both practice and result.",
+    "Panna": "Wisdom — the group comprising Right View and Right Intention; direct insight into the nature of phenomena, not merely conceptual understanding.",
+    "Samadhi": "Mental unification or meditative absorption; the group comprising Right Effort, Right Mindfulness, and Right Concentration — the cultivation of a clear, stable, undistracted mind.",
+    "Samma Ditthi": "Right View — understanding suffering, its origin, cessation, and the path; seeing reality through the lens of the Four Noble Truths and the three characteristics.",
+    "Samma Sankappa": "Right Intention — intentions of renunciation (nekkhamma), non-ill-will (abyapada), and non-cruelty (avihimsa) rather than sensuality, ill-will, and cruelty.",
+    "Sila": "Ethical conduct — the group comprising Right Speech, Right Action, and Right Livelihood; the foundation of practice that creates the conditions for mental stability."
+  },
+  "name": "The Noble Eightfold Path",
+  "operative_procedure": [
+    "Map the problem across the three trainings. For the user's situation, identify which of the three areas — wisdom (view and intention), ethics (speech, action, livelihood), or mental cultivation (effort, mindfulness, concentration) — is most implicated. Start there.",
+    "Examine Right View and Right Intention. What underlying beliefs or assumptions are shaping how the user sees the problem? Are their intentions oriented toward renunciation of grasping, goodwill, and non-harm — or toward acquisition, aversion, and self-interest? Clarify the cognitive-motivational ground.",
+    "Audit the sila factors. Is the problem entangled with harmful speech (gossip, harsh words, lies), harmful actions (breaking precepts), or a livelihood that requires or enables harm? Identify where conduct could be brought into alignment.",
+    "Apply Right Effort and Right Mindfulness. What mental states are being cultivated, maintained, or abandoned? Where is attention being placed or withheld? Identify the specific afflictive states (akusala) to be restrained and the wholesome states (kusala) to be developed.",
+    "Integrate all relevant factors. Show how the eight factors bear on the situation as a unified whole — not as a checklist but as the shape of a response in which view, intention, conduct, and attention are all coherent.",
+    "Synthesize a path-aligned response. Produce practical guidance that addresses the problem through the lens of the factor(s) most actionable for this user, while making clear how the other factors support it. The synthesis should be both pragmatic and oriented toward the reduction of suffering."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Four Noble Truths",
+      "The Middle Way",
+      "Lojong"
+    ],
+    "descendants": [
+      "Lojong"
+    ],
+    "related": [
+      "Four Noble Truths",
+      "The Middle Way",
+      "Dependent Origination"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Noble Eightfold Path is strongest as a comprehensive framework for individual transformation: it integrates cognition, conduct, and attention into a mutually supporting whole, and provides specific actionable dimensions rather than abstract principles. It is less suited to structural or political analysis — it works primarily on the individual's response to conditions rather than the conditions themselves. It pairs strongly with Dependent Origination (for understanding the causal structure) and the Four Noble Truths (for diagnosis). It is not primarily a decision procedure for specific dilemmas but a cultivation program whose fruits include better decision-making.",
+  "source_summary": "The Noble Eightfold Path is canonically defined in the Dhammacakkappavattana Sutta (SN 56.11) and elaborated across hundreds of Pali Canon suttas, most systematically in the Magga-vibhanga Sutta (SN 45.8) and the Sammaditthi Sutta (MN 9). The three-training structure (sila, samadhi, panna) is ancient and pan-Buddhist; it appears in the Dhammapada and all major Nikaya collections. Bhikkhu Bodhi's widely used commentary traces the mutual reinforcement of the factors through the Theravada Abhidhamma. Mahayana traditions (including the Lojong lineage) adapt the path through the bodhisattva ideal while preserving the three-training structure.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Dhammacakkappavattana Sutta (SN 56.11) — first teaching, enumerates the path"
+    },
+    {
+      "kind": "primary",
+      "title": "Sammaditthi Sutta (MN 9) — Right View elaborated by Sariputta"
+    },
+    {
+      "kind": "primary",
+      "title": "Magga-vibhanga Sutta (SN 45.8) — analysis of each path factor"
+    },
+    {
+      "kind": "secondary",
+      "title": "Bhikkhu Bodhi, 'The Noble Eightfold Path: The Way to the End of Suffering' (BPS, 1994)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Noble Eightfold Path"
+    }
+  ],
+  "version": 1
+}

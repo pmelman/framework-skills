@@ -1,0 +1,96 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "All three symptoms are explained by a single viral infection. The multi-cause hypothesis postulates more entities without explaining any additional data. Occam's Razor favors the single-cause diagnosis as the starting hypothesis; further tests are warranted only if the simple hypothesis fails to account for new findings.",
+      "problem": "A patient presents with fever, cough, and fatigue. Should the clinician diagnose a single viral infection or simultaneously posit a viral infection plus a separate bacterial infection plus an unrelated vitamin deficiency?"
+    },
+    {
+      "analysis": "The Ptolemaic system required a proliferating system of epicycles and equants as ad hoc patches. The Copernican model, despite similar predictive accuracy at first, posited fewer unexplained parameters and a more unified mechanism. Occam's Razor supported the Copernican approach as the parsimonious starting point — a preference later vindicated by Kepler and Newton.",
+      "problem": "In historical astronomy, both Ptolemaic epicycles (with many auxiliary parameters) and Copernican heliocentrism (initially comparable in raw accuracy) competed to explain planetary motion."
+    }
+  ],
+  "core_claims": [
+    "Among hypotheses with equal explanatory power, the one making fewer unneeded assumptions is rationally preferable.",
+    "Simplicity is a legitimate — though defeasible — theoretical virtue alongside accuracy, coherence, and scope.",
+    "The principle does not assert that simpler theories are always true, only that they are preferable in the absence of countervailing evidence.",
+    "Ontological parsimony (fewer entity types) and syntactic parsimony (fewer independent postulates) are distinct but related forms of simplicity.",
+    "Occam's Razor is a meta-level methodological rule, not a first-order empirical claim about the world."
+  ],
+  "description": "Occam's Razor is the methodological principle that, when competing explanations account for the same evidence equally well, the simpler one — the one that posits fewer entities, assumptions, or mechanisms — is to be preferred. It functions as a tie-breaking heuristic in theory choice, not as a metaphysical guarantee that reality is simple.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-science",
+    "methodology",
+    "logic"
+  ],
+  "failure_modes": [
+    "Conflating simplicity with truth: the principle licenses preference, not certainty. Insisting the simplest hypothesis must be correct ignores that reality can be genuinely complex.",
+    "Misidentifying simplicity: counting surface features (shorter sentences, fewer words) rather than theoretical commitments (independent posits, free parameters) leads to spurious applications.",
+    "Premature truncation: applying the razor before establishing genuine explanatory equivalence — discarding a more complex hypothesis that actually fits the data better."
+  ],
+  "key_vocabulary": {
+    "Ad hoc hypothesis": "An assumption added solely to rescue a theory from refutation, not independently motivated — what Occam's Razor cuts away.",
+    "Explanatory equivalence": "The condition under which two or more competing hypotheses account for the available data equally well, triggering application of the razor.",
+    "Ontological economy": "The preference for theories that invoke fewer distinct kinds of entities or causes.",
+    "Parsimony": "The quality of making the fewest necessary assumptions or positing the fewest unnecessary entities.",
+    "Theoretical virtue": "A property (simplicity, accuracy, scope, coherence, fruitfulness) that makes a theory rationally preferable to its rivals.",
+    "Underdetermination": "The situation in which available evidence is consistent with more than one theory, making Occam's Razor particularly relevant."
+  },
+  "name": "Occam's Razor",
+  "operative_procedure": [
+    "Enumerate the competing hypotheses. List all candidate explanations the user is weighing, stating each clearly and completely.",
+    "Assess explanatory equivalence. For each pair of hypotheses, determine whether they genuinely account for the same evidence with the same accuracy. If one hypothesis explains more or fits data better, the razor does not apply — choose on evidence alone.",
+    "Count the commitments. For each hypothesis, inventory its unverified assumptions, postulated entities, and independent mechanisms. Note both ontological additions (new kinds of things) and syntactic additions (new independent laws or parameters).",
+    "Apply the razor. Among hypotheses that pass the equivalence test, flag the one with the fewest unforced commitments as the parsimonious candidate.",
+    "Check for motivated complexity. Ask whether any extra posits in the more complex hypothesis are independently evidenced or do independent explanatory work. If so, they may be warranted despite complexity.",
+    "Synthesize. Recommend the parsimonious hypothesis as the provisional working hypothesis, explicitly noting that this preference is revisable if new evidence breaks the explanatory tie or independently validates the additional posits."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian parsimony principle",
+      "William of Ockham's nominalism"
+    ],
+    "composes_with": [
+      "Inference to the Best Explanation",
+      "Bayesian Epistemology",
+      "First Principles"
+    ],
+    "descendants": [
+      "Minimum Description Length",
+      "AIC/BIC model selection criteria"
+    ],
+    "related": [
+      "Falsificationism",
+      "Inference to the Best Explanation",
+      "Bayesian Epistemology"
+    ],
+    "rivals": [
+      "Explanatory maximalism",
+      "Inference to the Most Complete Explanation"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Occam's Razor is strongest when competing hypotheses are genuinely tied on evidence and one is clearly leaner in unexplained posits. It is a vital heuristic in scientific model selection (e.g., regularization in statistics, model comparison via AIC/BIC), medical diagnosis, and philosophical ontology. It is weakest when applied to domains where complexity is independently motivated (e.g., evolutionary biology, where multiple interacting mechanisms are expected) or where 'simplicity' is ambiguous or contested. It is a heuristic, not a logical law, and it can be overridden by empirical fit.",
+  "source_summary": "Occam's Razor derives from William of Ockham's 14th-century nominalist principle 'entia non sunt multiplicanda praeter necessitatem' (entities must not be multiplied beyond necessity). The Stanford Encyclopedia of Philosophy's entry on Simplicity (plato.stanford.edu/entries/simplicity/) covers the principle's philosophical grounding, the distinction between ontological and syntactic parsimony, and debates about whether simplicity is truth-conducive or merely pragmatically useful. Bayesian treatments connect simplicity to prior probability: simpler hypotheses often have higher priors because they occupy larger regions of hypothesis space, giving the razor a probabilistic rationale. The principle is widely used in philosophy of science, statistics (regularization, AIC), and medicine (Hickam's Dictum vs. parsimony debates in diagnosis).",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Simplicity (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/simplicity/"
+    },
+    {
+      "kind": "secondary",
+      "title": "William of Ockham (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/ockham/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Occam's Razor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Occam%27s_razor"
+    }
+  ],
+  "version": 1
+}

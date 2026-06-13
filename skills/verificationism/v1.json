@@ -1,0 +1,102 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Verificationists (Ayer, Carnap) argued such claims are cognitively meaningless: no empirical observation could in principle confirm or disconfirm that 'the Absolute' is 'pure being.' The terms lack verifiable content. The statement may express a profound feeling or have rhetorical force, but it makes no factual claim. Carnap called such statements 'pseudo-statements' — grammatically sentence-shaped but semantically empty.",
+      "problem": "The metaphysical claim 'The Absolute is pure being' — is it meaningful?"
+    },
+    {
+      "analysis": "Moral claims cannot be verified by observation — no experiment settles whether torture is wrong. Strict verificationism classifies such statements as cognitively meaningless as factual claims. This led logical positivists toward emotivism (Ayer) or prescriptivism: 'Torture is wrong' expresses the speaker's attitude or prescribes behavior, it does not describe a fact. This is a major implication of verificationism for ethics.",
+      "problem": "The moral claim 'Torture is wrong' — is it meaningful on verificationist grounds?"
+    }
+  ],
+  "core_claims": [
+    "The meaning of a synthetic (non-analytic) statement is its method of empirical verification — the observations that would confirm or disconfirm it.",
+    "Statements that cannot in principle be verified (or falsified) by experience are cognitively meaningless — they express no genuine factual claim, even if they have emotional or rhetorical force.",
+    "Analytic statements (true by definition or logic) are meaningful but tell us nothing about the world.",
+    "Traditional metaphysics, theology, and ethics, insofar as they make unfalsifiable factual claims, are pseudo-statements without cognitive content.",
+    "The verification principle itself is intended as a criterion for significance, not a scientific hypothesis — though its own status on this criterion is problematic.",
+    "Science is the paradigm of meaningful, cognitive discourse because its statements are subject to empirical test."
+  ],
+  "description": "Verificationism is the semantic and epistemological thesis, associated with the Logical Positivists of the Vienna Circle, that the meaning of a statement consists in the conditions under which it is empirically verifiable; statements that are neither empirically verifiable nor analytically true are held to be cognitively meaningless. It was proposed as a demarcation criterion to eliminate metaphysics, theology, and pseudo-scientific claims from legitimate discourse.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-language",
+    "philosophy-of-science",
+    "metaphysics"
+  ],
+  "failure_modes": [
+    "Self-refutation: the verification principle itself appears to be neither analytic nor empirically verifiable, rendering it meaningless by its own criterion — the most famous objection to the view.",
+    "Over-exclusion: strict verificationism eliminates not only metaphysics but also universal scientific laws, mathematical claims about infinity, and counterfactuals — all of which resist direct verification.",
+    "Underdetermination of meaning by verification conditions: holism (Quine) shows that individual statements do not face the tribunal of experience alone, but only as part of a larger theoretical system, undermining the sentence-by-sentence verification criterion."
+  ],
+  "key_vocabulary": {
+    "Analytic statement": "A statement true (or false) solely by virtue of the meanings of its terms (e.g., 'All bachelors are unmarried'); true a priori.",
+    "Cognitive meaning": "The property of a statement of making a genuine factual claim about the world, as opposed to expressing an emotion, issuing a command, or being semantically empty.",
+    "Emotivism": "A meta-ethical view, allied with verificationism, that moral statements ('killing is wrong') do not state facts but express emotions — since they cannot be verified.",
+    "Protocol sentence": "In logical positivism, a basic observation sentence recording direct experience, serving as the evidential foundation for all meaningful claims.",
+    "Synthetic statement": "A statement whose truth depends on the way the world is and cannot be decided by analysis of meaning alone; the target of the verification principle.",
+    "Verification principle": "The criterion that a synthetic statement is meaningful if and only if there is a possible procedure for empirically verifying it."
+  },
+  "name": "Verificationism",
+  "operative_procedure": [
+    "Identify the claim under evaluation. State the claim precisely and determine whether it is presented as a factual statement about the world.",
+    "Classify the claim. Determine whether it is analytic (true by definition/logic) or synthetic (purportedly about how things are). If analytic, it is meaningful but uninformative about the world; proceed to assess its logical status.",
+    "Apply the verification test to synthetic claims. Ask: what empirical observation or procedure, even in principle, could confirm or disconfirm this claim? Describe that procedure as specifically as possible.",
+    "Assess verifiability. If a concrete verification procedure can be described, the claim is verificationally meaningful. If no conceivable observation could bear on it — not because of practical limitations but as a matter of principle — flag it as cognitively meaningless by the verificationist criterion.",
+    "Diagnose the role of unverifiable statements. Even if a claim fails the verification test, assess whether it plays a legitimate non-cognitive role (expressive, heuristic, motivational) or is genuinely confused. The diagnosis should be explanatory, not merely dismissive.",
+    "Synthesize. Report whether the claim is (a) analytically true/false, (b) empirically verifiable and thus cognitively meaningful, (c) unverifiable and thus cognitively meaningless by strict verificationist standards, or (d) borderline, requiring further analysis. Note the limitations of the principle itself."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Logical Positivism",
+      "Vienna Circle empiricism",
+      "Humean empiricism"
+    ],
+    "composes_with": [
+      "Conceptual Analysis"
+    ],
+    "descendants": [
+      "Falsificationism (Popper's response)",
+      "Confirmationalism (Carnap)",
+      "Emotivism in meta-ethics"
+    ],
+    "related": [
+      "Falsificationism",
+      "Conceptual Analysis",
+      "Ordinary Language Philosophy"
+    ],
+    "rivals": [
+      "Falsificationism",
+      "Metaphysical realism",
+      "Pragmatism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Verificationism is strongest as a critical tool for diagnosing claims that have the surface grammar of factual assertions but no discernible empirical content — a useful check against empty philosophical jargon and pseudo-scientific rhetoric. Its historical importance in motivating Popper's falsificationism and Quine's critique of the analytic/synthetic distinction is enormous. It is largely discredited as a strict theory of meaning: the self-refutation problem, over-exclusion, and Quine's holism are decisive objections. As a heuristic — 'what would this claim look like if true, and how would we know?' — it retains practical utility.",
+  "source_summary": "Verificationism was the central doctrine of the Vienna Circle, a group of philosophers and scientists active in Vienna in the 1920s–30s including Rudolf Carnap, Moritz Schlick, Otto Neurath, and Hans Reichenbach. A.J. Ayer popularized the view in the English-speaking world through 'Language, Truth and Logic' (1936). The Stanford Encyclopedia of Philosophy covers the movement under 'Vienna Circle' and 'Logical Empiricism' (plato.stanford.edu/entries/vienna-circle/, plato.stanford.edu/entries/logical-empiricism/). The principle faced devastating objections: Popper rejected verifiability for falsifiability; Quine's 'Two Dogmas of Empiricism' (1951) attacked both the analytic/synthetic distinction and the idea that individual statements have determinate empirical content; Wittgenstein's later work questioned the entire picture of language underlying the project. The verification principle is now generally regarded as refuted but historically transformative.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Vienna Circle (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/vienna-circle/"
+    },
+    {
+      "kind": "secondary",
+      "title": "Logical Empiricism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logical-empiricism/"
+    },
+    {
+      "kind": "primary",
+      "title": "Language, Truth and Logic — A.J. Ayer"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Verificationism (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Verificationism"
+    }
+  ],
+  "version": 1
+}

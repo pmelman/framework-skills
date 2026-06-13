@@ -1,0 +1,102 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Ahimsa maps multiple forms of himsa: benefit reductions cause financial stress and harm to wellbeing (economic himsa); but layoffs cause greater structural harm (loss of livelihood, dignity, security). Ahimsa's active dimension asks: what is the compassionate response to the systemic pressure that created this dilemma? The company's leadership is asked not only to choose between two harms but to examine whether there are third paths—reducing executive compensation first, renegotiating contracts, finding operational efficiencies that do not shift harm onto the most vulnerable employees. The karuna principle demands active imagination about non-violent alternatives before accepting harm as inevitable.",
+      "problem": "A company is deciding whether to implement cost-cutting measures that would reduce employee benefits but avoid layoffs. How does ahimsa frame this decision?"
+    },
+    {
+      "analysis": "This is the protection dilemma within ahimsa. Jainism's absolute formulation would counsel accepting harm rather than inflicting it; Gandhi held that non-violence is meaningless if it means passive acquiescence to one's own destruction—courage and self-defense in the face of injustice is preferable to cowardly non-resistance. Most Hindu traditions permit defensive violence as a lesser himsa. The Bhagavad Gita (Arjuna's dilemma) is precisely this case. The ahimsa framework directs: use minimum force necessary to stop the harm; do not let the response escalate beyond what protection requires; maintain the orientation of compassion even toward the attacker; examine what structural conditions produced this violence and whether they can be addressed.",
+      "problem": "A person who practices ahimsa is attacked and must decide whether to physically defend themselves."
+    }
+  ],
+  "core_claims": [
+    "All sentient beings possess a fundamental claim against being harmed; this claim is not contingent on species, social status, or usefulness to humans.",
+    "Harm operates at multiple levels: physical violence, verbal injury, mental cruelty, and structural harm (systems that deprive beings of flourishing) are all forms of himsa (harm).",
+    "Ahimsa is not merely passive non-harm but an active orientation of compassion (karuna) toward all beings—the removal of conditions that cause suffering is part of the obligation.",
+    "In Jainism, ahimsa is the supreme principle (ahimsa paramo dharma); in Hinduism and Buddhism, it is central but must be weighed against other dharmic considerations including protection of life and defense.",
+    "Gandhi's satyagraha (truth-force) reinterpreted ahimsa as a political discipline: non-violent resistance to injustice is not passive but demands greater courage and strength than violence.",
+    "Intentionality matters: harm caused with awareness and deliberate choice carries greater moral weight than harm caused through ignorance or necessity."
+  ],
+  "description": "Ahimsa (Sanskrit: 'non-harm' or 'non-violence') is the foundational ethical principle across Hindu, Buddhist, and Jain traditions holding that causing injury—physical, mental, or structural—to any sentient being is the primary ethical wrong. In its active form, it demands not merely refraining from violence but the cultivation of compassion and the structural removal of harm.",
+  "domains": [
+    "ethics",
+    "hinduism",
+    "jainism",
+    "nonviolence"
+  ],
+  "failure_modes": [
+    "Treating ahimsa as simple pacifism and using it to counsel inaction in the face of ongoing injustice or harm to innocents misreads both the Gandhian and the Hindu traditions, which require active courage, not passive acceptance of harm.",
+    "Applying ahimsa selectively—to interpersonal violence but not to structural violence (poverty, discrimination, environmental destruction)—produces a truncated ethics that ignores the tradition's full scope.",
+    "Using ahimsa to impose moral perfectionism (refusing all actions that involve any harm) can lead to paralysis; the tradition's nuanced treatment of unavoidable harm and intentionality is specifically designed to avoid this."
+  ],
+  "key_vocabulary": {
+    "Ahimsa": "Non-harm, non-violence; the principle of not causing injury to any sentient being through thought, word, or deed.",
+    "Himsa": "Harm, violence, injury; the negative correlate of ahimsa—what is to be avoided and, in its structural forms, actively removed.",
+    "Jiva": "Living being or soul; in Jainism, every jiva has interests that ahimsa protects; harm to any jiva is a karmic burden on the one who harms.",
+    "Karuna": "Compassion; the active orientation of concern for the suffering of others that gives ahimsa its positive content beyond mere restraint.",
+    "Satyagraha": "Truth-force or soul-force; Gandhi's concept of non-violent resistance to injustice—the active, disciplined application of ahimsa in political struggle.",
+    "Swaraj": "Self-rule; in Gandhi's framework, inner self-mastery is the precondition for political non-violent action—ahimsa requires disciplined restraint of one's own violence before it can be directed outward."
+  },
+  "name": "Ahimsa",
+  "operative_procedure": [
+    "Map all forms of harm in the situation. Identify every form of himsa present or at risk: physical injury, psychological harm, structural harm (deprivation, exploitation, silencing), and harm by omission (failure to prevent avoidable suffering).",
+    "Identify all sentient beings affected. Who and what is harmed or at risk of harm? Extend the analysis beyond immediate human parties to include animals, future persons, and those indirectly affected by structural choices.",
+    "Examine intentionality and avoidability. How much of the harm is deliberate versus inadvertent? How much is avoidable with alternative choices? Ahimsa holds deliberate and avoidable harm to a higher standard than systemic or unavoidable harm.",
+    "Apply the active compassion principle. Ahimsa is not just 'stop harming'—ask: what positive action of karuna is called for here? What conditions generating suffering can be actively removed or mitigated?",
+    "Address the protection dilemma. Where non-violence toward one party requires tolerating harm to another (e.g., defending innocents), apply the tradition's own guidance: most traditions allow defensive action to protect life as a lesser himsa; Jainism's absolute position and Gandhi's political application offer different navigations of this tension. Name which tradition's approach is most relevant.",
+    "Synthesize a non-violent path. Produce a concrete response that minimizes total harm across all parties, identifies the positive compassionate action required, and—where harm cannot be fully avoided—clarifies which harm is the least and why."
+  ],
+  "relationships": {
+    "ancestors": [
+      "The Four Purusharthas"
+    ],
+    "composes_with": [
+      "Karma Yoga",
+      "The Four Purusharthas",
+      "Advaita Vedanta"
+    ],
+    "descendants": [],
+    "related": [
+      "Karma Yoga",
+      "The Four Purusharthas",
+      "Tikkun Olam",
+      "Pikuach Nefesh"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Ahimsa is most powerful as a comprehensive harm-mapping framework and as a discipline for examining the full range of violence—physical, psychological, and structural—in ethical decisions. It is strong on naming harms that consequentialist frameworks might rationalize away. It is less useful as a decision procedure when serious competing harms must be weighed against each other, and requires supplementation by a theory of justice (who has the strongest claim?) to handle complex tradeoffs. Its absolute form (Jain) and its political form (Gandhian) give different answers to the protection dilemma.",
+  "source_summary": "Ahimsa is attested across all three major Indian religious traditions: in Jainism it is the supreme principle (ahimsa paramo dharma), in Buddhism it underlies the first precept (not killing), and in Hinduism it is enumerated among the highest virtues in texts including the Bhagavad Gita and Yoga Sutras. Gandhi's 20th-century reinterpretation as satyagraha made ahimsa a globally influential political philosophy. The Stanford Encyclopedia of Philosophy covers Gandhi's doctrine of non-violence; Wikipedia covers ahimsa across traditions. URL verification was not available at time of authoring.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Bhagavad Gita (ahimsa as one of the divine qualities, BG 16:2)"
+    },
+    {
+      "kind": "primary",
+      "title": "Tattvartha Sutra, Umasvati (Jain canonical text on ahimsa)"
+    },
+    {
+      "kind": "primary",
+      "title": "Hind Swaraj, Mohandas K. Gandhi, 1909"
+    },
+    {
+      "kind": "primary",
+      "title": "The Story of My Experiments with Truth (Autobiography), M.K. Gandhi"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Ahimsa"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: Gandhi"
+    }
+  ],
+  "version": 1
+}

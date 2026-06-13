@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Expected value of accepting: $2M. Expected value of continuing: 0.20 × $20M + 0.80 × $0 = $4M. On pure expected value, continuing dominates. But if her utility function is concave (risk aversion) — e.g., the $2M would secure her family's housing — the certainty equivalent of the risky option may be lower than $2M for her. Decision theory reveals the calculation and makes the risk-aversion tradeoff explicit rather than leaving it as vague 'gut feel.'",
+      "problem": "A startup founder must decide whether to accept a $2M acquisition offer or continue building. If she continues: 20% chance of a $20M exit, 80% chance of $0."
+    },
+    {
+      "analysis": "Both options have identical expected utility (200 lives). The choice should depend solely on the shape of the utility function over lives saved. Research shows humans frame-dependently prefer the certain option when framed as 'saving' and the risky option when framed as 'losing' — a violation of expected utility theory's invariance axiom. Decision theory diagnoses this as a coherence failure and demands the official choose based on consistent values, not framing.",
+      "problem": "A public health official must choose between a certain policy saving 200 lives and a risky policy with 33% chance of saving 600 and 67% chance of saving 0 (the classic Kahneman-Tversky framing problem)."
+    }
+  ],
+  "core_claims": [
+    "A rational agent assigns consistent probability values to uncertain outcomes and consistent utility values to possible consequences.",
+    "The principle of expected utility maximization holds that a rational agent should choose the act whose probability-weighted sum of utilities is highest.",
+    "Preferences should satisfy coherence axioms (completeness, transitivity, independence) to avoid Dutch Book arguments and money-pump vulnerabilities.",
+    "Decision problems differ structurally by information state: decision under certainty, risk (known probabilities), and uncertainty (unknown probabilities).",
+    "Bayesian decision theory integrates prior beliefs, evidence, and utilities into a single unified framework for updating and choosing.",
+    "Normative and descriptive decision theory diverge: actual human choices systematically violate expected utility (Allais paradox, Ellsberg paradox), motivating prospect theory and related alternatives."
+  ],
+  "description": "Decision Theory is the formal study of how rational agents should choose among alternatives under conditions of uncertainty, combining probability assignments over outcomes with utility (preference) values to identify the option that maximizes expected utility. It encompasses both normative theory (how one ought to decide) and descriptive theory (how people actually decide).",
+  "domains": [
+    "decision-theory",
+    "rationality",
+    "probability",
+    "ethics"
+  ],
+  "failure_modes": [
+    "Garbage-in, garbage-out: applying the expected utility machinery to poorly elicited or ideologically motivated utility/probability assignments and presenting the output as objective rational justification.",
+    "Ignoring Knightian uncertainty: treating all uncertainty as quantifiable risk with known probabilities, when genuine uncertainty (unknown unknowns) requires maximin or robust decision procedures instead.",
+    "Collapsing values: forcing incommensurable goods (justice, dignity, relationships) onto a single utility scale, producing a technically precise but morally impoverished analysis."
+  ],
+  "key_vocabulary": {
+    "Bayesian Updating": "Revising prior probability assignments in light of new evidence using Bayes's theorem to yield posterior probabilities.",
+    "Dominance": "An option A dominates option B if A yields at least as good an outcome as B in every possible state of the world, and better in at least one.",
+    "Dutch Book": "A set of bets that guarantees a net loss to an agent whose probability assignments are incoherent; used to argue for probabilistic consistency.",
+    "Expected Utility": "The probability-weighted average of the utilities of all possible outcomes of an action; the quantity a rational agent maximizes.",
+    "Savage's Sure-Thing Principle": "If an action is preferred regardless of which state of nature obtains, it should be preferred unconditionally — a foundational coherence requirement.",
+    "Utility Function": "A numerical representation of an agent's preferences over outcomes, unique up to positive linear transformations under von Neumann-Morgenstern axioms."
+  },
+  "name": "Decision Theory",
+  "operative_procedure": [
+    "Map the decision structure. Identify the decision-maker, the available actions, the relevant states of the world (mutually exclusive, exhaustive), and the outcomes that result from each action-state pair.",
+    "Assign probabilities. For each state of the world, elicit or estimate the agent's credence (subjective probability). Check whether these are based on evidence; flag cases of genuine Knightian uncertainty where probability assignment is itself contested.",
+    "Assign utilities. Elicit the agent's preference ordering over outcomes and assign utilities that faithfully represent those preferences. Identify whether any outcomes involve lexical priorities or rights-constraints that resist reduction to a single utility scale.",
+    "Compute expected utilities. For each action, multiply the utility of each outcome by the probability of the state that produces it, then sum. Identify the action with the highest expected utility.",
+    "Test for dominance and coherence. Check whether any option is dominated. Check whether the agent's probability and utility assignments are internally consistent (no Dutch Book vulnerabilities, no preference reversals).",
+    "Synthesize and qualify. Present the utility-maximizing recommendation, but note where uncertainty about probabilities or utilities is high, where the framework's axioms may be violated in this domain, and what alternative frameworks (maximin, minimax regret) would recommend."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Bayesian Epistemology",
+      "Utility Theory"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Bayesian Epistemology",
+      "Counterfactual Reasoning"
+    ],
+    "descendants": [
+      "Prospect Theory",
+      "Robust Decision Making"
+    ],
+    "related": [
+      "Bayesian Epistemology",
+      "Game Theory",
+      "Systems Thinking",
+      "Modal Reasoning"
+    ],
+    "rivals": [
+      "Maximin / Minimax Regret",
+      "Satisficing"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Decision Theory is strongest in well-structured, repeatable decisions where probabilities can be estimated and outcomes can be meaningfully valued — finance, public health policy, engineering risk. It is weakest under deep uncertainty, when preferences are genuinely unstable or socially constituted, when outcomes affect incommensurable values, or when the number of relevant states is too large to enumerate. It is a normative ideal that describes how a fully coherent agent would reason, not a description of how humans typically reason.",
+  "source_summary": "Decision Theory descends from Blaise Pascal's and Pierre de Fermat's correspondence on probability (1654) and Daniel Bernoulli's expected utility proposal (1738), and was axiomatized by John von Neumann and Oskar Morgenstern in Theory of Games and Economic Behavior (1944) and further by Leonard Savage in The Foundations of Statistics (1954). The Bayesian interpretation, synthesizing subjective probability and utility, became dominant in philosophy through the work of Frank Ramsey and Bruno de Finetti. Behavioral challenges from Allais (1953) and Ellsberg (1961) and the empirical program of Kahneman and Tversky (Prospect Theory, 1979) revealed systematic human deviations from the normative theory. The Stanford Encyclopedia of Philosophy's entry 'Decision Theory' provides a comprehensive survey of both normative and descriptive branches.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Decision Theory — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "Leonard J. Savage, The Foundations of Statistics (1954)"
+    },
+    {
+      "kind": "primary",
+      "title": "John von Neumann and Oskar Morgenstern, Theory of Games and Economic Behavior (1944)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel Kahneman and Amos Tversky, 'Prospect Theory: An Analysis of Decision under Risk,' Econometrica (1979)"
+    }
+  ],
+  "version": 1
+}

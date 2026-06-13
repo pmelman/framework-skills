@@ -1,0 +1,91 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This is a paradigmatic pikuach nefesh case. The Talmud (Yoma 83a-85b) addresses exactly this scenario. Although Yom Kippur fasting is a biblical obligation, the principle v'chai bahem establishes that life comes first. A qualified physician's assessment of serious risk (even probabilistic risk) is sufficient to trigger the override. The ruling is not merely that the person is 'permitted' to drink—they are obligated to drink. Refusing to do so out of misplaced piety is treated as a sin, not a virtue. The fast may be resumed if the danger passes.",
+      "problem": "A person observing Yom Kippur (the mandatory fast day) becomes dangerously dehydrated and a physician says they must drink water or face serious medical risk. May they break the fast?"
+    },
+    {
+      "analysis": "The threat to life—both the soldier's and others'—triggers pikuach nefesh. The prohibition on using electronics or communication devices on Shabbat, while real, is entirely subordinated. The Talmud's framework (Yoma 85b) establishes that Shabbat violations for life-saving are not merely tolerated but required. Israeli military halakhic rulings have consistently held that soldiers in active life-threatening situations operate under continuous pikuach nefesh, making Shabbat restrictions inapplicable during active duty.",
+      "problem": "A Jewish soldier on Shabbat receives intelligence that an attack is imminent. Using communication devices (prohibited on Shabbat) could save lives. Is this permitted?"
+    }
+  ],
+  "core_claims": [
+    "Human life has supreme sanctity in Jewish law; the Torah was given to live by, not to die by (Leviticus 18:5 — 'v'chai bahem').",
+    "Saving a single life is equivalent to saving an entire world (Sanhedrin 4:5, Mishnah).",
+    "When life is at risk, one is not merely permitted but obligated to violate Shabbat, fasting obligations, and most other commandments.",
+    "Only three prohibitions cannot be violated even to save one's own life: murder of an innocent, sexual immorality (giluy arayot), and idolatry (yehareg v'al ya'avor).",
+    "Pikuach nefesh applies to probable danger, not just certain danger; doubt (safek) about a life-threatening situation is sufficient to trigger the override.",
+    "One who delays life-saving action out of excessive piety is guilty of shedding blood."
+  ],
+  "description": "Pikuach Nefesh (Hebrew: 'watching over a soul') is the halakhic principle that the preservation of human life overrides nearly all other Jewish religious commandments, including Shabbat, Yom Kippur, and most dietary laws. It establishes a clear priority hierarchy: when life is at risk, the obligation to save it takes precedence over virtually every other religious duty.",
+  "domains": [
+    "ethics",
+    "judaism",
+    "halakha",
+    "bioethics"
+  ],
+  "failure_modes": [
+    "Expanding pikuach nefesh beyond genuine life-threat situations to justify any inconvenient religious obligation undermines the principle's integrity and the general structure of halakha.",
+    "Applying pikuach nefesh to justify the murder of an innocent third party to save another (e.g., killing one person to harvest organs) misreads the framework—it does not permit killing innocents.",
+    "Treating pikuach nefesh as a general utilitarian calculus of lives rather than as a specific legal principle with defined triggers and limits conflates Jewish law with consequentialist ethics."
+  ],
+  "key_vocabulary": {
+    "Chillul Shabbat": "Desecration of the Sabbath; the paradigmatic case in which pikuach nefesh is invoked, requiring one to violate Shabbat prohibitions to save a life.",
+    "Pikuach Nefesh": "Lit. 'watching over a soul'; the halakhic principle mandating that danger to human life overrides nearly all religious obligations.",
+    "Rodef": "A pursuer; one who poses a direct mortal threat to another. The prohibition against standing by while blood is shed (lo ta'amod al dam re'echa) is related to the obligation to intervene.",
+    "Safek pikuach nefesh": "Doubt or uncertainty about a life-threatening situation; halakha rules leniently (l'kula) when life may be at risk, not requiring certainty before acting.",
+    "V'chai bahem": "The biblical phrase 'and you shall live by them' (Lev. 18:5), interpreted to mean that commandments are given for life, not death—the textual anchor of pikuach nefesh.",
+    "Yehareg v'al ya'avor": "The principle 'be killed rather than transgress'—applies only to the three cardinal prohibitions (murder, sexual immorality, idolatry), which may not be violated even to save one's life."
+  },
+  "name": "Pikuach Nefesh",
+  "operative_procedure": [
+    "Identify whether a life is at risk. Determine whether the user's problem involves actual or probable danger to life—physical, immediate, or reasonably foreseeable. Safek (doubt) about life-threat is sufficient; certainty is not required.",
+    "Identify which religious obligations are in conflict with saving the life. List every commandment, prohibition, or duty that would need to be suspended or violated in order to preserve life in this situation.",
+    "Apply the override. Invoke pikuach nefesh: with narrow exceptions (the three cardinal sins), the obligation to save life takes precedence. Reframe action to preserve life not as a violation but as a fulfillment of Torah.",
+    "Check for the three exceptions. Confirm whether the life-saving action itself requires murder of an innocent, sexual immorality, or idolatry. If so, the analysis becomes a martyrdom question (yehareg v'al ya'avor), not a standard pikuach nefesh case.",
+    "Address alacrity. Emphasize that life-saving action must be taken promptly and without hesitation. One who delays for reasons of piety or squeamishness is treated as if they endangered a life.",
+    "Synthesize the ruling. State the halakhic conclusion: what must be done, what obligation it overrides, why delay or inaction is itself prohibited, and what, if any, compensatory religious act is appropriate after the crisis resolves."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Halakha"
+    ],
+    "composes_with": [
+      "Halakha"
+    ],
+    "descendants": [],
+    "related": [
+      "Halakha",
+      "Tikkun Olam",
+      "Ahimsa"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Pikuach nefesh is strongest in its core domain: direct, concrete threats to human life where religious obligations must yield. It is highly effective for bioethical questions (medical treatment, end-of-life care), emergency scenarios, and military ethics within a halakhic framework. It is less applicable to systemic or diffuse harms, statistical risks spread over populations, or cases where the 'life-threat' is speculative or remote. It should not be used as a catch-all justification for halakhic leniency outside genuine life-endangerment contexts.",
+  "source_summary": "Pikuach nefesh is a foundational halakhic principle rooted in Leviticus 18:5 and elaborated extensively in Talmud Yoma (83a-85b) and Sanhedrin (4:5). Its core doctrine—that preserving human life overrides nearly all Torah commandments—is derived from the phrase 'v'chai bahem' (you shall live by them). The principle has three well-defined exceptions (the three cardinal sins) and applies to probable rather than only certain life-threats. It has been applied extensively in modern medical and military halakhic contexts. URL verification was not available; Wikipedia and primary Talmudic sources exist under standard citations.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Talmud Bavli, Yoma 83a-85b (Pikuach Nefesh on Yom Kippur and Shabbat)"
+    },
+    {
+      "kind": "primary",
+      "title": "Mishnah Sanhedrin 4:5 ('Whoever saves a single soul...')"
+    },
+    {
+      "kind": "primary",
+      "title": "Shulchan Aruch, Orach Chaim 328 (Shabbat and pikuach nefesh)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Pikuach nefesh"
+    }
+  ],
+  "version": 1
+}

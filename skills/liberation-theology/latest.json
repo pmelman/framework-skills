@@ -1,0 +1,93 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Liberation Theology begins with the 'see' step: who is served by the urban parish? What does its closure mean concretely for people who cannot easily travel, who lack other community, who are already marginalized? The structural sin analysis asks: is this decision shaped by a logic of institutional efficiency that treats poor communities as expendable? The hermeneutical privilege step asks what the affected community itself names as the stakes. The prophetic tradition is invoked: the early Church and Jesus consistently prioritized the marginalized. The preferential option demands that the default criterion not be financial viability but fidelity to those most in need. The praxis step might involve organizing the affected community to make its case and developing alternative funding structures.",
+      "problem": "A diocese is deciding whether to close a struggling parish in a poor urban neighborhood to free up resources for more prosperous suburban parishes."
+    },
+    {
+      "analysis": "Liberation Theology names this as structural sin: the arrangement is legal but systematically produces poverty for workers while generating surplus value for distant shareholders. The 'see' step attends to concrete worker conditions — health, housing, family stability. The 'judge' step invokes the biblical tradition of just wages (Leviticus, James 5, Catholic Social Teaching) and the prophetic critique of those who 'grind the faces of the poor.' The preferential option demands more than charity (a corporate foundation); it demands structural change in wage levels and supply-chain accountability. The praxis step supports worker organizing, consumer pressure, and supply-chain transparency as transformative actions.",
+      "problem": "A multinational corporation operates factories in a developing country paying wages far below a living wage, while meeting legal minimums."
+    }
+  ],
+  "core_claims": [
+    "God has a 'preferential option for the poor': Scripture reveals a God who consistently sides with the marginalized, and theology done from any other starting point distorts the Gospel.",
+    "Sin is not only personal but structural: 'structural sin' or 'social sin' refers to unjust economic, political, and social arrangements that systematically produce poverty and oppression.",
+    "Theology must begin with 'see, judge, act': first seeing the concrete reality of oppression (mediated through social analysis), then judging it in light of the Gospel, then acting to transform it.",
+    "The poor are not just objects of charity but subjects and agents of their own liberation, and of the Church's renewal.",
+    "Salvation has a historical, political dimension: eschatological liberation anticipates and includes liberation from earthly oppression, though the two are not simply identical.",
+    "Orthodoxy (right belief) must be inseparable from orthopraxis (right practice): a theology that does not transform unjust conditions is ideologically complicit in them."
+  ],
+  "description": "Liberation Theology is a theological movement that emerged primarily in Latin America in the 1960s–70s, holding that Christian faith requires a 'preferential option for the poor' and that authentic theology must be done from within the experience of the oppressed, integrating social analysis (often drawing on Marxist categories) with biblical hermeneutics and the prophetic tradition. It re-reads salvation history as including liberation from structural injustice as an integral dimension of redemption.",
+  "domains": [
+    "theology",
+    "christianity",
+    "ethics",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Reductionism to politics: collapsing the theological and spiritual dimensions of liberation into a purely political program, losing the transcendent horizon that distinguishes liberation theology from secular socialism.",
+    "Vanguardism: speaking for the poor rather than with and from them, so that theologians or activists reproduce a paternalistic relationship even under the banner of liberation.",
+    "Uncritical adoption of social analysis: treating Marxist (or other) social-scientific categories as transparent rather than theory-laden, importing assumptions that may distort as much as they reveal."
+  ],
+  "key_vocabulary": {
+    "Base Ecclesial Communities (CEBs)": "Small local Christian communities among the poor that read Scripture together and connect it to their concrete situation; the organizational heart of liberation theology.",
+    "Conscientization (Concientización)": "The process (drawn from Paulo Freire) by which oppressed people develop critical awareness of the social forces shaping their lives, enabling agency and transformation.",
+    "Hermeneutical Privilege of the Poor": "The claim that the poor, by their social location, have a distinctive capacity to perceive dimensions of the Gospel invisible from positions of comfort and power.",
+    "Praxis": "Transformative action informed by critical reflection; the cycle of acting and reflecting that generates liberating knowledge.",
+    "Preferential Option for the Poor": "The theological commitment to make the perspective of the poor and marginalized the primary standpoint for theological reflection and ecclesial action.",
+    "Structural Sin": "Injustice embedded in social, economic, and political systems — not merely individual moral failure but institutionalized arrangements that oppress."
+  },
+  "name": "Liberation Theology",
+  "operative_procedure": [
+    "See: conduct a social analysis of the situation. Name the concrete conditions of poverty, marginalization, or oppression at stake. Who is harmed? What systems — economic, political, cultural — produce and maintain these conditions? Resist abstract descriptions that obscure material reality.",
+    "Identify the structural sin. Move beyond individual moral fault to name the systemic arrangements that generate the harm: Who benefits? Who bears the cost? How are these arrangements legitimated or naturalized?",
+    "Re-read the situation from the perspective of the poor. Adopt the standpoint of those most harmed as the primary lens. What does this situation look like to them? What do they name as the problem, and what do they propose?",
+    "Judge through the prophetic tradition. Bring Scripture and the tradition to bear: what do the prophets, the Exodus narrative, Jesus's ministry to the marginalized, and the early Church say about this configuration of power and suffering? Does it reflect or contradict the God revealed there?",
+    "Assess the preferential option demand. What does the preferential option for the poor require concretely in this situation — from individuals, institutions, and the Church? What solidarity and structural transformation is called for?",
+    "Act and reflect (praxis). Propose concrete transformative action. Name who must be the agents of change (not only for the poor but with and by them). Plan for the cycle to continue: action generates new insight, which informs further action."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Augustinian Theology",
+      "Thomistic Natural Law"
+    ],
+    "composes_with": [
+      "Just War Theory",
+      "Thomistic Natural Law"
+    ],
+    "descendants": [],
+    "related": [
+      "Augustinian Theology",
+      "Thomistic Natural Law",
+      "Just War Theory"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Liberation Theology is strongest as a corrective lens against theologies that spiritualize injustice or treat the status quo as natural, and as a hermeneutical tool for reading Scripture from the underside of history. It is most powerful in contexts of stark structural inequality. It is weaker as a comprehensive systematic theology and requires complementary frameworks (e.g., Thomistic Natural Law, Augustinian Theology) for a full account of personal sin, eschatology, and sacramental life. Its reliance on social-scientific analysis makes it dependent on the accuracy of that analysis.",
+  "source_summary": "Liberation Theology's founding text is Gustavo Gutiérrez's A Theology of Liberation (1971), which introduced the 'preferential option for the poor' and the 'see-judge-act' methodology drawn from the Young Christian Workers movement and the Medellín conference (1968) of Latin American bishops. Jon Sobrino, Leonardo Boff, and Juan Luis Segundo developed the tradition further. The movement faced significant Vatican scrutiny: the Congregation for the Doctrine of the Faith issued critical instructions in 1984 and 1986, while also affirming the legitimate core of concern for the poor. Pope Francis, himself shaped by the tradition through Argentine theology, has rehabilitated key themes. The Stanford Encyclopedia of Philosophy entry 'Liberation Theology' provides academic analysis of the movement's philosophical and theological commitments.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Gustavo Gutiérrez, A Theology of Liberation (1971; English trans. 1973)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Leonardo Boff and Clodovis Boff, Introducing Liberation Theology (1986)"
+    },
+    {
+      "kind": "primary",
+      "title": "Jon Sobrino, Christology at the Crossroads (1978)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Liberation Theology — Stanford Encyclopedia of Philosophy"
+    }
+  ],
+  "version": 1
+}

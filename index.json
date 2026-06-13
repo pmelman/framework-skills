@@ -1,0 +1,703 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-06-13T01:02:32Z",
+  "skills": [
+    {
+      "name": "Advaita Vedanta",
+      "slug": "advaita-vedanta",
+      "version": 1,
+      "description": "Advaita Vedanta (Sanskrit: 'non-dual end of the Vedas') is the dominant school of Hindu philosophical theology, systematized by Adi Shankaracharya (8th century CE), holding that ultimate reality is a single, undivided consciousness (Brahman), that the individual self (Atman) is identical with Brahman, and that the apparent multiplicity of the world is a superimposition (maya/adhyasa) on this non-dual ground.",
+      "domains": [
+        "philosophy",
+        "hinduism",
+        "metaphysics",
+        "spirituality"
+      ],
+      "review_status": "approved",
+      "path": "skills/advaita-vedanta/latest.json"
+    },
+    {
+      "name": "Ahimsa",
+      "slug": "ahimsa",
+      "version": 1,
+      "description": "Ahimsa (Sanskrit: 'non-harm' or 'non-violence') is the foundational ethical principle across Hindu, Buddhist, and Jain traditions holding that causing injury—physical, mental, or structural—to any sentient being is the primary ethical wrong. In its active form, it demands not merely refraining from violence but the cultivation of compassion and the structural removal of harm.",
+      "domains": [
+        "ethics",
+        "hinduism",
+        "jainism",
+        "nonviolence"
+      ],
+      "review_status": "approved",
+      "path": "skills/ahimsa/latest.json"
+    },
+    {
+      "name": "Anekantavada",
+      "slug": "anekantavada",
+      "version": 1,
+      "description": "Anekantavada (Sanskrit: anekānta-vāda, 'doctrine of many-sidedness') is the Jain epistemological and metaphysical doctrine that reality is complex, multifaceted, and cannot be fully captured by any single perspective. Paired with Syadvada (the doctrine of conditional predication) and Nayavada (the doctrine of partial standpoints), it holds that any claim about reality is true only from a particular viewpoint (naya), and that intellectual humility, conditionality in assertion, and openness to other perspectives are both epistemically and ethically required.",
+      "domains": [
+        "jainism",
+        "epistemology",
+        "ethics",
+        "logic"
+      ],
+      "review_status": "approved",
+      "path": "skills/anekantavada/latest.json"
+    },
+    {
+      "name": "Aristotelian Virtue Ethics",
+      "slug": "aristotelian-virtue-ethics",
+      "version": 1,
+      "description": "Aristotelian Virtue Ethics holds that morality is fundamentally about the development of excellent character traits (virtues) that constitute and enable human flourishing (eudaimonia). Rather than asking 'what should I do?', it asks 'what kind of person should I be?' — grounding moral action in practical wisdom and the cultivation of character over time.",
+      "domains": [
+        "ethics",
+        "moral-psychology",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/aristotelian-virtue-ethics/latest.json"
+    },
+    {
+      "name": "Augustinian Theology",
+      "slug": "augustinian-theology",
+      "version": 1,
+      "description": "Augustinian Theology is the systematic theological vision of Augustine of Hippo (354–430 CE), centering on the radical dependence of all creation on God, the corruption of human nature by original sin, the sovereignty of divine grace, and the pilgrimage of the soul (and the City of God) through history toward its rest in God. It provides a framework for analyzing human motivation, social life, history, and suffering through the lens of disordered love (cupiditas) versus ordered love (caritas).",
+      "domains": [
+        "theology",
+        "christianity",
+        "ethics",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/augustinian-theology/latest.json"
+    },
+    {
+      "name": "Bayesian Epistemology",
+      "slug": "bayesian-epistemology",
+      "version": 1,
+      "description": "Bayesian Epistemology is the view that rational degrees of belief (credences) obey the probability calculus, and that rational belief revision consists in updating credences by conditionalization on new evidence using Bayes's theorem. It provides a formal framework for modeling evidence, confirmation, and rational inference under uncertainty.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-science",
+        "probability",
+        "formal-methods"
+      ],
+      "review_status": "approved",
+      "path": "skills/bayesian-epistemology/latest.json"
+    },
+    {
+      "name": "Conceptual Analysis",
+      "slug": "conceptual-analysis",
+      "version": 1,
+      "description": "Conceptual Analysis is the philosophical method of clarifying a concept by identifying the necessary and sufficient conditions for its application — typically by examining what cases clearly fall under the concept, what cases clearly do not, and what intuitions govern borderline cases. It is the dominant method of analytic philosophy, aiming to articulate what we implicitly know when we competently use a concept.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-language",
+        "methodology",
+        "metaphysics"
+      ],
+      "review_status": "approved",
+      "path": "skills/conceptual-analysis/latest.json"
+    },
+    {
+      "name": "Confucian Ren and Li",
+      "slug": "confucian-ren-and-li",
+      "version": 1,
+      "description": "Ren (仁, benevolence/humaneness) and Li (禮, ritual propriety/rites) are the two foundational concepts of Confucian ethics. Ren is the inner virtue of genuine care, empathy, and moral goodness toward others — the character of a person who is truly human; Li is the outer expression of that virtue through proper conduct, ceremony, and the roles and relationships that constitute social life. Together they describe a unified view of the good person as one whose inner character is expressed through, and cultivated by, the proper forms of social conduct.",
+      "domains": [
+        "confucianism",
+        "ethics",
+        "social-philosophy",
+        "virtue"
+      ],
+      "review_status": "approved",
+      "path": "skills/confucian-ren-and-li/latest.json"
+    },
+    {
+      "name": "Counterfactual Reasoning",
+      "slug": "counterfactual-reasoning",
+      "version": 1,
+      "description": "Counterfactual Reasoning is the cognitive and formal practice of evaluating what would have happened (or would happen) if conditions had been (or were) different from how they actually are, enabling analysis of causation, responsibility, decision-making, and policy by comparing the actual world to relevant alternatives. It underlies causal inference, historical analysis, regret-based learning, and the evaluation of interventions.",
+      "domains": [
+        "causation",
+        "epistemology",
+        "decision-theory",
+        "history"
+      ],
+      "review_status": "approved",
+      "path": "skills/counterfactual-reasoning/latest.json"
+    },
+    {
+      "name": "Decision Theory",
+      "slug": "decision-theory",
+      "version": 1,
+      "description": "Decision Theory is the formal study of how rational agents should choose among alternatives under conditions of uncertainty, combining probability assignments over outcomes with utility (preference) values to identify the option that maximizes expected utility. It encompasses both normative theory (how one ought to decide) and descriptive theory (how people actually decide).",
+      "domains": [
+        "decision-theory",
+        "rationality",
+        "probability",
+        "ethics"
+      ],
+      "review_status": "approved",
+      "path": "skills/decision-theory/latest.json"
+    },
+    {
+      "name": "Dependent Origination",
+      "slug": "dependent-origination",
+      "version": 1,
+      "description": "Dependent Origination (Pali: paticca-samuppada; Sanskrit: pratityasamutpada) is the Buddhist doctrine that all phenomena arise in dependence on conditions — nothing exists independently, permanently, or by its own essence. The classical formulation is a twelve-link chain tracing how ignorance gives rise, through a series of conditioned steps, to the full cycle of suffering and rebirth. More broadly, it is a universal causal principle: 'When this exists, that comes to be; with the arising of this, that arises. When this does not exist, that does not come to be; with the cessation of this, that ceases.'",
+      "domains": [
+        "buddhism",
+        "metaphysics",
+        "causality",
+        "liberation"
+      ],
+      "review_status": "approved",
+      "path": "skills/dependent-origination/latest.json"
+    },
+    {
+      "name": "Fallacy Analysis",
+      "slug": "fallacy-analysis",
+      "version": 1,
+      "description": "Fallacy Analysis is the systematic identification and evaluation of fallacious patterns of reasoning — arguments that appear valid or persuasive but fail to establish their conclusions through logical defects, rhetorical manipulation, or unjustified premises. It operates as both a diagnostic tool (identifying where reasoning breaks down) and a normative standard (specifying what good argumentation requires).",
+      "domains": [
+        "logic",
+        "rhetoric",
+        "epistemology",
+        "critical-thinking"
+      ],
+      "review_status": "approved",
+      "path": "skills/fallacy-analysis/latest.json"
+    },
+    {
+      "name": "Falsificationism",
+      "slug": "falsificationism",
+      "version": 1,
+      "description": "Falsificationism, developed by Karl Popper, holds that the demarcation criterion separating genuine science from non-science is falsifiability: a theory is scientific if and only if it makes predictions that could, in principle, be shown false by observation. Science advances not by confirming theories but by subjecting them to severe tests and eliminating those that fail.",
+      "domains": [
+        "philosophy-of-science",
+        "epistemology",
+        "methodology",
+        "logic"
+      ],
+      "review_status": "approved",
+      "path": "skills/falsificationism/latest.json"
+    },
+    {
+      "name": "Four Noble Truths",
+      "slug": "four-noble-truths",
+      "version": 1,
+      "description": "The Four Noble Truths are the Buddha's first and foundational teaching, diagnosing the universal human condition of suffering (dukkha), identifying its origin in craving (tanha), declaring its cessation possible (nirodha), and prescribing the path to that cessation (magga). They constitute a clinical-soteriological framework: observe the symptom, trace its cause, confirm the cure exists, follow the treatment.",
+      "domains": [
+        "buddhism",
+        "ethics",
+        "liberation",
+        "psychology"
+      ],
+      "review_status": "approved",
+      "path": "skills/four-noble-truths/latest.json"
+    },
+    {
+      "name": "Game Theory",
+      "slug": "game-theory",
+      "version": 1,
+      "description": "Game Theory is the mathematical study of strategic interaction among rational agents whose outcomes depend on the choices of all participants, providing tools to predict behavior, identify stable equilibria, and design incentive-compatible institutions. It covers both cooperative and non-cooperative games, zero-sum and variable-sum settings, and one-shot versus repeated interactions.",
+      "domains": [
+        "decision-theory",
+        "strategy",
+        "economics",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/game-theory/latest.json"
+    },
+    {
+      "name": "Halakha",
+      "slug": "halakha",
+      "version": 1,
+      "description": "Halakha is the collective body of Jewish religious law derived from the Written Torah, Oral Torah, rabbinic legislation, and communal custom, governing every domain of Jewish life from worship to commerce to interpersonal conduct. It functions as both a legal system and a spiritual discipline, framing righteous action as obligatory practice rather than optional virtue.",
+      "domains": [
+        "ethics",
+        "judaism",
+        "law",
+        "religion"
+      ],
+      "review_status": "approved",
+      "path": "skills/halakha/latest.json"
+    },
+    {
+      "name": "Ignatian Discernment",
+      "slug": "ignatian-discernment",
+      "version": 1,
+      "description": "Ignatian Discernment is a structured spiritual practice developed by Ignatius of Loyola (1491–1556) in the Spiritual Exercises for making major decisions and detecting the movements of consolation and desolation in the soul, so as to align one's choices with God's will. It provides a practical methodology for navigating uncertainty, evaluating competing options, and distinguishing authentic spiritual promptings from self-deception or disordered attachment.",
+      "domains": [
+        "spirituality",
+        "christianity",
+        "decision-making",
+        "ethics"
+      ],
+      "review_status": "approved",
+      "path": "skills/ignatian-discernment/latest.json"
+    },
+    {
+      "name": "Ijtihad",
+      "slug": "ijtihad",
+      "version": 1,
+      "description": "Ijtihad is the Islamic jurisprudential principle of independent rational reasoning applied to derive legal rulings for situations not explicitly addressed by the Quran and Sunnah. It is the methodology by which qualified jurists (mujtahidun) exercise interpretive effort (the literal meaning of 'ijtihad' is exertion or striving) to extend, adapt, and reform Islamic law in response to new circumstances, enabling the Shariah to remain a living system rather than a fossilized code.",
+      "domains": [
+        "jurisprudence",
+        "islam",
+        "ethics",
+        "epistemology"
+      ],
+      "review_status": "approved",
+      "path": "skills/ijtihad/latest.json"
+    },
+    {
+      "name": "Inference to the Best Explanation",
+      "slug": "inference-to-the-best-explanation",
+      "version": 1,
+      "description": "Inference to the Best Explanation (IBE), also called abduction, is the inferential practice of selecting the hypothesis that, if true, would provide the best explanation of the available evidence — where 'best' is assessed by explanatory virtues such as scope, simplicity, coherence, and fit. IBE is offered as a model of how scientists, diagnosticians, and ordinary reasoners actually justify belief.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-science",
+        "logic",
+        "methodology"
+      ],
+      "review_status": "approved",
+      "path": "skills/inference-to-the-best-explanation/latest.json"
+    },
+    {
+      "name": "Just War Theory",
+      "slug": "just-war-theory",
+      "version": 1,
+      "description": "Just War Theory is a tradition of moral reasoning — developed across Christian theology (Augustine, Aquinas), international law, and secular philosophy — that holds that war and organized violence are sometimes morally permissible but only under stringent conditions governing both the decision to go to war (jus ad bellum) and the conduct of war (jus in bello). It provides a systematic framework for evaluating the justice of armed conflict and coercive force.",
+      "domains": [
+        "ethics",
+        "political-philosophy",
+        "christianity",
+        "international-law"
+      ],
+      "review_status": "approved",
+      "path": "skills/just-war-theory/latest.json"
+    },
+    {
+      "name": "Kantian Deontology",
+      "slug": "kantian-deontology",
+      "version": 1,
+      "description": "Kantian Deontology is Immanuel Kant's duty-based moral theory holding that the rightness of an action is determined by whether it conforms to universalizable moral laws derived from pure practical reason, not by its consequences. Rational agents have both the capacity and obligation to act from duty, treating humanity always as an end in itself and never merely as a means.",
+      "domains": [
+        "ethics",
+        "political-philosophy",
+        "metaethics"
+      ],
+      "review_status": "approved",
+      "path": "skills/kantian-deontology/latest.json"
+    },
+    {
+      "name": "Karma Yoga",
+      "slug": "karma-yoga",
+      "version": 1,
+      "description": "Karma Yoga is one of the four classical paths to liberation (moksha) in Hindu philosophy, systematically expounded in the Bhagavad Gita, centered on the discipline of selfless action—performing one's duty without attachment to results. It holds that right action, performed as an offering and without ego-investment in outcomes, purifies the mind and leads to spiritual liberation.",
+      "domains": [
+        "ethics",
+        "hinduism",
+        "philosophy",
+        "spirituality"
+      ],
+      "review_status": "approved",
+      "path": "skills/karma-yoga/latest.json"
+    },
+    {
+      "name": "Liberation Theology",
+      "slug": "liberation-theology",
+      "version": 1,
+      "description": "Liberation Theology is a theological movement that emerged primarily in Latin America in the 1960s–70s, holding that Christian faith requires a 'preferential option for the poor' and that authentic theology must be done from within the experience of the oppressed, integrating social analysis (often drawing on Marxist categories) with biblical hermeneutics and the prophetic tradition. It re-reads salvation history as including liberation from structural injustice as an integral dimension of redemption.",
+      "domains": [
+        "theology",
+        "christianity",
+        "ethics",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/liberation-theology/latest.json"
+    },
+    {
+      "name": "Lojong",
+      "slug": "lojong",
+      "version": 1,
+      "description": "Lojong (Tibetan: blo sbyong, 'mind training') is a tradition of Mahayana Buddhist contemplative practice originating in 11th-century Tibet with Atisha Dipamkara and systematized by Chekawa Yeshe Dorje in the Seven-Point Mind Training. It consists of aphoristic slogans (59 in Chekawa's system) that train the practitioner to transform adversity into the path, cultivate bodhicitta (the awakening mind), and dissolve self-cherishing through tonglen (taking and sending) meditation and moment-to-moment application.",
+      "domains": [
+        "buddhism",
+        "mahayana",
+        "ethics",
+        "contemplative-practice"
+      ],
+      "review_status": "approved",
+      "path": "skills/lojong/latest.json"
+    },
+    {
+      "name": "Maqasid al-Shariah",
+      "slug": "maqasid-al-shariah",
+      "version": 1,
+      "description": "Maqasid al-Shariah (the Objectives or Higher Purposes of Islamic Law) is a jurisprudential framework, systematized by al-Ghazali (1058–1111) and al-Shatibi (d. 1388), that identifies the overarching goals that Islamic law is designed to protect and promote — traditionally the five essentials: religion, life, intellect, lineage/family, and property. It enables jurists to reason about the spirit behind legal rulings, adjudicate novel cases, and evaluate whether a given rule or action serves or defeats Islamic law's ultimate purposes.",
+      "domains": [
+        "ethics",
+        "islam",
+        "jurisprudence",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/maqasid-al-shariah/latest.json"
+    },
+    {
+      "name": "Modal Reasoning",
+      "slug": "modal-reasoning",
+      "version": 1,
+      "description": "Modal Reasoning is the formal and informal practice of reasoning about what is necessarily true (could not be otherwise), possibly true (could be true), and contingently true (happens to be true but could have been otherwise), using possible-worlds semantics and modal logic to clarify the logical status of claims and explore the space of alternatives. It underpins arguments in metaphysics, ethics, philosophy of mind, and any domain requiring distinctions between what is the case and what must or could be the case.",
+      "domains": [
+        "logic",
+        "metaphysics",
+        "rationality",
+        "philosophy-of-mind"
+      ],
+      "review_status": "approved",
+      "path": "skills/modal-reasoning/latest.json"
+    },
+    {
+      "name": "Mussar",
+      "slug": "mussar",
+      "version": 1,
+      "description": "Mussar is a Jewish ethical and spiritual discipline originating in 19th-century Lithuania with Rabbi Israel Salanter, focused on the deliberate cultivation of moral character traits (middot) through structured introspection, study, and practice. It treats character development as a rigorous, ongoing discipline comparable to Talmud study—not a passive aspiration but an active daily regimen.",
+      "domains": [
+        "ethics",
+        "judaism",
+        "character",
+        "psychology"
+      ],
+      "review_status": "approved",
+      "path": "skills/mussar/latest.json"
+    },
+    {
+      "name": "Occam's Razor",
+      "slug": "occam-s-razor",
+      "version": 1,
+      "description": "Occam's Razor is the methodological principle that, when competing explanations account for the same evidence equally well, the simpler one — the one that posits fewer entities, assumptions, or mechanisms — is to be preferred. It functions as a tie-breaking heuristic in theory choice, not as a metaphysical guarantee that reality is simple.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-science",
+        "methodology",
+        "logic"
+      ],
+      "review_status": "approved",
+      "path": "skills/occam-s-razor/latest.json"
+    },
+    {
+      "name": "Ordinary Language Philosophy",
+      "slug": "ordinary-language-philosophy",
+      "version": 1,
+      "description": "Ordinary Language Philosophy holds that philosophical problems are typically generated by the misuse or distortion of ordinary language — by taking words out of their everyday contexts and expecting them to perform functions they were not designed for. Philosophical therapy consists in returning to ordinary usage to dissolve, rather than solve, philosophical pseudo-problems.",
+      "domains": [
+        "philosophy-of-language",
+        "epistemology",
+        "methodology",
+        "philosophy-of-mind"
+      ],
+      "review_status": "approved",
+      "path": "skills/ordinary-language-philosophy/latest.json"
+    },
+    {
+      "name": "Pascal's Wager",
+      "slug": "pascal-s-wager",
+      "version": 1,
+      "description": "Pascal's Wager is a decision-theoretic argument by Blaise Pascal (Pensées, c. 1660) that it is rationally required to wager on the existence of God, because if God exists the expected utility of belief is infinite while the cost of belief is finite, making belief the dominant strategy regardless of the prior probability of God's existence.",
+      "domains": [
+        "decision-theory",
+        "philosophy-of-religion",
+        "epistemology",
+        "ethics"
+      ],
+      "review_status": "approved",
+      "path": "skills/pascal-s-wager/latest.json"
+    },
+    {
+      "name": "Pikuach Nefesh",
+      "slug": "pikuach-nefesh",
+      "version": 1,
+      "description": "Pikuach Nefesh (Hebrew: 'watching over a soul') is the halakhic principle that the preservation of human life overrides nearly all other Jewish religious commandments, including Shabbat, Yom Kippur, and most dietary laws. It establishes a clear priority hierarchy: when life is at risk, the obligation to save it takes precedence over virtually every other religious duty.",
+      "domains": [
+        "ethics",
+        "judaism",
+        "halakha",
+        "bioethics"
+      ],
+      "review_status": "approved",
+      "path": "skills/pikuach-nefesh/latest.json"
+    },
+    {
+      "name": "Pragmatism",
+      "slug": "pragmatism",
+      "version": 1,
+      "description": "Pragmatism is a philosophical tradition originating with Charles Sanders Peirce, William James, and John Dewey that evaluates beliefs, theories, and meanings by their practical consequences and problem-solving utility. It rejects the idea that truth is a correspondence to mind-independent reality, instead treating truth as what works — what proves fruitful, coherent, and useful in guiding inquiry and action.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-science",
+        "ethics",
+        "philosophy-of-language"
+      ],
+      "review_status": "approved",
+      "path": "skills/pragmatism/latest.json"
+    },
+    {
+      "name": "Principle of Charity",
+      "slug": "principle-of-charity",
+      "version": 1,
+      "description": "The Principle of Charity is a methodological norm in argument interpretation and philosophical analysis holding that one should reconstruct an argument or position in its strongest, most reasonable form before criticizing it. First systematized in philosophy of language and interpretation theory, it ensures that disagreements are genuine and productive rather than targeting distorted versions of opposing views.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-language",
+        "argumentation",
+        "ethics"
+      ],
+      "review_status": "approved",
+      "path": "skills/principle-of-charity/latest.json"
+    },
+    {
+      "name": "Reflective Equilibrium",
+      "slug": "reflective-equilibrium",
+      "version": 1,
+      "description": "Reflective Equilibrium is a method of moral justification developed by John Rawls in which we achieve coherence between our considered moral judgments (intuitions about cases) and general moral principles by iteratively revising both until they cohere. It treats neither pure theory nor raw intuition as foundational, but uses each to check and refine the other.",
+      "domains": [
+        "metaethics",
+        "ethics",
+        "epistemology",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/reflective-equilibrium/latest.json"
+    },
+    {
+      "name": "Sufism",
+      "slug": "sufism",
+      "version": 1,
+      "description": "Sufism (tasawwuf) is the inner, mystical, and ascetic dimension of Islam, focused on the purification of the soul (tazkiyat al-nafs), direct experiential knowledge of God (marifah), and the journey of the heart toward annihilation of the ego-self in the divine (fana) and subsistence in God (baqa). It provides a framework for diagnosing the spiritual conditions of the soul, prescribing spiritual disciplines, and interpreting experience through the lens of the lover-Beloved relationship between the soul and God.",
+      "domains": [
+        "spirituality",
+        "islam",
+        "ethics",
+        "psychology"
+      ],
+      "review_status": "approved",
+      "path": "skills/sufism/latest.json"
+    },
+    {
+      "name": "Tawhid",
+      "slug": "tawhid",
+      "version": 1,
+      "description": "Tawhid is the central theological doctrine of Islam — the absolute unity and uniqueness of God (Allah) — which functions not only as a creedal affirmation but as a comprehensive framework for organizing all of reality, ethics, knowledge, and social life. As a framework, Tawhid demands that every dimension of existence be oriented toward, and understood in relation to, the one undivided divine reality, making it the ontological and ethical foundation from which all Islamic thought and action derive.",
+      "domains": [
+        "theology",
+        "islam",
+        "ethics",
+        "epistemology"
+      ],
+      "review_status": "approved",
+      "path": "skills/tawhid/latest.json"
+    },
+    {
+      "name": "The Four Purusharthas",
+      "slug": "the-four-purusharthas",
+      "version": 1,
+      "description": "The Four Purusharthas (Sanskrit: purusha-artha, 'human aims') is the classical Hindu framework identifying four irreducible goals of human life—Dharma (right conduct), Artha (prosperity and power), Kama (pleasure and desire), and Moksha (liberation)—held to encompass all legitimate human striving and to require integration rather than exclusive pursuit of any single aim.",
+      "domains": [
+        "ethics",
+        "hinduism",
+        "philosophy",
+        "life-design"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-four-purusharthas/latest.json"
+    },
+    {
+      "name": "The Gettier Problem",
+      "slug": "the-gettier-problem",
+      "version": 1,
+      "description": "The Gettier Problem, introduced by Edmund Gettier in a landmark 1963 paper, is the demonstration that the classical tripartite analysis of knowledge as justified true belief is insufficient: a subject can have a justified true belief that nonetheless does not constitute knowledge, because the belief's truth is accidental relative to the justification. It is both a specific philosophical problem and a general methodological lesson about how to test theories by counterexample.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-mind",
+        "methodology"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-gettier-problem/latest.json"
+    },
+    {
+      "name": "The Is-Ought Distinction",
+      "slug": "the-is-ought-distinction",
+      "version": 1,
+      "description": "The Is-Ought Distinction, identified by David Hume in the Treatise of Human Nature (1739), is the logical observation that normative conclusions ('ought' claims) cannot be validly derived from purely descriptive premises ('is' claims) alone. Any argument that moves from facts about the world to moral obligations requires at least one normative premise, and the failure to acknowledge this gap is a persistent error in moral reasoning.",
+      "domains": [
+        "metaethics",
+        "logic",
+        "epistemology",
+        "philosophy-of-science"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-is-ought-distinction/latest.json"
+    },
+    {
+      "name": "The Map-Territory Distinction",
+      "slug": "the-map-territory-distinction",
+      "version": 1,
+      "description": "The Map-Territory Distinction is the epistemological principle, originating with Alfred Korzybski's dictum 'the map is not the territory,' that any model, concept, theory, or representation of reality is necessarily an abstraction that omits, distorts, or simplifies the territory it depicts — and that confusing the map with the territory generates systematic errors in reasoning and action. The distinction is foundational to critical thinking about models, language, and cognition.",
+      "domains": [
+        "epistemology",
+        "rationality",
+        "systems-thinking",
+        "cognitive-science"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-map-territory-distinction/latest.json"
+    },
+    {
+      "name": "The Middle Way",
+      "slug": "the-middle-way",
+      "version": 1,
+      "description": "The Middle Way (Pali: majjhima patipada; Sanskrit: madhyama pratipad) is the Buddha's principle of avoiding extremes — originally the avoidance of sensual indulgence and self-mortification as paths to liberation, later generalized into a broad epistemological and ethical orientation that seeks the mean between paired opposites: existence and non-existence, eternalism and nihilism, rigid rule-following and moral laxity. In Madhyamaka philosophy, Nagarjuna extended it to the metaphysical: the middle between 'things exist absolutely' and 'things do not exist at all.'",
+      "domains": [
+        "buddhism",
+        "ethics",
+        "epistemology",
+        "metaphysics"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-middle-way/latest.json"
+    },
+    {
+      "name": "The Noble Eightfold Path",
+      "slug": "the-noble-eightfold-path",
+      "version": 1,
+      "description": "The Noble Eightfold Path (Ariya Atthangika Magga) is the Buddha's fourth Noble Truth made explicit: an eight-factor program of mental, ethical, and meditative cultivation that constitutes the path to the cessation of suffering. The eight factors — spanning wisdom, ethical conduct, and mental development — are to be cultivated simultaneously rather than sequentially, as mutually reinforcing aspects of a unified practice.",
+      "domains": [
+        "buddhism",
+        "ethics",
+        "practice",
+        "liberation"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-noble-eightfold-path/latest.json"
+    },
+    {
+      "name": "The Ship of Theseus",
+      "slug": "the-ship-of-theseus",
+      "version": 1,
+      "description": "The Ship of Theseus is a classical philosophical puzzle about personal identity and persistence through change: if an object (or person, institution, or concept) is gradually replaced piece by piece until none of the original material remains, is it still the same object? The puzzle probes competing criteria of identity — material continuity, functional continuity, and psychological/historical continuity — and reveals that our everyday identity concepts can be indeterminate or context-dependent.",
+      "domains": [
+        "metaphysics",
+        "personal-identity",
+        "philosophy-of-language",
+        "organizational-theory"
+      ],
+      "review_status": "approved",
+      "path": "skills/the-ship-of-theseus/latest.json"
+    },
+    {
+      "name": "Thomistic Natural Law",
+      "slug": "thomistic-natural-law",
+      "version": 1,
+      "description": "Thomistic Natural Law is the moral and political philosophy developed by Thomas Aquinas (1225–1274) holding that human reason can discern objective moral norms grounded in human nature and ultimately in God's Eternal Law. It provides a framework for evaluating actions, laws, and institutions by asking whether they fulfill or frustrate the natural ends (teloi) of human beings.",
+      "domains": [
+        "ethics",
+        "christianity",
+        "natural-law",
+        "political-philosophy"
+      ],
+      "review_status": "approved",
+      "path": "skills/thomistic-natural-law/latest.json"
+    },
+    {
+      "name": "Thought Experiments",
+      "slug": "thought-experiments",
+      "version": 1,
+      "description": "Thought Experiments are deliberately constructed hypothetical scenarios used to isolate and test the logical consequences of concepts, principles, or theories by reasoning through what would follow in an imagined situation, without the need for physical execution. They function as a primary instrument of philosophical argument, scientific theorizing, and ethical analysis by pumping intuitions, revealing hidden commitments, or demonstrating impossibilities.",
+      "domains": [
+        "philosophy",
+        "rationality",
+        "ethics",
+        "scientific-methodology"
+      ],
+      "review_status": "approved",
+      "path": "skills/thought-experiments/latest.json"
+    },
+    {
+      "name": "Tikkun Olam",
+      "slug": "tikkun-olam",
+      "version": 1,
+      "description": "Tikkun Olam (Hebrew: 'repair of the world') is a Jewish concept holding that human beings are partners with the divine in the ongoing work of repairing, completing, and perfecting the world through ethical action, justice, and compassion. In its modern form, it functions as a framework for social justice and moral responsibility oriented toward systemic betterment of the world.",
+      "domains": [
+        "ethics",
+        "judaism",
+        "social-justice",
+        "theology"
+      ],
+      "review_status": "approved",
+      "path": "skills/tikkun-olam/latest.json"
+    },
+    {
+      "name": "Utilitarianism",
+      "slug": "utilitarianism",
+      "version": 1,
+      "description": "Utilitarianism is a consequentialist moral theory holding that the right action is the one that produces the greatest overall well-being (utility) for all affected parties. Associated principally with Jeremy Bentham and John Stuart Mill, it evaluates acts and policies solely by their outcomes.",
+      "domains": [
+        "ethics",
+        "political-philosophy",
+        "decision-theory",
+        "public-policy"
+      ],
+      "review_status": "approved",
+      "path": "skills/utilitarianism/latest.json"
+    },
+    {
+      "name": "Veil of Ignorance",
+      "slug": "veil-of-ignorance",
+      "version": 1,
+      "description": "The Veil of Ignorance is a thought experiment devised by John Rawls in which principles of justice are chosen by rational agents who do not know their own place in society — their class, sex, race, natural talents, or conception of the good. By eliminating self-interested bias, the device generates principles that are fair to all because they are chosen by none who knows their own advantage.",
+      "domains": [
+        "political-philosophy",
+        "ethics",
+        "social-contract-theory",
+        "justice"
+      ],
+      "review_status": "approved",
+      "path": "skills/veil-of-ignorance/latest.json"
+    },
+    {
+      "name": "Verificationism",
+      "slug": "verificationism",
+      "version": 1,
+      "description": "Verificationism is the semantic and epistemological thesis, associated with the Logical Positivists of the Vienna Circle, that the meaning of a statement consists in the conditions under which it is empirically verifiable; statements that are neither empirically verifiable nor analytically true are held to be cognitively meaningless. It was proposed as a demarcation criterion to eliminate metaphysics, theology, and pseudo-scientific claims from legitimate discourse.",
+      "domains": [
+        "epistemology",
+        "philosophy-of-language",
+        "philosophy-of-science",
+        "metaphysics"
+      ],
+      "review_status": "approved",
+      "path": "skills/verificationism/latest.json"
+    },
+    {
+      "name": "Wu Wei",
+      "slug": "wu-wei",
+      "version": 1,
+      "description": "Wu Wei (無為, 'non-action' or 'effortless action') is the central operative concept of Daoist philosophy, originating in the Daodejing attributed to Laozi and developed in the Zhuangzi. It names a mode of acting in accordance with the natural flow of the Dao — not forced, contrived, or ego-driven action, but spontaneous, responsive conduct that achieves its ends without struggle, resistance, or unnecessary assertion. Wu wei is not passivity but the highest form of efficacy: acting so naturally and appropriately that action appears effortless.",
+      "domains": [
+        "daoism",
+        "ethics",
+        "leadership",
+        "epistemology"
+      ],
+      "review_status": "approved",
+      "path": "skills/wu-wei/latest.json"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Modal Reasoning asks: is the current structure necessarily optimal (true in all accessible worlds) or merely contingently effective (true in actual circumstances)? To establish necessity, the manager would need to show that no possible reorganization could succeed — a very strong claim. In practice, most organizational claims are contingent: effective under current conditions, personnel, and environment, but not in all relevantly similar worlds. Modal analysis exposes the over-claim and opens space for exploring genuine alternatives.",
+      "problem": "A manager argues: 'Our current organizational structure is the only way to run this company effectively — any other arrangement would fail.' Is this claim defensible?"
+    },
+    {
+      "analysis": "This is Chalmers's conceivability argument against physicalism. Modal Reasoning scrutinizes the step from conceivability to possibility: even if zombies are conceivable (epistemically possible), are they metaphysically possible? Kripke's work on rigid designators and a posteriori necessities shows that some identities are necessary even if not knowable a priori. The physicalist can respond that zombie-conceivability reflects our epistemic situation (we lack a priori access to how physical states constitute consciousness) rather than genuine metaphysical possibility.",
+      "problem": "A philosopher argues: 'I can conceive of a zombie — a being physically identical to me but with no conscious experience. Therefore, consciousness is not identical to any physical state.'"
+    }
+  ],
+  "core_claims": [
+    "Propositions have a modal status: they are necessarily true (true in all possible worlds), possibly true (true in at least one possible world), or contingently true (true in the actual world but false in some other possible world).",
+    "Possible-worlds semantics (Kripke semantics) provides a rigorous framework: a proposition is necessary if true in all accessible possible worlds, and possible if true in at least one.",
+    "Essentialist claims identify properties a thing must have in every world where it exists (essential) versus properties it merely happens to have (accidental).",
+    "Modal arguments can establish metaphysical conclusions: Kripke's modal argument against type-identity theory in philosophy of mind proceeds by showing that mind-brain identities, if true, would be necessary — but they are conceivably false.",
+    "De re modality (the object itself has a property necessarily) must be distinguished from de dicto modality (the proposition is necessarily true), as confusing them generates fallacies.",
+    "Conceivability is an imperfect guide to genuine possibility: something may be conceivable yet metaphysically impossible (e.g., water without H2O), demanding care when moving from 'I can imagine X' to 'X is possible.'"
+  ],
+  "description": "Modal Reasoning is the formal and informal practice of reasoning about what is necessarily true (could not be otherwise), possibly true (could be true), and contingently true (happens to be true but could have been otherwise), using possible-worlds semantics and modal logic to clarify the logical status of claims and explore the space of alternatives. It underpins arguments in metaphysics, ethics, philosophy of mind, and any domain requiring distinctions between what is the case and what must or could be the case.",
+  "domains": [
+    "logic",
+    "metaphysics",
+    "rationality",
+    "philosophy-of-mind"
+  ],
+  "failure_modes": [
+    "Conceivability-to-possibility fallacy: inferring that because something is conceivable or imaginable, it is therefore genuinely (metaphysically) possible — valid only if the conceivability is not defeated by a posteriori necessities.",
+    "Collapsing modalities: conflating logical possibility (no contradiction), metaphysical possibility (could have been), nomological possibility (compatible with natural law), and epistemic possibility (not ruled out by knowledge) — each has different scope and generates different conclusions.",
+    "Modal inflation: treating contingent features of the actual world (current technology, current law, current culture) as if they were necessary constraints, preventing exploration of real alternatives."
+  ],
+  "key_vocabulary": {
+    "Contingency": "A proposition is contingent if it is true in some possible worlds and false in others — it happens to be true (or false) but could have been otherwise.",
+    "De Re / De Dicto": "De re modality attributes necessity or possibility to the object itself; de dicto attributes it to the proposition. 'The number of planets is necessarily odd' is de dicto false even if 'nine is necessarily odd' is de re true.",
+    "Necessity": "A proposition is necessary (□P) if it is true in every possible world accessible from the actual world; it could not have been false.",
+    "Possibility": "A proposition is possible (◇P) if it is true in at least one possible world accessible from the actual world; it could be true.",
+    "Possible World": "A complete way the world could have been; a maximally consistent set of propositions used as a semantic device for modal claims.",
+    "Rigid Designator": "A term (introduced by Kripke) that refers to the same object in every possible world where that object exists — proper names and natural kind terms are typically rigid, enabling modal identity claims."
+  },
+  "name": "Modal Reasoning",
+  "operative_procedure": [
+    "Identify the modal claim. Determine whether the argument or problem involves a claim about what must be true (necessity), what could be true (possibility), or what happens to be true but could have been otherwise (contingency). Translate informal language ('has to,' 'could,' 'might,' 'inevitably') into explicit modal operators.",
+    "Distinguish de re from de dicto. Check whether the modal predication is about an object (de re: 'this thing necessarily has property P') or about a sentence (de dicto: 'necessarily, this sentence is true'). Many apparent paradoxes dissolve when this distinction is applied.",
+    "Construct the relevant possible worlds. Ask: in which possible worlds is the claim true, and in which is it false? Make explicit the accessibility relation — what counts as a relevant alternative world (logical, metaphysical, nomological, epistemic possibility).",
+    "Test conceivability against genuine possibility. If the argument moves from 'I can conceive of X' to 'X is possible,' scrutinize the inference. Identify whether the conceivability is epistemic (I cannot rule it out) or genuine metaphysical possibility, and whether any a posteriori necessities (like water = H2O) might block the inference.",
+    "Apply the modal claim to the original problem. Use the modal analysis to clarify what the problem requires: Is the user asking what must happen, what could happen, or what happens to be the case? Identify which constraints are necessary (cannot be changed) vs. contingent (open to revision).",
+    "Synthesize. Restate the problem in explicitly modal terms, identify which claims are necessary, contingent, or merely possible, and show how this clarification resolves the original question or opens new solution space."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Logic",
+      "Aristotelian Logic"
+    ],
+    "composes_with": [
+      "Counterfactual Reasoning",
+      "Thought Experiments",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Possible Worlds Semantics",
+      "Epistemic Logic",
+      "Deontic Logic"
+    ],
+    "related": [
+      "Counterfactual Reasoning",
+      "Thought Experiments",
+      "Decision Theory",
+      "Fallacy Analysis"
+    ],
+    "rivals": [
+      "Quinean Extensionalism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Modal Reasoning is strongest in philosophy, mathematics, and any context requiring precise analysis of necessity vs. contingency — it excels at dissolving pseudo-problems (apparent contradictions that resolve when modality is clarified) and at evaluating the strength of metaphysical arguments. It is weakest when the relevant notion of 'possibility' is underspecified or when empirical questions about what is actually possible are mistaken for purely logical questions. It can generate technically valid arguments that are substantively uninformative if possible-worlds talk is treated as purely formal rather than tied to real constraints.",
+  "source_summary": "The formal study of modal logic was pioneered by C.I. Lewis in the 1910s–30s as a response to the paradoxes of material implication, developing systems S1–S5 with progressively stronger axioms. Possible-worlds semantics was independently developed by Saul Kripke, Jaakko Hintikka, and others in the late 1950s–60s, providing a rigorous truth-conditional semantics for modal operators. Kripke's Naming and Necessity (lectures 1970, published 1980) applied modal logic to natural language and metaphysics, establishing the de re/de dicto distinction, rigid designation, and the possibility of a posteriori necessary truths (e.g., water = H2O). David Lewis's modal realism in On the Plurality of Worlds (1986) defended the full ontological reality of possible worlds. The Stanford Encyclopedia of Philosophy's 'Modal Logic' entry surveys both the formal systems and the philosophical interpretations.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Modal Logic — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "Saul Kripke, Naming and Necessity (1980)"
+    },
+    {
+      "kind": "primary",
+      "title": "David Lewis, On the Plurality of Worlds (1986)"
+    },
+    {
+      "kind": "primary",
+      "title": "C.I. Lewis and C.H. Langford, Symbolic Logic (1932)"
+    }
+  ],
+  "version": 1
+}

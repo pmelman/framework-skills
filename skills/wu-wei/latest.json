@@ -1,0 +1,95 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "You wei diagnosis: the founder's intensified control is not addressing the problem (slipping timeline) but generating new problems (exhaustion, demoralization, decision paralysis in others). The forcing has created resistance where there was none. Wu wei analysis: what is the natural flow here? The team has competence — the founder's micromanagement is blocking the very flow of work they are trying to accelerate. Yielding move: step back from the daily interventions, trust the structure already in place, and address specific bottlenecks rather than the whole situation. The founder's action is like trying to make water flow faster by pushing it — the action is redundant at best, obstructive at worst. Smaller, better-timed interventions (clearing specific blockers, not controlling the whole) will accomplish more.",
+      "problem": "A founder is driving their team with increasing urgency and control as a product launch approaches — holding daily check-ins, overriding design decisions, sending late-night messages. The team is exhausted and performance is declining."
+    },
+    {
+      "analysis": "This is the paradigm case of you wei producing the opposite of its goal: the effort to sleep prevents sleep. Wu wei insight: sleep is a natural process that the body will do if conditions allow — the deliberate effort to produce it is precisely what prevents it. The wu wei response is not 'try harder to relax' (another form of forcing) but to stop treating sleep as an achievement and allow the conditions (dark room, quiet, warmth, unstimulated mind) to do their natural work. The Daoist principle: the Dao accomplishes everything by doing nothing — the sage does not achieve sleep but creates the conditions in which sleep naturally arises.",
+      "problem": "A person is trying very hard to fall asleep, checking the time repeatedly and becoming increasingly frustrated and alert with each passing hour."
+    }
+  ],
+  "core_claims": [
+    "The Dao (道) is the underlying principle of reality — the way things naturally unfold; wu wei is action aligned with the Dao rather than opposed to it.",
+    "Forced action (you wei 有為) — contrived, ego-driven, or overly deliberate effort — typically produces resistance, unintended consequences, and exhaustion; wu wei avoids this.",
+    "The sage (sheng ren 聖人) acts through wu wei: responsive rather than initiating, yielding rather than forceful, and thereby achieves more with less.",
+    "Water is the Daoist emblem of wu wei: it always finds the lowest place, yields to all obstacles, and yet wears away stone — weak overcomes strong, soft overcomes hard.",
+    "Zhi (知, knowledge) in Daoism is not conceptual mastery but attunement — knowing when to act and when not to act, when to yield and when to proceed, through direct perception of the situation's natural flow.",
+    "Zhuangzi's version emphasizes spontaneous skill (as in the Cook Ding parable) — expertise so internalized that it transcends technique and becomes natural responsiveness."
+  ],
+  "description": "Wu Wei (無為, 'non-action' or 'effortless action') is the central operative concept of Daoist philosophy, originating in the Daodejing attributed to Laozi and developed in the Zhuangzi. It names a mode of acting in accordance with the natural flow of the Dao — not forced, contrived, or ego-driven action, but spontaneous, responsive conduct that achieves its ends without struggle, resistance, or unnecessary assertion. Wu wei is not passivity but the highest form of efficacy: acting so naturally and appropriately that action appears effortless.",
+  "domains": [
+    "daoism",
+    "ethics",
+    "leadership",
+    "epistemology"
+  ],
+  "failure_modes": [
+    "Passivity rationalization: using wu wei as a justification for avoiding difficult action, hard conversations, or necessary effort — 'going with the flow' as spiritual cover for inaction or cowardice.",
+    "Naive naturalism: assuming that 'natural' is automatically good or right — the Daoist 'natural' is a refined attunement, not simply following impulses or social defaults.",
+    "Misapplying in urgent or genuinely novel situations: wu wei presupposes a flowing natural order to align with; in genuine emergencies or unprecedented situations, waiting for the natural flow may be too slow or the 'flow' may not yet exist."
+  ],
+  "key_vocabulary": {
+    "Dao": "The Way (道) — the unnameable, underlying principle of reality; that which all things follow; the source and pattern of natural order.",
+    "De": "Virtue or power (德) — the particular expression of the Dao in each thing; one's own nature fully actualized; not a moral virtue imposed from outside but an inner capacity fully expressed.",
+    "Pu": "Uncarved block (樸) — the natural, unconditioned state of things before cultural elaboration; the Daoist ideal of simplicity and authenticity.",
+    "Wu Wei": "Non-action (無為) — not passivity but effortless, spontaneous action aligned with the natural flow of the Dao; action that does not force or contrive.",
+    "You Wei": "Deliberate or forced action (有為) — the opposite of wu wei; contrived, ego-driven effort that fights the natural flow and produces the opposite of intended effects.",
+    "Ziran": "Naturalness or self-so-ness (自然) — the quality of things being what they are without external compulsion; the Daoist ideal that human conduct should be as natural as the growth of a plant."
+  },
+  "name": "Wu Wei",
+  "operative_procedure": [
+    "Identify the forcing. Locate where the user is straining, pushing, or contriving — where effort has become counterproductive, where action generates resistance rather than progress. Ask: where is you wei (forced action) at work? What is the user trying to make happen that is not flowing?",
+    "Trace what the situation is naturally doing. Separate the user's agenda from the natural movement of the situation. What would happen if the forcing stopped? What is already moving in the right direction without effort? What flow is available to work with rather than against?",
+    "Identify the self (ego) in the forcing. Wu wei's obstacle is almost always self-assertion — the need to be seen as capable, in control, or decisive. Ask: what is driving the contrived effort? Is the forcing serving the situation or protecting self-image?",
+    "Find the yielding that accomplishes. Water's path is the model: where is the path of least resistance that actually achieves the goal? This is not avoiding the goal but finding its natural route. What small, well-timed action could unlock larger movement?",
+    "Apply the Cook Ding test. Zhuangzi's cook finds no resistance because he follows the natural structure — the joints and cavities. For the user's problem, ask: where are the natural joints of this situation? Where does it want to move if guided rather than forced?",
+    "Synthesize a wu wei response. Produce guidance that redirects from forcing to flowing: name what to stop doing, what to allow, and what small, well-aligned action to take. The synthesis should have the quality of wu wei itself — simple, direct, not over-elaborated."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Confucian Ren and Li",
+      "Stoicism",
+      "The Middle Way"
+    ],
+    "descendants": [],
+    "related": [
+      "Confucian Ren and Li",
+      "Stoicism",
+      "The Middle Way"
+    ],
+    "rivals": [
+      "Confucian Ren and Li"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Wu Wei is exceptionally strong in leadership, creative work, conflict resolution, parenting, and any domain where forcing produces counterproductive resistance — roughly wherever the problem is over-effort and control. It provides a corrective to Western activist-agency assumptions that more effort always produces better results. It is weaker where genuine agency, strategic planning, or rule-following is required — it does not provide a full ethics, only an orientation toward efficacy through alignment. It pairs productively with Confucian Ren and Li (inner/outer; natural/formal) and with Stoicism (focus on what is and is not in one's control).",
+  "source_summary": "Wu wei is the central concept of the Daodejing (Tao Te Ching), traditionally attributed to Laozi (6th or 4th century BCE), where it appears in connection with the sage-ruler who governs without imposing and whose non-action accomplishes all things (chapters 2, 3, 10, 37, 48, etc.). The Zhuangzi (c. 4th century BCE) develops wu wei through narrative and parable — most vividly in the Cook Ding story (ch. 3), which shows skill so internalized it becomes natural responsiveness. Edward Slingerland's 'Effortless Action' (2003) is the leading scholarly treatment in English, analyzing wu wei as a cross-cultural conceptual ideal found also in early Confucian texts. The concept influenced Chan/Zen Buddhism (particularly the emphasis on naturalness and non-contrivance), Japanese aesthetics (mushin, 'no-mind'), and contemporary flow theory in psychology.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Daodejing (Tao Te Ching), attributed to Laozi, c. 4th–3rd century BCE"
+    },
+    {
+      "kind": "primary",
+      "title": "Zhuangzi, c. 4th–3rd century BCE — especially the Inner Chapters"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: Daoism"
+    },
+    {
+      "kind": "secondary",
+      "title": "Edward Slingerland, 'Effortless Action: Wu-wei as Conceptual Metaphor and Spiritual Ideal in Early China' (Oxford University Press, 2003)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Wu wei"
+    }
+  ],
+  "version": 1
+}

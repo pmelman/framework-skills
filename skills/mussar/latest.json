@@ -1,0 +1,95 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The implicated middah is savlanut (patience) and its related vice—ka'as (anger). Cheshbon ha-nefesh reveals: the manager's anger is a habitual response to feeling out of control, not merely to the triggering incident. The yetzer ha-ra insists that the anger is justified ('they really were incompetent') and deflects self-examination. A Mussar practice: for one week, the manager selects the phrase 'ein adam choteh ela im kein nichnas bo ruach shtut'—no one sins unless a spirit of foolishness enters them (Talmud, Sotah 3a)—and recites it during the pause before responding in a frustrating moment. The goal is not to suppress anger but to create a half-second gap between stimulus and response in which the real middah work can begin.",
+      "problem": "A manager finds themselves losing patience and snapping at colleagues under pressure. They feel ashamed afterward but cannot seem to stop the pattern."
+    },
+    {
+      "analysis": "The implicated middot are gaavah (pride/arrogance) and its corrective, anavah (humility). The inability to see it as a problem is itself diagnostic—gaavah distorts self-perception. Cheshbon ha-nefesh: in how many specific recent instances did this person claim or accept credit that belonged partly to others? The Mussar text assigned is the opening of Mesillat Yesharim (Path of the Just) by Rabbi Moshe Chaim Luzzatto, which opens with the imperative to examine one's actual conduct rather than assume virtue. The behavioral practice: for two weeks, make one explicit acknowledgment per day of a specific contribution by another person, in a public or semi-public setting. Log the resistance felt.",
+      "problem": "Someone consistently takes credit for collaborative work and struggles to acknowledge others' contributions. They don't see it as a problem."
+    }
+  ],
+  "core_claims": [
+    "Character (middot) is not fixed; it can and must be cultivated through deliberate, sustained practice.",
+    "The unconscious drives and desires (the yetzer—inclinations) profoundly shape behavior; self-knowledge requires probing beneath conscious awareness.",
+    "Each person has a unique constellation of character traits that need strengthening or restraint; the work is individualized, not one-size-fits-all.",
+    "Study of ethical texts (mussar literature) is insufficient alone; embodied practice—cheshbon ha-nefesh (soul accounting), repetition, and behavioral change—is required.",
+    "Humility (anavah) is both a foundational virtue and a precondition for Mussar practice; arrogance blocks genuine self-examination.",
+    "Ethical growth is a lifelong, never-complete project; the goal is not perfection but directional improvement (yashrut—uprightness) through constant self-reckoning."
+  ],
+  "description": "Mussar is a Jewish ethical and spiritual discipline originating in 19th-century Lithuania with Rabbi Israel Salanter, focused on the deliberate cultivation of moral character traits (middot) through structured introspection, study, and practice. It treats character development as a rigorous, ongoing discipline comparable to Talmud study—not a passive aspiration but an active daily regimen.",
+  "domains": [
+    "ethics",
+    "judaism",
+    "character",
+    "psychology"
+  ],
+  "failure_modes": [
+    "Using Mussar as a tool for self-flagellation or shame rather than honest self-examination and directed growth violates the framework's spirit—Mussar names flaws in order to heal them, not to punish.",
+    "Focusing exclusively on one's own middot without social application produces a navel-gazing spirituality; Mussar character development is in service of right relationship with others and with God.",
+    "Treating the identification of a character flaw as sufficient (insight without practice) misses that Mussar is an embodied, behavioral discipline—intellectual understanding alone does not change character."
+  ],
+  "key_vocabulary": {
+    "Anavah": "Humility; in Mussar thought, not self-deprecation but accurate self-perception—knowing oneself as occupying exactly one's proper place in creation.",
+    "Cheshbon ha-nefesh": "Lit. 'an accounting of the soul'; a structured practice of moral self-examination—identifying one's dominant character flaws and tracking progress in correcting them.",
+    "Hitpa'alut": "Emotional arousal or activation; a Mussar practice of reciting or chanting ethical phrases with intensity to move ethical insight from the mind into the body and emotions.",
+    "Middot": "Character traits or soul-qualities (e.g., patience, humility, honesty, generosity); the primary objects of Mussar cultivation and correction.",
+    "Tikkun ha-middot": "The correction or repair of character traits; the core practice goal of Mussar—identifying deficient or excessive traits and working to bring them into right measure.",
+    "Yetzer ha-ra / Yetzer ha-tov": "The evil inclination and good inclination; the two competing drives within each person, whose dynamic tension the Mussar practitioner seeks to understand and redirect."
+  },
+  "name": "Mussar",
+  "operative_procedure": [
+    "Identify the relevant middah. Examine the user's problem to identify which character trait—patience, honesty, humility, generosity, anger, pride, envy—is most at stake or most implicated in the difficulty. Name it precisely.",
+    "Apply cheshbon ha-nefesh. Guide the user in honest self-accounting: How has this trait manifested in this situation? What is its history in the user's life? Is the trait deficient, excessive, or misdirected? What self-deceptions are present?",
+    "Surface the yetzer. Identify what the yetzer ha-ra (inclination toward self-interest, avoidance, or rationalization) is whispering in this situation. What comfortable story is the user telling themselves that Mussar must disrupt?",
+    "Select a corrective practice. Recommend a concrete, targeted practice to work on the implicated middah: a phrase to repeat (hitpa'alut), a behavioral experiment to run this week, a text to study, or a accountability structure to establish. The practice must be proportional—small and sustainable.",
+    "Establish measurement and return. Mussar requires tracking. Define a concrete indicator of change and a timeline for reflection. When will the user re-examine this middah? What will count as evidence of growth vs. stagnation?",
+    "Synthesize with compassion and rigor. Mussar does not shame; it names honestly and then points toward growth. Produce a synthesis that accurately names the trait at issue, the self-knowledge gained, the practice assigned, and the direction of growth—held with both candor and compassion."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Halakha"
+    ],
+    "composes_with": [
+      "Halakha",
+      "Tikkun Olam"
+    ],
+    "descendants": [],
+    "related": [
+      "Halakha",
+      "Tikkun Olam",
+      "Aristotelian Virtue Ethics",
+      "Stoicism"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Mussar is most powerful for individuals seeking structured, honest, and spiritually grounded personal ethical development—particularly for recurrent character-driven patterns that intellectual insight alone has not resolved. It works best with a committed, regular practice and ideally a chevruta (study partner) or Mussar group for accountability. It is not designed as a crisis-intervention tool or a framework for analyzing external systems; its focus is inward. It is misapplied when used to blame-shift ('your middot are bad') rather than self-examine.",
+  "source_summary": "Mussar as a formal movement was founded by Rabbi Israel Salanter (1810-1883) in Lithuania as a response to the perceived gap between Talmudic scholarship and practical ethical character in Jewish life. Its primary texts include Mesillat Yesharim (Luzzatto), Cheshbon ha-Nefesh (Levin), and Or Yisrael (Salanter's teachings). The movement established a distinctive pedagogy—small group study, behavioral tracking, and hitpa'alut (emotional activation)—that has parallels with Aristotelian virtue ethics and modern cognitive-behavioral psychology. A contemporary revival led by figures like Alan Morinis and the Mussar Institute has brought the practice to broad non-Orthodox audiences. URL verification was not available.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Mesillat Yesharim (Path of the Just), Rabbi Moshe Chaim Luzzatto, 1740"
+    },
+    {
+      "kind": "primary",
+      "title": "Or Yisrael (Light of Israel), Rabbi Israel Salanter / Rabbi Yitzchak Blazer, 1900"
+    },
+    {
+      "kind": "primary",
+      "title": "Cheshbon ha-Nefesh (Accounting of the Soul), Rabbi Menachem Mendel Levin, 1812"
+    },
+    {
+      "kind": "secondary",
+      "title": "Everyday Holiness: The Jewish Spiritual Path of Mussar, Alan Morinis, 2007"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Musar movement"
+    }
+  ],
+  "version": 1
+}

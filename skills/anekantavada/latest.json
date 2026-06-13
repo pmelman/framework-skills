@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Anekantavada entry: both sides are exhibiting ekanta — one-sided insistence that their perspective is simply correct. Nayavada analysis: the engineering naya is tracking a real aspect of reality (unsustainable technical debt, compounding costs, future instability); the business naya is tracking a different real aspect (competitive urgency, customer needs, runway). These are not one right/one wrong — they are different standpoints on the same complex situation. Syat qualification: 'from the engineering standpoint, it is true that the architecture must be addressed; from the business standpoint, it is true that the market window is real.' The complementarity: both concerns are valid and both neglected would damage the company. The fuller view: a phased plan that treats both as real constraints to be navigated simultaneously rather than one to be dismissed.",
+      "problem": "A product team is in conflict: engineers insist the system architecture must be redesigned before adding new features (technical debt is critical); business stakeholders insist features must ship now to meet market demands. Both sides are entrenched."
+    },
+    {
+      "analysis": "Anekantavada reframes the epistemological situation: both accounts are nayas — partial perspectives on a complex interpersonal event. The question 'who is really to blame?' assumes the event has a single correct account accessible from a neutral standpoint. Saptabhangi applied: perhaps A harmed B (true from B's standpoint); perhaps B harmed A (true from A's standpoint); perhaps both harmed each other (true from a third standpoint); perhaps the interaction is too complex for a single predication (inexpressible). Ahimsa implication: demanding that one narrative be declared correct and the other false is intellectual violence. The resolution space opens when both parties apply syat to their own account: 'from my experience, it is the case that... and I recognize this is a partial view of what happened.'",
+      "problem": "Two friends have had a serious falling out, each convinced the other is entirely to blame. Both describe the same events in ways that make themselves the wronged party."
+    }
+  ],
+  "core_claims": [
+    "Reality (sat) is genuinely complex and many-sided; no single perspective or assertion can exhaust its full nature.",
+    "Every view (naya) is a partial perspective — true within its domain but incomplete; what appears contradictory from one standpoint may be complementary when the standpoints are understood.",
+    "Syadvada: every predication must be qualified with 'syat' (perhaps, or 'from some perspective') — there are seven canonical modes of predication that together approach the full truth.",
+    "Nayavada: the doctrine of standpoints holds that different approaches (empirical, nominal, practical, analytic) each illuminate real aspects of reality without any one being complete.",
+    "Dogmatism (ekanta, one-sidedness) is the root epistemic vice — the insistence that one's own view is absolutely correct and others' are simply wrong.",
+    "Ahimsa (non-violence) in thought and word — not just deed — follows directly from anekantavada: if other perspectives have partial validity, intellectual violence (insisting on one's own view without acknowledging others) is itself a form of harm."
+  ],
+  "description": "Anekantavada (Sanskrit: anekānta-vāda, 'doctrine of many-sidedness') is the Jain epistemological and metaphysical doctrine that reality is complex, multifaceted, and cannot be fully captured by any single perspective. Paired with Syadvada (the doctrine of conditional predication) and Nayavada (the doctrine of partial standpoints), it holds that any claim about reality is true only from a particular viewpoint (naya), and that intellectual humility, conditionality in assertion, and openness to other perspectives are both epistemically and ethically required.",
+  "domains": [
+    "jainism",
+    "epistemology",
+    "ethics",
+    "logic"
+  ],
+  "failure_modes": [
+    "Collapsing into relativism: treating anekantavada as 'all views are equally valid' — the doctrine holds that every view has a partial truth, not that no view is better supported or more comprehensive than another.",
+    "Analysis paralysis: using the infinite complexity of reality as a reason not to act or decide — syadvada is a precision tool for qualified assertion, not a reason to never assert.",
+    "Weaponized balance: deploying anekantavada to protect a weak position from criticism by insisting on 'multiple perspectives' when one perspective is actually better evidenced or more coherent than another."
+  ],
+  "key_vocabulary": {
+    "Ahimsa": "Non-violence (अहिंसा) — in Jainism, extended to thought and word: intellectual humility and openness to others' views is itself a practice of non-violence.",
+    "Anekantavada": "Doctrine of many-sidedness (अनेकान्तवाद) — the Jain view that reality has infinite aspects and no single perspective captures it fully; the foundational epistemological principle.",
+    "Ekanta": "One-sidedness (एकान्त) — the epistemological vice of taking one's own perspective as absolute and complete; the target of anekantavada's critique.",
+    "Nayavada": "Doctrine of standpoints (नयवाद) — different valid perspectives (nayas) illuminate different aspects of reality; a naya is a partial view, not a complete one.",
+    "Saptabhangi": "Seven-fold predication (सप्तभंगी) — the seven canonical qualified assertions: (1) perhaps it is, (2) perhaps it is not, (3) perhaps it is and is not, (4) perhaps it is inexpressible, (5-7) combinations of these.",
+    "Syadvada": "Doctrine of conditional predication (स्याद्वाद) — every statement about reality must be qualified with 'syat' (perhaps/from some perspective); the seven-fold predication schema (saptabhangi)."
+  },
+  "name": "Anekantavada",
+  "operative_procedure": [
+    "Identify the one-sidedness (ekanta) in the problem. Where is the user — or someone in the situation — taking their own perspective as complete and others' as simply wrong? Name the claim being asserted absolutely and examine whether it has been stated without qualification.",
+    "Map the multiple standpoints at play. For the central question in the user's situation, identify at least 2–4 distinct nayas — perspectives from different vantage points (experiential, theoretical, practical, temporal, relational). For each, ask: what does reality look like from here? What partial truth does this perspective track?",
+    "Apply syat qualification to each claim. For each major assertion in the analysis, add the conditional: 'from this standpoint, it is the case that...' — not as a relativistic hedge but as a precision instrument. What conditions must hold for this claim to be true?",
+    "Look for genuine complementarity across perspectives. Anekantavada holds that apparently contradictory views often turn out to be complementary when their standpoints are understood. Examine whether two conflicting positions in the user's situation are actually tracking different real aspects of the same complex reality.",
+    "Identify what no single current perspective is seeing. The practical payoff of anekantavada is discovering the blind spot — the aspect of the situation that every current standpoint is missing because all are partial. What would a fuller view reveal?",
+    "Synthesize a many-sided response. Produce an account that (a) acknowledges what is true in each major perspective, (b) identifies their limits, (c) offers a more comprehensive view that integrates their partial insights, and (d) maintains appropriate conditionality — not false certainty — in its own claims."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "The Middle Way",
+      "Systems Thinking",
+      "Chesterton's Fence"
+    ],
+    "descendants": [],
+    "related": [
+      "The Middle Way",
+      "Systems Thinking",
+      "Chesterton's Fence"
+    ],
+    "rivals": [
+      "First Principles"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Anekantavada is exceptionally strong in multi-stakeholder conflicts, complex causal analyses, cross-cultural or cross-disciplinary disagreements, and any situation where entrenched one-sidedness is generating impasse. It provides a rigorous epistemological basis for intellectual humility that goes beyond merely asserting 'it's complicated.' It is weaker in situations that require decisive commitment to one course of action under time pressure — the framework's natural motion is toward synthesis and qualification, which can conflict with the need for clear, decisive choice. It pairs strongly with Systems Thinking (for mapping complexity), Chesterton's Fence (for respecting existing standpoints), and The Middle Way (for avoiding epistemic extremes).",
+  "source_summary": "Anekantavada, syadvada, and nayavada form the core of the Jain epistemological tradition, systematically developed from early Jain canonical texts through the classical philosophers Umasvati (Tattvarthasutra, c. 2nd–5th century CE) and Siddhasena Divakara (5th–7th century CE), and most elaborately by the polymath Hemacandra (1088–1172 CE). The seven-fold predication schema (saptabhangi) is attributed to Syamasundara and formalized in the Nyayavatara. The Stanford Encyclopedia of Philosophy has an entry on Jaina philosophy that treats these doctrines in detail. The tradition is distinctive in world philosophy for offering a rigorous logical framework for perspectivalism rather than mere common-sense pluralism; it influenced Gandhi (who cited anekantavada as a principle of his pluralism) and has attracted contemporary attention in analytic epistemology. Jeffery Long's 'Jainism: An Introduction' (2009) is a reliable overview.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Umasvati (Umasvami), Tattvarthasutra, c. 2nd–5th century CE — foundational Jain philosophical text"
+    },
+    {
+      "kind": "primary",
+      "title": "Hemacandra, Yogashastra, 12th century CE — includes systematic treatment of anekantavada"
+    },
+    {
+      "kind": "primary",
+      "title": "Siddhasena Divakara, Nyayavatara, c. 5th–7th century CE — Jain logic and syadvada"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: Jaina Philosophy"
+    },
+    {
+      "kind": "secondary",
+      "title": "Jeffery Long, 'Jainism: An Introduction' (I.B. Tauris, 2009)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Anekantavada"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,100 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This is a Prisoner's Dilemma. Advertising is a dominant strategy for each firm: it earns more whether or not the competitor advertises ($7M > $5M; $3M > $1M). Both will advertise in equilibrium, earning $3M each — worse than the $5M they would earn if neither advertised. The Nash Equilibrium is Pareto-suboptimal. Solutions include industry agreements (if legal), repeated interaction enabling Tit-for-Tat, or regulatory caps on advertising.",
+      "problem": "Two competing firms each decide independently whether to invest in a costly advertising campaign. If neither advertises, both earn $5M. If both advertise, both earn $3M (costs cancel). If only one advertises, it earns $7M and the other earns $1M."
+    },
+    {
+      "analysis": "Standard sealed-bid auctions can lead to winner's curse and strategic underbidding. Game Theory (mechanism design) recommends a Vickrey auction (second-price sealed bid), in which truthful bidding is a dominant strategy for every firm regardless of others' valuations. The mechanism extracts truthful information and allocates licenses to those who value them most, maximizing efficiency — an application of revelation principle design.",
+      "problem": "A government wants to auction spectrum licenses to telecommunications firms who have private information about their own valuations."
+    }
+  ],
+  "core_claims": [
+    "In a strategic interaction, each agent's optimal choice depends on what they expect other rational agents to do — payoffs are interdependent.",
+    "A Nash Equilibrium is a profile of strategies from which no player can unilaterally deviate and improve their payoff; it is the central solution concept for non-cooperative games.",
+    "The Prisoner's Dilemma demonstrates that individually rational strategies can produce collectively suboptimal outcomes, motivating institutions, contracts, and repeated play.",
+    "In zero-sum games, minimax strategies guarantee the best worst-case payoff; in variable-sum games, cooperation and coordination can generate mutual gains.",
+    "Iterated games with sufficiently patient players can sustain cooperative equilibria through strategies like Tit-for-Tat that reward cooperation and punish defection (Folk Theorem).",
+    "Mechanism design (reverse game theory) asks what rules a designer should set so that self-interested agents' equilibrium behavior achieves a desired social outcome."
+  ],
+  "description": "Game Theory is the mathematical study of strategic interaction among rational agents whose outcomes depend on the choices of all participants, providing tools to predict behavior, identify stable equilibria, and design incentive-compatible institutions. It covers both cooperative and non-cooperative games, zero-sum and variable-sum settings, and one-shot versus repeated interactions.",
+  "domains": [
+    "decision-theory",
+    "strategy",
+    "economics",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Treating Nash Equilibrium as a prediction rather than a stability condition: in many real games, especially with multiple equilibria or bounded-rational players, Nash Equilibrium poorly predicts actual behavior.",
+    "Misspecifying payoffs: embedding only monetary values in the payoff matrix while ignoring social preferences (fairness, reciprocity, altruism), leading to wrong equilibrium predictions in behavioral contexts.",
+    "Ignoring outside options and framing: game-theoretic analysis is sensitive to how the strategy space and payoffs are specified; a poorly drawn game tree will produce misleading conclusions."
+  ],
+  "key_vocabulary": {
+    "Dominant Strategy": "A strategy that yields a higher payoff than any alternative regardless of what other players do; its existence simplifies prediction.",
+    "Mechanism Design": "The subfield of game theory that works backward from desired equilibrium outcomes to design the rules, payoffs, and information structures that produce them.",
+    "Mixed Strategy": "A probability distribution over pure strategies; mixed strategy Nash equilibria exist in every finite game (Nash's theorem).",
+    "Nash Equilibrium": "A stable strategy profile where no player can improve their payoff by changing only their own strategy, assuming all others hold theirs fixed.",
+    "Pareto Optimality": "An outcome is Pareto optimal if no player can be made better off without making another worse off; Nash equilibria need not be Pareto optimal.",
+    "Prisoner's Dilemma": "A two-player game where mutual defection is the unique Nash Equilibrium even though mutual cooperation would benefit both — the paradigm case of conflict between individual and collective rationality."
+  },
+  "name": "Game Theory",
+  "operative_procedure": [
+    "Identify the players, strategies, and payoffs. Enumerate who the strategic actors are, what choices are available to each, and how payoffs depend on the joint strategy profile. Determine whether the game is one-shot or repeated, cooperative or non-cooperative, zero-sum or variable-sum.",
+    "Eliminate dominated strategies. Remove any strategy that is dominated for any player (yields a worse payoff regardless of opponents' choices). Iterated elimination of dominated strategies sometimes solves the game.",
+    "Find Nash Equilibria. Identify strategy profiles from which no player wishes to unilaterally deviate. Check for pure-strategy equilibria first; if none exist, compute mixed-strategy equilibria.",
+    "Assess collective welfare. Compare Nash Equilibria to Pareto-optimal outcomes. If there is a gap (as in the Prisoner's Dilemma), identify what structural changes — contracts, repetition, communication, third-party enforcement — could close it.",
+    "Consider repeated play and reputation. If the game is repeated, apply the Folk Theorem: identify whether sufficiently patient players have incentive to sustain cooperation through trigger strategies. Analyze how incomplete information about types affects equilibrium.",
+    "Synthesize strategic recommendations. Prescribe a strategy for the user's position, explain what the equilibrium predicts other players will do, identify where the prediction may break down due to bounded rationality or non-standard payoffs, and suggest any mechanism design interventions available."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Decision Theory",
+      "Utility Theory"
+    ],
+    "composes_with": [
+      "Decision Theory",
+      "Bayesian Epistemology",
+      "Counterfactual Reasoning"
+    ],
+    "descendants": [
+      "Evolutionary Game Theory",
+      "Mechanism Design",
+      "Auction Theory"
+    ],
+    "related": [
+      "Decision Theory",
+      "Systems Thinking",
+      "Bayesian Epistemology",
+      "First Principles"
+    ],
+    "rivals": [
+      "Behavioral Economics",
+      "Bounded Rationality"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Game Theory is strongest in structured, competitive environments with identifiable players and payoffs — auctions, oligopoly markets, arms races, contract design, voting systems. It is weakest when players are not well-modeled as rational maximizers, when the strategy and payoff space is ill-defined, or when social and cultural norms dominate pure payoff incentives. Evolutionary game theory extends the framework to populations without assuming individual rationality, broadening scope at the cost of some precision.",
+  "source_summary": "Game Theory was founded by John von Neumann and Oskar Morgenstern in Theory of Games and Economic Behavior (1944), which established the minimax theorem for zero-sum games and cooperative game theory. John Nash's 1950 dissertation generalized the equilibrium concept to non-cooperative n-person games, establishing the Nash Equilibrium. Subsequent developments include Harsanyi's work on games of incomplete information, Selten's refinements (subgame perfect equilibrium), and Axelrod's computer tournaments demonstrating Tit-for-Tat's robustness in iterated Prisoner's Dilemmas. The Stanford Encyclopedia of Philosophy entry 'Game Theory' surveys both classical results and modern extensions including evolutionary and behavioral game theory.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Game Theory — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "John von Neumann and Oskar Morgenstern, Theory of Games and Economic Behavior (1944)"
+    },
+    {
+      "kind": "primary",
+      "title": "John F. Nash, 'Equilibrium Points in N-Person Games,' Proceedings of the National Academy of Sciences (1950)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Robert Axelrod, The Evolution of Cooperation (1984)"
+    }
+  ],
+  "version": 1
+}

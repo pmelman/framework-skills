@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Philippa Foot's original trolley case: a runaway trolley will kill five workers unless you divert it to a side track where it will kill one. Most people judge it permissible to divert. Judith Jarvis Thomson's variant: a large man on a bridge — pushing him off would stop the trolley and save five. Most people judge this impermissible, despite identical arithmetic. The thought experiment reveals that our moral intuitions track something beyond numbers (perhaps the doctrine of double effect, or a doing/allowing distinction) that pure consequentialism cannot accommodate. The pair of cases has driven decades of research into the structure of moral reasoning.",
+      "problem": "Is it ever permissible to sacrifice one person to save five? (The Trolley Problem)"
+    },
+    {
+      "analysis": "John Searle's thought experiment: a person in a room follows rules for manipulating Chinese symbols without understanding Chinese. The room passes the Turing test for Chinese comprehension. Searle's conclusion: syntax (symbol manipulation) is not sufficient for semantics (understanding). The thought experiment is used to argue against strong AI and functionalism. Critics (including Dennett and Hofstadter) counter that the 'systems reply' — the whole room understands even if the person inside does not — undermines Searle's conclusion. The thought experiment isolates the question of whether computational processes are sufficient for intentionality.",
+      "problem": "Does the mind depend essentially on the particular physical substrate, or could it be realized in different materials? (The Chinese Room)"
+    }
+  ],
+  "core_claims": [
+    "Thought experiments yield genuine epistemic results: by reasoning carefully through a hypothetical, we can discover logical implications, test conceptual coherence, and surface hidden commitments without empirical observation.",
+    "The intuitive response to a well-constructed thought experiment carries evidential weight: widespread, stable intuitions constitute data points about our actual conceptual scheme that a theory must accommodate or explain away.",
+    "Thought experiments function primarily to isolate variables: by stipulating away complicating real-world factors, they reveal what a principle or theory implies in its pure form.",
+    "A thought experiment can have destructive force (reductio ad absurdum) or constructive force: it may refute a theory by showing its unacceptable consequences, or clarify a concept by showing what it commits us to.",
+    "The limits of conceivability are the limits of the thought experiment: if the scenario is incoherent or impossible (not merely surprising), the experiment misfires and its conclusions do not follow.",
+    "Thought experiments and real experiments are on a continuum of inquiry: both manipulate variables and observe outcomes, the difference being that thought experiments operate in idealized mental space rather than physical reality."
+  ],
+  "description": "Thought Experiments are deliberately constructed hypothetical scenarios used to isolate and test the logical consequences of concepts, principles, or theories by reasoning through what would follow in an imagined situation, without the need for physical execution. They function as a primary instrument of philosophical argument, scientific theorizing, and ethical analysis by pumping intuitions, revealing hidden commitments, or demonstrating impossibilities.",
+  "domains": [
+    "philosophy",
+    "rationality",
+    "ethics",
+    "scientific-methodology"
+  ],
+  "failure_modes": [
+    "Intuition laundering: constructing a scenario that smuggles in the desired conclusion through loaded framing or stipulation, then presenting the intuitive response as independent evidence for the target claim.",
+    "Undercutting stipulations: in a real debate, refusing to grant the stipulated conditions ('but in reality, you can't actually redirect a trolley') and thereby treating the thought experiment as if it were an empirical argument.",
+    "Over-generalizing from a single case: treating the verdict of one thought experiment as a decisive proof of a general principle, ignoring that the result may be specific to features of that particular scenario."
+  ],
+  "key_vocabulary": {
+    "Counterfactual Reasoning": "The inferential move within a thought experiment: 'if condition C were the case, then result R would follow' — constitutive of all thought experimental reasoning.",
+    "Intuition Pump": "Daniel Dennett's term for a thought experiment designed primarily to elicit a strong intuitive response, guiding the audience's thinking in a desired direction rather than proving a conclusion.",
+    "Philosophical Zombie": "David Chalmers's thought experiment: a being physically identical to a conscious human but lacking subjective experience — used to argue that consciousness is not reducible to physical states.",
+    "Reductio ad Absurdum": "A thought experiment that derives a contradiction or absurd conclusion from a premise, thereby refuting the premise; the destructive form of thought experimentation.",
+    "Stipulation": "The deliberate assignment of features to the hypothetical scenario; thought experiments proceed by stipulating conditions to isolate the relevant variable.",
+    "Trolley Problem": "Philippa Foot's (and later Judith Jarvis Thomson's) family of cases testing intuitions about the doctrine of double effect and the distinction between killing and letting die."
+  },
+  "name": "Thought Experiments",
+  "operative_procedure": [
+    "Identify the target claim or principle. State precisely what the thought experiment is meant to test, support, or refute. What concept, theory, or moral principle is at stake? What would it mean for this thought experiment to go one way versus another?",
+    "Construct the scenario with precision. Stipulate the relevant conditions explicitly, stripping away real-world complications that would obscure the test. Ensure the scenario is internally consistent; an incoherent stipulation invalidates the experiment.",
+    "Elicit and record the intuitive verdict. Ask: what does the scenario strike most careful reasoners as implying? Is the intuition stable under reflection, or does it shift when the framing changes? Are there systematic differences in intuitions across populations that suggest the intuition is culturally parochial?",
+    "Derive the theoretical consequences. If the intuition is taken at face value, what must the theory say? Does the intuition support, refute, or require modification of the target principle? Identify which philosophical options remain after the verdict.",
+    "Test for robustness. Vary the scenario: do the conclusions hold under small perturbations? Does changing morally irrelevant features (names, nationalities, magnitudes) change the verdict? Instability across variants suggests the intuition is tracking surface features rather than the relevant principle.",
+    "Synthesize. State what the thought experiment establishes, with appropriate confidence: does it refute a theory, support a revision, or merely reveal a puzzle? Apply the conclusion to the user's original problem and identify what follows practically."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Logic",
+      "Socratic Method"
+    ],
+    "composes_with": [
+      "Modal Reasoning",
+      "Counterfactual Reasoning",
+      "The Map-Territory Distinction"
+    ],
+    "descendants": [
+      "Experimental Philosophy",
+      "Reflective Equilibrium"
+    ],
+    "related": [
+      "Counterfactual Reasoning",
+      "Modal Reasoning",
+      "Fallacy Analysis",
+      "First Principles"
+    ],
+    "rivals": [
+      "Pure Empiricism",
+      "Experimental Philosophy (as critique)"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Thought Experiments are strongest in philosophy, ethics, and theoretical science — anywhere that conceptual analysis and isolating the implications of principles is the goal. They are weakest when the scenario is too remote from real-world conditions to generate reliable intuitions, when intuitions are demonstrably parochial or biased, or when the empirical question of what actually happens is being conflated with the conceptual question of what would follow if conditions held. Experimental philosophy research has shown that intuitions vary significantly across cultures and demographics, complicating claims that thought-experimental verdicts are universal data.",
+  "source_summary": "Thought experiments have been used since antiquity — Plato's Ring of Gyges, Galileo's falling bodies argument — but received systematic philosophical treatment primarily in the 20th century. Ernst Mach analyzed thought experiments as a species of ordinary inductive reasoning using mental imagery in 'On Thought Experiments' (1897). Thomas Kuhn argued that thought experiments produce real knowledge by reorganizing experience in 'A Function for Thought Experiments' (1964). The Stanford Encyclopedia of Philosophy entry 'Thought Experiments' surveys philosophical accounts from Mach and Kuhn through James Brown's Platonist view that thought experiments give a priori access to laws of nature and John Norton's empiricist view that they are just arguments with extra steps. Contemporary experimental philosophy (Knobe, Nichols et al.) has systematically tested the cross-cultural stability of philosophical intuitions elicited by thought experiments.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Thought Experiments — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel Dennett, Intuition Pumps and Other Tools for Thinking (2013)"
+    },
+    {
+      "kind": "primary",
+      "title": "Philippa Foot, 'The Problem of Abortion and the Doctrine of Double Effect,' Oxford Review (1967)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Searle, 'Minds, Brains, and Programs,' Behavioral and Brain Sciences (1980)"
+    }
+  ],
+  "version": 1
+}

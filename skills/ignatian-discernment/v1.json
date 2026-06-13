@@ -1,0 +1,94 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Ignatian Discernment begins by checking for indifference: is the person free to go either way, or are they driven by financial fear (favoring stability) or a need to feel virtuous (favoring the nonprofit)? They then track interior movements over weeks: does steady prayer consistently produce peace and expansive energy around one option? They apply the third-time method — imagining themselves at death asking which choice they would have wanted to make. They seek counsel from a spiritual director who can help them distinguish genuine consolation from romanticized self-projection. If the nonprofit path consistently produces deep (not merely excited) peace and the stable career produces a subtle spiritual flatness, the discernment points toward the move.",
+      "problem": "A person is deciding whether to leave a stable, well-paying career to work for a nonprofit serving marginalized communities. Both paths feel compelling at different moments."
+    },
+    {
+      "analysis": "The discerner applies the magis question: which choice gives greater service and greater integrity? They examine whether their hesitation is genuine prudence or disordered attachment to security and reputation (a disorder to be named and released). They look for consolation: does contemplating courageous speech produce deep peace and freedom, while staying silent produces a corrosive interior unease? The death-bed test asks: at life's end, would I wish I had spoken? If after prayer and counsel the answer is consistently yes, Ignatian discernment supports the courageous course, with prudential attention to how and when to act.",
+      "problem": "A leader must decide whether to publicly challenge an unjust organizational policy, knowing it will cost them professionally."
+    }
+  ],
+  "core_claims": [
+    "God communicates directly with the soul through interior movements of consolation (peace, clarity, love, hope) and desolation (confusion, anxiety, spiritual dryness), and these movements are reliable data for discernment.",
+    "Disordered attachments (inordinate affections) distort judgment; genuine freedom of decision (indifference) requires that one be willing to choose any option before assessing which God calls one to.",
+    "Discernment is not purely individual: it is confirmed by community, wise counsel (a spiritual director), and the fruit that decisions bear over time.",
+    "The greater good (magis) — not merely the permissible or the comfortable — is the governing criterion: Ignatius asks which choice gives greater glory to God and greater service to others.",
+    "Decisions made in consolation are more reliable than those made in desolation; desolation is not a time to change course but to hold firm to prior commitments.",
+    "Election (choosing a course of action) should be tested by imagining oneself at the moment of death or final judgment: what choice would one then wish to have made?"
+  ],
+  "description": "Ignatian Discernment is a structured spiritual practice developed by Ignatius of Loyola (1491–1556) in the Spiritual Exercises for making major decisions and detecting the movements of consolation and desolation in the soul, so as to align one's choices with God's will. It provides a practical methodology for navigating uncertainty, evaluating competing options, and distinguishing authentic spiritual promptings from self-deception or disordered attachment.",
+  "domains": [
+    "spirituality",
+    "christianity",
+    "decision-making",
+    "ethics"
+  ],
+  "failure_modes": [
+    "Spiritualizing preference: mistaking strong emotional preference, wishful thinking, or confirmation bias for consolation, and using 'discernment language' to baptize what is simply what one wanted to do already.",
+    "Permanent desolation paralysis: using the rule 'don't decide in desolation' to avoid all difficult decisions indefinitely, rather than using the third-time (reasoning) method when movements are absent.",
+    "Omitting indifference: beginning discernment without first achieving genuine interior freedom, so that the process merely ratifies a prior attachment."
+  ],
+  "key_vocabulary": {
+    "Consolation": "An interior movement of the soul toward God: increased faith, hope, love; peace, joy, or tears of devotion; any increase of spiritual energy and clarity.",
+    "Desolation": "The opposite movement: darkness, confusion, spiritual dryness, inclination toward lesser goods, loss of peace; not to be trusted as a guide to decision.",
+    "Election": "The act of choosing a course of action after a full discernment process; the culminating decision in the Spiritual Exercises.",
+    "Indifference": "A prerequisite for discernment: the interior freedom to choose any option, uncoerced by fear, desire, or attachment, so that choice is made solely on the merits before God.",
+    "Magis": "The 'more': the greater good, the more generous response; the Ignatian bias toward the option that serves more and gives greater glory to God.",
+    "Spiritual Director": "A trained guide who accompanies the discerner, helps interpret interior movements, and confirms or questions the direction of a discernment."
+  },
+  "name": "Ignatian Discernment",
+  "operative_procedure": [
+    "Establish the question and seek indifference. Name the decision clearly. Then examine your current state: are you inordinately attached to one outcome? Pray for or work toward genuine interior freedom (indifference) — a willingness to choose whichever option God calls you to, before evaluating which that is.",
+    "Gather interior data: consolations and desolations. Over time (days or weeks for major decisions), notice which option is accompanied by consolation — peace, clarity, hope, expansive generosity — and which by desolation — anxiety, contraction, confusion, or a subtle compulsion to decide quickly.",
+    "Apply the three times of election. In a moment of strong unmistakable clarity (first time)? By observing consistent patterns of consolation/desolation over time (second time)? Or by reasoning carefully when no strong movements occur, using the death-bed test and the advice of a wise counselor (third time)?",
+    "Test for disordered spirits. Examine whether apparent consolation might be 'consolation without prior cause' (a deceptive movement that begins well but ends in disturbance) versus genuine consolation. Ask: does this movement lead toward God, neighbor, and greater service, or does it gradually circle back to self-interest?",
+    "Confirm with the magis criterion and community. Of the options that pass the consolation test, ask which represents the greater good — greater service, greater generosity, greater love. Seek confirmation from a trusted spiritual director, mentor, or community.",
+    "Elect and hold firm. Make the decision. If it was made in a sound process, do not revisit it under desolation. Test the election by its fruit over time: does it produce enduring peace, growth in virtue, and genuine service?"
+  ],
+  "relationships": {
+    "ancestors": [
+      "Augustinian Theology"
+    ],
+    "composes_with": [
+      "Augustinian Theology",
+      "Thomistic Natural Law",
+      "Aristotelian Virtue Ethics"
+    ],
+    "descendants": [],
+    "related": [
+      "Augustinian Theology",
+      "Thomistic Natural Law",
+      "Sufism"
+    ],
+    "rivals": [
+      "OODA Loop",
+      "First Principles"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Ignatian Discernment is most powerful for individuals facing major life decisions (vocation, career, relationships, moral stands) and for organizations seeking to align institutional choices with deeper values. It presupposes a theistic framework and some practice of contemplative prayer; without these, the method's signal-vocabulary (consolation/desolation) loses its reference point. It is less well-suited to urgent operational decisions where there is no time for extended interior observation, or to purely technical choices with no significant value dimension.",
+  "source_summary": "The Spiritual Exercises of Ignatius of Loyola (written c. 1522–1548, officially published 1548) are the primary source for Ignatian discernment, presenting a structured four-week retreat with specific 'rules for discernment of spirits.' Ignatius developed the method from his own conversion experience and refined it through decades of directing others. The Autobiography of Ignatius provides the experiential foundation. Modern commentaries by Jesuit scholars — notably Timothy Gallagher's The Discernment of Spirits (2005) — have made the method accessible for everyday application. The Ignatian tradition has been institutionalized through the Society of Jesus (Jesuits) and widely adopted in Catholic spirituality and secular leadership development contexts.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Ignatius of Loyola, The Spiritual Exercises (c. 1522–1548)"
+    },
+    {
+      "kind": "primary",
+      "title": "Ignatius of Loyola, The Autobiography"
+    },
+    {
+      "kind": "secondary",
+      "title": "Timothy Gallagher, The Discernment of Spirits: An Ignatian Guide for Everyday Living (2005)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Ignatian spirituality"
+    }
+  ],
+  "version": 1
+}

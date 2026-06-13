@@ -1,0 +1,98 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This is a classic li-without-ren failure: the external forms are correct, but the ren dimension — genuine humaneness, interest in team members as people, real moral concern for their wellbeing — is absent or not expressed. Confucian analysis: the junzi-ideal manager does not merely perform the rites of management but embodies genuine care through them. The role relationship (employer-employee) has specific li, but li without ren is, in the Analects' terms, 'beautiful words and ingratiating expression' (Analects 1.3) — flattery, not virtue. The prescription is not more rituals but cultivation of ren: genuine attention, curiosity about each person, care that is expressed through specific attentiveness, not just through procedural correctness.",
+      "problem": "A manager is technically meeting all formal obligations to their team — conducting reviews, assigning tasks, maintaining professional conduct — but the team feels the manager doesn't genuinely care about them, and morale is low."
+    },
+    {
+      "analysis": "This is a ren-without-li tension: genuine feeling (ren) expressed without attention to the forms appropriate to the parent-child relationship (li). Confucian analysis does not say 'suppress your feelings' — it says that the manner of expression is itself morally significant, and that the parent-child relationship has forms that exist to protect both parties and enable the relationship to function over time. Zhengming: what is the correct name for this relationship and what forms does it call for? Yi (rightness in context): what is actually appropriate here given the specific family, culture, and moment? The synthesis is neither silent compliance nor blunt confrontation but the cultivation of a communication style that expresses genuine feeling within forms that maintain the relationship's integrity.",
+      "problem": "An adult child wants to be authentic and express genuine feelings to their parents, but their very direct communication style is causing significant hurt and family disruption in a family with strong traditional values."
+    }
+  ],
+  "core_claims": [
+    "Ren (humaneness) is the supreme virtue and the root of all other Confucian virtues — to be ren is to be genuinely other-regarding, caring, and morally sensitive.",
+    "Li (ritual propriety) encompasses rites, ceremonies, norms of conduct, and the forms appropriate to one's social roles and relationships; performing li correctly is not mere formalism but the cultivation of virtue through habituated action.",
+    "Ren and Li are mutually constitutive: ren without li is mere sentiment without discipline; li without ren is empty formalism without moral substance — the Analects insists on their integration.",
+    "The Confucian self is fundamentally relational: the five key relationships (ruler-minister, parent-child, husband-wife, elder-younger, friend-friend) are the primary sites of moral cultivation.",
+    "Junzi (君子, the exemplary person or noble person) is the Confucian ideal: one who embodies ren inwardly and expresses it through li outwardly, and who thereby serves as a moral exemplar to others.",
+    "Self-cultivation (xiuji) is both a personal and social project: improving oneself is inseparable from improving one's relationships and, through them, society."
+  ],
+  "description": "Ren (仁, benevolence/humaneness) and Li (禮, ritual propriety/rites) are the two foundational concepts of Confucian ethics. Ren is the inner virtue of genuine care, empathy, and moral goodness toward others — the character of a person who is truly human; Li is the outer expression of that virtue through proper conduct, ceremony, and the roles and relationships that constitute social life. Together they describe a unified view of the good person as one whose inner character is expressed through, and cultivated by, the proper forms of social conduct.",
+  "domains": [
+    "confucianism",
+    "ethics",
+    "social-philosophy",
+    "virtue"
+  ],
+  "failure_modes": [
+    "Reducing li to mere etiquette or social conservatism — treating Confucian ritual propriety as endorsing the status quo rather than as a dynamic practice of moral cultivation through appropriate form.",
+    "Prioritizing li over ren when they conflict — using form and hierarchy to justify withholding genuine care or to enforce compliance without humaneness; this Confucius himself explicitly criticized.",
+    "Projecting the specific five relationships of 5th-century BCE China onto contemporary contexts without translation — the structure (relational ethics, role-appropriate conduct) transfers; the specific hierarchy may not."
+  ],
+  "key_vocabulary": {
+    "Junzi": "Exemplary person (君子) — the Confucian moral ideal; one who embodies ren and expresses it through li; a person whose virtue is genuine and whose conduct is a model for others.",
+    "Li": "Ritual propriety or rites (禮) — the proper norms, ceremonies, and forms of conduct appropriate to social roles and relationships; the external expression and cultivating medium of ren.",
+    "Ren": "Humaneness or benevolence (仁) — the core inner virtue of Confucian ethics; genuine care, empathy, and moral goodness toward others; the quality of being fully human in one's relationships.",
+    "Xiu Ji": "Self-cultivation (修己) — the continuous project of developing one's character through study, practice, reflection, and the proper performance of one's roles and relationships.",
+    "Yi": "Righteousness or rightness (義) — doing what is appropriate and right in a given situation; often paired with ren and li as the third pillar of Confucian virtue.",
+    "Zhengming": "Rectification of names (正名) — the Confucian insistence that using correct terms for things and roles is ethically and politically important; if names are not correct, conduct cannot be proper."
+  },
+  "name": "Confucian Ren and Li",
+  "operative_procedure": [
+    "Identify the relational context. Every situation analyzed through Confucian Ren and Li takes place within a web of relationships and roles. Name the key relationships at stake (e.g., parent-child, employer-employee, friend-friend) and the user's role within each.",
+    "Assess the ren dimension. Ask: what does genuine care and concern for the other people in this situation demand? Where is the user's moral attention actually directed — toward the other or primarily toward self-interest, face, or convenience? Is the user's inner orientation (their intention and feeling-quality) one of genuine humaneness?",
+    "Assess the li dimension. Ask: what are the appropriate norms and forms of conduct for this role and relationship? What do the relevant conventions, duties, and ceremonial forms require? Where is conduct departing from what is appropriate — either through excess (over-familiarity, disregard for hierarchy) or deficiency (coldness, neglect of proper form)?",
+    "Check the ren-li integration. Identify whether the problem involves: (a) li performed without ren — going through the motions without genuine care; (b) ren without li — genuine feeling but expressed in a way that violates appropriate form and thereby damages the relationship; or (c) both in need of attention.",
+    "Apply zhengming where needed. If the problem involves confused or misapplied role expectations, ask: are the terms being used correctly? Is this person actually in the role they are acting as? Does clarifying the relationship's proper name clarify the proper conduct?",
+    "Synthesize a response in terms of self-cultivation. Frame the path forward not as a rule to follow but as a practice of self-cultivation: what does this situation call the user to develop in themselves — more genuine care (ren), more attentiveness to appropriate form (li), or a deeper integration of both? The synthesis should be oriented toward the kind of person the user is becoming through how they handle this."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Wu Wei",
+      "Stoicism",
+      "The Noble Eightfold Path"
+    ],
+    "descendants": [],
+    "related": [
+      "Wu Wei",
+      "Stoicism"
+    ],
+    "rivals": [
+      "Wu Wei"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Confucian Ren and Li is extremely strong for analyzing problems in interpersonal relationships, professional roles, family dynamics, and leadership — anywhere that the integration of inner character and appropriate social form is at stake. It provides a richer account of social virtue than deontological rule-following or purely consequentialist thinking. It is weaker for individual decision-making in isolation, for political philosophy beyond relational ethics, and for situations where the existing role-structure is itself the problem (it has internal resources for reform through ren, but needs supplementation for structural critique). It pairs strongly with Wu Wei for the non-coercive dimension of leadership and with Stoicism for the virtue-ethics dimension.",
+  "source_summary": "Confucian ren and li are first systematically expounded in the Analects (Lunyu) of Confucius (551–479 BCE), the most reliably authentic record of his teachings, compiled by his disciples. Ren appears in the Analects over 100 times; li over 70 times. Mencius (Mengzi, c. 372–289 BCE) develops ren as one of four innate moral sprouts (xin) that can be cultivated or starved. Xunzi (c. 310–235 BCE) places greater emphasis on li as the external form through which human nature (which he sees as requiring correction rather than development) is shaped toward virtue. The tradition was codified in the Five Classics and Four Books during the Han dynasty and became the basis of the imperial examination system. Contemporary Confucian ethics is substantially shaped by Philip Ivanhoe, Roger Ames, Tu Weiming, and the Boston Confucianism movement.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "The Analects (Lunyu) of Confucius, c. 5th–3rd century BCE"
+    },
+    {
+      "kind": "primary",
+      "title": "Mencius (Mengzi), c. 4th century BCE — develops ren as innate moral sprout"
+    },
+    {
+      "kind": "primary",
+      "title": "Xunzi, c. 3rd century BCE — emphasizes li as the primary civilizing force"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: Confucius"
+    },
+    {
+      "kind": "secondary",
+      "title": "Philip Ivanhoe, 'Ethics in the Confucian Tradition' (Hackett, 2002)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Ren (Confucianism)"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,93 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Thomistic Natural Law identifies life as a primary precept. Deliberately destroying innocent life violates this precept absolutely (it is an intrinsically evil object). The positive law mandating the procedure fails the test of just law — it contradicts Natural Law — and therefore does not bind in conscience. The physician has not merely a right but a duty of conscience to refuse, though prudentia governs how refusal is exercised (e.g., seeking legal exemptions, cooperating minimally only when remote material cooperation is unavoidable).",
+      "problem": "A government mandates a policy that requires physicians to perform procedures they regard as ending innocent human life. Is a physician morally obligated to comply?"
+    },
+    {
+      "analysis": "The secondary precept of justice (giving each their due) and the orientation toward the common good both apply. The law is a determination of human law; its legitimacy depends on whether it distributes burdens proportionately across the community. A zoning scheme that systematically displaces harms onto the vulnerable violates the principle of proportionate distribution and fails to serve the common good, making it an unjust law that lacks full moral authority, even if it has legal force.",
+      "problem": "A city enacts a zoning law that pushes undesirable facilities into poor neighborhoods. Is this unjust?"
+    }
+  ],
+  "core_claims": [
+    "Human beings have a determinate rational nature with natural inclinations toward life, knowledge, society, and God, and morality consists in fulfilling these inclinations in a reasonable way.",
+    "Moral norms are not merely conventional but are discoverable by unaided human reason reflecting on human nature — this is the Natural Law.",
+    "Natural Law participates in the Eternal Law (God's rational governance of all creation) and stands above human positive law.",
+    "An unjust positive law is no law at all (lex iniusta non est lex): civil laws that contradict Natural Law lack moral binding force.",
+    "The first principle of practical reason is that good is to be done and evil avoided; all other natural law precepts derive from this.",
+    "Practical wisdom (prudentia) is required to apply general principles to particular circumstances; principles do not apply themselves."
+  ],
+  "description": "Thomistic Natural Law is the moral and political philosophy developed by Thomas Aquinas (1225–1274) holding that human reason can discern objective moral norms grounded in human nature and ultimately in God's Eternal Law. It provides a framework for evaluating actions, laws, and institutions by asking whether they fulfill or frustrate the natural ends (teloi) of human beings.",
+  "domains": [
+    "ethics",
+    "christianity",
+    "natural-law",
+    "political-philosophy"
+  ],
+  "failure_modes": [
+    "Physicalism or biologism: confusing the biological or statistical 'natural' with the morally normative — e.g., inferring that any non-procreative sex act is wrong solely because it is statistically rare in nature, without the rational teleological argument Aquinas actually requires.",
+    "Neglecting prudentia: treating primary precepts as self-executing algorithms and ignoring the indispensable role of practical wisdom in applying principles to complex situations, producing rigid conclusions that Aquinas himself would not endorse.",
+    "Conflating Natural Law with positive law or cultural custom: assuming that existing social arrangements reflect Natural Law rather than subjecting them to Natural Law critique."
+  ],
+  "key_vocabulary": {
+    "Eternal Law": "God's rational plan governing all of creation; the supreme source from which Natural Law derives its authority.",
+    "Human Law": "Positive law enacted by legitimate authority; valid only insofar as it is a reasonable derivation or determination of Natural Law.",
+    "Natural Law": "The participation of the Eternal Law in rational creatures; moral norms accessible through reason by reflecting on human nature and its ends.",
+    "Prudentia": "Practical wisdom; the intellectual virtue that determines the right means to morally good ends in concrete situations.",
+    "Synderesis": "The innate habit of the first principles of practical reason; the dispositional knowledge that good is to be done and evil avoided.",
+    "Telos": "The natural end or purpose intrinsic to a thing; for humans, the fulfillment of rational, social, and theological nature."
+  },
+  "name": "Thomistic Natural Law",
+  "operative_procedure": [
+    "Identify the action and its object. State clearly what is being done or proposed, and determine the kind of act it is — what it is 'from the outside.'",
+    "Consult the primary precepts. Check whether the action bears on the basic goods (life, knowledge, sociality, justice, religion/transcendence). Does it promote, respect, or violate any of these?",
+    "Apply the secondary precepts via reason. Use practical reason to derive more specific norms from the primary precepts: does the action accord with what a person of right reason would do given the nature and circumstances?",
+    "Assess intention and circumstances. Apply Aquinas's three 'fonts of morality': the object (what is done), the intention (why), and the circumstances (how, when, to whom). An act good in object can be corrupted by bad intention or harmful circumstances.",
+    "Test against human law and Eternal Law. If a positive law or social norm is in question, ask: is it a just determination of Natural Law? Does it serve the common good, distribute burdens fairly, and stay within the authority of the legislator?",
+    "Synthesize with prudentia. Integrate all findings into a concrete judgment about what a practically wise person, fully informed of the facts and ends, would do. Name any genuine moral tension and state the strongest path of action."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Virtue Ethics"
+    ],
+    "composes_with": [
+      "Augustinian Theology",
+      "Ignatian Discernment",
+      "Just War Theory"
+    ],
+    "descendants": [
+      "Just War Theory",
+      "Liberation Theology"
+    ],
+    "related": [
+      "Just War Theory",
+      "Kantian Deontology",
+      "Aristotelian Virtue Ethics"
+    ],
+    "rivals": [
+      "Utilitarianism",
+      "Kantian Deontology"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Thomistic Natural Law is strongest when evaluating actions and institutions against stable features of human nature (life, reason, sociality) and when providing grounds for cross-cultural moral critique. It is weakest in highly contested empirical matters where the relevant facts about human nature are genuinely disputed, and it presupposes a broadly teleological metaphysics that not all interlocutors share. It is poorly suited as a standalone framework for pluralistic public deliberation without translation into shared secular premises.",
+  "source_summary": "Thomas Aquinas developed his account of Natural Law primarily in the Summa Theologiae (I-II, qq. 90–97), synthesizing Aristotelian teleology with Augustinian theology and Roman jurisprudence. He distinguished Eternal Law, Natural Law, Human Law, and Divine Law as a hierarchy, with Natural Law being reason's participation in Eternal Law. Modern Thomistic natural law theory has been significantly developed by scholars such as John Finnis (Natural Law and Natural Rights, 1980), Germain Grisez, and Robert George, who update the tradition while disputing how directly Aquinas's biological claims support his moral conclusions. The Stanford Encyclopedia of Philosophy entry 'Natural Law Ethics' provides a standard secondary survey.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Summa Theologiae I-II, Questions 90–97 (Treatise on Law)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Natural Law Ethics — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "secondary",
+      "title": "John Finnis, Natural Law and Natural Rights (1980)"
+    }
+  ],
+  "version": 1
+}

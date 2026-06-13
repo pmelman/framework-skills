@@ -1,0 +1,100 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The defender commits the straw man: the strongest version of the anti-free-trade argument is not that trade reduces total employment but that it produces concentrated, severe harms in specific communities (deindustrialized regions, workers without re-training options) while distributing gains broadly and abstractly. Charitable engagement requires addressing that argument — including the distributional, transitional, and political-economy dimensions — rather than only the aggregate-wealth claim. Applying the Principle of Charity transforms the debate from a false conflict into a productive one about distribution, adjustment costs, and political legitimacy.",
+      "problem": "An opponent of free trade argues: 'Free trade destroys jobs.' A defender dismisses this as economically illiterate and responds only by citing GDP growth."
+    },
+    {
+      "analysis": "The Principle of Charity requires asking: what is the most coherent and philosophically serious interpretation of Nietzsche's view? Even if the student ultimately disagrees, she must engage with the strongest reading — perhaps that Nietzsche is critiquing the self-deception of conventional morality, not endorsing arbitrary cruelty. The charitable reconstruction finds the philosophical insight before finding the flaw. The student may still reject Nietzsche's view, but she will have engaged with the real argument.",
+      "problem": "A student reads a Nietzsche passage and concludes Nietzsche was simply advocating cruelty and domination. She writes a dismissive critique."
+    }
+  ],
+  "core_claims": [
+    "When interpreting an argument or position, one should choose the reconstruction that makes it as rational, coherent, and well-supported as possible.",
+    "Criticizing a weakened or distorted version of an opponent's argument (a straw man) is not a genuine refutation — it leaves the strongest version untouched.",
+    "Charitable interpretation is required for honest and productive intellectual discourse: it treats interlocutors as rational agents deserving of serious engagement.",
+    "In translation and meaning-interpretation (Davidson's radical interpretation), the principle of charity is a constitutive constraint: we must attribute mostly true beliefs and valid inferences to make the interpreted agent intelligible at all.",
+    "Charitable interpretation does not require agreement — it requires that one engage with the best version of a view before rejecting it.",
+    "The principle has both epistemic grounds (it maximizes the chance of learning from disagreement) and ethical grounds (it treats others as intellectual equals)."
+  ],
+  "description": "The Principle of Charity is a methodological norm in argument interpretation and philosophical analysis holding that one should reconstruct an argument or position in its strongest, most reasonable form before criticizing it. First systematized in philosophy of language and interpretation theory, it ensures that disagreements are genuine and productive rather than targeting distorted versions of opposing views.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-language",
+    "argumentation",
+    "ethics"
+  ],
+  "failure_modes": [
+    "Charitable interpretation can be manipulated by bad-faith actors who exploit the norm to demand ever-stronger reconstructions while never engaging seriously themselves (the 'motte-and-bailey' pattern).",
+    "Excessive charity can misrepresent: attributing a stronger position than the author actually holds is its own form of distortion, and can be patronizing or politically convenient in ways that harm honest discourse.",
+    "Charity does not require agreement or neutrality: the principle is sometimes misused as a demand to suspend all critical judgment or to treat all views as equally credible regardless of evidence."
+  ],
+  "key_vocabulary": {
+    "Hermeneutics": "The theory and practice of interpretation; the principle of charity is a central norm in hermeneutic theory, associated with Gadamer's concept of the hermeneutic circle.",
+    "Interpretive generosity": "The broader practical disposition to assume good faith and the most reasonable intent when encountering unclear or provocative claims.",
+    "Principle of Charity": "The interpretive norm to reconstruct arguments and positions in their strongest, most coherent, and most rational form before evaluation or criticism.",
+    "Radical interpretation": "Donald Davidson's thought experiment about interpreting an alien language, in which the principle of charity is a constitutive rule: we must attribute rationality and mostly true beliefs to make interpretation possible.",
+    "Steelmanning": "The practice of actively constructing the strongest possible version of an opposing argument — going beyond mere charitable reading to improve the argument as much as possible.",
+    "Straw man fallacy": "The error of misrepresenting an opponent's argument in a weaker or distorted form so that it is easier to refute, thereby avoiding engagement with the actual argument."
+  },
+  "name": "Principle of Charity",
+  "operative_procedure": [
+    "Identify the target argument or position. What is the view being evaluated? State it as the source actually expressed it, including the most relevant context.",
+    "Identify potential weaknesses or ambiguities. Note where the argument as stated is unclear, incomplete, or vulnerable to easy objection. These are the places where charity matters most.",
+    "Reconstruct the strongest version. Reformulate the argument in its most coherent, well-supported, and rational form — resolving ambiguities in favor of the arguer, supplying plausible missing premises, and selecting the strongest available interpretation of vague claims. Ask: what would the author mean if they were being thoughtful and well-informed?",
+    "Check the reconstruction with the source. Where possible, verify that the charitable reconstruction is actually recognizable as the view the author holds — charity must not involve attributing positions the author would explicitly reject.",
+    "Engage with the steelmanned version. Direct criticism, analysis, or response at the strongest version identified in step 3. Note what the strongest version gets right before addressing its limits.",
+    "Synthesize. Offer a verdict on the argument that is credible even to its proponents: acknowledge genuine strengths, locate the real points of disagreement, and distinguish between the weaknesses of the stated version and the weaknesses of the strongest version."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Hermeneutics (Schleiermacher/Gadamer)",
+      "Quinean Naturalism",
+      "Logical Empiricism"
+    ],
+    "composes_with": [
+      "Reflective Equilibrium",
+      "Aristotelian Virtue Ethics",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Steelmanning",
+      "Interpretivism",
+      "Radical Interpretation (Davidson)"
+    ],
+    "related": [
+      "Reflective Equilibrium",
+      "Pragmatism",
+      "The Is-Ought Distinction"
+    ],
+    "rivals": [
+      "Hermeneutics of Suspicion (Ricoeur/Marx/Freud/Nietzsche)",
+      "Deconstruction"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "The Principle of Charity is universally applicable to intellectual discourse, argumentation, philosophy, and good-faith communication. It is strongest in academic philosophy, policy debate, and interpersonal disagreement — wherever there is a risk of dismissing genuine insights by targeting weak formulations. It is a precondition for productive disagreement. Its limits are in contexts of active bad faith (where the charitable interpretation misrepresents the actual intent), propaganda analysis (where the literal content is not the real message), and situations requiring rapid practical decisions rather than scholarly debate.",
+  "source_summary": "The Principle of Charity was articulated as a formal philosophical principle in W.V.O. Quine's work on radical translation ('Word and Object', 1960) and developed most fully by Donald Davidson in his essays on radical interpretation, collected in 'Inquiries into Truth and Interpretation' (1984). Davidson argued that charity — attributing mostly true beliefs and valid inferences — is a constitutive condition for interpretation, not merely a methodological nicety. In hermeneutics, Hans-Georg Gadamer developed related ideas under the heading of the 'hermeneutic circle' and the presumption of truth. In informal logic and argumentation theory, the principle is the direct antidote to the straw man fallacy, and its intensification ('steelmanning') has become an important norm in contemporary intellectual discourse.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Inquiries into Truth and Interpretation (1984) — Donald Davidson (essays on radical interpretation)"
+    },
+    {
+      "kind": "primary",
+      "title": "Word and Object (1960) — W.V.O. Quine (indeterminacy of translation)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Truth and Method (1960) — Hans-Georg Gadamer (hermeneutic charity)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Principle of Charity'"
+    }
+  ],
+  "version": 1
+}

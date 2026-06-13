@@ -1,0 +1,97 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Three candidate hypotheses: (1) Newtonian mechanics is wrong; (2) an unknown planet is gravitationally perturbing Uranus; (3) the observations are erroneous. Hypothesis (2) best explains the data: it fits background knowledge (gravity causes such perturbations), is specific (Adams and Le Verrier calculated the predicted planet's position), and makes novel testable predictions. IBE recommended (2); Neptune was found at the predicted location in 1846.",
+      "problem": "In the 1840s, the planet Uranus exhibited orbital perturbations not predicted by Newtonian mechanics applied to known planets. What explains this?"
+    },
+    {
+      "analysis": "Multiple diagnoses are considered: meningococcal meningitis, viral meningitis, migraine with fever, and others. Meningococcal meningitis best explains the full constellation of symptoms — particularly the characteristic petechial rash, which is relatively specific. It also coheres with background knowledge about bacterial meningitis presentation. IBE licenses immediate empirical treatment pending confirmatory tests.",
+      "problem": "A physician sees a patient with fever, a stiff neck, photophobia, and a characteristic rash. What is the diagnosis?"
+    }
+  ],
+  "core_claims": [
+    "When multiple hypotheses could account for the evidence, we are rationally justified in inferring the hypothesis that would explain the evidence best.",
+    "Explanatory goodness is assessed by multiple virtues: explanatory scope (how much it explains), simplicity (how few unexplained posits), fit with background knowledge, and avoidance of ad hoc assumptions.",
+    "IBE is not deductively valid — the best available explanation may still be false — but it is the central ampliative inference in empirical inquiry.",
+    "IBE is distinct from enumerative induction: it selects hypotheses on explanatory grounds, not merely on the basis of observed regularities.",
+    "The 'best' in IBE is always comparative: it means the best among the hypotheses actually considered, not the best possible hypothesis.",
+    "Scientific realists typically defend IBE as grounds for believing that well-confirmed scientific theories are at least approximately true."
+  ],
+  "description": "Inference to the Best Explanation (IBE), also called abduction, is the inferential practice of selecting the hypothesis that, if true, would provide the best explanation of the available evidence — where 'best' is assessed by explanatory virtues such as scope, simplicity, coherence, and fit. IBE is offered as a model of how scientists, diagnosticians, and ordinary reasoners actually justify belief.",
+  "domains": [
+    "epistemology",
+    "philosophy-of-science",
+    "logic",
+    "methodology"
+  ],
+  "failure_modes": [
+    "Best-of-a-bad-lot problem (van Fraassen): if all considered hypotheses are poor, the 'best' among them may still be false. IBE is only as good as the hypothesis space generated.",
+    "Explanatory virtue gaming: hypotheses can be rhetorically constructed to appear to score well on virtues while being empirically empty or unfalsifiable. Virtues must be evaluated rigorously, not impressionistically.",
+    "Conflating loveliness and likeliness: inferring that a hypothesis must be true because it would be a beautiful explanation, without attending to prior probability."
+  ],
+  "key_vocabulary": {
+    "Abduction": "Peirce's original term for the logical form 'The surprising fact C is observed; if H were true, C would be a matter of course; therefore, H is plausible' — the precursor to modern IBE.",
+    "Explanatory virtue": "A property that makes a hypothesis a better explanation: scope (breadth), simplicity, fit with background knowledge, testability, unification.",
+    "Inference rule": "IBE functions as a rule of ampliative inference: from 'H would best explain E' to 'H is (probably) true'.",
+    "Loveliness vs. likeliness": "Peter Lipton's distinction: loveliness is how good an explanation would be if true; likeliness is how probable it is. IBE infers from loveliness to likeliness.",
+    "Unification": "The explanatory virtue of subsuming many apparently disparate phenomena under a single principle or mechanism.",
+    "Van Fraassen's anti-realist objection": "The claim that IBE conflates 'best among considered hypotheses' with 'likely true'; the best available explanation may still be false and may not even be close to the truth."
+  },
+  "name": "Inference to the Best Explanation",
+  "operative_procedure": [
+    "Characterize the evidence. State clearly what facts, observations, or phenomena require explanation. Be specific about what is surprising or in need of accounting for.",
+    "Generate candidate hypotheses. Enumerate the live hypotheses that could explain the evidence. Actively seek hypotheses from rival perspectives to avoid premature closure.",
+    "Assess explanatory virtues for each hypothesis. For each candidate, evaluate: (a) scope — how much of the evidence does it explain? (b) simplicity — does it avoid unnecessary posits? (c) coherence — does it fit background knowledge? (d) avoidance of ad hoc assumptions — are its added posits independently motivated? (e) testability — does it make novel predictions?",
+    "Compare and rank. Identify which hypothesis is the best explanation by the balance of virtues. Note where hypotheses differ most sharply in their virtues.",
+    "Apply the inference. Provisionally infer the best-explaining hypothesis as the working belief, while acknowledging it is fallible and comparative (best among considered, not necessarily best possible).",
+    "Synthesize. State which hypothesis IBE recommends, which virtues drove the ranking, what the main competing hypotheses are and why they score lower, and what new evidence would most efficiently discriminate among the remaining competitors."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Peirce's abduction",
+      "Hypothetico-deductive method"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Occam's Razor",
+      "Systems Thinking",
+      "First Principles"
+    ],
+    "descendants": [
+      "Scientific realism",
+      "Explanationism in epistemology"
+    ],
+    "related": [
+      "Bayesian Epistemology",
+      "Falsificationism",
+      "Occam's Razor"
+    ],
+    "rivals": [
+      "Enumerative induction",
+      "Strict Bayesian conditionalization"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "IBE is strongest in scientific theory choice, medical diagnosis, historical and legal reasoning, and any domain where enumerative induction is insufficient and hypothetico-deductive testing is ongoing. It captures the structure of classic inference in detective reasoning, evolutionary biology, and cosmology. Its weakness is precisely its ampliative, non-deductive character: it can mislead when the hypothesis space is poorly generated or when explanatory virtues are traded off in contestable ways. Bayesian epistemologists debate whether IBE is reducible to Bayesian conditionalization (Lipton's 'Bayesian IBE') or is an irreducible explanatory heuristic.",
+  "source_summary": "The modern formulation of Inference to the Best Explanation is due largely to Gilbert Harman's 1965 paper 'The Inference to the Best Explanation' and was developed systematically by Peter Lipton in his book of the same name (1991; 2nd ed. 2004), which introduced the loveliness/likeliness distinction and engaged with Bas van Fraassen's anti-realist objections. C.S. Peirce's earlier notion of abduction ('hypothesis') is a precursor. The Stanford Encyclopedia of Philosophy entry on Abduction (plato.stanford.edu/entries/abduction/) by Igor Douven surveys both the logical form, the relationship to Bayesian updating, and van Fraassen's challenge. IBE is central to scientific realism debates, where it is used to justify belief in unobservable theoretical entities by arguing they are the best explanation of observable phenomena.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Abduction (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/abduction/"
+    },
+    {
+      "kind": "primary",
+      "title": "Inference to the Best Explanation — Peter Lipton"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Inference to the Best Explanation (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Inference_to_the_best_explanation"
+    }
+  ],
+  "version": 1
+}

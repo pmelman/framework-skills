@@ -1,0 +1,98 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "The governing domain is Shabbat law (melachot) in conflict with the duty to preserve life. The Talmud (Yoma 85b) establishes that pikuach nefesh—danger to life—overrides all Shabbat prohibitions except three cardinal sins. Driving is a biblically-derived prohibition (melacha), but the threat to life triggers the override. The ruling is not merely that it is 'permitted' but that one is obligated to drive, and doing so with alacrity is itself a mitzvah. Authorities further rule that one should not diminish the act by seeking a non-Jew to drive instead, lest future patients hesitate and delay life-saving action.",
+      "problem": "A person is ill on Shabbat and needs to drive to the emergency room. Is this permitted under Jewish law?"
+    },
+    {
+      "analysis": "The relevant domain is labor law (dinei mamonot). The Torah (Leviticus 19:13, Deuteronomy 24:15) prohibits withholding a worker's wages overnight—this is the prohibition of 'bal talin.' The Shulchan Aruch (Choshen Mishpat 339) codifies this: wages are due at the end of the day or night the work was completed. However, the obligation is triggered only if payment was not pre-arranged for a later date. If the worker explicitly agreed to weekly payment at the time of hire, the biblical prohibition does not apply. The halakhic conclusion is that weekly payroll is permissible only if the payment schedule was agreed upon in advance.",
+      "problem": "A business owner wonders whether it is permissible under Jewish law to pay workers at the end of the week rather than the same day their work is completed."
+    }
+  ],
+  "core_claims": [
+    "Divine commandments (mitzvot) are obligatory and binding on the Jewish people as a covenantal commitment, not merely aspirational guidelines.",
+    "Law is the primary medium through which the divine will is expressed and through which human holiness is achieved.",
+    "The Written Torah (Tanakh) and Oral Torah (Talmud, Midrash) together constitute a unified, authoritative legal corpus.",
+    "Rabbinic interpretation (derash) and legal reasoning (svara) are legitimate and necessary tools for applying ancient law to new situations.",
+    "Communal custom (minhag) and authoritative legal codes (e.g., Shulchan Aruch) carry normative weight alongside scriptural sources.",
+    "Halakhic reasoning must balance competing values—e.g., preserving life, honoring Shabbat, protecting dignity—through an ordered hierarchy of principles."
+  ],
+  "description": "Halakha is the collective body of Jewish religious law derived from the Written Torah, Oral Torah, rabbinic legislation, and communal custom, governing every domain of Jewish life from worship to commerce to interpersonal conduct. It functions as both a legal system and a spiritual discipline, framing righteous action as obligatory practice rather than optional virtue.",
+  "domains": [
+    "ethics",
+    "judaism",
+    "law",
+    "religion"
+  ],
+  "failure_modes": [
+    "Treating halakha as a mere checklist of prohibitions rather than a dynamic, value-laden legal system misses the framework's capacity to weigh competing obligations and reason toward justice.",
+    "Applying halakha to non-Jewish individuals or universalizing its specific Jewish obligations ignores its covenantal character—the Noahide laws (sheva mitzvot b'nei Noach) are the halakhically recognized framework for non-Jews.",
+    "Bypassing qualified rabbinic authority (psak) and rendering ad hoc rulings on complex questions leads to errors; the framework requires both knowledge of sources and methodological training."
+  ],
+  "key_vocabulary": {
+    "Minhag": "Established communal custom that can attain near-legal force within a community's practice.",
+    "Mitzvah": "A divine commandment; broadly any of the 613 biblical obligations (248 positive, 365 negative) incumbent upon Jews.",
+    "Posek": "A halakhic decisor—a rabbinic scholar qualified to issue binding rulings on legal questions.",
+    "Psak halakha": "A formal legal ruling (pesak) issued by a qualified rabbinic authority (posek) on a specific question of Jewish law.",
+    "Shulchan Aruch": "The authoritative 16th-century code of Jewish law compiled by Rabbi Joseph Karo, still the primary reference for Ashkenazic and Sephardic practice.",
+    "Svara": "Independent legal reasoning or intuitive moral logic used by rabbis to derive or validate legal conclusions."
+  },
+  "name": "Halakha",
+  "operative_procedure": [
+    "Identify the legal domain. Determine which area of halakha governs the user's problem (e.g., Shabbat, kashrut, business ethics, family law, speech acts). This sets the relevant corpus of sources.",
+    "Locate the governing sources. Identify the relevant biblical verses, Talmudic passages, medieval codes (Rambam, Tur, Shulchan Aruch), and responsa (teshuvot) that speak to this type of situation.",
+    "Surface competing obligations. List all mitzvot and halakhic values in tension within the problem—e.g., pikuach nefesh vs. Shabbat observance, or truthfulness vs. preserving peace (shalom).",
+    "Apply the hierarchy of principles. Determine which obligations override others using halakhic priority rules: preserving human life (pikuach nefesh) overrides nearly all commandments; biblical law generally overrides rabbinic enactment; positive obligations may yield to prohibitions.",
+    "Consult precedent and analogical reasoning. Identify the closest halakhic precedents (takkanot, responsa) and use svara to reason by analogy to novel cases. Note where legitimate disagreement (machloket) exists among authorities.",
+    "Synthesize a ruling or course of action. Produce a reasoned psak that names the operative halakhic principle, the sources supporting it, any dissenting positions worth noting, and the concrete behavioral conclusion for the user's situation."
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Pikuach Nefesh",
+      "Tikkun Olam",
+      "Mussar"
+    ],
+    "descendants": [
+      "Pikuach Nefesh",
+      "Mussar"
+    ],
+    "related": [
+      "Pikuach Nefesh",
+      "Tikkun Olam",
+      "Mussar"
+    ],
+    "rivals": [
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Halakha is most powerful when applied to questions faced by observant Jews navigating religious obligations in daily life, business, medicine, and communal practice. It excels at providing structured, precedent-based reasoning for ethical dilemmas within its community of practice. It is not designed as a universal ethical system and is misapplied when used to adjudicate disputes between non-Jews or when invoked to override secular legal systems. Its strength—a rich, millennia-long interpretive tradition—can also be a limitation when novel situations (genetic engineering, digital privacy, AI) lack directly analogous precedent.",
+  "source_summary": "Halakha is the comprehensive legal-religious system of Judaism, developed from the Written Torah and Oral Torah and codified across centuries of rabbinic literature including the Talmud, Maimonides' Mishneh Torah, and the Shulchan Aruch. It governs all domains of Jewish life and employs a sophisticated hierarchy of principles—most notably that preserving human life (pikuach nefesh) overrides nearly all other commandments. The system is living and adaptive, with qualified decisors (poskim) issuing ongoing rulings (teshuvot) that apply ancient principles to contemporary situations. URL verification was not available; Wikipedia and SEP entries exist under standard titles.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Talmud Bavli (Babylonian Talmud)"
+    },
+    {
+      "kind": "primary",
+      "title": "Shulchan Aruch (Joseph Karo, 1565)"
+    },
+    {
+      "kind": "primary",
+      "title": "Mishneh Torah (Maimonides / Rambam, 12th c.)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Halakha"
+    },
+    {
+      "kind": "secondary",
+      "title": "Jewish Law (Halakhah) — My Jewish Learning"
+    }
+  ],
+  "version": 1
+}

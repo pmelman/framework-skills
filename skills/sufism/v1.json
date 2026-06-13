@@ -1,0 +1,91 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Sufi diagnosis identifies the nafs ammara at work in two forms: kibr (pride and contempt) and hasad (envy masking as superiority), both rooted in the delusion that the self is the author of its achievements. The relevant maqam is shukr (gratitude): achievements are received gifts, not self-created — and gratitude dissolves the possessive ego-attachment that breeds contempt. The murshid would prescribe dhikr to loosen the grip of self-referential thought, and perhaps service (khidma) — placing oneself in situations of genuine humility. The Sufi hermeneutic reads the private fear of inadequacy as the nafs lawwama trying to break through: it is a spiritual opportunity, not just a psychological problem.",
+      "problem": "A person achieves significant professional success and finds themselves growing contemptuous of peers they consider less accomplished, while privately fearing their own inadequacy."
+    },
+    {
+      "analysis": "Sufi analysis recognizes qabd (divine contraction, spiritual dryness) as a recognized ahwal — a state known to the tradition, not a sign of spiritual failure. The great Sufi masters taught that qabd is often the precondition for deeper growth: al-Ghazali and al-Hallaj both described extended periods of divine absence. The maqam of sabr (patience) is central: continuing practice even when it feels empty is itself a form of love. The prescription is not to force feeling but to maintain the outward forms of prayer and remembrance as a container for God to return when the time is right. This re-frames the absence of felt consolation as a test of the quality of love — does it depend on felt reward, or is it unconditional?",
+      "problem": "A person in deep grief over loss has stopped praying and feels spiritually abandoned."
+    }
+  ],
+  "core_claims": [
+    "The outer observance of Islamic law (shariah) and theology (kalam) must be complemented by an inner journey of the heart (haqiqah); form without spirit is incomplete.",
+    "The fundamental obstacle to God is the nafs ammara — the commanding ego-self attached to worldly desires; spiritual progress requires its purification through stages (maqamat) and the experience of states (ahwal).",
+    "Marifah (gnosis, direct experiential knowledge of God) is a higher mode of knowing than discursive reason alone, though it is not opposed to it; the mystic heart sees what the reasoning mind cannot.",
+    "The highest station is fana (annihilation of the ego-self in God) followed by baqa (subsistence in God): the mystic remains in the world but no longer as an autonomous self-interested ego.",
+    "Love (mahabba) is both the path and the destination: God loves humanity and calls it to return; the soul's deepest desire — beneath all surface desires — is for reunion with the divine Beloved.",
+    "The spiritual journey is not solitary: it requires a guide (shaykh or murshid) who has walked the path and can direct the seeker past its pitfalls."
+  ],
+  "description": "Sufism (tasawwuf) is the inner, mystical, and ascetic dimension of Islam, focused on the purification of the soul (tazkiyat al-nafs), direct experiential knowledge of God (marifah), and the journey of the heart toward annihilation of the ego-self in the divine (fana) and subsistence in God (baqa). It provides a framework for diagnosing the spiritual conditions of the soul, prescribing spiritual disciplines, and interpreting experience through the lens of the lover-Beloved relationship between the soul and God.",
+  "domains": [
+    "spirituality",
+    "islam",
+    "ethics",
+    "psychology"
+  ],
+  "failure_modes": [
+    "Antinomianism: using the language of inner spiritual freedom to abandon the obligations of Islamic law (shariah), when the classical Sufi tradition consistently insists that shariah is the foundation on which the inner path rests.",
+    "Guru-ism and spiritual abuse: the relationship with a murshid requires genuine accountability, but it can be corrupted when disciples surrender critical judgment entirely, enabling exploitation by unscrupulous teachers.",
+    "Spiritual narcissism: co-opting the language of fana and marifah to make the ego's desires seem like spiritual realization — the 'spiritual bypass' in which psychological issues are spiritualized rather than addressed."
+  ],
+  "key_vocabulary": {
+    "Ahwal": "Spiritual states — transient gifts of grace bestowed on the seeker: intimacy (uns), awe (hayba), expansion (bast), contraction (qabd). Unlike maqamat, ahwal are not earned but given.",
+    "Baqa": "Subsistence: the state after fana in which the mystic lives in the world but is no longer driven by ego-self; action flows from God through the mystic rather than from personal desire.",
+    "Fana": "Annihilation: the dissolution of the ego-self's illusory separateness from God; not physical but the death of self-will and self-centeredness.",
+    "Maqamat": "Spiritual stations — stable states of character and relationship with God achieved through sustained practice: repentance (tawba), patience (sabr), gratitude (shukr), reliance on God (tawakkul), love (mahabba), and others.",
+    "Murshid/Shaykh": "The spiritual guide who has realized the path and initiates, accompanies, and corrects the seeker; initiation (bay'ah) into a Sufi order (tariqa) typically involves this relationship.",
+    "Tazkiyat al-nafs": "Purification of the soul; the ethical and spiritual work of cleansing the heart from vices (akhlaq madhmuma) and cultivating virtues (akhlaq mahmuda)."
+  },
+  "name": "Sufism",
+  "operative_procedure": [
+    "Diagnose the state of the nafs. Where is the person on the spectrum of nafs: nafs ammara (commanding self, dominated by ego and desire), nafs lawwama (self-reproaching, aware of its own faults), or nafs mutmainna (tranquil self, at peace with God)? What are the presenting vices (pride, greed, envy, attachment) that are keeping the soul bound?",
+    "Identify the relevant maqam. What spiritual station is called for in this situation: repentance (tawba) for a failing? Patience (sabr) in hardship? Gratitude (shukr) in prosperity? Reliance (tawakkul) in uncertainty? Prescribe the practice that cultivates the needed station.",
+    "Examine the quality of the heart's attention. Is the person present to God (dhikr, remembrance) or absent — distracted by worldly preoccupation? What is occupying the heart's center, and what would it mean to re-center on the divine?",
+    "Apply the lover-Beloved hermeneutic. Re-read the situation through the lens of the soul's relationship with God: Where is the person experiencing divine contraction (qabd) — and what is the practice for times of spiritual dryness? Where is there expansion (bast) — and what is the danger of spiritual pride (ghurur) that accompanies it?",
+    "Prescribe a spiritual discipline. Recommend a concrete practice from the Sufi repertoire appropriate to the diagnosis: increased dhikr (remembrance), muraqaba (contemplative attention/meditation), sohbet (spiritual conversation with a guide or companions), fasting, service, or the reading of classical Sufi poetry and prose as mirrors for the soul.",
+    "Synthesize toward tawhid. Bring all strands together in light of the unity of God (tawhid): the situation, properly seen, is an invitation to greater surrender, greater love, and greater service. What does the Beloved's call sound like in this particular circumstance?"
+  ],
+  "relationships": {
+    "ancestors": [
+      "Tawhid"
+    ],
+    "composes_with": [
+      "Tawhid",
+      "Maqasid al-Shariah"
+    ],
+    "descendants": [],
+    "related": [
+      "Tawhid",
+      "Maqasid al-Shariah",
+      "Ijtihad",
+      "Ignatian Discernment"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Sufism is strongest as a diagnostic framework for the spiritual diseases of the ego, as a guide to contemplative practice, and as a hermeneutical lens for reading experience through the lover-Beloved relationship. It is most powerful within an Islamic framework where shariah provides the ethical foundation. It is weaker as a standalone system for external ethical or political analysis; it complements rather than replaces Maqasid al-Shariah and Ijtihad. Caution is warranted in decontextualized applications that strip Sufi vocabulary from its theological foundation.",
+  "source_summary": "Sufism's classical sources include al-Qushayri's Risala (c. 1046), which catalogued the maqamat and ahwal, and al-Ghazali's encyclopedic Ihya Ulum al-Din (c. 1095–1111), which grounded Sufi practice in orthodox Islamic theology after al-Ghazali's own spiritual crisis. Ibn Arabi (1165–1240) produced the most philosophically elaborate Sufi metaphysics in works like the Futuhat al-Makkiyya and Fusus al-Hikam. The tradition is organized around tariqa (Sufi orders) — Qadiriyya, Naqshbandiyya, Mevleviyya (Whirling Dervishes), and others — each tracing a chain of transmission (silsila) back to the Prophet. Annemarie Schimmel's Mystical Dimensions of Islam (1975) remains the standard Western academic survey.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Abu Hamid al-Ghazali, Ihya Ulum al-Din (Revival of the Religious Sciences, c. 1095–1111)"
+    },
+    {
+      "kind": "primary",
+      "title": "Ibn Arabi, Fusus al-Hikam (The Bezels of Wisdom, 1229)"
+    },
+    {
+      "kind": "primary",
+      "title": "Al-Qushayri, Al-Risala al-Qushayriyya (Epistle on Sufism, c. 1046)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Annemarie Schimmel, Mystical Dimensions of Islam (1975)"
+    }
+  ],
+  "version": 1
+}

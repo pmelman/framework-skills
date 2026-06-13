@@ -1,0 +1,97 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Lojong entry point: the humiliation and reactivity are arising — they are the raw material. Self-cherishing diagnosis: the suffering is not the criticism itself but the mind's contraction around wounded pride and threatened self-image. Relevant slogans: 'Be grateful to everyone' — adversity reveals where the mind clings; 'Don't talk about injured limbs' — don't rehearse and amplify the grievance; 'When the world is filled with evil, transform all mishaps into the path of Bodhi.' Tonglen application: breathe in the feeling of humiliation — mine and the humiliation felt by all beings who have been publicly shamed; breathe out dignity, confidence, ease. Exchange of self and other: even this critic is suffering — what conditions are driving their behavior? The practice is not passive acceptance but a shift from reactive self-protection to open, workable engagement.",
+      "problem": "A person feels deeply humiliated and resentful after being criticized publicly at work by a senior colleague. They are consumed by a desire to retaliate or to prove the critic wrong."
+    },
+    {
+      "analysis": "The guilt about resentment compounds the original depletion — a meta-suffering. Lojong reframe: the resentment is not a character failure but a signal that the caregiver is giving from depletion rather than from genuine compassion. Tonglen on the spot: breathe in the exhaustion and the resentment — for oneself and for all caregivers who know this feeling; breathe out spaciousness and care. The practice inverts the depletion cycle: instead of trying not to feel the difficulty, one uses it as the practice itself. Slogan: 'Drive all blames into one' — not blaming the care-recipient, not blaming oneself, but recognizing self-cherishing (the expectation that caregiving should not be this hard) as the amplifying mechanism. Practical result: the resentment is workable material rather than a shameful secret.",
+      "problem": "A caregiver is experiencing compassion fatigue — they feel depleted, resentful, and guilty about their resentment toward the person they are caring for."
+    }
+  ],
+  "core_claims": [
+    "All adversity — including suffering, insult, failure, and death — can be transformed into the path of awakening by working with one's own mind rather than the external situation.",
+    "The root of suffering is self-cherishing (rang gces 'dzin); the antidote is exchanging self and other, and cultivating cherishing all beings as one would a beloved child.",
+    "Bodhicitta — the aspiration to attain awakening for the benefit of all sentient beings — is both the ground of practice and the fruit; it has relative (compassion, love) and absolute (recognition of emptiness) dimensions.",
+    "Tonglen (gtong len, 'sending and taking') is the core meditation: breathing in the suffering of others with compassion, breathing out happiness and relief — reversing the ordinary self-protective reflex.",
+    "The slogans of Lojong are meant for constant application in daily life, not only on the cushion; obstacles become teachers, and provocations become opportunities to practice.",
+    "The practitioner works through Five Strengths: conviction, familiarization, positive seed, reproach of ego-clinging, and aspiration — these constitute both the training during life and the instructions at death."
+  ],
+  "description": "Lojong (Tibetan: blo sbyong, 'mind training') is a tradition of Mahayana Buddhist contemplative practice originating in 11th-century Tibet with Atisha Dipamkara and systematized by Chekawa Yeshe Dorje in the Seven-Point Mind Training. It consists of aphoristic slogans (59 in Chekawa's system) that train the practitioner to transform adversity into the path, cultivate bodhicitta (the awakening mind), and dissolve self-cherishing through tonglen (taking and sending) meditation and moment-to-moment application.",
+  "domains": [
+    "buddhism",
+    "mahayana",
+    "ethics",
+    "contemplative-practice"
+  ],
+  "failure_modes": [
+    "Spiritual bypass: using Lojong slogans to dismiss or suppress legitimate emotional processing — telling someone grieving to 'just do tonglen' without the accompanying ground of compassionate acknowledgment.",
+    "Guilt weaponization: using self-cherishing analysis as a stick to beat oneself (or others) with — Lojong is compassion-based, not guilt-based; the recognition of self-cherishing should generate kindness, not self-attack.",
+    "Decontextualization: presenting Lojong slogans without the bodhicitta framework they assume — reduced to aphorisms, they lose their transformative mechanism and become platitudes."
+  ],
+  "key_vocabulary": {
+    "Bodhicitta": "Awakening mind — the aspiration to attain Buddhahood for the benefit of all sentient beings; relative bodhicitta is compassion and love; absolute bodhicitta is the recognition of emptiness.",
+    "Lo": "Mind or attitude (blo) — the 'lo' in Lojong; specifically the habitual patterns of mind and the cognitive-emotional orientation that the training aims to transform.",
+    "Sbyong": "Training or refining (sbyong) — the 'jong' in Lojong; the systematic, deliberate cultivation and purification of the mind's habitual patterns.",
+    "Self-cherishing": "Rang gces 'dzin — the habitual prioritizing of one's own comfort, status, and survival over others; identified by Lojong as the root cause of suffering.",
+    "Tonglen": "Taking and sending — the core Lojong meditation of taking in others' suffering with compassion and sending out happiness and well-being; reverses self-cherishing.",
+    "Tonglen-on-the-spot": "The application of tonglen in daily life whenever difficulty arises — breathing in the difficult feeling for oneself and all who share it, breathing out relief — rather than reserving the practice for formal meditation."
+  },
+  "name": "Lojong",
+  "operative_procedure": [
+    "Identify the difficulty or obstacle. Name clearly what the user is resisting, suffering from, or avoiding. Lojong works precisely with what is uncomfortable — the difficulty is the raw material, not the problem to be eliminated.",
+    "Recognize self-cherishing at work. Ask: where is the user's mind contracted around self-protection, self-justification, or self-pity? This is not self-blame but precise diagnosis — self-cherishing is the mechanism that converts difficulty into prolonged suffering.",
+    "Apply the exchanging-self-and-other. Expand the perspective: others face this same difficulty — loneliness, failure, illness, loss. The user is not uniquely afflicted; they are sharing a universal human experience. This is not minimizing but connecting.",
+    "Use tonglen to work with the feeling. Invite the user to breathe in the feeling of difficulty — for themselves and for all others who feel it — and breathe out relief, spaciousness, and wellbeing. This reverses the habitual clench of aversion.",
+    "Apply the relevant slogan. Match a Lojong slogan to the specific situation — e.g., 'Train in three difficulties' (recognize afflictive emotion, interrupt it, cease it), 'In post-meditation be a child of illusion,' 'Don't expect applause,' 'Always maintain only a joyful mind.' The slogans are precise cues, not platitudes.",
+    "Synthesize a transformed response. Show how the adversity, when worked with rather than resisted, becomes a teacher. Produce a practical orientation for the user that uses the difficulty to deepen bodhicitta rather than deplete it — the synthesis should name both the immediate application and the larger aspiration it expresses."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Four Noble Truths",
+      "The Noble Eightfold Path"
+    ],
+    "composes_with": [
+      "Four Noble Truths",
+      "The Noble Eightfold Path",
+      "The Middle Way"
+    ],
+    "descendants": [],
+    "related": [
+      "Four Noble Truths",
+      "The Noble Eightfold Path",
+      "The Middle Way",
+      "Dependent Origination"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Lojong is exceptionally strong for transforming adversity and interpersonal difficulty, for countering the self-protective impulses that prolong suffering, and for cultivating genuine compassion rather than performed virtue. It is specifically a Mahayana Buddhist practice and presupposes the bodhicitta aspiration and some familiarity with emptiness teachings; it is less effective as a standalone tool stripped of this context. It does not directly address structural or systemic problems; it works on the practitioner's response, not on external conditions. Tonglen is contraindicated for some people in acute mental health crisis without qualified guidance.",
+  "source_summary": "Lojong ('mind training') traces to Atisha Dipamkara (982–1054 CE), who brought the Mahayana bodhicitta practices from India to Tibet. The tradition was systematized by Chekawa Yeshe Dorje (1101–1175) in his Seven-Point Mind Training (bLo sbyong don bdun ma), which condensed the teachings into 59 training slogans. The text was orally transmitted for generations before being written down; it remains a central practice text in the Kagyu and Gelug lineages. In the 20th century, Chogyam Trungpa Rinpoche and Pema Chodron made the tradition widely accessible in English — Pema Chodron's 'Start Where You Are' (1994) and 'The Places That Scare You' (2001) are the most widely read contemporary presentations. The tradition draws on the earlier Indian Kadampa teachings on bodhicitta and the tonglen practice attributed to the Indian master Dharmarakshita.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Chekawa Yeshe Dorje, 'Seven-Point Mind Training' (bLo sbyong don bdun ma), 12th century"
+    },
+    {
+      "kind": "primary",
+      "title": "Atisha Dipamkara, 'Mind Training: The Great Collection' (Theg pa chen po blo sbyong rgya mtsho)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Pema Chodron, 'Start Where You Are: A Guide to Compassionate Living' (Shambhala, 1994)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Chogyam Trungpa, 'Training the Mind and Cultivating Loving-Kindness' (Shambhala, 1993)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Wikipedia: Lojong"
+    }
+  ],
+  "version": 1
+}

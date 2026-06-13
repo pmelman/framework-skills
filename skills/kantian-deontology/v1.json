@@ -1,0 +1,104 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Kant's notorious position is that lying is impermissible even here, because the maxim 'I will lie when convenient' cannot be universalized without contradiction (universal lying destroys the practice of truth-telling on which lying's effectiveness depends). Critics use this case to argue Kant's perfect duty against lying is too rigid; many neo-Kantians invoke the Humanity Formula to argue that respecting the murderer as a rational agent does not require furnishing him with information to commit murder. This case illustrates both the power and the apparent rigidity of perfect duties.",
+      "problem": "A murderer comes to your door asking whether your friend (who you are hiding) is inside. May you lie to protect your friend?"
+    },
+    {
+      "analysis": "The Humanity Formula condemns this unequivocally: patients are being used merely as means to the research goal, without genuine informed consent. Their rational agency is being bypassed. The Universal Law test also fails: universal deception in medical research would undermine trust and thus destroy the institution of clinical research itself. Unlike a utilitarian calculation weighing lives saved, the Kantian verdict is categorical: this is impermissible regardless of the projected benefit.",
+      "problem": "A pharmaceutical company considers deceiving patients in clinical trials by withholding known risks in order to recruit sufficient participants for research that might save many lives."
+    }
+  ],
+  "core_claims": [
+    "Moral worth derives from acting from duty (aus Pflicht), not from inclination or the desire for good outcomes.",
+    "The Categorical Imperative provides the supreme principle of morality: act only on maxims you could will to be universal laws.",
+    "Humanity — rational nature — must always be treated as an end in itself, never merely as a means to another's ends.",
+    "Moral obligations are unconditional and hold independently of consequences or personal desires.",
+    "Rational autonomy is the source of moral law: persons legislate the moral law to themselves through reason.",
+    "Perfect duties (e.g., do not lie) admit no exceptions; imperfect duties (e.g., help others) allow latitude in how they are discharged."
+  ],
+  "description": "Kantian Deontology is Immanuel Kant's duty-based moral theory holding that the rightness of an action is determined by whether it conforms to universalizable moral laws derived from pure practical reason, not by its consequences. Rational agents have both the capacity and obligation to act from duty, treating humanity always as an end in itself and never merely as a means.",
+  "domains": [
+    "ethics",
+    "political-philosophy",
+    "metaethics"
+  ],
+  "failure_modes": [
+    "Absolute rigidity: the theory's handling of conflicting perfect duties (e.g., lie vs. protect an innocent life) produces counterintuitive or even monstrous results when taken to extremes.",
+    "Formalism without content: the universalizability test can be 'gamed' by varying the description of the maxim, making it difficult to determine what the correct maxim is and enabling motivated reasoning.",
+    "Neglect of consequences: insisting on duty regardless of outcomes can ignore morally relevant information and lead to avoidable catastrophes — a serious objection in high-stakes decisions."
+  ],
+  "key_vocabulary": {
+    "Autonomy": "The capacity of a rational will to give the moral law to itself, independent of external authority or inclination; the ground of human dignity.",
+    "Categorical Imperative": "The unconditional moral command derived from reason alone, not contingent on any desire or goal; Kant formulates it in three equivalent formulations (Universal Law, Humanity, Kingdom of Ends).",
+    "Imperfect duty": "An obligation whose performance allows discretion in timing and manner (e.g., the duty to develop one's talents or help others in need).",
+    "Kingdom of Ends": "A third formulation of the Categorical Imperative: act as if you were a legislating member of a kingdom in which all rational beings are treated as ends.",
+    "Maxim": "The subjective principle or rule of action underlying a particular act, which can be tested for universalizability.",
+    "Perfect duty": "A strict, exceptionless obligation that allows no latitude in performance (e.g., the duty not to make lying promises).",
+    "Universalizability": "A maxim is morally permissible only if one can consistently will that it be adopted as a universal law by all rational agents."
+  },
+  "name": "Kantian Deontology",
+  "operative_procedure": [
+    "Identify the maxim. Articulate the underlying principle of the action the user is considering — the 'rule' they would be acting on, stated as: 'I will do X in circumstances C in order to achieve Y.'",
+    "Apply the Universal Law Formula. Ask: could this maxim be consistently universalized — willed to be a law followed by all rational agents in the same circumstances? If universalization produces a contradiction (in conception or in will), the action is impermissible.",
+    "Apply the Humanity Formula. Ask: does this action treat any person — the user, the other party, or third parties — merely as a means to an end, rather than as a rational agent with their own purposes and dignity? If yes, the action is impermissible regardless of outcomes.",
+    "Distinguish perfect from imperfect duties. Determine whether a strict prohibition or requirement applies (perfect duty) or whether there is a positive duty that allows latitude in how and when it is met (imperfect duty). Perfect duties bind absolutely; imperfect duties require genuine effort but allow judgment.",
+    "Check for conflicting duties. Where two duties seem to conflict, identify which is more specific, which is a perfect duty, and whether one duty can be discharged without violating the other. Kant holds perfect duties typically override imperfect duties.",
+    "Synthesize. State the deontological verdict: what the moral law requires, permits, or forbids — independently of consequences — and why, grounding the conclusion in the relevant formulation(s) of the Categorical Imperative."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Rationalism",
+      "Enlightenment Philosophy",
+      "Stoicism"
+    ],
+    "composes_with": [
+      "Veil of Ignorance",
+      "Reflective Equilibrium"
+    ],
+    "descendants": [
+      "Contractualism (Scanlon)",
+      "Neo-Kantianism",
+      "Korsgaard's Constitutivism"
+    ],
+    "related": [
+      "Reflective Equilibrium",
+      "Veil of Ignorance",
+      "The Is-Ought Distinction"
+    ],
+    "rivals": [
+      "Utilitarianism",
+      "Aristotelian Virtue Ethics",
+      "Moral Sentimentalism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Kantian Deontology is strongest when analyzing questions of rights, promises, consent, and the treatment of persons — situations where procedural fairness, autonomy, and the non-instrumentalization of human beings are central. It is particularly powerful for identifying clear violations of dignity (deception, coercion, exploitation). It is weakest in situations requiring trade-offs between outcomes, in policy contexts where aggregate welfare matters, in cases of genuine moral tragedy where all options violate some duty, and wherever the relevant maxim is genuinely contested or indeterminate.",
+  "source_summary": "Kant's moral philosophy is presented in three principal works: the 'Groundwork of the Metaphysics of Morals' (1785), which introduces the Categorical Imperative; the 'Critique of Practical Reason' (1788), which grounds morality in pure practical reason; and 'The Metaphysics of Morals' (1797), which applies the theory to duties of right and virtue. Twentieth-century interpreters including H.J. Paton, Christine Korsgaard, and Onora O'Neill have reconstructed and defended Kantian ethics against consequentialist and expressivist rivals. The SEP entry 'Kant's Moral Philosophy' provides a comprehensive scholarly overview of the three formulations of the Categorical Imperative, the role of autonomy, and contemporary debates.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Groundwork of the Metaphysics of Morals (1785) — Immanuel Kant"
+    },
+    {
+      "kind": "primary",
+      "title": "Critique of Practical Reason (1788) — Immanuel Kant"
+    },
+    {
+      "kind": "primary",
+      "title": "The Metaphysics of Morals (1797) — Immanuel Kant"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'Kant's Moral Philosophy'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Kant and the Capacity to Judge — Onora O'Neill"
+    }
+  ],
+  "version": 1
+}

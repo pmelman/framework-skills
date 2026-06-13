@@ -1,0 +1,93 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Tawhid analysis diagnoses a subtle shirk: wealth and financial security have been elevated to the position of ultimate source of security that belongs to God alone. The theological principle of tawakkul (reliance on God) is the direct consequence of tawhid: if God is the sole sustainer (razzaq), then ultimate financial security lies not in ethical shortcuts but in right action. The khalifah framework asks: is the owner treating the business as a possession to be protected at all costs, or as a trust to be managed with integrity? The tawhid-grounded prescription is not indifference to business outcomes but a reorientation of the anxiety: do what is right and trust in divine provision for the rest, since to compromise integrity for financial security is to act as if money, not God, were the ultimate provider.",
+      "problem": "A Muslim business owner feels enormous anxiety about potential business failure and finds himself cutting ethical corners to ensure financial security."
+    },
+    {
+      "analysis": "Tawhid analysis identifies this as a political form of shirk: the nation-state has been elevated to an absolute, with ultimate loyalty demanded for it above all other considerations. The unity of human dignity before God (grounded in tawhid and the universal status of all humans as khalifah) challenges the absolute priority of national interest. The rububiyya dimension reminds that all people are sustained by the same divine creator: this does not dissolve legitimate national boundaries but insists they cannot be treated as absolute moral trumps. The tawhid-grounded analysis demands that national policy be evaluated against God's justice (adl) and mercy (rahma) — both of which appear prominently in Quranic teaching on the treatment of refugees and the vulnerable.",
+      "problem": "A nation-state claims that its national interests override any other moral consideration, including obligations to refugees and the global poor."
+    }
+  ],
+  "core_claims": [
+    "God is absolutely one (ahad) and unique (wahid): there is no partner, associate, or rival to God in being, attributes, or acts — this is the uncompromisable core of the Islamic creed (shahada).",
+    "Shirk (associating partners with God) is the gravest possible error and sin: it distorts reality by treating the finite as if it were ultimate, and corrupts all reasoning and action built on that distortion.",
+    "Tawhid has three dimensions: unity of lordship (tawhid al-rububiyya — God alone is the creator and sustainer), unity of names and attributes (tawhid al-asma wa-l-sifat — God's attributes are unique and incomparable), and unity of worship (tawhid al-uluhiyya/ibadah — God alone deserves worship and ultimate loyalty.",
+    "All of creation is a unified order (ummah) under one sovereign: the diversity of creation reflects the richness of divine generosity, not ontological plurality at the ultimate level.",
+    "Human dignity and equality are grounded in tawhid: all humans stand equally before the one God, with no human mediator, priesthood, or caste possessing inherent sacred authority over others.",
+    "Knowledge, ethics, politics, and economics must all be brought under the unity of the divine sovereignty; no domain of life is exempt from the demand to orient toward God (tawhid as a totalizing vision)."
+  ],
+  "description": "Tawhid is the central theological doctrine of Islam — the absolute unity and uniqueness of God (Allah) — which functions not only as a creedal affirmation but as a comprehensive framework for organizing all of reality, ethics, knowledge, and social life. As a framework, Tawhid demands that every dimension of existence be oriented toward, and understood in relation to, the one undivided divine reality, making it the ontological and ethical foundation from which all Islamic thought and action derive.",
+  "domains": [
+    "theology",
+    "islam",
+    "ethics",
+    "epistemology"
+  ],
+  "failure_modes": [
+    "Totalitarian application: using tawhid's 'no domain is exempt' logic to justify theocratic coercion — collapsing the necessary distinction between theological conviction and political compulsion, when Islamic jurisprudence itself distinguishes between inner conviction (iman) and outward compliance.",
+    "Abstract formalism: affirming tawhid as a creedal statement without allowing it to challenge the actual objects of one's ultimate trust and loyalty — so that the doctrine is intellectually held but practically inert.",
+    "Anti-rational voluntarism: using God's absolute sovereignty to shut down rational inquiry and ethical reasoning, when the Quranic tradition (and Sufi, Ashari, and Mutazili schools alike) affirms reason as a gift from God that is to be used, not suppressed."
+  ],
+  "key_vocabulary": {
+    "Ibadah": "Worship in the comprehensive Islamic sense: not only formal ritual but any action performed with consciousness of God, so that all of life becomes worship when rightly oriented.",
+    "Khalifah": "Steward or vicegerent; the Quranic designation of humanity's role in creation — human beings hold the earth in trust for God, not as ultimate owners but as responsible stewards.",
+    "Shirk": "Associating partners with God; the fundamental theological error and gravest sin; in its subtle forms (shirk khafi), it includes dependence on status, wealth, or power as ultimate sources of security or meaning.",
+    "Tawakkul": "Complete reliance on God; the practical and ethical consequence of tawhid — if God alone is the ultimate sovereign and provider, then ultimate anxiety and ultimate hope are both rightly directed only to God.",
+    "Tawhid": "The absolute oneness and uniqueness of God; the foundational Islamic theological principle from which all other doctrine, ethics, and law derive.",
+    "Tawhid al-Uluhiyya": "The unity of worship: the demand that ultimate loyalty, devotion, and orientation belong to God alone — not to nation, ideology, wealth, or any other finite good."
+  },
+  "name": "Tawhid",
+  "operative_procedure": [
+    "Identify the object of ultimate loyalty. In the situation at hand, what is being treated as the ultimate source of security, meaning, identity, or authority? Is this appropriate (if it is genuinely God-directed) or is it a form of shirk — a finite good elevated to an ultimate position?",
+    "Apply the three dimensions of tawhid. (1) Rububiyya: does this situation reflect proper acknowledgment that all power, creation, and sustenance ultimately derive from God, not from human ingenuity or any other source? (2) Asma wa-l-sifat: are God's attributes (justice, mercy, knowledge, power) being properly understood and applied in this situation, without distorting them? (3) Uluhiyya: is the person or community giving ultimate loyalty and worship to God alone, or has something else claimed that position?",
+    "Diagnose the forms of shirk at work. Shirk is not only theological — it manifests in subtle dependency on wealth, status, institutional power, or ideology treated as ultimate. Name the specific form of displaced ultimacy in this situation.",
+    "Apply the khalifah (stewardship) framework. Humans are khalifah — stewards of creation, not owners. What does responsible stewardship of the resources, relationships, and power involved in this situation look like? Where is the temptation to act as owner rather than steward?",
+    "Re-orient through ibadah. Ask: how does the comprehensive Islamic concept of worship bear on this situation? How can action in this domain be performed with awareness of God (ihsan) so that it becomes ibadah — not merely permissible but positively spiritually valuable?",
+    "Synthesize with the unity demand. Produce a tawhid-grounded analysis: what would it mean to approach this situation from a stance of genuine divine unity — coherent, non-fragmented, non-idolatrous? What reorientations of value, loyalty, or action does this demand?"
+  ],
+  "relationships": {
+    "ancestors": [],
+    "composes_with": [
+      "Maqasid al-Shariah",
+      "Ijtihad",
+      "Sufism"
+    ],
+    "descendants": [
+      "Maqasid al-Shariah",
+      "Ijtihad",
+      "Sufism"
+    ],
+    "related": [
+      "Maqasid al-Shariah",
+      "Ijtihad",
+      "Sufism"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Tawhid is the foundational lens through which all other Islamic frameworks are integrated: it is not a standalone problem-solving tool so much as the theological ground from which Maqasid al-Shariah, Ijtihad, and Sufism all operate. It is most powerful as a diagnostic framework for idolatry (in its theological and political forms) and as a basis for human dignity and equality. It is less well-suited to generating specific casuistic ethical rulings, where Ijtihad and Maqasid must be applied. Non-theists will not share its metaphysical commitments, limiting cross-tradition dialogue unless translated into shared terms.",
+  "source_summary": "Tawhid is affirmed in the Quran throughout, most concisely in Surat al-Ikhlas (112): 'Say: He is God, the One; God, the Eternal Refuge; He neither begets nor is born; nor is there to Him any equivalent.' The theological elaboration of tawhid was the central project of kalam (Islamic theology), debated between the Mutazilites (who emphasized divine unity and justice with rationalist methods) and the Ashari and Maturidi schools (who insisted on divine attributes and voluntarism). Ibn Taymiyya's formulation of the three dimensions of tawhid became highly influential in Sunni theology. Ismail al-Faruqi's Tawhid (1982) is the most systematic modern attempt to derive a comprehensive Islamic worldview from tawhid as its organizing principle, spanning ethics, aesthetics, and political theory. Fazlur Rahman's Islam (1966) provides a balanced historical account of Islamic theology including tawhid.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "The Quran (passim, especially Surat al-Ikhlas 112; Ayat al-Kursi, 2:255)"
+    },
+    {
+      "kind": "primary",
+      "title": "Ibn Taymiyya, Kitab al-Tawhid discussion in Majmu al-Fatawa"
+    },
+    {
+      "kind": "secondary",
+      "title": "Ismail Raji al-Faruqi, Tawhid: Its Implications for Thought and Life (1982)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Fazlur Rahman, Islam (1966), Chapter on Theology"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,90 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This is a classic ijtihad problem: insurance is not mentioned in the Quran or Sunnah, so independent reasoning is required. The mujtahid first gathers relevant texts on gharar (excessive uncertainty in contracts, prohibited) and the principles of contract law in Islamic jurisprudence. Qiyas is applied: does health insurance's uncertainty resemble the prohibited gharar of classical jurisprudence, or is it a different kind of risk-sharing? Maqasid analysis is decisive: protection of life (nafs) is a daruriyyat essential; health insurance serves this essential by enabling access to care. The maslaha-mafsada balance strongly favors permissibility, particularly for takaful (cooperative Islamic insurance) models that avoid riba. Ijma is absent since this is a modern product. Most contemporary scholars permit health insurance, especially in takaful form, as a valid exercise of ijtihad grounded in maslaha.",
+      "problem": "Is it permissible under Islamic law for Muslims to purchase health insurance, given that insurance contracts involve elements that resemble gharar (uncertainty) and possibly riba (interest)?"
+    },
+    {
+      "analysis": "The classical sources are silent on this specific situation. Ijtihad proceeds via qiyas and maqasid: the analogy (qiyas) to classical dhimmi arrangements and minority communities in Islamic jurisprudence is imperfect since the situation is reversed. Maqasid analysis asks which course of action better protects the five essentials for the Muslim community: participation potentially secures protection of religion (din), life (nafs), and property (mal) by giving the community political voice, while non-participation potentially leaves these essentials unprotected. Maslaha analysis strongly supports participation. The contemporary scholarly majority, via ijtihad, permits and even encourages electoral participation by Muslim minorities in non-Muslim states on these grounds.",
+      "problem": "Can a Muslim minority living in a non-Muslim country participate in democratic elections and hold public office?"
+    }
+  ],
+  "core_claims": [
+    "Where the Quran and authenticated Sunnah do not provide a clear ruling, qualified jurists are obligated to exercise independent reasoning (ijtihad) to determine what the law requires — this is a religious duty, not merely a scholarly option.",
+    "Ijtihad is constrained by the established sources (usul al-fiqh): it operates within the hierarchy of Quran, Sunnah, ijma (scholarly consensus), and qiyas (analogical reasoning), not outside or against them.",
+    "The qualifications for ijtihad are demanding: mastery of Arabic, deep knowledge of Quran and Sunnah, knowledge of consensus positions (ijma), knowledge of the circumstances of revelation (asbab al-nuzul), and sound judgment (malaka).",
+    "The 'closing of the gate of ijtihad' (insidad bab al-ijtihad) — the medieval view that independent reasoning was no longer necessary or permissible — is contested; many contemporary scholars hold the gate must remain open.",
+    "Ijtihad produces zann (probable, not certain) conclusions: the mujtahid who reasons carefully but reaches a wrong conclusion is still rewarded, and the one who reasons correctly receives a double reward.",
+    "The scope of ijtihad must be calibrated to the type of question: matters of clear Quranic or Sunnah ruling (qati) are not open to ijtihad; only matters of probable or silent texts (zanni or maskut anhu) are."
+  ],
+  "description": "Ijtihad is the Islamic jurisprudential principle of independent rational reasoning applied to derive legal rulings for situations not explicitly addressed by the Quran and Sunnah. It is the methodology by which qualified jurists (mujtahidun) exercise interpretive effort (the literal meaning of 'ijtihad' is exertion or striving) to extend, adapt, and reform Islamic law in response to new circumstances, enabling the Shariah to remain a living system rather than a fossilized code.",
+  "domains": [
+    "jurisprudence",
+    "islam",
+    "ethics",
+    "epistemology"
+  ],
+  "failure_modes": [
+    "Unqualified ijtihad: individuals without classical legal training claiming the right of independent juristic reasoning (ijtihad fardi) on the basis of reading translations of the Quran, producing idiosyncratic rulings that lack grounding in the full tradition.",
+    "Ijtihad as rationalization: beginning with a desired conclusion and working backwards to assemble textual support, rather than genuinely reasoning from the sources — this is condemned by classical scholars as following one's desires (hawa).",
+    "Overreach into qati matters: attempting to apply ijtihad to questions already settled by clear, unambiguous, mutawatir textual evidence, conflating matters open to reasoning with matters definitively settled."
+  ],
+  "key_vocabulary": {
+    "Ijma": "Scholarly consensus; agreement among qualified jurists on a ruling; it has a constraining function — ijtihad that contradicts established ijma is generally not permissible.",
+    "Illa": "The effective cause or ratio legis of a ruling: the underlying reason for a legal provision, which qiyas uses to extend the ruling to analogous cases.",
+    "Mujtahid": "A qualified jurist who exercises ijtihad; one who has attained the level of scholarship required to derive independent legal rulings directly from the sources.",
+    "Qiyas": "Analogical reasoning: extending a Quranic or Sunnah ruling to a new case by identifying the shared underlying reason (illa) for the original ruling.",
+    "Taqlid": "Following the opinion of an established legal school (madhab) without independent reasoning; the practice of the non-mujtahid. Contrasted with ijtihad.",
+    "Usul al-fiqh": "The roots/principles of Islamic jurisprudence; the methodological framework governing how legal rulings are derived: Quran, Sunnah, ijma, qiyas, and secondary principles."
+  },
+  "name": "Ijtihad",
+  "operative_procedure": [
+    "Verify the question is open to ijtihad. Is the matter addressed by a clear, unambiguous (qati) Quranic verse or mutawatir hadith? If so, ijtihad cannot override it. If the relevant texts are probable (zanni), ambiguous, or silent on the specific question, ijtihad may proceed.",
+    "Gather and authenticate the relevant sources. Collect all relevant Quranic verses and hadith bearing on the question. Assess the authenticity and transmission grading (sahih, hasan, daif) of each hadith. Identify prior scholarly opinions across the four major madhhabs (Hanafi, Maliki, Shafi'i, Hanbali) and note where ijma exists.",
+    "Apply the primary methods in order. First, seek a textual ruling (nass). If absent, apply qiyas: identify an analogous case for which there is a ruling, establish the illa (effective cause), and determine whether it applies to the new situation. If qiyas is insufficient, apply secondary principles: maslaha mursala (unrestricted public interest), istihsan (juristic preference), urf (custom), and sadd al-dharai (blocking means to harm).",
+    "Integrate maqasid analysis. Evaluate the candidate ruling against the Maqasid al-Shariah: does it protect the five essentials? Does it serve genuine maslaha without causing greater mafsada? A ruling that technically follows the form of the sources but defeats the maqasid is suspect.",
+    "Assess the weight of ijma and scholarly divergence. Is there existing ijma on the question? If so, the burden of proof for departing from it is very high. If there is legitimate ikhtilaf (scholarly disagreement), which position is best supported by the sources and maqasid reasoning?",
+    "Formulate the ruling with appropriate epistemic humility. State the derived ruling, the reasoning (dalil) supporting it, any conditions or qualifications, and the degree of certainty (qati vs. zanni). Acknowledge legitimate counter-arguments. Present the ruling as the output of the best available reasoning, not as certain divine command — and remain open to revision as circumstances change."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Tawhid"
+    ],
+    "composes_with": [
+      "Maqasid al-Shariah",
+      "Tawhid"
+    ],
+    "descendants": [],
+    "related": [
+      "Maqasid al-Shariah",
+      "Tawhid",
+      "Sufism"
+    ],
+    "rivals": []
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Ijtihad is the indispensable mechanism for Islamic law's engagement with modernity and novel situations. It is strongest when applied by genuinely qualified scholars working within the full methodological tradition of usul al-fiqh, integrated with maqasid analysis. It is weakest when claimed by unqualified practitioners or when used to systematically avoid the constraints of the tradition. Its outputs are inherently probable (zanni) rather than certain, which is a strength (epistemic humility) as well as a limitation (the tradition cannot guarantee agreement).",
+  "source_summary": "The theory of ijtihad is codified in usul al-fiqh (principles of jurisprudence), whose foundational text is al-Shafi'i's Al-Risala (c. 820 CE), the first systematic work in Islamic legal theory. The four Sunni madhhabs (Hanafi, Maliki, Shafi'i, Hanbali) developed different methodologies for ijtihad. The medieval notion of the 'closing of the gate of ijtihad' was argued by later scholars but contested by reformers: Muhammad Iqbal's The Reconstruction of Religious Thought in Islam (1930) made the most influential modern case for reopening the gate. Wael Hallaq's scholarly work — especially A History of Islamic Legal Theories (1997) — provides rigorous historical analysis of how ijtihad functioned and was debated. Mohammad Hashim Kamali's Principles of Islamic Jurisprudence (1991) is the standard English-language academic reference for usul al-fiqh.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Al-Shafi'i, Al-Risala fi Usul al-Fiqh (c. 820 CE)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Mohammad Hashim Kamali, Principles of Islamic Jurisprudence (1991)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Wael Hallaq, A History of Islamic Legal Theories (1997)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Muhammad Iqbal, The Reconstruction of Religious Thought in Islam (1930)"
+    }
+  ],
+  "version": 1
+}

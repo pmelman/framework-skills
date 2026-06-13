@@ -1,0 +1,99 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "This commits multiple informal fallacies. First, it is an ad hominem/guilt by association: attributing to the opponent the motives or company of enemies, without engaging the policy argument. Second, it is a false dichotomy: framing the choice as 'agree with my opponent' vs. 'side with our enemies,' eliminating the possibility that a spending reduction could be correct policy regardless of who else favors it. Third, it is an appeal to emotion (fear and patriotism). The argument does not address whether the spending reduction is sound policy on its merits. Identifying these fallacies does not prove the opponent's policy is correct — only that this argument does not establish that it is wrong.",
+      "problem": "A politician argues: 'My opponent wants to reduce military spending. That's exactly what our enemies want. Are you going to side with our enemies?' Should this argument be accepted?"
+    },
+    {
+      "analysis": "This is an appeal to tradition combined with a post hoc ergo propter hoc (after this, therefore because of this) error: success after the practice does not prove success because of it. Additionally, it is a form of inductive reasoning that ignores base rates and confounds: perhaps the company succeeded despite, or regardless of, this practice. The argument also ignores that conditions may have changed, making a past-successful strategy currently suboptimal. A fallacy-analysis verdict: the argument is inductively weak and contains a relevance error. The executive needs independent evidence that the practice is causally responsible for success under current conditions.",
+      "problem": "An executive argues: 'We've always done it this way, and we've always been successful. Therefore we should continue doing it this way.' Is this reasoning sound?"
+    }
+  ],
+  "core_claims": [
+    "Fallacies are patterns of argument that are deductively invalid, inductively weak, or rhetorically manipulative in ways that fall short of genuine justification for their conclusions.",
+    "Formal fallacies violate rules of deductive inference (e.g., affirming the consequent, denying the antecedent) and can be identified by logical form alone regardless of content.",
+    "Informal fallacies fail not through formal invalidity but through ambiguity, false premises, relevance errors, or psychological manipulation — identifying them requires attending to content and context.",
+    "Charity and context are required for accurate fallacy attribution: an argument that resembles a fallacy may be reconstructed charitably as non-fallacious; fallacy-labeling is not a substitute for engaging the argument.",
+    "Many fallacy labels are contested or context-sensitive: the 'appeal to authority' is a fallacy in some contexts and a legitimate epistemic move in others; genetic reasoning is sometimes fallacious and sometimes relevant.",
+    "Identifying a fallacy shifts but does not end the argument: pointing out a fallacious move does not establish the falsity of the conclusion, only that this particular argument does not establish it."
+  ],
+  "description": "Fallacy Analysis is the systematic identification and evaluation of fallacious patterns of reasoning — arguments that appear valid or persuasive but fail to establish their conclusions through logical defects, rhetorical manipulation, or unjustified premises. It operates as both a diagnostic tool (identifying where reasoning breaks down) and a normative standard (specifying what good argumentation requires).",
+  "domains": [
+    "logic",
+    "rhetoric",
+    "epistemology",
+    "critical-thinking"
+  ],
+  "failure_modes": [
+    "Fallacy misidentification: applying a fallacy label to an argument that, on careful reconstruction, does not commit that fallacy — treating fallacy-naming as a rhetorical weapon rather than an analytical tool.",
+    "Genetic dismissal: treating the identification of a fallacy as proof that the conclusion is false, rather than recognizing that conclusions can be true even when argued for fallaciously.",
+    "List-based analysis: cataloging fallacies as a taxonomy to be memorized rather than understanding the underlying principles of valid inference and charitable interpretation that make fallacy analysis meaningful."
+  ],
+  "key_vocabulary": {
+    "Ad Hominem": "Attacking the person making an argument rather than the argument itself; fallacious when used to dismiss a claim, but relevant when the person's credibility or integrity is itself at issue.",
+    "Begging the Question": "An argument in which the conclusion is (explicitly or covertly) assumed as a premise — also called circular reasoning; the argument is formally valid but epistemically useless for establishing the conclusion.",
+    "False Dichotomy": "Presenting only two options as exhaustive when there are in fact more, forcing a choice between extremes by artificially eliminating the middle ground.",
+    "Formal Fallacy": "An argument whose logical form is invalid — the conclusion does not follow from the premises regardless of their truth. Example: affirming the consequent (If P then Q; Q; therefore P).",
+    "Informal Fallacy": "An argument that fails not through formal invalidity but through irrelevant premises, ambiguous language, false presuppositions, or psychological manipulation; requires content analysis to identify.",
+    "Straw Man": "Misrepresenting an opponent's argument in a weakened form in order to defeat it easily, without engaging the actual position — a failure of charitable reconstruction."
+  },
+  "name": "Fallacy Analysis",
+  "operative_procedure": [
+    "Reconstruct the argument charitably. Before assessing for fallacies, state the argument in its strongest form: identify the premises and the conclusion, fill in implicit premises, and ensure you are engaging the argument the person intended to make, not a weaker version.",
+    "Check for formal validity. Identify the logical form. Does the conclusion follow necessarily from the premises? If not, is the invalid form a recognized formal fallacy (affirming the consequent, denying the antecedent, undistributed middle)?",
+    "Assess the premises for informal failures. Even if the form is valid, check each premise: Is it assumed without justification (question-begging)? Is it false or ambiguous? Does it rely on unwarranted presuppositions or conflate different senses of a term (equivocation)?",
+    "Check for relevance and rhetorical manipulation. Are the premises actually relevant to the conclusion, or do they work by triggering psychological responses (fear, authority, popularity, disgust) rather than logical support? Identify specific informal fallacies: ad hominem, appeal to emotion, appeal to false authority, genetic fallacy, slippery slope, false dichotomy.",
+    "Distinguish fallacious from non-fallacious instances. Many fallacy labels are applied too broadly. An appeal to authority is legitimate when the authority is genuine and the claim is within their domain. A slippery slope is legitimate when there is evidence of a causal mechanism. Confirm that the identified pattern genuinely fails in this instance.",
+    "Synthesize. State which specific fallacy (if any) the argument commits, explain why it fails to establish the conclusion, and indicate what a non-fallacious argument for the same conclusion would need to provide. Identify whether the conclusion might still be true despite the fallacious argument."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Logic",
+      "Aristotelian Rhetoric"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Thought Experiments",
+      "Counterfactual Reasoning"
+    ],
+    "descendants": [
+      "Argumentation Theory",
+      "Pragma-Dialectics"
+    ],
+    "related": [
+      "Modal Reasoning",
+      "Bayesian Epistemology",
+      "The Map-Territory Distinction",
+      "Thought Experiments"
+    ],
+    "rivals": [
+      "Rhetoric (as persuasion without constraint)",
+      "Mere Debating Skill"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Fallacy Analysis is strongest in evaluating explicit, structured argumentative texts — political speeches, legal briefs, philosophical arguments, advertising claims. It is weakest as a tool in informal conversation, where arguments are rarely fully stated and charitable reconstruction is difficult, and where rapid labeling tends to derail dialogue rather than clarify it. It is not a complete theory of good reasoning — knowing what to avoid does not specify what a positive, well-formed argument looks like — and must be combined with constructive accounts of evidence, inference, and justification.",
+  "source_summary": "The systematic study of fallacies originates with Aristotle's Sophistical Refutations (c. 350 BCE), which cataloged thirteen types of fallacious argument used by Sophists, distinguishing those arising from language (in dictione) from those arising from subject matter (extra dictionem). Medieval logicians extended the catalogue, and the tradition was carried into modern informal logic by scholars including Charles Hamblin, whose Fallacies (1970) provided a critical reassessment of the standard treatment and found it theoretically inadequate. Douglas Walton's pragma-dialectical approach reconceived fallacies as violations of dialogue norms rather than purely logical errors. The Stanford Encyclopedia of Philosophy entry 'Fallacies' surveys Aristotelian, epistemic, and pragma-dialectical theories and debates whether there is a single unified theory of what makes an argument fallacious.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Fallacies — Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "Aristotle, Sophistical Refutations (c. 350 BCE)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Douglas Walton, Informal Logic: A Pragmatic Approach (1989)"
+    },
+    {
+      "kind": "secondary",
+      "title": "T. Edward Damer, Attacking Faulty Reasoning (1980)"
+    }
+  ],
+  "version": 1
+}

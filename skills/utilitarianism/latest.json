@@ -1,0 +1,101 @@
+{
+  "builder_model": "claude-sonnet-4-6",
+  "built_at": "2026-06-10T12:00:00+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "A naive act-utilitarian calculus might favor harvesting (five lives > one), but this conflicts with near-universal moral intuitions. The rule-utilitarian and indirect-utilitarian response is that a practice of non-consensual organ harvesting would destroy trust in medicine, producing catastrophic long-run disutility. The example exposes the tension between act- and rule-level reasoning and the limits of simple aggregation.",
+      "problem": "A hospital has five patients who will die without organ transplants and one healthy patient whose organs could save all five. Should the surgeon harvest the healthy patient's organs?"
+    },
+    {
+      "analysis": "Utilitarian analysis aggregates total expected well-being gains. Marginal utility is typically higher for those with less — the deprived neighborhood's residents gain more welfare per unit of investment. A careful utilitarian calculation, properly accounting for diminishing marginal utility, is likely to favor the infrastructure repair despite lower reported per-visitor satisfaction.",
+      "problem": "A city must choose between building a new park in an affluent neighborhood (high average satisfaction per visitor) or repairing infrastructure in a deprived neighborhood (lower per-unit satisfaction but affecting more people in greater need)."
+    }
+  ],
+  "core_claims": [
+    "The morally right act is the one that maximizes aggregate well-being (the Greatest Happiness Principle).",
+    "All sentient beings capable of experiencing pleasure or pain count equally in the moral calculus.",
+    "Outcomes, not intentions or rules in themselves, determine moral rightness.",
+    "Well-being is the only intrinsic good; all other values are instrumental.",
+    "Impartiality is required: each person's happiness counts for exactly one, and no one's for more than one.",
+    "Both act-utilitarianism (evaluate each act directly) and rule-utilitarianism (follow rules that generally maximize utility) are viable interpretations."
+  ],
+  "description": "Utilitarianism is a consequentialist moral theory holding that the right action is the one that produces the greatest overall well-being (utility) for all affected parties. Associated principally with Jeremy Bentham and John Stuart Mill, it evaluates acts and policies solely by their outcomes.",
+  "domains": [
+    "ethics",
+    "political-philosophy",
+    "decision-theory",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "The 'utility monster' or oppression of minorities: unconstrained aggregation can justify serious harms to a few if gains to the many are large enough, conflicting with basic rights.",
+    "Measurement and commensurability problems: reducing heterogeneous human goods (friendship, dignity, knowledge) to a single utility metric is often impossible in practice, making calculations spuriously precise.",
+    "Demandingness objection: the theory can require agents to sacrifice personal projects and relationships whenever doing so would marginally increase aggregate welfare, which may be psychologically and practically unsustainable."
+  ],
+  "key_vocabulary": {
+    "Act-utilitarianism": "The view that each individual act should be chosen so as to maximize aggregate utility on that occasion.",
+    "Greatest Happiness Principle": "Bentham's and Mill's master principle: actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse.",
+    "Hedonic calculus": "Bentham's method for measuring pleasures and pains by intensity, duration, certainty, propinquity, fecundity, purity, and extent.",
+    "Preference utilitarianism": "A variant (associated with Singer and Hare) that counts satisfaction of informed preferences rather than felt pleasure as the relevant good.",
+    "Rule-utilitarianism": "The view that one should follow rules whose general observance maximizes aggregate utility, even if a specific act under the rule does not.",
+    "Utility": "A measure of well-being, happiness, preference-satisfaction, or welfare — the thing to be maximized."
+  },
+  "name": "Utilitarianism",
+  "operative_procedure": [
+    "Identify all affected parties. List every person (and sentient being) whose well-being is materially affected by the available options, including future or distant parties.",
+    "Enumerate the options. State the realistic alternative courses of action available to the decision-maker.",
+    "Forecast outcomes for each option. For each option and each affected party, estimate the likely change in well-being — in magnitude and probability — using the best available evidence.",
+    "Aggregate and compare. Sum the expected utility across all parties for each option. Where values are incommensurable, make the comparison as explicit and honest as possible rather than papering over it.",
+    "Check for rights-violation risks and distributional concerns. Note whether the maximizing option imposes severe harms on minorities or violates widely held moral intuitions — these are signals the analysis may be incomplete or that a rule-utilitarian framing is appropriate.",
+    "Synthesize. Select the option with the highest expected aggregate utility, while being transparent about uncertainty, incommensurability, and any strong intuitions that cut against the result."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Epicureanism",
+      "Hedonism",
+      "Classical Liberalism"
+    ],
+    "composes_with": [
+      "Decision Theory",
+      "Bayesian Epistemology",
+      "Veil of Ignorance"
+    ],
+    "descendants": [
+      "Preference Utilitarianism",
+      "Effective Altruism",
+      "Rule Consequentialism"
+    ],
+    "related": [
+      "Decision Theory",
+      "Bayesian Epistemology",
+      "Pragmatism"
+    ],
+    "rivals": [
+      "Kantian Deontology",
+      "Aristotelian Virtue Ethics",
+      "Contractarianism"
+    ]
+  },
+  "review_status": "approved",
+  "schema_version": 2,
+  "scope_and_limits": "Utilitarianism is strongest in policy analysis and resource-allocation contexts where outcomes can be measured, populations are large, and there is no single identifiable victim of trade-offs (e.g., public health, infrastructure, environmental regulation). It is weakest where it conflicts with individual rights, personal integrity constraints, or the separateness of persons — cases where 'the ends justify the means' reasoning leads to conclusions nearly everyone finds monstrous. It is also limited when outcomes are highly uncertain or when the goods at stake are radically incommensurable.",
+  "source_summary": "Utilitarianism was systematized by Jeremy Bentham (1748–1832) in 'An Introduction to the Principles of Morals and Legislation' (1789), which introduced the hedonic calculus. John Stuart Mill refined the view in 'Utilitarianism' (1863), distinguishing higher and lower pleasures and defending the theory against objections. Henry Sidgwick provided a rigorous philosophical treatment in 'The Methods of Ethics' (1874). Twentieth-century developments include R.M. Hare's preference utilitarianism, Peter Singer's applied ethics work, and Derek Parfit's exploration of population ethics and the repugnant conclusion in 'Reasons and Persons' (1984). The SEP entry 'The History of Utilitarianism' provides comprehensive coverage of these developments.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "An Introduction to the Principles of Morals and Legislation"
+    },
+    {
+      "kind": "primary",
+      "title": "Utilitarianism (1863) — John Stuart Mill"
+    },
+    {
+      "kind": "secondary",
+      "title": "Stanford Encyclopedia of Philosophy: 'The History of Utilitarianism'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Reasons and Persons — Derek Parfit (Part IV)"
+    }
+  ],
+  "version": 1
+}
