@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:34:31Z",
+  "generated_at": "2026-06-13T03:50:23Z",
   "skills": [
     {
-      "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
-      "slug": "abduction-peirce-inference-generating-explanatory-hypotheses-distinct-from-ibe-evaluation",
+      "name": "Abduction",
+      "slug": "abduction",
       "version": 1,
       "description": "Abduction in Peirce's sense is the inferential stage that responds to surprising facts by generating explanatory hypotheses for further inquiry. It is distinct from later inference-to-the-best-explanation evaluation: abduction proposes a plausible explanation, deduction draws its consequences, and induction tests it.",
       "domains": [
@@ -14,7 +14,7 @@
         "inquiry"
       ],
       "review_status": "needs_attention",
-      "path": "skills/abduction-peirce-inference-generating-explanatory-hypotheses-distinct-from-ibe-evaluation/latest.json"
+      "path": "skills/abduction/latest.json"
     },
     {
       "name": "Advaita Vedanta",
@@ -73,8 +73,8 @@
       "path": "skills/antifragility/latest.json"
     },
     {
-      "name": "Argumentation Theory | Toulmin model: claim, grounds, warrant, backing, rebuttal",
-      "slug": "argumentation-theory-toulmin-model-claim-grounds-warrant-backing-rebuttal",
+      "name": "Argumentation Theory",
+      "slug": "argumentation-theory",
       "version": 1,
       "description": "Argumentation Theory in Toulmin's model analyzes practical arguments by mapping claims, grounds, warrants, backing, qualifiers, and rebuttals, emphasizing field-dependent standards of support rather than treating all reasoning as formal deduction.",
       "domains": [
@@ -85,7 +85,7 @@
         "law"
       ],
       "review_status": "needs_attention",
-      "path": "skills/argumentation-theory-toulmin-model-claim-grounds-warrant-backing-rebuttal/latest.json"
+      "path": "skills/argumentation-theory/latest.json"
     },
     {
       "name": "Aristotelian Rhetoric",
@@ -185,8 +185,8 @@
       "path": "skills/bounded-rationality/latest.json"
     },
     {
-      "name": "Bradford Hill Criteria | guidelines for inferring causation from epidemiological association",
-      "slug": "bradford-hill-criteria-guidelines-for-inferring-causation-from-epidemiological-association",
+      "name": "Bradford Hill Criteria",
+      "slug": "bradford-hill-criteria",
       "version": 1,
       "description": "Bradford Hill Criteria are a set of epidemiological viewpoints for judging when an observed association is likely to reflect causation, emphasizing temporality, strength, consistency, dose-response, plausibility, coherence, experimental evidence, analogy, and specificity while resisting mechanical checklist use.",
       "domains": [
@@ -196,11 +196,11 @@
         "evidence-evaluation"
       ],
       "review_status": "needs_attention",
-      "path": "skills/bradford-hill-criteria-guidelines-for-inferring-causation-from-epidemiological-association/latest.json"
+      "path": "skills/bradford-hill-criteria/latest.json"
     },
     {
-      "name": "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
-      "slug": "capabilities-approach-sen-nussbaum-freedom-as-real-opportunity-to-function",
+      "name": "Capabilities Approach",
+      "slug": "capabilities-approach",
       "version": 1,
       "description": "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function evaluates justice and development by the substantive freedoms people actually have to achieve valuable beings and doings, rather than by resources, utility, or formal liberties alone.",
       "domains": [
@@ -210,11 +210,11 @@
         "public-policy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/capabilities-approach-sen-nussbaum-freedom-as-real-opportunity-to-function/latest.json"
+      "path": "skills/capabilities-approach/latest.json"
     },
     {
-      "name": "Care Ethics | Gilligan/Noddings: relationships and dependency as moral center",
-      "slug": "care-ethics-gilligan-noddings-relationships-and-dependency-as-moral-center",
+      "name": "Care Ethics",
+      "slug": "care-ethics",
       "version": 1,
       "description": "Care Ethics places relationships, dependency, responsiveness, and the moral significance of particular persons at the center of ethical reasoning, challenging moral theories that privilege abstract rules, impartial calculation, or autonomous individuals.",
       "domains": [
@@ -224,7 +224,7 @@
         "applied-ethics"
       ],
       "review_status": "needs_attention",
-      "path": "skills/care-ethics-gilligan-noddings-relationships-and-dependency-as-moral-center/latest.json"
+      "path": "skills/care-ethics/latest.json"
     },
     {
       "name": "Causal Inference",
@@ -255,8 +255,8 @@
       "path": "skills/chesterton-s-fence/latest.json"
     },
     {
-      "name": "Classical Liberalism | individual liberty, limited government, spontaneous order",
-      "slug": "classical-liberalism-individual-liberty-limited-government-spontaneous-order",
+      "name": "Classical Liberalism",
+      "slug": "classical-liberalism",
       "version": 1,
       "description": "Classical Liberalism | individual liberty, limited government, spontaneous order defends individual freedom, private property, rule of law, free exchange, civil society, and constitutional limits on coercive power, while treating many beneficial social orders as emergent rather than centrally designed.",
       "domains": [
@@ -266,7 +266,7 @@
         "public-policy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/classical-liberalism-individual-liberty-limited-government-spontaneous-order/latest.json"
+      "path": "skills/classical-liberalism/latest.json"
     },
     {
       "name": "Classical Logic",
@@ -283,8 +283,8 @@
       "path": "skills/classical-logic/latest.json"
     },
     {
-      "name": "Coasean Bargaining | externalities, transaction costs, allocation of rights (Coase theorem)",
-      "slug": "coasean-bargaining-externalities-transaction-costs-allocation-of-rights-coase-theorem",
+      "name": "Coasean Bargaining",
+      "slug": "coasean-bargaining",
       "version": 1,
       "description": "Coasean Bargaining analyzes externalities by assigning rights, estimating transaction costs, and asking whether parties can bargain to a higher-valued allocation; the Coase theorem shows that with zero transaction costs and clear entitlements, bargaining reaches efficient outcomes regardless of initial rights.",
       "domains": [
@@ -294,11 +294,11 @@
         "public-policy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/coasean-bargaining-externalities-transaction-costs-allocation-of-rights-coase-theorem/latest.json"
+      "path": "skills/coasean-bargaining/latest.json"
     },
     {
-      "name": "Cognitive Behavioral Framing | CBT: thoughts-feelings-behavior loops, cognitive distortions",
-      "slug": "cognitive-behavioral-framing-cbt-thoughts-feelings-behavior-loops-cognitive-distortions",
+      "name": "Cognitive Behavioral Framing",
+      "slug": "cognitive-behavioral-framing",
       "version": 1,
       "description": "Cognitive Behavioral Framing analyzes distress and dysfunction as maintained by reciprocal loops among situations, automatic thoughts, emotions, bodily sensations, and behaviors, with change produced by testing beliefs, modifying behavior, and building alternative interpretations.",
       "domains": [
@@ -308,7 +308,7 @@
         "self-regulation"
       ],
       "review_status": "needs_attention",
-      "path": "skills/cognitive-behavioral-framing-cbt-thoughts-feelings-behavior-loops-cognitive-distortions/latest.json"
+      "path": "skills/cognitive-behavioral-framing/latest.json"
     },
     {
       "name": "Coherentism",
@@ -325,8 +325,8 @@
       "path": "skills/coherentism/latest.json"
     },
     {
-      "name": "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community",
-      "slug": "communitarianism-macintyre-sandel-selves-and-goods-constituted-by-community",
+      "name": "Communitarianism",
+      "slug": "communitarianism",
       "version": 1,
       "description": "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community criticizes liberal individualism by arguing that persons, obligations, virtues, and public goods are formed within communities, traditions, roles, and shared practices.",
       "domains": [
@@ -336,11 +336,11 @@
         "civic-life"
       ],
       "review_status": "needs_attention",
-      "path": "skills/communitarianism-macintyre-sandel-selves-and-goods-constituted-by-community/latest.json"
+      "path": "skills/communitarianism/latest.json"
     },
     {
-      "name": "Comparative Advantage | Ricardo: gains from trade even with absolute inferiority",
-      "slug": "comparative-advantage-ricardo-gains-from-trade-even-with-absolute-inferiority",
+      "name": "Comparative Advantage",
+      "slug": "comparative-advantage",
       "version": 1,
       "description": "Comparative Advantage, classically associated with David Ricardo, explains how parties can gain from specialization and trade according to relative opportunity costs, even when one party is absolutely less productive in every activity.",
       "domains": [
@@ -350,7 +350,7 @@
         "resource-allocation"
       ],
       "review_status": "needs_attention",
-      "path": "skills/comparative-advantage-ricardo-gains-from-trade-even-with-absolute-inferiority/latest.json"
+      "path": "skills/comparative-advantage/latest.json"
     },
     {
       "name": "Conceptual Analysis",
@@ -423,8 +423,8 @@
       "path": "skills/control-theory-thinking/latest.json"
     },
     {
-      "name": "Controlled Experimentation | randomization, blinding, controls as inference engine (RCT thinking)",
-      "slug": "controlled-experimentation-randomization-blinding-controls-as-inference-engine-rct-thinking",
+      "name": "Controlled Experimentation",
+      "slug": "controlled-experimentation",
       "version": 1,
       "description": "Controlled Experimentation treats randomization, blinding, controls, allocation concealment, and pre-specified outcome comparison as a designed inference engine for estimating intervention effects by constructing a credible counterfactual.",
       "domains": [
@@ -434,11 +434,11 @@
         "causal-reasoning"
       ],
       "review_status": "needs_attention",
-      "path": "skills/controlled-experimentation-randomization-blinding-controls-as-inference-engine-rct-thinking/latest.json"
+      "path": "skills/controlled-experimentation/latest.json"
     },
     {
-      "name": "Conway's Law | system designs mirror communication structures of their organizations",
-      "slug": "conway-s-law-system-designs-mirror-communication-structures-of-their-organizations",
+      "name": "Conway's Law",
+      "slug": "conway-s-law",
       "version": 1,
       "description": "Conway's Law is the organizational-design principle that systems tend to mirror the communication structures of the organizations that build them, making architecture, team boundaries, coordination costs, and interface design mutually reinforcing.",
       "domains": [
@@ -448,7 +448,7 @@
         "management"
       ],
       "review_status": "needs_attention",
-      "path": "skills/conway-s-law-system-designs-mirror-communication-structures-of-their-organizations/latest.json"
+      "path": "skills/conway-s-law/latest.json"
     },
     {
       "name": "Counterfactual Reasoning",
@@ -465,8 +465,8 @@
       "path": "skills/counterfactual-reasoning/latest.json"
     },
     {
-      "name": "Creative Destruction | Schumpeter: innovation destroying incumbent structures",
-      "slug": "creative-destruction-schumpeter-innovation-destroying-incumbent-structures",
+      "name": "Creative Destruction",
+      "slug": "creative-destruction",
       "version": 1,
       "description": "Creative Destruction is Schumpeter's account of capitalist development as waves of entrepreneurial innovation that create new products, methods, markets, and organizations while destroying incumbent structures, assets, and routines.",
       "domains": [
@@ -476,11 +476,11 @@
         "economic-history"
       ],
       "review_status": "needs_attention",
-      "path": "skills/creative-destruction-schumpeter-innovation-destroying-incumbent-structures/latest.json"
+      "path": "skills/creative-destruction/latest.json"
     },
     {
-      "name": "Cybernetics | Wiener/Ashby: requisite variety, homeostasis, communication and control",
-      "slug": "cybernetics-wiener-ashby-requisite-variety-homeostasis-communication-and-control",
+      "name": "Cybernetics",
+      "slug": "cybernetics",
       "version": 1,
       "description": "Cybernetics is the study of communication, feedback, and control in animals, machines, organizations, and social systems, associated with Norbert Wiener, W. Ross Ashby, Stafford Beer, and concepts such as homeostasis, circular causality, and requisite variety.",
       "domains": [
@@ -490,7 +490,7 @@
         "organizational-design"
       ],
       "review_status": "needs_attention",
-      "path": "skills/cybernetics-wiener-ashby-requisite-variety-homeostasis-communication-and-control/latest.json"
+      "path": "skills/cybernetics/latest.json"
     },
     {
       "name": "Cynefin Framework",
@@ -535,8 +535,8 @@
       "path": "skills/decision-theory/latest.json"
     },
     {
-      "name": "Deconstruction | Derrida: destabilizing binary oppositions, différance, close reading against the grain",
-      "slug": "deconstruction-derrida-destabilizing-binary-oppositions-diff-rance-close-reading-against-the-grain",
+      "name": "Deconstruction",
+      "slug": "deconstruction",
       "version": 1,
       "description": "Deconstruction, associated with Jacques Derrida, is a practice of close reading that exposes how texts depend on unstable binary oppositions, deferred meaning, and excluded terms that undermine the hierarchies they appear to secure.",
       "domains": [
@@ -546,7 +546,7 @@
         "critical-theory"
       ],
       "review_status": "needs_attention",
-      "path": "skills/deconstruction-derrida-destabilizing-binary-oppositions-diff-rance-close-reading-against-the-grain/latest.json"
+      "path": "skills/deconstruction/latest.json"
     },
     {
       "name": "Defense in Depth",
@@ -577,8 +577,8 @@
       "path": "skills/dependent-origination/latest.json"
     },
     {
-      "name": "Differential Diagnosis | clinical reasoning: generate, rank, and exclude candidate causes",
-      "slug": "differential-diagnosis-clinical-reasoning-generate-rank-and-exclude-candidate-causes",
+      "name": "Differential Diagnosis",
+      "slug": "differential-diagnosis",
       "version": 1,
       "description": "Differential Diagnosis is the clinical reasoning framework that generates candidate causes for a patient's presentation, ranks them by likelihood and danger, then uses targeted history, examination, tests, and time to rule in, rule out, or revise diagnoses.",
       "domains": [
@@ -588,11 +588,11 @@
         "decision-making"
       ],
       "review_status": "needs_attention",
-      "path": "skills/differential-diagnosis-clinical-reasoning-generate-rank-and-exclude-candidate-causes/latest.json"
+      "path": "skills/differential-diagnosis/latest.json"
     },
     {
-      "name": "Dimensional Analysis | units as constraint and sanity check; scaling arguments",
-      "slug": "dimensional-analysis-units-as-constraint-and-sanity-check-scaling-arguments",
+      "name": "Dimensional Analysis",
+      "slug": "dimensional-analysis",
       "version": 1,
       "description": "Dimensional Analysis uses units, dimensions, dimensionless groups, and scaling laws as hard constraints on equations, estimates, experiments, and physical intuition.",
       "domains": [
@@ -602,7 +602,7 @@
         "estimation"
       ],
       "review_status": "needs_attention",
-      "path": "skills/dimensional-analysis-units-as-constraint-and-sanity-check-scaling-arguments/latest.json"
+      "path": "skills/dimensional-analysis/latest.json"
     },
     {
       "name": "Divine Command Theory",
@@ -633,8 +633,8 @@
       "path": "skills/double-loop-learning/latest.json"
     },
     {
-      "name": "Dual-Process Theory | System 1 / System 2 cognition (Kahneman, Stanovich)",
-      "slug": "dual-process-theory-system-1-system-2-cognition-kahneman-stanovich",
+      "name": "Dual-Process Theory",
+      "slug": "dual-process-theory",
       "version": 1,
       "description": "Dual-Process Theory distinguishes fast, automatic, associative cognition from slower, controlled, reflective cognition, explaining how intuitive judgments can be useful, biased, overridden, or rationalized depending on attention, expertise, and task structure.",
       "domains": [
@@ -644,7 +644,7 @@
         "rationality"
       ],
       "review_status": "needs_attention",
-      "path": "skills/dual-process-theory-system-1-system-2-cognition-kahneman-stanovich/latest.json"
+      "path": "skills/dual-process-theory/latest.json"
     },
     {
       "name": "Effective Altruism",
@@ -703,8 +703,8 @@
       "path": "skills/error-statistics/latest.json"
     },
     {
-      "name": "Ethics of Belief | Clifford: wrong always and everywhere to believe on insufficient evidence",
-      "slug": "ethics-of-belief-clifford-wrong-always-and-everywhere-to-believe-on-insufficient-evidence",
+      "name": "Ethics of Belief",
+      "slug": "ethics-of-belief",
       "version": 1,
       "description": "Clifford's ethics of belief treats believing itself as morally assessable: because belief guides action, trains habits, and contributes to a shared social stock of trust, it is wrong always, everywhere, and for anyone to believe anything on insufficient evidence.",
       "domains": [
@@ -714,7 +714,7 @@
         "public-reason"
       ],
       "review_status": "needs_attention",
-      "path": "skills/ethics-of-belief-clifford-wrong-always-and-everywhere-to-believe-on-insufficient-evidence/latest.json"
+      "path": "skills/ethics-of-belief/latest.json"
     },
     {
       "name": "Evidentialism",
@@ -731,8 +731,8 @@
       "path": "skills/evidentialism/latest.json"
     },
     {
-      "name": "Evolutionary Game Theory | ESS, replicator dynamics, strategies in populations",
-      "slug": "evolutionary-game-theory-ess-replicator-dynamics-strategies-in-populations",
+      "name": "Evolutionary Game Theory",
+      "slug": "evolutionary-game-theory",
       "version": 1,
       "description": "Evolutionary Game Theory studies strategic behavior as competition among strategies in populations, using concepts such as evolutionarily stable strategies, replicator dynamics, invasion fitness, and frequency-dependent selection rather than assuming fully rational individual choice.",
       "domains": [
@@ -742,7 +742,7 @@
         "complex-systems"
       ],
       "review_status": "needs_attention",
-      "path": "skills/evolutionary-game-theory-ess-replicator-dynamics-strategies-in-populations/latest.json"
+      "path": "skills/evolutionary-game-theory/latest.json"
     },
     {
       "name": "Existential Risk Analysis",
@@ -787,8 +787,8 @@
       "path": "skills/expected-value-reasoning/latest.json"
     },
     {
-      "name": "Experimental Philosophy | testing folk intuitions empirically to discipline philosophical claims",
-      "slug": "experimental-philosophy-testing-folk-intuitions-empirically-to-discipline-philosophical-claims",
+      "name": "Experimental Philosophy",
+      "slug": "experimental-philosophy",
       "version": 1,
       "description": "Experimental Philosophy uses empirical methods, especially surveys and behavioral experiments, to test claims about folk intuitions and ordinary concepts that philosophers often rely on in arguments about knowledge, action, responsibility, meaning, and morality.",
       "domains": [
@@ -799,11 +799,11 @@
         "empirical-methods"
       ],
       "review_status": "needs_attention",
-      "path": "skills/experimental-philosophy-testing-folk-intuitions-empirically-to-discipline-philosophical-claims/latest.json"
+      "path": "skills/experimental-philosophy/latest.json"
     },
     {
-      "name": "Expressivism | moral claims express attitudes, not facts (Ayer, Blackburn, Gibbard)",
-      "slug": "expressivism-moral-claims-express-attitudes-not-facts-ayer-blackburn-gibbard",
+      "name": "Expressivism",
+      "slug": "expressivism",
       "version": 1,
       "description": "Expressivism explains moral language as expressing noncognitive attitudes, plans, endorsements, or prescriptions rather than describing independent moral facts, while later versions aim to preserve the logic and discipline of ordinary moral argument.",
       "domains": [
@@ -813,7 +813,7 @@
         "moral-psychology"
       ],
       "review_status": "needs_attention",
-      "path": "skills/expressivism-moral-claims-express-attitudes-not-facts-ayer-blackburn-gibbard/latest.json"
+      "path": "skills/expressivism/latest.json"
     },
     {
       "name": "Failure Mode and Effects Analysis",
@@ -956,8 +956,8 @@
       "path": "skills/general-semantics/latest.json"
     },
     {
-      "name": "Goodhart's Law | when a measure becomes a target it ceases to be a good measure",
-      "slug": "goodhart-s-law-when-a-measure-becomes-a-target-it-ceases-to-be-a-good-measure",
+      "name": "Goodhart's Law",
+      "slug": "goodhart-s-law",
       "version": 1,
       "description": "Goodhart's Law explains how proxy measures degrade when used for control, incentives, or optimization, because agents adapt to the metric and the measured correlation with the real goal breaks down.",
       "domains": [
@@ -967,7 +967,7 @@
         "governance"
       ],
       "review_status": "needs_attention",
-      "path": "skills/goodhart-s-law-when-a-measure-becomes-a-target-it-ceases-to-be-a-good-measure/latest.json"
+      "path": "skills/goodhart-s-law/latest.json"
     },
     {
       "name": "Halakha",
@@ -998,8 +998,8 @@
       "path": "skills/hayekian-spontaneous-order/latest.json"
     },
     {
-      "name": "Hermeneutics | Gadamer/Schleiermacher: interpretation, hermeneutic circle, fusion of horizons",
-      "slug": "hermeneutics-gadamer-schleiermacher-interpretation-hermeneutic-circle-fusion-of-horizons",
+      "name": "Hermeneutics",
+      "slug": "hermeneutics",
       "version": 1,
       "description": "Hermeneutics in the Schleiermacher-Gadamer tradition is the theory and practice of interpretation across linguistic, historical, and cultural distance, centered on the hermeneutic circle, historically effected understanding, prejudgment, and the fusion of horizons.",
       "domains": [
@@ -1010,7 +1010,7 @@
         "law"
       ],
       "review_status": "needs_attention",
-      "path": "skills/hermeneutics-gadamer-schleiermacher-interpretation-hermeneutic-circle-fusion-of-horizons/latest.json"
+      "path": "skills/hermeneutics/latest.json"
     },
     {
       "name": "Heuristics and Biases Program",
@@ -1111,8 +1111,8 @@
       "path": "skills/inference-to-the-best-explanation/latest.json"
     },
     {
-      "name": "Information Asymmetry | Akerlof lemons, adverse selection, moral hazard",
-      "slug": "information-asymmetry-akerlof-lemons-adverse-selection-moral-hazard",
+      "name": "Information Asymmetry",
+      "slug": "information-asymmetry",
       "version": 1,
       "description": "Information Asymmetry analyzes markets and contracts where one party has private information about quality, risk, type, effort, or action, producing adverse selection before exchange and moral hazard after exchange.",
       "domains": [
@@ -1122,7 +1122,7 @@
         "insurance"
       ],
       "review_status": "needs_attention",
-      "path": "skills/information-asymmetry-akerlof-lemons-adverse-selection-moral-hazard/latest.json"
+      "path": "skills/information-asymmetry/latest.json"
     },
     {
       "name": "Information Theory Thinking",
@@ -1139,8 +1139,8 @@
       "path": "skills/information-theory-thinking/latest.json"
     },
     {
-      "name": "Instrumentalism | theories as prediction tools, not literal descriptions",
-      "slug": "instrumentalism-theories-as-prediction-tools-not-literal-descriptions",
+      "name": "Instrumentalism",
+      "slug": "instrumentalism",
       "version": 1,
       "description": "Instrumentalism treats scientific theories as tools for prediction, organization, and practical control rather than literal descriptions of observable and unobservable reality. It accepts theories for their empirical performance while withholding realist commitment to their theoretical posits.",
       "domains": [
@@ -1150,11 +1150,11 @@
         "modeling"
       ],
       "review_status": "needs_attention",
-      "path": "skills/instrumentalism-theories-as-prediction-tools-not-literal-descriptions/latest.json"
+      "path": "skills/instrumentalism/latest.json"
     },
     {
-      "name": "Inversion | solve problems backwards; avoid stupidity rather than seek brilliance (Jacobi, Munger)",
-      "slug": "inversion-solve-problems-backwards-avoid-stupidity-rather-than-seek-brilliance-jacobi-munger",
+      "name": "Inversion",
+      "slug": "inversion",
       "version": 1,
       "description": "Inversion is a problem-solving heuristic that reverses the question, starting from failure, impossibility, or the desired end state to reveal constraints, hidden assumptions, and avoidable causes of bad outcomes.",
       "domains": [
@@ -1164,7 +1164,7 @@
         "decision-making"
       ],
       "review_status": "needs_attention",
-      "path": "skills/inversion-solve-problems-backwards-avoid-stupidity-rather-than-seek-brilliance-jacobi-munger/latest.json"
+      "path": "skills/inversion/latest.json"
     },
     {
       "name": "Jobs-to-be-Done",
@@ -1236,8 +1236,8 @@
       "path": "skills/knowledge-first-epistemology/latest.json"
     },
     {
-      "name": "Kuhnian Paradigm Theory | normal science, anomaly, crisis, incommensurable paradigm shifts",
-      "slug": "kuhnian-paradigm-theory-normal-science-anomaly-crisis-incommensurable-paradigm-shifts",
+      "name": "Kuhnian Paradigm Theory",
+      "slug": "kuhnian-paradigm-theory",
       "version": 1,
       "description": "Kuhnian Paradigm Theory models science as alternating between normal puzzle-solving within a paradigm and revolutionary episodes in which accumulated anomalies and crisis lead to an incommensurable paradigm shift. It emphasizes exemplars, disciplinary matrices, anomaly management, and historically situated standards of theory choice.",
       "domains": [
@@ -1247,11 +1247,11 @@
         "scientific-change"
       ],
       "review_status": "needs_attention",
-      "path": "skills/kuhnian-paradigm-theory-normal-science-anomaly-crisis-incommensurable-paradigm-shifts/latest.json"
+      "path": "skills/kuhnian-paradigm-theory/latest.json"
     },
     {
-      "name": "Lakatos's Research Programmes | progressive vs degenerating programmes; hard core + protective belt",
-      "slug": "lakatos-s-research-programmes-progressive-vs-degenerating-programmes-hard-core-protective-belt",
+      "name": "Lakatos's Research Programmes",
+      "slug": "lakatos-s-research-programmes",
       "version": 1,
       "description": "Lakatos's Methodology of Scientific Research Programmes evaluates science through historically extended programmes with a hard core, protective belt, negative heuristic, and positive heuristic. Programmes are judged by whether their problemshifts are progressive or degenerating relative to rivals.",
       "domains": [
@@ -1261,11 +1261,11 @@
         "epistemology"
       ],
       "review_status": "needs_attention",
-      "path": "skills/lakatos-s-research-programmes-progressive-vs-degenerating-programmes-hard-core-protective-belt/latest.json"
+      "path": "skills/lakatos-s-research-programmes/latest.json"
     },
     {
-      "name": "Leverage Points | Meadows: where to intervene in a system, ranked by power",
-      "slug": "leverage-points-meadows-where-to-intervene-in-a-system-ranked-by-power",
+      "name": "Leverage Points",
+      "slug": "leverage-points",
       "version": 1,
       "description": "Leverage Points is Donella Meadows's ranked framework for finding places to intervene in a system, from shallow parameter tweaks to deep changes in information flows, rules, goals, and paradigms.",
       "domains": [
@@ -1275,7 +1275,7 @@
         "strategy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/leverage-points-meadows-where-to-intervene-in-a-system-ranked-by-power/latest.json"
+      "path": "skills/leverage-points/latest.json"
     },
     {
       "name": "Liberation Theology",
@@ -1292,8 +1292,8 @@
       "path": "skills/liberation-theology/latest.json"
     },
     {
-      "name": "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice",
-      "slug": "libertarianism-nozick-self-ownership-side-constraints-entitlement-theory-of-justice",
+      "name": "Libertarianism",
+      "slug": "libertarianism",
       "version": 1,
       "description": "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice treats persons as self-owning agents with rights that constrain what others and the state may do, grounding distributive justice in just acquisition, voluntary transfer, and rectification rather than patterned equality.",
       "domains": [
@@ -1303,11 +1303,11 @@
         "political-economy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/libertarianism-nozick-self-ownership-side-constraints-entitlement-theory-of-justice/latest.json"
+      "path": "skills/libertarianism/latest.json"
     },
     {
-      "name": "Lindy Effect | expected longevity proportional to current age for non-perishables",
-      "slug": "lindy-effect-expected-longevity-proportional-to-current-age-for-non-perishables",
+      "name": "Lindy Effect",
+      "slug": "lindy-effect",
       "version": 1,
       "description": "The Lindy Effect is a longevity heuristic for nonperishable things: the longer an idea, book, technology, institution, or practice has survived, the longer its expected remaining life, because age reveals survival through selection.",
       "domains": [
@@ -1317,7 +1317,7 @@
         "strategy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/lindy-effect-expected-longevity-proportional-to-current-age-for-non-perishables/latest.json"
+      "path": "skills/lindy-effect/latest.json"
     },
     {
       "name": "Lojong",
@@ -1334,8 +1334,8 @@
       "path": "skills/lojong/latest.json"
     },
     {
-      "name": "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk",
-      "slug": "luck-egalitarianism-neutralize-unchosen-luck-hold-people-to-chosen-risk",
+      "name": "Luck Egalitarianism",
+      "slug": "luck-egalitarianism",
       "version": 1,
       "description": "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk holds that distributive justice should compensate or neutralize disadvantages due to brute luck while allowing inequalities traceable to responsible choice or option luck.",
       "domains": [
@@ -1345,7 +1345,7 @@
         "public-policy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/luck-egalitarianism-neutralize-unchosen-luck-hold-people-to-chosen-risk/latest.json"
+      "path": "skills/luck-egalitarianism/latest.json"
     },
     {
       "name": "Maqasid al-Shariah",
@@ -1376,8 +1376,8 @@
       "path": "skills/margin-of-safety/latest.json"
     },
     {
-      "name": "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
-      "slug": "mechanism-design-reverse-game-theory-design-rules-so-selfish-play-yields-desired-outcomes",
+      "name": "Mechanism Design",
+      "slug": "mechanism-design",
       "version": 1,
       "description": "Mechanism Design is reverse game theory: it starts from a desired social outcome and designs rules, messages, allocations, and payments so that self-interested agents, acting on private information, produce that outcome in equilibrium.",
       "domains": [
@@ -1387,7 +1387,7 @@
         "market-design"
       ],
       "review_status": "needs_attention",
-      "path": "skills/mechanism-design-reverse-game-theory-design-rules-so-selfish-play-yields-desired-outcomes/latest.json"
+      "path": "skills/mechanism-design/latest.json"
     },
     {
       "name": "Minimax Regret",
@@ -1432,8 +1432,8 @@
       "path": "skills/modal-reasoning/latest.json"
     },
     {
-      "name": "Moral Realism | mind-independent moral facts; how to reason if they exist",
-      "slug": "moral-realism-mind-independent-moral-facts-how-to-reason-if-they-exist",
+      "name": "Moral Realism",
+      "slug": "moral-realism",
       "version": 1,
       "description": "Moral Realism holds that some moral claims are truth-apt and true in virtue of moral facts that do not depend merely on anyone's attitudes, approvals, conventions, or prescriptions; moral reasoning aims to discover and respond to those facts.",
       "domains": [
@@ -1443,11 +1443,11 @@
         "normative-theory"
       ],
       "review_status": "needs_attention",
-      "path": "skills/moral-realism-mind-independent-moral-facts-how-to-reason-if-they-exist/latest.json"
+      "path": "skills/moral-realism/latest.json"
     },
     {
-      "name": "Moral Sentimentalism | Hume/Smith: moral judgments grounded in sentiment and sympathy",
-      "slug": "moral-sentimentalism-hume-smith-moral-judgments-grounded-in-sentiment-and-sympathy",
+      "name": "Moral Sentimentalism",
+      "slug": "moral-sentimentalism",
       "version": 1,
       "description": "Moral Sentimentalism explains moral judgment as grounded in human sentiments, especially sympathy with affected persons, rather than in pure reason alone: we approve traits and actions through regulated feelings shaped by common human nature and a stable point of view.",
       "domains": [
@@ -1457,7 +1457,7 @@
         "social-philosophy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/moral-sentimentalism-hume-smith-moral-judgments-grounded-in-sentiment-and-sympathy/latest.json"
+      "path": "skills/moral-sentimentalism/latest.json"
     },
     {
       "name": "Mussar",
@@ -1516,8 +1516,8 @@
       "path": "skills/network-effects-and-lock-in/latest.json"
     },
     {
-      "name": "Normal Accidents Theory | Perrow: tight coupling + interactive complexity make accidents inevitable",
-      "slug": "normal-accidents-theory-perrow-tight-coupling-interactive-complexity-make-accidents-inevitable",
+      "name": "Normal Accidents Theory",
+      "slug": "normal-accidents-theory",
       "version": 1,
       "description": "Normal Accidents Theory is Charles Perrow's framework for explaining why accidents become inevitable in systems that combine tight coupling with interactive complexity, especially high-risk technologies such as nuclear power, chemical plants, aircraft, and other tightly integrated socio-technical systems.",
       "domains": [
@@ -1527,7 +1527,7 @@
         "organizational-theory"
       ],
       "review_status": "needs_attention",
-      "path": "skills/normal-accidents-theory-perrow-tight-coupling-interactive-complexity-make-accidents-inevitable/latest.json"
+      "path": "skills/normal-accidents-theory/latest.json"
     },
     {
       "name": "Nudge and Choice Architecture",
@@ -1572,8 +1572,8 @@
       "path": "skills/ooda-loop/latest.json"
     },
     {
-      "name": "Opportunity Cost and Marginal Analysis | think at the margin; cost as foregone alternative",
-      "slug": "opportunity-cost-and-marginal-analysis-think-at-the-margin-cost-as-foregone-alternative",
+      "name": "Opportunity Cost and Marginal Analysis",
+      "slug": "opportunity-cost-and-marginal-analysis",
       "version": 1,
       "description": "Opportunity Cost and Marginal Analysis evaluates choices by comparing the value of the next-best foregone alternative with the incremental benefits and costs of one more unit of action, correcting decisions that focus on visible spending, sunk costs, or totals instead of margins.",
       "domains": [
@@ -1583,7 +1583,7 @@
         "policy-analysis"
       ],
       "review_status": "needs_attention",
-      "path": "skills/opportunity-cost-and-marginal-analysis-think-at-the-margin-cost-as-foregone-alternative/latest.json"
+      "path": "skills/opportunity-cost-and-marginal-analysis/latest.json"
     },
     {
       "name": "Ordinary Language Philosophy",
@@ -1628,8 +1628,8 @@
       "path": "skills/overton-window/latest.json"
     },
     {
-      "name": "Pareto Principle | 80/20 concentration of effects; vital few vs trivial many",
-      "slug": "pareto-principle-80-20-concentration-of-effects-vital-few-vs-trivial-many",
+      "name": "Pareto Principle",
+      "slug": "pareto-principle",
       "version": 1,
       "description": "The Pareto Principle is a concentration heuristic for analyzing skewed outcome distributions: in many domains, a small minority of inputs, causes, customers, products, or defects produces a large majority of effects. It directs attention to the vital few before the trivial many.",
       "domains": [
@@ -1639,7 +1639,7 @@
         "strategy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/pareto-principle-80-20-concentration-of-effects-vital-few-vs-trivial-many/latest.json"
+      "path": "skills/pareto-principle/latest.json"
     },
     {
       "name": "Pascal's Wager",
@@ -1656,8 +1656,8 @@
       "path": "skills/pascal-s-wager/latest.json"
     },
     {
-      "name": "Path Dependence | history-contingent outcomes, QWERTY effects, critical junctures",
-      "slug": "path-dependence-history-contingent-outcomes-qwerty-effects-critical-junctures",
+      "name": "Path Dependence",
+      "slug": "path-dependence",
       "version": 1,
       "description": "Path Dependence explains history-contingent outcomes in which early events, critical junctures, increasing returns, switching costs, and institutional or technological lock-in shape later possibilities and make some trajectories hard to reverse.",
       "domains": [
@@ -1667,7 +1667,7 @@
         "political-economy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/path-dependence-history-contingent-outcomes-qwerty-effects-critical-junctures/latest.json"
+      "path": "skills/path-dependence/latest.json"
     },
     {
       "name": "Pikuach Nefesh",
@@ -1754,8 +1754,8 @@
       "path": "skills/prospect-theory/latest.json"
     },
     {
-      "name": "Public Choice Theory | politics as exchange among self-interested actors; rent-seeking",
-      "slug": "public-choice-theory-politics-as-exchange-among-self-interested-actors-rent-seeking",
+      "name": "Public Choice Theory",
+      "slug": "public-choice-theory",
       "version": 1,
       "description": "Public Choice Theory applies economic reasoning to politics, treating voters, politicians, bureaucrats, regulators, and interest groups as incentive-responsive actors engaged in political exchange, collective choice, and rent seeking.",
       "domains": [
@@ -1765,11 +1765,11 @@
         "institutional-design"
       ],
       "review_status": "needs_attention",
-      "path": "skills/public-choice-theory-politics-as-exchange-among-self-interested-actors-rent-seeking/latest.json"
+      "path": "skills/public-choice-theory/latest.json"
     },
     {
-      "name": "Queueing Theory Thinking | utilization vs latency, variability, Little's law intuitions",
-      "slug": "queueing-theory-thinking-utilization-vs-latency-variability-little-s-law-intuitions",
+      "name": "Queueing Theory Thinking",
+      "slug": "queueing-theory-thinking",
       "version": 1,
       "description": "Queueing Theory Thinking applies queueing intuitions to service, operations, software, support, healthcare, networks, and project flow: utilization, variability, arrival rates, service rates, queue discipline, and Little's law explain why small capacity margins can produce large delays.",
       "domains": [
@@ -1779,11 +1779,11 @@
         "software-delivery"
       ],
       "review_status": "needs_attention",
-      "path": "skills/queueing-theory-thinking-utilization-vs-latency-variability-little-s-law-intuitions/latest.json"
+      "path": "skills/queueing-theory-thinking/latest.json"
     },
     {
-      "name": "Rationalism | Descartes/Spinoza/Leibniz: knowledge from reason, innate ideas, method of doubt",
-      "slug": "rationalism-descartes-spinoza-leibniz-knowledge-from-reason-innate-ideas-method-of-doubt",
+      "name": "Rationalism",
+      "slug": "rationalism",
       "version": 1,
       "description": "Rationalism, in the early modern tradition of Descartes, Spinoza, and Leibniz, treats reason as an independent source of knowledge, emphasizes innate ideas or principles, and uses methodic doubt and deductive system-building to seek foundations more secure than sensory experience.",
       "domains": [
@@ -1793,7 +1793,7 @@
         "methodology"
       ],
       "review_status": "needs_attention",
-      "path": "skills/rationalism-descartes-spinoza-leibniz-knowledge-from-reason-innate-ideas-method-of-doubt/latest.json"
+      "path": "skills/rationalism/latest.json"
     },
     {
       "name": "Red Teaming",
@@ -1824,8 +1824,8 @@
       "path": "skills/reflective-equilibrium/latest.json"
     },
     {
-      "name": "Regression to the Mean | extreme observations revert; mistaking reversion for causation",
-      "slug": "regression-to-the-mean-extreme-observations-revert-mistaking-reversion-for-causation",
+      "name": "Regression to the Mean",
+      "slug": "regression-to-the-mean",
       "version": 1,
       "description": "Regression to the Mean is the statistical principle that extreme observations tend to be followed by less extreme observations when measurements are imperfectly correlated, making natural reversion easy to mistake for causal change.",
       "domains": [
@@ -1835,7 +1835,7 @@
         "research-methods"
       ],
       "review_status": "needs_attention",
-      "path": "skills/regression-to-the-mean-extreme-observations-revert-mistaking-reversion-for-causation/latest.json"
+      "path": "skills/regression-to-the-mean/latest.json"
     },
     {
       "name": "Reliabilism",
@@ -1866,8 +1866,8 @@
       "path": "skills/replication-and-robustness-thinking/latest.json"
     },
     {
-      "name": "Resilience Engineering | safety as adaptive capacity, work-as-done vs work-as-imagined",
-      "slug": "resilience-engineering-safety-as-adaptive-capacity-work-as-done-vs-work-as-imagined",
+      "name": "Resilience Engineering",
+      "slug": "resilience-engineering",
       "version": 1,
       "description": "Resilience Engineering is a safety framework that treats safety as adaptive capacity in complex socio-technical systems, emphasizing work-as-done versus work-as-imagined, performance variability, drift, and the capacities to monitor, respond, learn, and anticipate.",
       "domains": [
@@ -1877,7 +1877,7 @@
         "organizational-risk"
       ],
       "review_status": "needs_attention",
-      "path": "skills/resilience-engineering-safety-as-adaptive-capacity-work-as-done-vs-work-as-imagined/latest.json"
+      "path": "skills/resilience-engineering/latest.json"
     },
     {
       "name": "Robust Decision Making",
@@ -1950,8 +1950,8 @@
       "path": "skills/scenario-planning/latest.json"
     },
     {
-      "name": "Scientific Realism | unobservables posited by mature science approximately exist; no-miracles argument",
-      "slug": "scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument",
+      "name": "Scientific Realism",
+      "slug": "scientific-realism",
       "version": 1,
       "description": "Scientific Realism holds that mature, predictively successful science gives approximately true descriptions of both observable and unobservable aspects of the world. Its signature no-miracles argument claims that scientific success would be inexplicable if central theoretical posits did not approximately exist.",
       "domains": [
@@ -1961,11 +1961,11 @@
         "scientific-method"
       ],
       "review_status": "needs_attention",
-      "path": "skills/scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument/latest.json"
+      "path": "skills/scientific-realism/latest.json"
     },
     {
-      "name": "Second-Order Thinking | and-then-what: downstream and reflexive consequences",
-      "slug": "second-order-thinking-and-then-what-downstream-and-reflexive-consequences",
+      "name": "Second-Order Thinking",
+      "slug": "second-order-thinking",
       "version": 1,
       "description": "Second-Order Thinking is the discipline of asking 'and then what?' before acting: it evaluates downstream, indirect, delayed, incentive, and reflexive consequences rather than stopping at immediate effects.",
       "domains": [
@@ -1975,11 +1975,11 @@
         "risk-analysis"
       ],
       "review_status": "needs_attention",
-      "path": "skills/second-order-thinking-and-then-what-downstream-and-reflexive-consequences/latest.json"
+      "path": "skills/second-order-thinking/latest.json"
     },
     {
-      "name": "Signal Detection Theory | discriminability vs response criterion; hits, false alarms, ROC",
-      "slug": "signal-detection-theory-discriminability-vs-response-criterion-hits-false-alarms-roc",
+      "name": "Signal Detection Theory",
+      "slug": "signal-detection-theory",
       "version": 1,
       "description": "Signal Detection Theory analyzes decisions under perceptual or informational uncertainty by separating sensitivity to signal from response bias, using hits, misses, false alarms, correct rejections, criteria, and ROC curves.",
       "domains": [
@@ -1989,11 +1989,11 @@
         "diagnostics"
       ],
       "review_status": "needs_attention",
-      "path": "skills/signal-detection-theory-discriminability-vs-response-criterion-hits-false-alarms-roc/latest.json"
+      "path": "skills/signal-detection-theory/latest.json"
     },
     {
-      "name": "Signaling Theory | costly signals as credibility (Spence, Zahavi handicap principle)",
-      "slug": "signaling-theory-costly-signals-as-credibility-spence-zahavi-handicap-principle",
+      "name": "Signaling Theory",
+      "slug": "signaling-theory",
       "version": 1,
       "description": "Signaling Theory explains how informed actors credibly communicate hidden quality, type, intention, or fitness through observable signals whose costs make imitation unattractive for lower-quality senders.",
       "domains": [
@@ -2003,7 +2003,7 @@
         "game-theory"
       ],
       "review_status": "needs_attention",
-      "path": "skills/signaling-theory-costly-signals-as-credibility-spence-zahavi-handicap-principle/latest.json"
+      "path": "skills/signaling-theory/latest.json"
     },
     {
       "name": "Social Contract Theory",
@@ -2020,8 +2020,8 @@
       "path": "skills/social-contract-theory/latest.json"
     },
     {
-      "name": "Socratic Method | elenchus",
-      "slug": "socratic-method-elenchus",
+      "name": "Socratic Method",
+      "slug": "socratic-method",
       "version": 1,
       "description": "Socratic Method | elenchus is definition-seeking cross-examination that elicits a person's commitments, tests them for contradiction, and uses the resulting aporia to clarify what is and is not yet known.",
       "domains": [
@@ -2031,11 +2031,11 @@
         "argumentation"
       ],
       "review_status": "needs_attention",
-      "path": "skills/socratic-method-elenchus/latest.json"
+      "path": "skills/socratic-method/latest.json"
     },
     {
-      "name": "Speech Act Theory | Austin/Searle: locutionary/illocutionary/perlocutionary acts; performatives",
-      "slug": "speech-act-theory-austin-searle-locutionary-illocutionary-perlocutionary-acts-performatives",
+      "name": "Speech Act Theory",
+      "slug": "speech-act-theory",
       "version": 1,
       "description": "Speech Act Theory analyzes language as action, distinguishing what is said, what act is performed in saying it, and what effects are produced by saying it, with special attention to performatives, felicity conditions, illocutionary force, and institutional context.",
       "domains": [
@@ -2045,7 +2045,7 @@
         "communication"
       ],
       "review_status": "needs_attention",
-      "path": "skills/speech-act-theory-austin-searle-locutionary-illocutionary-perlocutionary-acts-performatives/latest.json"
+      "path": "skills/speech-act-theory/latest.json"
     },
     {
       "name": "Steelmanning",
@@ -2062,8 +2062,8 @@
       "path": "skills/steelmanning/latest.json"
     },
     {
-      "name": "Stoicism | dichotomy of control, virtue as the only good, negative visualization",
-      "slug": "stoicism-dichotomy-of-control-virtue-as-the-only-good-negative-visualization",
+      "name": "Stoicism",
+      "slug": "stoicism",
       "version": 1,
       "description": "Stoicism is a Hellenistic virtue ethics and practical discipline that locates human flourishing in rational virtue, distinguishes what is up to us from what is not, and trains judgment so external events do not rule the soul.",
       "domains": [
@@ -2073,7 +2073,7 @@
         "ancient-philosophy"
       ],
       "review_status": "needs_attention",
-      "path": "skills/stoicism-dichotomy-of-control-virtue-as-the-only-good-negative-visualization/latest.json"
+      "path": "skills/stoicism/latest.json"
     },
     {
       "name": "Strong Inference",
@@ -2104,8 +2104,8 @@
       "path": "skills/sufism/latest.json"
     },
     {
-      "name": "Survivorship Bias and Selection Effects | unseen failures distort inference (Wald's bombers)",
-      "slug": "survivorship-bias-and-selection-effects-unseen-failures-distort-inference-wald-s-bombers",
+      "name": "Survivorship Bias and Selection Effects",
+      "slug": "survivorship-bias-and-selection-effects",
       "version": 1,
       "description": "Survivorship Bias and Selection Effects is the inference framework for detecting how visible survivors, sampled cases, nonresponse, censoring, and missing failures distort conclusions about causes, performance, and risk.",
       "domains": [
@@ -2115,7 +2115,7 @@
         "research-methods"
       ],
       "review_status": "needs_attention",
-      "path": "skills/survivorship-bias-and-selection-effects-unseen-failures-distort-inference-wald-s-bombers/latest.json"
+      "path": "skills/survivorship-bias-and-selection-effects/latest.json"
     },
     {
       "name": "Systems Thinking",
@@ -2313,8 +2313,8 @@
       "path": "skills/tikkun-olam/latest.json"
     },
     {
-      "name": "Toyota Production System | lean: waste elimination, pull, jidoka, kaizen, genchi genbutsu",
-      "slug": "toyota-production-system-lean-waste-elimination-pull-jidoka-kaizen-genchi-genbutsu",
+      "name": "Toyota Production System",
+      "slug": "toyota-production-system",
       "version": 1,
       "description": "Toyota Production System is the lean production framework built around just-in-time flow, jidoka, waste elimination, standardized work, kaizen, and direct observation of actual work to improve quality, cost, delivery, and human problem-solving.",
       "domains": [
@@ -2324,11 +2324,11 @@
         "process-improvement"
       ],
       "review_status": "needs_attention",
-      "path": "skills/toyota-production-system-lean-waste-elimination-pull-jidoka-kaizen-genchi-genbutsu/latest.json"
+      "path": "skills/toyota-production-system/latest.json"
     },
     {
-      "name": "Tragedy of the Commons | Hardin: individually rational overuse of shared resources",
-      "slug": "tragedy-of-the-commons-hardin-individually-rational-overuse-of-shared-resources",
+      "name": "Tragedy of the Commons",
+      "slug": "tragedy-of-the-commons",
       "version": 1,
       "description": "Tragedy of the Commons is Garrett Hardin's framework for cases where individually rational use of an open-access shared resource produces collective overuse, depletion, or pollution because private benefits are concentrated while costs are shared.",
       "domains": [
@@ -2338,11 +2338,11 @@
         "collective-action"
       ],
       "review_status": "needs_attention",
-      "path": "skills/tragedy-of-the-commons-hardin-individually-rational-overuse-of-shared-resources/latest.json"
+      "path": "skills/tragedy-of-the-commons/latest.json"
     },
     {
-      "name": "Triage Thinking | allocate scarce resources by urgency x salvageability",
-      "slug": "triage-thinking-allocate-scarce-resources-by-urgency-x-salvageability",
+      "name": "Triage Thinking",
+      "slug": "triage-thinking",
       "version": 1,
       "description": "Triage Thinking allocates scarce attention, time, personnel, equipment, or treatment by sorting cases according to urgency, expected benefit, and salvageability under resource constraints.",
       "domains": [
@@ -2352,7 +2352,7 @@
         "ethics"
       ],
       "review_status": "needs_attention",
-      "path": "skills/triage-thinking-allocate-scarce-resources-by-urgency-x-salvageability/latest.json"
+      "path": "skills/triage-thinking/latest.json"
     },
     {
       "name": "TRIZ",

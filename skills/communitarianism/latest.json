@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:49Z",
+  "canonical_examples": [
+    {
+      "analysis": "MacIntyre uses the chess case to distinguish external goods from internal goods. If the child plays only for candy, the activity is an instrument and cheating is rational whenever it secures the reward. Once the child comes to value chess's internal goods, analytical skill, strategic imagination, and standards of excellent play, cheating defeats the point of the practice. The example shows that virtues are intelligible inside practices sustained by communities and traditions, not as preference-neutral instruments.",
+      "problem": "In After Virtue, MacIntyre describes teaching a child chess first by offering candy rewards, then by the child coming to appreciate the goods internal to chess."
+    },
+    {
+      "analysis": "Sandel treats obligations of solidarity as evidence against the view that all obligations arise from consent or universal duties. The brothers' relationship, the public office of one, and the familial loyalty at stake cannot be fully analyzed as contracts chosen by unencumbered individuals. Communitarian analysis asks what role-constituted responsibilities already bind the agents, how those responsibilities can be criticized from within the relevant moral traditions, and why impartial liberal categories miss the moral remainder.",
+      "problem": "In Justice, Sandel discusses the case of Whitey Bulger and his brother William Bulger to examine whether family loyalty creates obligations not reducible to consent."
+    }
+  ],
+  "core_claims": [
+    "Persons are partly constituted by histories, roles, memberships, and shared goods; the self is not prior to all ends in the way contractarian liberalism assumes.",
+    "A society cannot remain normatively neutral among all conceptions of the good because its institutions inevitably cultivate some virtues, identities, and forms of life over others.",
+    "Moral reasoning is tradition-embedded: practical judgment draws on inherited narratives, exemplars, and standards internal to communities rather than freestanding universal procedures alone.",
+    "Obligations of membership, loyalty, gratitude, and solidarity can bind even when they were not individually chosen by explicit consent.",
+    "Practices generate internal goods that can be recognized only through participation in the practice and sustained by virtues such as justice, courage, and honesty.",
+    "Liberal rights talk can corrode civic goods when it redescribes shared purposes as merely private preferences or interest claims.",
+    "Political deliberation should ask what goods a community ought to honor and cultivate, not only how to aggregate preferences or protect private choice."
+  ],
+  "description": "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community criticizes liberal individualism by arguing that persons, obligations, virtues, and public goods are formed within communities, traditions, roles, and shared practices.",
+  "domains": [
+    "political-philosophy",
+    "ethics",
+    "social-theory",
+    "civic-life"
+  ],
+  "failure_modes": [
+    "Romanticizing community: oppressive, exclusionary, patriarchal, racist, or conformist practices may be redescribed as shared goods without sufficient critique.",
+    "Boundary ambiguity: the framework can understate conflicts among overlapping communities such as family, profession, religion, nation, and humanity.",
+    "Anti-procedural overreach: rejecting liberal neutrality can leave minorities without robust protections when dominant traditions control public meaning.",
+    "Nostalgia for lost unity: practitioners may mistake modern pluralism itself for moral decline and overlook the goods produced by rights, mobility, and dissent.",
+    "The characteristic practitioner error is to infer moral authority from embeddedness, treating inherited roles as binding before asking whether the practice's internal standards are corrupt or unjust."
+  ],
+  "key_vocabulary": {
+    "Constitutive community": "A community that helps form a person's identity, ends, and obligations rather than merely serving pre-existing individual preferences.",
+    "Encumbered self": "Sandel's contrast to the liberal unencumbered self: a person whose identity is partly made by attachments, histories, and memberships not simply chosen at will.",
+    "External goods": "Goods such as money, status, power, and prestige that can be pursued through many activities and are often objects of competition.",
+    "Internal goods": "Goods achievable only by participating excellently in a practice, such as strategic insight in chess or diagnostic judgment in medicine.",
+    "Narrative unity": "MacIntyre's idea that a human life becomes intelligible as an enacted story situated within traditions and social roles.",
+    "Practice": "A coherent, socially established cooperative activity with standards of excellence and internal goods, such as chess, architecture, farming, politics, or science.",
+    "Tradition": "An historically extended argument about goods, virtues, and standards of excellence. For MacIntyre, traditions are dynamic sites of reasoning, not static inheritance.",
+    "Unencumbered self": "The liberal image, criticized by Sandel, of a chooser whose identity and ends are prior to and independent of communal attachments."
+  },
+  "name": "Communitarianism",
+  "operative_procedure": [
+    "Identify the communities, roles, and traditions that make the agents' identities and obligations intelligible: family, profession, polity, religion, neighborhood, or practice.",
+    "Ask what goods are internal to the relevant practice or form of life, and distinguish them from external goods such as wealth, power, or reputation.",
+    "Locate the narrative: describe how the present conflict fits into an inherited story of membership, loyalty, promise, office, virtue, or betrayal.",
+    "Test liberal redescriptions: ask what is lost if the conflict is framed only as individual preference, consent, rights, or utility.",
+    "Name the role-constituted obligations that may bind without explicit choice, such as duties of citizenship, family loyalty, professional vocation, or gratitude.",
+    "Criticize from within and across traditions: examine whether the community's own standards expose corruption, domination, exclusion, or failure to honor its professed goods.",
+    "Deliberate about the common good: propose institutional or civic arrangements that cultivate the relevant virtues and sustain the practice rather than merely balancing private interests.",
+    "Report plural conflicts: where memberships collide, state which community's claims should yield and why, rather than assuming all attachments harmonize."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Virtue Ethics",
+      "Hegelian Ethical Life",
+      "Civic Republicanism"
+    ],
+    "composes_with": [
+      "Aristotelian Virtue Ethics",
+      "Confucian Ren and Li",
+      "Narrative Ethics",
+      "Civic Republicanism"
+    ],
+    "descendants": [
+      "Civic Republicanism",
+      "Politics of the Common Good",
+      "Recognition Theory"
+    ],
+    "related": [
+      "Aristotelian Virtue Ethics",
+      "Confucian Ren and Li",
+      "Conservatism",
+      "Social Practice Theory"
+    ],
+    "rivals": [
+      "Rawlsian Justice as Fairness",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice",
+      "Utilitarianism",
+      "Kantian Deontology"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Communitarianism is strongest where moral or political disputes involve membership, civic identity, tradition, professional vocation, family loyalty, or shared goods that liberal individualist vocabularies flatten. It is weakest where communities are abusive, plural, internally contested, or where individual exit, dissent, and equal rights need priority over inherited expectations.",
+  "source_summary": "Authored from model knowledge of MacIntyre's and Sandel's communitarian critiques and standard political philosophy discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Alasdair MacIntyre, After Virtue (1981)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael J. Sandel, Liberalism and the Limits of Justice (1982)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael J. Sandel, Democracy's Discontent (1996)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael J. Sandel, Justice: What's the Right Thing to Do? (2009)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Communitarianism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/communitarianism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a dispute turns on loyalty, membership, civic identity, professional vocation, family duty, or obligations not created by explicit consent",
+    "rights, preference, or contract language seems to miss the goods internal to a practice or community",
+    "a policy choice will reshape civic character, shared norms, or the kind of people institutions cultivate",
+    "agents disagree because they inhabit different traditions of meaning rather than merely because they calculate interests differently",
+    "a community's inherited practice appears both morally formative and potentially oppressive, requiring internal critique rather than simple rejection or deference"
+  ]
+}

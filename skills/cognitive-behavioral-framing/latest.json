@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:33Z",
+  "canonical_examples": [
+    {
+      "analysis": "CBT frames the event as activating an automatic thought shaped by the negative cognitive triad: negative views of self, world, and future. The emotion follows the appraisal, not the criticism alone. The thought contains all-or-nothing thinking and overgeneralization. Cognitive restructuring asks for evidence that one criticism proves total failure, evidence of competence or mixed performance, and a balanced alternative such as 'I made a mistake in this task, and it does not define my whole worth.' Behavioral activation would then test the depressive prediction by scheduling actions that can produce mastery or pleasure.",
+      "problem": "In Aaron Beck's cognitive model of depression, a depressed patient receives a minor criticism and concludes, 'I am a complete failure.'"
+    },
+    {
+      "analysis": "The CBT loop begins with a bodily sensation, an automatic catastrophic appraisal, anxiety, escape or avoidance, and short-term relief. The safety behavior prevents learning that rapid heartbeat can be harmless. Treatment identifies the prediction, uses psychoeducation and cognitive restructuring to distinguish discomfort from danger, then runs interoceptive exposure such as intentionally increasing heart rate in a controlled setting. When the feared catastrophe does not occur, the belief 'racing heart means heart attack' weakens and avoidance becomes less necessary.",
+      "problem": "In exposure-based CBT for panic disorder as developed by David Barlow and colleagues, a patient interprets a racing heart as evidence that a heart attack is imminent and avoids exercise."
+    }
+  ],
+  "core_claims": [
+    "Emotional distress is shaped less by events alone than by appraisals, automatic thoughts, and underlying beliefs about those events.",
+    "Thoughts, emotions, bodily sensations, and behaviors form feedback loops, so changing behavior can change emotion even when insight is incomplete.",
+    "Cognitive distortions such as catastrophizing, overgeneralization, and all-or-nothing thinking are patterned appraisal errors that can be identified and tested.",
+    "Avoidance and safety behaviors reduce discomfort immediately but often prevent disconfirmation of feared predictions, thereby maintaining anxiety and depression.",
+    "Beliefs should be treated as hypotheses: clients improve by gathering evidence, running behavioral experiments, and updating appraisals.",
+    "Effective change is collaborative and skills-based: the therapist and client build a case formulation, practice between sessions, and measure outcomes.",
+    "Core beliefs and conditional assumptions bias which automatic thoughts arise, making surface-level thought replacement insufficient for persistent problems."
+  ],
+  "description": "Cognitive Behavioral Framing analyzes distress and dysfunction as maintained by reciprocal loops among situations, automatic thoughts, emotions, bodily sensations, and behaviors, with change produced by testing beliefs, modifying behavior, and building alternative interpretations.",
+  "domains": [
+    "psychotherapy",
+    "clinical-psychology",
+    "behavior-change",
+    "self-regulation"
+  ],
+  "failure_modes": [
+    "Over-intellectualizing distress: clients or practitioners may analyze thoughts endlessly while avoiding the behavioral experiments that produce disconfirming experience.",
+    "Invalidating real adversity: reframing can become harmful if it implies that oppression, illness, grief, or unsafe environments are merely distorted thoughts.",
+    "Premature positive thinking: replacing thoughts with optimistic statements without evidence testing can create brittle reassurance rather than belief change.",
+    "Ignoring therapeutic relationship and readiness: technically correct worksheets can fail when shame, trauma, culture, or alliance problems are not addressed.",
+    "Treating symptoms without formulation: applying generic distortion labels may miss the specific maintaining cycle, core belief, or reinforcement pattern."
+  ],
+  "key_vocabulary": {
+    "Automatic thought": "A rapid evaluative thought or image that arises in a situation and feels plausible before it is examined.",
+    "Behavioral experiment": "A planned real-world test of a prediction or belief, designed to produce learning rather than mere reassurance.",
+    "Case formulation": "A working map of the maintaining cycle connecting triggers, thoughts, emotions, bodily sensations, behaviors, and consequences.",
+    "Cognitive distortion": "A recurring pattern of biased appraisal, such as catastrophizing or mind reading, that predictably intensifies distress.",
+    "Cognitive restructuring": "The practice of identifying a thought, evaluating evidence for and against it, and generating a more balanced alternative.",
+    "Conditional assumption": "A rule-like belief, often phrased as if-then or should, that links behavior to safety, worth, or acceptance.",
+    "Core belief": "A broad, deeply held belief about self, others, or the world that organizes interpretation across many situations.",
+    "Exposure": "A systematic confrontation with feared situations, sensations, or memories so avoidance decreases and new learning occurs.",
+    "Safety behavior": "An action used to prevent or reduce feared outcomes that also prevents learning that the feared outcome may not occur."
+  },
+  "name": "Cognitive Behavioral Framing",
+  "operative_procedure": [
+    "Define the target episode concretely: specify the situation, time, place, people involved, and the problematic emotion or behavior to be understood.",
+    "Map the CBT loop: record automatic thoughts or images, emotions with intensity ratings, bodily sensations, behaviors, and immediate and delayed consequences.",
+    "Identify appraisals and distortions: mark catastrophizing, mind reading, fortune telling, overgeneralization, all-or-nothing thinking, personalization, or emotional reasoning where they appear.",
+    "Infer maintaining mechanisms: determine how avoidance, withdrawal, checking, reassurance seeking, rumination, or safety behaviors reduce distress now while keeping the belief alive.",
+    "Evaluate thoughts as hypotheses: list evidence for and against the thought, separate facts from interpretations, and generate a balanced alternative appraisal.",
+    "Design a behavioral experiment: state the prediction, choose a small test, drop or vary safety behaviors if appropriate, measure what happens, and record what was learned.",
+    "Work downward to assumptions when episodes repeat: ask what the thought would mean if true, identify conditional assumptions and core beliefs, and test those at the right level.",
+    "Consolidate new learning: translate results into coping plans, practice assignments, relapse cues, and revised beliefs that can be used in future trigger situations."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Behaviorism",
+      "Cognitive Therapy",
+      "Rational Emotive Behavior Therapy"
+    ],
+    "composes_with": [
+      "Stoicism | dichotomy of control, virtue as the only good, negative visualization",
+      "Pre-mortem",
+      "Behavior Design",
+      "Exposure Therapy"
+    ],
+    "descendants": [
+      "Acceptance and Commitment Therapy",
+      "Dialectical Behavior Therapy",
+      "Mindfulness-Based Cognitive Therapy"
+    ],
+    "related": [
+      "Behavioral Activation",
+      "Rational Emotive Behavior Therapy",
+      "Dual-Process Theory | System 1 / System 2 cognition (Kahneman, Stanovich)",
+      "Lojong"
+    ],
+    "rivals": [
+      "Psychoanalysis",
+      "Person-Centered Therapy",
+      "Existential Therapy",
+      "Biological Psychiatry"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Cognitive Behavioral Framing is strongest for tractable patterns of anxiety, depression, avoidance, anger, habits, and self-defeating interpretations where thoughts and behaviors can be observed and tested. It is not a full account of all suffering, and it must be adapted for trauma, psychosis, neurodivergence, severe crisis, cultural context, and material danger. It is a practical formulation method, not a replacement for licensed clinical care when risk is high.",
+  "source_summary": "Authored from model knowledge of Beck, Ellis, Judith Beck, Barlow, and standard CBT clinical literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Aaron T. Beck, Depression: Causes and Treatment (1967)"
+    },
+    {
+      "kind": "primary",
+      "title": "Aaron T. Beck, Cognitive Therapy and the Emotional Disorders (1976)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Judith S. Beck, Cognitive Behavior Therapy: Basics and Beyond (1995)"
+    },
+    {
+      "kind": "primary",
+      "title": "Albert Ellis, Reason and Emotion in Psychotherapy (1962)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Cognitive behavioral therapy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a person is stuck in recurring distress where thoughts, feelings, avoidance, and consequences reinforce each other",
+    "a reaction seems disproportionate to the immediate situation and depends on an interpretation that may be testable",
+    "avoidance, reassurance seeking, checking, withdrawal, or safety behaviors are reducing anxiety short term while maintaining the problem long term",
+    "a practical intervention is needed that translates emotional difficulty into observable situations, beliefs, behaviors, and experiments",
+    "a team or individual needs to distinguish facts, automatic interpretations, emotional responses, and chosen actions"
+  ]
+}

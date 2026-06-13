@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "Larrey's battlefield triage broke with rank-based evacuation by prioritizing medical urgency and probability of benefit. Soldiers needing immediate surgery or evacuation were treated ahead of those who could safely wait, regardless of rank, while the moribund and the lightly wounded did not consume the first scarce surgical capacity. The framework's distinctive move is not compassion alone but ordered allocation: when surgeons, ambulances, and time are scarce, priority goes where delay is lethal and intervention is still likely to help.",
+      "problem": "Dominique Jean Larrey organized care and evacuation for mass battlefield casualties during the Napoleonic wars."
+    },
+    {
+      "analysis": "START triage operationalizes urgency and salvageability into quick field categories. Walking patients are initially tagged minor; nonbreathing patients receive airway repositioning and, if still apneic, are tagged deceased/expectant; patients with respirations, poor perfusion, or inability to follow commands are immediate; others are delayed. The point is to spend seconds per patient, not produce a complete diagnosis. The method allocates scarce transport and treatment first to patients most likely to die without immediate care and still likely to benefit from it.",
+      "problem": "A mass-casualty incident overwhelms available emergency responders, transport, and treatment capacity."
+    }
+  ],
+  "core_claims": [
+    "When needs exceed resources, first-come-first-served and equal attention can increase preventable deaths by consuming capacity on cases that are either stable or unsalvageable.",
+    "Priority should combine urgency with salvageability: the highest-priority case is not always the sickest, but the one where immediate resource use most changes outcome.",
+    "Triage is a dynamic sorting process, not a one-time diagnosis; categories must change as patient condition, resource levels, and operational context change.",
+    "The lightly affected and the expectant can both be deprioritized for opposite reasons: one can safely wait, the other is unlikely to benefit from scarce resources under current conditions.",
+    "Speed and coarse categorization are virtues under overload because fine-grained assessment can itself become a harmful use of scarce time.",
+    "Triage decisions require explicit ethical and operational criteria because implicit ad hoc prioritization tends to smuggle in status, visibility, pressure, or clinician emotion."
+  ],
+  "description": "Triage Thinking allocates scarce attention, time, personnel, equipment, or treatment by sorting cases according to urgency, expected benefit, and salvageability under resource constraints.",
+  "domains": [
+    "medicine",
+    "emergency-management",
+    "resource-allocation",
+    "ethics"
+  ],
+  "failure_modes": [
+    "Severity fixation: giving priority to the worst-looking case even when intervention is unlikely to help can reduce total lives saved under scarcity.",
+    "Invisible-waiting harm: stable or quiet cases can deteriorate if reassessment intervals are not built into the triage system.",
+    "Category hardening: provisional tags can become moral labels, causing teams to neglect patients whose status changes or whose salvageability was misjudged.",
+    "Bias under pressure: status, age, disability, race, language, emotional salience, or staff familiarity can distort priority unless criteria are explicit and audited.",
+    "Peacetime ethics confusion: crisis triage standards can be wrongly imported into normal conditions where scarcity is not severe enough to justify withholding beneficial care.",
+    "Over-assessment: spending too long on precise diagnosis during initial sorting can waste the very resource triage is meant to preserve."
+  ],
+  "key_vocabulary": {
+    "Delayed": "A category for serious cases that need care but can safely wait while immediate cases are treated first.",
+    "Expectant": "A category for cases unlikely to survive or benefit from scarce resources under current conditions. It should trigger comfort care and reassessment, not abandonment.",
+    "Immediate": "A category for cases at high risk of death or major deterioration without rapid intervention and likely to benefit from that intervention.",
+    "Minor": "A category for cases whose treatment can be delayed because they are ambulatory or stable enough not to consume first-line scarce resources.",
+    "Re-triage": "Repeating the sorting process as conditions, resource availability, or patient status changes.",
+    "Salvageability": "The probability that a scarce intervention will materially improve outcome for a case.",
+    "Scarcity standard": "The threshold at which ordinary individualized care must shift to crisis allocation because resources cannot meet all simultaneous needs.",
+    "Triage tag": "A provisional category used to communicate priority and route patients or tasks quickly."
+  },
+  "name": "Triage Thinking",
+  "operative_procedure": [
+    "Declare the scarce resource and the operating context: time, clinicians, beds, ventilators, transport, attention, money, or decision bandwidth.",
+    "Define the triage objective explicitly, such as maximizing lives saved, life-years, mission continuity, fairness under scarcity, or time-critical harm reduction.",
+    "Establish rapid categories before sorting: immediate, delayed, minor, expectant, or a domain-specific equivalent with clear thresholds.",
+    "Assess each case quickly for urgency: what bad outcome will occur without action, and how soon?",
+    "Assess each case quickly for salvageability: how likely is the available resource to change the outcome, and how much resource would it consume?",
+    "Assign priority by the urgency-salvageability interaction, not by arrival order, status, emotional pressure, or severity alone.",
+    "Route resources according to category: immediate intervention, delayed queue, self-care/minor stream, comfort care, transfer, or monitoring.",
+    "Schedule re-triage intervals and triggers so deteriorating delayed cases and improving expectant cases can be reclassified.",
+    "Document the criteria and contested calls; after the surge, review outcomes for bias, category drift, and whether scarcity standards were justified."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Military Medicine",
+      "Disaster Medicine",
+      "Utilitarianism"
+    ],
+    "composes_with": [
+      "Differential Diagnosis | clinical reasoning: generate, rank, and exclude candidate causes",
+      "Decision Theory",
+      "Cost-Benefit Analysis",
+      "Care Ethics | Gilligan/Noddings: relationships and dependency as moral center"
+    ],
+    "descendants": [
+      "START Triage",
+      "Emergency Severity Index",
+      "Crisis Standards of Care",
+      "Ventilator Allocation Protocols"
+    ],
+    "related": [
+      "Utilitarianism",
+      "Decision Theory",
+      "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
+      "Systems Thinking"
+    ],
+    "rivals": [
+      "First-Come, First-Served Allocation",
+      "Egalitarian Lottery",
+      "Rule of Rescue",
+      "Care Ethics | Gilligan/Noddings: relationships and dependency as moral center"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Triage Thinking is strongest during genuine scarcity, overload, emergency response, and queueing problems where delay changes outcomes and resources cannot meet all needs at once. It is weaker as a general ethics of care because it deliberately compresses individual detail to preserve system performance. Outside crisis conditions, triage logic can become an unjust excuse for rationing care or attention that should be expanded instead.",
+  "source_summary": "Authored from model knowledge of Larrey's battlefield triage, START triage, emergency medicine triage scales, disaster medicine, and crisis standards of care literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "secondary",
+      "title": "Kenneth V. Iserson and John C. Moskop, 'Triage in Medicine, Part I: Concept, History, and Types'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Kenneth V. Iserson and John C. Moskop, 'Triage in Medicine, Part II: Underlying Values and Principles'"
+    },
+    {
+      "kind": "primary",
+      "title": "Simple Triage and Rapid Treatment (START) triage system"
+    },
+    {
+      "kind": "secondary",
+      "title": "Institute of Medicine, Crisis Standards of Care: A Systems Framework for Catastrophic Disaster Response"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Triage (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Triage"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "More urgent needs arrive than available resources can handle at once, and delay will change outcomes.",
+    "Some cases can safely wait while others will suffer irreversible harm without immediate attention.",
+    "The most severe case may not be the case most likely to benefit from scarce intervention.",
+    "A queue, incident, hospital unit, project portfolio, or support channel needs explicit priority rules under overload.",
+    "Emotional salience, rank, arrival order, or pressure could distort allocation unless sorting criteria are made explicit."
+  ]
+}

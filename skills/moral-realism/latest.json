@@ -1,0 +1,121 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:57Z",
+  "canonical_examples": [
+    {
+      "analysis": "The realist uses the example to resist simple reduction. Even after all natural facts about pleasure are specified, the question 'but is it good?' remains intelligible, suggesting that moral property and proposed natural synonym are not analytically identical. The analysis supports a non-naturalist realist conclusion: goodness is a genuine property known differently from ordinary natural properties.",
+      "problem": "G. E. Moore's open question argument: if 'good' meant 'pleasant' or any natural property, it should be closed or trivial to ask whether that property is really good."
+    },
+    {
+      "analysis": "A moral realist treats Mackie's challenge as a defeater to answer, not as a reason to abandon truth-aptness immediately. The realist can reply by naturalizing moral facts, by defending non-natural reasons as no stranger than logical or mathematical norms, or by arguing that moral practice indispensably commits us to objective reasons. The procedure forces the realist to specify what kind of fact wrongness is and how agents can know it.",
+      "problem": "J. L. Mackie's argument from queerness: objective values would be metaphysically and epistemologically strange, unlike anything else in the universe."
+    }
+  ],
+  "core_claims": [
+    "At least some moral propositions are truth-apt and true: claims such as 'torturing the innocent for fun is wrong' purport to describe how things morally are.",
+    "The truth of basic moral claims is not constituted merely by individual approval, collective convention, divine command, emotional expression, or strategic usefulness.",
+    "Whole communities can be morally mistaken, because social acceptance does not fix moral truth.",
+    "Moral inquiry can improve by testing judgments against reasons, cases, explanatory coherence, and defeaters, even when certainty is unavailable.",
+    "Moral facts can figure in practical explanation: cruelty, injustice, or rights-violation can explain why blame, reform, resistance, or compensation is called for.",
+    "Persistent disagreement is evidence requiring explanation, not a decisive refutation of moral truth; disagreement also occurs in domains where realism remains plausible.",
+    "A realist analysis must distinguish ontology from epistemology: the existence of moral facts does not imply easy, infallible, or perception-like access to them."
+  ],
+  "description": "Moral Realism holds that some moral claims are truth-apt and true in virtue of moral facts that do not depend merely on anyone's attitudes, approvals, conventions, or prescriptions; moral reasoning aims to discover and respond to those facts.",
+  "domains": [
+    "metaethics",
+    "ethics",
+    "moral-epistemology",
+    "normative-theory"
+  ],
+  "failure_modes": [
+    "Intuition laundering: practitioners may label their culturally trained or self-serving intuitions as access to moral facts without checking bias and defeaters.",
+    "Ontological overreach: realism can be made needlessly mysterious if every moral distinction is posited as a special entity rather than grounded carefully.",
+    "Disagreement minimization: realists can understate the evidential force of persistent, informed, and symmetrical moral disagreement.",
+    "False neutrality: treating realism as settling first-order ethics can hide major disputes among realist utilitarians, deontologists, virtue ethicists, and pluralists.",
+    "Epistemic arrogance: belief in moral facts can encourage premature certainty in hard cases where the realist should report limited access or underdetermination."
+  ],
+  "key_vocabulary": {
+    "Cognitivism": "The view that moral sentences express beliefs and are capable of truth or falsity. Moral realism is a cognitivist position.",
+    "Error theory": "The rival view that moral discourse aims at objective truth but systematically fails because there are no such moral facts or properties.",
+    "Mind-independence": "The realist claim that moral truth is not made true merely by what any person or group believes, desires, approves, commands, or feels.",
+    "Moral fact": "A fact about what is right, wrong, good, bad, obligatory, unjust, virtuous, or reason-giving. Realists differ over whether such facts are natural or non-natural.",
+    "Moral knowledge": "Justified or reliable grasp of moral truths. Realists may explain it through intuition, reflective equilibrium, perception of reasons, or naturalistic inquiry.",
+    "Naturalist realism": "The view that moral properties are identical with or reducible to natural properties, such as well-being, flourishing, or reasons grounded in human life.",
+    "Non-naturalist realism": "The view that moral properties are real but not reducible to natural or scientific properties. Moore and later non-naturalists defend versions of this view.",
+    "Truth-aptness": "The feature of a sentence or thought that makes it eligible to be true or false. Moral realism treats ordinary moral claims as truth-apt."
+  },
+  "name": "Moral Realism",
+  "operative_procedure": [
+    "Formulate the moral proposition precisely: identify the act, practice, policy, character trait, obligation, right, harm, or value being claimed.",
+    "Treat the claim as truth-apt: ask what would make it true or false rather than translating it immediately into approval, command, preference, or social function.",
+    "Separate metaethical distractions from first-order evidence: disagreement, emotion, and cultural variation matter, but they do not by themselves settle the truth of the proposition.",
+    "Gather candidate truth-makers or grounds: welfare, autonomy, fairness, rights, desert, reasons, flourishing, dignity, or other moral properties relevant to the case.",
+    "Test the proposition against considered judgments and nearby cases, looking for principled distinctions rather than ad hoc exception-making.",
+    "Check for defeaters: evolutionary debunking, bias, self-interest, false empirical beliefs, parochial convention, or inconsistency with better-supported moral claims.",
+    "Compare realist explanations with rivals: ask whether error theory, constructivism, expressivism, relativism, or sentimentalism explains the same data better.",
+    "State the realist verdict with epistemic status: say which moral fact or reason is doing the work, how confident the judgment should be, and what evidence would revise it."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Platonism",
+      "Aristotelian Virtue Ethics",
+      "Rational Intuitionism"
+    ],
+    "composes_with": [
+      "Reflective Equilibrium",
+      "Conceptual Analysis",
+      "Inference to the Best Explanation",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Cornell Realism",
+      "Non-Naturalist Moral Realism",
+      "Reasons Fundamentalism",
+      "Moral Particularism"
+    ],
+    "related": [
+      "Reflective Equilibrium",
+      "Kantian Deontology",
+      "Utilitarianism",
+      "Thomistic Natural Law"
+    ],
+    "rivals": [
+      "Expressivism",
+      "Error Theory",
+      "Moral Relativism",
+      "Moral Sentimentalism",
+      "Constructivism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Moral Realism is useful when moral objectivity, moral error, human rights, injustice, obligation, and the truth of ethical claims are at issue. It does not by itself provide a complete normative theory; it must be paired with substantive accounts of value, rightness, virtue, welfare, rights, or reasons.",
+  "source_summary": "Authored from model knowledge of Moore, Mackie, Enoch, and standard moral realism literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "G. E. Moore, Principia Ethica (1903)"
+    },
+    {
+      "kind": "primary",
+      "title": "J. L. Mackie, Ethics: Inventing Right and Wrong (1977)"
+    },
+    {
+      "kind": "primary",
+      "title": "David Enoch, Taking Morality Seriously (2011)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Moral Realism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/moral-realism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A dispute requires asking whether a moral claim is actually true, not merely accepted, useful, expressive, or culturally endorsed.",
+    "Someone argues that disagreement, evolution, or social construction undermines the possibility of objective moral knowledge.",
+    "You need to reason as if moral errors are possible even for a whole society, institution, tradition, or majority.",
+    "A case turns on whether reasons, obligations, rights, or values obtain independently of the agent's desires or local norms.",
+    "You need to compare moral explanations, intuitions, principles, and facts under the assumption that at least some moral truths are discoverable."
+  ]
+}

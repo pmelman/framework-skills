@@ -1,0 +1,128 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:51Z",
+  "canonical_examples": [
+    {
+      "analysis": "TPS reads the supermarket as a pull system: downstream consumption, not upstream forecast, authorizes replenishment. The shelf is a visible buffer with a reorder signal; inventory is limited but replenished frequently. Ohno converted this into kanban: the downstream process withdraws only what it needs, and the upstream process produces only to replace the withdrawn quantity, exposing overproduction and excess inventory as muda.",
+      "problem": "Taiichi Ohno repeatedly used the American supermarket as the model for Toyota's kanban system: customers take what they need from shelves, and the store replenishes what has actually been taken."
+    },
+    {
+      "analysis": "TPS treats the stopping mechanism as jidoka, not inefficiency. A defect is made visible at the moment it occurs, production is stopped or signaled by andon, and the team investigates root cause rather than letting bad work flow downstream. The procedure protects quality at the source and converts each abnormality into kaizen, even though it sacrifices short-term utilization.",
+      "problem": "Toyota's loom lineage, associated with Sakichi Toyoda, included automatic stopping when a thread broke, preventing defective fabric from being produced unattended."
+    }
+  ],
+  "core_claims": [
+    "Overproduction is the worst waste because it hides the other wastes behind inventory, motion, waiting, transport, defects, overprocessing, and unnecessary work.",
+    "A process should produce to actual downstream pull, not to forecasts or local machine utilization targets.",
+    "Quality must be built into the process through jidoka: abnormalities should stop or signal the process immediately rather than be inspected out later.",
+    "Improvement depends on genchi genbutsu: managers and engineers must observe actual work at the actual place before prescribing countermeasures.",
+    "Standardized work is not bureaucracy; it is the current best-known baseline that makes abnormality and kaizen visible.",
+    "Flow improves by reducing batch size, setup time, queues, and inventory, even when this lowers apparent local efficiency.",
+    "Respect for people means designing work so operators can surface problems, stop the line, and participate in continuous improvement."
+  ],
+  "description": "Toyota Production System is the lean production framework built around just-in-time flow, jidoka, waste elimination, standardized work, kaizen, and direct observation of actual work to improve quality, cost, delivery, and human problem-solving.",
+  "domains": [
+    "operations",
+    "manufacturing",
+    "management",
+    "process-improvement"
+  ],
+  "failure_modes": [
+    "Cargo-cult lean: copying kanban boards, 5S labels, or takt charts without changing management behavior, problem-solving routines, or respect for workers.",
+    "Using lean as headcount reduction: this destroys the trust required for operators to reveal waste and stop the line.",
+    "Pursuing low inventory before process stability: buffers disappear, but root causes remain, causing shortages and firefighting.",
+    "Mistaking local utilization for system performance: keeping every machine or person busy can increase queues, lead time, and overproduction.",
+    "Turning standardized work into frozen compliance rather than a baseline for kaizen, which blocks the learning loop TPS depends on.",
+    "Practitioners can become so committed to visible shop-floor tools that they miss demand volatility, supplier fragility, or strategic tradeoffs outside the cell."
+  ],
+  "key_vocabulary": {
+    "Andon": "A visible signal that indicates abnormality and summons help; it supports immediate problem response rather than silent workarounds.",
+    "Genchi genbutsu": "Go and see the actual place and actual thing; analysis should begin from direct observation of real work.",
+    "Heijunka": "Production leveling that smooths volume and mix to make flow stable and reduce unevenness.",
+    "Jidoka": "Automation with a human touch: the process detects abnormality, stops or signals, and prevents defects from flowing downstream.",
+    "Just-in-time": "Producing and delivering only what is needed, when needed, in the needed amount.",
+    "Kaizen": "Continuous improvement through many small, disciplined experiments by people close to the work.",
+    "Kanban": "A signal card or visual authorization that controls replenishment in a pull system.",
+    "Muda": "Waste: activity that consumes resources without adding value from the customer's point of view.",
+    "Standardized work": "The documented current best method, including sequence, timing, and work-in-process; it is the baseline for detecting abnormality and improving.",
+    "Takt time": "The pace of production required to meet customer demand, calculated from available work time divided by demand."
+  },
+  "name": "Toyota Production System",
+  "operative_procedure": [
+    "Define value from the customer's point of view: what output, quality, timing, and cost the process must deliver.",
+    "Go to the gemba and practice genchi genbutsu: observe actual work, actual material, actual information flow, and actual abnormalities without relying only on reports.",
+    "Map the value stream from demand signal to delivery, marking cycle time, wait time, inventory, rework, transport, handoffs, and information triggers.",
+    "Identify muda, mura, and muri: waste, unevenness, and overburden, with special attention to overproduction and hidden queues.",
+    "Separate push from pull: replace forecast-driven local production with kanban or another replenishment signal where downstream consumption can authorize upstream work.",
+    "Build in jidoka: define abnormal conditions, make them visible through andon or equivalent signals, stop or contain defects, and respond immediately.",
+    "Establish standardized work and takt-aligned flow so normal conditions are explicit and deviations can be seen.",
+    "Run kaizen cycles: ask why repeatedly, test countermeasures, update the standard, and involve the people who do the work.",
+    "Measure system performance by lead time, first-pass quality, inventory, delivery reliability, safety, and learning, not by isolated utilization."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Scientific Management",
+      "Statistical Quality Control",
+      "Training Within Industry"
+    ],
+    "composes_with": [
+      "Theory of Constraints",
+      "Systems Thinking",
+      "PDCA Cycle",
+      "Root Cause Analysis"
+    ],
+    "descendants": [
+      "Lean Manufacturing",
+      "Lean Startup",
+      "Lean Software Development",
+      "Agile"
+    ],
+    "related": [
+      "Six Sigma",
+      "Total Quality Management",
+      "Kanban",
+      "Continuous Improvement"
+    ],
+    "rivals": [
+      "Mass Production",
+      "Economic Order Quantity",
+      "Theory of Constraints",
+      "Taylorism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "TPS is strongest for repetitive or semi-repetitive work where flow, quality, inventory, and learning can be observed and improved through disciplined routines. It can be adapted to services and software, but literal factory tools often mislead when demand is highly novel, work is exploratory, or variability is the value being produced. It requires management commitment to problem surfacing, not only worker compliance with lean artifacts.",
+  "source_summary": "This skill was authored from model knowledge of Taiichi Ohno, Toyota internal doctrine, Womack and Jones, Liker, and lean production literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Taiichi Ohno, Toyota Production System: Beyond Large-Scale Production"
+    },
+    {
+      "kind": "primary",
+      "title": "Shigeo Shingo, A Study of the Toyota Production System"
+    },
+    {
+      "kind": "secondary",
+      "title": "James P. Womack, Daniel T. Jones, and Daniel Roos, The Machine That Changed the World"
+    },
+    {
+      "kind": "secondary",
+      "title": "Jeffrey K. Liker, The Toyota Way"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Toyota Production System (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toyota_Production_System"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a process has long lead times, hidden queues, rework, excess inventory, or recurring quality escapes",
+    "teams are optimizing local utilization while customers experience delay, defects, or unreliable delivery",
+    "work is pushed by schedules or forecasts even though downstream demand and replenishment signals could govern flow",
+    "operators see problems first but lack authority, signals, or routines to stop work and trigger improvement",
+    "a service, factory, or software delivery stream needs disciplined continuous improvement grounded in direct observation"
+  ]
+}

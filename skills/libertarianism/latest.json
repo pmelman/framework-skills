@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:49Z",
+  "canonical_examples": [
+    {
+      "analysis": "Nozick stipulates that D1 is just. If one million people voluntarily pay Wilt Chamberlain twenty-five cents each to watch him play, Chamberlain ends with much more than others in distribution D2. Any patterned principle that condemns D2 must either forbid the voluntary exchanges or continually interfere to restore the pattern. The entitlement theory concludes that liberty upsets patterns: if holdings were justly acquired and transferred, the resulting inequality is not unjust merely because it violates an egalitarian distribution.",
+      "problem": "Nozick's Wilt Chamberlain example in Anarchy, State, and Utopia: a just initial distribution is transformed when fans voluntarily pay extra to watch Chamberlain play basketball."
+    },
+    {
+      "analysis": "The experience machine offers maximal pleasurable experience but requires surrendering real agency, contact with reality, and authorship of one's life. Nozick uses it against hedonistic and utilitarian accounts of value: what matters is not only how experiences feel from the inside but what a person actually does and is. In libertarian political analysis, this supports taking persons as separate agents whose lives may not be optimized from outside as containers of welfare.",
+      "problem": "Nozick's experience machine thought experiment asks whether one should plug into a machine that gives any desired experiences while one's body floats in a tank."
+    }
+  ],
+  "core_claims": [
+    "Persons are self-owners with moral boundaries that others may not cross merely to improve aggregate welfare or enforce a social pattern.",
+    "Rights function as side constraints on action, not as goals to be maximized by violating some persons' rights for better overall rights-protection.",
+    "A distribution is just if it arises from just acquisition, voluntary transfer, and rectification of injustice, regardless of whether it fits any patterned ideal.",
+    "Taxing earnings from labor for redistributive purposes is morally akin to forcing labor for others unless justified by a prior entitlement or rectification claim.",
+    "Liberty continually disrupts patterned distributive principles because voluntary exchanges alter shares in ways no end-state theory can preserve without interference.",
+    "The most extensive state that can be justified is a minimal state limited to protection against force, theft, fraud, and enforcement of contracts.",
+    "Historical entitlement matters more than snapshot equality: the same distribution can be just or unjust depending on how holdings came about."
+  ],
+  "description": "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice treats persons as self-owning agents with rights that constrain what others and the state may do, grounding distributive justice in just acquisition, voluntary transfer, and rectification rather than patterned equality.",
+  "domains": [
+    "political-philosophy",
+    "ethics",
+    "law",
+    "political-economy"
+  ],
+  "failure_modes": [
+    "Rectification indeterminacy: real property holdings often trace through conquest, slavery, exclusion, fraud, and state privilege, making clean entitlement histories difficult to establish.",
+    "Ignoring background coercion: formally voluntary transfer can occur under desperation, monopoly, or inherited deprivation that the theory may not classify as rights violation.",
+    "Absolutizing self-ownership: treating all taxation or regulation as rights invasion can block plausible duties of rescue, public goods provision, or remedy for structural injustice.",
+    "Thin account of children, disability, dependency, and care: self-ownership models fit competent adult exchange better than human dependence across the life cycle.",
+    "The characteristic practitioner error is to defend current market outcomes as voluntary without auditing acquisition, transfer, state privilege, and rectification."
+  ],
+  "key_vocabulary": {
+    "Entitlement theory": "Nozick's historical theory that holdings are just when they result from just acquisition, just transfer, and rectification of past injustice.",
+    "Historical principle": "A principle of justice that evaluates how a distribution came about, not just its current pattern or end-state.",
+    "Justice in acquisition": "The conditions under which previously unowned resources may become legitimately owned, constrained by versions of the Lockean proviso.",
+    "Justice in transfer": "The principle that holdings may be legitimately transferred by voluntary exchange, gift, or contract without fraud or force.",
+    "Lockean proviso": "The constraint that appropriation of unowned resources must not worsen others in the relevant sense; Nozick interprets and weakens Locke's 'enough and as good' condition.",
+    "Minimal state": "A state limited to protecting persons against force, theft, fraud, and enforcing contracts, without redistributive or perfectionist functions.",
+    "Patterned principle": "A distributive principle that requires holdings to match a pattern such as equality, need, merit, or utility at a time.",
+    "Rectification": "The correction owed when holdings arise through theft, fraud, conquest, enslavement, or other unjust acquisition or transfer.",
+    "Self-ownership": "The claim that each person has a stringent moral claim over their body, labor, and choices, making them unavailable as a resource for others.",
+    "Side constraint": "A right that constrains permissible action rather than serving as one value to maximize in an aggregate calculus."
+  },
+  "name": "Libertarianism",
+  "operative_procedure": [
+    "Identify the proposed interference: specify who would be coerced, taxed, regulated, conscripted, excluded, or compelled, and by what authority.",
+    "State the side constraints: name the rights at stake, especially bodily integrity, property, contract, association, and freedom from force, theft, and fraud.",
+    "Audit acquisition: ask whether the relevant holdings or powers were initially acquired justly, including whether appropriation worsened others under the Lockean proviso.",
+    "Audit transfer: trace whether subsequent holdings arose through voluntary exchange, gift, contract, or inheritance rather than fraud, force, coercion, or theft.",
+    "Assess rectification: where injustice appears in the chain of title, specify compensation, return, or institutional repair before defending current holdings.",
+    "Reject end-state shortcuts: do not infer injustice from inequality, need, envy, or failure to match a pattern unless an entitlement violation is shown.",
+    "Test state scope: ask whether the policy fits protection against force, theft, fraud, and contract breach, or whether it exceeds the minimal state's mandate.",
+    "Explain liberty's disruption of patterns: if a patterned distribution is proposed, identify what voluntary choices would have to be prohibited or reversed to preserve it."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Natural Rights Theory",
+      "Lockean Property Theory",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order"
+    ],
+    "composes_with": [
+      "Deontological Rights Theory",
+      "Public Choice Theory",
+      "Austrian Economics",
+      "Rule of Law"
+    ],
+    "descendants": [
+      "Anarcho-Capitalism",
+      "Left-Libertarianism",
+      "Bleeding-Heart Libertarianism"
+    ],
+    "related": [
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Kantian Deontology",
+      "Public Choice Theory",
+      "Natural Rights Theory"
+    ],
+    "rivals": [
+      "Rawlsian Justice as Fairness",
+      "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk",
+      "Utilitarianism",
+      "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
+      "Socialism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Nozickian Libertarianism is strongest for analyzing coercion, property, taxation, redistributive policy, state power, and the moral difference between voluntary transfer and imposed pattern. It is weakest where entitlement histories are opaque, background conditions make consent suspect, or justice requires care, public goods, ecological limits, or repair for deep historical injustice.",
+  "source_summary": "Authored from model knowledge of Nozick's libertarian theory and standard rights-based political philosophy discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Robert Nozick, Anarchy, State, and Utopia (1974)"
+    },
+    {
+      "kind": "primary",
+      "title": "John Locke, Second Treatise of Government (1689)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Libertarianism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/libertarianism/"
+    },
+    {
+      "kind": "secondary",
+      "title": "Robert Nozick's Political Philosophy (Internet Encyclopedia of Philosophy)",
+      "url": "https://iep.utm.edu/noz-poli/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a policy would tax, redistribute, regulate, conscript, or compel people for goals beyond protection from force, theft, fraud, or contract breach",
+    "a dispute turns on whether unequal holdings are unjust because of their history or merely because they violate a desired pattern",
+    "voluntary exchange would disrupt a favored distribution and the question is whether preserving the pattern justifies interference",
+    "property claims require auditing acquisition, transfer, inheritance, fraud, theft, conquest, or rectification",
+    "a proposal treats some persons' labor, body, or holdings as resources for others' welfare or social goals"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "Portugal has an absolute advantage in both goods: it uses fewer laborers for wine and cloth. Comparative advantage asks about relative opportunity cost. In Ricardo's numbers, Portugal sacrifices less cloth when producing wine than England does, while England sacrifices less wine when producing cloth than Portugal does. Portugal should specialize relatively in wine and England relatively in cloth; trade can then give both countries more of both goods than self-sufficiency, provided the terms of trade lie between their internal opportunity-cost ratios.",
+      "problem": "In Ricardo's Principles, Portugal can produce wine with 80 laborers and cloth with 90, while England needs 120 for wine and 100 for cloth. Should England and Portugal still trade?"
+    },
+    {
+      "analysis": "Torrens's example rejects the absolute-cost test. If Poland can produce corn with lower absolute labor cost but England's relative sacrifice in cloth is smaller for producing cloth than corn, England may gain by exporting cloth and importing corn. The relevant comparison is not whether a country is better at producing a good in isolation, but what it gives up domestically to produce it. Trade redirects production toward the good with lower comparative cost and increases the joint product available for exchange.",
+      "problem": "In Robert Torrens's early statement of comparative cost, can a country gain by importing a good even when it might produce that good at home with apparent efficiency?"
+    }
+  ],
+  "core_claims": [
+    "Mutually beneficial trade can exist even when one party has an absolute productivity advantage in every traded good.",
+    "Specialization should follow lower opportunity cost, not higher absolute productivity.",
+    "The gains from trade arise because relative costs differ across parties; identical relative costs eliminate the comparative-advantage gain even if absolute costs differ.",
+    "A valid trade improves both parties only when the terms of trade fall between their domestic opportunity-cost ratios.",
+    "Protection of an absolutely weaker producer can still reduce national welfare if that producer lacks comparative advantage.",
+    "Comparative advantage is a statement about relative alternatives at the margin, not about moral deservingness, wages, or total economic power."
+  ],
+  "description": "Comparative Advantage, classically associated with David Ricardo, explains how parties can gain from specialization and trade according to relative opportunity costs, even when one party is absolutely less productive in every activity.",
+  "domains": [
+    "economics",
+    "trade",
+    "strategy",
+    "resource-allocation"
+  ],
+  "failure_modes": [
+    "Confusing comparative advantage with absolute advantage and therefore missing gains available to the less productive party.",
+    "Ignoring adjustment costs, distributional losses, unemployment, bargaining power, or political constraints created by specialization.",
+    "Assuming labor, capital, and skills move costlessly between sectors when real economies have frictions and stranded assets.",
+    "Treating current comparative advantage as destiny rather than something policy, learning, scale, or institutions can change over time.",
+    "Applying the two-good model mechanically to cases with externalities, strategic industries, national security constraints, or increasing returns."
+  ],
+  "key_vocabulary": {
+    "Absolute advantage": "The ability to produce a good using fewer inputs than another producer. It is not sufficient to determine efficient specialization.",
+    "Comparative advantage": "The ability to produce a good at lower opportunity cost than another producer.",
+    "Gains from trade": "The increase in attainable consumption made possible by specialization and exchange.",
+    "Opportunity cost": "The amount of the next-best alternative good or activity forgone when resources are used in a particular production.",
+    "Production possibility frontier": "The set of output combinations a producer can make with available resources and technology.",
+    "Relative cost": "The cost of one good expressed in units of another good within the same producer's production possibilities.",
+    "Specialization": "Concentrating production in the good or activity for which the producer has comparative advantage.",
+    "Terms of trade": "The exchange ratio at which goods are traded; mutual gains require a ratio between the parties' domestic opportunity costs."
+  },
+  "name": "Comparative Advantage",
+  "operative_procedure": [
+    "List the parties, goods or tasks, and input requirements or output rates for each party in each activity.",
+    "Compute absolute advantage by comparing direct productivity, but do not use it as the specialization rule.",
+    "For each party, calculate the opportunity cost of producing each good in units of the other good.",
+    "Assign comparative advantage to the party with the lower opportunity cost for each good.",
+    "Propose specialization toward comparative-advantage goods, allowing partial specialization when constraints or risk require it.",
+    "Identify the acceptable terms-of-trade interval: the exchange ratio must be better than each party's domestic tradeoff.",
+    "Test mutual gains by comparing consumption possibilities after specialization and exchange with autarky or self-provision.",
+    "Check real-world qualifications: transport costs, transition costs, market power, externalities, learning effects, institutions, and distributional impacts.",
+    "Synthesize by distinguishing the efficiency case for trade from separate questions about compensation, resilience, and strategic policy."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Political Economy",
+      "Opportunity Cost and Marginal Analysis | think at the margin; cost as foregone alternative",
+      "Specialization and Division of Labor"
+    ],
+    "composes_with": [
+      "Opportunity Cost and Marginal Analysis | think at the margin; cost as foregone alternative",
+      "Expected-Value Reasoning",
+      "Game Theory",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Heckscher-Ohlin Trade Theory",
+      "New Trade Theory",
+      "Global Value Chain Analysis"
+    ],
+    "related": [
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Opportunity Cost and Marginal Analysis | think at the margin; cost as foregone alternative",
+      "Expected Utility Theory",
+      "Game Theory"
+    ],
+    "rivals": [
+      "Mercantilism",
+      "Dependency Theory",
+      "Infant Industry Protection",
+      "Economic Nationalism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Comparative Advantage is strongest for analyzing specialization and exchange when parties face different relative costs and can trade at mutually acceptable terms. It does not by itself settle distribution, fairness, industrial policy, resilience, national security, environmental externalities, or the politics of transition. Use it as an efficiency lens, then add institutional and ethical analysis where needed.",
+  "source_summary": "Authored from model knowledge of Ricardo's Principles, Torrens's early comparative-cost argument, Haberler's opportunity-cost restatement, and standard trade theory, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "David Ricardo, On the Principles of Political Economy and Taxation"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert Torrens, An Essay on the External Corn Trade"
+    },
+    {
+      "kind": "secondary",
+      "title": "Gottfried Haberler, The Theory of International Trade"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Comparative advantage (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Comparative_advantage"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "two parties can each perform multiple tasks or produce multiple goods, but their relative efficiencies differ",
+    "someone argues that a less productive party has nothing valuable to trade or specialize in",
+    "a make-versus-buy, outsource-versus-internalize, or trade-versus-autarky decision turns on what each side gives up",
+    "you need to separate productivity advantages from opportunity-cost advantages",
+    "a policy debate treats imports as losses without comparing domestic alternatives and terms of trade"
+  ]
+}

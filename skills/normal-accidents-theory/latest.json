@@ -1,0 +1,117 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:27Z",
+  "canonical_examples": [
+    {
+      "analysis": "Perrow analyzes Three Mile Island as an accident produced by interactive complexity and tight coupling. Multiple failures and misleading indicators interacted in ways operators could not fully diagnose in real time, while the nuclear plant's tightly coupled thermal and control processes left little slack for experimentation or delay. The event was 'normal' in Perrow's sense because such systems generate incomprehensible interactions and rapid cascades despite competent operators and formal safety systems. The implication is that some technologies may require simplification, loosening, or abandonment rather than confidence in better training alone.",
+      "problem": "Charles Perrow uses the 1979 Three Mile Island nuclear accident as a central case in Normal Accidents."
+    },
+    {
+      "analysis": "Perrow's petrochemical examples show how tightly linked flows, pressure, temperature, valves, alarms, and control rooms can combine failures in unexpected ways. Operators face hidden interactions and time pressure while hazardous materials move through processes that cannot easily be stopped or isolated. Redundancy can add complexity when extra valves, alarms, and backup systems create new interactions. Normal Accidents Theory therefore asks whether the system's coupling and complexity make catastrophic surprise structurally likely, not merely whether a component failed.",
+      "problem": "Normal Accidents analyzes petrochemical and chemical process plants as systems where unexpected interactions can escalate quickly."
+    }
+  ],
+  "core_claims": [
+    "In systems that are both interactively complex and tightly coupled, serious accidents are normal: they should be expected as a structural property, not treated as anomalies.",
+    "Interactive complexity makes failure combinations opaque because components interact in unfamiliar, indirect, or unexpected sequences.",
+    "Tight coupling removes slack, buffers, and recovery time, causing disturbances to propagate faster than operators can understand or isolate them.",
+    "Adding safety devices can increase accident risk when redundancy creates new hidden interactions, confusing signals, or common-mode dependencies.",
+    "Operator error is often a retrospective label for actions taken inside an incomprehensible, time-pressured system rather than the root cause of the accident.",
+    "Some hazardous technologies cannot be made acceptably safe through better management alone if their coupling and complexity remain high."
+  ],
+  "description": "Normal Accidents Theory is Charles Perrow's framework for explaining why accidents become inevitable in systems that combine tight coupling with interactive complexity, especially high-risk technologies such as nuclear power, chemical plants, aircraft, and other tightly integrated socio-technical systems.",
+  "domains": [
+    "safety-science",
+    "risk-analysis",
+    "systems-engineering",
+    "organizational-theory"
+  ],
+  "failure_modes": [
+    "Fatalism: treating accidents as inevitable can discourage useful redesign, simplification, decoupling, training, and organizational learning.",
+    "Binary classification: real systems vary by subsystem and operating mode; labeling an entire organization simply complex/tightly coupled can miss where intervention is possible.",
+    "Underestimating high-reliability practices: some organizations manage hazardous systems better than Normal Accidents Theory predicts through redundancy, culture, training, and mindful operations.",
+    "Hindsight inflation: after an accident, analysts may overstate how unknowable interactions were and understate neglected warnings or preventable management failures.",
+    "Confusing complication with interactive complexity: many-component systems are not necessarily interactively complex if interactions are linear, visible, and decomposable."
+  ],
+  "key_vocabulary": {
+    "Common-mode failure": "A failure in which supposedly independent safeguards fail together because they share an underlying dependency, environment, design assumption, or trigger.",
+    "Interactive complexity": "A condition in which system components interact in unexpected, unfamiliar, nonlinear, or hard-to-see ways.",
+    "Linear interaction": "A more predictable sequence of interactions in which failures propagate along visible, expected paths.",
+    "Loose coupling": "A system condition with slack, buffers, substitutability, and time to diagnose and recover before disturbances cascade.",
+    "Normal accident": "An accident that arises from the structural properties of a system rather than from an exceptional breakdown or uniquely negligent actor.",
+    "Redundancy paradox": "The possibility that adding backup systems and safeguards can increase complexity and create new paths to failure.",
+    "Tight coupling": "A system condition in which processes are time-dependent, invariant, closely sequenced, and difficult to stop, isolate, or buffer."
+  },
+  "name": "Normal Accidents Theory",
+  "operative_procedure": [
+    "Define the hazardous system and the accident or risk scenario, including technical components, operators, organizations, and environmental interfaces.",
+    "Assess interactive complexity: identify hidden, indirect, nonlinear, unfamiliar, or hard-to-diagnose interactions among components and subsystems.",
+    "Assess coupling: determine whether processes are time-critical, tightly sequenced, hard to stop, bufferless, or resistant to isolation.",
+    "Place the system in Perrow's matrix: linear versus complex interactions crossed with loose versus tight coupling.",
+    "Examine redundancy and safeguards for added complexity, common-mode dependencies, confusing signals, and new interaction paths.",
+    "Reinterpret operator error by reconstructing what information, time, alarms, and control options were available during the evolving event.",
+    "Identify structural interventions: simplify interactions, decouple processes, add buffers and isolation, slow propagation, improve observability, or reduce hazardous scale.",
+    "If high complexity and tight coupling cannot be reduced, evaluate whether the technology or operating mode should be restricted, decentralized, or abandoned."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Systems Theory",
+      "Organizational Sociology",
+      "Risk Analysis"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Resilience Engineering",
+      "Cybernetics",
+      "Root Cause Analysis"
+    ],
+    "descendants": [
+      "High Reliability Organization Theory",
+      "Safety Science",
+      "System Accident Theory"
+    ],
+    "related": [
+      "Resilience Engineering",
+      "High Reliability Organization Theory",
+      "Swiss Cheese Model",
+      "Systems Thinking"
+    ],
+    "rivals": [
+      "High Reliability Organization Theory",
+      "Resilience Engineering",
+      "Root Cause Analysis",
+      "Swiss Cheese Model"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Normal Accidents Theory is strongest for high-hazard systems where component interactions are opaque and processes are tightly linked: nuclear plants, chemical processing, air and space systems, financial infrastructures, and tightly automated platforms. It is less compelling for simple, loosely coupled, visible systems where accidents can be traced to linear failures and improved with straightforward controls. It is a structural risk theory, not a complete accident investigation method.",
+  "source_summary": "Authored from model knowledge of named sources on Perrow's Normal Accidents Theory, Three Mile Island, tight coupling, interactive complexity, and high-reliability debates, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Charles Perrow, Normal Accidents: Living with High-Risk Technologies (1984)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Scott D. Sagan, The Limits of Safety: Organizations, Accidents, and Nuclear Weapons (1993)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Todd R. La Porte and Paula M. Consolini, 'Working in Practice but Not in Theory: Theoretical Challenges of High-Reliability Organizations,' Journal of Public Administration Research and Theory (1991)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Normal accident (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Normal_accident"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a serious accident emerged from surprising interactions among components rather than a single obvious failed part",
+    "a hazardous system has fast propagation, little slack, limited reversibility, or no time for operators to diagnose before escalation",
+    "adding safeguards, automation, alarms, or redundancy may have made the system harder to understand or control",
+    "incident debate focuses on operator error but the operators faced ambiguous signals in a rapidly evolving coupled system",
+    "you need to decide whether a technology can be made safer by management improvements or requires simplification, decoupling, or withdrawal"
+  ]
+}

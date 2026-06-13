@@ -1,0 +1,128 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "Taylor treated the blast radius R as depending mainly on released energy E, air density rho, and time t. Dimensional consistency requires R to be proportional to (E t^2 / rho)^(1/5), up to a dimensionless constant, because energy has dimensions M L^2 T^-2 and density has M L^-3. Photographs of the expanding fireball supplied R and t; using air density and the scaling law yielded an estimate of the explosion energy. The framework did not need classified design details: units and scaling constrained the possible formula strongly enough to make the order of magnitude visible.",
+      "problem": "G. I. Taylor estimated the energy of the first atomic explosion from published photographs of the expanding blast wave."
+    },
+    {
+      "analysis": "For a small-angle simple pendulum, suppose the period T depends mainly on length L, gravitational acceleration g, and bob mass m. The dimensions are [T] for period, [L] for length, [L T^-2] for g, and [M] for mass. No combination involving m is needed or possible to produce time without introducing another dimensional quantity, while sqrt(L/g) has dimension T. Dimensional analysis therefore predicts T proportional to sqrt(L/g), with a dimensionless constant later supplied by dynamics as 2 pi. It also shows why bob mass should not affect the ideal small-angle period.",
+      "problem": "Classical mechanics asks how the period of a small-angle simple pendulum depends on length, gravity, and mass."
+    }
+  ],
+  "core_claims": [
+    "Any physically meaningful equation must be dimensionally homogeneous: terms added or equated must have the same dimensions.",
+    "Units expose impossible formulas before data or detailed theory are available; a wrong dimension is a decisive error, not a small approximation.",
+    "The number of independent dimensionless groups in a problem is constrained by the number of variables and fundamental dimensions, as formalized by the Buckingham Pi theorem.",
+    "Scaling laws can predict functional dependence and order of magnitude even when dimensionless constants or detailed mechanisms remain unknown.",
+    "A variable that cannot enter any needed dimensionless group under the stated assumptions is irrelevant to the leading-order behavior of the model.",
+    "Changing units cannot change a real physical prediction; any formula whose meaning depends on the measurement convention is suspect.",
+    "Dimensionless numbers such as Reynolds number identify regimes where different physical effects dominate and where model similarity is possible."
+  ],
+  "description": "Dimensional Analysis uses units, dimensions, dimensionless groups, and scaling laws as hard constraints on equations, estimates, experiments, and physical intuition.",
+  "domains": [
+    "physics",
+    "engineering",
+    "modeling",
+    "estimation"
+  ],
+  "failure_modes": [
+    "Missing-variable false certainty: dimensional analysis can produce a clean scaling law only because an important variable, boundary condition, or material parameter was omitted.",
+    "Dimensionless-constant blindness: units cannot determine numerical constants, functions of dimensionless groups, or thresholds without theory or data.",
+    "Regime confusion: a scaling valid for laminar flow, small angles, long wavelengths, or high Reynolds number can fail outside that regime.",
+    "Cargo-cult unit checking: merely confirming homogeneous units can make a formula possible, not true.",
+    "Base-dimension dependence errors: treating temperature, angle, information, currency, or empirical index units carelessly can hide assumptions about what dimensions are fundamental.",
+    "Over-compression: reducing a complex system to a few variables can erase mechanisms that are decisive for design or safety."
+  ],
+  "key_vocabulary": {
+    "Buckingham Pi theorem": "A theorem stating that a relation among n dimensional variables involving k independent fundamental dimensions can be rewritten using n-k independent dimensionless groups.",
+    "Characteristic scale": "A representative length, time, velocity, mass, or force used to nondimensionalize variables and identify dominant effects.",
+    "Dimension": "The physical kind of a quantity, such as length, mass, time, charge, or temperature, independent of the unit used to measure it.",
+    "Dimensional homogeneity": "The rule that terms in a valid physical equation must have matching dimensions. It is the basic error check of the framework.",
+    "Dimensionless group": "A product or ratio of variables whose combined dimensions cancel to one. Such groups often govern regimes and similarity.",
+    "Nondimensionalization": "Rescaling variables by characteristic quantities so equations are expressed in dimensionless form.",
+    "Order of magnitude": "An approximate scale, usually within a factor of ten. Dimensional analysis often aims for this rather than exact prediction.",
+    "Scaling law": "A relationship describing how one quantity changes as another characteristic quantity changes, often expressed as a power law.",
+    "Similarity": "The condition that two systems share the same relevant dimensionless groups, allowing a model or experiment at one scale to represent another."
+  },
+  "name": "Dimensional Analysis",
+  "operative_procedure": [
+    "State the target quantity and its dimensions; write the physical question as 'what can this quantity depend on?'",
+    "List candidate variables with units and dimensions, including material properties, boundary conditions, forcing terms, and characteristic scales.",
+    "Reduce variables to fundamental dimensions such as mass, length, time, temperature, charge, or domain-specific bases; check dimensional independence.",
+    "Enforce dimensional homogeneity by solving for products of variables that match the target dimension or by constructing dimensionless groups.",
+    "Apply the Buckingham Pi theorem when multiple variables are involved: count variables, count independent dimensions, and form the required number of Pi groups.",
+    "Derive the scaling relation, leaving unknown dimensionless constants or functions explicit rather than pretending units determine them.",
+    "Interpret the resulting dimensionless numbers to identify regimes, dominant balances, similarity conditions, and variables that drop out under the assumptions.",
+    "Sanity-check candidate formulas, simulations, estimates, or empirical results by unit conversion, limiting cases, and order-of-magnitude comparison.",
+    "State assumptions and missing variables; test whether adding a plausible omitted variable changes the dimensional conclusion."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Mechanics",
+      "Fourier's Theory of Heat",
+      "Similarity Methods"
+    ],
+    "composes_with": [
+      "Fermi Estimation",
+      "First Principles",
+      "Physics-Based Modeling",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Scale Analysis",
+      "Similarity Theory",
+      "Nondimensional Modeling",
+      "Renormalization Group"
+    ],
+    "related": [
+      "Fermi Estimation",
+      "First Principles",
+      "Model-Based Reasoning",
+      "Reductionism"
+    ],
+    "rivals": [
+      "Curve Fitting",
+      "Pure Simulation",
+      "Black-Box Machine Learning",
+      "Dimensional Numerology"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Dimensional Analysis is strongest in physics, engineering, fluid mechanics, scaling estimates, sanity checks, and early-stage modeling when variables and units are known but exact equations are not. It is weaker in domains where units are nominal, socially constructed, or weakly tied to invariant physical quantities. It constrains possible relations; it does not by itself establish mechanisms, constants, boundary conditions, or empirical adequacy.",
+  "source_summary": "Authored from model knowledge of Fourier's dimensional reasoning, Lord Rayleigh's similarity methods, Buckingham's Pi theorem, Bridgman's dimensional analysis, Taylor's blast-wave estimate, and standard physics examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Edgar Buckingham, 'On Physically Similar Systems; Illustrations of the Use of Dimensional Equations' (1914)"
+    },
+    {
+      "kind": "primary",
+      "title": "P. W. Bridgman, Dimensional Analysis (1922)"
+    },
+    {
+      "kind": "primary",
+      "title": "G. I. Taylor, 'The Formation of a Blast Wave by a Very Intense Explosion. I. Theoretical Discussion' (1950)"
+    },
+    {
+      "kind": "secondary",
+      "title": "G. B. Barenblatt, Scaling, Self-similarity, and Intermediate Asymptotics"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Dimensional analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dimensional_analysis"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A formula, estimate, model, or simulation result may be wrong because the units do not or might not balance.",
+    "You need an order-of-magnitude physical estimate before detailed equations, experiments, or numerical models are available.",
+    "A problem involves scaling across size, time, speed, energy, force, or material regimes.",
+    "Several variables might matter, and you need to know which combinations can govern the outcome.",
+    "You want to compare experiments, prototypes, or simulations at different scales using similarity rather than direct equality.",
+    "A proposed relationship seems empirically fitted but lacks a sanity check against physical dimensions and limiting behavior."
+  ]
+}

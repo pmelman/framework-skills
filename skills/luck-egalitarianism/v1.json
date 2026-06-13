@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:49Z",
+  "canonical_examples": [
+    {
+      "analysis": "Dworkin's auction gives each person equal purchasing power over external resources, so inequalities that emerge from different ambitions are not automatically unjust. The envy test asks whether anyone would prefer another's bundle to their own after the auction; if not, the distribution is initially equal in resources. The hypothetical insurance market then models how prudent people would insure against brute luck such as disability or low talent before knowing their own risks, converting some natural disadvantage into a collectively shared insurance scheme.",
+      "problem": "Dworkin's island auction and hypothetical insurance scheme in 'What is Equality? Part 2: Equality of Resources'."
+    },
+    {
+      "analysis": "Cohen's camping trip separates market entitlement from egalitarian community. On the trip, advantages in equipment, bargaining power, or talent are not treated as reasons to extract unequal benefits from fellow campers; the point is shared enjoyment on terms no one could reasonably reject as unfair. Luck egalitarian analysis reads the case as exposing how morally arbitrary advantages should not determine access to benefits, while also raising the question of which inequalities reflect choice rather than circumstance.",
+      "problem": "G. A. Cohen's camping trip example in Why Not Socialism?, where friends share equipment and tasks without market pricing each advantage."
+    }
+  ],
+  "core_claims": [
+    "Inequalities caused by brute luck are unjust unless neutralized or compensated; inequalities caused by genuine option luck may be permissible.",
+    "Justice must distinguish a person's choices from their unchosen circumstances rather than treating all disadvantage as either fate or personal responsibility.",
+    "Natural talents, disabilities, family background, class, race, and many marketable abilities are morally arbitrary from the standpoint of distributive justice.",
+    "Equal concern does not require equal outcomes after responsible choice; it requires that people not be worse off through circumstances for which they are not responsible.",
+    "Insurance is a central model for justice because it asks what risks people would choose to pool before knowing whether they will suffer them.",
+    "A distribution can be unjust even if produced by voluntary exchange when the bargaining positions reflect unchosen brute-luck inequalities.",
+    "Responsibility-sensitive egalitarianism must identify the currency of equality, such as resources, welfare, opportunity for welfare, or access to advantage."
+  ],
+  "description": "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk holds that distributive justice should compensate or neutralize disadvantages due to brute luck while allowing inequalities traceable to responsible choice or option luck.",
+  "domains": [
+    "political-philosophy",
+    "distributive-justice",
+    "ethics",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "Harshness objection: the framework can appear to abandon imprudent or unlucky risk-takers if their disadvantage is classified as option luck.",
+    "Intrusiveness objection: determining responsibility may require humiliating investigations into people's choices, motives, capacities, and histories.",
+    "Responsibility overconfidence: practitioners may classify outcomes as chosen while ignoring addiction, trauma, misinformation, social pressure, or constrained options.",
+    "Currency disputes: equality of welfare, resources, opportunity for welfare, and capabilities yield different recommendations and can be difficult to compare.",
+    "The characteristic practitioner error is to turn a moral distinction between brute and option luck into a punitive sorting mechanism rather than a guide to fair background institutions."
+  ],
+  "key_vocabulary": {
+    "Ambition sensitivity": "A distribution is ambition-sensitive when it allows people's different choices, plans, and efforts to affect their outcomes.",
+    "Brute luck": "Luck that befalls a person without being the result of a deliberate and informed gamble, such as congenital disability or birth into poverty.",
+    "Circumstance": "Features of a person's situation for which they are not responsible, including natural endowments, social background, discrimination, and inherited risk.",
+    "Currency of equality": "The thing justice should equalize or protect against luck, such as welfare, resources, opportunity for welfare, capabilities, or access to advantage.",
+    "Envy test": "Dworkin's test for equality of resources: a distribution passes if no person prefers another's total resource bundle to their own.",
+    "Hypothetical insurance": "A device for deciding compensation by asking what insurance people would buy against disadvantages before knowing whether they will suffer them.",
+    "Option luck": "The outcome of a deliberate and informed risk that a person chose to take, such as a gamble or investment.",
+    "Responsibility sensitivity": "The principle that inequalities may be acceptable when they reflect responsible choice but not when they reflect unchosen circumstance."
+  },
+  "name": "Luck Egalitarianism",
+  "operative_procedure": [
+    "Specify the inequality or disadvantage: state who is worse off, along which currency of equality, and relative to what baseline.",
+    "Separate brute luck from option luck: ask whether the disadvantage arose from unchosen circumstances or from a deliberate, informed, avoidable risk.",
+    "Audit the choice conditions: test whether the alleged choice involved adequate information, reasonable alternatives, competence, freedom from coercion, and fair background conditions.",
+    "Identify morally arbitrary factors: trace the role of talent, disability, family wealth, social class, race, gender, health, or market demand in producing the outcome.",
+    "Choose the egalitarian currency: decide whether the analysis is equalizing resources, welfare, opportunity for welfare, capabilities, or access to advantage, and explain the implications.",
+    "Use hypothetical insurance where appropriate: ask what risks equal citizens would pool ex ante before knowing their natural and social position.",
+    "Assign compensation or responsibility: recommend redistribution, insurance, institutional redesign, or personal cost-bearing according to the brute/option luck diagnosis.",
+    "Check for harshness and stigma: ensure the recommendation does not humiliate, abandon, or punitively classify people in ways that defeat equal concern."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Egalitarianism",
+      "Rawlsian Justice as Fairness",
+      "Welfare Economics"
+    ],
+    "composes_with": [
+      "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
+      "Public Policy Analysis",
+      "Decision Theory",
+      "Insurance Theory"
+    ],
+    "descendants": [
+      "Responsibility-Sensitive Egalitarianism",
+      "Democratic Equality",
+      "Prioritarianism"
+    ],
+    "related": [
+      "Rawlsian Justice as Fairness",
+      "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
+      "Prioritarianism",
+      "Sufficientarianism"
+    ],
+    "rivals": [
+      "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Utilitarianism",
+      "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community",
+      "Relational Egalitarianism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Luck Egalitarianism is strongest for distributive questions involving health, disability, inherited disadvantage, insurance, education, labor-market outcomes, and the moral relevance of choice. It is weakest when responsibility is epistemically inaccessible, when social equality matters more than distributive shares, or when classifying people by fault would produce stigma, cruelty, or administrative abuse.",
+  "source_summary": "Authored from model knowledge of Dworkin, Cohen, Arneson, Anderson, and luck egalitarian debates, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Ronald Dworkin, 'What is Equality? Part 2: Equality of Resources' (1981)"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard J. Arneson, 'Equality and Equal Opportunity for Welfare' (1989)"
+    },
+    {
+      "kind": "primary",
+      "title": "G. A. Cohen, 'On the Currency of Egalitarian Justice' (1989)"
+    },
+    {
+      "kind": "primary",
+      "title": "Elizabeth S. Anderson, 'What Is the Point of Equality?' (1999)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Egalitarianism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/egalitarianism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a distributive dispute turns on whether disadvantage came from unchosen circumstance or responsible choice",
+    "people disagree about whether society should compensate disability, illness, inherited poverty, low marketable talent, or bad outcomes from risky choices",
+    "an insurance, welfare, health, education, or labor policy must decide which risks should be pooled and which costs individuals should bear",
+    "formal equality of opportunity exists but natural and social luck still strongly determine prospects",
+    "a proposed remedy risks either excusing all choices or blaming people for circumstances they could not reasonably control"
+  ]
+}

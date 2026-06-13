@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:29Z",
+  "canonical_examples": [
+    {
+      "analysis": "Chesterton's fence is a second-order warning: the first-order benefit of removing the fence is obvious convenience, but the downstream effects are unknown until the fence's function is understood. The procedure asks what behavior the rule constrained, which risks it managed, who adapted to its presence, and what reappears when it is removed. Only after those consequences are mapped can removal be judged.",
+      "problem": "G. K. Chesterton's fence example asks why one should not remove an apparently pointless fence before understanding why it was put there."
+    },
+    {
+      "analysis": "Bastiat separates the visible first-order effect from the hidden second-order effects. Repairing the broken window creates work for the glazier, but the shopkeeper loses the alternative purchase he would have made with the same money, so society is not richer by the destruction. The framework therefore asks what happens next to incentives, opportunity costs, displaced activity, and unseen parties rather than stopping at the immediate stimulus.",
+      "problem": "Frederic Bastiat's broken window parable challenges the claim that a smashed window is economically beneficial because it creates work for the glazier."
+    }
+  ],
+  "core_claims": [
+    "The immediate effect of an action is often a poor guide to its total effect because downstream reactions, substitutions, and incentives can dominate the final outcome.",
+    "Policies and decisions change the future behavior of agents who observe, adapt to, or game the intervention.",
+    "Visible beneficiaries of a first-order effect systematically crowd out unseen losers, opportunity costs, and delayed harms.",
+    "Some consequences are reflexive: the prediction, metric, rule, or incentive changes the behavior it tries to govern.",
+    "Good analysis must track at least one more move in the causal chain than ordinary intuition or advocacy presents.",
+    "Second-order effects are not automatically negative; an action can be justified precisely because its delayed and indirect effects are better than its immediate optics.",
+    "Interventions that solve symptoms while worsening incentives, trust, information, or future optionality are usually bad trades."
+  ],
+  "description": "Second-Order Thinking is the discipline of asking 'and then what?' before acting: it evaluates downstream, indirect, delayed, incentive, and reflexive consequences rather than stopping at immediate effects.",
+  "domains": [
+    "decision-making",
+    "strategy",
+    "policy",
+    "risk-analysis"
+  ],
+  "failure_modes": [
+    "Speculative chains can become unconstrained storytelling when analysts do not assign likelihood, mechanism, timing, or evidence to each downstream effect.",
+    "The characteristic practitioner error is using possible second-order harms as a veto against any action, even when inaction has its own consequences.",
+    "Overemphasis on hidden effects can underweight urgent first-order harms that require immediate intervention.",
+    "Analysts may choose downstream effects selectively to defend a prior preference while ignoring symmetric consequences of alternatives.",
+    "Long causal chains become fragile quickly; small errors in early links can make later predicted effects meaningless.",
+    "Second-order analysis can become too cynical about stated goals, assuming gaming and perverse incentives where norms, enforcement, or intrinsic motivation are strong."
+  ],
+  "key_vocabulary": {
+    "And then what": "The central prompt of the framework: after the immediate result, ask what reactions and consequences follow.",
+    "First-order effect": "The direct, immediate, and usually most visible consequence of an action or decision.",
+    "Incentive effect": "A downstream change in behavior caused by rewards, punishments, constraints, or expectations created by the decision.",
+    "Opportunity cost": "The next-best use of resources that is displaced by the chosen action. It is often invisible in first-order analysis.",
+    "Reflexivity": "A situation where beliefs, predictions, rules, or measures feed back into the behavior being analyzed.",
+    "Second-order effect": "An indirect, delayed, or behavioral consequence produced after actors and systems respond to the first-order effect.",
+    "Unintended consequence": "An effect that was not part of the actor's stated goal. It may be harmful, beneficial, or simply displaced from the original frame.",
+    "Unseen cost": "A cost borne by parties, future periods, or forgone alternatives that are not salient in the immediate narrative."
+  },
+  "name": "Second-Order Thinking",
+  "operative_procedure": [
+    "State the proposed action and its intended first-order effect in plain causal terms.",
+    "List the immediate winners, losers, resource transfers, constraints, and visible metrics that change.",
+    "Ask 'and then what?' for each affected actor: how will they adapt, substitute, comply, exit, game, retaliate, learn, or invest differently?",
+    "Trace delayed and indirect effects across time horizons: short-term optics, medium-term incentives, long-term capacity, trust, norms, and option value.",
+    "Include opportunity costs and unseen parties: what resources, attention, purchases, risks, or alternatives are displaced?",
+    "Look for reflexive loops where the rule, metric, forecast, or public action changes the system it measures or governs.",
+    "Compare against the second-order effects of inaction and of the best alternative, not against a consequence-free baseline.",
+    "Assign rough likelihood, magnitude, timing, reversibility, and confidence to each major downstream effect.",
+    "Recommend the action only if its total consequence profile, including incentive and delayed effects, dominates feasible alternatives; otherwise redesign the intervention to blunt the harmful second-order pathways."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Consequentialism",
+      "Political Economy",
+      "Systems Thinking"
+    ],
+    "composes_with": [
+      "Chesterton's Fence",
+      "Game Theory",
+      "Goodhart's Law",
+      "Pre-Mortem"
+    ],
+    "descendants": [
+      "Unintended Consequences Analysis",
+      "Reflexive Thinking",
+      "Policy Feedback Analysis"
+    ],
+    "related": [
+      "Causal Inference",
+      "Counterfactual Reasoning",
+      "Public Choice Theory",
+      "OODA Loop"
+    ],
+    "rivals": [
+      "First-Order Thinking",
+      "Deontology",
+      "Rule-Based Compliance",
+      "Single-Metric Optimization"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Second-Order Thinking is strongest for policy, incentives, strategy, product design, organizational change, markets, regulation, and decisions where people adapt to the intervention. It is weaker when the situation is simple, urgent, morally constrained by nonconsequential duties, or too data-poor to distinguish plausible downstream effects from speculation.",
+  "source_summary": "Authored from model knowledge of Bastiat, Chesterton, Merton, systems thinking, consequentialist reasoning, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Frederic Bastiat, That Which Is Seen, and That Which Is Not Seen"
+    },
+    {
+      "kind": "primary",
+      "title": "G. K. Chesterton, The Thing"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert K. Merton, 'The Unanticipated Consequences of Purposive Social Action'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Unintended consequences (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Unintended_consequences"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A proposed action has an obvious immediate benefit but unclear downstream costs, incentives, or adaptations.",
+    "A policy, metric, subsidy, punishment, or rule will change how people behave after they notice it.",
+    "The visible effect is politically or emotionally salient, while opportunity costs and unseen parties are easy to ignore.",
+    "A fix may solve a symptom while shifting the problem elsewhere or worsening the system's future behavior.",
+    "Predictions, rankings, or targets may become reflexive by changing the thing they measure.",
+    "The decision is reversible enough to redesign after mapping delayed and indirect consequences."
+  ]
+}

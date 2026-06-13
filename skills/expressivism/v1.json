@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:57Z",
+  "canonical_examples": [
+    {
+      "analysis": "The sentence is not analyzed as reporting a non-natural property of wrongness. It expresses disapproval of stealing, roughly functioning like condemning stealing and inviting similar disapproval. The analysis explains why the judgment has motivational and persuasive force, while denying that it is verified by detecting an extra moral fact beyond the empirical facts about taking money.",
+      "problem": "A. J. Ayer's emotivist treatment of 'Stealing money is wrong' in Language, Truth and Logic."
+    },
+    {
+      "analysis": "A simple emotivist cannot say the first occurrence of 'lying is wrong' merely vents disapproval, because it appears inside a conditional rather than as an asserted attitude. Blackburn and Gibbard-style expressivism treats the argument as governed by consistency among attitudes, norms, or plans: one cannot coherently accept the conditional plan, accept disapproval of lying, and refuse the corresponding disapproval of inducing a brother to lie. The framework therefore preserves valid moral reasoning without making wrongness a descriptive property.",
+      "problem": "The Frege-Geach example: 'If lying is wrong, getting your little brother to lie is wrong; lying is wrong; therefore getting your little brother to lie is wrong.'"
+    }
+  ],
+  "core_claims": [
+    "The primary function of moral utterances is to express practical attitudes, plans, endorsements, or disapprovals, not to report stance-independent moral facts.",
+    "Moral disagreement can be genuine even when nonmoral facts are agreed, because agents can hold incompatible attitudes or plans toward the same conduct.",
+    "Moral judgments are internally connected to motivation: sincerely judging an act wrong normally involves being disposed against it.",
+    "The apparent objectivity of moral discourse can be explained by higher-order attitudes, stable commitments, and the project of coordinating practical life.",
+    "A successful expressivism must solve the Frege-Geach problem by explaining how moral sentences keep their logical role inside conditionals, negations, and arguments.",
+    "Quasi-realism seeks to earn the right to realist-sounding moral talk, such as truth and objectivity, from within an expressivist account of attitudes."
+  ],
+  "description": "Expressivism explains moral language as expressing noncognitive attitudes, plans, endorsements, or prescriptions rather than describing independent moral facts, while later versions aim to preserve the logic and discipline of ordinary moral argument.",
+  "domains": [
+    "metaethics",
+    "philosophy-of-language",
+    "ethics",
+    "moral-psychology"
+  ],
+  "failure_modes": [
+    "Boo-hurrah caricature: reducing the view to raw emotion misses sophisticated accounts of norms, plans, logical consistency, and quasi-realist truth talk.",
+    "Frege-Geach failure: weak expressivist analyses collapse when moral claims appear in conditionals, negations, disjunctions, or valid arguments.",
+    "Objectivity inflation: quasi-realists can sound so realist that the distinct anti-realist commitment becomes hard to state or defend.",
+    "Moral seriousness deficit: practitioners may make moral disagreement look like mere clash of taste unless they explain norm-governed criticism and inconsistency.",
+    "Motivation overreach: internalist claims about moral judgment and motivation can misdescribe depressed, alienated, cynical, or akratic agents."
+  ],
+  "key_vocabulary": {
+    "Attitude": "A noncognitive stance such as approval, disapproval, endorsement, acceptance of a norm, or commitment to a plan. Expressivists take moral judgment to express such stances.",
+    "Emotivism": "The early expressivist view, associated with Ayer and Stevenson, that moral language primarily expresses emotion and influences attitudes.",
+    "Frege-Geach problem": "The challenge of explaining how moral sentences function in unasserted contexts, such as 'If lying is wrong, getting your brother to lie is wrong,' if their meaning is merely expressive.",
+    "Norm-expressivism": "Gibbard's view that moral judgments express acceptance of norms governing guilt, anger, resentment, or action.",
+    "Plan-laden judgment": "A Gibbard-style idea that normative thought involves planning what to do, feel, or endorse across possible circumstances.",
+    "Quasi-realism": "Blackburn's project of explaining moral truth, objectivity, and error as legitimate projections from expressive practice rather than as commitments to independent moral facts.",
+    "Realist surface": "The ordinary grammar of moral discourse, which looks descriptive and truth-apt. Expressivists try to explain this surface without adopting realist metaphysics.",
+    "Slanted facts": "Blackburn's label for descriptions that mix factual content with evaluative stance, helping explain how attitudes attach to worldly features."
+  },
+  "name": "Expressivism",
+  "operative_procedure": [
+    "Identify the moral utterance and resist immediately treating it as a description of a moral fact; ask what practical attitude, norm acceptance, or plan it expresses.",
+    "Separate agreed nonmoral facts from the evaluative stance taken toward those facts.",
+    "Represent disagreement as conflict in attitudes, norms, or plans: specify what one speaker endorses, condemns, permits, or rules out and what the other rejects.",
+    "Check motivational force: explain how sincere acceptance of the moral judgment would normally guide action, blame, guilt, resentment, or planning.",
+    "For embedded moral claims, preserve logical structure: show how the expressed attitudes toward combinations of claims make inconsistency, implication, or modus ponens intelligible.",
+    "If the discourse uses realist vocabulary such as 'true,' 'fact,' or 'objective,' translate it quasi-realistically as a higher-order commitment within moral practice.",
+    "Diagnose error as a failure of attitude, plan, consistency, information, or norm acceptance rather than as misperception of a stance-independent moral property.",
+    "State the expressivist verdict: identify the attitude expressed, the practical disagreement at issue, and what change in facts or commitments would resolve it."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Logical Positivism",
+      "Emotivism",
+      "Humean Moral Psychology",
+      "Verificationism"
+    ],
+    "composes_with": [
+      "Ordinary Language Philosophy",
+      "Conceptual Analysis",
+      "Reflective Equilibrium",
+      "The Is-Ought Distinction"
+    ],
+    "descendants": [
+      "Quasi-Realism",
+      "Norm-Expressivism",
+      "Plan-Expressivism",
+      "Hybrid Expressivism"
+    ],
+    "related": [
+      "Moral Sentimentalism",
+      "Pragmatism",
+      "Ordinary Language Philosophy",
+      "Verificationism"
+    ],
+    "rivals": [
+      "Moral Realism",
+      "Error Theory",
+      "Moral Relativism",
+      "Kantian Constructivism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Expressivism is strongest for metaethical analysis of moral language, motivation, disagreement in attitude, and anti-realist accounts that still preserve moral argument. It is less useful as a direct guide to first-order moral decisions unless paired with substantive norms or plans.",
+  "source_summary": "Authored from model knowledge of Ayer, Blackburn, Gibbard, and standard expressivist literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "A. J. Ayer, Language, Truth and Logic (1936)"
+    },
+    {
+      "kind": "primary",
+      "title": "Simon Blackburn, Spreading the Word (1984)"
+    },
+    {
+      "kind": "primary",
+      "title": "Simon Blackburn, Ruling Passions (1998)"
+    },
+    {
+      "kind": "primary",
+      "title": "Allan Gibbard, Wise Choices, Apt Feelings (1990)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Moral Cognitivism vs. Non-Cognitivism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/moral-cognitivism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A moral dispute seems to involve commitment, endorsement, blame, or practical stance more than discovery of a special moral property.",
+    "You need to explain how moral judgments motivate action without positing mind-independent moral facts.",
+    "A debate concerns whether moral sentences are truth-apt descriptions, emotional expressions, prescriptions, or plans.",
+    "You need to analyze disagreement in attitude: two speakers accept the same nonmoral facts but clash over what to condemn, permit, or do.",
+    "A problem requires preserving moral reasoning and logical consistency while avoiding realist moral metaphysics."
+  ]
+}

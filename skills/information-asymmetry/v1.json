@@ -1,0 +1,129 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:53Z",
+  "canonical_examples": [
+    {
+      "analysis": "Akerlof's used-car market is a hidden-quality problem before trade. Sellers know whether their cars are peaches or lemons, while buyers observe only the average quality of cars offered. Buyers therefore bid an average price; owners of high-quality cars withdraw because the price is too low, reducing average quality and causing buyers to lower offers again. The adverse-selection spiral can collapse the market even though gains from trade exist. Warranties, dealer reputation, certification, inspections, and lemon laws work by making quality more observable or by making sellers bear some cost of misrepresentation.",
+      "problem": "In Akerlof's 'market for lemons,' used-car buyers cannot observe vehicle quality as well as sellers can."
+    },
+    {
+      "analysis": "Arrow's medical insurance problem distinguishes risk pooling from moral hazard. Once insured patients pay less at the point of care, they may demand more services than they would if they bore the full marginal cost; providers may also recommend more care when payment systems reward volume. The information problem is not simply that care is costly, but that health status, effort to avoid illness, and medical necessity are hard for insurers to observe. Deductibles, copayments, utilization review, managed care, and provider payment reform try to reduce moral hazard, but they also risk deterring valuable care or shifting risk back to patients.",
+      "problem": "Kenneth Arrow's analysis of medical care asks why health insurance markets behave differently from ordinary commodity markets."
+    }
+  ],
+  "core_claims": [
+    "Markets can fail or unravel even with willing buyers and sellers when one side systematically knows more about quality, type, risk, or action.",
+    "Adverse selection occurs before exchange: hidden type or hidden quality changes who enters the market and can drive out high-quality participants.",
+    "Moral hazard occurs after exchange: insurance, delegation, or protection changes behavior because one actor no longer bears the full marginal consequences of action.",
+    "Prices do not always summarize all relevant information; under asymmetric information, a single price can pool unlike qualities and induce inefficient participation.",
+    "Informational institutions such as warranties, certification, reputation, screening, signaling, monitoring, and deductibles are productive because they change what can be believed and verified.",
+    "More information is not automatically efficient; the value of disclosure or monitoring must exceed its cost and privacy, risk-sharing, or exclusion effects.",
+    "Quality uncertainty can produce rationing, pooling equilibria, separating equilibria, or market collapse rather than ordinary competitive clearing."
+  ],
+  "description": "Information Asymmetry analyzes markets and contracts where one party has private information about quality, risk, type, effort, or action, producing adverse selection before exchange and moral hazard after exchange.",
+  "domains": [
+    "economics",
+    "contract-theory",
+    "market-design",
+    "insurance"
+  ],
+  "failure_modes": [
+    "It can turn every failure into an information problem and understate market power, poverty, discrimination, law, norms, or technological constraints.",
+    "Screening and monitoring remedies can become exclusionary, privacy-invasive, or costly enough to destroy the risk pooling or trust they were meant to improve.",
+    "Practitioners may confuse adverse selection with moral hazard, applying post-contract monitoring to a hidden-type problem or pre-contract screening to a hidden-action problem.",
+    "The framework can overvalue observable proxies, causing discrimination or Goodhart effects when proxies for risk or quality become targets.",
+    "The characteristic practitioner error is assuming that disclosure alone fixes asymmetry, even when recipients cannot process information or sellers can strategically frame it."
+  ],
+  "key_vocabulary": {
+    "Adverse selection": "A pre-contract hidden-information problem in which privately informed high-risk or low-quality participants are more likely to trade on offered terms than low-risk or high-quality participants.",
+    "Certification": "Third-party verification of quality, credentials, safety, or type that makes private information credible to less-informed parties.",
+    "Hidden action": "Behavior after agreement that one party cannot directly observe or verify, creating moral hazard.",
+    "Hidden information": "Private knowledge about quality, risk, type, need, or cost that one side has before or during exchange.",
+    "Lemons problem": "A market-unraveling process in which buyers discount for unknown quality, causing high-quality sellers to exit and lowering average quality further.",
+    "Moral hazard": "A post-contract distortion in behavior caused by an actor bearing less than the full cost of risky, costly, or low-effort actions.",
+    "Pooling equilibrium": "An outcome in which different types are treated alike because the uninformed side cannot distinguish them, often lowering value for high-quality types.",
+    "Screening": "Actions by the uninformed side to induce self-selection or reveal type, such as menus of contracts, deductibles, tests, or inspections.",
+    "Separating equilibrium": "An outcome in which different types take different observable actions or accept different contracts, allowing the uninformed side to distinguish them.",
+    "Signaling": "Actions by the informed side to credibly reveal type or quality, usually because the signal is cheaper or more worthwhile for high-quality types."
+  },
+  "name": "Information Asymmetry",
+  "operative_procedure": [
+    "Identify the transaction or contract: specify the parties, timing, good or service, price or terms, and who bears which risks.",
+    "Map the information distribution: state what each side knows, what each side can observe, what can be verified by a court or third party, and what remains private.",
+    "Classify the asymmetry by timing: diagnose hidden type or quality before exchange as adverse selection, and hidden action or effort after exchange as moral hazard.",
+    "Trace the behavioral response: ask how the informed side enters, exits, misrepresents, exerts effort, takes risk, or changes quality under the current terms.",
+    "Identify the equilibrium pattern: determine whether the market pools types, separates types, rations access, raises prices, reduces quality, or collapses.",
+    "Design information institutions: consider warranties, guarantees, certification, inspections, reputation, disclosure, audits, monitoring, staged contracts, and data-sharing.",
+    "Design incentive-compatible terms: use deductibles, copayments, collateral, performance pay, clawbacks, menus of contracts, or risk-sharing only where they fit the diagnosed asymmetry.",
+    "Check second-order costs: evaluate privacy loss, administrative burden, exclusion of high-risk groups, deterrence of valuable use, gaming of proxies, and reduced trust.",
+    "Recommend the least-distorting remedy: match screening, signaling, monitoring, insurance design, or regulation to the specific information failure."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Information Economics",
+      "Contract Theory",
+      "Game Theory",
+      "Insurance Economics"
+    ],
+    "composes_with": [
+      "Principal-Agent Analysis",
+      "Signaling Theory | costly signals as credibility (Spence, Zahavi handicap principle)",
+      "Mechanism Design | reverse game theory: design rules so selfish play yields desired outcomes",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Principal-Agent Analysis",
+      "Signaling Theory | costly signals as credibility (Spence, Zahavi handicap principle)",
+      "Market for Lemons",
+      "Screening Theory"
+    ],
+    "related": [
+      "Game Theory",
+      "Auction Theory",
+      "Behavioral Economics",
+      "Goodhart's Law | when a measure becomes a target it ceases to be a good measure"
+    ],
+    "rivals": [
+      "Perfect Competition",
+      "Efficient Market Hypothesis",
+      "Transaction Cost Economics",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Behavioral Economics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Information Asymmetry is strongest for markets and contracts where hidden quality, hidden risk, hidden effort, or unverifiable action shapes behavior: used goods, insurance, credit, labor markets, medicine, finance, platforms, and regulation. It is weaker when information is symmetric but power, scarcity, preferences, legal barriers, or macro constraints drive outcomes.",
+  "source_summary": "Authored from model knowledge of Akerlof, Arrow, Spence, Stiglitz, Rothschild, and Stiglitz on information economics, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "George A. Akerlof, 'The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism' (1970)"
+    },
+    {
+      "kind": "primary",
+      "title": "Kenneth J. Arrow, 'Uncertainty and the Welfare Economics of Medical Care' (1963)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael Spence, 'Job Market Signaling' (1973)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael Rothschild and Joseph Stiglitz, 'Equilibrium in Competitive Insurance Markets: An Essay on the Economics of Imperfect Information' (1976)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Information asymmetry (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Information_asymmetry"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "buyers and sellers know different things about quality, safety, risk, cost, need, or reliability",
+    "a market has unexpectedly low quality, missing trades, rationing, high distrust, or collapse despite apparent gains from exchange",
+    "insurance, employment, credit, healthcare, platform, or contractor behavior changes after protection or payment terms are introduced",
+    "one side cannot cheaply verify whether claims, credentials, effort, risk, or performance are genuine",
+    "a proposed remedy involves warranties, certification, disclosure, screening, monitoring, deductibles, or contract menus"
+  ]
+}

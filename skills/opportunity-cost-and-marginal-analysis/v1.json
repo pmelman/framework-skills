@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:13:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "The visible repair spending is not a net social gain; it redirects resources. The shopkeeper must use money on a window instead of the next-best alternative, such as shoes, equipment, or savings. Opportunity cost reveals the unseen loss: society has a repaired window but forgoes the other good that could have been produced. The correct analysis compares the world with the broken window to the counterfactual world where the window remains intact and the money funds another use.",
+      "problem": "In Bastiat's broken-window parable, does the glazier's income from repairing a smashed window make the destruction economically beneficial?"
+    },
+    {
+      "analysis": "Marginal analysis distinguishes total usefulness from usefulness at the margin. Water is essential in total, but in ordinary abundance an additional unit satisfies a low-priority use; diamonds are less essential in total but scarce, so the marginal unit commands a high value. The price puzzle dissolves once value is tied to marginal utility rather than total utility. Decisions and prices respond to the next unit, not to the entire class of goods.",
+      "problem": "In the marginalist solution to the diamond-water paradox, why can diamonds have a higher market value than water even though water is more necessary for life?"
+    }
+  ],
+  "core_claims": [
+    "The economic cost of a choice is the value of the best forgone alternative, not merely the money paid or resources visibly used.",
+    "Rational choice compares marginal benefit with marginal cost for the next unit of action, not average benefit or total benefit.",
+    "Sunk costs should not affect a forward-looking decision because they no longer change across available alternatives.",
+    "A policy or project can look beneficial when visible gains are counted while opportunity costs and unseen alternatives are omitted.",
+    "Optimal allocation usually occurs where marginal benefit equals marginal cost, subject to constraints and externalities.",
+    "Scarcity makes every use of a resource a displacement of another possible use, even when no cash transaction occurs."
+  ],
+  "description": "Opportunity Cost and Marginal Analysis evaluates choices by comparing the value of the next-best foregone alternative with the incremental benefits and costs of one more unit of action, correcting decisions that focus on visible spending, sunk costs, or totals instead of margins.",
+  "domains": [
+    "economics",
+    "decision-theory",
+    "resource-allocation",
+    "policy-analysis"
+  ],
+  "failure_modes": [
+    "Inventing a vague opportunity cost without identifying the actual next-best feasible alternative.",
+    "Ignoring externalities, public goods, distributional effects, or rights by reducing every question to private marginal willingness to pay.",
+    "Using marginal analysis where the decision is lumpy, irreversible, threshold-based, or subject to strategic interaction.",
+    "Letting measurable monetary costs crowd out hard-to-price values such as time, dignity, option value, resilience, or moral constraints.",
+    "Applying the sunk-cost rule so mechanically that it ignores reputation, learning, commitment value, or contractual penalties that are still forward-looking."
+  ],
+  "key_vocabulary": {
+    "Average cost": "Total cost divided by quantity; often misleading for decisions about whether to produce or consume one more unit.",
+    "Equimarginal principle": "The rule that resources should be allocated across uses until the marginal value per unit of scarce resource is equalized.",
+    "Foregone alternative": "The best feasible option displaced by the chosen option; it is the substance of opportunity cost.",
+    "Marginal benefit": "The additional benefit produced by one more unit of an activity.",
+    "Marginal cost": "The additional cost incurred by one more unit of an activity, including the value of displaced alternatives.",
+    "Opportunity cost": "The value of the next-best alternative that must be given up to choose the current option.",
+    "Sunk cost": "A past cost that cannot be recovered and should not by itself determine a forward-looking choice.",
+    "The seen and the unseen": "Bastiat's distinction between visible effects of an action and the counterfactual benefits that disappear from view."
+  },
+  "name": "Opportunity Cost and Marginal Analysis",
+  "operative_procedure": [
+    "Define the decision as a choice among feasible alternatives, not as a single proposal considered in isolation.",
+    "Identify the next-best alternative that would actually be displaced; this is the opportunity cost baseline.",
+    "Separate sunk costs from future costs, and exclude costs that do not differ across remaining options.",
+    "Move to the margin: specify the next unit, hour, dollar, hire, feature, acre, or increment being considered.",
+    "Estimate marginal benefit and marginal cost for that increment, including time, risk, option value, externalities, and non-cash costs where relevant.",
+    "Choose additional increments only while marginal benefit exceeds marginal cost; stop or reallocate when marginal cost exceeds marginal benefit.",
+    "Check whether average or total figures are misleading the analysis, especially under fixed costs, scarcity, or declining marginal utility.",
+    "Look for the unseen counterfactual: what investment, consumption, rest, safety, or learning disappears if this choice is made?",
+    "Synthesize by naming the forgone alternative, the marginal comparison, the stopping rule, and any values that resist monetization."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Political Economy",
+      "Marginalism",
+      "Utilitarianism"
+    ],
+    "composes_with": [
+      "Comparative Advantage | Ricardo: gains from trade even with absolute inferiority",
+      "Expected-Value Reasoning",
+      "Cost-Benefit Analysis",
+      "Decision Theory"
+    ],
+    "descendants": [
+      "Cost-Benefit Analysis",
+      "Microeconomic Optimization",
+      "Managerial Economics"
+    ],
+    "related": [
+      "Expected Utility Theory",
+      "Decision Theory",
+      "Inversion | solve problems backwards; avoid stupidity rather than seek brilliance (Jacobi, Munger)",
+      "Comparative Advantage | Ricardo: gains from trade even with absolute inferiority"
+    ],
+    "rivals": [
+      "Sunk Cost Reasoning",
+      "Accounting Cost Analysis",
+      "Rights-Based Ethics",
+      "Rule Consequentialism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Opportunity Cost and Marginal Analysis is strongest for allocation, pricing, production, time-use, project-scoping, and policy tradeoff questions under scarcity. It is weaker when alternatives are not commensurable, when moral side constraints dominate, when discontinuities matter more than small increments, or when social meaning and power cannot be captured by marginal willingness to pay.",
+  "source_summary": "Authored from model knowledge of Bastiat, Jevons, Menger, Marshall, and standard microeconomic treatments of opportunity cost and marginal analysis, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Frederic Bastiat, That Which Is Seen, and That Which Is Not Seen"
+    },
+    {
+      "kind": "primary",
+      "title": "William Stanley Jevons, The Theory of Political Economy"
+    },
+    {
+      "kind": "primary",
+      "title": "Carl Menger, Principles of Economics"
+    },
+    {
+      "kind": "primary",
+      "title": "Alfred Marshall, Principles of Economics"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Opportunity cost (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Opportunity_cost"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a choice consumes scarce time, money, attention, labor, land, or capacity that could be used elsewhere",
+    "a proposal looks attractive because only visible benefits or cash costs are being counted",
+    "you need to decide whether to do one more unit, continue a project, add a feature, hire another person, or spend another dollar",
+    "past investment is pressuring a decision even though the remaining options differ only in future consequences",
+    "average or total figures obscure what changes at the next increment"
+  ]
+}

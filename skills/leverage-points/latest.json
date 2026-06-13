@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:29Z",
+  "canonical_examples": [
+    {
+      "analysis": "Meadows uses the global growth system to show why low-leverage parameter changes, such as modest pollution controls or efficiency improvements, can be overwhelmed by the system goal of exponential material growth. Stronger leverage lies in feedback delays, information flows, rules, and especially the goal that organizes population, capital, resource extraction, and pollution. The framework ranks interventions by whether they merely push numbers or alter the structure that keeps reproducing overshoot.",
+      "problem": "In The Limits to Growth and Meadows's later essay, industrial growth, population, resource depletion, and pollution create overshoot despite many possible parameter-level fixes."
+    },
+    {
+      "analysis": "The thermostat example separates a parameter from deeper leverage. Changing the set point alters the room temperature target, but redesigning the information channel, feedback strength, delay, or the goal of comfort versus energy use changes how the heating system behaves. Meadows's point is that pushing a number is usually weaker than changing feedback architecture, rules, or purposes that determine how numbers are used.",
+      "problem": "Meadows uses familiar control examples such as thermostats to explain why changing a set point is different from changing feedback loops, information flows, or system goals."
+    }
+  ],
+  "core_claims": [
+    "Places to intervene in a system differ radically in leverage; the most obvious intervention points are often among the weakest.",
+    "Changing numerical parameters usually has less durable effect than changing feedback loops, information flows, rules, goals, or paradigms.",
+    "A system's goal is a deeper leverage point than the incentives and flows arranged to serve that goal.",
+    "Information flows can be powerful because actors cannot respond to signals they do not receive or are forbidden to see.",
+    "Rules define who has power, what is rewarded, what is constrained, and what self-organization is possible.",
+    "The mindset or paradigm out of which a system arises is the deepest ordinary leverage point because it determines what goals, rules, and measures seem legitimate.",
+    "High-leverage interventions are not automatically easy, safe, or politically available; power increases with difficulty and resistance."
+  ],
+  "description": "Leverage Points is Donella Meadows's ranked framework for finding places to intervene in a system, from shallow parameter tweaks to deep changes in information flows, rules, goals, and paradigms.",
+  "domains": [
+    "systems",
+    "policy",
+    "organizational-change",
+    "strategy"
+  ],
+  "failure_modes": [
+    "Practitioners often recite the ranking while still recommending parameter tweaks because deeper leverage points are politically uncomfortable or hard to own.",
+    "The characteristic error is assuming deeper always means better; changing goals or paradigms without legitimacy, timing, or safeguards can destabilize valuable functions.",
+    "A leverage-point list can become abstract if it is not tied to a concrete system map with stocks, flows, feedbacks, delays, and actors.",
+    "Analysts may ignore implementation power: a high-leverage intervention that no actor can enact is not an actionable recommendation.",
+    "Intervening at rules, goals, or paradigms can trigger backlash from actors whose power depends on the old system structure.",
+    "The framework can underweight direct relief: sometimes a shallow parameter change is the right immediate action while deeper work proceeds."
+  ],
+  "key_vocabulary": {
+    "Balancing feedback loop": "A stabilizing loop that tries to bring a stock toward a goal or limit. Changing its strength, delay, or target can alter system behavior.",
+    "Buffer": "A stock sized relative to flows that can absorb shocks. Changing buffers is usually a modest leverage point compared with changing rules or goals.",
+    "Goal of the system": "The purpose the system actually serves, inferred from behavior rather than slogans. Meadows treats goals as very deep leverage points.",
+    "Information flow": "Who receives what information, when, and in what form. Missing or distorted information prevents corrective action.",
+    "Leverage point": "A place in system structure where a change can produce a disproportionate shift in behavior.",
+    "Paradigm": "The shared mindset out of which the system's goals, rules, measures, and legitimacy arise. Meadows ranks paradigm change as deeper than rule or goal change.",
+    "Parameter": "A numerical constant or setting, such as tax rate, subsidy level, standard, price, or thermostat set point. Parameters are visible but often low leverage.",
+    "Reinforcing feedback loop": "A self-amplifying loop that drives growth, decline, escalation, or compounding advantage. Altering it can be more powerful than changing parameters.",
+    "Rules": "The formal and informal constraints, permissions, incentives, punishments, and decision rights that shape system behavior.",
+    "Self-organization": "A system's capacity to create new structures, rules, connections, or behaviors. Enabling self-organization is a deep leverage point."
+  },
+  "name": "Leverage Points",
+  "operative_procedure": [
+    "Define the system and the behavior-over-time pattern that needs to change. Do not search for leverage without naming the recurring behavior.",
+    "Map the basic stocks, flows, feedback loops, delays, actors, rules, information channels, and stated versus revealed goals.",
+    "List current or proposed interventions and place each on Meadows's leverage ladder: parameters, buffers, stock-flow structures, delays, balancing loops, reinforcing loops, information flows, rules, self-organization, goals, paradigms, or paradigm transcendence.",
+    "Start with the visible parameter proposals, then ask what deeper structure makes those parameters matter or fail.",
+    "Inspect information flows: who lacks timely, credible, actionable feedback about the consequences of their behavior?",
+    "Inspect rules and power: who can set constraints, incentives, standards, boundaries, sanctions, and decision rights?",
+    "Infer the system's actual goal from behavior. If the stated goal and revealed goal diverge, analyze interventions against the revealed goal.",
+    "Consider paradigm-level assumptions: what categories, measures, values, or stories make the current goal and rules seem natural?",
+    "Evaluate each candidate by leverage, feasibility, delay, legitimacy, risk of backlash, reversibility, and need for shallow relief while deeper changes mature.",
+    "Recommend a portfolio: immediate low-level stabilizers where needed, plus the deepest feasible intervention that changes the structure reproducing the problem."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Systems Thinking",
+      "System Dynamics",
+      "Cybernetics"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Theory of Constraints",
+      "Second-Order Thinking",
+      "Ostrom's Commons Governance"
+    ],
+    "descendants": [
+      "Transition Management",
+      "Systems Change Strategy",
+      "Policy Leverage Analysis"
+    ],
+    "related": [
+      "Control Theory Thinking",
+      "Double-Loop Learning",
+      "Goodhart's Law",
+      "Root Cause Analysis"
+    ],
+    "rivals": [
+      "Linear Causal Analysis",
+      "Parameter Optimization",
+      "Cost-Benefit Analysis",
+      "First-Principles Reasoning"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Leverage Points is strongest for recurring system problems where interventions at parameters, rules, incentives, information, goals, or paradigms can be compared: sustainability, organizations, policy, markets, and institutional reform. It is weaker for isolated technical tasks, emergencies requiring immediate relief, cases without enough system understanding, or contexts where deep changes are impossible or illegitimate.",
+  "source_summary": "Authored from model knowledge of Donella H. Meadows, system dynamics, Thinking in Systems, The Limits to Growth, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Donella H. Meadows, 'Leverage Points: Places to Intervene in a System'"
+    },
+    {
+      "kind": "primary",
+      "title": "Donella H. Meadows, Thinking in Systems: A Primer"
+    },
+    {
+      "kind": "primary",
+      "title": "Donella H. Meadows et al., The Limits to Growth"
+    },
+    {
+      "kind": "secondary",
+      "title": "Leverage points (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Twelve_leverage_points"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A system keeps producing the same unwanted behavior despite repeated fixes at the level of budgets, targets, staffing, or settings.",
+    "Several possible interventions exist, but they differ in depth: parameter tweaks, information changes, rule changes, goal changes, or mindset shifts.",
+    "A policy or organizational reform needs to identify where small changes could produce disproportionate behavioral change.",
+    "Visible symptoms are being managed, but feedback loops, incentives, rules, or goals may be reproducing the problem.",
+    "Stakeholders disagree about whether to change numbers, structures, rules, purposes, or assumptions.",
+    "You need to combine immediate stabilization with deeper system change rather than treating all interventions as equal."
+  ]
+}

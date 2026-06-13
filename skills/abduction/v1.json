@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:38Z",
+  "canonical_examples": [
+    {
+      "analysis": "The observed fact C is surprising if one assumes ordinary chance: the beans drawn are all white. The hypothesis A is that the bag contains only white beans. If A were true, C would follow as a matter of course. Peircean abduction therefore does not conclude that A is true; it marks A as a plausible explanatory hypothesis worth entertaining and testing. Deduction would next derive consequences of the all-white-bag hypothesis, and induction would compare those consequences against further draws.",
+      "problem": "Peirce's beans example: from a bag of beans, a handful is drawn and all beans in the handful are white. What hypothesis should be generated?"
+    },
+    {
+      "analysis": "The dead man's unusual wound is a surprising fact requiring an explanation. The hypothesis that the assassin is left-handed would make the wound pattern expected, given ordinary bodily mechanics. In Peirce's account this is an abductive step: it proposes a possible explanation that directs inquiry toward left-handed suspects and further observable consequences. The method does not yet rank this as the best explanation or assign final belief; it supplies a conjecture for subsequent deductive and inductive testing.",
+      "problem": "Peirce's detective illustration: a crime scene contains a wound pattern that would naturally be produced by a left-handed assailant."
+    }
+  ],
+  "core_claims": [
+    "Inquiry begins from a surprising fact that conflicts with settled expectation; without surprise, there is no abductive occasion.",
+    "Abduction licenses only the adoption of an explanatory hypothesis as a candidate for inquiry, not its acceptance as true.",
+    "A hypothesis is abductively eligible when, if it were true, the surprising fact would be a matter of course rather than anomalous.",
+    "Abduction is the only ampliative operation that introduces genuinely new ideas into inquiry; deduction and induction only explicate or test what has already been proposed.",
+    "The economy of research matters at the hypothesis-generation stage: a conjecture should be cheap enough, testable enough, and promising enough to deserve investigation.",
+    "Instinctive or background-shaped guessing is fallible but not arbitrary; Peirce treats humans as having evolved habits that can make explanatory conjectures better than random.",
+    "Abduction, deduction, and induction form a cycle: generate a hypothesis, derive its consequences, then test those consequences against experience."
+  ],
+  "description": "Abduction in Peirce's sense is the inferential stage that responds to surprising facts by generating explanatory hypotheses for further inquiry. It is distinct from later inference-to-the-best-explanation evaluation: abduction proposes a plausible explanation, deduction draws its consequences, and induction tests it.",
+  "domains": [
+    "logic",
+    "epistemology",
+    "philosophy-of-science",
+    "inquiry"
+  ],
+  "failure_modes": [
+    "Premature belief: treating an abductively generated hypothesis as established truth skips the deductive and inductive stages Peirce requires.",
+    "Best-explanation creep: importing later IBE criteria such as overall explanatory virtue can obscure Peirce's narrower question of what hypothesis is worth trying.",
+    "Unanchored speculation: hypotheses that do not make the surprising fact expected are guesses, not abductive explanations.",
+    "Research-economy blindness: an elegant conjecture may still be a poor abductive choice if it is too costly, vague, or insulated from test.",
+    "Habit capture: the same background instincts that make guessing possible can channel inquiry toward familiar explanations and away from genuinely novel ones."
+  ],
+  "key_vocabulary": {
+    "Abduction": "The inferential move that forms an explanatory hypothesis because it would render a surprising fact expected. In Peirce, it is the first stage of inquiry rather than a final justification of belief.",
+    "Deduction": "The stage that explicates a hypothesis by deriving necessary or expected consequences from it. It tells inquiry what should be observed if the hypothesis is true.",
+    "Economy of research": "The pragmatic constraint that inquiry should prefer hypotheses whose testing promises sufficient informational value for the cost.",
+    "Explanatory hypothesis": "A conjecture introduced to account for a surprising fact. Its role is to organize further inquiry, not to close it.",
+    "Induction": "The stage that tests a hypothesis by comparing its deduced consequences with experience. It stabilizes, weakens, or revises the conjecture.",
+    "Matter of course": "Peirce's phrase for the relation in which the proposed hypothesis, if true, would make the observed fact unsurprising.",
+    "Retroduction": "Peirce's later term often used for abduction, emphasizing reasoning backward from an observed surprising fact to a possible explanatory antecedent.",
+    "Surprising fact": "An observation that is not a matter of course under current expectations. It supplies the trigger for abductive inquiry."
+  },
+  "name": "Abduction",
+  "operative_procedure": [
+    "State the surprising fact. Describe the observation and the prior expectation or habit of belief against which it is surprising.",
+    "Separate generation from evaluation. Treat the task as finding candidate explanatory hypotheses, not as proving which explanation is best.",
+    "Form hypotheses under the matter-of-course test. For each candidate, ask whether the surprising fact would naturally follow if the candidate were true.",
+    "Reject non-explanatory guesses. Drop candidates that merely correlate with the fact, rename it, or leave it just as surprising.",
+    "Apply economy of research. Prefer hypotheses that are definite enough to test, cheap enough to investigate, and promising enough to advance inquiry.",
+    "Deduce consequences. For the strongest candidates, spell out what else should be observed, absent, or different if the hypothesis were true.",
+    "Plan induction. Identify the observations, experiments, or comparisons that would test those consequences.",
+    "Report abductive status. Present the result as a conjectural hypothesis to be tried, with its surprising fact, explanatory link, and next tests clearly marked."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Pragmatism",
+      "Classical Logic",
+      "Scientific Method"
+    ],
+    "composes_with": [
+      "Hypothetico-Deductive Method",
+      "Strong Inference",
+      "Bayesian Epistemology",
+      "Error Statistics"
+    ],
+    "descendants": [
+      "Inference to the Best Explanation",
+      "Diagnostic Reasoning",
+      "Artificial Intelligence Abductive Reasoning"
+    ],
+    "related": [
+      "Inference to the Best Explanation",
+      "Hypothetico-Deductive Method",
+      "Pragmatism",
+      "Falsificationism"
+    ],
+    "rivals": [
+      "Inference to the Best Explanation",
+      "Deductivism",
+      "Bayesian Epistemology",
+      "Enumerative Induction"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Peircean abduction is strongest when inquiry is blocked by a surprising observation and needs disciplined hypothesis generation before formal testing. It is less suitable when hypotheses are already enumerated and the task is to compare posterior probabilities, maximize predictive accuracy, or select a final explanation. Its output should be provisional: a candidate explanation plus a testing path.",
+  "source_summary": "Authored from model knowledge of Peirce's writings on abduction, retroduction, and the logic of inquiry, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Charles Sanders Peirce, 'Deduction, Induction, and Hypothesis' (1878)"
+    },
+    {
+      "kind": "primary",
+      "title": "Charles Sanders Peirce, 'The Fixation of Belief' (1877)"
+    },
+    {
+      "kind": "primary",
+      "title": "Charles Sanders Peirce, 'Pragmatism as the Logic of Abduction' (1903)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Abduction (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/abduction/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A surprising observation does not fit current expectations and the immediate need is to generate plausible explanatory hypotheses.",
+    "A diagnosis, investigation, or research program is stuck because the live hypotheses have not yet been articulated.",
+    "Evidence suggests that something made an event intelligible, but the task is to propose what could explain it rather than to rank known alternatives.",
+    "A problem requires a disciplined conjecture that can guide later deduction and testing.",
+    "Speculative explanations are proliferating and need to be filtered by whether they would actually make the puzzling fact expected."
+  ]
+}

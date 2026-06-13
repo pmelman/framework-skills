@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:38Z",
+  "canonical_examples": [
+    {
+      "analysis": "Newtonian mechanics had a hard core of laws of motion and gravitation protected by auxiliary assumptions about planets, perturbations, and observational conditions. The anomaly in Uranus's orbit was not treated as a simple falsification of the hard core. Leverrier and Adams adjusted the protective belt by positing another planet, and the discovery of Neptune produced novel corroborated fact. On Lakatos's criteria this was a progressive problemshift: the programme predicted something new rather than merely accommodating known trouble.",
+      "problem": "Nineteenth-century astronomers found that Uranus's observed orbit deviated from Newtonian predictions, leading to the prediction and discovery of Neptune."
+    },
+    {
+      "analysis": "The perihelion of Mercury was a persistent anomaly for the Newtonian programme. Attempts such as the hypothetical planet Vulcan modified the protective belt but failed to yield corroborated novel predictions. Einstein's general relativity preserved a different hard core about gravitation as spacetime geometry and explained Mercury's perihelion while also predicting light bending and gravitational redshift. Lakatos would compare the programmes by their problemshifts: Newtonian repairs around Mercury became degenerating, while relativity was progressive because it explained old facts and successfully anticipated new ones.",
+      "problem": "Mercury's anomalous perihelion resisted Newtonian explanation and was later accounted for by Einstein's general relativity."
+    }
+  ],
+  "core_claims": [
+    "The basic unit of appraisal is a research programme, not an isolated theory or single hypothesis.",
+    "A programme contains a hard core protected from direct refutation by methodological decision, plus a revisable protective belt of auxiliary hypotheses.",
+    "Scientists rationally preserve a hard core against anomalies when the programme's positive heuristic continues to generate progressive problemshifts.",
+    "A programme is theoretically progressive when modifications predict novel facts, and empirically progressive when some of those novel facts are corroborated.",
+    "A degenerating programme mainly explains anomalies after the fact through ad hoc protective-belt adjustments that yield no successful novel predictions.",
+    "No experiment is instantly crucial in isolation; rational appraisal compares the historical progress of rival programmes over time.",
+    "Methodology should reconstruct scientific rationality between Popper's instant falsification and Kuhn's paradigm conversion."
+  ],
+  "description": "Lakatos's Methodology of Scientific Research Programmes evaluates science through historically extended programmes with a hard core, protective belt, negative heuristic, and positive heuristic. Programmes are judged by whether their problemshifts are progressive or degenerating relative to rivals.",
+  "domains": [
+    "philosophy-of-science",
+    "methodology",
+    "history-of-science",
+    "epistemology"
+  ],
+  "failure_modes": [
+    "Endless tolerance: because no anomaly is instantly decisive, practitioners can keep a degenerating programme alive long after its protective-belt repairs have become sterile.",
+    "Hindsight rationalization: analysts may label a programme progressive only after knowing which predictions succeeded, weakening its methodological force.",
+    "Hard-core gerrymandering: defining the hard core too broadly protects dogma; defining it too narrowly makes every change look like a new programme.",
+    "Novelty ambiguity: disputes over what counts as a novel fact can change the verdict on whether a problemshift was progressive.",
+    "Comparison delay: waiting for historical trajectories can be rational but unhelpful for urgent decisions about funding, policy, or practice."
+  ],
+  "key_vocabulary": {
+    "Degenerating problemshift": "A sequence of theory changes that mainly accommodates already-known anomalies and fails to produce corroborated novel predictions.",
+    "Empirical progress": "Progress achieved when a programme's theoretically novel predictions receive observational or experimental corroboration.",
+    "Hard core": "The central commitments of a research programme that practitioners protect from direct refutation by methodological decision.",
+    "Negative heuristic": "The rule forbidding direct abandonment or modification of the programme's hard core in response to anomalies.",
+    "Positive heuristic": "The research-guiding plan that tells scientists how to develop models, auxiliary hypotheses, and new lines of inquiry.",
+    "Progressive problemshift": "A sequence of theory changes that expands explanatory and predictive content, especially by anticipating new facts.",
+    "Protective belt": "The revisable set of auxiliary hypotheses, initial conditions, measurement assumptions, and models adjusted to handle anomalies.",
+    "Research programme": "A historically extended series of related theories unified by a hard core and heuristics, assessed by its trajectory rather than by a single test."
+  },
+  "name": "Lakatos's Research Programmes",
+  "operative_procedure": [
+    "Choose the unit of appraisal. Identify the research programme rather than isolating a single hypothesis or experiment.",
+    "State the hard core. Specify the central commitments practitioners treat as non-negotiable for this programme.",
+    "Map the protective belt. List the auxiliary hypotheses, models, measurement assumptions, and boundary conditions that can be revised.",
+    "Identify the negative heuristic. Note what kinds of revisions are ruled out because they would attack the hard core directly.",
+    "Identify the positive heuristic. Describe the constructive research agenda that tells practitioners how to extend the programme.",
+    "Trace problemshifts over time. For each major modification, ask what anomaly or opportunity it addressed and what new content it introduced.",
+    "Test for theoretical and empirical progress. Mark whether modifications predicted novel facts and whether those predictions were corroborated.",
+    "Compare rival programmes. Ask which programme is more progressive across a historical sequence, not which one wins a single decisive test.",
+    "Render the verdict provisionally. Classify the programme as progressive, degenerating, or mixed, and explain what future novel successes would change the appraisal."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Falsificationism",
+      "Kuhnian Paradigm Theory",
+      "Hypothetico-Deductive Method"
+    ],
+    "composes_with": [
+      "Error Statistics",
+      "Scientific Realism",
+      "Strong Inference",
+      "Historical Epistemology"
+    ],
+    "descendants": [
+      "Structural Realism",
+      "Research Programme Evaluation",
+      "Postpositivist Philosophy of Science"
+    ],
+    "related": [
+      "Falsificationism",
+      "Kuhnian Paradigm Theory",
+      "Hypothetico-Deductive Method",
+      "Scientific Realism"
+    ],
+    "rivals": [
+      "Falsificationism",
+      "Kuhnian Paradigm Theory",
+      "Bayesian Epistemology",
+      "Naive Verificationism",
+      "Strong Inference"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Lakatos's framework is strongest for reconstructing extended scientific disputes where theories change through auxiliary revisions and rival programmes coexist. It is less precise for early exploratory fields without stable hard cores, for individual experimental design, or for decisions that cannot wait for a programme's historical trajectory. Its verdicts are comparative and provisional.",
+  "source_summary": "Authored from model knowledge of Lakatos's methodology of scientific research programmes and its standard historical examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Imre Lakatos, 'Falsification and the Methodology of Scientific Research Programmes' (1970)"
+    },
+    {
+      "kind": "primary",
+      "title": "Imre Lakatos, The Methodology of Scientific Research Programmes: Philosophical Papers Volume 1 (1978)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Imre Lakatos (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/lakatos/"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Methodology of Scientific Research Programmes (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Methodology_of_scientific_research_programmes"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A scientific theory survives anomalies by changing auxiliary assumptions, and the question is whether those changes are legitimate progress or ad hoc rescue.",
+    "Rival scientific traditions coexist over time, each with its own central commitments and research agenda.",
+    "A single failed prediction seems too local to decide whether an entire theoretical enterprise should be abandoned.",
+    "Historical comparison is needed between a programme that predicts new facts and one that mostly accommodates old failures.",
+    "A debate turns on which commitments are protected as foundational and which assumptions are open to revision."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:08:39Z",
+  "canonical_examples": [
+    {
+      "analysis": "Toulmin's layout treats 'Harry is a British subject' as the claim and 'Harry was born in Bermuda' as the grounds. The warrant is the general rule that people born in Bermuda will generally be British subjects. The backing is the legal and constitutional status of Bermuda that authorizes that warrant. The qualifier is 'presumably,' because exceptions are possible. The rebuttal field names defeating conditions, such as Harry having become a naturalized American or his parents being aliens under some relevant legal exception. The argument is therefore not a syllogism with hidden certainty; it is a field-sensitive practical inference whose strength depends on legal warrants and exceptions.",
+      "problem": "Toulmin's stock example from The Uses of Argument: 'Harry was born in Bermuda, so Harry is presumably a British subject.'"
+    },
+    {
+      "analysis": "Toulmin uses examples such as weather predictions to show that practical arguments often rely on warrants whose force depends on field standards. The claim is that rain is likely soon. The grounds are observations such as falling barometric pressure, dark clouds, or a forecast. The warrant links these signs to probable rain under meteorological knowledge, backed by weather science and local forecasting practice. The qualifier is probabilistic, not absolute, and rebuttals include a fast-moving front, local microclimate, faulty instruments, or stale data. The analysis exposes where challenge should focus: the observations, the warrant connecting signs to rain, the backing for that warrant, or the named exceptions.",
+      "problem": "Toulmin's recurring practical-inference setting: a person argues from weather signs or a forecast to the claim that it will probably rain."
+    }
+  ],
+  "core_claims": [
+    "Real arguments are field-dependent practical inferences, not merely formal deductions whose validity can be judged apart from subject-matter standards.",
+    "A claim is supported by grounds only through a warrant; without the warrant, evidence does not yet explain why the conclusion follows.",
+    "Warrants themselves require backing, and the kind of backing that counts differs across law, science, ethics, policy, and everyday reasoning.",
+    "Argument strength is often qualified rather than absolute, using modalities such as certainly, probably, presumably, or unless.",
+    "Rebuttals and exceptions are structural parts of good arguments, not afterthoughts or signs of weakness.",
+    "The same surface sentence can play different argumentative roles depending on whether it functions as claim, data, warrant, backing, qualifier, or rebuttal.",
+    "Analyzing an argument means locating where a critic can legitimately challenge it: facts, inferential license, authority behind the license, modal force, or exceptions."
+  ],
+  "description": "Argumentation Theory in Toulmin's model analyzes practical arguments by mapping claims, grounds, warrants, backing, qualifiers, and rebuttals, emphasizing field-dependent standards of support rather than treating all reasoning as formal deduction.",
+  "domains": [
+    "logic",
+    "rhetoric",
+    "critical-thinking",
+    "communication",
+    "law"
+  ],
+  "failure_modes": [
+    "Filling the layout mechanically: labeling parts of an argument without testing whether the warrant actually licenses the move from grounds to claim.",
+    "Inventing warrants that make an argument look stronger than the arguer or field would really accept.",
+    "Treating field-dependence as relativism: different fields have different warrants and backing, but that does not mean all warrants are equally good.",
+    "Overlooking enthymemes, irony, narrative, emotional appeal, or institutional authority that carries argumentative force outside the neat diagram.",
+    "Using the model only for critique and never for repair: the framework can identify missing backing or rebuttals that would make an argument stronger.",
+    "The characteristic practitioner error is warrant blindness, where evidence is collected aggressively while the controversial bridge from evidence to claim remains unstated."
+  ],
+  "key_vocabulary": {
+    "Backing": "Support for a warrant, such as legal authority, scientific theory, professional practice, or institutional rule.",
+    "Claim": "The conclusion, recommendation, accusation, prediction, or position the argument asks an audience to accept.",
+    "Data": "Toulmin's term for the grounds or facts offered as the immediate basis for the claim.",
+    "Field": "A domain of argument, such as law, science, ethics, medicine, or policy, with its own standards for warrants and backing.",
+    "Grounds": "The evidence, observations, testimony, records, or reasons from which the claim is argued.",
+    "Qualifier": "A modal marker indicating the strength or scope of the claim, such as necessarily, probably, presumably, usually, or in this jurisdiction.",
+    "Rebuttal": "An exception, defeater, or condition under which the warrant would not support the claim.",
+    "Warrant": "The inferential license that connects the grounds to the claim, often implicit and more general than either."
+  },
+  "name": "Argumentation Theory",
+  "operative_procedure": [
+    "Extract the claim: identify the precise conclusion, recommendation, judgment, or action-guiding statement at issue.",
+    "List the grounds: separate the facts, observations, data, testimony, examples, or premises being offered in support.",
+    "State the warrant explicitly: write the general rule, principle, causal link, norm, or presumption that would make these grounds count in favor of this claim.",
+    "Identify backing for the warrant: name the authority, theory, law, method, institutional practice, or empirical base that supports the warrant.",
+    "Add the qualifier: specify the modal force of the claim, such as necessarily, probably, plausibly, presumptively, normally, or only under defined conditions.",
+    "Map rebuttals: list exceptions, defeaters, counterexamples, scope limits, and facts that would block or weaken the inference.",
+    "Determine the field of argument: judge the warrant and backing by the standards of the relevant domain rather than by generic formal validity alone.",
+    "Locate the live dispute: decide whether disagreement concerns the claim, grounds, warrant, backing, qualifier, rebuttal, or field standards.",
+    "Repair or evaluate the argument: strengthen missing grounds or backing, narrow the qualifier, add rebuttals, or reject the argument where the warrant fails."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Rhetoric",
+      "Informal Logic",
+      "Ordinary Language Philosophy",
+      "Legal Reasoning"
+    ],
+    "composes_with": [
+      "Fallacy Analysis",
+      "Principle of Charity",
+      "Critical Thinking",
+      "Speech Act Theory | Austin/Searle: locutionary/illocutionary/perlocutionary acts; performatives"
+    ],
+    "descendants": [
+      "Informal Logic",
+      "Critical Thinking Pedagogy",
+      "Argument Mapping",
+      "Pragma-Dialectics"
+    ],
+    "related": [
+      "Classical Logic",
+      "Fallacy Analysis",
+      "Socratic Method | elenchus",
+      "Rhetorical Analysis"
+    ],
+    "rivals": [
+      "Classical Logic",
+      "Bayesian Epistemology",
+      "Formal Deductive Logic",
+      "Dialectical Materialism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Toulmin model is strongest for practical, policy, legal, scientific, ethical, and everyday arguments where support is defeasible and field standards matter. It is weaker for purely formal proof, probabilistic updating that needs numerical likelihoods, literary interpretation where meaning rather than support is central, or adversarial exchanges where the problem is procedural dialogue rather than argument structure.",
+  "source_summary": "Authored from model knowledge of named sources in Toulmin's model of argumentation and later argumentation theory, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Stephen Toulmin, The Uses of Argument"
+    },
+    {
+      "kind": "primary",
+      "title": "Stephen Toulmin, Richard Rieke, and Allan Janik, An Introduction to Reasoning"
+    },
+    {
+      "kind": "secondary",
+      "title": "Frans H. van Eemeren et al., Fundamentals of Argumentation Theory"
+    },
+    {
+      "kind": "secondary",
+      "title": "Argumentation Theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Argumentation_theory"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Toulmin Model of Argument (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toulmin_model_of_argument"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "an argument has evidence, but the bridge from evidence to conclusion is unstated, contested, or field-specific",
+    "a policy, legal, ethical, scientific, or everyday claim needs evaluation without forcing it into strict deductive form",
+    "you need to distinguish facts offered as support from the warrant that makes those facts relevant",
+    "critics are talking past each other because they challenge different parts of the argument: data, warrant, backing, qualifier, or exceptions",
+    "a conclusion is plausible only with qualifications and rebuttals rather than as an absolute proof"
+  ]
+}

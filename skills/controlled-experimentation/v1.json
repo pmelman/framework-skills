@@ -1,0 +1,126 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:58Z",
+  "canonical_examples": [
+    {
+      "analysis": "Lind's trial is an early controlled comparison. He selected sailors with similar scurvy symptoms, kept them in the same setting and diet as much as possible, and varied the treatment: cider, vitriol, vinegar, seawater, oranges and lemons, or a medicinal paste. The citrus group improved rapidly, so the contrast between groups made the treatment effect visible despite tiny sample size and no modern randomization or blinding. RCT thinking would praise the concurrent controls and common background conditions while flagging allocation, sample size, and blinding as weak by modern standards.",
+      "problem": "James Lind compared six treatments for scurvy among sailors aboard HMS Salisbury in 1747."
+    },
+    {
+      "analysis": "The Salk field trial used random assignment and placebo controls in many communities so that vaccinated and control children would be comparable except for receipt of vaccine. Blinding reduced differential diagnosis and reporting of polio. The control group supplied the counterfactual attack rate that would have been expected without vaccination. Because allocation preceded outcomes and the groups were large, the lower paralytic polio rate in the vaccine group could be attributed to the vaccine with far less concern about selection bias than in an observational comparison.",
+      "problem": "The 1954 Francis Field Trial evaluated whether Jonas Salk's inactivated polio vaccine prevented paralytic poliomyelitis."
+    }
+  ],
+  "core_claims": [
+    "A treatment effect is the difference between what happens under intervention and what would have happened to the same units under control; controlled experiments approximate that missing counterfactual by design.",
+    "Random assignment is an inference engine because, in expectation, it balances both measured and unmeasured confounders across arms before outcomes occur.",
+    "A concurrent control group is superior to historical or intuitive comparison because it shares time, setting, eligibility, measurement, and background risk with the treatment group.",
+    "Blinding protects causal inference by preventing expectations from altering participant behavior, clinician behavior, outcome assessment, attrition, or reporting.",
+    "Placebos and sham controls isolate the active ingredient of an intervention from attention, expectation, procedure, and context effects.",
+    "Intention-to-treat analysis preserves the causal meaning of randomization by analyzing participants according to assigned group, even when adherence is imperfect.",
+    "Internal validity can be high even when external validity is uncertain; the experiment may answer 'did it work here under this protocol?' without answering 'will it work everywhere?'"
+  ],
+  "description": "Controlled Experimentation treats randomization, blinding, controls, allocation concealment, and pre-specified outcome comparison as a designed inference engine for estimating intervention effects by constructing a credible counterfactual.",
+  "domains": [
+    "experimental-design",
+    "statistics",
+    "medicine",
+    "causal-reasoning"
+  ],
+  "failure_modes": [
+    "Ethical narrowing: the cleanest experiment may be unethical or impractical, leading practitioners to ignore important questions that cannot be randomized.",
+    "Protocol-world overconfidence: strong internal validity in a narrow trial can be mistaken for effectiveness in different populations, doses, operators, or real-world adherence conditions.",
+    "Broken randomization: inadequate allocation concealment, post-randomization exclusions, attrition, or crossover can reintroduce confounding while preserving the superficial label of an RCT.",
+    "Blinding failure: visible side effects, procedural differences, or clinician guesses can undo masking and bias subjective outcomes.",
+    "Outcome shopping: multiple endpoints, subgroup searches, and flexible stopping can turn a controlled experiment into an exercise in selective reporting.",
+    "Average-effect blindness: a trial can estimate a valid mean effect while hiding heterogeneity, harms in subgroups, or mechanisms needed for implementation."
+  ],
+  "key_vocabulary": {
+    "Allocation concealment": "Preventing investigators or participants from knowing the upcoming assignment before enrollment. It protects randomization from selection manipulation.",
+    "Blinding": "Masking participants, clinicians, assessors, or analysts to assignment. It reduces expectation, performance, detection, and analysis biases.",
+    "Control group": "The comparison arm that represents what would happen without the active intervention or with standard care. It anchors the counterfactual.",
+    "Intention-to-treat": "Analyzing participants according to randomized assignment rather than actual adherence. It preserves the original comparability produced by randomization.",
+    "Placebo control": "A control designed to mimic the intervention experience without the active component. It separates specific treatment effect from expectation and care effects.",
+    "Randomization": "Assignment by chance rather than choice. Its causal value is balancing confounders in expectation and licensing probability-based inference.",
+    "Treatment effect": "The causal contrast between outcomes under intervention and outcomes under control, usually estimated as a difference, ratio, or hazard comparison.",
+    "Trial protocol": "The pre-specified plan for eligibility, assignment, intervention, outcomes, follow-up, stopping rules, and analysis."
+  },
+  "name": "Controlled Experimentation",
+  "operative_procedure": [
+    "Define the causal question as a precise intervention contrast: treatment versus placebo, standard care, no treatment, dose, timing, or alternative active treatment.",
+    "Specify eligible units, setting, primary outcome, measurement window, and minimally important effect before looking at results.",
+    "Choose the control condition that best represents the relevant counterfactual while matching attention, procedure, measurement, and background conditions.",
+    "Randomize assignment with allocation concealment; stratify or block only for pre-specified variables that materially affect balance or power.",
+    "Implement blinding wherever possible for participants, caregivers, outcome assessors, and analysts; document where blinding is impossible and what bias protections replace it.",
+    "Preserve comparability after assignment by minimizing attrition, avoiding post-randomization exclusions, tracking adherence and crossover, and using intention-to-treat as the primary analysis.",
+    "Estimate the effect with uncertainty intervals and pre-specified statistical tests; examine harms and heterogeneity as planned secondary questions.",
+    "Diagnose threats to validity: randomization failure, measurement bias, unblinding, contamination, nonadherence, missingness, early stopping, multiplicity, and limited generalizability.",
+    "Translate the result by separating internal validity, effect size, practical significance, external validity, and implementation requirements."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Experimental Method",
+      "Fisherian Statistics",
+      "Counterfactual Reasoning"
+    ],
+    "composes_with": [
+      "Causal Inference",
+      "Bayesian Epistemology",
+      "Decision Theory",
+      "Evidence-Based Medicine"
+    ],
+    "descendants": [
+      "Randomized Controlled Trial Hierarchy",
+      "A/B Testing",
+      "Field Experiments",
+      "Clinical Trial Design"
+    ],
+    "related": [
+      "Causal Inference",
+      "Bradford Hill Criteria | guidelines for inferring causation from epidemiological association",
+      "Falsificationism",
+      "Counterfactual Reasoning"
+    ],
+    "rivals": [
+      "Observational Causal Inference",
+      "Natural Experiment Reasoning",
+      "Inference to the Best Explanation",
+      "Case Study Method"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Controlled Experimentation is strongest when an intervention can be ethically assigned, outcomes can be measured reliably, and the important causal contrast is narrow enough to operationalize. It is weaker for rare harms, long time horizons, complex social systems, irreversible exposures, individualized mechanisms, and questions where generalizability matters more than local internal validity. It estimates intervention effects, not ultimate explanations by itself.",
+  "source_summary": "Authored from model knowledge of James Lind's scurvy trial, R. A. Fisher's experimental design, the Salk polio vaccine field trial, CONSORT-style clinical trial methods, and evidence-based medicine texts, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "James Lind, A Treatise of the Scurvy (1753)"
+    },
+    {
+      "kind": "primary",
+      "title": "R. A. Fisher, The Design of Experiments (1935)"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas Francis Jr. et al., An Evaluation of the 1954 Poliomyelitis Vaccine Trials (1955)"
+    },
+    {
+      "kind": "secondary",
+      "title": "CONSORT 2010 Statement: Updated Guidelines for Reporting Parallel Group Randomised Trials"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Randomized controlled trial (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "You need to know whether an intervention itself changes outcomes rather than merely being associated with them.",
+    "Confounding by selection, severity, motivation, clinician judgment, or background risk could explain an observed treatment difference.",
+    "A proposed policy, product, therapy, or procedure can be assigned prospectively to comparable units.",
+    "Expectations, observer judgment, placebo effects, or differential follow-up could contaminate outcome assessment.",
+    "A decision requires a credible counterfactual comparison rather than before-after impressions or historical controls."
+  ]
+}

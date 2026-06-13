@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:49Z",
+  "canonical_examples": [
+    {
+      "analysis": "The two persons have the same achieved functioning, not eating, but radically different capability sets. The fasting person has a genuine option to eat and chooses abstinence for religious, political, or personal reasons; the starving person lacks the real opportunity to be nourished. A welfare or resource metric can miss this distinction if both record the same calorie intake, but the Capabilities Approach treats the deprivation as located in the absence of substantive freedom to achieve nourishment.",
+      "problem": "Sen's standard contrast between a person who is fasting and a person who is starving: both are not eating, but one abstains voluntarily while the other lacks food."
+    },
+    {
+      "analysis": "Vasanti's problem is not adequately described as low income alone. Her violent marriage, lack of collateral, dependence on male relatives, and limited access to credit constrain central capabilities: bodily integrity, practical reason, control over one's material environment, affiliation, and political/social participation. The SEWA loan matters because it expands real agency: she can earn, leave coercive dependence, participate in collective organization, and deliberate about her life, not merely receive a utility boost.",
+      "problem": "Nussbaum's Women and Human Development uses the case of Vasanti, an Indian woman whose access to a small loan and women's cooperative support changed her ability to leave an abusive marriage and sustain herself."
+    }
+  ],
+  "core_claims": [
+    "Justice should be assessed by people's real capabilities to be and do valuable things, not by utility, preference satisfaction, primary goods, income, or formal rights alone.",
+    "Two people with identical resources can be unequally advantaged because personal, social, and environmental conversion factors turn resources into capabilities at different rates.",
+    "Voluntary non-achievement and deprivation can look identical at the level of functionings; the morally decisive difference is whether the person had a genuine capability to choose otherwise.",
+    "Adaptive preferences are not decisive evidence of justice: people may report satisfaction with deprivation after socialization into limited expectations.",
+    "Public evaluation of advantage must be plural: health, bodily integrity, affiliation, practical reason, education, and political participation cannot all be reduced to a single commodity metric without loss.",
+    "Nussbaum's version requires a threshold of central human capabilities below which a life is not fully compatible with human dignity.",
+    "Sen's version deliberately leaves the exact capability list open to democratic reasoning rather than fixing a complete theory of the good in advance."
+  ],
+  "description": "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function evaluates justice and development by the substantive freedoms people actually have to achieve valuable beings and doings, rather than by resources, utility, or formal liberties alone.",
+  "domains": [
+    "political-philosophy",
+    "development-economics",
+    "ethics",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "Underspecification in Sen's version: leaving the capability list open can make the framework hard to operationalize or vulnerable to politically convenient selection of indicators.",
+    "Paternalism in fixed-list versions: a theorist's list of central capabilities can override local self-understandings or impose a liberal perfectionist standard without adequate democratic legitimacy.",
+    "Measurement displacement: policy analysts may replace capabilities with easy proxies such as school enrollment or income, losing the framework's focus on real opportunity and conversion factors.",
+    "Capability inflation: treating every valued outcome as a capability can dissolve priority-setting and make the approach indistinguishable from a broad list of social goods.",
+    "The characteristic practitioner error is to infer freedom from the presence of a legal right or resource while ignoring disability, gender norms, violence, caste, race, care burdens, or geography that block actual use."
+  ],
+  "key_vocabulary": {
+    "Adaptive preferences": "Preferences shaped downward by deprivation, oppression, or habituation. The framework treats reported satisfaction under unjust conditions as evidence to interpret, not as decisive proof of well-being.",
+    "Capability": "A person's real opportunity or substantive freedom to achieve a valuable functioning. It is not merely a resource, legal permission, or internal desire.",
+    "Central capabilities": "Nussbaum's proposed threshold list of capabilities required by human dignity, including life, bodily health, bodily integrity, senses/imagination/thought, emotions, practical reason, affiliation, other species, play, and control over one's environment.",
+    "Conversion factors": "Personal, social, and environmental conditions that determine how effectively a person can convert resources into capabilities, such as disability, social norms, public infrastructure, climate, or legal status.",
+    "Functioning": "An achieved being or doing, such as being nourished, moving freely, taking part in politics, or being educated.",
+    "Human Development Index": "A development measure influenced by Sen's approach that supplements income with health and education indicators, though it remains a simplified proxy rather than a full capability evaluation.",
+    "Practical reason": "The capability to form a conception of the good and critically plan one's life. In Nussbaum's account it has an architectonic role among the central capabilities.",
+    "Substantive freedom": "Freedom understood as effective power to choose and achieve valuable lives, not merely non-interference or formal entitlement."
+  },
+  "name": "Capabilities Approach",
+  "operative_procedure": [
+    "State the evaluative space explicitly: assess advantage in terms of capabilities and functionings rather than income, utility, rights, or resources alone.",
+    "Identify the valued functionings at stake: name the concrete beings and doings the people need or reasonably value, such as being healthy, educated, safe, mobile, respected, or politically active.",
+    "Separate achieved functionings from capability sets: ask not only what people are doing now, but what real alternatives they can choose among.",
+    "Map conversion factors: examine personal traits, social norms, family structure, law, infrastructure, public services, violence, discrimination, and environment that affect resource-to-capability conversion.",
+    "Check for adaptive preferences and coerced choices: treat contentment, acquiescence, or apparent choice under deprivation as potentially shaped by constrained options.",
+    "Choose the evaluative list or procedure: for Sen, justify the capabilities through public reasoning; for Nussbaum, test whether central capabilities meet a threshold compatible with dignity.",
+    "Compare policy options by capability expansion: prefer interventions that enlarge substantive freedoms, especially for those below threshold or facing blocked conversion factors.",
+    "Report residual pluralism: identify capabilities that trade off, capabilities that remain unmeasured, and where democratic deliberation is needed to set weights or priorities."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Virtue Ethics",
+      "Welfare Economics",
+      "Liberal Egalitarianism"
+    ],
+    "composes_with": [
+      "Feminist Ethics",
+      "Human Rights",
+      "Public Reason",
+      "Development Ethics"
+    ],
+    "descendants": [
+      "Human Development Approach",
+      "Multidimensional Poverty Analysis",
+      "Nussbaum's Central Capabilities"
+    ],
+    "related": [
+      "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk",
+      "Rawlsian Justice as Fairness",
+      "Aristotelian Virtue Ethics",
+      "Feminist Standpoint Theory"
+    ],
+    "rivals": [
+      "Utilitarianism",
+      "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice",
+      "Resourcism",
+      "Preference-Satisfaction Welfarism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Capabilities Approach is strongest for assessing poverty, disability, gender inequality, development, education, health, and public policy where resources or formal rights fail to reveal real opportunity. It is less determinate when capabilities conflict, when a public list is politically contested, or when measurement requires reducing plural freedoms to administratively convenient indicators.",
+  "source_summary": "Authored from model knowledge of Amartya Sen's and Martha Nussbaum's capability literature and standard secondary discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Amartya Sen, Commodities and Capabilities (1985)"
+    },
+    {
+      "kind": "primary",
+      "title": "Amartya Sen, Development as Freedom (1999)"
+    },
+    {
+      "kind": "primary",
+      "title": "Martha C. Nussbaum, Women and Human Development: The Capabilities Approach (2000)"
+    },
+    {
+      "kind": "primary",
+      "title": "Martha C. Nussbaum, Creating Capabilities: The Human Development Approach (2011)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Capability Approach (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/capability-approach/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need to evaluate poverty, development, disability, gender inequality, or exclusion where income and formal rights do not show what people can actually do",
+    "two people have similar resources or legal liberties but face different social, bodily, geographic, or institutional barriers to using them",
+    "a policy choice turns on whether beneficiaries gain real agency rather than merely receiving goods, services, or preference satisfaction",
+    "reported satisfaction may reflect deprivation, coercion, socialization, or lowered expectations rather than genuine well-being",
+    "you must compare multidimensional human advantage across health, education, safety, mobility, affiliation, and political participation"
+  ]
+}

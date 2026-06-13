@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:21:27Z",
+  "canonical_examples": [
+    {
+      "analysis": "Wiener treats the anti-aircraft predictor as a communication-and-control problem: the gunner cannot merely react to where the aircraft was, because delays and motion make direct response obsolete. The system must sense the target, transmit information, predict future position, compare intended and actual effects, and adjust through feedback. Human operator, machine, signal, and environment form a closed control loop. The cybernetic lesson is that purposeful behavior depends on feedback under noise and delay, not on a simple linear command.",
+      "problem": "Norbert Wiener's wartime work on anti-aircraft fire control asked how a gun system could aim at a moving aircraft under delay and uncertainty."
+    },
+    {
+      "analysis": "Ashby's homeostat demonstrates ultrastability: when essential variables move outside acceptable limits, the device reorganizes its internal connections until it finds a configuration that restores stability. The key is not a fixed response but a second-order feedback process that changes the controller itself. Ashby's law of requisite variety explains why the regulator must command enough possible responses to absorb the disturbances it faces; otherwise some environmental states remain uncontrolled.",
+      "problem": "W. Ross Ashby's homeostat is a canonical cybernetic machine built to show adaptive self-regulation and stability under disturbance."
+    }
+  ],
+  "core_claims": [
+    "Control depends on circular causality: systems regulate behavior by comparing sensed outcomes with reference conditions and feeding the difference back into action.",
+    "A regulator must possess requisite variety at least comparable to the variety of disturbances it must control, or some disturbances will necessarily escape regulation.",
+    "Communication and control are inseparable because regulation requires signals that select among possible actions under noise, delay, and uncertainty.",
+    "Purposeful behavior can be analyzed without assuming conscious intention when a system acts to reduce error relative to a goal or set point.",
+    "Stability is often dynamic homeostasis: a system remains viable by continuous adjustment rather than by staying unchanged.",
+    "Effective control can be distributed across human, machine, organism, and environment rather than located in a single command center."
+  ],
+  "description": "Cybernetics is the study of communication, feedback, and control in animals, machines, organizations, and social systems, associated with Norbert Wiener, W. Ross Ashby, Stafford Beer, and concepts such as homeostasis, circular causality, and requisite variety.",
+  "domains": [
+    "systems-thinking",
+    "control",
+    "cognitive-science",
+    "organizational-design"
+  ],
+  "failure_modes": [
+    "Command-center bias: mistaking cybernetics for top-down control rather than analyzing feedback loops, information flows, and distributed regulation.",
+    "Over-mechanizing social systems: treating people as components to be regulated can erase meaning, conflict, power, and autonomy.",
+    "Ignoring delay and noise: feedback that is late, distorted, or over-amplified can produce oscillation, overcorrection, and instability.",
+    "Variety underestimation: practitioners often design regulators with fewer response options than the environment's disturbances require.",
+    "Black-box complacency: focusing on input-output regulation can hide internal mechanisms, values embedded in set points, and who gets to define viability."
+  ],
+  "key_vocabulary": {
+    "Circular causality": "A causal structure in which outputs feed back as inputs, so effects help shape their own future causes.",
+    "Error signal": "The difference between a reference condition and the sensed state of the system. Controllers act on error signals to reduce deviation.",
+    "Feedback": "Information about a system's output returned to influence subsequent action. Negative feedback reduces deviations; positive feedback amplifies them.",
+    "Homeostasis": "The maintenance of essential variables within viable limits through ongoing regulation and adjustment.",
+    "Requisite variety": "Ashby's law that only variety can absorb variety: a controller must have enough possible states or responses to handle the disturbances confronting it.",
+    "Second-order cybernetics": "The study of observing systems in which the observer, modeler, or controller is included within the system being described.",
+    "Set point": "A reference value or range against which current system behavior is compared.",
+    "Ultrastability": "Ashby's term for adaptive stability in which a system changes its internal organization when ordinary regulation fails."
+  },
+  "name": "Cybernetics",
+  "operative_procedure": [
+    "Define the system boundary provisionally, including the organism, machine, organization, or environment elements that participate in regulation.",
+    "Identify the essential variables whose viable ranges must be maintained, and state the set points or reference conditions actually governing behavior.",
+    "Map the feedback loops: sensors, signals, comparators, controllers, actuators, outputs, and the path by which outputs return as information.",
+    "Classify feedback as negative, positive, delayed, noisy, damped, amplified, first-order, or second-order.",
+    "Apply the law of requisite variety by comparing the range of disturbances with the regulator's available responses, channels, and degrees of freedom.",
+    "Analyze delays, signal loss, measurement error, and coupling that could create oscillation, runaway amplification, or control failure.",
+    "Look for adaptation: determine whether the system merely corrects deviations or can reorganize its own rules, models, and response repertoire.",
+    "Synthesize interventions by changing feedback quality, set points, response variety, coupling, or controller placement while naming the tradeoff in stability, autonomy, and adaptability."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Control Theory",
+      "Information Theory",
+      "Physiology of Homeostasis"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Control Theory Thinking",
+      "Double-Loop Learning",
+      "OODA Loop"
+    ],
+    "descendants": [
+      "Second-Order Cybernetics",
+      "Viable System Model",
+      "Autopoiesis",
+      "Resilience Engineering"
+    ],
+    "related": [
+      "Systems Thinking",
+      "Control Theory Thinking",
+      "OODA Loop",
+      "Double-Loop Learning"
+    ],
+    "rivals": [
+      "Linear Causal Analysis",
+      "Classical Reductionism",
+      "Command-and-Control Management",
+      "Behaviorism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Cybernetics is strongest for systems whose behavior is governed by feedback, signaling, control, adaptation, and viability constraints: machines, organisms, teams, organizations, and socio-technical systems. It is weaker when causal structure is mostly one-way, when goals and set points are ethically contested rather than analytically given, or when thick historical and interpretive context matters more than regulatory dynamics. Its power is abstraction across domains; its danger is flattening domain-specific meanings.",
+  "source_summary": "Authored from model knowledge of named sources by Wiener, Ashby, Beer, Bateson, and cybernetic literature on feedback, control, homeostasis, and requisite variety, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Norbert Wiener, Cybernetics: Or Control and Communication in the Animal and the Machine (1948)"
+    },
+    {
+      "kind": "primary",
+      "title": "W. Ross Ashby, An Introduction to Cybernetics (1956)"
+    },
+    {
+      "kind": "primary",
+      "title": "Stafford Beer, Brain of the Firm (1972)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Cybernetics (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cybernetics"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a system keeps overshooting, oscillating, or failing to stabilize because responses depend on delayed or distorted feedback",
+    "a team, machine, organism, or organization must maintain essential variables within limits despite changing disturbances",
+    "a controller has too few response options for the complexity of the environment it is supposed to regulate",
+    "the problem crosses human, technical, and environmental boundaries and cannot be explained by a one-way causal chain",
+    "you need to redesign sensing, signaling, feedback, set points, or adaptive control rather than optimize a static process"
+  ]
+}

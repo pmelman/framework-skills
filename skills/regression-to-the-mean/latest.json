@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:28:51Z",
+  "canonical_examples": [
+    {
+      "analysis": "Galton's data showed regression in relative stature: very tall parents tend to have children who are tall but closer to the population mean, and very short parents tend to have children who are short but closer to the mean. The framework explains this as imperfect correlation between parent and child height plus population variation. Extreme observed values contain both systematic signal and unsystematic deviation; the unsystematic part is unlikely to repeat in the same direction.",
+      "problem": "Francis Galton's hereditary stature studies found that children of unusually tall or unusually short parents were, on average, less extreme than their parents relative to the population."
+    },
+    {
+      "analysis": "Kahneman's flight-instructor story is a regression trap. A cadet's unusually poor maneuver is partly bad skill and partly bad luck or transient conditions, so the next attempt is likely to improve even after criticism. An unusually good maneuver is partly skill and partly good luck, so the next attempt is likely to decline even after praise. The apparent effectiveness of criticism and harm of praise is therefore confounded with regression to the mean.",
+      "problem": "Daniel Kahneman recounts Israeli flight instructors claiming that criticism improves performance and praise worsens it because trainees often do better after being shouted at and worse after being praised."
+    }
+  ],
+  "core_claims": [
+    "When two measurements are imperfectly correlated, cases selected for extreme values on the first measurement will tend to be less extreme on the second.",
+    "Extreme outcomes usually combine stable causes with transitory noise; the noise component is less likely to recur in the same direction.",
+    "Before-after improvement among the worst performers is expected even without intervention when selection was based on unusually bad baseline scores.",
+    "Regression to the mean is not a force pulling individuals toward mediocrity; it is a statistical consequence of imperfect prediction.",
+    "The size of expected regression depends on reliability: the lower the measurement reliability or correlation, the stronger the reversion.",
+    "Uncontrolled evaluations of treatments targeted at extreme cases systematically overstate causal effects.",
+    "Symmetric regression occurs at both tails: unusually high performers tend to fall back just as unusually low performers tend to rise."
+  ],
+  "description": "Regression to the Mean is the statistical principle that extreme observations tend to be followed by less extreme observations when measurements are imperfectly correlated, making natural reversion easy to mistake for causal change.",
+  "domains": [
+    "statistics",
+    "causal-reasoning",
+    "decision-theory",
+    "research-methods"
+  ],
+  "failure_modes": [
+    "Using regression to dismiss real causal effects: some interventions work, and regression only explains the expected movement absent treatment.",
+    "Invoking it without checking selection: the effect matters most when cases were chosen because of extreme baseline values.",
+    "Treating it as a claim that individuals literally become average rather than that conditional expectations are less extreme.",
+    "Ignoring measurement reliability: highly reliable repeated measurements regress less than noisy ones.",
+    "Practitioners can become reflexively skeptical of all before-after evidence and miss designs, controls, or mechanisms that identify real change."
+  ],
+  "key_vocabulary": {
+    "Baseline selection": "Choosing cases because their initial measurement is unusually high or low, which makes later regression especially likely.",
+    "Conditional expectation": "The expected value of a later measurement given the first measurement; with imperfect correlation it lies closer to the mean than the selected extreme value.",
+    "Extreme score": "An observation far from the population mean, usually containing both stable signal and temporary noise.",
+    "Imperfect correlation": "A relationship weaker than one-to-one identity between repeated or related measures; it is the mathematical condition that produces regression.",
+    "Measurement error": "Random or transient variation in observed scores that is not part of the stable underlying trait or causal effect.",
+    "Regression fallacy": "Mistaking natural reversion after extreme observations for the effect of punishment, treatment, policy, or other intervention.",
+    "Reliability": "The degree to which a measure is stable and repeatable; lower reliability implies stronger expected regression to the mean.",
+    "Selection on the dependent variable": "Choosing cases by the outcome one later wants to explain, which can make random extremes look causally meaningful."
+  },
+  "name": "Regression to the Mean",
+  "operative_procedure": [
+    "Identify the outcome measure and the population mean or expected baseline for the relevant reference class.",
+    "Ask whether cases were selected because they were unusually high or low on that outcome or a correlated measure.",
+    "Estimate measurement reliability or correlation between the initial and follow-up measurements.",
+    "Decompose the extreme baseline observation conceptually into stable signal plus transient noise, luck, or measurement error.",
+    "Predict the no-intervention follow-up: with imperfect correlation, the conditional expectation should be closer to the population mean.",
+    "Compare observed change against an appropriate control group, randomized design, historical distribution, or explicit regression adjustment.",
+    "Avoid causal language until the improvement or decline exceeds what regression, seasonality, and ordinary variation would predict.",
+    "Communicate the effect symmetrically: explain why both unusually bad and unusually good performances tend to become less extreme."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Correlation and Regression",
+      "Probability Theory",
+      "Galtonian Statistics"
+    ],
+    "composes_with": [
+      "Causal Inference",
+      "Bayesian Epistemology",
+      "Base Rate Reasoning",
+      "Experimental Design"
+    ],
+    "descendants": [
+      "Regression Discontinuity Design",
+      "Reliability Theory",
+      "Empirical Bayes Shrinkage"
+    ],
+    "related": [
+      "Selection Bias",
+      "Survivorship Bias and Selection Effects",
+      "Heuristics and Biases",
+      "Control Group Reasoning"
+    ],
+    "rivals": [
+      "Post Hoc Ergo Propter Hoc",
+      "Naive Before-After Evaluation",
+      "Great Man Theory",
+      "Narrative Explanation"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Regression to the mean is strongest for repeated noisy measurements, pre-post evaluations, performance management, medicine, education, sports, finance, and public policy interventions targeted at extreme cases. It does not say all change is noncausal, and it does not replace experimental or quasi-experimental identification. Its practical role is to set the no-intervention expectation before attributing change to an action.",
+  "source_summary": "This skill was authored from model knowledge of Galton's hereditary stature work, Kahneman's treatment of regression effects, and statistical texts on correlation and reliability, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Francis Galton, 'Regression Towards Mediocrity in Hereditary Stature'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel Kahneman, Thinking, Fast and Slow"
+    },
+    {
+      "kind": "secondary",
+      "title": "Donald T. Campbell and Julian C. Stanley, Experimental and Quasi-Experimental Designs for Research"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Regression toward the mean (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a dramatic improvement or decline follows an unusually bad or unusually good baseline observation",
+    "a program targets the worst performers, sickest patients, riskiest sites, or highest-scoring outliers and then claims success from pre-post change",
+    "praise, punishment, coaching, treatment, or policy is credited because the next measurement moved closer to normal",
+    "performance rankings, forecasts, test scores, sports results, or financial returns are noisy and repeated over time",
+    "a causal story is being built around a case selected precisely because it was extreme"
+  ]
+}

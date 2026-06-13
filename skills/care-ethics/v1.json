@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:57Z",
+  "canonical_examples": [
+    {
+      "analysis": "A justice-only reading codes the case as conflict between property rights and the right to life. Gilligan's care analysis attends to the network of relationships: Heinz's responsibility to his wife, the druggist's failure of responsiveness, and the need for communication that preserves connection rather than reducing the issue to theft versus law. The moral problem is how to respond to urgent dependency without abandoning anyone to an abstract rule.",
+      "problem": "Carol Gilligan's Heinz dilemma interviews: should Heinz steal a drug he cannot afford in order to save his dying wife?"
+    },
+    {
+      "analysis": "Noddings asks whether the caregiver is engrossed in the child's concrete reality and whether motivational displacement occurs toward the child's good. A rule may be relevant, but the care verdict depends on whether the adult perceives the child's actual need, acts competently, and receives confirmation from the cared-for. The analysis also checks that care does not become control or self-congratulatory sacrifice.",
+      "problem": "Nel Noddings's one-caring and cared-for relation: a teacher or parent must respond to a particular child's need rather than merely apply an institutional rule."
+    }
+  ],
+  "core_claims": [
+    "Human beings are fundamentally relational and dependent at many life stages, so ethics that start from isolated autonomous choosers distort moral reality.",
+    "Moral attention begins with concrete responsiveness to particular others, not with applying universal principles from nowhere.",
+    "Care is not mere feeling; it includes practices of attentiveness, responsibility, competence, responsiveness, and sustaining relationship over time.",
+    "Partiality can be morally appropriate when it reflects real responsibilities created by relationship, dependency, history, and vulnerability.",
+    "Voice and listening matter: moral reasoning must include the perspectives of those receiving care, not only the intentions of caregivers.",
+    "Institutions can be judged by whether they support or exploit caring labor and whether they preserve or sever morally significant relationships.",
+    "A purely justice-oriented analysis can miss moral harms of neglect, abandonment, coldness, domination, or failure to respond to need."
+  ],
+  "description": "Care Ethics places relationships, dependency, responsiveness, and the moral significance of particular persons at the center of ethical reasoning, challenging moral theories that privilege abstract rules, impartial calculation, or autonomous individuals.",
+  "domains": [
+    "ethics",
+    "feminist-philosophy",
+    "moral-psychology",
+    "applied-ethics"
+  ],
+  "failure_modes": [
+    "Paternalistic care: caregivers may project needs onto receivers and call control or rescue 'care' without listening for response.",
+    "Self-sacrifice trap: the framework can be misused to demand endless unpaid or gendered caregiving from women and other subordinated groups.",
+    "Partiality excess: loyalty to particular relationships can excuse injustice, favoritism, or neglect of outsiders unless limits are stated.",
+    "Anti-principle caricature: practitioners may reject rights and justice entirely, though mature care ethics often needs them to protect caregivers and vulnerable receivers.",
+    "Sentimental substitution: warm feeling can replace competent action, institutional support, or attention to material conditions."
+  ],
+  "key_vocabulary": {
+    "Care": "A practice and disposition of meeting another's needs responsively within a relationship. It includes emotion but also attention, judgment, skill, and follow-through.",
+    "Care-giver": "The person or institution undertaking caring responsibility. Care ethics evaluates whether the caregiver is attentive, competent, non-dominating, and responsive.",
+    "Care-receiver": "The person whose needs, vulnerability, and response help determine whether care is actually good care. Their perspective prevents paternalistic projection.",
+    "Engrossment": "Noddings's term for receptive attention to the cared-for. It means being genuinely present to the other's reality rather than imposing an abstract script.",
+    "Ethic of care": "Gilligan's name for a moral orientation organized around responsibility, relationship, and response to need rather than primarily around rights and rules.",
+    "Natural caring": "Noddings's term for spontaneous care arising from affection or attachment. Ethical caring extends or sustains care when natural inclination is insufficient.",
+    "Relational self": "The view that persons are constituted and sustained through relationships, histories, and dependencies, not merely by independent choice.",
+    "Responsiveness": "The requirement that care adjust to the actual needs and feedback of the cared-for. It distinguishes care from control, rescue fantasy, or sentimental benevolence."
+  },
+  "name": "Care Ethics",
+  "operative_procedure": [
+    "Identify the relationships in the case: who depends on whom, what histories and commitments exist, and which caring responsibilities are already in force.",
+    "Listen for voice: describe the expressed needs, fears, interpretations, and silences of each affected person, especially the vulnerable or cared-for.",
+    "Map concrete needs rather than only rights, preferences, or aggregate outcomes: bodily, emotional, developmental, social, and relational needs all matter.",
+    "Assess the quality of care using attentiveness, responsibility, competence, and responsiveness; ask whether proposed action would actually meet the need as experienced by the receiver.",
+    "Examine power and dependency: distinguish care from domination, paternalism, self-sacrifice demanded by others, or institutional exploitation of caregivers.",
+    "Weigh partial responsibilities openly: determine which special obligations arise from relationship and where they are limited by harm to self or others.",
+    "Evaluate relational consequences: ask whether each option sustains trust, connection, and future capacity for care or produces abandonment, neglect, resentment, or erasure.",
+    "Render a care-shaped recommendation: specify the responsive action, the communication it requires, the support caregivers need, and how the cared-for person's feedback will revise the plan."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Feminist Ethics",
+      "Moral Sentimentalism",
+      "Moral Psychology"
+    ],
+    "composes_with": [
+      "Virtue Ethics",
+      "Reflective Equilibrium",
+      "Systems Thinking",
+      "Principal-Agent Analysis"
+    ],
+    "descendants": [
+      "Political Ethics of Care",
+      "Relational Autonomy",
+      "Narrative Care Ethics",
+      "Dependency Critique"
+    ],
+    "related": [
+      "Moral Sentimentalism",
+      "Virtue Ethics",
+      "Feminist Ethics",
+      "Relational Autonomy"
+    ],
+    "rivals": [
+      "Kantian Deontology",
+      "Utilitarianism",
+      "Rawlsian Justice",
+      "Thomistic Natural Law"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Care Ethics is strongest in family, education, health care, disability, elder care, social work, organizational leadership, and policy domains where dependency and relationship are central. It is less determinate in large-scale allocation conflicts unless paired with justice, rights, or institutional analysis.",
+  "source_summary": "Authored from model knowledge of Gilligan, Noddings, Tronto, and standard care ethics literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Carol Gilligan, In a Different Voice (1982)"
+    },
+    {
+      "kind": "primary",
+      "title": "Nel Noddings, Caring: A Feminine Approach to Ethics and Moral Education (1984)"
+    },
+    {
+      "kind": "primary",
+      "title": "Joan C. Tronto, Moral Boundaries: A Political Argument for an Ethic of Care (1993)"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Ethics of Care (Internet Encyclopedia of Philosophy)",
+      "url": "https://iep.utm.edu/care-ethics/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A decision affects dependent, vulnerable, or relationally embedded persons whose needs may be obscured by abstract rights or utility calculations.",
+    "A conflict is framed as impartial rule-following versus partial responsibility to particular people with whom one stands in relationship.",
+    "You need to evaluate whether an institution, policy, or practice sustains or damages networks of care.",
+    "A moral problem involves listening, responsiveness, trust, abandonment, caregiving labor, or unequal dependency.",
+    "A supposedly neutral decision procedure ignores gendered, familial, medical, educational, or social contexts of care."
+  ]
+}

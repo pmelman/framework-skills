@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:55:38Z",
+  "canonical_examples": [
+    {
+      "analysis": "Perrin's work used independent methods, including Brownian motion and sedimentation equilibrium, to estimate Avogadro's number and support the molecular-kinetic account of matter. A scientific realist treats the convergence of these methods as evidence that molecules are not merely calculational devices: mature theory successfully explained and predicted observable phenomena because it latched onto real unobservable structure. The realist conclusion is approximate and selective, but it says the success would be miraculous if molecules were not at least roughly as the theory described.",
+      "problem": "Jean Perrin's experimental work on Brownian motion helped settle debates over the reality of atoms and molecules."
+    },
+    {
+      "analysis": "The electron was introduced through experimental and theoretical work on cathode rays, charge-to-mass ratios, and later manipulation in instruments. Realism interprets the durable success of electron theory across prediction, intervention, and technological control as warrant for belief in electrons as real unobservable entities. The claim is not that every early electron model was literally correct, but that mature science achieved approximate truth about an entity whose existence explains the success better than instrumental adequacy alone.",
+      "problem": "J. J. Thomson's cathode-ray experiments and subsequent electron theory posited electrons as unobservable constituents of matter."
+    }
+  ],
+  "core_claims": [
+    "The best-confirmed mature scientific theories are approximately true, not merely empirically adequate.",
+    "Many unobservable entities posited by successful science, such as electrons, molecules, and fields, approximately exist as theory says they do.",
+    "The predictive and technological success of mature science would be miraculous if its central theoretical posits did not correspond to real structures or entities.",
+    "Reference to unobservables can survive theory change: later theories may preserve enough causal or structural continuity to explain earlier success.",
+    "Observation/theory boundaries are epistemically shallow; what matters is reliable detection and intervention, not unaided visibility.",
+    "Realism is selective: success warrants belief mainly in those parts of a theory that essentially contributed to novel prediction and manipulation.",
+    "Anti-realist empirical adequacy underdescribes science's success because it refuses the explanatory step from reliable success to truthlike representation."
+  ],
+  "description": "Scientific Realism holds that mature, predictively successful science gives approximately true descriptions of both observable and unobservable aspects of the world. Its signature no-miracles argument claims that scientific success would be inexplicable if central theoretical posits did not approximately exist.",
+  "domains": [
+    "philosophy-of-science",
+    "metaphysics",
+    "epistemology",
+    "scientific-method"
+  ],
+  "failure_modes": [
+    "Pessimistic induction pressure: many once-successful theories posited entities now rejected, so realism can overcommit to current theory.",
+    "Success-to-truth overreach: predictive success may come from limited structure, not from the literal truth of every central posit.",
+    "Maturity vagueness: calling a science mature can become a way to protect favored cases while excluding embarrassing ones.",
+    "Entity inflation: practitioners may infer reality for every useful model component, including idealizations and artifacts of representation.",
+    "Ignoring underdetermination: empirically equivalent theories may support different claims about unobservables."
+  ],
+  "key_vocabulary": {
+    "Approximate truth": "The idea that successful theories can be close enough to the truth in their central claims even if idealized or partly false.",
+    "Empirical adequacy": "The anti-realist standard that a theory need only get observable phenomena right, not describe unobservables truly.",
+    "Entity realism": "A realist position emphasizing belief in manipulable unobservable entities, sometimes without full commitment to the truth of the theories describing them.",
+    "Mature science": "A science with stable methods, robust predictive success, and integration with other well-confirmed practices. Realists usually restrict strong commitments to such cases.",
+    "No-miracles argument": "The argument that the success of science would be miraculous unless successful theories were at least approximately true about the world.",
+    "Pessimistic meta-induction": "The anti-realist argument that because many successful past theories turned out false, current successful theories may also be false.",
+    "Reference": "The relation by which theoretical terms latch onto entities or structures in the world, even across changes in description.",
+    "Unobservable": "An entity, process, or structure not directly available to unaided perception but posited, detected, or manipulated through theory and instruments."
+  },
+  "name": "Scientific Realism",
+  "operative_procedure": [
+    "Identify the mature theory or practice. Establish that the case involves stable, well-confirmed science rather than speculative modeling.",
+    "List the indispensable unobservables. Name the entities, processes, or structures the theory uses to generate its successes.",
+    "Document success. Focus on novel prediction, cross-method convergence, intervention, measurement, and technological control rather than accommodation alone.",
+    "Apply the no-miracles test. Ask whether the theory's success would be surprising if its central posits did not approximately correspond to reality.",
+    "Separate working posits from idle machinery. Commit only to components that make essential contributions to the successes being explained.",
+    "Check historical risk. Compare the case with abandoned successful theories and ask whether the current commitment is entity-level, structural, or full-theory realism.",
+    "Assess rivals. Contrast the realist explanation with empirical adequacy, instrumental usefulness, or constructive empiricist restraint.",
+    "State the realist commitment. Specify which unobservables are warranted, in what approximate respect, and which idealizations remain nonliteral."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Common-Sense Realism",
+      "Inference to the Best Explanation",
+      "Hypothetico-Deductive Method"
+    ],
+    "composes_with": [
+      "Inference to the Best Explanation",
+      "Bayesian Epistemology",
+      "Lakatos's Research Programmes",
+      "Causal Inference"
+    ],
+    "descendants": [
+      "Entity Realism",
+      "Structural Realism",
+      "Critical Scientific Realism"
+    ],
+    "related": [
+      "Instrumentalism",
+      "Kuhnian Paradigm Theory",
+      "Falsificationism",
+      "The Map-Territory Distinction"
+    ],
+    "rivals": [
+      "Instrumentalism",
+      "Constructive Empiricism",
+      "Verificationism",
+      "Kuhnian Paradigm Theory",
+      "Social Constructivism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Scientific Realism is most compelling for mature sciences with robust novel prediction, intervention, and cross-method convergence. It is less secure for speculative frontier theories, heavily idealized models, or domains with many empirically equivalent formulations. Its commitments should be selective and approximate, not blanket literalism about every element of current science.",
+  "source_summary": "Authored from model knowledge of the scientific realism literature, including the no-miracles argument and debates over unobservables, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Hilary Putnam, Mathematics, Matter and Method (1975)"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard Boyd, 'The Current Status of Scientific Realism' (1983)"
+    },
+    {
+      "kind": "primary",
+      "title": "Ian Hacking, Representing and Intervening (1983)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Scientific Realism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/scientific-realism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A successful scientific theory posits entities or structures that cannot be directly observed, and the question is whether to believe they exist.",
+    "A debate turns on whether predictive and technological success is evidence of truth or only usefulness.",
+    "Multiple independent instruments or methods converge on the same hidden entity, process, or parameter.",
+    "An explanation of science's reliability must choose between approximate truth and anti-realist empirical adequacy.",
+    "A model's idealizations need to be separated from the parts of the theory that genuinely describe the world."
+  ]
+}
