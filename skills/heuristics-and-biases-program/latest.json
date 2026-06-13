@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:34Z",
+  "canonical_examples": [
+    {
+      "analysis": "The representativeness heuristic makes Linda's description seem more similar to the stereotype of a feminist bank teller than to a generic bank teller. The program diagnoses the answer 'feminist bank teller' as a conjunction fallacy: P(bank teller and feminist) cannot exceed P(bank teller). The case shows that intuitive similarity can override an extensional probability rule even when the rule is elementary and transparent.",
+      "problem": "In Tversky and Kahneman's Linda problem, participants read that Linda is outspoken, bright, and concerned with social justice, then judge whether she is more likely to be a bank teller or a bank teller active in the feminist movement."
+    },
+    {
+      "analysis": "The wheel number functions as an irrelevant anchor. Even though participants know it was random, their subsequent estimates are insufficiently adjusted away from it, so high anchors produce higher median estimates than low anchors. The framework treats the gap between the 10-anchor and 65-anchor conditions as evidence for anchoring and adjustment, not as different background knowledge about Africa.",
+      "problem": "In Tversky and Kahneman's anchoring demonstration, participants first see a random wheel stop at 10 or 65, then estimate the percentage of African countries in the United Nations."
+    }
+  ],
+  "core_claims": [
+    "People routinely answer hard judgment questions by substituting easier heuristic questions, such as similarity, availability, or adjustment from an anchor.",
+    "These heuristics generate systematic and directionally predictable errors, not merely random noise around rational judgment.",
+    "Representativeness leads people to neglect base rates, sample size, and regression to the mean when a description resembles a stereotype or causal story.",
+    "Availability makes judged frequency or probability depend on ease of recall, vividness, salience, and recent exposure rather than event rates alone.",
+    "Anchoring effects persist even when anchors are arbitrary, known to be irrelevant, or randomly generated, because adjustment is typically insufficient.",
+    "Formal norms such as probability theory, Bayesian updating, and expected utility theory are useful reference points precisely because human intuitive judgment departs from them in patterned ways.",
+    "Framing can reverse preferences between extensionally equivalent options, showing that observed choices often violate description invariance."
+  ],
+  "description": "The Heuristics and Biases Program is Kahneman and Tversky's research program showing that human judgment under uncertainty often relies on simple heuristics that are efficient but produce systematic departures from probability theory, statistics, and rational choice norms.",
+  "domains": [
+    "psychology",
+    "behavioral-economics",
+    "decision-making",
+    "judgment-under-uncertainty"
+  ],
+  "failure_modes": [
+    "Bias spotting can become a just-so story: after an error is observed, many biases can be named without independently predicting which one should dominate.",
+    "The program can understate ecological rationality by treating laboratory departures from formal norms as irrational even when the heuristic works well in natural environments.",
+    "Practitioners often ignore task construal: a response that looks like a probability error may reflect conversational pragmatics, ambiguity, or a different interpretation of the question.",
+    "Cataloging biases can encourage cynicism about human judgment without specifying a better decision procedure for the live setting.",
+    "Debiasing advice can overcorrect, making analysts distrust useful intuition even in domains where feedback, repetition, and expertise make intuitive judgment reliable."
+  ],
+  "key_vocabulary": {
+    "Anchoring and adjustment": "A judgment process in which an initial value, even an arbitrary one, pulls a later estimate because adjustment away from the anchor is insufficient.",
+    "Availability heuristic": "Judging frequency or probability by the ease with which examples come to mind. It is affected by vividness, recency, media exposure, and memorability.",
+    "Base-rate neglect": "Underweighting prior probabilities or population frequencies when individuating descriptions or stories are salient.",
+    "Conjunction fallacy": "Judging a conjunction of events as more probable than one of its components, violating the probability rule that P(A and B) cannot exceed P(A).",
+    "Framing effect": "A change in preference or judgment caused by different but extensionally equivalent descriptions of the same options.",
+    "Heuristic": "A simplifying mental operation that reduces a difficult judgment to a more tractable one. In this program, heuristics are useful but bias-prone.",
+    "Representativeness heuristic": "Judging probability by similarity to a class, prototype, or causal model rather than by base rates and sampling principles.",
+    "Systematic bias": "A predictable directional departure from a normative rule, such as probability theory or expected utility theory."
+  },
+  "name": "Heuristics and Biases Program",
+  "operative_procedure": [
+    "Specify the target judgment: probability, frequency, causal attribution, preference, prediction, or estimate. Identify the formal norm that would govern the task if the relevant information were used correctly.",
+    "Separate the presented information into base rates, individuating descriptions, sample properties, outcome frames, and irrelevant cues. Mark which cues are normatively relevant and which are merely salient.",
+    "Ask which heuristic question the judge is likely to substitute for the harder one: similarity to a prototype, ease of recall, adjustment from an initial value, affective reaction, or narrative coherence.",
+    "Predict the bias direction before evaluating the answer: base-rate neglect, conjunction error, overprediction from small samples, neglect of regression, availability inflation, anchoring, or framing reversal.",
+    "Compare the intuitive judgment with the normative benchmark. Use arithmetic where possible: Bayes's rule, extensional probability, expected value, confidence intervals, or dominance.",
+    "Diagnose the cognitive mechanism in concrete terms: which feature captured attention, which statistical feature was ignored, and why the substituted question felt fluent.",
+    "Design a debiasing intervention matched to the mechanism: present natural frequencies, make base rates explicit, remove anchors, reframe gains and losses symmetrically, aggregate independent judgments, or slow the decision.",
+    "Report both the likely heuristic error and the residual uncertainty. Do not infer that a person is globally irrational from a single biased judgment."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Cognitive Psychology",
+      "Decision Theory",
+      "Bayesian Epistemology"
+    ],
+    "composes_with": [
+      "Red Teaming",
+      "Pre-mortem",
+      "Expected-Value Reasoning",
+      "Replication and Robustness Thinking"
+    ],
+    "descendants": [
+      "Prospect Theory",
+      "Behavioral Economics",
+      "Nudge Theory",
+      "Dual-Process Theory"
+    ],
+    "related": [
+      "Fallacy Analysis",
+      "The Map-Territory Distinction",
+      "Causal Inference",
+      "Fermi Estimation"
+    ],
+    "rivals": [
+      "Expected Utility Theory",
+      "Bayesian Epistemology",
+      "Ecological Rationality",
+      "Rational Choice Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Heuristics and Biases Program is strongest for diagnosing predictable errors in intuitive judgment under uncertainty, especially in probability estimates, risk perception, forecasting, and preference framing. It is weaker as a complete model of expertise, institutional decision-making, or adaptive behavior in natural environments, because a heuristic that fails a laboratory norm may still perform well under real constraints. Use it to identify and correct likely cognitive error patterns, not to dismiss intuition wholesale.",
+  "source_summary": "Authored from model knowledge of Kahneman and Tversky's research program and named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Amos Tversky and Daniel Kahneman, 'Judgment under Uncertainty: Heuristics and Biases' (1974)"
+    },
+    {
+      "kind": "primary",
+      "title": "Daniel Kahneman, Paul Slovic, and Amos Tversky, Judgment under Uncertainty: Heuristics and Biases (1982)"
+    },
+    {
+      "kind": "primary",
+      "title": "Amos Tversky and Daniel Kahneman, 'Extensional Versus Intuitive Reasoning: The Conjunction Fallacy in Probability Judgment' (1983)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel Kahneman, Thinking, Fast and Slow (2011)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Heuristics in Judgment and Decision-Making (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Heuristics_in_judgment_and_decision-making"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "People are making probability, risk, or frequency judgments from vivid examples, stereotypes, recent events, or memorable anecdotes.",
+    "A decision appears sensitive to irrelevant starting values, default numbers, first offers, or arbitrary estimates.",
+    "Stakeholders disagree about a forecast and the disagreement may come from salience, framing, or neglected base rates rather than new evidence.",
+    "A choice reverses when the same outcomes are described as gains rather than losses, survival rather than mortality, or costs rather than foregone benefits.",
+    "An intuitive answer feels obvious even though the problem contains statistical structure such as sample size, regression, priors, or conjunctions."
+  ]
+}

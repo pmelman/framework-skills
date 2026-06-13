@@ -1,0 +1,115 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:35Z",
+  "canonical_examples": [
+    {
+      "analysis": "Simon analyzes the decision as sequential search under an aspiration level rather than global maximization. The buyer does not inspect every house and compute the utility maximum; they set acceptable thresholds for price, location, space, and condition, inspect candidates in an order shaped by market availability, and stop when one meets the aspiration level. If no house qualifies, the aspiration level may be lowered; if many qualify immediately, it may be raised.",
+      "problem": "Simon's familiar house-buying example: a person searches for a satisfactory house in a large market without evaluating every possible house."
+    },
+    {
+      "analysis": "The employer uses an aspiration level for qualifications, reliability, wage fit, and availability, then searches applicants sequentially. Hiring the first candidate who meets the threshold saves search costs and time, but the quality of the outcome depends on where the aspiration level is set and how candidate order is generated. The satisficing analysis asks whether the threshold reflects real needs and whether continued search is worth its marginal cost.",
+      "problem": "In Simon's discussions of employment and administrative choice, an organization must select an employee from a stream of applicants without knowing the best possible candidate."
+    }
+  ],
+  "core_claims": [
+    "In many real decisions, the rational stopping rule is to choose an alternative that meets an aspiration level, not to identify the global optimum.",
+    "Aspiration levels are adjustable: failure to find acceptable options lowers them, while abundant acceptable options may raise them.",
+    "Sequential search makes option order consequential; the chosen alternative can depend on when it appears, not only on its absolute quality.",
+    "Search costs are part of the decision problem, so additional comparison can make a decision worse even if it might discover a better option.",
+    "A satisfactory option is defined relative to explicit criteria and thresholds, not by vague comfort or post hoc rationalization.",
+    "Satisficing is a normative strategy under bounded rationality when optimization is infeasible or too costly, not merely a description of laziness."
+  ],
+  "description": "Satisficing is Herbert Simon's decision rule of selecting the first available alternative that meets an aspiration level, replacing exhaustive optimization when search, information, and computation are limited.",
+  "domains": [
+    "decision-theory",
+    "organizational-theory",
+    "economics",
+    "cognitive-science"
+  ],
+  "failure_modes": [
+    "Low aspiration anchoring: early constraints or fear can set the threshold too low, making mediocre choices look rational.",
+    "Unspecified thresholds: without explicit aspiration levels, satisficing degenerates into accepting whatever feels convenient.",
+    "Order bias: because the first qualifying option wins, manipulated or accidental ordering can determine the outcome.",
+    "Premature stopping in high-stakes domains: when the cost of a bad choice is extreme and search is cheap, satisficing can leave too much value or safety unexamined.",
+    "Criterion neglect: meeting visible thresholds can hide unmeasured dimensions that an optimizer or broader review would have caught."
+  ],
+  "key_vocabulary": {
+    "Aspiration level": "The threshold an alternative must meet to count as satisfactory. It is set by goals, experience, constraints, and feedback from search.",
+    "Good enough": "A shorthand for meeting the aspiration level, not for being careless. A good-enough option satisfies the criteria that matter for the decision.",
+    "Optimization": "The attempt to select the best alternative from the full feasible set. Satisficing rejects optimization when full comparison is unavailable or not worth its cost.",
+    "Search cost": "The time, money, attention, and opportunity cost incurred by looking for more alternatives or more information.",
+    "Sequential search": "Considering alternatives one at a time or in batches as they become available. The procedure stops when an option crosses the threshold.",
+    "Stopping rule": "The rule that determines when search ends. In satisficing, the rule is typically 'accept the first alternative that meets the aspiration level.'"
+  },
+  "name": "Satisficing",
+  "operative_procedure": [
+    "Define the decision domain and list the criteria that an acceptable alternative must satisfy.",
+    "Set aspiration levels for each criterion, distinguishing must-meet thresholds from preferences that are merely nice to have.",
+    "Estimate search costs, delay costs, and the value of continued search so the stopping rule fits the stakes.",
+    "Generate alternatives sequentially through the channels actually available, noting how ordering may bias discovery.",
+    "Evaluate each alternative against the aspiration levels without converting the process into exhaustive ranking unless the threshold is met by too many options.",
+    "Accept the first alternative that meets all must-meet thresholds, unless predefined high-stakes safeguards require a minimum comparison set.",
+    "If search fails, revise deliberately: lower unrealistic thresholds, broaden search channels, extend time, or reconsider the goal.",
+    "After acting, use feedback to recalibrate future aspiration levels rather than treating the threshold as fixed forever."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Bounded Rationality",
+      "Administrative Theory",
+      "Decision Theory"
+    ],
+    "composes_with": [
+      "Bounded Rationality",
+      "OODA Loop",
+      "Pre-mortem",
+      "Jobs-to-be-Done"
+    ],
+    "descendants": [
+      "Fast and Frugal Heuristics",
+      "Ecological Rationality",
+      "Recognition Heuristic"
+    ],
+    "related": [
+      "Bounded Rationality",
+      "Expected-Value Reasoning",
+      "Decision Theory",
+      "Theory of Constraints"
+    ],
+    "rivals": [
+      "Expected-Value Reasoning",
+      "Classical Rational Choice Theory",
+      "Utilitarianism",
+      "Maximax"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Satisficing is strongest for everyday, administrative, hiring, procurement, product, and search decisions where exhaustive comparison is expensive and an acceptable threshold can be named. It is weakest when stakes are catastrophic, search is cheap, thresholds are politically manipulated, or a decision legally or ethically requires best-value optimization.",
+  "source_summary": "Authored from model knowledge of Herbert Simon's work on satisficing, bounded rationality, and administrative decision-making, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, 'A Behavioral Model of Rational Choice,' Quarterly Journal of Economics (1955)"
+    },
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, Models of Man: Social and Rational (1957)"
+    },
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, Administrative Behavior (1947)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Gerd Gigerenzer and Reinhard Selten, Bounded Rationality: The Adaptive Toolbox (2001)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "You must choose from many possible options and full comparison would cost more than it is worth.",
+    "A decision can be made responsibly by meeting explicit minimum criteria rather than finding the theoretical best.",
+    "Options arrive sequentially and waiting for a perfect candidate risks delay, opportunity cost, or overload.",
+    "The team is stuck optimizing marginal differences after the important thresholds have already been satisfied.",
+    "A practical stopping rule is needed for hiring, purchasing, search, triage, or feature selection."
+  ]
+}

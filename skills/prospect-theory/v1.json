@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:35Z",
+  "canonical_examples": [
+    {
+      "analysis": "Expected-value theory treats the two programs as equivalent across gain and loss frames, but Prospect Theory predicts a reversal. In the lives-saved frame, people tend to choose the sure gain because the value function is concave over gains. In the deaths frame, they tend to choose the gamble because the value function is convex over losses. The reference point is the expected disaster baseline, and the wording moves outcomes into gains or losses relative to that point, producing risk aversion for gains and risk seeking for losses.",
+      "problem": "Kahneman and Tversky's Asian disease problem: equivalent public-health outcomes are framed as lives saved or lives lost."
+    },
+    {
+      "analysis": "The Allais pattern violates the independence axiom of expected utility theory: people overweight the certainty of receiving one million in the first choice, then prefer the larger probabilistic payoff when certainty is absent. Prospect Theory explains this through nonlinear decision weights and a certainty effect: moving from 99% to 100% receives disproportionate weight compared with similar probability changes away from certainty. The choices are not simply risk aversion; they depend on how probabilities are transformed.",
+      "problem": "The Allais paradox: many people prefer a certain moderate prize over a near-certain larger gamble, yet choose the larger gamble in a matched comparison where certainty is removed."
+    }
+  ],
+  "core_claims": [
+    "People evaluate outcomes as gains and losses relative to a reference point rather than by final wealth alone.",
+    "Losses loom larger than commensurate gains; the value function is steeper below the reference point than above it.",
+    "The value function is typically concave for gains and convex for losses, producing risk aversion over gains and risk seeking over losses.",
+    "Decision weights are nonlinear transformations of probabilities, with small probabilities often overweighted and moderate-to-high probabilities often underweighted.",
+    "Framing equivalent outcomes as gains or losses can reverse preferences even when expected outcomes are unchanged.",
+    "The certainty effect gives disproportionate psychological impact to outcomes that are guaranteed compared with merely probable.",
+    "Choice anomalies such as the Allais paradox and reflection effect are systematic features of human valuation, not random mistakes."
+  ],
+  "description": "Prospect Theory is Kahneman and Tversky's descriptive model of risky choice, centered on reference dependence, loss aversion, diminishing sensitivity, and nonlinear probability weighting.",
+  "domains": [
+    "behavioral-economics",
+    "psychology",
+    "decision-theory",
+    "risk"
+  ],
+  "failure_modes": [
+    "Reference-point guesswork: analysts can explain almost any choice after the fact unless they specify the reference point before interpreting behavior.",
+    "Descriptive-normative confusion: Prospect Theory predicts common preferences but does not by itself show those preferences are rational or welfare-improving.",
+    "Parameter overfitting: loss aversion and probability weighting estimates vary by domain, stake size, culture, and elicitation method.",
+    "Neglecting learning and institutions: repeated market feedback, expertise, rules, or incentives can attenuate framing effects.",
+    "Overusing loss aversion: not every resistance to change is caused by losses looming larger; strategic interests, switching costs, identity, and distrust may dominate."
+  ],
+  "key_vocabulary": {
+    "Certainty effect": "The disproportionate weight placed on outcomes that are certain compared with outcomes that are merely highly probable. It helps explain violations of expected utility independence.",
+    "Decision weight": "The subjective weight assigned to an objective probability. It is not the same as a believed probability and may overweight or underweight events.",
+    "Diminishing sensitivity": "The idea that changes have less marginal impact farther from the reference point. The difference between $0 and $100 feels larger than between $1,000 and $1,100.",
+    "Framing effect": "A preference change caused by presenting equivalent outcomes as gains or losses. The Asian disease problem is the canonical example.",
+    "Loss aversion": "The tendency for losses relative to a reference point to have greater subjective impact than equal-sized gains.",
+    "Reference point": "The baseline against which outcomes are coded as gains or losses, such as the status quo, expectation, entitlement, or announced target.",
+    "Reflection effect": "The reversal from risk aversion in gains to risk seeking in losses. It follows from the different curvature of the value function above and below the reference point.",
+    "Value function": "The function mapping objective gains and losses into subjective value. In Prospect Theory it is reference-dependent, S-shaped, and steeper for losses."
+  },
+  "name": "Prospect Theory",
+  "operative_procedure": [
+    "Identify the choice set, outcomes, probabilities, and the actor whose risky choice is being explained.",
+    "Specify the reference point before analysis: status quo, expectation, entitlement, target, or recent outcome.",
+    "Code each outcome as a gain or loss relative to that reference point rather than as final wealth or aggregate welfare.",
+    "Apply the value function qualitatively: diminishing sensitivity for gains and losses, with a steeper slope for losses.",
+    "Transform objective probabilities into decision weights, checking for overweighted small probabilities, underweighted medium/high probabilities, and the certainty effect.",
+    "Compare prospects by weighted subjective value, not by expected monetary value alone.",
+    "Test for framing dependence by rewriting equivalent outcomes in gain and loss frames and predicting whether preferences reverse.",
+    "Report where behavior diverges from expected utility theory and whether changing the reference point, frame, or probability presentation would likely change choice."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Expected Utility Theory",
+      "Bounded Rationality",
+      "Psychophysics"
+    ],
+    "composes_with": [
+      "Behavioral Economics",
+      "Pre-mortem",
+      "Decision Theory",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Cumulative Prospect Theory",
+      "Behavioral Finance",
+      "Nudge Theory"
+    ],
+    "related": [
+      "Decision Theory",
+      "Expected-Value Reasoning",
+      "Bounded Rationality",
+      "Causal Inference"
+    ],
+    "rivals": [
+      "Expected-Value Reasoning",
+      "Expected Utility Theory",
+      "Classical Rational Choice Theory",
+      "Bayesian Epistemology"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Prospect Theory is strongest for descriptive analysis of individual risky choice, framing effects, insurance, gambling, consumer behavior, and finance anomalies. It is less suited to moral evaluation, group deliberation, long-run institutional design, or cases where preferences are stable, stakes are learned through repetition, and reference points are unambiguous. It predicts tendencies rather than guaranteeing behavior in every choice.",
+  "source_summary": "Authored from model knowledge of Kahneman and Tversky's Prospect Theory papers and standard behavioral-economics discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Daniel Kahneman and Amos Tversky, 'Prospect Theory: An Analysis of Decision under Risk,' Econometrica (1979)"
+    },
+    {
+      "kind": "primary",
+      "title": "Amos Tversky and Daniel Kahneman, 'The Framing of Decisions and the Psychology of Choice,' Science (1981)"
+    },
+    {
+      "kind": "primary",
+      "title": "Amos Tversky and Daniel Kahneman, 'Advances in Prospect Theory: Cumulative Representation of Uncertainty,' Journal of Risk and Uncertainty (1992)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Daniel Kahneman, Thinking, Fast and Slow (2011)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Prospect theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Prospect_theory"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "People make different choices when objectively equivalent outcomes are framed as gains versus losses.",
+    "A risky decision involves a salient status quo, target, entitlement, or expectation that may serve as a reference point.",
+    "Losses, foregone benefits, or possible regret seem to drive behavior more strongly than equal-sized gains.",
+    "Small probabilities, certainty, insurance, gambling, or rare catastrophic outcomes receive disproportionate attention.",
+    "Expected-value or expected-utility analysis predicts one choice but observed human behavior systematically favors another."
+  ]
+}

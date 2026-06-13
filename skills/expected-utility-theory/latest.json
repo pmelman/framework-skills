@@ -1,0 +1,126 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:34Z",
+  "canonical_examples": [
+    {
+      "analysis": "The theorem treats this as a choice among lotteries over monetary outcomes. If the agent's preferences over the lotteries satisfy completeness, transitivity, continuity, and independence, there exists a utility function unique up to positive affine transformation such that the rational choice maximizes expected utility. Risk aversion is represented not by rejecting expectation but by a concave utility function for money, so a sure $1,000 may rationally outrank a 50% chance of $2,200 even though the gamble has higher expected monetary value.",
+      "problem": "Von Neumann and Morgenstern analyze choices among lotteries, such as accepting a certain sum of money versus taking a probabilistic gamble with a larger possible payoff."
+    },
+    {
+      "analysis": "Savage's omelet case frames action under uncertainty as choosing acts whose consequences depend on states of the world. The cook should list acts such as breaking the doubtful egg into the bowl, breaking it into a saucer first, or discarding it; states such as egg good or egg rotten; and consequences such as saved egg, spoiled omelet, or wasted egg. Under Savage-style expected utility, coherent preferences among such acts reveal subjective probabilities and utilities, and the recommended act is the one with greatest subjective expected utility.",
+      "problem": "In Savage's broken-egg example, a cook has five good eggs in a bowl and must decide what to do with a sixth egg that might be rotten."
+    }
+  ],
+  "core_claims": [
+    "If an agent's preferences over lotteries satisfy the von Neumann-Morgenstern axioms, those preferences can be represented as maximizing the expectation of a utility function.",
+    "Utility in the theorem is ordinal up to positive affine transformation; it represents preference intensity over risky prospects, not a direct psychological unit of pleasure or money.",
+    "The independence axiom requires that if one lottery is preferred to another, mixing both with the same third lottery in the same probabilities preserves the preference.",
+    "Risk attitudes are encoded in the curvature of utility for outcomes: concavity represents risk aversion, linearity risk neutrality, and convexity risk seeking.",
+    "A rational choice under risk compares the probability-weighted utilities of complete outcomes, not the probability-weighted monetary amounts alone.",
+    "When states are uncertain rather than objectively risky, subjective expected utility extends the framework by deriving or assigning probabilities over states.",
+    "Violations such as Allais-style preference reversals are not minor noise; they directly challenge the independence axiom and the representation theorem's normative reach."
+  ],
+  "description": "Expected Utility Theory is the von Neumann-Morgenstern account of rational choice under risk: preferences satisfying specific axioms can be represented as maximizing the probability-weighted utility of outcomes.",
+  "domains": [
+    "decision-theory",
+    "economics",
+    "rational-choice",
+    "risk-analysis"
+  ],
+  "failure_modes": [
+    "Treating utility as money leads to bad prescriptions for risk-averse agents; the framework requires utilities over outcomes, not raw payoffs.",
+    "The independence axiom can mislead practitioners in cases with certainty effects, regret, ambiguity, or psychologically salient framing, where observed preferences predictably violate it.",
+    "Poor outcome specification hides relevant consequences such as downside ruin, reputation, moral constraints, learning value, or option value.",
+    "Assigning precise probabilities to poorly understood states can create a false appearance of rigor; subjective expected utility is only as good as the probability model.",
+    "The framework can recommend choices that are locally optimal for a single agent while ignoring strategic interaction, distributional justice, or rights-based constraints."
+  ],
+  "key_vocabulary": {
+    "Completeness": "The axiom that the agent can rank any two lotteries as preferred, dispreferred, or indifferent. It rules out incommensurable options within the formal model.",
+    "Continuity": "The axiom that if A is preferred to B and B to C, then some probability mixture of A and C is exactly indifferent to B.",
+    "Expected utility": "The sum of each possible outcome's utility multiplied by its probability. The theory recommends choosing the act or lottery with the highest value of this sum.",
+    "Independence axiom": "The axiom that preference between two lotteries is preserved when each is mixed with the same third lottery in the same proportion.",
+    "Lottery": "A probability distribution over outcomes. Von Neumann-Morgenstern theory represents risky options as lotteries.",
+    "Positive affine transformation": "A transformation u'(x) = a u(x) + b, with a greater than 0, that preserves the expected-utility representation of the same preferences.",
+    "Risk aversion": "A preference pattern in which a sure outcome can be preferred to a gamble with equal or greater expected monetary value, represented by concave utility for money.",
+    "Subjective expected utility": "Savage's extension in which probabilities over states are not necessarily objective frequencies but are represented by the agent's coherent preferences among acts."
+  },
+  "name": "Expected Utility Theory",
+  "operative_procedure": [
+    "Define the choice object as a set of acts or lotteries. For each option, specify mutually exclusive and exhaustive outcomes, including non-monetary consequences that matter to the agent.",
+    "Assign probabilities to outcomes or states. Use objective probabilities when the risk structure is known; otherwise state subjective probabilities and their evidential basis.",
+    "Elicit or construct a utility function over complete outcomes. Do not assume dollars equal utility; represent risk aversion, thresholds, ruin, and diminishing marginal value explicitly.",
+    "Check the preference axioms at least qualitatively: completeness, transitivity, continuity, and independence. Flag any Allais-style, ambiguity-sensitive, or regret-sensitive preferences that violate the representation assumptions.",
+    "Compute each option's expected utility by multiplying each outcome utility by its probability and summing across outcomes.",
+    "Choose the option with the highest expected utility, then test robustness by varying probabilities and utilities across plausible ranges.",
+    "Explain the recommendation in utility terms: identify which probabilities, outcome utilities, or risk attitudes drive the ranking.",
+    "If multiple agents are involved, separate individual expected utility from strategic equilibrium or social welfare; do not smuggle those questions into a single-agent calculation."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Decision Theory",
+      "Probability Theory",
+      "Utility Theory"
+    ],
+    "composes_with": [
+      "Bayesian Epistemology",
+      "Game Theory",
+      "Expected-Value Reasoning",
+      "Fermi Estimation"
+    ],
+    "descendants": [
+      "Subjective Expected Utility Theory",
+      "Game Theory",
+      "Cost-Benefit Analysis",
+      "Modern Portfolio Theory"
+    ],
+    "related": [
+      "Decision Theory",
+      "Pascal's Wager",
+      "Utilitarianism",
+      "Principal-Agent Analysis"
+    ],
+    "rivals": [
+      "Prospect Theory",
+      "Heuristics and Biases Program",
+      "Maximin Decision Rule",
+      "Kantian Deontology",
+      "Aristotelian Virtue Ethics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Expected Utility Theory is strongest for single-agent choices under risk where options, outcomes, probabilities, and utilities can be made explicit. It provides a precise normative benchmark and a compact representation theorem, but it does not by itself solve ambiguity, moral side constraints, interpersonal utility comparison, strategic interaction, or bounded cognition. Use it to structure and evaluate risky choices, while checking whether its axioms are acceptable for the case.",
+  "source_summary": "Authored from model knowledge of von Neumann-Morgenstern, Savage, and decision-theory sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John von Neumann and Oskar Morgenstern, Theory of Games and Economic Behavior (1944)"
+    },
+    {
+      "kind": "primary",
+      "title": "Leonard J. Savage, The Foundations of Statistics (1954)"
+    },
+    {
+      "kind": "primary",
+      "title": "Daniel Bernoulli, 'Exposition of a New Theory on the Measurement of Risk' (1738)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Decision Theory (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/decision-theory/"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Expected Utility Hypothesis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Expected_utility_hypothesis"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A choice involves risky options with specifiable outcomes and probabilities, and the decision maker's risk attitude matters.",
+    "Several options have different upside, downside, and likelihood profiles that cannot be compared by expected money alone.",
+    "A recommendation needs a normative benchmark for coherent choice under risk rather than a description of how people actually choose.",
+    "A decision analysis must distinguish probability beliefs from value judgments about outcomes.",
+    "A proposed preference pattern may violate transitivity, independence, dominance, or another rational-choice axiom."
+  ]
+}

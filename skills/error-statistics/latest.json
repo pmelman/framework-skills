@@ -1,0 +1,116 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:34Z",
+  "canonical_examples": [
+    {
+      "analysis": "Mayo treats this as a question about severity, not just significance. If Eddington's instruments, eclipse conditions, plate measurements, and background astronomical assumptions had a high probability of revealing discrepancies from Einstein's predicted light bending if those discrepancies existed, then passing the test gives severe evidence for the prediction. If the data selection, measurement uncertainty, or rival adjustments made it easy for the prediction to pass regardless, the same result would be weak evidence even if historically dramatic.",
+      "problem": "Eddington's 1919 eclipse observations were used to test Einstein's prediction that starlight would be deflected by the sun."
+    },
+    {
+      "analysis": "In the Higgs search, the relevant question is whether the analysis procedure would probably have produced a less signal-like result if there were no particle or if the excess were a background fluctuation. The five-sigma threshold is an error-probability device for controlling how often background alone passes as discovery in high-search settings. On Mayo's account, the claim receives severe evidence only to the extent that the detector, background modeling, look-elsewhere correction, and independent channels made the discovery claim hard to pass falsely.",
+      "problem": "Particle physicists at CERN announced evidence for the Higgs boson after finding a signal near 125 GeV meeting a five-sigma discovery standard."
+    }
+  ],
+  "core_claims": [
+    "Data provide evidence for a claim only if the claim has passed a test that would probably have found the claim's flaws if they existed.",
+    "Severity is an evidential concept distinct from both high posterior probability and low p-value; it asks how probative the actual test was for the specific inference drawn.",
+    "Error probabilities are not merely long-run operating characteristics; they are tools for assessing what particular data do and do not warrant.",
+    "A statistically significant result can be poor evidence if the procedure had little capacity to detect relevant errors, bias, optional stopping, or alternative explanations.",
+    "A non-significant result can severely rule out discrepancies that the test had high power to detect, while leaving untested smaller discrepancies open.",
+    "Objectivity in inference comes from deliberately probing claims with methods capable of exposing mistakes, not from assigning degrees of belief to hypotheses.",
+    "Post-data severity assessments must be tied to pre-data error properties and the actual test performed; they are not free-form rationalizations after seeing the result."
+  ],
+  "description": "Error Statistics is Deborah Mayo's philosophy of statistical inference: evidence consists in claims passing severe tests, where a test is severe when it would probably have detected the specific error or discrepancy if it were present.",
+  "domains": [
+    "statistics",
+    "philosophy-of-science",
+    "scientific-inference",
+    "methodology"
+  ],
+  "failure_modes": [
+    "Severity language can be used rhetorically after the fact unless the relevant error probes, discrepancies, and capacities to detect them are specified precisely.",
+    "Practitioners may collapse severity into ordinary NHST, treating any low p-value as severe evidence without asking what errors the test could actually have found.",
+    "The framework can be difficult to operationalize for complex models, exploratory workflows, or high-dimensional data where the relevant error probabilities are hard to characterize.",
+    "Focusing on error probing can underplay prior information, cumulative plausibility, and decision stakes that Bayesian or decision-theoretic analyses make explicit.",
+    "A severe test of a narrow claim can be mistaken for support of a broader theory, especially when auxiliary assumptions and rival explanations have not been tested."
+  ],
+  "key_vocabulary": {
+    "Error probability": "The probability that a method would produce misleading results of a specified kind under relevant assumptions. Error statistics uses these probabilities to assess inferential warrant.",
+    "Error probe": "A test or diagnostic deliberately aimed at finding a particular way a claim, model, measurement, or inference could be wrong.",
+    "Mere accordance": "A result's simply fitting a hypothesis. For Mayo, fit alone is weak unless the hypothesis has passed a test that could have exposed its errors.",
+    "Severity": "A claim C passes a severe test T with data x when x agrees with C and, with high probability, T would have produced a result less accordant with C if C were false in the specified way.",
+    "Statistical inference as learning from error": "The view that reliable inference advances by detecting, controlling, and learning from mistakes rather than by confirming theories through fit alone.",
+    "Test T plus data x": "The unit of evidential assessment in severity analysis: a claim is not evaluated from data alone but from the data as generated and analyzed by a specific testing procedure."
+  },
+  "name": "Error Statistics",
+  "operative_procedure": [
+    "State the exact inference or claim being made, including its parameter value, discrepancy bound, model assumption, or substantive conclusion.",
+    "Identify the relevant errors the claim could contain: bias, confounding, background fluctuation, model misspecification, measurement artifact, optional stopping, or a discrepancy of a specified size.",
+    "Specify the test procedure actually used, including design, stopping rule, data selection, test statistic, diagnostics, and assumptions.",
+    "Ask the severity question for each claim: if this claim were false in the relevant way, how likely would this procedure have produced a result less in accord with the claim?",
+    "Use error probabilities, power, sensitivity, calibration checks, simulations, or independent replications to estimate the test's capacity to detect those errors.",
+    "Distinguish what passed severely from what merely fit the data. Narrow or weaken conclusions when only a limited discrepancy, auxiliary assumption, or artifact has been probed.",
+    "Inspect selection effects: multiple testing, flexible modeling, stopping rules, and file-drawer processes reduce severity unless accounted for in the error analysis.",
+    "Report the evidential warrant as a severity assessment: which errors have been stringently ruled out, which remain untested, and what further probes would be needed."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Frequentist Hypothesis Testing",
+      "Falsificationism",
+      "Experimental Method"
+    ],
+    "composes_with": [
+      "Replication and Robustness Thinking",
+      "Strong Inference",
+      "Causal Inference",
+      "Red Teaming"
+    ],
+    "descendants": [
+      "Severe Testing",
+      "Error-Statistical Philosophy of Science"
+    ],
+    "related": [
+      "Frequentist Hypothesis Testing",
+      "Hypothetico-Deductive Method",
+      "Falsificationism",
+      "The Map-Territory Distinction"
+    ],
+    "rivals": [
+      "Bayesian Epistemology",
+      "Likelihoodism",
+      "Inference to the Best Explanation",
+      "Frequentist Hypothesis Testing"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Error Statistics is strongest for evaluating scientific claims where the testing procedure, error opportunities, and discrepancy sizes can be made explicit. It is especially useful for distinguishing genuine probative tests from mere fit, p-hacking, and overbroad claims. Its limits appear in exploratory, qualitative, or highly model-dependent settings where error probabilities are unclear, and in decisions where action must combine evidence with utilities or prior commitments.",
+  "source_summary": "Authored from model knowledge of Deborah Mayo's error-statistical writings and named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Deborah G. Mayo, Error and the Growth of Experimental Knowledge (1996)"
+    },
+    {
+      "kind": "primary",
+      "title": "Deborah G. Mayo, Statistical Inference as Severe Testing (2018)"
+    },
+    {
+      "kind": "primary",
+      "title": "Aris Spanos and Deborah G. Mayo, Error and Inference (2010)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Philosophy of Statistics (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/statistics/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A result fits a hypothesis, but the real question is whether the test would have exposed the hypothesis if it were wrong.",
+    "A statistical claim may be overstating what a p-value, confidence interval, diagnostic, or replication actually warrants.",
+    "A scientific inference depends on ruling out specific errors such as bias, confounding, background fluctuation, or measurement artifact.",
+    "A non-significant or significant result needs interpretation in terms of what discrepancies the procedure had capacity to detect.",
+    "A research workflow includes flexible analyses, selection effects, or model checks that may weaken the severity of the final claim."
+  ]
+}

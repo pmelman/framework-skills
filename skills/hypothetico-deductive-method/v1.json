@@ -1,0 +1,127 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:34Z",
+  "canonical_examples": [
+    {
+      "analysis": "Semmelweis proposed and compared hypotheses to explain childbed fever, including epidemic influences, overcrowding, diet, rough examinations, and contamination from cadaveric material. The cadaveric-contamination hypothesis deductively implied that requiring physicians to wash with chlorinated lime after autopsies should reduce mortality in the First Clinic. When mortality fell sharply after the intervention, the prediction was confirmed relative to rival hypotheses that did not imply the same result, though auxiliary assumptions about compliance and measurement remained part of the test.",
+      "problem": "Ignaz Semmelweis investigated why puerperal fever mortality was much higher in one maternity clinic than another at Vienna General Hospital."
+    },
+    {
+      "analysis": "Hempel's account treats this as a paradigm of deriving observable consequences from a hypothesis plus auxiliary assumptions. If the hypothesis that Neptune existed in a specified position were true, together with Newtonian mechanics and observational assumptions, then Uranus should show the observed perturbations and a telescope aimed at the calculated position should reveal a planet. The successful observation supported the hypothesis because a novel, risky prediction followed from it, though the inference was not deductively conclusive.",
+      "problem": "The unexplained perturbations in Uranus's orbit led Le Verrier and Adams to hypothesize an unknown planet, later observed as Neptune."
+    }
+  ],
+  "core_claims": [
+    "Scientific testing proceeds by deriving observable consequences from a hypothesis together with auxiliary assumptions, then comparing those consequences with observation or experiment.",
+    "A failed prediction deductively refutes only the conjunction of hypothesis, auxiliaries, initial conditions, and observation claims, not the target hypothesis in isolation.",
+    "A successful prediction confirms a hypothesis only defeasibly; affirming the consequent is invalid as deductive logic but can still guide scientific appraisal.",
+    "The method gives special weight to novel, risky, and precise predictions that were not used merely to construct the hypothesis.",
+    "Rival hypotheses should be compared by deriving discriminating consequences, not by asking whether each can be made compatible with already-known facts.",
+    "Auxiliary assumptions are unavoidable and must be made explicit because they determine what the hypothesis actually predicts.",
+    "Hypothesis testing is iterative: anomalies prompt revision of the hypothesis, auxiliaries, measurements, or background theory and then new tests."
+  ],
+  "description": "The Hypothetico-Deductive Method is a model of scientific inquiry in which investigators formulate hypotheses, deduce testable observational consequences from them with auxiliary assumptions, and evaluate the hypotheses by whether those consequences are borne out.",
+  "domains": [
+    "philosophy-of-science",
+    "scientific-method",
+    "inference",
+    "experimental-design"
+  ],
+  "failure_modes": [
+    "Practitioners may treat confirmation as deductive proof, forgetting that observed consequences can follow from many different hypotheses.",
+    "An apparent falsification may be misassigned to the main hypothesis when an auxiliary assumption, measurement procedure, or initial condition was actually at fault.",
+    "The method can encourage ad hoc rescue modifications that preserve a favored hypothesis while reducing its testability.",
+    "If predictions are vague, post hoc, or already built into the hypothesis, passing the test adds little evidential weight.",
+    "It can underdescribe discovery, model building, causal inference, and statistical uncertainty by focusing too narrowly on hypothesis-prediction-observation sequences."
+  ],
+  "key_vocabulary": {
+    "Ad hoc hypothesis": "A modification introduced mainly to shield a theory from contrary evidence without adding independent testable content.",
+    "Auxiliary assumptions": "Background assumptions, initial conditions, measurement claims, and bridge principles needed to derive an observable prediction from a hypothesis.",
+    "Confirming instance": "An observation that matches a consequence deduced from the hypothesis and auxiliaries. It supports the hypothesis only defeasibly.",
+    "Deductive consequence": "A statement that must be true if the hypothesis and auxiliary premises are true. The method depends on making these consequences explicit.",
+    "Disconfirming instance": "An observation inconsistent with the deduced consequence, showing that at least one premise in the test conjunction is false.",
+    "Hypothesis": "A proposed explanatory or lawlike claim whose observable implications can be derived and tested.",
+    "Novel prediction": "A prediction not used to construct the hypothesis and not already known to be true when the hypothesis was proposed.",
+    "Test implication": "The observable or experimental result expected if the hypothesis and auxiliaries hold."
+  },
+  "name": "Hypothetico-Deductive Method",
+  "operative_procedure": [
+    "Formulate the target hypothesis as a clear proposition, model, law, or causal claim. Avoid a version so vague that almost any observation can fit it.",
+    "List the auxiliary assumptions required to connect the hypothesis to observation: background theory, initial conditions, instruments, measurement procedures, and ceteris paribus clauses.",
+    "Deduce specific test implications from the hypothesis-plus-auxiliaries conjunction. State what should be observed, under what conditions, and with what tolerance.",
+    "Identify rival hypotheses and derive discriminating predictions where possible. Prefer tests where rivals expect different outcomes.",
+    "Run or inspect the observation or experiment according to a pre-specified procedure. Track whether the result was predicted in advance or accommodated afterward.",
+    "If the implication is observed, treat the hypothesis as provisionally confirmed in proportion to the prediction's precision, novelty, and riskiness.",
+    "If the implication fails, localize the problem within the test conjunction: target hypothesis, auxiliary assumption, initial condition, instrument, or observation report.",
+    "Revise or reject claims without making purely ad hoc repairs. New modifications should yield fresh test implications.",
+    "Iterate across independent tests, especially those that probe different auxiliaries or rule out different rivals."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Empiricism",
+      "Deductive-Nomological Model",
+      "Experimental Method"
+    ],
+    "composes_with": [
+      "Falsificationism",
+      "Frequentist Hypothesis Testing",
+      "Strong Inference",
+      "Causal Inference"
+    ],
+    "descendants": [
+      "Falsificationism",
+      "Strong Inference",
+      "Error Statistics",
+      "Deductive-Nomological Explanation"
+    ],
+    "related": [
+      "Inference to the Best Explanation",
+      "Verificationism",
+      "Replication and Robustness Thinking",
+      "Occam's Razor"
+    ],
+    "rivals": [
+      "Bayesian Epistemology",
+      "Inference to the Best Explanation",
+      "Pragmatism",
+      "Inductivism",
+      "Kuhn's Paradigm Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Hypothetico-Deductive Method is strongest for clarifying what a hypothesis predicts and designing tests that can distinguish it from rivals. It is a useful skeleton for experimental and observational inquiry, but it is not a full account of confirmation, discovery, statistical inference, or theory choice. Its central limitation is the Duhem-Quine problem: tests bear on a conjunction of hypothesis and auxiliaries, so neither confirmation nor refutation is as simple as the bare logical schema suggests.",
+  "source_summary": "Authored from model knowledge of Hempel, scientific method, and named historical examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Carl G. Hempel, Philosophy of Natural Science (1966)"
+    },
+    {
+      "kind": "primary",
+      "title": "Carl G. Hempel, Aspects of Scientific Explanation (1965)"
+    },
+    {
+      "kind": "primary",
+      "title": "William Whewell, Philosophy of the Inductive Sciences (1840)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Hypothetico-Deductive Model (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hypothetico-deductive_model"
+    },
+    {
+      "kind": "secondary",
+      "title": "Confirmation (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/confirmation/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A claim needs to be turned into concrete predictions that can be checked against observation or experiment.",
+    "Several rival explanations fit the known facts, and the task is to design a discriminating test.",
+    "An anomaly or failed prediction must be traced to a hypothesis, auxiliary assumption, measurement procedure, or background condition.",
+    "A scientific argument relies on whether a successful prediction actually confirms the theory or merely accommodates known data.",
+    "A research plan needs explicit links from theory to observable indicators before data are collected."
+  ]
+}

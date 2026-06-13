@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:34Z",
+  "canonical_examples": [
+    {
+      "analysis": "Fisher's lady tasting tea case sets a sharp null hypothesis: the lady has no ability to tell whether milk or tea was poured first. Under the null and the randomized design, the probability of correctly classifying all cups by chance is calculable from the randomization distribution. A very small p-value would count as evidence against the null because the observed success would be rare if the null were true; the calculation does not assign a posterior probability to her ability.",
+      "problem": "In Fisher's tea-tasting experiment, a woman claims she can tell whether milk or tea was poured first, and she is asked to classify a randomized set of cups."
+    },
+    {
+      "analysis": "The Neyman-Pearson setup treats the problem as a rule for repeated sampling, not a measure of belief in a single hypothesis. One specifies H0 and H1, chooses a test statistic and rejection region with Type I error rate alpha, then evaluates the Type II error rate beta and power against alternatives such as a true mean shift. The decision to reject or not reject H0 is justified by the long-run error properties of the testing rule.",
+      "problem": "In industrial quality control, an inspector must decide from a sample whether a production process mean has shifted beyond an acceptable value."
+    }
+  ],
+  "core_claims": [
+    "A p-value is the probability, under a specified null model, of obtaining a result at least as extreme as the observed result; it is not the probability that the null hypothesis is true.",
+    "The Neyman-Pearson account evaluates tests by long-run Type I and Type II error rates, not by posterior probabilities of hypotheses.",
+    "A rejection region must be fixed before looking at the data if its advertised alpha level is to have its nominal error-control interpretation.",
+    "Failure to reject a null hypothesis is not evidence that the null is true unless the test has adequate power against substantively important alternatives.",
+    "Random sampling or random assignment is central because it supplies the sampling distribution that makes p-values and error rates meaningful.",
+    "Statistical significance is a property of a result under a model and threshold; it is not the same as practical importance, causal identification, or replication.",
+    "Fisherian significance testing and Neyman-Pearson hypothesis testing are historically distinct logics that modern NHST often blends uneasily."
+  ],
+  "description": "Frequentist Hypothesis Testing is the family of null-hypothesis significance and error-control methods associated with Fisher, Neyman, and Pearson, using sampling distributions, p-values, rejection rules, and Type I/Type II error rates to test statistical hypotheses.",
+  "domains": [
+    "statistics",
+    "scientific-method",
+    "experimental-design",
+    "inference"
+  ],
+  "failure_modes": [
+    "Interpreting p < 0.05 as the probability that the null is false, or p > 0.05 as the probability that the null is true, reverses the conditional logic of the test.",
+    "Optional stopping, p-hacking, multiple comparisons, and undisclosed subgroup searches destroy the nominal Type I error rate while leaving a polished p-value behind.",
+    "Large samples can make trivial effects statistically significant, while small underpowered studies can miss important effects.",
+    "The hybrid NHST ritual often mixes Fisher's evidential p-value with Neyman-Pearson accept/reject rules without satisfying either logic cleanly.",
+    "Testing a straw null of exactly zero effect can distract from estimation, uncertainty intervals, effect sizes, and model assumptions that matter more for the scientific question."
+  ],
+  "key_vocabulary": {
+    "Alpha": "The pre-specified Type I error rate: the long-run probability of rejecting H0 when H0 is true.",
+    "Alternative hypothesis": "The hypothesis or class of hypotheses against which the null is tested. In Neyman-Pearson testing it is needed to define power and Type II error.",
+    "Null hypothesis": "The statistical hypothesis tested as the default model, often representing no effect, no difference, or a specified parameter value.",
+    "P-value": "The probability, assuming the null hypothesis and test assumptions, of observing data at least as extreme as the actual data according to the test statistic.",
+    "Power": "The probability that the test rejects H0 when a specified alternative is true; equal to one minus the Type II error rate.",
+    "Rejection region": "The set of test-statistic values that lead to rejecting H0 under a pre-specified testing rule.",
+    "Sampling distribution": "The probability distribution of a statistic over hypothetical repeated samples under a specified model.",
+    "Type I and Type II errors": "Type I error is rejecting a true null; Type II error is failing to reject a false null."
+  },
+  "name": "Frequentist Hypothesis Testing",
+  "operative_procedure": [
+    "State the scientific question as statistical hypotheses. Define H0 precisely and specify the alternative hypothesis or alternatives relevant to the decision.",
+    "Choose the test statistic and model assumptions before seeing the result. Specify sampling, randomization, distributional assumptions, and whether the test is one-sided or two-sided.",
+    "Set the error policy. Choose alpha, identify acceptable Type II error or desired power for substantively meaningful alternatives, and account for multiple testing if applicable.",
+    "Derive or select the sampling distribution of the test statistic under H0. Confirm that the design justifies this distribution.",
+    "Compute the observed test statistic and p-value, or compare the statistic with the pre-specified rejection region.",
+    "Apply the decision rule: reject H0 if the result falls in the rejection region; otherwise fail to reject H0. Avoid saying that the null has been proved.",
+    "Report effect size, confidence interval, sample size, assumptions, exclusions, and any deviations from the planned analysis.",
+    "Interpret the result in the repeated-sampling frame: what long-run error guarantee the procedure has, what alternatives it had power to detect, and what the test does not establish."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Classical Statistics",
+      "Probability Theory",
+      "Hypothetico-Deductive Method"
+    ],
+    "composes_with": [
+      "Experimental Design",
+      "Replication and Robustness Thinking",
+      "Causal Inference",
+      "Pre-mortem"
+    ],
+    "descendants": [
+      "Null Hypothesis Significance Testing",
+      "Power Analysis",
+      "Multiple Testing Procedures",
+      "Sequential Analysis"
+    ],
+    "related": [
+      "Error Statistics",
+      "Falsificationism",
+      "Strong Inference",
+      "Bayesian Epistemology"
+    ],
+    "rivals": [
+      "Bayesian Epistemology",
+      "Likelihoodism",
+      "Estimation Statistics",
+      "Error Statistics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Frequentist Hypothesis Testing is strongest when a study has a pre-specified design, a defensible sampling model, and a need to control long-run error rates. It is less suitable as a standalone measure of evidential strength, for exploratory model discovery without multiplicity control, or where the main question is the posterior probability of a hypothesis. It should be paired with effect sizes, uncertainty intervals, design transparency, and replication.",
+  "source_summary": "Authored from model knowledge of Fisher, Neyman-Pearson, and NHST sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "R. A. Fisher, The Design of Experiments (1935)"
+    },
+    {
+      "kind": "primary",
+      "title": "Jerzy Neyman and Egon Pearson, 'On the Problem of the Most Efficient Tests of Statistical Hypotheses' (1933)"
+    },
+    {
+      "kind": "primary",
+      "title": "R. A. Fisher, Statistical Methods for Research Workers (1925)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Statistical Hypothesis Testing (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_testing"
+    },
+    {
+      "kind": "secondary",
+      "title": "P-Value (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/P-value"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A study needs a pre-specified rule for deciding whether sample data are incompatible with a null model.",
+    "The central concern is controlling false positives, false negatives, or long-run error rates across repeated uses of a procedure.",
+    "An experiment or survey has a known randomization or sampling design that can justify a sampling distribution.",
+    "A claim rests on a p-value, significance threshold, confidence level, or power calculation that needs interpretation.",
+    "A result may be a false discovery because of multiple comparisons, optional stopping, selective reporting, or low power."
+  ]
+}

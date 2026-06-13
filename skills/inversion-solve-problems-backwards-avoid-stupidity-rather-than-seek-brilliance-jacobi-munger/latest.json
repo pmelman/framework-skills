@@ -1,0 +1,117 @@
+{
+  "name": "Inversion | solve problems backwards; avoid stupidity rather than seek brilliance (Jacobi, Munger)",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Inversion is a problem-solving heuristic that reverses the question, starting from failure, impossibility, or the desired end state to reveal constraints, hidden assumptions, and avoidable causes of bad outcomes.",
+  "domains": [
+    "problem-solving",
+    "strategy",
+    "risk",
+    "decision-making"
+  ],
+  "when_to_use": [
+    "a goal is vague or over-optimized for success slogans, and the most preventable failures are easier to identify than the path to excellence",
+    "a system has many possible upside moves but a small number of ruinous mistakes that would dominate the outcome",
+    "a problem can be reframed from 'how do we get X?' to 'what would guarantee not-X?' or 'what must have been true just before X?'",
+    "a plan feels persuasive but has not been tested against obvious ways it could fail, backfire, or become impossible",
+    "you need to derive prerequisites, constraints, or necessary conditions by reasoning backward from the endpoint"
+  ],
+  "core_claims": [
+    "Many hard problems become more tractable when reversed: proving impossibility, identifying necessary conditions, or eliminating failure causes can be easier than constructing success directly.",
+    "Avoiding predictable stupidity often has higher expected value than attempting brilliance because large losses, ruin, and irreversible errors dominate many payoff distributions.",
+    "Backward reasoning exposes hidden dependencies by asking what must already be true immediately before the desired result can occur.",
+    "Negative knowledge is more robust than positive recipes: it is often easier to know what reliably destroys health, trust, capital, or accuracy than what maximizes them.",
+    "A good plan should survive both forward planning and inverted stress: it must say not only what to do but what to avoid, prevent, or make impossible.",
+    "Inversion is especially powerful where failure modes are asymmetric, path-dependent, or irreversible."
+  ],
+  "key_vocabulary": {
+    "Invert, always invert": "The maxim associated with Carl Jacobi's mathematical problem solving: reverse the problem to make structure visible.",
+    "Backward reasoning": "Working from the desired or feared endpoint back to the preceding conditions, constraints, and choices that would produce it.",
+    "Avoiding stupidity": "Charlie Munger's practical version of inversion: remove obvious errors, bad incentives, and ruin risks before trying to optimize.",
+    "Necessary condition": "A condition that must be present for the target outcome to occur, even if it is not sufficient by itself.",
+    "Failure mode": "A specific pathway by which a plan, system, or decision can break down.",
+    "Ruin risk": "A downside that ends the game or permanently removes the ability to recover, making ordinary upside calculations inadequate.",
+    "Pre-mortem": "A related technique in which a team imagines that a project has failed and explains the causes before acting.",
+    "Via negativa": "Improvement by subtraction: removing harmful elements rather than adding new interventions."
+  },
+  "operative_procedure": [
+    "State the forward objective plainly: name the success outcome, decision, proof, or behavior being sought.",
+    "Invert the question into one or more reversed forms: 'How could this fail?', 'What would make success impossible?', 'What must be true immediately before success?', or 'How would I create the opposite result?'",
+    "List the obvious failure causes without seeking novelty: bad incentives, missing prerequisites, bottlenecks, neglected constraints, fragile dependencies, and irreversible errors.",
+    "Separate ruin from recoverable error: mark which inverted causes would end the game, destroy trust, exhaust capital, or foreclose future options.",
+    "Convert failure causes into preventive rules, constraints, or design changes: eliminate, cap, insure, automate, precommit, or monitor against them.",
+    "Reason backward from the desired endpoint: identify necessary intermediate states and the earliest controllable action that can produce each one.",
+    "Re-run the forward plan after subtraction: ask whether the remaining plan still reaches the objective once the avoid-list and necessary conditions are honored.",
+    "Summarize as a do-not-do list plus a prerequisite chain, making clear which avoided mistakes matter more than marginal optimization."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Carl Jacobi's mathematical maxim 'invert, always invert' is commonly illustrated by solving a hard algebraic or analytic problem by transforming it into its inverse or complementary form.",
+      "analysis": "The framework does not start by pushing directly through the original expression. It asks what the inverse, complement, or boundary case would look like, then solves the transformed problem where the structure is simpler. The inverted representation can turn an opaque forward relation into a tractable one, after which the answer is translated back. This is the pure form of inversion: reverse the object of inquiry until the constraints become legible."
+    },
+    {
+      "problem": "Charlie Munger repeatedly used the example of wanting to know where he would die so he could never go there, extending it to business and life decisions by asking how to avoid misery or failure.",
+      "analysis": "Instead of asking 'How do I become successful?', inversion asks 'How do I ruin my life, business, judgment, or reputation?' The answers are concrete: addiction, bad partners, leverage without resilience, envy, resentment, unreliable incentives, and learning nothing from mistakes. The recommendation follows by subtraction: avoid the predictable ruin paths first. The analysis is recognizably Mungerian because it treats the prevention of obvious error as more dependable than a recipe for brilliance."
+    }
+  ],
+  "failure_modes": [
+    "Becoming purely defensive: avoiding stupidity can slide into avoiding all risk, including necessary experimentation and upside exposure.",
+    "Mistaking absence of failure for presence of success: removing obstacles may be necessary but not sufficient to create value, insight, or growth.",
+    "Generating generic fear lists: inverted analysis is weak when it names vague dangers rather than concrete causal pathways and controls.",
+    "Overweighting salient disasters: practitioners can fixate on memorable failures while missing mundane base-rate problems.",
+    "Using inversion as cynicism: the characteristic misuse is to sound hardheaded by attacking plans without doing the backward work of identifying necessary conditions for a better one."
+  ],
+  "scope_and_limits": "Inversion is strongest as an early-stage diagnostic for strategy, risk control, proofs, operations, and personal decision-making where failure modes and prerequisites can be named. It is not a complete optimization method and does not by itself estimate probabilities, utilities, or creative upside. Pair it with forward planning, empirical testing, and expected-value reasoning when positive opportunity selection matters.",
+  "source_texts": [
+    {
+      "title": "Carl Gustav Jacob Jacobi, Gesammelte Werke",
+      "kind": "primary"
+    },
+    {
+      "title": "Charles T. Munger, Poor Charlie's Almanack: The Wit and Wisdom of Charles T. Munger",
+      "kind": "primary"
+    },
+    {
+      "title": "Shane Parrish, The Great Mental Models, Volume 1: General Thinking Concepts",
+      "kind": "secondary"
+    },
+    {
+      "title": "Gary Klein, Performing a Project Premortem (Harvard Business Review, 2007)",
+      "kind": "secondary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Pre-mortem",
+      "Occam's Razor",
+      "Chesterton's Fence",
+      "Counterfactual Reasoning"
+    ],
+    "ancestors": [
+      "Mathematical Problem Solving",
+      "Via Negativa",
+      "Counterfactual Reasoning"
+    ],
+    "descendants": [
+      "Pre-mortem",
+      "Failure Mode and Effects Analysis",
+      "Avoiding Ruin"
+    ],
+    "rivals": [
+      "First-Principles Reasoning",
+      "Design Thinking",
+      "Expected-Value Reasoning",
+      "Blue Ocean Strategy"
+    ],
+    "composes_with": [
+      "Red Teaming",
+      "Pre-mortem",
+      "Antifragility",
+      "Theory of Constraints"
+    ]
+  },
+  "built_at": "2026-06-13T02:48:33Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Jacobi's inversion maxim, Munger's mental-model writings, Klein's premortem work, and related problem-solving literature, without fetched source text."
+}

@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:35Z",
+  "canonical_examples": [
+    {
+      "analysis": "Formalize the argument as: all humans are mortal; Socrates is human; therefore Socrates is mortal. In predicate form: ∀x(Human(x) -> Mortal(x)); Human(Socrates); therefore Mortal(Socrates). Universal instantiation gives Human(Socrates) -> Mortal(Socrates), and modus ponens with Human(Socrates) yields Mortal(Socrates). The argument is valid because no interpretation can make the premises true and the conclusion false; it is sound if the premises are in fact true.",
+      "problem": "The standard Aristotelian syllogism: all humans are mortal; Socrates is human; therefore Socrates is mortal."
+    },
+    {
+      "analysis": "Let P mean 'the first horn is true' and Q mean 'the second horn is true.' The dilemma has the form P ∨ Q, P -> R, Q -> R, therefore R. By proof by cases, if the disjunction is true and each disjunct entails the same conclusion, the conclusion follows. The validity does not depend on whether the crocodile story is plausible; it depends on whether the stated premises jointly rule out every countermodel where R is false.",
+      "problem": "The ancient crocodile dilemma and related Stoic examples use a disjunction plus conditionals to force a conclusion from either horn."
+    }
+  ],
+  "core_claims": [
+    "Validity is truth preservation across all interpretations: if the premises are true, the conclusion cannot be false.",
+    "Soundness requires both valid form and true premises; an invalid argument cannot be sound, and a valid argument with a false premise may still fail as knowledge.",
+    "Logical consequence depends on form rather than topic, psychology, rhetoric, or causal connection.",
+    "Classical negation is bivalent and non-contradictory: every proposition is either true or false, and no proposition is both true and false in the same respect.",
+    "Quantifier scope and variable binding determine many valid and invalid inferences that surface grammar hides.",
+    "A single countermodel is sufficient to prove invalidity, while validity requires excluding all possible countermodels under the semantics.",
+    "Explosion holds in classical logic: from an outright contradiction, any proposition follows, making inconsistent premise sets deductively unusable without revision."
+  ],
+  "description": "Classical Logic analyzes deductive inference through validity, soundness, syllogism, propositional connectives, and predicate quantification under bivalent truth-preserving semantics.",
+  "domains": [
+    "logic",
+    "mathematics",
+    "philosophy",
+    "argumentation"
+  ],
+  "failure_modes": [
+    "Soundness neglect: proving a conclusion follows from premises while leaving the truth, relevance, or acceptability of those premises unexamined.",
+    "Bad formalization: translating ordinary language into symbols can erase modal, temporal, causal, indexical, or pragmatic features that carried the real dispute.",
+    "Explosion in inconsistent domains: classical logic treats contradiction as catastrophic, which can be misleading for inconsistent databases, legal materials, or live scientific theories.",
+    "Bivalence overreach: vague predicates, future contingents, semantic paradoxes, and indeterminate cases may not behave like clean true/false propositions.",
+    "Form fetishism: a valid argument may be dialectically useless if it proves a trivial conclusion, begs the question, or ignores the audience's actual point of resistance."
+  ],
+  "key_vocabulary": {
+    "Countermodel": "An interpretation in which all premises are true and the conclusion is false. Producing one proves an argument invalid.",
+    "Predicate logic": "A logic that represents objects, predicates, relations, variables, and quantifiers. It can express inferences involving 'all,' 'some,' identity, and relational structure.",
+    "Propositional logic": "A logic that treats whole propositions as units connected by operators such as not, and, or, if-then, and if-and-only-if.",
+    "Quantifier": "An operator such as universal 'for all' or existential 'there exists' that binds variables over a domain. Quantifier order and scope can change an argument's validity.",
+    "Soundness": "The property of an argument that is both valid and has true premises. Soundness connects formal consequence to truth in the world.",
+    "Syllogism": "A structured deductive argument, classically involving categorical terms such as all, no, some, and not. Aristotelian syllogistic is the historical core of formal logic.",
+    "Truth table": "A complete enumeration of truth values for compound propositions under every assignment of truth values to their components.",
+    "Validity": "The formal property that there is no possible case where the premises are true and the conclusion false."
+  },
+  "name": "Classical Logic",
+  "operative_procedure": [
+    "Extract the argument into explicit premises and conclusion, separating asserted claims from rhetoric, examples, explanations, and suppressed assumptions.",
+    "Choose the formal level: use syllogistic for categorical term inferences, propositional logic for truth-functional structure, and predicate logic for quantifiers, relations, and identity.",
+    "Symbolize the premises and conclusion, making quantifier scope, negation, conditionals, disjunctions, and hidden assumptions explicit.",
+    "Test validity by derivation, truth table, semantic tableaux, Venn diagram, or countermodel search, depending on the formal level.",
+    "If valid, identify the inference rules used, such as modus ponens, modus tollens, universal instantiation, existential generalization, conjunction elimination, or proof by cases.",
+    "If invalid, present a countermodel or truth-value assignment where the premises are true and the conclusion false.",
+    "Assess soundness separately by checking whether each premise is true, justified, and acceptable in the context.",
+    "Translate the result back into ordinary language: state whether the conclusion follows, whether the premises are credible, and what premise or formal ambiguity bears the argumentative burden."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Syllogistic",
+      "Stoic Logic",
+      "Boolean Algebra"
+    ],
+    "composes_with": [
+      "Fallacy Analysis",
+      "Conceptual Analysis",
+      "First-Principles Reasoning",
+      "Modal Reasoning"
+    ],
+    "descendants": [
+      "Modal Logic",
+      "Mathematical Logic",
+      "Automated Theorem Proving",
+      "Type Theory"
+    ],
+    "related": [
+      "Fallacy Analysis",
+      "Modal Reasoning",
+      "Verificationism",
+      "First-Principles Reasoning"
+    ],
+    "rivals": [
+      "Paraconsistent Logic",
+      "Intuitionistic Logic",
+      "Fuzzy Logic",
+      "Pragmatism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Classical Logic is strongest for deductive arguments where truth-functional structure, quantification, and validity are central. It does not decide empirical truth, preference, causation, probability, meaning in use, or practical wisdom by itself. It assumes stable propositions, bivalence, and consistency; domains with vagueness, contradiction, uncertainty, or context-sensitive speech may require non-classical or supplementary frameworks.",
+  "source_summary": "Authored from model knowledge of Aristotle, Stoic propositional logic, Frege-Russell predicate logic, and standard logic textbooks, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Aristotle, Prior Analytics"
+    },
+    {
+      "kind": "primary",
+      "title": "Gottlob Frege, Begriffsschrift (1879)"
+    },
+    {
+      "kind": "primary",
+      "title": "Bertrand Russell and Alfred North Whitehead, Principia Mathematica (1910-1913)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Classical Logic (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/logic-classical/"
+    },
+    {
+      "kind": "secondary",
+      "title": "Irving M. Copi, Introduction to Logic"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "An argument's conclusion is said to follow necessarily from stated premises.",
+    "A dispute turns on whether a proposed inference is valid rather than merely persuasive or probable.",
+    "A sentence involving all, some, none, if-then, or not needs its formal commitments made explicit.",
+    "You need to distinguish a bad inference from a false premise in a legal, mathematical, philosophical, or policy argument.",
+    "A suspected contradiction, equivocation, or hidden assumption must be isolated before substantive debate can proceed."
+  ]
+}

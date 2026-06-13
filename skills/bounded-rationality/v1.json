@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T02:48:35Z",
+  "canonical_examples": [
+    {
+      "analysis": "Simon treats the administrator not as an omniscient optimizer but as an actor inside an organization with limited attention, partial information, role-defined premises, routines, and communication channels. The decision is made by narrowing alternatives through organizational programs and accepting a course that is good enough for the operative goals. The analysis asks what information reached the decision point, what alternatives were generated, which premises were supplied by hierarchy, and how the organization substituted procedure for impossible global calculation.",
+      "problem": "In Administrative Behavior, a public administrator must choose a policy under incomplete information, limited time, and organizational constraints."
+    },
+    {
+      "analysis": "The chess player cannot enumerate the full game tree, so perfect optimization is computationally impossible even though the rules are precise. Bounded rationality explains play through selective search, pattern recognition, aspiration levels, heuristics, and pruning. The relevant question is not what move a perfectly rational calculator would choose after searching all continuations, but what move a capable human or machine can find with limited time and computational capacity.",
+      "problem": "Simon repeatedly used chess as a case where formal optimal play exists in principle but human decision makers cannot compute it in practice."
+    }
+  ],
+  "core_claims": [
+    "Real decision makers rarely maximize global utility because attention, memory, time, computation, and information are scarce resources.",
+    "Rationality is shaped by the task environment and the decision maker's internal limits; it is ecological and procedural, not only substantive.",
+    "Organizations create decision premises, routines, and authority structures to reduce individual cognitive burdens.",
+    "Search is selective and sequential: actors generate and inspect a limited set of alternatives rather than compare a complete option space.",
+    "Heuristics are not merely errors; they are adaptive procedures for reaching acceptable decisions under constraints.",
+    "The quality of a decision procedure must be judged partly by feasibility and cost of computation, not only by the theoretical optimality of its outcome.",
+    "Changing the information environment, defaults, routines, or decomposition of a problem can improve rationality more than exhorting individuals to optimize harder."
+  ],
+  "description": "Bounded Rationality is Herbert Simon's framework for decision-making under limits of cognition, time, information, and computation, explaining how people and organizations use search, routines, and heuristics instead of full optimization.",
+  "domains": [
+    "decision-theory",
+    "economics",
+    "cognitive-science",
+    "organizational-theory"
+  ],
+  "failure_modes": [
+    "Excusing poor analysis: invoking limits can become a blanket justification for avoidable ignorance, weak measurement, or lazy search.",
+    "Constraint myopia: focusing on cognitive limits while ignoring incentives, power, culture, or strategic conflict that also shape decisions.",
+    "Heuristic romanticism: treating all simple rules as adaptive without testing whether the environment actually rewards them.",
+    "Local adequacy trap: procedures that work within one organizational subproblem can create system-level failure when decomposed goals conflict.",
+    "Retrospective vagueness: after a bad decision, almost any limitation can be cited unless the analysis specifies the actual search space, information flows, and stopping rule."
+  ],
+  "key_vocabulary": {
+    "Administrative man": "Simon's contrast to economic man: a decision maker who operates with limited knowledge, limited computational power, and organizationally supplied premises.",
+    "Bounded rationality": "Rational behavior constrained by finite cognition, time, information, and computational capacity. It studies achievable procedures rather than ideal omniscience.",
+    "Decision premise": "A value or factual assumption supplied to a decision maker by role, hierarchy, expertise, or organizational routine. Premises guide choice before the individual starts calculating.",
+    "Heuristic": "A simplifying rule or procedure that reduces search and computation. In bounded rationality, heuristics can be adaptive tools rather than deviations from rationality.",
+    "Procedural rationality": "Rationality assessed by the appropriateness of the process used to reach a decision under constraints. It contrasts with judging only whether the final choice maximizes an objective function.",
+    "Search": "The sequential generation and examination of possible alternatives. Bounded agents search only part of the possible option space.",
+    "Task environment": "The external structure of the problem, including available cues, feedback, costs, and regularities. A heuristic's rationality depends on this environment."
+  },
+  "name": "Bounded Rationality",
+  "operative_procedure": [
+    "Identify the decision maker, goal criteria, and task environment, including deadlines, uncertainty, feedback, stakes, and available cues.",
+    "Map the actual constraints on cognition, information, computation, attention, money, authority, and time.",
+    "Replace the ideal option set with the generated option set: list which alternatives are actually visible and how they were produced.",
+    "Trace the decision premises supplied by organization, role, culture, expertise, metrics, defaults, or prior routines.",
+    "Describe the search procedure: sequence, heuristics, stopping rule, aspiration level, pruning, and what evidence would trigger continued search.",
+    "Evaluate procedural rationality by asking whether the procedure is feasible, appropriately simple, and adapted to the task environment.",
+    "Look for redesign levers: improve information flows, decompose the problem, change defaults, build routines, add feedback, or alter the environment so bounded agents make better choices.",
+    "Report both the chosen action and the bounded process that produced it, distinguishing unavoidable limits from correctable design flaws."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Decision Theory",
+      "Administrative Theory",
+      "Behavioral Psychology"
+    ],
+    "composes_with": [
+      "Satisficing",
+      "OODA Loop",
+      "Systems Thinking",
+      "Pre-mortem"
+    ],
+    "descendants": [
+      "Behavioral Economics",
+      "Ecological Rationality",
+      "Fast and Frugal Heuristics",
+      "Prospect Theory"
+    ],
+    "related": [
+      "Decision Theory",
+      "Game Theory",
+      "Expected-Value Reasoning",
+      "OODA Loop"
+    ],
+    "rivals": [
+      "Expected-Value Reasoning",
+      "Classical Rational Choice Theory",
+      "Game Theory",
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Bounded Rationality is strongest for explaining and improving decisions made by humans and organizations under real constraints. It is less useful when the option space is small, probabilities and utilities are well known, and optimization is cheap. It explains feasibility and process better than it supplies a precise normative criterion for which bounded procedure is best.",
+  "source_summary": "Authored from model knowledge of Herbert Simon's writings on administrative behavior, bounded rationality, and artificial sciences, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, Administrative Behavior (1947)"
+    },
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, Models of Man: Social and Rational (1957)"
+    },
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, The Sciences of the Artificial (1969)"
+    },
+    {
+      "kind": "primary",
+      "title": "Herbert A. Simon, 'A Behavioral Model of Rational Choice,' Quarterly Journal of Economics (1955)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Bounded Rationality (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/bounded-rationality/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A decision must be made with incomplete information, limited time, limited attention, or costly computation.",
+    "An apparently irrational choice may reflect constraints, routines, or search limits rather than ignorance of the goal.",
+    "An organization repeatedly makes adequate but non-optimal decisions through procedures, roles, and defaults.",
+    "A proposed optimization model assumes a complete option set or calculation capacity that the real actor does not possess.",
+    "You need to redesign the decision environment so ordinary agents can make better choices without heroic analysis."
+  ]
+}

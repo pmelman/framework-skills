@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T02:47:00Z",
+  "generated_at": "2026-06-13T02:55:16Z",
   "skills": [
     {
       "name": "Advaita Vedanta",
@@ -100,6 +100,20 @@
       "path": "skills/bayesian-epistemology/latest.json"
     },
     {
+      "name": "Bounded Rationality",
+      "slug": "bounded-rationality",
+      "version": 1,
+      "description": "Bounded Rationality is Herbert Simon's framework for decision-making under limits of cognition, time, information, and computation, explaining how people and organizations use search, routines, and heuristics instead of full optimization.",
+      "domains": [
+        "decision-theory",
+        "economics",
+        "cognitive-science",
+        "organizational-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/bounded-rationality/latest.json"
+    },
+    {
       "name": "Causal Inference",
       "slug": "causal-inference",
       "version": 1,
@@ -126,6 +140,34 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/chesterton-s-fence/latest.json"
+    },
+    {
+      "name": "Classical Logic",
+      "slug": "classical-logic",
+      "version": 1,
+      "description": "Classical Logic analyzes deductive inference through validity, soundness, syllogism, propositional connectives, and predicate quantification under bivalent truth-preserving semantics.",
+      "domains": [
+        "logic",
+        "mathematics",
+        "philosophy",
+        "argumentation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/classical-logic/latest.json"
+    },
+    {
+      "name": "Cognitive Behavioral Framing | CBT: thoughts-feelings-behavior loops, cognitive distortions",
+      "slug": "cognitive-behavioral-framing-cbt-thoughts-feelings-behavior-loops-cognitive-distortions",
+      "version": 1,
+      "description": "Cognitive Behavioral Framing analyzes distress and dysfunction as maintained by reciprocal loops among situations, automatic thoughts, emotions, bodily sensations, and behaviors, with change produced by testing beliefs, modifying behavior, and building alternative interpretations.",
+      "domains": [
+        "psychotherapy",
+        "clinical-psychology",
+        "behavior-change",
+        "self-regulation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/cognitive-behavioral-framing-cbt-thoughts-feelings-behavior-loops-cognitive-distortions/latest.json"
     },
     {
       "name": "Conceptual Analysis",
@@ -240,6 +282,48 @@
       "path": "skills/double-loop-learning/latest.json"
     },
     {
+      "name": "Dual-Process Theory | System 1 / System 2 cognition (Kahneman, Stanovich)",
+      "slug": "dual-process-theory-system-1-system-2-cognition-kahneman-stanovich",
+      "version": 1,
+      "description": "Dual-Process Theory distinguishes fast, automatic, associative cognition from slower, controlled, reflective cognition, explaining how intuitive judgments can be useful, biased, overridden, or rationalized depending on attention, expertise, and task structure.",
+      "domains": [
+        "cognitive-psychology",
+        "judgment-and-decision-making",
+        "behavioral-economics",
+        "rationality"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/dual-process-theory-system-1-system-2-cognition-kahneman-stanovich/latest.json"
+    },
+    {
+      "name": "Error Statistics",
+      "slug": "error-statistics",
+      "version": 1,
+      "description": "Error Statistics is Deborah Mayo's philosophy of statistical inference: evidence consists in claims passing severe tests, where a test is severe when it would probably have detected the specific error or discrepancy if it were present.",
+      "domains": [
+        "statistics",
+        "philosophy-of-science",
+        "scientific-inference",
+        "methodology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/error-statistics/latest.json"
+    },
+    {
+      "name": "Expected Utility Theory",
+      "slug": "expected-utility-theory",
+      "version": 1,
+      "description": "Expected Utility Theory is the von Neumann-Morgenstern account of rational choice under risk: preferences satisfying specific axioms can be represented as maximizing the probability-weighted utility of outcomes.",
+      "domains": [
+        "decision-theory",
+        "economics",
+        "rational-choice",
+        "risk-analysis"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/expected-utility-theory/latest.json"
+    },
+    {
       "name": "Expected-Value Reasoning",
       "slug": "expected-value-reasoning",
       "version": 1,
@@ -324,6 +408,20 @@
       "path": "skills/four-noble-truths/latest.json"
     },
     {
+      "name": "Frequentist Hypothesis Testing",
+      "slug": "frequentist-hypothesis-testing",
+      "version": 1,
+      "description": "Frequentist Hypothesis Testing is the family of null-hypothesis significance and error-control methods associated with Fisher, Neyman, and Pearson, using sampling distributions, p-values, rejection rules, and Type I/Type II error rates to test statistical hypotheses.",
+      "domains": [
+        "statistics",
+        "scientific-method",
+        "experimental-design",
+        "inference"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/frequentist-hypothesis-testing/latest.json"
+    },
+    {
       "name": "Game Theory",
       "slug": "game-theory",
       "version": 1,
@@ -338,6 +436,20 @@
       "path": "skills/game-theory/latest.json"
     },
     {
+      "name": "Goodhart's Law | when a measure becomes a target it ceases to be a good measure",
+      "slug": "goodhart-s-law-when-a-measure-becomes-a-target-it-ceases-to-be-a-good-measure",
+      "version": 1,
+      "description": "Goodhart's Law explains how proxy measures degrade when used for control, incentives, or optimization, because agents adapt to the metric and the measured correlation with the real goal breaks down.",
+      "domains": [
+        "measurement",
+        "incentives",
+        "economics",
+        "governance"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/goodhart-s-law-when-a-measure-becomes-a-target-it-ceases-to-be-a-good-measure/latest.json"
+    },
+    {
       "name": "Halakha",
       "slug": "halakha",
       "version": 1,
@@ -350,6 +462,34 @@
       ],
       "review_status": "approved",
       "path": "skills/halakha/latest.json"
+    },
+    {
+      "name": "Heuristics and Biases Program",
+      "slug": "heuristics-and-biases-program",
+      "version": 1,
+      "description": "The Heuristics and Biases Program is Kahneman and Tversky's research program showing that human judgment under uncertainty often relies on simple heuristics that are efficient but produce systematic departures from probability theory, statistics, and rational choice norms.",
+      "domains": [
+        "psychology",
+        "behavioral-economics",
+        "decision-making",
+        "judgment-under-uncertainty"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/heuristics-and-biases-program/latest.json"
+    },
+    {
+      "name": "Hypothetico-Deductive Method",
+      "slug": "hypothetico-deductive-method",
+      "version": 1,
+      "description": "The Hypothetico-Deductive Method is a model of scientific inquiry in which investigators formulate hypotheses, deduce testable observational consequences from them with auxiliary assumptions, and evaluate the hypotheses by whether those consequences are borne out.",
+      "domains": [
+        "philosophy-of-science",
+        "scientific-method",
+        "inference",
+        "experimental-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/hypothetico-deductive-method/latest.json"
     },
     {
       "name": "Ignatian Discernment",
@@ -392,6 +532,20 @@
       ],
       "review_status": "approved",
       "path": "skills/inference-to-the-best-explanation/latest.json"
+    },
+    {
+      "name": "Inversion | solve problems backwards; avoid stupidity rather than seek brilliance (Jacobi, Munger)",
+      "slug": "inversion-solve-problems-backwards-avoid-stupidity-rather-than-seek-brilliance-jacobi-munger",
+      "version": 1,
+      "description": "Inversion is a problem-solving heuristic that reverses the question, starting from failure, impossibility, or the desired end state to reveal constraints, hidden assumptions, and avoidable causes of bad outcomes.",
+      "domains": [
+        "problem-solving",
+        "strategy",
+        "risk",
+        "decision-making"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/inversion-solve-problems-backwards-avoid-stupidity-rather-than-seek-brilliance-jacobi-munger/latest.json"
     },
     {
       "name": "Jobs-to-be-Done",
@@ -659,6 +813,20 @@
       "path": "skills/principle-of-charity/latest.json"
     },
     {
+      "name": "Prospect Theory",
+      "slug": "prospect-theory",
+      "version": 1,
+      "description": "Prospect Theory is Kahneman and Tversky's descriptive model of risky choice, centered on reference dependence, loss aversion, diminishing sensitivity, and nonlinear probability weighting.",
+      "domains": [
+        "behavioral-economics",
+        "psychology",
+        "decision-theory",
+        "risk"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/prospect-theory/latest.json"
+    },
+    {
       "name": "Red Teaming",
       "slug": "red-teaming",
       "version": 1,
@@ -699,6 +867,48 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/replication-and-robustness-thinking/latest.json"
+    },
+    {
+      "name": "Satisficing",
+      "slug": "satisficing",
+      "version": 1,
+      "description": "Satisficing is Herbert Simon's decision rule of selecting the first available alternative that meets an aspiration level, replacing exhaustive optimization when search, information, and computation are limited.",
+      "domains": [
+        "decision-theory",
+        "organizational-theory",
+        "economics",
+        "cognitive-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/satisficing/latest.json"
+    },
+    {
+      "name": "Socratic Method | elenchus",
+      "slug": "socratic-method-elenchus",
+      "version": 1,
+      "description": "Socratic Method | elenchus is definition-seeking cross-examination that elicits a person's commitments, tests them for contradiction, and uses the resulting aporia to clarify what is and is not yet known.",
+      "domains": [
+        "philosophy",
+        "ethics",
+        "education",
+        "argumentation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/socratic-method-elenchus/latest.json"
+    },
+    {
+      "name": "Stoicism | dichotomy of control, virtue as the only good, negative visualization",
+      "slug": "stoicism-dichotomy-of-control-virtue-as-the-only-good-negative-visualization",
+      "version": 1,
+      "description": "Stoicism is a Hellenistic virtue ethics and practical discipline that locates human flourishing in rational virtue, distinguishes what is up to us from what is not, and trains judgment so external events do not rule the soul.",
+      "domains": [
+        "ethics",
+        "practical-philosophy",
+        "resilience",
+        "ancient-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/stoicism-dichotomy-of-control-virtue-as-the-only-good-negative-visualization/latest.json"
     },
     {
       "name": "Strong Inference",
