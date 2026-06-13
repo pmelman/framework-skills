@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "In Hobbes's state of nature, each person has reason to secure self-preservation, but absent a common power, covenants are fragile and anticipatory violence is rational. The laws of nature recommend peace, performance of covenants, and transfer of some liberties, yet they become reliable only when backed by a sovereign capable of enforcement. Contractarianism therefore explains moral and political obligation as a rational escape from mutually destructive insecurity: accepting enforceable constraints is each person's best route out of the war of all against all.",
+      "problem": "In Hobbes's Leviathan, people in the state of nature face insecurity, diffidence, and conflict because there is no common authority to enforce agreements."
+    },
+    {
+      "analysis": "Gauthier treats cooperation as rational when agents can identify others disposed to comply with mutually advantageous agreements and when the cooperative disposition yields better expected outcomes than straightforward maximization. A constrained maximizer forgoes opportunistic defection when fair compliance is part of a bargain that all can expect to benefit from. The prisoner's-dilemma structure shows why morality is not altruistic self-sacrifice on this view; it is a rational constraint on direct maximization that allows mutually beneficial cooperation to exist.",
+      "problem": "In Gauthier's Morals by Agreement, rational agents face prisoner's-dilemma situations where direct utility maximization leads each to defect and leaves all worse off."
+    }
+  ],
+  "core_claims": [
+    "Moral constraints are justified when rational, self-interested agents would agree to them as mutually advantageous terms of cooperation.",
+    "The baseline for justification is not impartial benevolence but each agent's bargaining position absent the moral or political constraint.",
+    "Obligation arises from agreement, covenant, or rational commitment because compliance solves cooperation problems that unrestrained maximization makes worse.",
+    "A rule has no contractarian authority if some party would be worse off under it than in the relevant no-agreement baseline.",
+    "Enforcement, assurance, and reputation are central because rational agents need reason to believe others will comply.",
+    "Fair bargaining constrains the division of cooperative surplus; morality is not merely whatever the strongest can impose.",
+    "The framework treats justice as a rational bargain among separate agents, not as maximizing aggregate welfare or expressing virtue."
+  ],
+  "description": "Contractarianism is the moral and political framework that explains norms as the outcome of rational agreement among self-interested agents seeking mutual advantage. In Hobbesian and Gauthierian forms, morality constrains direct maximization because enforceable or credible cooperation makes each participant better off than conflict, predation, or failed bargaining.",
+  "domains": [
+    "ethics",
+    "political-philosophy",
+    "decision-theory",
+    "game-theory"
+  ],
+  "failure_modes": [
+    "Exclusion of the weak: those who contribute little bargaining power, including severely disabled people, future generations, or nonhuman animals, may receive inadequate protection.",
+    "Bad baseline dependence: choosing a coercive or unjust no-agreement baseline can make exploitative bargains appear legitimate.",
+    "Compliance optimism: the theory can overstate the rationality of cooperation when detection, enforcement, or reputation mechanisms are weak.",
+    "Reduction of morality to prudence: practitioners may lose the moral force of duties owed to others by recasting them as merely useful constraints.",
+    "Bargaining-power laundering: unequal threat positions can be smuggled into the agreement and presented as fair because all parties accepted the deal."
+  ],
+  "key_vocabulary": {
+    "Bargaining baseline": "The no-agreement position from which each party evaluates whether proposed constraints make them better off.",
+    "Constrained maximization": "Gauthier's disposition to comply with fair cooperative constraints when doing so is part of a mutually advantageous practice.",
+    "Covenant": "A binding agreement, central in Hobbes, whose reliability depends on assurance and often enforcement by a common power.",
+    "Mutual advantage": "The standard that cooperation must improve each participant's position relative to the relevant baseline.",
+    "State of nature": "A hypothetical condition without common authority used to model what rational agents have reason to agree to.",
+    "Straightforward maximization": "Direct pursuit of one's own utility in each choice, which can undermine beneficial cooperation in strategic settings.",
+    "Sovereign": "In Hobbes, the common power authorized to enforce covenants and secure peace."
+  },
+  "name": "Contractarianism",
+  "operative_procedure": [
+    "Identify the agents as separate rational bargainers with interests, vulnerabilities, outside options, and capacities for cooperation.",
+    "Specify the no-agreement baseline: what happens if no moral rule, covenant, institution, or enforcement mechanism is accepted.",
+    "Diagnose the cooperation problem, such as prisoner's dilemma, assurance problem, free riding, insecurity, or bargaining over surplus.",
+    "List candidate constraints or agreements that could improve outcomes relative to the baseline.",
+    "Test mutual advantage: reject any arrangement that leaves a party worse off than the baseline or unable rationally to accept the bargain.",
+    "Assess fairness of the bargain by examining whether threat advantage, coercion, information asymmetry, or unequal fallback positions distort the division of surplus.",
+    "Check compliance conditions: enforcement, monitoring, reputation, repeat interaction, or internalized disposition must make adherence rationally stable.",
+    "Synthesize the norm as a rationally acceptable constraint on direct self-interest, and state who is included, who is excluded, and why."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Hobbesian Political Philosophy",
+      "Social Contract Theory",
+      "Game Theory",
+      "Decision Theory"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Decision Theory",
+      "Expected Utility Theory",
+      "Principal-Agent Analysis"
+    ],
+    "descendants": [
+      "Gauthier's Morals by Agreement",
+      "Buchanan's Constitutional Political Economy",
+      "Rational Choice Institutionalism"
+    ],
+    "related": [
+      "Social Contract Theory",
+      "Game Theory",
+      "Veil of Ignorance",
+      "Principal-Agent Analysis"
+    ],
+    "rivals": [
+      "Contractualism",
+      "Utilitarianism",
+      "Kantian Deontology",
+      "Aristotelian Virtue Ethics",
+      "Care Ethics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Contractarianism is strongest where morality or institutions solve cooperation problems among agents with conflicting interests: security, enforcement, constitutional design, bargaining, and collective action. It is weakest where moral standing should not depend on bargaining power, where parties cannot reciprocate, or where the relevant wrong is exploitation rather than failure of mutual advantage. It often needs game-theoretic and institutional detail to avoid becoming a vague appeal to agreement.",
+  "source_summary": "Authored from model knowledge of Hobbes's Leviathan, David Gauthier's Morals by Agreement, and standard contractarian literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Thomas Hobbes, Leviathan"
+    },
+    {
+      "kind": "primary",
+      "title": "David Gauthier, Morals by Agreement"
+    },
+    {
+      "kind": "primary",
+      "title": "James M. Buchanan, The Limits of Liberty"
+    },
+    {
+      "kind": "secondary",
+      "title": "Contractarianism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/contractarianism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "self-interested parties need rules that make cooperation rationally preferable to conflict, predation, or free riding",
+    "a norm or institution must be justified to bargainers by mutual advantage rather than impartial benevolence",
+    "the problem has a strategic structure such as prisoner's dilemma, assurance, covenant compliance, or collective action",
+    "you need to compare a proposed rule against a no-agreement baseline or state-of-nature fallback",
+    "questions of enforcement, credible commitment, and bargaining power determine whether agreement can bind"
+  ]
+}

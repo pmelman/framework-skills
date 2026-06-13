@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:03:30Z",
+  "generated_at": "2026-06-13T03:08:11Z",
   "skills": [
     {
       "name": "Abduction | Peirce: inference generating explanatory hypotheses (distinct from IBE evaluation)",
@@ -128,6 +128,34 @@
       "path": "skills/bounded-rationality/latest.json"
     },
     {
+      "name": "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function",
+      "slug": "capabilities-approach-sen-nussbaum-freedom-as-real-opportunity-to-function",
+      "version": 1,
+      "description": "Capabilities Approach | Sen/Nussbaum: freedom as real opportunity to function evaluates justice and development by the substantive freedoms people actually have to achieve valuable beings and doings, rather than by resources, utility, or formal liberties alone.",
+      "domains": [
+        "political-philosophy",
+        "development-economics",
+        "ethics",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/capabilities-approach-sen-nussbaum-freedom-as-real-opportunity-to-function/latest.json"
+    },
+    {
+      "name": "Care Ethics | Gilligan/Noddings: relationships and dependency as moral center",
+      "slug": "care-ethics-gilligan-noddings-relationships-and-dependency-as-moral-center",
+      "version": 1,
+      "description": "Care Ethics places relationships, dependency, responsiveness, and the moral significance of particular persons at the center of ethical reasoning, challenging moral theories that privilege abstract rules, impartial calculation, or autonomous individuals.",
+      "domains": [
+        "ethics",
+        "feminist-philosophy",
+        "moral-psychology",
+        "applied-ethics"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/care-ethics-gilligan-noddings-relationships-and-dependency-as-moral-center/latest.json"
+    },
+    {
       "name": "Causal Inference",
       "slug": "causal-inference",
       "version": 1,
@@ -154,6 +182,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/chesterton-s-fence/latest.json"
+    },
+    {
+      "name": "Classical Liberalism | individual liberty, limited government, spontaneous order",
+      "slug": "classical-liberalism-individual-liberty-limited-government-spontaneous-order",
+      "version": 1,
+      "description": "Classical Liberalism | individual liberty, limited government, spontaneous order defends individual freedom, private property, rule of law, free exchange, civil society, and constitutional limits on coercive power, while treating many beneficial social orders as emergent rather than centrally designed.",
+      "domains": [
+        "political-philosophy",
+        "economics",
+        "law",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/classical-liberalism-individual-liberty-limited-government-spontaneous-order/latest.json"
     },
     {
       "name": "Classical Logic",
@@ -198,6 +240,20 @@
       "path": "skills/coherentism/latest.json"
     },
     {
+      "name": "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community",
+      "slug": "communitarianism-macintyre-sandel-selves-and-goods-constituted-by-community",
+      "version": 1,
+      "description": "Communitarianism | MacIntyre/Sandel: selves and goods constituted by community criticizes liberal individualism by arguing that persons, obligations, virtues, and public goods are formed within communities, traditions, roles, and shared practices.",
+      "domains": [
+        "political-philosophy",
+        "ethics",
+        "social-theory",
+        "civic-life"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/communitarianism-macintyre-sandel-selves-and-goods-constituted-by-community/latest.json"
+    },
+    {
       "name": "Conceptual Analysis",
       "slug": "conceptual-analysis",
       "version": 1,
@@ -224,6 +280,34 @@
       ],
       "review_status": "approved",
       "path": "skills/confucian-ren-and-li/latest.json"
+    },
+    {
+      "name": "Contractarianism",
+      "slug": "contractarianism",
+      "version": 1,
+      "description": "Contractarianism is the moral and political framework that explains norms as the outcome of rational agreement among self-interested agents seeking mutual advantage. In Hobbesian and Gauthierian forms, morality constrains direct maximization because enforceable or credible cooperation makes each participant better off than conflict, predation, or failed bargaining.",
+      "domains": [
+        "ethics",
+        "political-philosophy",
+        "decision-theory",
+        "game-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/contractarianism/latest.json"
+    },
+    {
+      "name": "Contractualism",
+      "slug": "contractualism",
+      "version": 1,
+      "description": "Contractualism, in T. M. Scanlon's sense, is the moral framework on which principles are acceptable only if no person could reasonably reject them as terms for living with others. It evaluates actions by their justifiability to each affected person, using individual complaints against candidate principles rather than aggregating welfare.",
+      "domains": [
+        "ethics",
+        "moral-philosophy",
+        "political-philosophy",
+        "normative-reasoning"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/contractualism/latest.json"
     },
     {
       "name": "Control Theory Thinking",
@@ -296,6 +380,20 @@
       "path": "skills/dependent-origination/latest.json"
     },
     {
+      "name": "Divine Command Theory",
+      "slug": "divine-command-theory",
+      "version": 1,
+      "description": "Divine Command Theory is the metaethical view that moral obligation is grounded in God's commands: what one ought to do is what God commands, and what one must not do is what God forbids. It analyzes morality through divine authority, revelation, obedience, and the Euthyphro dilemma about whether goodness is independent of or constituted by divine command.",
+      "domains": [
+        "ethics",
+        "metaethics",
+        "philosophy-of-religion",
+        "theology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/divine-command-theory/latest.json"
+    },
+    {
       "name": "Double-Loop Learning",
       "slug": "double-loop-learning",
       "version": 1,
@@ -352,6 +450,20 @@
       "path": "skills/error-statistics/latest.json"
     },
     {
+      "name": "Ethics of Belief | Clifford: wrong always and everywhere to believe on insufficient evidence",
+      "slug": "ethics-of-belief-clifford-wrong-always-and-everywhere-to-believe-on-insufficient-evidence",
+      "version": 1,
+      "description": "Clifford's ethics of belief treats believing itself as morally assessable: because belief guides action, trains habits, and contributes to a shared social stock of trust, it is wrong always, everywhere, and for anyone to believe anything on insufficient evidence.",
+      "domains": [
+        "epistemology",
+        "ethics",
+        "ethics-of-belief",
+        "public-reason"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/ethics-of-belief-clifford-wrong-always-and-everywhere-to-believe-on-insufficient-evidence/latest.json"
+    },
+    {
       "name": "Evidentialism",
       "slug": "evidentialism",
       "version": 1,
@@ -392,6 +504,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/expected-value-reasoning/latest.json"
+    },
+    {
+      "name": "Expressivism | moral claims express attitudes, not facts (Ayer, Blackburn, Gibbard)",
+      "slug": "expressivism-moral-claims-express-attitudes-not-facts-ayer-blackburn-gibbard",
+      "version": 1,
+      "description": "Expressivism explains moral language as expressing noncognitive attitudes, plans, endorsements, or prescriptions rather than describing independent moral facts, while later versions aim to preserve the logic and discipline of ordinary moral argument.",
+      "domains": [
+        "metaethics",
+        "philosophy-of-language",
+        "ethics",
+        "moral-psychology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/expressivism-moral-claims-express-attitudes-not-facts-ayer-blackburn-gibbard/latest.json"
     },
     {
       "name": "Fallacy Analysis",
@@ -743,6 +869,20 @@
       "path": "skills/liberation-theology/latest.json"
     },
     {
+      "name": "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice",
+      "slug": "libertarianism-nozick-self-ownership-side-constraints-entitlement-theory-of-justice",
+      "version": 1,
+      "description": "Libertarianism | Nozick: self-ownership, side constraints, entitlement theory of justice treats persons as self-owning agents with rights that constrain what others and the state may do, grounding distributive justice in just acquisition, voluntary transfer, and rectification rather than patterned equality.",
+      "domains": [
+        "political-philosophy",
+        "ethics",
+        "law",
+        "political-economy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/libertarianism-nozick-self-ownership-side-constraints-entitlement-theory-of-justice/latest.json"
+    },
+    {
       "name": "Lojong",
       "slug": "lojong",
       "version": 1,
@@ -755,6 +895,20 @@
       ],
       "review_status": "approved",
       "path": "skills/lojong/latest.json"
+    },
+    {
+      "name": "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk",
+      "slug": "luck-egalitarianism-neutralize-unchosen-luck-hold-people-to-chosen-risk",
+      "version": 1,
+      "description": "Luck Egalitarianism | neutralize unchosen luck, hold people to chosen risk holds that distributive justice should compensate or neutralize disadvantages due to brute luck while allowing inequalities traceable to responsible choice or option luck.",
+      "domains": [
+        "political-philosophy",
+        "distributive-justice",
+        "ethics",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/luck-egalitarianism-neutralize-unchosen-luck-hold-people-to-chosen-risk/latest.json"
     },
     {
       "name": "Maqasid al-Shariah",
@@ -797,6 +951,34 @@
       ],
       "review_status": "approved",
       "path": "skills/modal-reasoning/latest.json"
+    },
+    {
+      "name": "Moral Realism | mind-independent moral facts; how to reason if they exist",
+      "slug": "moral-realism-mind-independent-moral-facts-how-to-reason-if-they-exist",
+      "version": 1,
+      "description": "Moral Realism holds that some moral claims are truth-apt and true in virtue of moral facts that do not depend merely on anyone's attitudes, approvals, conventions, or prescriptions; moral reasoning aims to discover and respond to those facts.",
+      "domains": [
+        "metaethics",
+        "ethics",
+        "moral-epistemology",
+        "normative-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/moral-realism-mind-independent-moral-facts-how-to-reason-if-they-exist/latest.json"
+    },
+    {
+      "name": "Moral Sentimentalism | Hume/Smith: moral judgments grounded in sentiment and sympathy",
+      "slug": "moral-sentimentalism-hume-smith-moral-judgments-grounded-in-sentiment-and-sympathy",
+      "version": 1,
+      "description": "Moral Sentimentalism explains moral judgment as grounded in human sentiments, especially sympathy with affected persons, rather than in pure reason alone: we approve traits and actions through regulated feelings shaped by common human nature and a stable point of view.",
+      "domains": [
+        "ethics",
+        "moral-psychology",
+        "metaethics",
+        "social-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/moral-sentimentalism-hume-smith-moral-judgments-grounded-in-sentiment-and-sympathy/latest.json"
     },
     {
       "name": "Mussar",
@@ -1037,6 +1219,20 @@
       "path": "skills/replication-and-robustness-thinking/latest.json"
     },
     {
+      "name": "Rule Consequentialism",
+      "slug": "rule-consequentialism",
+      "version": 1,
+      "description": "Rule Consequentialism is the consequentialist framework that evaluates moral rules, codes, or principles by their consequences under general acceptance, and then evaluates individual actions by whether they comply with the best justified rules. It preserves consequentialist grounding while explaining why promise-keeping, rights, and prohibitions on killing or punishing the innocent can bind in particular cases.",
+      "domains": [
+        "ethics",
+        "moral-philosophy",
+        "decision-theory",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/rule-consequentialism/latest.json"
+    },
+    {
       "name": "Satisficing",
       "slug": "satisficing",
       "version": 1,
@@ -1063,6 +1259,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/scientific-realism-unobservables-posited-by-mature-science-approximately-exist-no-miracles-argument/latest.json"
+    },
+    {
+      "name": "Social Contract Theory",
+      "slug": "social-contract-theory",
+      "version": 1,
+      "description": "Social Contract Theory explains political legitimacy as arising from consent, authorization, or collective agreement among persons who establish common authority. In Locke and Rousseau, the framework asks what people would or did authorize in moving from natural freedom to civil society, and when government remains faithful to that authorizing purpose.",
+      "domains": [
+        "political-philosophy",
+        "ethics",
+        "law",
+        "institutional-design"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/social-contract-theory/latest.json"
     },
     {
       "name": "Socratic Method | elenchus",

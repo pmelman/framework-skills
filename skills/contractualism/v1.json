@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "The question is not whether the broadcast produces more total pleasure than Jones's pain, but whether a principle permitting millions to enjoy a broadcast while leaving Jones in agony could be justified to Jones. Jones has a personal complaint of urgent bodily suffering; each viewer has only a much smaller complaint of lost enjoyment. A principle that allows severe avoidable harm for many trivial benefits is reasonably rejectable by the person bearing the severe burden. Contractualism therefore requires interrupting the broadcast to rescue Jones.",
+      "problem": "In Scanlon's transmitter-room example, Jones is painfully injured in electrical equipment during a televised event; stopping the broadcast would save him but disappoint millions of viewers."
+    },
+    {
+      "analysis": "A principle allowing bystanders to ignore a person in grave danger when rescue would impose only a small cost could be reasonably rejected by anyone who might need rescue. The rescuer's complaint is a wet suit, delay, or modest inconvenience; the victim's complaint is death or serious injury. The contractualist Rescue Principle therefore requires rescue at slight or moderate cost, not because total utility is maximized, but because the victim's individual complaint against non-rescue is much stronger than the rescuer's complaint against the burden.",
+      "problem": "In Scanlon's rescue cases, an agent can save a stranger from serious harm at only slight or moderate cost to herself."
+    }
+  ],
+  "core_claims": [
+    "An act is wrong if and only if it would be disallowed by principles that no one could reasonably reject as a basis for informed, unforced general agreement.",
+    "Moral justification is addressed to each person separately; one person's serious complaint is not automatically outweighed by many people's smaller complaints.",
+    "The relevant test compares generic reasons individuals have for rejecting principles, not aggregate welfare across persons.",
+    "Wrongness is fundamentally a failure of justifiability to others, not a failure to maximize value or conform to divine command.",
+    "The burden of a principle includes what it licenses, what it forbids, and what people could reasonably expect under its general acceptance.",
+    "Personal reasons, special obligations, and agent-relative concerns can matter if they are part of what no one could reasonably reject.",
+    "Contractualist reasoning can condemn exploitation or sacrifice of one person for many even where consequentialist aggregation would permit it."
+  ],
+  "description": "Contractualism, in T. M. Scanlon's sense, is the moral framework on which principles are acceptable only if no person could reasonably reject them as terms for living with others. It evaluates actions by their justifiability to each affected person, using individual complaints against candidate principles rather than aggregating welfare.",
+  "domains": [
+    "ethics",
+    "moral-philosophy",
+    "political-philosophy",
+    "normative-reasoning"
+  ],
+  "failure_modes": [
+    "Indeterminate reasonable rejection: the framework can stall when several principles impose serious but different burdens on different people.",
+    "Underweighting numbers: because it resists aggregation, it can look implausible in cases where very many moderate burdens compete with one severe burden.",
+    "Generic-reason abstraction: focusing on generic standpoints can erase morally relevant details of actual people and relationships.",
+    "Liberal justificatory bias: it assumes persons are owed reasons they could not reasonably reject, which may beg questions against virtue, care, theological, or perfectionist ethics.",
+    "Practitioner rationalization: analysts may label their preferred complaints 'reasonable' and opposing complaints 'unreasonable' without a disciplined comparison of burdens."
+  ],
+  "key_vocabulary": {
+    "Complaint": "An individual's reason for objecting to a principle because of the burden that principle would impose on someone in that position.",
+    "Generic reasons": "Reasons associated with a person's standpoint under a principle, abstracting from idiosyncratic tastes while preserving morally relevant burdens.",
+    "Justifiability to each person": "The demand that moral principles be defensible to every affected individual, not merely optimal from an impersonal viewpoint.",
+    "Principle": "A general rule for conduct or for assessing conduct, evaluated by whether people could reasonably reject it.",
+    "Reasonable rejectability": "The central test: a principle is impermissible if some person has a complaint against it strong enough that rejecting it would be reasonable.",
+    "Rescue Principle": "Scanlon's principle requiring agents to prevent serious harm to others when they can do so at slight or moderate cost.",
+    "Wrongness": "For Scanlon, the property of being disallowed by principles that no one could reasonably reject."
+  },
+  "name": "Contractualism",
+  "operative_procedure": [
+    "Frame the issue as a search for principles governing a kind of conduct, not as a one-off maximization problem.",
+    "Identify each affected standpoint and state the generic reasons someone in that position would have for accepting or rejecting candidate principles.",
+    "Formulate plausible candidate principles, including permissive, restrictive, and intermediate versions.",
+    "For each principle, list the individual complaints it creates: harms, risks, restrictions, unfair exposure, loss of control, or denial of legitimate claims.",
+    "Compare complaints pairwise rather than summing them; ask whether any one person's burden under the principle is strong enough to make rejection reasonable.",
+    "Exclude complaints that depend on domination, prejudice, mere dislike of others' permissible choices, or a demand for unfair advantage.",
+    "Choose the principle that survives reasonable-rejection testing better than its alternatives, and apply it to the case.",
+    "State the moral verdict in terms of what can be justified to each person, noting unresolved ties where competing complaints remain comparably strong."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Kantian Deontology",
+      "Social Contract Theory",
+      "Liberal Egalitarianism"
+    ],
+    "composes_with": [
+      "Reflective Equilibrium",
+      "Veil of Ignorance",
+      "Kantian Deontology",
+      "Principle of Charity"
+    ],
+    "descendants": [
+      "Scanlonian Contractualism",
+      "Relational Egalitarianism",
+      "Democratic Deliberation"
+    ],
+    "related": [
+      "Kantian Deontology",
+      "Veil of Ignorance",
+      "Social Contract Theory",
+      "Reflective Equilibrium"
+    ],
+    "rivals": [
+      "Utilitarianism",
+      "Rule Consequentialism",
+      "Contractarianism",
+      "Aristotelian Virtue Ethics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Contractualism is strongest for interpersonal morality, rights, rescue, fairness, coercion, and cases where the separateness of persons matters. It is less direct for institutional cost-benefit analysis, population ethics, nonhuman animal ethics, and cases requiring fine-grained aggregation of small risks across large groups. It presupposes that moral agents owe one another justifications and that affected persons can be represented through reasons for rejecting principles.",
+  "source_summary": "Authored from model knowledge of T. M. Scanlon's What We Owe to Each Other and related contractualist literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "T. M. Scanlon, What We Owe to Each Other"
+    },
+    {
+      "kind": "primary",
+      "title": "T. M. Scanlon, 'Contractualism and Utilitarianism'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Contractualism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/contractualism/"
+    },
+    {
+      "kind": "primary",
+      "title": "Derek Parfit, On What Matters"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a dispute turns on whether a rule can be justified to each affected person rather than whether it maximizes total welfare",
+    "one person's severe burden is being weighed against many people's smaller benefits",
+    "you need to assess fairness, rescue, coercion, deception, or exploitation through individual complaints",
+    "a proposed policy or action seems efficient but may be reasonably rejectable by those who bear its costs",
+    "you need a non-aggregative moral analysis that still uses reasons, principles, and impartiality"
+  ]
+}

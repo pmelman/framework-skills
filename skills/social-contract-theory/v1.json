@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "Locke begins from people who are naturally free and equal, with rights to life, liberty, and estate, but who lack a settled, impartial judge and reliable enforcement. Political society is legitimate only when people consent to leave that condition and authorize a government to secure their rights. If rulers violate that trust by attacking the rights they were instituted to protect, they dissolve their legitimacy and may be resisted. The framework therefore asks whether authority rests on consent and fiduciary protection of rights, not merely on order or welfare.",
+      "problem": "In Locke's Second Treatise, people leave the state of nature and form political society to protect property and natural rights under an impartial authority."
+    },
+    {
+      "analysis": "Rousseau treats legitimate law as an act of the people as sovereign, directed to the common good rather than private or factional will. Citizens obey laws they prescribe to themselves collectively, so freedom is transformed from natural independence into civil freedom under the general will. The analysis asks whether the association makes each person a co-author of the law on equal terms. If a law reflects only the will of all as an aggregate of private interests, or the will of a faction, it fails the social-contract test.",
+      "problem": "In Rousseau's Social Contract, a people seeks a form of association in which each person, while uniting with all, obeys only himself and remains free."
+    }
+  ],
+  "core_claims": [
+    "Political authority is legitimate only if it can be traced to the consent, authorization, or collective self-legislation of the governed.",
+    "The state is not naturally entitled to rule; it must be justified as an answer to problems in the pre-political or no-government condition.",
+    "Legitimate government is limited by the terms of the contract, such as protection of natural rights in Locke or service to the general will in Rousseau.",
+    "Citizens incur political obligations because they are parties, actual or hypothetical, to a scheme that secures civil order and common terms of association.",
+    "When rulers betray the purpose for which political authority was authorized, their claim to obedience can be forfeited.",
+    "The social contract transforms private force into public authority by making law answerable to the people rather than to mere domination.",
+    "Consent is normatively central but contested: express consent, tacit consent, hypothetical consent, and democratic participation support different conclusions."
+  ],
+  "description": "Social Contract Theory explains political legitimacy as arising from consent, authorization, or collective agreement among persons who establish common authority. In Locke and Rousseau, the framework asks what people would or did authorize in moving from natural freedom to civil society, and when government remains faithful to that authorizing purpose.",
+  "domains": [
+    "political-philosophy",
+    "ethics",
+    "law",
+    "institutional-design"
+  ],
+  "failure_modes": [
+    "Fictional consent: actual citizens often never consented, and tacit or hypothetical consent may be too weak to ground real obligation.",
+    "Majoritarian capture: appeals to the people or general will can be used to suppress dissenting individuals or minorities.",
+    "Sanitized state of nature: the chosen pre-political baseline can predetermine the answer and conceal historical domination.",
+    "Boundary problem: the theory often struggles to say who counts as part of the contracting people, especially migrants, colonized peoples, future generations, and children.",
+    "Legitimacy laundering: an institution may be treated as legitimate because it has contractual form while substantive coercion, exclusion, or inequality remains."
+  ],
+  "key_vocabulary": {
+    "Civil society": "The political condition in which people live under common laws and institutions rather than private judgment and enforcement.",
+    "Consent": "The act, explicit, tacit, hypothetical, or collective, by which persons authorize political rule or membership in a political order.",
+    "General will": "Rousseau's term for the sovereign will directed at the common good, distinct from the mere sum of private preferences.",
+    "Legitimacy": "The rightfulness of political authority: whether the state may command and citizens have reason or duty to obey.",
+    "Natural rights": "In Locke, pre-political rights such as life, liberty, and estate that government is created to secure.",
+    "Popular sovereignty": "The principle that ultimate political authority belongs to the people rather than a monarch, conqueror, or ruling class.",
+    "State of nature": "A hypothetical or philosophical pre-political condition used to identify why political authority is needed and what limits it has.",
+    "Tacit consent": "Locke's idea that enjoying the benefits or territory of a political society may count as a limited form of consent, though it is heavily disputed."
+  },
+  "name": "Social Contract Theory",
+  "operative_procedure": [
+    "Define the political authority, law, or institution whose legitimacy is in question.",
+    "Specify the relevant no-government or pre-contract condition and the problem it creates: insecurity, partial judgment, lack of common law, domination, or failure of common action.",
+    "Identify the parties to the contract and check whether anyone affected is excluded from authorization or protection.",
+    "State the terms that rational or free and equal persons would authorize: rights protected, powers granted, procedures required, and limits imposed.",
+    "Determine the mode of consent being invoked: express consent, tacit consent, hypothetical consent, democratic authorization, or collective self-legislation.",
+    "Test whether the institution still serves the contract's purpose, such as securing natural rights, preserving freedom, or expressing the general will.",
+    "Assess breach and remedy: if rulers exceed delegated authority or become instruments of domination, identify whether reform, resistance, or withdrawal of obedience follows.",
+    "Synthesize the legitimacy verdict, separating legal validity, moral legitimacy, citizen obligation, and justified resistance."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Natural Law",
+      "Classical Republicanism",
+      "Hobbesian Political Philosophy"
+    ],
+    "composes_with": [
+      "Veil of Ignorance",
+      "Reflective Equilibrium",
+      "Game Theory",
+      "Overton Window"
+    ],
+    "descendants": [
+      "Liberal Constitutionalism",
+      "Rawlsian Justice as Fairness",
+      "Democratic Theory",
+      "Contractualism"
+    ],
+    "related": [
+      "Contractarianism",
+      "Contractualism",
+      "Veil of Ignorance",
+      "Kantian Deontology"
+    ],
+    "rivals": [
+      "Divine Right Theory",
+      "Utilitarianism",
+      "Marxism",
+      "Aristotelian Virtue Politics",
+      "Anarchism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Social Contract Theory is strongest for questions of political legitimacy, constitutional authority, consent, citizenship, rebellion, and the limits of state power. It is less suited to personal morality or decisions where no common coercive authority is at issue. It must be handled carefully in historical contexts where actual contracts are absent and in cases where exclusion, colonization, or inequality undermines the idea of free and equal authorization.",
+  "source_summary": "Authored from model knowledge of Locke's Second Treatise, Rousseau's The Social Contract, Hobbes, Rawls, and standard social-contract literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John Locke, Second Treatise of Government"
+    },
+    {
+      "kind": "primary",
+      "title": "Jean-Jacques Rousseau, The Social Contract"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas Hobbes, Leviathan"
+    },
+    {
+      "kind": "primary",
+      "title": "John Rawls, A Theory of Justice"
+    },
+    {
+      "kind": "secondary",
+      "title": "Contemporary Approaches to the Social Contract (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/contractarianism-contemporary/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a law, state, constitution, or institution needs justification as legitimate authority over free and equal persons",
+    "the problem turns on consent, citizenship, political obligation, or the right to resist government",
+    "you need to compare civil authority with a no-government or pre-political baseline",
+    "a ruler or institution may have exceeded the purpose for which authority was granted",
+    "a policy claims to express the people, common good, or democratic self-rule and that claim needs testing"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "Act consequentialism appears to permit the killing if five lives saved outweigh one life lost. Rule Consequentialism instead asks what would happen if a rule permitting doctors to harvest healthy patients without consent were generally accepted. Such a rule would destroy trust in hospitals, make everyone less secure, and undermine the medical practices that save lives. The optimal code therefore contains a strong rule against killing or using patients without consent, so the surgeon must not harvest the organs.",
+      "problem": "In the standard transplant case, a surgeon could kill one healthy patient and use his organs to save five dying patients."
+    },
+    {
+      "analysis": "An act-consequentialist calculation might frame the execution as one innocent death preventing many riot deaths. Rule Consequentialism evaluates the public rule: officials may punish the innocent when doing so prevents disorder. General acceptance of that rule would erode security, invite abuse, destroy trust in courts, and make punishment unreliable as a deterrent of wrongdoing. The better consequence-producing code prohibits knowingly punishing the innocent, even in cases where a particular violation seems useful.",
+      "problem": "In the sheriff case discussed in consequentialist debates, officials could frame and punish an innocent person to prevent a riot and save many lives."
+    }
+  ],
+  "core_claims": [
+    "The right act is the act required or permitted by the set of rules whose general acceptance would have the best consequences.",
+    "Moral evaluation is indirect: rules are selected by consequences, but individual acts are assessed by compliance with the selected rules.",
+    "A rule can be binding in a particular case even when breaking it would produce better immediate consequences.",
+    "The relevant comparison is among feasible moral codes internalized and publicly accepted by agents with limited information and motivation.",
+    "Rules protecting rights, promises, truth-telling, and punishment of only the guilty can be justified by their long-run acceptance value.",
+    "Collapse into act consequentialism is a constant threat if rules are made too specific to the case at hand.",
+    "Rule Consequentialism treats common moral constraints as consequence-grounded rather than intrinsically inviolable."
+  ],
+  "description": "Rule Consequentialism is the consequentialist framework that evaluates moral rules, codes, or principles by their consequences under general acceptance, and then evaluates individual actions by whether they comply with the best justified rules. It preserves consequentialist grounding while explaining why promise-keeping, rights, and prohibitions on killing or punishing the innocent can bind in particular cases.",
+  "domains": [
+    "ethics",
+    "moral-philosophy",
+    "decision-theory",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "Collapse objection: if rules are tailored with enough exceptions, the view becomes act consequentialism in disguise.",
+    "Rule worship objection: if agents must follow a rule even when breaking it clearly has better consequences, the view can seem irrationally attached to rules.",
+    "Code specification problem: different descriptions of the rule can produce different verdicts, and there is no simple neutral stopping point.",
+    "Empirical fragility: judgments about general acceptance depend on uncertain predictions about social trust, incentives, enforcement, and internalization.",
+    "Conservatism bias: practitioners may defend familiar norms by speculating that alternatives would have bad consequences, without seriously comparing rival codes."
+  ],
+  "key_vocabulary": {
+    "Acceptance value": "The expected value of a rule's being generally accepted, internalized, or used as part of a public moral code.",
+    "Act Consequentialism": "The rival view that each act should be evaluated directly by its consequences, rather than by conformity to consequence-selected rules.",
+    "Collapse objection": "The charge that rule consequentialism either reduces to act consequentialism or becomes arbitrary when rules include exceptions.",
+    "Ideal code": "The set of rules whose general acceptance by the relevant population would produce the best consequences.",
+    "Internalization": "The process by which agents learn, accept, and are motivated by moral rules; its costs and reliability matter to rule selection.",
+    "Partial compliance": "The realistic condition that not everyone will follow the rules perfectly, which affects which rules have the best consequences.",
+    "Rule worship": "The objection that following a rule when breaking it would maximize good consequences treats rules as fetish objects rather than instruments."
+  },
+  "name": "Rule Consequentialism",
+  "operative_procedure": [
+    "State the action under consideration and the intuitive act-consequentialist calculation that might favor or oppose it.",
+    "Formulate candidate rules at a general level suitable for public teaching, internalization, and guidance, avoiding case-rigged descriptions.",
+    "Estimate the consequences of each rule's general acceptance, including trust, incentives, abuse risks, administrative costs, compliance rates, and effects on vulnerable parties.",
+    "Compare candidate rules as parts of a moral code rather than isolated slogans; check how they interact with rules about rights, promises, punishment, truth, and rescue.",
+    "Select the rule or code with the best expected acceptance value under realistic human motivation and information limits.",
+    "Apply the selected rule to the particular case, even if a one-off violation appears to have better immediate consequences.",
+    "Test for collapse and rule worship: if the rule is too specific, generalize it; if following it seems disastrous, consider whether the optimal code includes an emergency exception.",
+    "Synthesize the verdict by explaining both the consequence-based justification of the rule and the rule-based assessment of the act."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Utilitarianism",
+      "Consequentialism",
+      "Rule Utilitarianism"
+    ],
+    "composes_with": [
+      "Decision Theory",
+      "Expected Value Reasoning",
+      "Bayesian Epistemology",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Hooker's Rule Consequentialism",
+      "Two-Level Utilitarianism",
+      "Ideal Code Theory"
+    ],
+    "related": [
+      "Utilitarianism",
+      "Kantian Deontology",
+      "Contractualism",
+      "Expected Value Reasoning"
+    ],
+    "rivals": [
+      "Act Utilitarianism",
+      "Kantian Deontology",
+      "Contractualism",
+      "Aristotelian Virtue Ethics",
+      "Moral Particularism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Rule Consequentialism is strongest where stable rules, public expectations, trust, and institutional incentives matter: law, medicine, promising, punishment, rights, and professional ethics. It is weaker in novel emergencies where no established rule applies, in domains where consequences of general acceptance are speculative, or where the morally relevant issue is character, consent, or divine command rather than social effects of rules. It requires disciplined rule specification to avoid both ad hoc exceptions and rigid rule worship.",
+  "source_summary": "Authored from model knowledge of Mill, Brandt, Hare, Hooker, Smart, and standard rule-consequentialist debates, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John Stuart Mill, Utilitarianism"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard B. Brandt, A Theory of the Good and the Right"
+    },
+    {
+      "kind": "primary",
+      "title": "Brad Hooker, Ideal Code, Real World: A Rule-Consequentialist Theory of Morality"
+    },
+    {
+      "kind": "primary",
+      "title": "J. J. C. Smart and Bernard Williams, Utilitarianism: For and Against"
+    },
+    {
+      "kind": "secondary",
+      "title": "Rule Consequentialism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/consequentialism-rule/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a one-off act seems beneficial but allowing that kind of act as a general rule may damage trust, incentives, or security",
+    "you need a consequentialist analysis that takes rights, promises, punishment, or professional duties seriously",
+    "the problem turns on which public rule or code should guide repeated cases rather than a single isolated outcome",
+    "agents have limited information and motivation, so direct act-by-act maximization would be unreliable or socially destructive",
+    "you must compare the long-run acceptance effects of rival norms, policies, or institutional rules"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T03:03:50Z",
+  "canonical_examples": [
+    {
+      "analysis": "Euthyphro asks whether the pious is loved by the gods because it is pious, or pious because it is loved by the gods. Divine Command Theory takes the second horn in a monotheistic form: wrongness consists in being contrary to God's commands, and obligation consists in being commanded by God. The case exposes the framework's central pressure point: if God's command alone makes an act right, morality looks arbitrary; if God commands it because it is already right, moral standards appear independent of God. A sophisticated divine command analysis therefore distinguishes God's commands from mere divine preferences and often grounds command in God's necessarily good nature.",
+      "problem": "In Plato's Euthyphro, Socrates asks whether an action is pious because the gods love it, or whether the gods love it because it is pious."
+    },
+    {
+      "analysis": "The binding question is not first whether sacrificing Isaac maximizes welfare, expresses virtue, or respects a universal rational law; it is whether Abraham has received an authentic divine command. If the command is genuine, a strong divine command theorist treats it as creating or overriding ordinary moral obligation, which is why the episode becomes a paradigm of obedience under divine authority. The case also shows the theory's danger: because the command appears to conflict with a standing prohibition on killing the innocent, the analysis must ask whether the source is genuinely God, whether the command is an exceptional test rather than a general norm, and whether any interpretation is consistent with God's good nature.",
+      "problem": "In Genesis 22, Abraham is commanded by God to sacrifice Isaac, despite the apparent moral prohibition against killing an innocent child."
+    }
+  ],
+  "core_claims": [
+    "An action is morally obligatory only if God commands it; an action is morally forbidden only if God prohibits it.",
+    "Moral facts are not autonomous Platonic standards over God but depend on the will, command, or authoritative prescription of God.",
+    "Divine authority can generate obligation in a way no human authority can, because God's sovereignty and perfect goodness are uniquely norm-grounding.",
+    "Moral knowledge requires some account of how divine commands are known, such as scripture, revelation, conscience, tradition, or natural signs of divine will.",
+    "The Euthyphro dilemma is the framework's central test: it must avoid both arbitrary morality and a moral standard independent of God.",
+    "A modified divine command theory typically grounds commands in God's necessarily loving or good nature, so commands are neither external to God nor arbitrary exercises of power.",
+    "If no God exists, or if no divine commands can be identified, then this framework cannot secure objective moral obligations in its intended sense."
+  ],
+  "description": "Divine Command Theory is the metaethical view that moral obligation is grounded in God's commands: what one ought to do is what God commands, and what one must not do is what God forbids. It analyzes morality through divine authority, revelation, obedience, and the Euthyphro dilemma about whether goodness is independent of or constituted by divine command.",
+  "domains": [
+    "ethics",
+    "metaethics",
+    "philosophy-of-religion",
+    "theology"
+  ],
+  "failure_modes": [
+    "Arbitrariness: if obligation is produced by command alone, the theory can seem to imply that cruelty would be right if God commanded it.",
+    "Epistemic overconfidence: practitioners may treat a contested interpretation of scripture, tradition, or private experience as an unmistakable divine command.",
+    "Moral outsourcing: the framework can discourage independent moral reflection by treating obedience as a substitute for interpreting the character, scope, and authenticity of the command.",
+    "Plural revelation problem: rival communities may cite incompatible divine commands, with no shared procedure for adjudicating among them.",
+    "Euthyphro collapse: attempts to avoid arbitrariness by appealing to God's goodness can quietly reintroduce an independent moral standard and weaken the theory's distinctiveness."
+  ],
+  "key_vocabulary": {
+    "Arbitrariness objection": "The objection that if God's command makes an action right, then any command whatever would make that action right, including apparently cruel or unjust commands.",
+    "Divine authority": "God's unique normative standing to issue commands that bind human agents as moral obligations rather than merely prudential instructions.",
+    "Divine command": "An authoritative prescription or prohibition from God; on this theory, it is the immediate ground of obligation or wrongness.",
+    "Euthyphro dilemma": "The challenge asking whether God commands the good because it is good, or whether the good is good because God commands it.",
+    "Modified Divine Command Theory": "A version, associated with Robert Adams and others, that grounds divine commands in the necessarily good or loving nature of God to resist arbitrariness.",
+    "Moral voluntarism": "The broader family of views on which moral norms depend on an act of will, especially divine will.",
+    "Revelation": "A mode by which divine commands are made known, such as scripture, prophetic speech, tradition, conscience, or religious experience."
+  },
+  "name": "Divine Command Theory",
+  "operative_procedure": [
+    "State the candidate action and the alleged obligation, prohibition, or permission at issue.",
+    "Identify the relevant divine command sources: scripture, authoritative tradition, revelation, conscience, or natural-theological claims about divine will.",
+    "Separate command from preference, prediction, custom, and human religious authority; ask whether the source purports to issue a binding divine prescription.",
+    "Test authenticity and interpretation by checking consistency with central attributes ascribed to God, especially perfect goodness, justice, sovereignty, and love.",
+    "Apply the command relation: if God commands the act, classify it as obligatory; if God forbids it, classify it as wrong; if no command governs it, treat it as morally permitted or unresolved within the framework.",
+    "Address Euthyphro pressure explicitly: explain whether the conclusion rests on bare divine will, God's necessarily good nature, or an independent moral reason God recognizes.",
+    "Resolve apparent conflicts among commands by distinguishing general from exceptional commands, ceremonial from moral commands, and literal from contextual readings.",
+    "Synthesize the verdict as an obligation of obedience or a limit on obedience, and state what epistemic uncertainty remains about whether the divine command has truly been identified."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Theological Voluntarism",
+      "Augustinian Theology",
+      "Medieval Scholasticism"
+    ],
+    "composes_with": [
+      "Thomistic Natural Law",
+      "Halakha",
+      "Maqasid al-Shariah",
+      "Reflective Equilibrium"
+    ],
+    "descendants": [
+      "Modified Divine Command Theory",
+      "Reformed Epistemology",
+      "Contemporary Theological Ethics"
+    ],
+    "related": [
+      "Thomistic Natural Law",
+      "Halakha",
+      "Maqasid al-Shariah",
+      "Tawhid"
+    ],
+    "rivals": [
+      "Kantian Deontology",
+      "Utilitarianism",
+      "Aristotelian Virtue Ethics",
+      "Moral Realism",
+      "Thomistic Natural Law"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Divine Command Theory is strongest for metaethical and theological questions about why obligations bind, how obedience to God relates to morality, and how religious communities reason from authoritative revelation. It is weaker as a shared public decision procedure in plural societies, where agents disagree about God's existence, attributes, commands, or interpreters. It also needs supplementation when a problem turns on empirical consequences, institutional design, or moral concepts not clearly governed by a recognized command.",
+  "source_summary": "Authored from model knowledge of Plato's Euthyphro, Genesis 22, Robert Merrihew Adams, Philip Quinn, and standard philosophy-of-religion discussions, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Plato, Euthyphro",
+      "url": "https://en.wikipedia.org/wiki/Euthyphro"
+    },
+    {
+      "kind": "primary",
+      "title": "Genesis 22"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert Merrihew Adams, Finite and Infinite Goods: A Framework for Ethics"
+    },
+    {
+      "kind": "primary",
+      "title": "Philip L. Quinn, Divine Commands and Moral Requirements"
+    },
+    {
+      "kind": "secondary",
+      "title": "Divine Command Theory (Internet Encyclopedia of Philosophy)",
+      "url": "https://iep.utm.edu/divine-command-theory/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need to analyze whether an alleged religious command creates, overrides, or clarifies a moral obligation",
+    "a moral dispute turns on obedience to God rather than welfare, autonomy, virtue, or social agreement",
+    "a community treats scripture, revelation, or sacred tradition as morally authoritative and needs the obligation made explicit",
+    "a case raises Euthyphro-style pressure about whether goodness is independent of divine will",
+    "you must distinguish genuine divine command from custom, clerical authority, private impulse, or prudential advice"
+  ]
+}
