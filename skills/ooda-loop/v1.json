@@ -1,0 +1,126 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:50:44+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Boyd's fighter-combat analysis treats victory as a tempo and orientation problem rather than a simple comparison of top speed or firepower. A pilot observes enemy position and energy state, orients through training and aircraft handling qualities, decides on a maneuver, and acts to change the geometry. If the F-86 pilot can transition faster, retain visibility, and force the MiG pilot to react to a changing situation, the MiG's observations and decisions become obsolete. The point is to generate mismatches between the opponent's perceived world and the actual tactical situation.",
+      "problem": "Boyd's Korean War air-combat studies asked why F-86 pilots achieved disproportionate success against MiG-15s despite the MiG's strong performance characteristics."
+    },
+    {
+      "analysis": "In Patterns of Conflict, the Blitzkrieg case is read as an organizational OODA advantage. Decentralized command, mission-type orders, combined arms, and fast penetration produced rapidly changing local conditions. French command structures observed through slower reporting channels, oriented around positional defense and centralized control, decided after the situation had already shifted, and acted too late. The attacker did not merely move faster physically; it repeatedly reset the defender's orientation so that each response addressed a prior reality.",
+      "problem": "Boyd uses Blitzkrieg and maneuver warfare to explain how a force can disorient a larger opponent through rapid, decentralized, combined-arms action."
+    }
+  ],
+  "core_claims": [
+    "Competitive advantage comes from cycling through observation, orientation, decision, and action in a way that makes the opponent's orientation obsolete.",
+    "Orientation is the Schwerpunkt of the loop: cultural traditions, genetic heritage, analysis-synthesis, prior experience, and new information shape what an actor can perceive and decide.",
+    "Speed alone is insufficient; tempo matters because actions must create ambiguity, novelty, and mismatch inside the adversary's decision cycle.",
+    "Actions feed back into observation by testing the actor's orientation against reality and by changing what the opponent must observe.",
+    "Decentralized initiative can outperform centralized optimization when local actors have better current observations and shared intent.",
+    "A successful maneuver should operate inside the adversary's OODA loop, forcing reactive decisions based on stale, fragmented, or misleading information.",
+    "Rigid doctrine, filtered reporting, and delayed feedback are strategic liabilities because they corrupt orientation before formal decision-making begins."
+  ],
+  "description": "The OODA Loop is John Boyd's tempo-based framework for competition and conflict: actors observe, orient, decide, and act while trying to adapt faster and more coherently than opponents. Its center of gravity is orientation, where information, culture, experience, analysis, synthesis, and unfolding action shape perception and choice.",
+  "domains": [
+    "strategy",
+    "military-theory",
+    "competition",
+    "decision-making"
+  ],
+  "failure_modes": [
+    "Reducing OODA to a simple four-step checklist misses Boyd's emphasis on orientation, implicit guidance, feedback, and adversarial disruption.",
+    "Practitioners often fetishize speed and make premature decisions, when the real failure is poor orientation or incoherent action.",
+    "The framework can over-militarize cooperative, institutional, or ethical problems where disorienting an opponent is not the right objective.",
+    "Fast cycles can amplify bad mental models: a team with corrupted orientation may fail faster and more confidently.",
+    "Inside-the-loop analysis can ignore material constraints, logistics, legitimacy, and attrition that tempo cannot overcome indefinitely.",
+    "It can encourage adversarial framing of markets or organizations where building shared understanding would outperform competitive maneuver."
+  ],
+  "key_vocabulary": {
+    "Act": "The execution of a decision in the world. Action both pursues an objective and generates new feedback for observation.",
+    "Analysis and synthesis": "Boyd's orientation process of breaking observations apart and recombining them into new mental models. It is how actors update beyond rote doctrine.",
+    "Decide": "The selection of a course of action based on current orientation. In Boyd's fuller diagram, decisions are shaped by implicit guidance as well as explicit deliberation.",
+    "Implicit guidance and control": "The nonverbal, trained, or doctrinal shaping that lets actors move from orientation to action without waiting for explicit orders.",
+    "Observe": "The collection of unfolding information about the environment, oneself, opponents, and results of prior action. Observation is filtered by what the actor is able and willing to notice.",
+    "Operate inside the loop": "To change the situation faster than an opponent can update orientation and act coherently, causing their responses to lag behind reality.",
+    "Orient": "The interpretive core of the loop, shaped by culture, experience, genetic heritage, new information, and analysis-synthesis. It determines what observations mean.",
+    "Tempo": "The rhythm and pace of adaptive action relative to an opponent. Tempo is valuable when it creates dislocation, not merely because actions are frequent."
+  },
+  "name": "OODA Loop",
+  "operative_procedure": [
+    "Identify the competitive arena, actors, objective, and time scale. Specify whose loop is being analyzed and what counts as advantage or loss.",
+    "Observe the current situation: collect signals about environment, opponent behavior, own capabilities, constraints, and feedback from prior actions.",
+    "Analyze orientation before choosing action: surface cultural assumptions, doctrine, prior experience, incentives, mental models, and filters that shape interpretation.",
+    "Compare loops: estimate how quickly and accurately each actor observes, orients, decides, and acts. Locate delays, distortions, bottlenecks, and rigidities.",
+    "Generate options that change the opponent's problem faster than they can reorient: ambiguity, rapid maneuver, surprise, deception, decentralization, or shifting the basis of competition.",
+    "Choose a decision rule suited to tempo: use explicit deliberation for high-stakes ambiguity, and implicit guidance or commander's intent for fast local action.",
+    "Act in a way that both pursues the objective and probes the environment. Treat action as an experiment that updates orientation, not just implementation.",
+    "Read feedback immediately: did the action increase mismatch for the opponent, clarify reality for you, or reveal that your orientation is wrong?",
+    "Iterate while protecting coherence: increase tempo where orientation is sound, slow down where the mental model is suspect, and keep local initiative aligned with overall intent."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Maneuver Warfare",
+      "Cybernetics",
+      "Sun Tzu's Art of War"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Decision Theory",
+      "Systems Thinking",
+      "The Map-Territory Distinction"
+    ],
+    "descendants": [
+      "Agile Strategy",
+      "Mission Command",
+      "Lean Startup Build-Measure-Learn"
+    ],
+    "related": [
+      "Cynefin Framework",
+      "Pragmatism",
+      "Counterfactual Reasoning",
+      "Maneuver Warfare"
+    ],
+    "rivals": [
+      "SWOT Analysis",
+      "Waterfall Planning",
+      "Deliberate Strategy",
+      "Expected Utility Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "OODA is strongest in adversarial or fast-moving environments where perception, adaptation, tempo, and disorientation matter: military operations, incident response, competitive strategy, negotiation, and crisis leadership. It is weaker for stable optimization, compliance work, long-horizon institution building, and domains where legitimacy, cooperation, or careful evidence gathering matters more than outcycling an opponent.",
+  "source_summary": "Authored from model knowledge of John Boyd's briefings and writings, maneuver warfare literature, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "John R. Boyd, 'The Essence of Winning and Losing'"
+    },
+    {
+      "kind": "primary",
+      "title": "John R. Boyd, Patterns of Conflict"
+    },
+    {
+      "kind": "primary",
+      "title": "John R. Boyd, A Discourse on Winning and Losing"
+    },
+    {
+      "kind": "secondary",
+      "title": "Robert Coram, Boyd: The Fighter Pilot Who Changed the Art of War"
+    },
+    {
+      "kind": "tertiary",
+      "title": "OODA loop (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/OODA_loop"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A competitor or adversary is adapting while you act, so the value of a move depends on relative learning speed and timing.",
+    "A team is receiving information but interpreting it through stale doctrine, incentives, culture, or mental models.",
+    "Centralized decision-making is too slow for local conditions, yet local action still needs coherence with a larger intent.",
+    "You need to disrupt an opponent's ability to understand the situation rather than merely choose the best static plan.",
+    "The environment is changing quickly enough that long planning cycles produce decisions aimed at yesterday's reality.",
+    "Fast action is tempting, but the real question is whether your orientation is accurate enough to support tempo."
+  ]
+}

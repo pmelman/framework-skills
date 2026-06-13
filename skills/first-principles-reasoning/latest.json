@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:50:44+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Descartes treats inherited opinions and sense testimony as unreliable starting points because they can be doubted. He strips the inquiry down until he finds a proposition that survives even radical doubt: while doubting, he is thinking, and while thinking, he exists as the one undergoing the thought. The analysis then rebuilds from this indubitable point rather than from custom or authority. The distinctive move is not skepticism as an endpoint but reconstruction from a premise that cannot be coherently denied in the act of examining it.",
+      "problem": "In the Meditations, Descartes asks what can be known with certainty after inherited beliefs, sensory appearances, dreams, and even mathematical judgments are subjected to methodic doubt."
+    },
+    {
+      "analysis": "Aristotle rejects an infinite regress of demonstrations: if every premise needed proof from a prior premise, knowledge would never begin. The framework identifies first principles as indemonstrable starting points grasped by nous and then uses demonstration to derive conclusions from them. In a scientific explanation, the analyst must state the primary causes and definitions from which the conclusion follows, rather than merely collecting observations or citing authority. The result is knowledge because the conclusion is shown to follow from explanatory grounds that are prior, better known, and causally relevant.",
+      "problem": "In the Posterior Analytics, Aristotle asks how scientific knowledge is possible if demonstrations require premises and those premises cannot themselves be demonstrated forever."
+    }
+  ],
+  "core_claims": [
+    "A conclusion is only as reliable as the primitive assumptions, definitions, and causal mechanisms from which it is derived.",
+    "Many inherited rules of thumb encode contingent history, local constraints, or social convention and should not be treated as necessary truths.",
+    "Sound reconstruction requires decomposing a claim until the remaining premises are either directly defensible, empirically measured, definitionally true, or explicitly assumed.",
+    "Reasoning from analogy is secondary evidence; it cannot establish what is possible when the underlying physical, logical, economic, or mathematical constraints differ.",
+    "Contradictions or impossibilities should be found at the level of fundamentals before optimizing within conventional solution forms.",
+    "A rebuilt solution can legitimately violate current practice if it satisfies the underlying constraints better than the inherited design.",
+    "The method gains power by exposing which premises are load-bearing and which are merely convenient abstractions."
+  ],
+  "description": "First-Principles Reasoning decomposes a problem into fundamental truths, definitions, constraints, and causal mechanisms, then rebuilds conclusions or designs from those foundations instead of relying on analogy, convention, or inherited assumptions. It draws on Aristotelian first principles, Cartesian methodic doubt, and engineering practice.",
+  "domains": [
+    "reasoning",
+    "engineering",
+    "philosophy",
+    "strategy"
+  ],
+  "failure_modes": [
+    "False primitives: the analyst may stop decomposing too early and smuggle a convention, market fact, or inherited category in as a first principle.",
+    "Reconstruction can become overconfident when it ignores tacit knowledge, empirical base rates, regulatory history, manufacturing realities, or human behavior embedded in existing practice.",
+    "The method can waste time on foundational derivations where a validated precedent or expert heuristic would be faster and equally reliable.",
+    "Practitioners often confuse contrarianism with first-principles work, rejecting analogy because it is conventional rather than because its assumptions fail.",
+    "Complex systems may not be rebuildable from isolated fundamentals because interactions, feedback, and emergence dominate component-level logic.",
+    "A crisp derivation from explicit premises can conceal uncertainty in measurements, boundary conditions, or model simplifications."
+  ],
+  "key_vocabulary": {
+    "Analogy": "Reasoning from similarity to an existing case or design. First-principles reasoning treats analogy as a source of hypotheses, not as a proof of necessity.",
+    "Axiom": "A starting proposition accepted without further demonstration inside a system of reasoning. It must be declared because conclusions inherit its limits.",
+    "Constraint": "A physical, logical, mathematical, economic, legal, or human limit that a solution must satisfy. Constraints are separated from habits that merely describe how people currently work.",
+    "Decomposition": "Breaking a claim, system, or design into simpler premises, mechanisms, materials, costs, and requirements until the load-bearing fundamentals are visible.",
+    "Demonstration": "In the Aristotelian sense, an explanation that derives a conclusion from prior, explanatory premises. It is stronger than citing examples or authority.",
+    "First principle": "A foundational premise, definition, causal law, or directly established fact from which further conclusions are derived. It is not treated as first merely because it is familiar.",
+    "Methodic doubt": "Descartes's procedure of withholding assent from beliefs that can be doubted in order to find a more secure foundation for reconstruction.",
+    "Reconstruction": "The step of building a conclusion, design, or strategy back up from first principles after assumptions and analogies have been stripped away.",
+    "Sufficient reason": "An explanation adequate to show why the conclusion follows rather than merely that it has happened before."
+  },
+  "name": "First-Principles Reasoning",
+  "operative_procedure": [
+    "State the target conclusion, design, or decision in a form that can be tested: what exactly must be true, built, explained, or chosen?",
+    "List the inherited assumptions, analogies, benchmarks, expert rules, and conventional solution forms currently shaping the answer.",
+    "Decompose each assumption into more basic definitions, mechanisms, constraints, measurements, and causal dependencies. Keep asking what must be true for this claim to hold.",
+    "Classify the remaining premises: logical or mathematical truth, empirical measurement, physical law, definition, explicit value judgment, legal rule, or uncertain assumption.",
+    "Discard or quarantine premises that are merely conventional, analogical, authority-based, or historically contingent unless they are independently justified.",
+    "Identify the load-bearing first principles and constraints that any acceptable answer must satisfy. Make uncertainty and boundary conditions explicit.",
+    "Rebuild from those foundations: derive what follows, generate designs that satisfy the constraints, and allow options that current practice would normally exclude.",
+    "Compare the rebuilt answer against precedent and empirical reality. Where they diverge, decide whether the divergence exposes a stale convention or a missing premise.",
+    "Report the conclusion with its dependency chain: which first principles support it, which assumptions remain, and what observation would force revision."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Aristotelian Demonstration",
+      "Cartesian Methodic Doubt",
+      "Euclidean Axiomatic Method"
+    ],
+    "composes_with": [
+      "Occam's Razor",
+      "Thought Experiments",
+      "Conceptual Analysis",
+      "Decision Theory"
+    ],
+    "descendants": [
+      "Engineering Design",
+      "Root Cause Analysis",
+      "Axiomatic Design"
+    ],
+    "related": [
+      "Conceptual Analysis",
+      "The Map-Territory Distinction",
+      "Occam's Razor",
+      "Falsificationism"
+    ],
+    "rivals": [
+      "Systems Thinking",
+      "Pragmatism",
+      "Case-Based Reasoning",
+      "Ordinary Language Philosophy"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "First-Principles Reasoning is strongest for technical design, conceptual clarification, strategic reframing, cost breakdowns, and arguments where hidden assumptions or analogy constrain imagination. It is weaker where tacit expertise, social meaning, complex feedback, evolved practice, or empirical base rates carry information that cannot be recovered from a small set of explicit premises.",
+  "source_summary": "Authored from model knowledge of Aristotle, Descartes, engineering first-principles practice, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Aristotle, Posterior Analytics"
+    },
+    {
+      "kind": "primary",
+      "title": "Rene Descartes, Meditations on First Philosophy"
+    },
+    {
+      "kind": "primary",
+      "title": "Rene Descartes, Discourse on the Method"
+    },
+    {
+      "kind": "secondary",
+      "title": "First principle (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/First_principle"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A conclusion rests heavily on precedent, analogy, benchmark practice, or expert shorthand, and you need to know whether it is actually necessary.",
+    "A design or strategy seems impossible mainly because current implementations are expensive, slow, or institutionally familiar.",
+    "The problem contains hidden assumptions about what must be bought, built, believed, measured, or optimized.",
+    "You need to separate physical, logical, mathematical, or economic constraints from habits and inherited categories.",
+    "A debate is stuck because participants are arguing from examples rather than from shared definitions and load-bearing premises.",
+    "A proposed answer is elegant but you need to expose the primitive assumptions that would make it fail."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:50:44+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "Snowden and Boone use the Apollo 13 crisis as a chaotic-domain case: the relationship between cause and effect could not be analyzed in time, and the immediate task was to stabilize conditions. Leaders first act to establish order, then sense where stability has emerged, and then respond with further improvisation. The famous engineering work to fit a square carbon-dioxide filter into a round opening is not a best-practice execution problem; it is urgent constraint-bounded improvisation after action has created a workable foothold.",
+      "problem": "After the Apollo 13 oxygen tank explosion, NASA had to keep the crew alive under severe time pressure and unprecedented technical constraints."
+    },
+    {
+      "analysis": "In Snowden's children's party example, the situation is complex rather than complicated: the host cannot predict outcomes by expert analysis because interactions among children are dispositional and emergent. The right move is to create attractors and boundaries, run safe-to-fail probes such as games or activities, observe what patterns form, and amplify what works while dampening what fails. Treating it as clear or complicated by imposing a rigid plan would miss the adaptive social dynamics.",
+      "problem": "Snowden's standard teaching example asks how to manage a children's birthday party where behavior is socially interactive and not reliably predictable in advance."
+    }
+  ],
+  "core_claims": [
+    "The correct management logic depends on the nature of the situation's cause-effect relationship, not on leader preference or generic best practice.",
+    "Clear contexts have obvious cause and effect and call for sense-categorize-respond using best practice.",
+    "Complicated contexts have discoverable but non-obvious cause and effect and call for sense-analyze-respond using expertise and good practice.",
+    "Complex contexts have cause and effect that can only be understood in retrospect and call for probe-sense-respond through safe-to-fail experiments.",
+    "Chaotic contexts have no perceivable stable cause-effect relationship in time for analysis and call for act-sense-respond to establish enough order to continue.",
+    "Disorder is dangerous because actors unknowingly apply their preferred domain logic to a situation that may require a different response pattern.",
+    "The catastrophic cliff between clear and chaotic appears when complacent reliance on best practice blinds actors to changing conditions until order collapses."
+  ],
+  "description": "The Cynefin Framework is Dave Snowden's sense-making framework for matching action to context across clear, complicated, complex, chaotic, and disordered domains. It distinguishes situations by the visibility and stability of cause-effect relationships and prescribes different decision logics for each domain.",
+  "domains": [
+    "sensemaking",
+    "management",
+    "complexity",
+    "decision-making"
+  ],
+  "failure_modes": [
+    "Using Cynefin as a labeling taxonomy rather than a guide to different action logics leaves the analysis inert.",
+    "Practitioners often misclassify politically uncomfortable complexity as complicated work for experts, producing overconfident plans instead of probes.",
+    "The framework can become jargon-heavy; domain names may obscure the concrete question of what evidence would show cause and effect.",
+    "Safe-to-fail probes can be too large, too correlated, or too slow, turning a complex-domain method into a disguised pilot project with high downside.",
+    "Leaders may romanticize complexity and avoid standardization even where clear best practice or expert analysis is available.",
+    "Domain boundaries can shift during action; a once-clear process can fall over the cliff into chaos if warning signals are ignored."
+  ],
+  "key_vocabulary": {
+    "Chaotic domain": "A context with no perceivable stable cause-effect relationship in time to deliberate. The response sequence is act-sense-respond to establish order.",
+    "Clear domain": "A context where cause and effect are obvious to competent participants. The response sequence is sense-categorize-respond and best practice is appropriate.",
+    "Complicated domain": "A context where cause and effect exist but require expertise, analysis, or comparison among several good practices. The response sequence is sense-analyze-respond.",
+    "Complex domain": "A context where cause and effect can be understood only in retrospect because interactions are emergent. The response sequence is probe-sense-respond using safe-to-fail probes.",
+    "Disorder": "The central state where participants do not know which domain they are in. People tend to act from their preferred domain, creating mismatched responses.",
+    "Probe": "A bounded action designed to reveal patterns in a complex system. A probe should be safe to fail, monitored, and capable of being amplified or dampened.",
+    "Safe-to-fail": "An experiment small and diverse enough that failure is informative without being catastrophic. It contrasts with fail-safe design that assumes predictability.",
+    "Sense-making": "The act of determining what kind of situation one is in before choosing the decision logic. In Cynefin, sense-making precedes method selection."
+  },
+  "name": "Cynefin Framework",
+  "operative_procedure": [
+    "Describe the situation and decision pressure without assigning a domain yet. Include what is known, contested, urgent, and changing.",
+    "Ask how cause and effect are available: obvious now, knowable through expert analysis, knowable only in retrospect, or not perceivable in time to act.",
+    "If the context is clear, sense the facts, categorize them against established rules or best practice, and respond with standard execution while watching for complacency.",
+    "If the context is complicated, sense the data, analyze through expertise or competing models, compare good practices, and respond with a justified expert recommendation.",
+    "If the context is complex, design multiple safe-to-fail probes, specify boundaries and monitoring signals, then probe-sense-respond by amplifying beneficial patterns and dampening harmful ones.",
+    "If the context is chaotic, act first to create stability, sense what order or constraints appear, then respond to move the situation toward complex or complicated management.",
+    "If the context is disordered, break the problem into parts and classify each part separately; do not let participants impose their favored domain logic on the whole.",
+    "Check for domain movement: complacency can push clear situations over the cliff into chaos, and successful crisis action can move chaos into complex or complicated space.",
+    "Report the recommendation as a domain-specific action logic, including why rival logics would mis-handle this context."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Complex Adaptive Systems",
+      "Knowledge Management",
+      "Sensemaking"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "OODA Loop",
+      "Decision Theory",
+      "Pragmatism"
+    ],
+    "descendants": [
+      "Complexity-Informed Management",
+      "Safe-to-Fail Experimentation",
+      "Anthro-Complexity"
+    ],
+    "related": [
+      "The Map-Territory Distinction",
+      "Bayesian Epistemology",
+      "Lean Startup Build-Measure-Learn",
+      "Agile"
+    ],
+    "rivals": [
+      "SWOT Analysis",
+      "Best Practice Management",
+      "Root Cause Analysis",
+      "Waterfall Planning"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Cynefin is strongest for leadership, policy, organizational change, incident response, product discovery, and social systems where the decision method should change with causal structure. It is weaker when precise optimization is possible, when the domain classification itself becomes a political fight without evidence, or when users apply the labels ceremonially without changing action.",
+  "source_summary": "Authored from model knowledge of Dave Snowden, Mary Boone, Cynefin literature, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "David J. Snowden and Mary E. Boone, 'A Leader's Framework for Decision Making'"
+    },
+    {
+      "kind": "primary",
+      "title": "Cynthia F. Kurtz and David J. Snowden, 'The New Dynamics of Strategy: Sense-making in a Complex and Complicated World'"
+    },
+    {
+      "kind": "primary",
+      "title": "Dave Snowden, Cynefin: Weaving Sense-Making into the Fabric of Our World"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Cynefin framework (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cynefin_framework"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A group is applying one decision style to every problem even though some parts are routine, some expert, some emergent, and some crisis-driven.",
+    "Cause and effect are unclear, delayed, or only visible after action, making conventional analysis or best-practice copying suspect.",
+    "The situation may require experiments that are safe to fail rather than a single plan designed to be fail-safe.",
+    "A crisis demands immediate stabilizing action before diagnosis can be completed.",
+    "Experts disagree not just about the answer but about whether the problem is predictable, analyzable, or emergent.",
+    "A process that used to be routine is showing warning signs that standard categorization may be hiding drift toward failure."
+  ]
+}

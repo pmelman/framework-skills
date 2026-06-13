@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-13T01:50:44+00:00",
+  "canonical_examples": [
+    {
+      "analysis": "In The Goal, Alex Rogo's plant has many local efficiency measures but poor global throughput. The hike makes the constraint visible through Herbie: the whole troop's pace is governed by the slowest hiker, and letting faster hikers race ahead does not improve arrival time. The TOC move is to put Herbie near the front, subordinate the group's pace to him, lighten his backpack, and prevent work from piling up invisibly. Translated back to the plant, the bottleneck resource sets system throughput; non-bottleneck efficiency is subordinate to protecting and exploiting that bottleneck.",
+      "problem": "Goldratt's Boy Scout hike in The Goal asks why a group with many fast hikers still arrives slowly and spreads out badly."
+    },
+    {
+      "analysis": "The bottleneck machines determine plant throughput, so an hour lost there is an hour lost for the entire system. The correct procedure is to exploit the constraint by ensuring it never waits for materials, quality checks, tooling, or breaks; subordinate upstream release so excess inventory does not flood the plant; and elevate the constraint if exploitation is insufficient. Measuring every machine by local utilization is misleading because it rewards non-bottlenecks for producing inventory the constraint cannot convert into sales.",
+      "problem": "In The Goal, the NCX-10 and heat-treat operation become the plant bottlenecks, while conventional efficiency metrics push every department to stay busy."
+    }
+  ],
+  "core_claims": [
+    "Every goal-directed system has at least one constraint that limits its throughput relative to the goal at a given time.",
+    "Improving a non-constraint does not improve system performance unless it changes the capacity, protection, or load of the constraint.",
+    "The system's throughput is governed by the constraint, so local efficiency metrics can actively damage global performance.",
+    "A lost hour at the constraint is a lost hour for the whole system, while a saved hour at a non-constraint is usually only local slack.",
+    "Inventory often signals unsynchronized flow: work released faster than the constraint can process it increases operating expense without increasing throughput.",
+    "The right improvement sequence is identify, exploit, subordinate, elevate, and then repeat because the constraint moves.",
+    "Many chronic conflicts persist because policies are built around hidden assumptions that can be surfaced and challenged with TOC thinking processes."
+  ],
+  "description": "Theory of Constraints is Eliyahu M. Goldratt's management framework for improving a goal-directed system by identifying the binding constraint, exploiting it, subordinating other work to it, elevating it if needed, and repeating as the constraint moves. It emphasizes throughput, inventory, operating expense, and global rather than local optimization.",
+  "domains": [
+    "operations",
+    "management",
+    "manufacturing",
+    "strategy"
+  ],
+  "failure_modes": [
+    "Misidentifying a symptom as the constraint leads teams to optimize the loudest queue, department, or complaint rather than the true throughput limiter.",
+    "The characteristic practitioner error is elevating too early by buying capacity before fully exploiting and subordinating to the existing constraint.",
+    "TOC can underplay variability, multiple interacting constraints, market demand limits, or human constraints when users force a single-bottleneck story.",
+    "Local metrics may reassert themselves after improvement, causing non-constraints to overproduce and bury the new constraint in inventory.",
+    "The framework can become too internally focused if the real constraint is market demand, regulation, supplier reliability, or strategic positioning.",
+    "Drum-buffer-rope implementations can become rigid scheduling rituals if buffers are not adjusted from observed flow and constraint protection."
+  ],
+  "key_vocabulary": {
+    "Bottleneck": "A resource whose capacity is equal to or less than demand placed on it. In TOC, bottlenecks deserve special protection because they govern throughput.",
+    "Constraint": "The current factor that most limits the system's progress toward its goal. It may be physical, policy-based, market-based, skill-based, or managerial.",
+    "Drum-buffer-rope": "A scheduling method in which the constraint sets the drumbeat, buffers protect it from starvation, and the rope controls upstream release of work.",
+    "Elevate": "The step of increasing constraint capacity after exploitation and subordination are insufficient. It may involve investment, outsourcing, redesign, staffing, or policy change.",
+    "Exploit": "To get the most from the current constraint using existing resources, for example by preventing downtime, bad input, setup waste, or nonessential work.",
+    "Inventory": "Money tied up in things the system intends to sell or convert into throughput. Excess inventory often reflects work released beyond constraint capacity.",
+    "Operating expense": "Money spent turning inventory into throughput, including labor, overhead, and other running costs.",
+    "Subordinate": "To align non-constraints to the needs of the constraint, even if that lowers their local utilization.",
+    "Throughput": "The rate at which the system generates money through sales, or more generally the rate at which it achieves its goal."
+  },
+  "name": "Theory of Constraints",
+  "operative_procedure": [
+    "State the system goal and global performance measures. In a business, distinguish throughput, inventory, and operating expense before discussing local efficiency.",
+    "Map the flow of work, materials, decisions, or demand from input to goal achievement. Locate queues, starvation, rework, policies, and handoffs.",
+    "Identify the current constraint: the resource, policy, market, skill, or assumption that most limits throughput now. Verify it with flow data, queue behavior, and capacity relative to demand.",
+    "Exploit the constraint using current resources: keep it fed with quality input, remove nonessential work, reduce setup or downtime, prioritize its schedule, and prevent avoidable interruptions.",
+    "Subordinate everything else to the constraint. Release work at the constraint's pace, change local metrics, and allow non-constraints to have idle time when producing more would only create inventory.",
+    "Elevate the constraint only after exploitation and subordination: add capacity, outsource, redesign, change policy, hire, automate, or alter demand when the constraint still limits the goal.",
+    "Return to step one when the constraint moves. Do not let inertia, old metrics, or yesterday's bottleneck become the new constraint.",
+    "For policy or strategic constraints, use TOC thinking processes: state the core conflict, surface assumptions, test necessary conditions, and design injections that break the conflict without sacrificing the goal.",
+    "Report recommendations in global terms: expected effect on throughput, inventory, operating expense, constraint protection, and the next likely constraint."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Operations Research",
+      "Systems Thinking",
+      "Industrial Engineering"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Lean Manufacturing",
+      "Decision Theory",
+      "Root Cause Analysis"
+    ],
+    "descendants": [
+      "Drum-Buffer-Rope",
+      "Critical Chain Project Management",
+      "Throughput Accounting"
+    ],
+    "related": [
+      "First-Principles Reasoning",
+      "The Map-Territory Distinction",
+      "Queueing Theory",
+      "Lean Manufacturing"
+    ],
+    "rivals": [
+      "Cost Accounting",
+      "Local Optimization",
+      "Balanced Scorecard",
+      "Six Sigma"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Theory of Constraints is strongest for operations, manufacturing, project delivery, service queues, supply chains, and organizations where a goal-directed flow is limited by a small number of bottlenecks or policies. It is weaker where goals are plural and contested, constraints are highly distributed, demand is the main uncertainty, or improvement requires broad cultural legitimacy rather than throughput focus.",
+  "source_summary": "Authored from model knowledge of Eliyahu M. Goldratt, Theory of Constraints literature, and related named sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Eliyahu M. Goldratt and Jeff Cox, The Goal"
+    },
+    {
+      "kind": "primary",
+      "title": "Eliyahu M. Goldratt, What Is This Thing Called Theory of Constraints and How Should It Be Implemented?"
+    },
+    {
+      "kind": "primary",
+      "title": "Eliyahu M. Goldratt, Critical Chain"
+    },
+    {
+      "kind": "secondary",
+      "title": "Theory of constraints (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Theory_of_constraints"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A process is missing its overall goal even though many departments or steps report high local efficiency.",
+    "Work piles up before one resource, role, approval, machine, policy, or market channel while other parts of the system wait or overproduce.",
+    "Improvement efforts are scattered across many non-limiting steps and do not change total throughput, lead time, or delivery reliability.",
+    "Inventory, backlog, or work in progress is growing faster than completed valuable output.",
+    "A team is considering adding capacity, but it is unclear whether the investment targets the actual binding constraint.",
+    "A chronic organizational conflict appears to be maintained by policies or assumptions that protect local optima at the expense of the system goal."
+  ]
+}
