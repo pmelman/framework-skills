@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:44Z",
+  "canonical_examples": [
+    {
+      "analysis": "External criticism first establishes what the document is: a Donation allegedly issued by Constantine in the fourth century. Provenance, language, and institutional references then undermine that attribution: Lorenzo Valla noted anachronistic Latin usage and terms belonging to a later medieval context. Internal criticism asks whether the content fits the claimed author, time, and political setting; it does not. Corroboration fails because the document appears in a later papal-political milieu rather than in fourth-century imperial administration. The source-critical conclusion is not merely that the document is politically convenient, but that its language and provenance make it a forgery.",
+      "problem": "A medieval document, the Donation of Constantine, claims that Emperor Constantine granted vast temporal authority in the West to the pope. Should historians accept it as an authentic fourth-century source?"
+    },
+    {
+      "analysis": "Source criticism separates manuscript witnesses from the events they narrate. The Testimonium Flavianum appears in Josephus, but the transmitted text contains explicitly Christian claims unlikely to have been written by a first-century Jewish historian. External attestation and manuscript tradition show the passage is ancient in some form, while internal criticism flags phrases such as declaring Jesus the Christ as suspect. The best source-critical judgment is partial authenticity or interpolation: Josephus likely mentioned Jesus, but Christian transmission probably modified the wording. The conclusion remains graded rather than binary because provenance, bias, and corroboration point in different strengths.",
+      "problem": "Josephus's Antiquities of the Jews contains the Testimonium Flavianum, a passage about Jesus that includes Christian-sounding affirmations. How should historians treat the passage as evidence?"
+    }
+  ],
+  "core_claims": [
+    "A source's evidential value depends on its provenance, transmission history, and relation to the event, not simply on what it asserts.",
+    "Authenticity and credibility are separate questions: a document can be genuine yet unreliable, or forged yet informative about the forger's context.",
+    "Independent corroboration is stronger than agreement among sources that share a common origin, genre convention, or political interest.",
+    "Every source has a standpoint; bias is diagnosed by reconstructing audience, purpose, incentives, and constraints rather than by dismissing hostile or partisan evidence outright.",
+    "Anachronism, linguistic mismatch, and impossible institutional details can defeat a source's claimed date or authorship.",
+    "Silence is evidence only when the source would probably have mentioned the fact if it were true.",
+    "The most reliable historical claims are graded conclusions produced by converging imperfect sources, not by a single authoritative testimony."
+  ],
+  "description": "Source Criticism is the historiographical discipline of evaluating documents, testimony, artifacts, and traditions by testing provenance, authenticity, bias, proximity, transmission, and corroboration. It treats sources as evidence produced under specific conditions rather than as transparent reports of the past.",
+  "domains": [
+    "history",
+    "historiography",
+    "journalism",
+    "legal-evidence"
+  ],
+  "failure_modes": [
+    "Hypercriticism: demanding impossible certainty from hostile or ancient sources until almost no historical claim can survive.",
+    "Naive debunking: treating evidence of bias as evidence of falsehood rather than as a feature to model when weighing testimony.",
+    "Circular corroboration: counting derivative accounts as independent witnesses because their shared source or textual dependence was not traced.",
+    "Presentist plausibility tests: rejecting claims because they feel strange to modern readers rather than because they fail contextual controls.",
+    "Forgery tunnel vision: focusing only on authenticity can miss what an inauthentic source reveals about the period that produced or used it."
+  ],
+  "key_vocabulary": {
+    "Anachronism": "A detail that belongs to a later or earlier period than the source claims; it is often a strong clue of misdating, interpolation, or forgery.",
+    "Corroboration": "Support from another source, strongest when the sources are independent and differently biased.",
+    "External criticism": "Tests of a source's material form, date, authorship, provenance, manuscript family, and authenticity before interpreting its claims.",
+    "Internal criticism": "Evaluation of the source's content: consistency, plausibility, authorial competence, purpose, genre, and relation to known context.",
+    "Interpolation": "A later addition inserted into an older text during copying, editing, or transmission.",
+    "Provenance": "The chain of origin, custody, copying, ownership, and discovery that connects the present source to its alleged time and author.",
+    "Source dependence": "A relationship in which one source borrows from or is shaped by another, reducing the evidential value of agreement between them.",
+    "Tendency": "The directional bias or agenda of a source, inferred from its author's position, audience, purpose, and rhetorical choices."
+  },
+  "name": "Source Criticism",
+  "operative_procedure": [
+    "Identify the claim and source set. State the historical proposition at issue and list every document, testimony, artifact, or tradition being used as evidence.",
+    "Perform external criticism. Establish each source's date, authorship, material form, provenance, manuscript or transmission history, and whether authenticity is disputed.",
+    "Classify proximity. For each source, determine whether it is eyewitness, contemporary hearsay, later compilation, official record, polemic, memory, or tradition.",
+    "Analyze tendency and competence. Reconstruct the author's audience, purpose, incentives, access to information, technical competence, and pressures to distort or omit.",
+    "Run internal checks. Look for anachronisms, contradictions, genre conventions, rhetorical formulas, implausible details, and claims the source could not have known.",
+    "Test independence. Map dependence among sources so that repeated claims from a common origin are not counted as multiple witnesses.",
+    "Seek corroboration and controlled disagreement. Compare differently situated sources, including hostile witnesses and non-textual evidence, and ask whether disagreements reveal perspective or error.",
+    "Weigh silence. Treat absence of mention as evidence only if the source was positioned and motivated to mention the fact had it occurred.",
+    "State a graded conclusion. Report what is authentic, what is credible, what remains uncertain, and how strongly the sources support each subclaim."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Philology",
+      "Textual Criticism",
+      "Rankean Historiography"
+    ],
+    "composes_with": [
+      "Hermeneutics",
+      "Bayesian Epistemology",
+      "Inference to the Best Explanation",
+      "Argumentation Theory"
+    ],
+    "descendants": [
+      "Historical-Critical Method",
+      "Forensic Document Examination",
+      "Open-Source Intelligence Analysis"
+    ],
+    "related": [
+      "Evidentialism",
+      "Falsificationism",
+      "Coherentism",
+      "Reliabilism"
+    ],
+    "rivals": [
+      "Naive Empiricism",
+      "Postmodern Skepticism",
+      "Oral Traditionism",
+      "Verificationism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Source Criticism is strongest when claims depend on documents, testimony, inscriptions, artifacts, or mediated reports whose origin and reliability can be investigated. It is weaker where evidence is scarce, purely statistical, experimentally manipulable, or where power has destroyed most traces. It does not remove judgment; it disciplines judgment by making provenance, bias, and corroboration explicit.",
+  "source_summary": "Authored from model knowledge of historiographical source criticism, textual criticism, and standard historical-critical examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Lorenzo Valla, Discourse on the Forgery of the Alleged Donation of Constantine"
+    },
+    {
+      "kind": "secondary",
+      "title": "Martha Howell and Walter Prevenier, From Reliable Sources: An Introduction to Historical Methods"
+    },
+    {
+      "kind": "secondary",
+      "title": "C. Behan McCullagh, Justifying Historical Descriptions"
+    },
+    {
+      "kind": "secondary",
+      "title": "Gilbert J. Garraghan, A Guide to Historical Method"
+    },
+    {
+      "kind": "primary",
+      "title": "Flavius Josephus, Antiquities of the Jews"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need to decide whether a document, testimony, artifact, or report should be trusted as evidence",
+    "multiple accounts of an event conflict, agree suspiciously, or may derive from a shared source",
+    "the source may be forged, interpolated, misdated, mistranslated, biased, or shaped by genre conventions",
+    "a historical claim depends on silence, omission, hostile testimony, or a source with obvious political interests",
+    "you must separate what a source proves about the event from what it proves about the person or community that produced it"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Nonviolent Communication",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Nonviolent Communication is Marshall Rosenberg's framework for transforming conflict and self-expression by distinguishing observations, feelings, needs, and requests, and by hearing blame or judgment as attempts to express unmet human needs.",
+  "domains": [
+    "communication",
+    "conflict-resolution",
+    "psychology",
+    "ethics"
+  ],
+  "when_to_use": [
+    "a conversation is escalating through blame, diagnosis, moral judgment, or defensive counterattack",
+    "people are arguing about who is right while the needs driving the conflict remain unnamed",
+    "someone needs to make a clear request without turning it into a demand, threat, or guilt trip",
+    "a group needs to repair trust after harm while preserving accountability and human dignity",
+    "you need to translate anger, criticism, or self-judgment into information about unmet needs"
+  ],
+  "core_claims": [
+    "Moralistic judgments, diagnoses, and blame obscure the needs that actually motivate speech and action.",
+    "Feelings are caused by met or unmet needs, not directly by another person's behavior.",
+    "Requests are more likely to invite cooperation when they are concrete, present, positive, and freely refusible.",
+    "Empathy in NVC means attending to observations, feelings, needs, and requests rather than agreeing, advising, consoling, interrogating, or correcting.",
+    "Anger can be fully expressed without blame by identifying the judgment, locating the unmet need beneath it, and making a request.",
+    "A demand is revealed by the speaker's response to refusal; punishment, guilt, or withdrawal converts apparent request language into coercion."
+  ],
+  "key_vocabulary": {
+    "Observation": "A description of what was seen, heard, or otherwise concretely noticed, separated from evaluation or interpretation.",
+    "Feeling": "An emotion or bodily state such as hurt, scared, relieved, or frustrated. NVC distinguishes feelings from thoughts disguised as feelings, such as 'ignored' or 'betrayed.'",
+    "Need": "A universal human value or life-serving requirement such as safety, autonomy, respect, rest, contribution, or connection. Needs are distinct from strategies for satisfying them.",
+    "Request": "A clear, doable action asked of someone in the present or near future. It differs from a demand because the other person's no is allowed.",
+    "Empathy": "Full attention to another person's experience through the lens of feelings and needs, without immediately fixing, judging, or explaining.",
+    "Jackal Language": "Rosenberg's term for blameful, judging, coercive, or domination-oriented speech patterns that alienate people from their own and others' needs.",
+    "Giraffe Language": "Rosenberg's symbol for NVC speech: large-hearted, needs-aware, and oriented toward connection and voluntary cooperation.",
+    "Protective Use of Force": "Use of force solely to prevent injury or injustice, without punishment, blame, or moral condemnation as its purpose."
+  },
+  "operative_procedure": [
+    "Pause the reactive story. Identify blame, diagnosis, should-statements, or self-judgment as signals that needs are being expressed indirectly.",
+    "State observations without evaluation. Describe the specific behavior, words, time, and context that triggered the reaction, avoiding labels and global claims.",
+    "Name feelings accurately. Separate actual emotions from interpretations about the other person's motives, character, or attitude.",
+    "Connect feelings to needs. Ask what need, value, longing, or concern is met or unmet; keep needs distinct from preferred strategies or demands on a specific person.",
+    "Make a concrete request. Ask for a positive, specific, doable action, and check whether the other person hears it as a request rather than an obligation.",
+    "Receive the other person's message empathically. Translate criticism, silence, anger, or refusal into possible observations, feelings, needs, and requests before responding to content.",
+    "Handle no as information. If the request is refused, empathize with the need behind the no and search for alternative strategies that could meet both parties' needs.",
+    "If anger is present, express it fully in NVC form: identify the judgment, locate the unmet need beneath it, disclose the feeling and need, and make a request without blame."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Rosenberg repeatedly uses a household example in which a parent reacts to a son's socks left in the living room.",
+      "analysis": "A jackal version says the child is lazy or inconsiderate, which invites defense. NVC reformulates the message as observation, feeling, need, and request: the parent names the socks on the floor, the irritation or discouragement, the need for order or shared responsibility, and a concrete request that the socks be put in the room or laundry. The change is not cosmetic; it removes character judgment and gives the child a doable action connected to an explicit need."
+    },
+    {
+      "problem": "In Nonviolent Communication, Rosenberg discusses mediating conflicts where one party hears the other as insulting, for example a person saying something like 'You are the most arrogant person I have ever met.'",
+      "analysis": "NVC does not answer the insult as a factual claim about character. It hears the statement as a tragic expression of unmet needs and guesses feelings and needs beneath it: perhaps the speaker feels hurt or frustrated because they need respect, consideration, or to be heard. The mediator then helps convert the accusation into a request, such as asking for uninterrupted time, acknowledgment, or a specific change in behavior."
+    }
+  ],
+  "failure_modes": [
+    "Formula without empathy: mechanically reciting observation-feeling-need-request can sound manipulative or patronizing when the speaker is not actually curious about the other person's needs.",
+    "Emotional bypassing: practitioners can translate anger into needs too quickly and skip accountability, consequences, or material repair after harm.",
+    "False symmetry under domination: in abuse, coercion, or severe power imbalance, focusing on mutual needs can obscure safety, rights, and enforcement requirements.",
+    "Request-demand confusion: using soft language while punishing refusal is a characteristic NVC failure because it hides coercion under empathic wording.",
+    "Vocabulary policing: correcting others' feeling words or need labels can reproduce the very domination and judgment the framework is meant to reduce."
+  ],
+  "scope_and_limits": "Nonviolent Communication is strongest for interpersonal conflict, facilitation, mediation, parenting, team communication, and self-empathy when parties can safely speak and listen. It is weaker as a standalone response to abuse, legal disputes, institutional coercion, or conflicts requiring binding decisions. It can support accountability but should not replace investigation, boundary-setting, or protective action where those are needed.",
+  "source_texts": [
+    {
+      "title": "Marshall B. Rosenberg, Nonviolent Communication: A Language of Life",
+      "kind": "primary"
+    },
+    {
+      "title": "Marshall B. Rosenberg, Speak Peace in a World of Conflict",
+      "kind": "primary"
+    },
+    {
+      "title": "Marshall B. Rosenberg, The Surprising Purpose of Anger",
+      "kind": "primary"
+    },
+    {
+      "title": "Center for Nonviolent Communication, NVC Instruction Guide",
+      "url": "https://www.cnvc.org/learn-nvc",
+      "kind": "secondary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Care Ethics",
+      "Speech Act Theory",
+      "Principle of Charity",
+      "Argumentation Theory"
+    ],
+    "ancestors": [
+      "Person-Centered Therapy",
+      "Ahimsa",
+      "Humanistic Psychology"
+    ],
+    "descendants": [
+      "Restorative Circles",
+      "Empathic Mediation",
+      "Needs-Based Coaching"
+    ],
+    "rivals": [
+      "Assertiveness Training",
+      "Retributive Justice",
+      "Adversarial Negotiation",
+      "Fallacy Analysis"
+    ],
+    "composes_with": [
+      "Principled Negotiation",
+      "Care Ethics",
+      "Steel-manning",
+      "Reflective Equilibrium"
+    ]
+  },
+  "built_at": "2026-06-29T03:40:06Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Rosenberg's Nonviolent Communication texts and Center for Nonviolent Communication materials, without fetched source text."
+}

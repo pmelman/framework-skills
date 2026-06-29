@@ -1,0 +1,117 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:44Z",
+  "canonical_examples": [
+    {
+      "analysis": "Suzuki treats Zen practice itself as the standard case: the practitioner who thinks they already know zazen has narrowed the possibilities of practice, while the beginner's mind remains open to direct sitting, posture, breath, and immediate experience. The analysis brackets claims of attainment and returns to the concrete act of practice. The expert move is not to add more conceptual explanation but to meet the sitting as if for the first time, because the fresh mind can notice attachment, dullness, and self-importance that expertise conceals.",
+      "problem": "In Zen Mind, Beginner's Mind, Shunryu Suzuki warns that 'in the beginner's mind there are many possibilities, but in the expert's there are few.' How should a Zen student approach zazen after years of practice?"
+    },
+    {
+      "analysis": "In the tea tradition associated with Sen no Rikyu, mastery is expressed through simple acts: make a satisfying bowl of tea, lay charcoal so water boils, arrange flowers as they are in the field, and attend to season and guest. Shoshin reads this as a discipline against performance-minded expertise. The host returns to direct, humble attention: this guest, this weather, this utensil, this moment. The result is not amateurism but expert freshness, where knowledge serves presence instead of hardening into display.",
+      "problem": "Sen no Rikyu's tea teaching reduces mastery to apparently simple instructions about water, charcoal, flowers, seasonality, and care for the guest. How should an accomplished host understand that simplicity?"
+    }
+  ],
+  "core_claims": [
+    "Expertise becomes dangerous when it turns prior competence into fixed perception; the trained person stops seeing what does not fit the old pattern.",
+    "A beginner's mind is not ignorance but disciplined openness: the capacity to meet a familiar situation without premature closure.",
+    "Practice must repeatedly return to direct experience before conceptual explanation, because concepts easily become substitutes for contact with the thing itself.",
+    "True mastery preserves teachability; a person who cannot be instructed by a novice, a mistake, or a mundane detail has begun to lose the way.",
+    "Fresh attention expands the field of possible action, while the self-image of expertise contracts it.",
+    "The ordinary form of practice is the test of insight: posture, breath, tea, bowing, cleaning, or craft reveal whether openness is embodied.",
+    "Letting go of achievement-mind is a practical condition for learning because the desire to confirm status blocks perception of what is actually occurring."
+  ],
+  "description": "Shoshin is the Zen discipline of beginner's mind: retaining openness, eagerness, humility, and direct attention even after acquiring expertise. It asks the practitioner to loosen preconceptions and status-protecting habits so familiar situations can be encountered freshly.",
+  "domains": [
+    "zen-buddhism",
+    "learning",
+    "practice",
+    "creativity"
+  ],
+  "failure_modes": [
+    "Performative innocence: pretending not to know in a way that evades responsibility for hard-earned knowledge or professional duty.",
+    "Anti-expertise drift: confusing beginner's mind with contempt for skill, lineage, evidence, or disciplined practice.",
+    "Aestheticizing humility: adopting the language of openness as a self-image while remaining unwilling to be corrected.",
+    "Endless reset: repeatedly returning to basics can become avoidance of commitment, depth, or consequential action.",
+    "Naive receptivity: openness without discernment can make the practitioner vulnerable to manipulation, poor teaching, or false equivalence."
+  ],
+  "key_vocabulary": {
+    "Beginner's mind": "A fresh, open, and teachable stance toward the present situation, especially when the practitioner already has skill.",
+    "Direct experience": "Immediate contact with what is happening before it is filtered through explanation, status, or habitual category.",
+    "Don't-know mind": "A related Zen stance of releasing premature certainty so perception and response can arise from the situation.",
+    "Expert's mind": "The narrowed stance in which prior knowledge, rank, or self-image limits what can be noticed or learned.",
+    "Non-attachment": "Letting go of fixation on outcomes, identity, concepts, or achievement so practice can be responsive.",
+    "Practice-realization": "The Zen view that practice is not merely a means to later insight; the way one practices already manifests understanding.",
+    "Zazen": "Seated meditation; in Soto Zen it is the central embodied practice in which beginner's mind is cultivated and tested."
+  },
+  "name": "Shoshin",
+  "operative_procedure": [
+    "Name the expertise trap. Identify what the practitioner already believes they know, what status is being protected, and which familiar categories may be closing perception.",
+    "Return to the immediate form. Attend to the concrete act, person, tool, breath, posture, material, or question before explaining it.",
+    "Suspend the first interpretation. Hold the expert diagnosis lightly and ask what would be visible if this were the first encounter.",
+    "Let the ordinary teach. Examine basic details, repetitions, mistakes, and novice questions as legitimate sources of instruction.",
+    "Drop achievement-mind. Notice the desire to be right, impressive, efficient, or finished; set it aside long enough to encounter the situation freshly.",
+    "Ask beginner questions. Use simple questions that reopen possibilities: What is this? What am I assuming? What have I stopped noticing? What is actually needed now?",
+    "Act with trained simplicity. Bring skill to bear without display, choosing the response that fits this moment rather than the response that confirms expertise.",
+    "Resume practice. Treat the outcome as further instruction, returning again to direct experience rather than claiming final mastery."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Zen Buddhism",
+      "Soto Zen",
+      "Chan Buddhism"
+    ],
+    "composes_with": [
+      "Deliberate Practice",
+      "Socratic Method",
+      "Mindfulness",
+      "OODA Loop"
+    ],
+    "descendants": [
+      "Zen Mind Beginner's Mind",
+      "Design Thinking Empathy Practices",
+      "Mindfulness-Based Learning"
+    ],
+    "related": [
+      "Wu Wei",
+      "The Middle Way",
+      "Ordinary Language Philosophy",
+      "Double-Loop Learning"
+    ],
+    "rivals": [
+      "Expert Intuition",
+      "First-Principles Reasoning",
+      "Scientific Management",
+      "Credentialism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Shoshin is strongest for learning, creative work, spiritual practice, coaching, diagnosis, craft, and any setting where expertise has hardened into premature certainty. It is not a substitute for evidence, technical competence, ethics, or institutional accountability. Its openness must be paired with discernment when decisions have safety, legal, or medical consequences.",
+  "source_summary": "Authored from model knowledge of Zen teachings on beginner's mind, Shunryu Suzuki, and Japanese tea practice, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Shunryu Suzuki, Zen Mind, Beginner's Mind"
+    },
+    {
+      "kind": "primary",
+      "title": "Dogen, Shobogenzo"
+    },
+    {
+      "kind": "secondary",
+      "title": "Okakura Kakuzo, The Book of Tea"
+    },
+    {
+      "kind": "secondary",
+      "title": "D. T. Suzuki, An Introduction to Zen Buddhism"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "expertise, routine, or professional identity may be causing premature closure in a familiar situation",
+    "a team keeps applying a known pattern even though the present case is subtly different",
+    "learning has stalled because the practitioner is more invested in looking competent than in being corrected",
+    "a creative or diagnostic task requires fresh attention to ordinary details that have become invisible",
+    "a practice, craft, or relationship has become mechanical and needs renewed direct contact rather than more theory"
+  ]
+}

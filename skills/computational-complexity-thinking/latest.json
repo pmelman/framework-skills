@@ -1,0 +1,126 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:09Z",
+  "canonical_examples": [
+    {
+      "analysis": "The task asks whether there exists a tour shorter than a bound, so it belongs to NP: a proposed tour can be verified in polynomial time by summing its edge lengths. Karp's NP-completeness result places the decision version among problems at least as hard as every problem in NP under polynomial reductions. Complexity thinking therefore does not begin by searching for a universal exact fast algorithm; it asks whether the instance size and structure justify exact search, dynamic programming, approximation, heuristics, or special-case restrictions such as metric TSP.",
+      "problem": "The traveling salesman problem asks whether a route visiting each city once and returning to the start can be shorter than a specified length."
+    },
+    {
+      "analysis": "Boolean satisfiability asks whether any assignment of truth values makes a formula true. Cook's theorem showed SAT is NP-complete: every problem whose solutions can be checked in polynomial time can be encoded as a SAT instance with only polynomial overhead. The framework treats SAT as a hardness hub. A new combinatorial problem can be classified by reducing SAT to it, and practical solvers succeed not by refuting worst-case hardness but by exploiting structure in real instances.",
+      "problem": "Given a Boolean formula, determine whether there is an assignment of variables that satisfies it."
+    }
+  ],
+  "core_claims": [
+    "The feasibility of a computational approach is governed primarily by how resource requirements scale with input size, not by whether small demonstrations run quickly.",
+    "Polynomial-time algorithms mark a broad boundary of tractability, while exponential or factorial growth usually becomes unusable under modest increases in input size.",
+    "NP-completeness is evidence that a general exact polynomial-time algorithm is unlikely; it redirects effort toward reductions, approximation, parameterization, heuristics, or exploiting structure.",
+    "Worst-case complexity can be decisive for guarantees even when average or typical instances are easier.",
+    "A problem's representation can change its apparent difficulty; pseudo-polynomial algorithms and succinct encodings show that numeric magnitude and input length must be separated.",
+    "Hardness is often transferable: a reduction from a known hard problem is a rigorous warning that the new problem inherits the old problem's difficulty.",
+    "Randomization, approximation, and fixed-parameter methods do not abolish hardness; they trade exactness, certainty, or unrestricted generality for tractability."
+  ],
+  "description": "Computational Complexity Thinking analyzes problems by classifying how required time, space, randomness, communication, or other resources grow with input size, using hardness classes and reductions to decide whether exact solutions are tractable or whether approximation, heuristics, restrictions, or reformulation are needed.",
+  "domains": [
+    "computer-science",
+    "algorithms",
+    "optimization",
+    "decision-making",
+    "operations-research"
+  ],
+  "failure_modes": [
+    "Worst-case absolutism: dismissing a practical approach because the general problem is hard, even though the actual instance distribution has exploitable structure.",
+    "Asymptotic blindness to constants: choosing a theoretically superior algorithm whose overhead makes it worse at the relevant input sizes.",
+    "Misclassifying the question: applying NP-completeness to an optimization, search, counting, online, or approximation problem without specifying the exact decision version and encoding.",
+    "Ignoring data movement and memory: focusing on time complexity while space, cache behavior, communication, or I/O dominate real performance.",
+    "Complexity theater: invoking P, NP, or exponential growth rhetorically without a reduction, bound, input model, or explicit resource measure."
+  ],
+  "key_vocabulary": {
+    "Approximation algorithm": "An algorithm that runs efficiently while guaranteeing a solution within a stated factor of optimal, used when exact optimization is hard.",
+    "Asymptotic analysis": "The study of how resource use grows as input size increases, typically abstracting away constants and lower-order terms.",
+    "Combinatorial explosion": "Rapid growth in the number of possible configurations, often exponential or factorial, that makes exhaustive search infeasible.",
+    "NP": "The class of decision problems whose yes-instances have certificates verifiable in polynomial time.",
+    "NP-complete": "A problem is NP-complete when it is in NP and every problem in NP can be reduced to it in polynomial time.",
+    "NP-hard": "A problem is at least as hard as every problem in NP, even if it is not itself a decision problem or not known to be in NP.",
+    "Polynomial time": "Resource use bounded by a polynomial in input length; a conventional marker of tractability in complexity theory.",
+    "Reduction": "A transformation from one problem to another that preserves solutions and transfers algorithmic possibility or hardness.",
+    "Tractability": "Practical or theoretical solvability under specified resource bounds, usually relative to input size and required guarantees.",
+    "Worst-case complexity": "The maximum resource use over all inputs of a given size, used to provide guarantees and identify hard instances."
+  },
+  "name": "Computational Complexity Thinking",
+  "operative_procedure": [
+    "Specify the computational problem precisely. Distinguish decision, search, optimization, counting, online, and promise versions, and define the input encoding.",
+    "Choose the resource measure. State whether time, space, randomness, communication, approximation quality, or parallelism is the binding constraint.",
+    "Estimate scaling. Identify the input-size parameter and compare candidate approaches by asymptotic growth as well as constants relevant to the actual scale.",
+    "Classify the problem. Look for membership in known classes such as P, NP, co-NP, PSPACE, BPP, or fixed-parameter tractable families.",
+    "Use reductions. Reduce the problem to a known tractable problem to get an algorithm, or reduce a known hard problem to it to diagnose likely intractability.",
+    "Search for exploitable structure. Check whether constraints such as planarity, bounded treewidth, metric distances, sparsity, convexity, small parameters, or real-world distributions change the tractability picture.",
+    "Select the tractability tradeoff. Choose among exact algorithms, dynamic programming, branch-and-bound, approximation, randomized algorithms, parameterized algorithms, heuristics, or reformulation.",
+    "Report guarantees and breakpoints. State what is proven, what is empirical, where scaling fails, and which increases in input size or constraint relaxation would change the recommendation."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Computability Theory",
+      "Automata Theory",
+      "Algorithm Analysis"
+    ],
+    "composes_with": [
+      "Monte Carlo Thinking",
+      "Decision Analysis",
+      "Fermi Estimation",
+      "Theory of Constraints"
+    ],
+    "descendants": [
+      "Parameterized Complexity",
+      "Approximation Algorithms",
+      "Average-Case Complexity",
+      "Cryptographic Hardness"
+    ],
+    "related": [
+      "Information Theory Thinking",
+      "Queueing Theory Thinking",
+      "Optimization Thinking",
+      "Bounded Rationality"
+    ],
+    "rivals": [
+      "First Principles Reasoning",
+      "Brute Force Search",
+      "Satisficing",
+      "Empirical Benchmarking"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Computational Complexity Thinking is strongest for algorithmic, optimization, scheduling, search, verification, and planning problems where input size and guarantees matter. It is weaker when the problem is underspecified, human-institutional, or dominated by measurement error, and it can mislead if worst-case classes are treated as direct predictions of practical runtime.",
+  "source_summary": "Authored from model knowledge of Cook, Karp, Garey and Johnson, Sipser, Arora and Barak, and standard complexity-theory examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Stephen A. Cook, 'The Complexity of Theorem-Proving Procedures' (1971)"
+    },
+    {
+      "kind": "primary",
+      "title": "Richard M. Karp, 'Reducibility Among Combinatorial Problems' (1972)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Michael R. Garey and David S. Johnson, Computers and Intractability: A Guide to the Theory of NP-Completeness (1979)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Michael Sipser, Introduction to the Theory of Computation"
+    },
+    {
+      "kind": "secondary",
+      "title": "Sanjeev Arora and Boaz Barak, Computational Complexity: A Modern Approach"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a proposed solution works on small cases but may fail as input size, choices, constraints, or combinations grow",
+    "you need to know whether an exact algorithm is likely tractable before investing in implementation",
+    "a scheduling, routing, allocation, verification, planning, or search problem appears to involve combinatorial explosion",
+    "you must choose between exactness, approximation, randomness, heuristics, restricted cases, or reformulating the problem",
+    "a team is arguing from benchmarks alone without explaining scaling, guarantees, or worst-case behavior"
+  ]
+}

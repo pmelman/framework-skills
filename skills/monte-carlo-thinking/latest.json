@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:09Z",
+  "canonical_examples": [
+    {
+      "analysis": "Ulam's solitaire question was difficult to solve analytically because the branching possibilities were numerous. Monte Carlo thinking turns the problem into repeated random trials: simulate many games under specified rules, record wins and losses, and estimate the win probability from the empirical distribution. The answer is not a single deterministic derivation but a distributional estimate with sampling error that can be reduced by more trials or variance-reduction techniques.",
+      "problem": "Stanislaw Ulam wondered about the probability of winning a solitaire game and found direct combinatorial calculation impractical."
+    },
+    {
+      "analysis": "Neutron diffusion in fissile material involves many random paths, collisions, absorptions, and scatterings that make closed-form calculation difficult. The Los Alamos Monte Carlo method samples many possible neutron histories according to the physical probability laws, aggregates the outcomes, and estimates quantities such as multiplication factors or leakage probabilities. Uncertainty is propagated through the simulation rather than collapsed into a single representative path.",
+      "problem": "Manhattan Project physicists needed to estimate neutron transport behavior in complex nuclear systems."
+    }
+  ],
+  "core_claims": [
+    "For uncertain systems, a distribution of outcomes is often more decision-relevant than a point estimate.",
+    "Random sampling can approximate integrals, probabilities, and propagated uncertainty that are analytically intractable.",
+    "Input uncertainty should be represented as probability distributions with dependence structure, not as best-case/base-case/worst-case decoration around a single forecast.",
+    "The law of large numbers makes simulation estimates converge, but finite runs require explicit sampling-error reporting.",
+    "Nonlinear models transform uncertainty asymmetrically, so the mean of outputs need not equal the output at mean inputs.",
+    "Tail outcomes, threshold crossings, and probability of ruin can be estimated directly from simulated outcome distributions.",
+    "Simulation quality is bounded by model structure and input assumptions; more iterations reduce sampling error but do not fix a wrong model."
+  ],
+  "description": "Monte Carlo Thinking uses repeated random sampling to simulate distributions of possible outcomes, propagate uncertainty through models, and estimate probabilities, risks, expectations, and tail events when analytic solutions or point estimates are inadequate.",
+  "domains": [
+    "probability",
+    "risk-analysis",
+    "statistics",
+    "operations-research",
+    "decision-making"
+  ],
+  "failure_modes": [
+    "Precision theater: running many iterations and reporting narrow numbers while the input distributions or model structure are speculative.",
+    "Independence error: sampling variables independently when real-world correlations create joint tail risks.",
+    "Distribution laundering: choosing convenient normal or triangular inputs that hide skew, fat tails, truncation, or structural breaks.",
+    "Ignoring convergence: treating a small simulation as stable without checking Monte Carlo error, sensitivity, or repeatability across seeds.",
+    "Black-box simulation: using simulation output as authority without inspecting causal structure, units, constraints, and impossible sampled states."
+  ],
+  "key_vocabulary": {
+    "Confidence interval": "An interval describing sampling uncertainty around an estimated simulation statistic, such as a mean or percentile.",
+    "Correlation structure": "The dependence pattern among uncertain inputs; it determines whether risks diversify or compound in simulation.",
+    "Input distribution": "A probability distribution assigned to an uncertain model input rather than a single value.",
+    "Iteration": "One sampled run of the model, drawing values from input distributions and computing an outcome.",
+    "Law of large numbers": "The principle that sample averages converge toward expected values as the number of independent trials grows.",
+    "Monte Carlo error": "The residual sampling error caused by using a finite number of simulation runs.",
+    "Output distribution": "The simulated distribution of model results, used to evaluate means, percentiles, thresholds, and tail risks.",
+    "Sensitivity analysis": "A check of how conclusions change when input distributions, correlations, assumptions, or model structures are varied.",
+    "Variance reduction": "Techniques such as antithetic variates, control variates, or stratified sampling that improve estimate precision for a given number of runs."
+  },
+  "name": "Monte Carlo Thinking",
+  "operative_procedure": [
+    "Define the decision quantity. State the output distribution, probability, expectation, percentile, or threshold-crossing risk that matters.",
+    "Build the model. Express how uncertain inputs combine to produce outcomes, including nonlinearities, constraints, units, and causal relationships.",
+    "Assign input distributions. Replace point estimates with distributions grounded in data, expert judgment, or calibrated ranges, and document their rationale.",
+    "Specify dependencies. Encode correlations, common shocks, conditional relationships, or scenario regimes so joint outcomes are plausible.",
+    "Run random trials. Sample inputs, compute outputs, and repeat enough times to estimate the target quantities with acceptable Monte Carlo error.",
+    "Inspect the output distribution. Report mean, median, percentiles, tail probabilities, probability of loss or ruin, and threshold exceedance rather than only a single expected value.",
+    "Test convergence and sensitivity. Vary seeds, run counts, input distributions, dependence assumptions, and model structure to see which conclusions are robust.",
+    "Translate to a decision. Compare alternatives by expected value, downside risk, upside option value, robustness, and the user's risk tolerance."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Probability Theory",
+      "Statistical Sampling",
+      "Bayesian Epistemology"
+    ],
+    "composes_with": [
+      "Decision Analysis",
+      "Expected Value Reasoning",
+      "Risk Analysis",
+      "Explore-Exploit Tradeoff"
+    ],
+    "descendants": [
+      "Markov Chain Monte Carlo",
+      "Sequential Monte Carlo",
+      "Monte Carlo Tree Search"
+    ],
+    "related": [
+      "Bayesian Epistemology",
+      "Scenario Planning",
+      "Robust Decision Making",
+      "Fermi Estimation"
+    ],
+    "rivals": [
+      "Deterministic Forecasting",
+      "Point Estimate Planning",
+      "Closed-Form Analytical Modeling",
+      "Minimax Regret"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Monte Carlo Thinking is strongest when uncertainty can be parameterized and propagated through a model, especially for nonlinear systems, risk analysis, finance, project planning, physics, and operations. It is limited by model validity, distribution choice, dependence assumptions, data quality, and computational cost; simulation is not a substitute for causal understanding or empirical validation.",
+  "source_summary": "Authored from model knowledge of Metropolis and Ulam, Los Alamos Monte Carlo origins, Hammersley and Handscomb, Rubinstein and Kroese, and standard simulation practice, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Nicholas Metropolis and S. Ulam, 'The Monte Carlo Method' (1949)"
+    },
+    {
+      "kind": "secondary",
+      "title": "J. M. Hammersley and D. C. Handscomb, Monte Carlo Methods (1964)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Reuven Y. Rubinstein and Dirk P. Kroese, Simulation and the Monte Carlo Method"
+    },
+    {
+      "kind": "secondary",
+      "title": "William L. Dunn and J. Kenneth Shultis, Exploring Monte Carlo Methods"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a decision depends on a range of uncertain inputs whose combined effect is hard to calculate analytically",
+    "point estimates are hiding tail risk, threshold-crossing probabilities, or asymmetric upside and downside outcomes",
+    "a nonlinear model may turn ordinary input uncertainty into skewed or fat-tailed output uncertainty",
+    "stakeholders are debating best-case, base-case, and worst-case scenarios without knowing how likely each is",
+    "you need to propagate uncertainty through a budget, schedule, portfolio, physical model, or operational process"
+  ]
+}

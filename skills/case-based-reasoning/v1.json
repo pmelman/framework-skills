@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:44Z",
+  "canonical_examples": [
+    {
+      "analysis": "A case-based analysis treats Donoghue as the precedent case and asks whether MacPherson is materially similar. Both involve a consumer injured by a product made by a remote manufacturer, with no direct contract between them, and both concern a product whose hidden defect could foreseeably cause bodily harm if negligently made. The older privity rule can be distinguished because the operative similarity is not contractual relation but foreseeable danger from negligent manufacture. The holding should extend MacPherson's duty principle to food and drink: the manufacturer owes a duty of care to the ultimate consumer when the product is intended to reach that consumer without intermediate inspection.",
+      "problem": "In Donoghue v Stevenson, a consumer became ill after allegedly finding a decomposed snail in a bottle of ginger beer bought for her by a friend. Could she sue the manufacturer despite lacking a contract with it, given MacPherson v Buick Motor Co.'s earlier automobile precedent?"
+    },
+    {
+      "analysis": "The operative precedent is Riggs v Palmer, where the court refused to let a murderer inherit under a will because no one should profit from their own wrong. Henningsen presents the same justificatory pattern at a higher level of abstraction: a formally valid private law instrument would produce a result that defeats the law's background purposes and public policy. The case is distinguishable from ordinary freedom-of-contract precedents because the standardized warranty was imposed by a mass seller on a consumer with no real bargaining power. The precedent-driven result is to refuse enforcement of the disclaimer and let implied warranty liability reach the injured buyer.",
+      "problem": "In Henningsen v Bloomfield Motors, a car buyer was injured after a steering failure, but the standard form contract purported to disclaim most warranty liability. Should the court enforce the disclaimer?"
+    }
+  ],
+  "core_claims": [
+    "A present problem is best understood by comparing it to a stored library of prior cases rather than by deriving a rule from first principles.",
+    "The force of a precedent depends on the material similarities and differences between cases, not on superficial resemblance or shared labels.",
+    "A new case can be resolved by adapting the outcome of the most analogous prior case unless a principled distinction explains why the old result should not travel.",
+    "Reasoning by cases preserves continuity while allowing incremental change because each decision reclassifies which features count as material for later problems.",
+    "Competing analogies are evaluated by the purposes, policies, and holdings embedded in the precedent set, not by mere feature counting.",
+    "Hard cases arise when multiple precedents are plausibly analogous but point to incompatible outcomes; resolution requires ranking the analogies by legal or practical salience.",
+    "A precedent can be narrowed, extended, distinguished, or overruled, and each move has different consequences for the future case library."
+  ],
+  "description": "Case-Based Reasoning solves new problems by retrieving relevant prior cases, identifying material similarities and differences, and adapting precedent outcomes by analogy. In legal form it underwrites stare decisis, distinguishing cases, and incremental doctrinal development; in AI and practical judgment it treats examples as the main carriers of problem-solving knowledge.",
+  "domains": [
+    "law",
+    "practical-reasoning",
+    "artificial-intelligence",
+    "ethics"
+  ],
+  "failure_modes": [
+    "False analogy: a prior case feels similar because of vivid surface features while the legally or causally material features differ.",
+    "Precedent lock-in: accumulated cases can preserve bad classifications because each new decision defers to a library built under obsolete assumptions.",
+    "Outcome-first distinguishing: practitioners may invent distinctions after choosing a desired result, making the method look principled while hiding discretion.",
+    "Overfitting to cases: a decision may track the peculiar facts of past examples so closely that it misses broader policy, statistical, or structural evidence.",
+    "Unbounded analogy: without a disciplined account of materiality, almost any case can be analogized to almost any other, weakening constraint."
+  ],
+  "key_vocabulary": {
+    "Analogical extension": "Applying the rule or result of a prior case to a new case because the relevant facts and purposes are materially similar.",
+    "Case base": "The stored set of prior cases, examples, precedents, and outcomes from which the reasoner retrieves analogies.",
+    "Distinguishing": "Explaining why a precedent does not control because the present case differs in a feature that matters to the precedent's rationale.",
+    "Holding": "The rule or result necessary to decide a case; it carries more precedential force than background commentary.",
+    "Material fact": "A feature that affects the proper classification or outcome under the precedent's rationale, as opposed to a merely incidental resemblance.",
+    "Precedent": "A prior decided case that supplies an outcome, rule, or pattern of reasoning for later analogous cases.",
+    "Ratio decidendi": "The reason for the decision: the principle that links the material facts to the outcome and can bind later cases.",
+    "Stare decisis": "The legal norm that courts should follow earlier decisions unless there is a sufficient reason to distinguish or overrule them."
+  },
+  "name": "Case-Based Reasoning",
+  "operative_procedure": [
+    "Frame the target case. State the present problem, candidate outcome, and facts that might matter to classification, liability, responsibility, or remedy.",
+    "Retrieve precedent cases. Search the case base for prior cases with similar roles, harms, transactions, institutional setting, or doctrinal purpose; include adverse precedents as well as favorable ones.",
+    "Extract each precedent's holding and rationale. Separate the result from dicta, and identify the material facts that made the result follow.",
+    "Map similarities and differences. Compare the target case to each precedent feature by feature, marking which similarities support extension and which differences support distinguishing.",
+    "Rank materiality. Decide which features matter by reference to the precedent's rationale, the surrounding doctrine, and the policy the precedent protects.",
+    "Select the controlling analogy. Choose the precedent or line of cases whose rationale best fits the target case; explain why rival analogies are weaker or distinguishable.",
+    "Adapt the outcome. Extend, narrow, distinguish, or overrule the precedent, stating the resulting rule at the narrowest level that resolves the case.",
+    "Check future fit. Ask what later cases the proposed analogy will govern and whether the classification creates unwanted instability or loopholes."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Common Law Reasoning",
+      "Aristotelian Practical Wisdom",
+      "Analogical Reasoning"
+    ],
+    "composes_with": [
+      "Argumentation Theory",
+      "Hermeneutics",
+      "Principle of Charity",
+      "Reflective Equilibrium"
+    ],
+    "descendants": [
+      "Stare Decisis",
+      "Case-Based Reasoning in AI",
+      "Problem-Based Learning"
+    ],
+    "related": [
+      "Legal Reasoning",
+      "Abduction",
+      "Ordinary Language Philosophy",
+      "Coherentism"
+    ],
+    "rivals": [
+      "First-Principles Reasoning",
+      "Utilitarianism",
+      "Kantian Deontology",
+      "Legal Positivism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Case-Based Reasoning is strongest where prior examples embody hard-won judgment and institutional continuity matters: common law adjudication, professional diagnosis, design precedent, and ethical comparison. It is weaker for novel systems with no reliable case base, domains requiring quantitative causal inference, or cases where past decisions encode injustice. It needs a disciplined theory of materiality to avoid becoming unconstrained analogy.",
+  "source_summary": "Authored from model knowledge of common law precedent, AI case-based reasoning, and standard legal examples, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Edwina L. Rissland and Kevin D. Ashley, 'A Case-Based System for Trade Secrets Law' (1987)"
+    },
+    {
+      "kind": "primary",
+      "title": "Janet Kolodner, Case-Based Reasoning (1993)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Levi, An Introduction to Legal Reasoning (1949)"
+    },
+    {
+      "kind": "primary",
+      "title": "Donoghue v Stevenson [1932] AC 562"
+    },
+    {
+      "kind": "primary",
+      "title": "MacPherson v Buick Motor Co., 217 N.Y. 382 (1916)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you must decide a new case in a domain where prior cases, precedents, or worked examples carry authority",
+    "you need to explain why an apparently similar past decision should or should not govern the present problem",
+    "the problem turns on whether factual differences are material rather than on calculating an optimal policy from scratch",
+    "you face competing analogies and need a disciplined way to rank which comparison has more force",
+    "continuity, fairness between like cases, and incremental adaptation matter more than novelty or global optimization"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Principled Negotiation",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Principled Negotiation is Fisher, Ury, and Patton's method for reaching wise agreements by separating people from the problem, focusing on underlying interests rather than stated positions, inventing options for mutual gain, and using objective criteria while protecting each side's BATNA.",
+  "domains": [
+    "negotiation",
+    "conflict-resolution",
+    "strategy",
+    "law"
+  ],
+  "when_to_use": [
+    "you face a dispute where parties are locked into incompatible stated demands but may have different underlying reasons for those demands",
+    "you need an agreement that preserves a working relationship while still protecting substantive interests",
+    "you suspect positional bargaining is producing threats, concessions, or face-saving behavior instead of problem solving",
+    "you need to evaluate whether a proposed deal is better than walking away",
+    "you need standards of fairness that both sides could accept without treating either party's will as decisive"
+  ],
+  "core_claims": [
+    "Negotiation improves when the parties treat relationship issues and substantive issues as distinct problems rather than bargaining over both at once.",
+    "Stated positions usually conceal multiple interests; durable agreements are found by satisfying interests, not by splitting positions.",
+    "A negotiator's power depends less on toughness at the table than on the quality of their BATNA away from the table.",
+    "Inventing options should be separated from deciding among them because premature commitment suppresses joint-gain possibilities.",
+    "Objective criteria convert a contest of wills into a search for standards neither side can easily dismiss as arbitrary.",
+    "A wise agreement is efficient, improves or preserves the relationship, and satisfies legitimate interests better than each side's no-agreement alternative."
+  ],
+  "key_vocabulary": {
+    "BATNA": "Best Alternative To a Negotiated Agreement: the course of action a party will take if no deal is reached. It is the benchmark against which any proposed agreement must be judged.",
+    "Interests": "The needs, concerns, fears, desires, and principles that motivate a party's position. Interests answer why a party wants something.",
+    "Positions": "The concrete demands or declared outcomes a party says it wants. Principled Negotiation treats positions as clues, not as the real problem to optimize.",
+    "Objective Criteria": "Independent standards such as market value, precedent, expert judgment, law, reciprocity, or professional norms used to evaluate options fairly.",
+    "Options for Mutual Gain": "Possible agreements or package deals that satisfy interests on both sides better than simple concession trading.",
+    "Separate the People from the Problem": "The discipline of addressing perception, emotion, and communication directly while refusing to make the other party the enemy.",
+    "Wise Agreement": "An agreement that meets legitimate interests, resolves conflicting interests fairly, is durable, and accounts for community or third-party interests where relevant.",
+    "Reservation Value": "The least favorable deal still preferable to a party's BATNA. Offers worse than this should be rejected or renegotiated."
+  },
+  "operative_procedure": [
+    "Map the parties, the immediate issue, and each side's stated positions. Name the positional impasse without treating the positions as the thing to divide.",
+    "Separate people problems from substance. Identify perception gaps, emotional triggers, identity threats, communication failures, and relationship concerns that must be handled on their own terms.",
+    "Translate positions into interests. For each demand, ask why it matters, why not an alternative, and what fears or needs sit underneath it; include shared, compatible, and conflicting interests.",
+    "Assess each side's BATNA. Identify the user's best no-deal alternative, improve it where possible, estimate the other side's BATNA, and derive a reservation value before evaluating offers.",
+    "Invent options before committing. Generate multiple packages, trades across issues, contingent agreements, and low-cost concessions that could create mutual gain.",
+    "Introduce objective criteria. Select independent standards relevant to the issue and ask what agreement those standards would recommend, rather than whose will should prevail.",
+    "Evaluate proposed agreements against interests, criteria, and BATNAs. Reject deals worse than the BATNA, revise deals that fail important interests, and prefer options that satisfy objective standards.",
+    "Plan process moves. Use joint problem-solving language, ask diagnostic questions, reframe attacks as interests, and make principled offers tied to criteria rather than threats or arbitrary concessions."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "In Getting to Yes, two people in a library argue over whether a window should be open or closed.",
+      "analysis": "A positional analysis sees an open-versus-closed demand and might compromise by opening the window halfway. Principled Negotiation asks for interests: one person wants fresh air; the other wants to avoid a draft. The librarian opens a window in an adjoining room, satisfying both interests better than splitting the stated positions. The example shows why the operative move is not concession but interest diagnosis and option invention."
+    },
+    {
+      "problem": "Fisher and Ury use the 1978 Egyptian-Israeli negotiations over Sinai to illustrate an apparent territorial impasse: Egypt wanted the Sinai returned, while Israel wanted security from attack.",
+      "analysis": "The positions looked incompatible if the only variable was who controlled the same land. The interest analysis distinguished sovereignty from security: Egypt's core interest was sovereign return of territory; Israel's was demilitarized security. The Camp David framework returned Sinai to Egyptian sovereignty while limiting military presence in parts of the peninsula, an option that satisfied divergent interests better than a positional split of territory."
+    }
+  ],
+  "failure_modes": [
+    "Overestimating reciprocity: a bad-faith or coercive counterpart may exploit openness about interests unless the negotiator protects their BATNA and information boundaries.",
+    "Prematurely calling a standard objective: market price, precedent, or expert judgment can embed power and selection bias; the framework misleads when criteria are treated as neutral without scrutiny.",
+    "Confusing relationship repair with agreement quality: separating people from the problem does not mean sacrificing substantive interests to keep the tone pleasant.",
+    "Weak BATNA work: practitioners often focus on table tactics while neglecting the off-table alternative that actually determines bargaining power.",
+    "Option brainstorming without authority: inventing mutual-gain packages can waste time or create false hope if parties lack mandate, resources, or implementation capacity."
+  ],
+  "scope_and_limits": "Principled Negotiation is strongest in disputes with negotiable interests, recurring relationships, multiple issues, or available legitimacy standards. It is less reliable where a party seeks domination, facts are violently contested, legal rights must be adjudicated, or one side's BATNA is so strong that it has little incentive to solve jointly. It can structure hard bargaining, but it is not a substitute for power, enforcement, safety planning, or legal advice.",
+  "source_texts": [
+    {
+      "title": "Roger Fisher, William Ury, and Bruce Patton, Getting to Yes: Negotiating Agreement Without Giving In",
+      "kind": "primary"
+    },
+    {
+      "title": "Roger Fisher and William Ury, Getting to Yes: Negotiating Agreement Without Giving In",
+      "kind": "primary"
+    },
+    {
+      "title": "William Ury, Getting Past No: Negotiating in Difficult Situations",
+      "kind": "primary"
+    },
+    {
+      "title": "Roger Fisher and Daniel Shapiro, Beyond Reason: Using Emotions as You Negotiate",
+      "kind": "secondary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "Coasean Bargaining",
+      "Argumentation Theory",
+      "Conflict Resolution"
+    ],
+    "ancestors": [
+      "Interest-Based Bargaining",
+      "Harvard Negotiation Project",
+      "Problem-Solving Mediation"
+    ],
+    "descendants": [
+      "Mutual Gains Approach",
+      "Difficult Conversations",
+      "Getting Past No"
+    ],
+    "rivals": [
+      "Distributive Bargaining",
+      "Power-Based Bargaining",
+      "Auction Theory",
+      "Minimax Regret"
+    ],
+    "composes_with": [
+      "Nonviolent Communication",
+      "Game Theory",
+      "Decision Analysis",
+      "Steel-manning"
+    ]
+  },
+  "built_at": "2026-06-29T03:40:06Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Fisher, Ury, Patton, and related Harvard Negotiation Project sources, without fetched source text."
+}

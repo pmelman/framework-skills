@@ -1,0 +1,122 @@
+{
+  "name": "Affordance Theory",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Affordance Theory, from Gibson's ecological psychology and Norman's design adaptation, analyzes objects, environments, and interfaces in terms of the action possibilities they offer to particular agents and the perceptual cues that make those possibilities discoverable.",
+  "domains": [
+    "design",
+    "psychology",
+    "human-computer-interaction",
+    "cognitive-science"
+  ],
+  "when_to_use": [
+    "users repeatedly misuse, ignore, or struggle with an object or interface despite instructions",
+    "a design needs to communicate what actions are possible without relying mainly on training or labels",
+    "an environment works for some bodies, skills, or tools but excludes others",
+    "the gap between what an object permits and what users perceive it permits is causing errors",
+    "you need to analyze behavior as a relation between an agent's capabilities and environmental structure"
+  ],
+  "core_claims": [
+    "An affordance is relational: it exists between environmental features and an agent with particular bodily, cognitive, cultural, or tool-mediated capabilities.",
+    "Perception is oriented toward possible action in an environment, not merely toward neutral physical description.",
+    "In design, usability depends on perceived affordances and signifiers as much as on the actual actions a system technically permits.",
+    "Misleading affordances cause systematic user error by inviting actions the artifact does not support or hiding actions it does support.",
+    "The same object can afford different actions to different agents because size, strength, skill, intention, and equipment change the action relation.",
+    "Good design aligns actual affordances, perceived affordances, constraints, mapping, and feedback so that correct action becomes discoverable."
+  ],
+  "key_vocabulary": {
+    "Affordance": "An action possibility offered by the environment to an organism or user, relative to that agent's capabilities.",
+    "Actual Affordance": "An action the object or environment really permits, whether or not the user notices it.",
+    "Perceived Affordance": "An action the user believes is available based on visible or otherwise perceptible cues; in interface design, this often matters more for usability than physical possibility alone.",
+    "Signifier": "A perceptible indicator that communicates where action should take place, such as a label, handle shape, button style, cursor change, or highlighted drop zone.",
+    "Constraint": "A physical, logical, semantic, or cultural limit that narrows possible actions and helps guide correct use.",
+    "Mapping": "The relationship between controls and their effects, such as which stove knob controls which burner.",
+    "Feedback": "Information returned after an action that lets the user perceive what happened and whether the intended effect occurred.",
+    "Ecological Perception": "Gibson's view that organisms directly perceive meaningful environmental possibilities in relation to action."
+  },
+  "operative_procedure": [
+    "Identify the agent. Specify the user's body, skills, tools, goals, culture, impairments, and context rather than analyzing the object in isolation.",
+    "List actual affordances. Describe what actions the environment or artifact physically, digitally, socially, or procedurally permits for that agent.",
+    "List perceived affordances. Inspect what actions the visible form, texture, layout, labels, conventions, and prior experience suggest to the user.",
+    "Compare actual and perceived affordances. Flag hidden affordances, false affordances, ambiguous cues, and affordances available only to some users.",
+    "Analyze signifiers and constraints. Determine whether handles, buttons, typography, spatial layout, disabled states, physical limits, and cultural conventions guide action appropriately.",
+    "Check mapping and feedback. Verify that controls correspond intelligibly to effects and that the system promptly shows the result of action.",
+    "Redesign the action relation. Change form, placement, signifiers, constraints, or feedback so desired actions are easier to perceive and undesired actions are harder to perform.",
+    "Test with representative agents in context. Observe real attempts without instruction, especially by novices and edge users, and revise the affordance analysis based on breakdowns."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Gibson uses environmental surfaces to explain ecological affordances: a horizontal, rigid, sufficiently extended surface affords support and locomotion for a terrestrial animal.",
+      "analysis": "The surface is not analyzed only by geometry or material properties. Its affordance depends on the animal: what supports an adult human may not support a heavier animal, and what affords walking for one creature may afford crawling, landing, or hiding for another. The framework asks what action the environment makes available to that agent, showing perception as action-relevant."
+    },
+    {
+      "problem": "Norman's classic door example describes doors whose flat plates, handles, or bars invite the wrong push or pull action.",
+      "analysis": "The door may actually afford both pushing and pulling mechanically, but its perceived affordance and signifiers are misaligned with the required action. A pull handle on the push side invites pulling; a flat plate on the push side constrains and signifies pushing. The design fix is not more blame or instruction but aligning form, signifier, constraint, and feedback so the correct action is obvious."
+    }
+  ],
+  "failure_modes": [
+    "Object-only analysis: treating affordances as fixed properties of artifacts ignores the agent's body, skill, tools, and cultural conventions.",
+    "Signifier inflation: adding labels and arrows can compensate for bad form but may clutter the design instead of clarifying the underlying action relation.",
+    "Designer projection: experts perceive affordances novices do not, so designers often mistake their own learned conventions for obvious cues.",
+    "Ignoring accessibility: an affordance for an average user may be absent or different for users with disabilities, different devices, or different contexts of use.",
+    "Overextending the term: calling every feature or benefit an affordance drains the concept of its action-specific explanatory power."
+  ],
+  "scope_and_limits": "Affordance Theory is strongest for analyzing usability, embodied interaction, interfaces, tools, architecture, and ecological behavior where action possibilities and perceptual cues matter. It is weaker for purely symbolic reasoning, policy tradeoffs, or systems whose main failures come from incentives rather than interaction. Norman's design usage should be distinguished from Gibson's ecological theory: the former emphasizes perceived affordances and signifiers in artifacts, while the latter grounds affordances in organism-environment relations.",
+  "source_texts": [
+    {
+      "title": "James J. Gibson, The Ecological Approach to Visual Perception",
+      "kind": "primary"
+    },
+    {
+      "title": "Donald A. Norman, The Psychology of Everyday Things",
+      "kind": "primary"
+    },
+    {
+      "title": "Donald A. Norman, The Design of Everyday Things",
+      "kind": "primary"
+    },
+    {
+      "title": "Donald A. Norman, Affordance, Conventions, and Design",
+      "kind": "primary"
+    },
+    {
+      "title": "Affordance (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Affordance",
+      "kind": "tertiary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Design Thinking",
+      "Jobs-to-be-Done",
+      "Nudge and Choice Architecture",
+      "Ecological Psychology"
+    ],
+    "ancestors": [
+      "Ecological Psychology",
+      "Gestalt Psychology",
+      "Human Factors"
+    ],
+    "descendants": [
+      "User-Centered Design",
+      "Human-Computer Interaction",
+      "Embodied Interaction"
+    ],
+    "rivals": [
+      "Cognitivism",
+      "Information Processing Psychology",
+      "Behaviorism",
+      "Symbolic AI"
+    ],
+    "composes_with": [
+      "Design Thinking",
+      "Nudge and Choice Architecture",
+      "Jobs-to-be-Done",
+      "Controlled Experimentation"
+    ]
+  },
+  "built_at": "2026-06-29T03:40:06Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Gibson, Norman, and human-computer interaction affordance literature, without fetched source text."
+}

@@ -1,0 +1,117 @@
+{
+  "name": "Lateral Thinking",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Lateral Thinking is Edward de Bono's framework for deliberately escaping habitual vertical logic by using provocation, random entry, concept extraction, and alternative generation to restructure perception before judging solutions.",
+  "domains": [
+    "creativity",
+    "problem-solving",
+    "strategy",
+    "education"
+  ],
+  "when_to_use": [
+    "a problem is stuck because reasonable incremental analysis keeps returning the same unsatisfactory options",
+    "the team is treating the current framing, categories, or assumptions as natural rather than constructed",
+    "expertise is producing premature certainty and excluding strange but potentially useful directions",
+    "you need many alternative perceptions of the same situation before evaluating feasibility",
+    "the available facts are not enough to solve the problem until the pattern used to organize them changes"
+  ],
+  "core_claims": [
+    "Creative breakthroughs often come from changing the perceptual pattern, not from pushing harder along the existing logical path.",
+    "Provocations can be useful even when false or absurd because their function is movement, not truth.",
+    "Vertical thinking selects and develops a direction; lateral thinking generates directions before selection becomes appropriate.",
+    "The mind's pattern-making efficiency is also a trap: it routes attention into dominant patterns and hides alternatives.",
+    "Random entry can create productive associations precisely because it is not chosen for relevance by the current frame.",
+    "A wrong or impossible intermediate idea can be valuable if it provides stepping stones toward a practical restructuring."
+  ],
+  "key_vocabulary": {
+    "Vertical Thinking": "Sequential, judgment-oriented reasoning that develops a selected direction for correctness and consistency.",
+    "Lateral Thinking": "Deliberate generation of alternative perceptions, concepts, and entry points in order to escape established patterns.",
+    "Provocation": "A deliberately unreasonable, reversed, exaggerated, or impossible statement used to move thinking out of the dominant pattern.",
+    "PO": "De Bono's signal that a statement is being used provocatively rather than asserted as true or false.",
+    "Movement": "The operation of extracting value from a provocation by asking where it leads, what principle it suggests, or what new arrangement it makes visible.",
+    "Random Entry": "Introducing an unrelated word, image, or object and forcing connections to the problem to generate new directions.",
+    "Concept Extraction": "Identifying the general idea beneath a solution or provocation so it can be reapplied in other forms.",
+    "Challenge": "Questioning whether an assumed boundary, sequence, category, or necessity must remain as it is, without needing to prove it is wrong first."
+  },
+  "operative_procedure": [
+    "State the current dominant pattern. Describe the usual definition of the problem, the standard solution path, and the assumptions that make it feel inevitable.",
+    "Suspend early judgment. Mark the session as generative so ideas are evaluated for movement value before truth, practicality, or elegance.",
+    "Generate alternatives directly. Produce multiple ways to define the problem, divide it, sequence it, or view its actors before selecting any one frame.",
+    "Use challenge on taken-for-granted features. Ask why each rule, boundary, category, timing, or requirement exists and what would happen if it were removed, reversed, or changed.",
+    "Introduce provocation with PO. Formulate absurd, reversed, exaggerated, wishful, or escape provocations, explicitly treating them as tools rather than claims.",
+    "Apply movement. From each provocation, extract principles, consequences, analogies, differences, and partial features that could lead to a workable idea.",
+    "Use random entry when the idea field is exhausted. Select an unrelated word or image and force connections to the problem until new concepts appear.",
+    "Harvest and develop. Convert the most promising concepts into practical options, then hand them to vertical thinking for evaluation, refinement, and implementation planning."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "De Bono's well-known pebble story describes a moneylender who puts two black pebbles in a bag and asks a debtor's daughter to draw one, pretending that a white pebble would free her father and a black pebble would force marriage.",
+      "analysis": "Vertical thinking evaluates the stated choices: draw and lose, refuse and punish the father, or expose the fraud and create conflict. Lateral Thinking changes the pattern by acting on the selection procedure itself: the daughter draws a pebble and drops it among the others, then asks the remaining pebble to reveal what she must have drawn. The solution works by escaping the presented alternatives rather than optimizing within them."
+    },
+    {
+      "problem": "De Bono often illustrates provocation with statements such as PO: cars should have square wheels.",
+      "analysis": "The statement is not evaluated as a serious design claim. Movement asks what square wheels draw attention to: discontinuous contact, changing height, road-surface interaction, suspension response, and energy absorption. Those extracted concepts can lead to practical ideas about adaptive suspension, special tracks, or wheel-road systems. The value lies in the new direction produced by an impossible starting point."
+    }
+  ],
+  "failure_modes": [
+    "Randomness as performance: teams can generate bizarre ideas without doing the movement work that extracts usable concepts.",
+    "Premature convergence: judging provocations by truth or feasibility immediately destroys the mechanism that makes the framework distinctive.",
+    "Creativity detached from constraints: Lateral Thinking must eventually return to vertical evaluation; otherwise it produces novelty without implementation.",
+    "Authority theater: a facilitator can use provocation to dominate the room rather than increase the range of perceptions.",
+    "Mistaking contrarianism for lateral movement: merely opposing the obvious answer often remains trapped by the same frame."
+  ],
+  "scope_and_limits": "Lateral Thinking is strongest for creative impasses, product ideas, strategy reframing, education, and situations where the current conceptual pattern is the bottleneck. It is weaker when the problem is already well-specified and needs calculation, evidence gathering, compliance, or execution discipline. It should be paired with rigorous evaluation after the generative phase.",
+  "source_texts": [
+    {
+      "title": "Edward de Bono, The Use of Lateral Thinking",
+      "kind": "primary"
+    },
+    {
+      "title": "Edward de Bono, Lateral Thinking: Creativity Step by Step",
+      "kind": "primary"
+    },
+    {
+      "title": "Edward de Bono, Serious Creativity",
+      "kind": "primary"
+    },
+    {
+      "title": "Edward de Bono, Six Thinking Hats",
+      "kind": "primary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "TRIZ",
+      "Design Thinking",
+      "First-Principles Reasoning",
+      "Thought Experiments"
+    ],
+    "ancestors": [
+      "Creative Problem Solving",
+      "Gestalt Psychology",
+      "Divergent Thinking"
+    ],
+    "descendants": [
+      "Six Thinking Hats",
+      "Po Technique",
+      "Random Entry Technique"
+    ],
+    "rivals": [
+      "Classical Logic",
+      "Hypothetico-Deductive Method",
+      "Root Cause Analysis",
+      "Controlled Experimentation"
+    ],
+    "composes_with": [
+      "Design Thinking",
+      "TRIZ",
+      "Scenario Planning",
+      "Pre-mortem"
+    ]
+  },
+  "built_at": "2026-06-29T03:40:06Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of Edward de Bono's lateral thinking and creativity texts, without fetched source text."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-29T03:39:49Z",
+  "generated_at": "2026-06-29T03:45:27Z",
   "skills": [
     {
       "name": "Abduction",
@@ -29,6 +29,20 @@
       ],
       "review_status": "approved",
       "path": "skills/advaita-vedanta/latest.json"
+    },
+    {
+      "name": "Affordance Theory",
+      "slug": "affordance-theory",
+      "version": 1,
+      "description": "Affordance Theory, from Gibson's ecological psychology and Norman's design adaptation, analyzes objects, environments, and interfaces in terms of the action possibilities they offer to particular agents and the perceptual cues that make those possibilities discoverable.",
+      "domains": [
+        "design",
+        "psychology",
+        "human-computer-interaction",
+        "cognitive-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/affordance-theory/latest.json"
     },
     {
       "name": "Ahimsa",
@@ -171,6 +185,21 @@
       "path": "skills/bayesian-epistemology/latest.json"
     },
     {
+      "name": "Biomimicry",
+      "slug": "biomimicry",
+      "version": 1,
+      "description": "Biomimicry is a design and problem-solving framework that abstracts functional strategies from evolved biological forms, processes, and ecosystems, then translates those strategies into engineering, product, organizational, or architectural solutions.",
+      "domains": [
+        "design",
+        "engineering",
+        "sustainability",
+        "innovation",
+        "biology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/biomimicry/latest.json"
+    },
+    {
       "name": "Bounded Rationality",
       "slug": "bounded-rationality",
       "version": 1,
@@ -199,6 +228,21 @@
       "path": "skills/bradford-hill-criteria/latest.json"
     },
     {
+      "name": "Burden of Proof",
+      "slug": "burden-of-proof",
+      "version": 1,
+      "description": "Burden of Proof is a legal and argumentative framework for determining who must produce evidence, who must persuade the decision-maker, what default applies if proof is insufficient, and which standard of evidence governs the decision.",
+      "domains": [
+        "law",
+        "argumentation",
+        "epistemology",
+        "decision-making",
+        "public-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/burden-of-proof/latest.json"
+    },
+    {
       "name": "Capabilities Approach",
       "slug": "capabilities-approach",
       "version": 1,
@@ -225,6 +269,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/care-ethics/latest.json"
+    },
+    {
+      "name": "Case-Based Reasoning",
+      "slug": "case-based-reasoning",
+      "version": 1,
+      "description": "Case-Based Reasoning solves new problems by retrieving relevant prior cases, identifying material similarities and differences, and adapting precedent outcomes by analogy. In legal form it underwrites stare decisis, distinguishing cases, and incremental doctrinal development; in AI and practical judgment it treats examples as the main carriers of problem-solving knowledge.",
+      "domains": [
+        "law",
+        "practical-reasoning",
+        "artificial-intelligence",
+        "ethics"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/case-based-reasoning/latest.json"
     },
     {
       "name": "Causal Inference",
@@ -393,6 +451,21 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/comparative-advantage/latest.json"
+    },
+    {
+      "name": "Computational Complexity Thinking",
+      "slug": "computational-complexity-thinking",
+      "version": 1,
+      "description": "Computational Complexity Thinking analyzes problems by classifying how required time, space, randomness, communication, or other resources grow with input size, using hardness classes and reductions to decide whether exact solutions are tractable or whether approximation, heuristics, restrictions, or reformulation are needed.",
+      "domains": [
+        "computer-science",
+        "algorithms",
+        "optimization",
+        "decision-making",
+        "operations-research"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/computational-complexity-thinking/latest.json"
     },
     {
       "name": "Conceptual Analysis",
@@ -647,6 +720,20 @@
       "path": "skills/dependent-origination/latest.json"
     },
     {
+      "name": "Design Thinking",
+      "slug": "design-thinking",
+      "version": 1,
+      "description": "Design Thinking is a human-centered, iterative approach to innovation that moves from empathy and problem framing through ideation, prototyping, and testing in order to learn from users before committing to a solution.",
+      "domains": [
+        "design",
+        "innovation",
+        "product-development",
+        "organizational-change"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/design-thinking/latest.json"
+    },
+    {
       "name": "Deterrence Theory",
       "slug": "deterrence-theory",
       "version": 1,
@@ -884,6 +971,21 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/experimental-philosophy/latest.json"
+    },
+    {
+      "name": "Explore-Exploit Tradeoff",
+      "slug": "explore-exploit-tradeoff",
+      "version": 1,
+      "description": "Explore-Exploit Tradeoff is a sequential decision framework for balancing the value of learning about uncertain options against the value of choosing the currently best-known option, formalized in multi-armed bandits, optimal stopping, reinforcement learning, and search problems.",
+      "domains": [
+        "decision-theory",
+        "statistics",
+        "machine-learning",
+        "strategy",
+        "experimentation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/explore-exploit-tradeoff/latest.json"
     },
     {
       "name": "Expressivism",
@@ -1362,6 +1464,34 @@
       "path": "skills/lakatos-s-research-programmes/latest.json"
     },
     {
+      "name": "Lateral Thinking",
+      "slug": "lateral-thinking",
+      "version": 1,
+      "description": "Lateral Thinking is Edward de Bono's framework for deliberately escaping habitual vertical logic by using provocation, random entry, concept extraction, and alternative generation to restructure perception before judging solutions.",
+      "domains": [
+        "creativity",
+        "problem-solving",
+        "strategy",
+        "education"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/lateral-thinking/latest.json"
+    },
+    {
+      "name": "Legalism",
+      "slug": "legalism",
+      "version": 1,
+      "description": "Legalism is the classical Chinese statecraft framework associated with Han Feizi, Shang Yang, and the Qin, emphasizing clear law, centralized authority, administrative technique, and incentives over moral virtue, ritual hierarchy, or benevolent persuasion. It treats institutions as tools for aligning self-interested behavior with state order.",
+      "domains": [
+        "political-philosophy",
+        "statecraft",
+        "institutional-design",
+        "chinese-philosophy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/legalism/latest.json"
+    },
+    {
       "name": "Leverage Points",
       "slug": "leverage-points",
       "version": 1,
@@ -1544,6 +1674,21 @@
       "path": "skills/modal-reasoning/latest.json"
     },
     {
+      "name": "Monte Carlo Thinking",
+      "slug": "monte-carlo-thinking",
+      "version": 1,
+      "description": "Monte Carlo Thinking uses repeated random sampling to simulate distributions of possible outcomes, propagate uncertainty through models, and estimate probabilities, risks, expectations, and tail events when analytic solutions or point estimates are inadequate.",
+      "domains": [
+        "probability",
+        "risk-analysis",
+        "statistics",
+        "operations-research",
+        "decision-making"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/monte-carlo-thinking/latest.json"
+    },
+    {
       "name": "Moral Realism",
       "slug": "moral-realism",
       "version": 1,
@@ -1626,6 +1771,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/network-effects-and-lock-in/latest.json"
+    },
+    {
+      "name": "Nonviolent Communication",
+      "slug": "nonviolent-communication",
+      "version": 1,
+      "description": "Nonviolent Communication is Marshall Rosenberg's framework for transforming conflict and self-expression by distinguishing observations, feelings, needs, and requests, and by hearing blame or judgment as attempts to express unmet human needs.",
+      "domains": [
+        "communication",
+        "conflict-resolution",
+        "psychology",
+        "ethics"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/nonviolent-communication/latest.json"
     },
     {
       "name": "Normal Accidents Theory",
@@ -1878,6 +2037,20 @@
       ],
       "review_status": "approved",
       "path": "skills/principle-of-charity/latest.json"
+    },
+    {
+      "name": "Principled Negotiation",
+      "slug": "principled-negotiation",
+      "version": 1,
+      "description": "Principled Negotiation is Fisher, Ury, and Patton's method for reaching wise agreements by separating people from the problem, focusing on underlying interests rather than stated positions, inventing options for mutual gain, and using objective criteria while protecting each side's BATNA.",
+      "domains": [
+        "negotiation",
+        "conflict-resolution",
+        "strategy",
+        "law"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/principled-negotiation/latest.json"
     },
     {
       "name": "Prospect Theory",
@@ -2146,6 +2319,20 @@
       "path": "skills/second-order-thinking/latest.json"
     },
     {
+      "name": "Shoshin",
+      "slug": "shoshin",
+      "version": 1,
+      "description": "Shoshin is the Zen discipline of beginner's mind: retaining openness, eagerness, humility, and direct attention even after acquiring expertise. It asks the practitioner to loosen preconceptions and status-protecting habits so familiar situations can be encountered freshly.",
+      "domains": [
+        "zen-buddhism",
+        "learning",
+        "practice",
+        "creativity"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/shoshin/latest.json"
+    },
+    {
       "name": "Signal Detection Theory",
       "slug": "signal-detection-theory",
       "version": 1,
@@ -2200,6 +2387,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/socratic-method/latest.json"
+    },
+    {
+      "name": "Source Criticism",
+      "slug": "source-criticism",
+      "version": 1,
+      "description": "Source Criticism is the historiographical discipline of evaluating documents, testimony, artifacts, and traditions by testing provenance, authenticity, bias, proximity, transmission, and corroboration. It treats sources as evidence produced under specific conditions rather than as transparent reports of the past.",
+      "domains": [
+        "history",
+        "historiography",
+        "journalism",
+        "legal-evidence"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/source-criticism/latest.json"
     },
     {
       "name": "Speech Act Theory",
@@ -2549,6 +2750,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/triz/latest.json"
+    },
+    {
+      "name": "Ubuntu",
+      "slug": "ubuntu",
+      "version": 1,
+      "description": "Ubuntu is an African relational ethics often summarized as 'a person is a person through other persons.' It evaluates action by how it sustains shared humanity, dignity, reciprocity, reconciliation, and communal flourishing rather than by isolated individual preference alone.",
+      "domains": [
+        "ethics",
+        "political-philosophy",
+        "african-philosophy",
+        "restorative-justice"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/ubuntu/latest.json"
     },
     {
       "name": "Utilitarianism",

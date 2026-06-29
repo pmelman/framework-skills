@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:44Z",
+  "canonical_examples": [
+    {
+      "analysis": "Shang Yang's reforms apply Legalist diagnosis: kinship rank, inherited privilege, and ritual status make governance depend on unreliable virtue and local loyalties. The remedy is public, uniform law tied to measurable agricultural and military outputs, with ranks and rewards granted for service rather than birth. Mutual responsibility groups make evasion observable, and severe penalties make private calculation favor compliance. The framework predicts stronger state capacity because incentives now align households, soldiers, and officials with the ruler's aims.",
+      "problem": "The Qin state under Shang Yang sought to transform a feudal aristocratic order into a stronger centralized state. What institutional changes should be made?"
+    },
+    {
+      "analysis": "Han Feizi's answer is Legalist: the ruler should not rely on ministers' virtue, affection, or eloquence. He should use fa, shu, and shi: clear standards for office, administrative techniques that compare a minister's words with results, and positional authority that prevents ministers from converting talent into private power. Rewards and punishments attach to performance, not reputation. The ruler remains inscrutable, avoids revealing preferences that can be manipulated, and lets institutions make loyalty less relevant than incentive-compatible service.",
+      "problem": "A ruler faces talented ministers who may pursue their own interests while speaking in loyal and moral language. How should he govern them?"
+    }
+  ],
+  "core_claims": [
+    "Stable order depends more on clear laws, impersonal standards, and incentives than on the moral cultivation of rulers or subjects.",
+    "People predictably respond to rewards and punishments; institutions should be designed around that regularity rather than around hoped-for virtue.",
+    "The ruler's positional authority is more important than personal brilliance because office, not charisma, makes commands enforceable.",
+    "Administrative control requires matching ministers' claims and assigned duties against measurable results, then rewarding or punishing the match.",
+    "Private moral judgment, aristocratic privilege, and discretionary benevolence weaken the state when they compete with public law.",
+    "Law must be clear, public, uniform, and consistently enforced so that subjects can calculate compliance and officials cannot bend standards for factions.",
+    "Severe penalties for small violations can be rational if they prevent disorder before it grows into threats to state power."
+  ],
+  "description": "Legalism is the classical Chinese statecraft framework associated with Han Feizi, Shang Yang, and the Qin, emphasizing clear law, centralized authority, administrative technique, and incentives over moral virtue, ritual hierarchy, or benevolent persuasion. It treats institutions as tools for aligning self-interested behavior with state order.",
+  "domains": [
+    "political-philosophy",
+    "statecraft",
+    "institutional-design",
+    "chinese-philosophy"
+  ],
+  "failure_modes": [
+    "Tyrannical overreach: the framework can justify cruelty and surveillance as administrative necessity, destroying legitimacy and trust.",
+    "Crowding out virtue and initiative: exclusive reliance on punishments and rewards may suppress loyalty, practical wisdom, and informal cooperation.",
+    "Measurement capture: officials may optimize the indicators tied to reward and punishment while evading the ruler's broader aims.",
+    "Brittleness under crisis: fear-based compliance can collapse when enforcement weakens or when subjects coordinate against the state.",
+    "Ruler exemption: the method disciplines ministers and people but may leave the ruler's own errors, paranoia, or predation unchecked."
+  ],
+  "key_vocabulary": {
+    "Fa": "Law, standards, or models: public rules and objective criteria that define offices, duties, rewards, and punishments.",
+    "Shu": "Administrative technique: methods by which the ruler controls ministers, audits performance, and prevents deception.",
+    "Shi": "Power or positional authority: the leverage that comes from occupying the ruler's office, independent of personal virtue.",
+    "Xing-ming": "The matching of names and forms, or claims and results; officials are judged by whether performance corresponds to assigned responsibility.",
+    "Two handles": "Han Feizi's image for reward and punishment as the ruler's essential instruments of control.",
+    "Mutual responsibility": "An institutional device in which groups are collectively liable for members' violations, making private misconduct more observable.",
+    "Impersonal standards": "Rules that reduce discretion by tying judgment to explicit criteria rather than status, affection, or moral reputation."
+  },
+  "name": "Legalism",
+  "operative_procedure": [
+    "Identify the disorder. Specify the behavior that threatens order, state capacity, or command reliability, and avoid explaining it primarily as moral failure.",
+    "Map offices and interests. List the actors, their formal duties, their private incentives, and the ways they can exploit ambiguity or status.",
+    "Define fa. Convert desired conduct into clear, public, uniform standards with specified rewards and penalties.",
+    "Apply shu. Create administrative techniques for appointment, reporting, auditing, rotation, information control, and comparison of promised performance with results.",
+    "Secure shi. Locate authority in the office and command structure rather than in personal charisma, inherited privilege, or ministerial reputation.",
+    "Use the two handles. Attach reliable rewards to compliance and achievement, and reliable punishments to evasion, failure, or usurpation.",
+    "Eliminate private exceptions. Remove discretionary favors, aristocratic exemptions, and moral rhetoric that let actors escape the standard.",
+    "Audit outcomes and perverse incentives. Check whether subjects and officials are complying with the ruler's real aim or merely gaming the stated measure."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Shang Yang's Statecraft",
+      "Han Feizi",
+      "Warring States Political Thought"
+    ],
+    "composes_with": [
+      "Principal-Agent Analysis",
+      "Mechanism Design",
+      "Public Choice Theory",
+      "Deterrence Theory"
+    ],
+    "descendants": [
+      "Qin Imperial Administration",
+      "Bureaucratic Authoritarianism",
+      "Legal Positivism"
+    ],
+    "related": [
+      "Political Realism",
+      "Institutionalism",
+      "Confucian Ren and Li",
+      "Sun Tzu's Strategy"
+    ],
+    "rivals": [
+      "Confucian Ren and Li",
+      "Aristotelian Virtue Ethics",
+      "Classical Liberalism",
+      "Care Ethics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Legalism is strongest for diagnosing principal-agent problems, weak state capacity, corruption, factionalism, and systems where unclear standards let officials convert discretion into private power. It is dangerous as a complete political ethic because it can subordinate human goods to order, normalize coercion, and erode legitimacy. It works best as a harsh institutional lens, not as a full account of flourishing or justice.",
+  "source_summary": "Authored from model knowledge of Han Feizi, Shang Yang, and Warring States Chinese political thought, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Han Feizi"
+    },
+    {
+      "kind": "primary",
+      "title": "The Book of Lord Shang"
+    },
+    {
+      "kind": "secondary",
+      "title": "Yuri Pines, The Book of Lord Shang: Apologetics of State Power in Early China"
+    },
+    {
+      "kind": "secondary",
+      "title": "Burton Watson, Han Feizi: Basic Writings"
+    },
+    {
+      "kind": "secondary",
+      "title": "Chinese Legalism (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/chinese-legalism/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "an organization or state suffers from corruption, factionalism, weak enforcement, or officials pursuing private interests",
+    "rules are vague enough that status, charisma, or moral rhetoric lets powerful actors evade accountability",
+    "you need to design incentives, audits, and offices for agents who cannot be assumed virtuous",
+    "personal loyalty and informal norms are failing to produce reliable compliance at scale",
+    "the central problem is state capacity, administrative control, or deterrence rather than moral education"
+  ]
+}

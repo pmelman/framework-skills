@@ -1,0 +1,118 @@
+{
+  "name": "Design Thinking",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Design Thinking is a human-centered, iterative approach to innovation that moves from empathy and problem framing through ideation, prototyping, and testing in order to learn from users before committing to a solution.",
+  "domains": [
+    "design",
+    "innovation",
+    "product-development",
+    "organizational-change"
+  ],
+  "when_to_use": [
+    "a product, service, or process problem is poorly understood from the user's point of view",
+    "stakeholders are debating solutions before agreeing on the human problem to solve",
+    "the cost of learning from a lightweight prototype is much lower than the cost of building the full solution",
+    "existing metrics show dissatisfaction but do not explain the lived experience behind it",
+    "a team needs divergent exploration and convergent decision-making without treating the first idea as final"
+  ],
+  "core_claims": [
+    "Useful innovation begins with direct inquiry into users' lived context, not with the organization's preferred solution.",
+    "Problem framing is a design act: changing the point-of-view statement changes the solution space.",
+    "Low-resolution prototypes can produce decisive learning before a team has enough certainty to justify full implementation.",
+    "Divergent ideation and convergent selection should be deliberately separated because critique too early narrows the design space.",
+    "Testing is not final validation but a generator of new empathy and reframing; failed prototypes are evidence, not merely defects.",
+    "Desirability, feasibility, and viability must be held together; a technically possible and profitable idea is not a design success if users cannot or will not use it."
+  ],
+  "key_vocabulary": {
+    "Empathize": "Investigate users' behaviors, workarounds, emotions, contexts, and constraints through interviews, observation, immersion, or analogous research.",
+    "Define": "Synthesize research into a specific human-centered problem statement or point of view that identifies the user, need, and insight.",
+    "Ideate": "Generate many possible responses to the defined problem using divergent techniques before selecting promising directions.",
+    "Prototype": "Create a tangible, simplified representation of an idea that can be experienced, critiqued, or tested before full investment.",
+    "Test": "Put prototypes in front of users to learn what works, what fails, and how the problem frame should change.",
+    "Point of View": "A concise framing of user, need, and insight that guides ideation without prescribing the solution.",
+    "How Might We": "An ideation prompt that converts a point of view into an open design challenge broad enough for multiple solutions.",
+    "Desirability-Feasibility-Viability": "The three lenses used to assess whether a design is wanted by users, technically and operationally possible, and sustainable for the organization."
+  },
+  "operative_procedure": [
+    "Plan empathy work. Identify the users, extreme users, contexts, and behaviors to observe; avoid relying only on stakeholder assumptions or survey abstractions.",
+    "Capture user evidence. Conduct interviews, observations, journey mapping, artifact review, and immersion to document what users do, say, think, and feel.",
+    "Synthesize into needs and insights. Cluster evidence, identify tensions or workarounds, and write a point-of-view statement that names a user, a need, and a surprising insight.",
+    "Convert the frame into How Might We questions. Keep the prompt broad enough to invite alternatives but narrow enough to address the synthesized need.",
+    "Ideate divergently. Generate many concepts, defer judgment, combine ideas, and include deliberately rough or extreme options to escape local optimization.",
+    "Select concepts against design lenses. Choose ideas for prototyping based on user desirability, learning value, feasibility, viability, and fit to the point of view.",
+    "Build low-cost prototypes. Make sketches, storyboards, role plays, service blueprints, mockups, concierge tests, or physical models that expose the riskiest assumptions.",
+    "Test with users and iterate. Observe use, ask for reactions to the experience rather than opinions in the abstract, update the problem frame, and repeat the cycle until evidence supports commitment."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "IDEO's 1999 Nightline shopping cart project challenged a design team to redesign the supermarket shopping cart in a few days.",
+      "analysis": "The team did not start by styling the existing cart. It observed shoppers, children, store staff, and cart safety issues; defined problems around theft, child safety, checkout flow, and shopper behavior; ideated many concepts; built rough modules and prototypes; and tested a final cart concept with baskets, improved child seating, and scanner-related workflow changes. The case exemplifies the empathize-define-ideate-prototype-test loop under time pressure."
+    },
+    {
+      "problem": "Design firms and hospitals have cited GE Healthcare's Adventure Series MRI redesign as a design-thinking response to children's fear during MRI scans.",
+      "analysis": "The problem was reframed from machine performance to the child's experience of an intimidating procedure. Empathy work around children and families revealed fear and stress; the design team created themed scanner environments, story-based interactions, and staff scripts; prototypes and user feedback turned a clinical machine into an adventure experience. The analysis shows how a different point of view changed the solution from technical optimization to experiential design."
+    }
+  ],
+  "failure_modes": [
+    "Theater over evidence: sticky notes, workshops, and journey maps can substitute for real user contact and hard choices.",
+    "Empathy without power analysis: listening to users does not automatically address incentives, exclusion, accessibility, or institutional constraints.",
+    "Prototype bias: teams can fall in love with a tangible prototype and treat enthusiastic reactions as stronger evidence than actual behavior warrants.",
+    "Local user overfitting: deep work with a small or unrepresentative group can produce a solution that fails for broader users or edge cases.",
+    "Endless iteration: the framework can become a reason to defer strategic commitment when the evidence is already sufficient to decide."
+  ],
+  "scope_and_limits": "Design Thinking is strongest for ambiguous human-facing products, services, workflows, and organizational experiences where user research and cheap experiments can change the solution. It is weaker for problems governed primarily by formal proof, hard physical constraints, known regulatory requirements, or optimization over stable quantitative objectives. It should be paired with domain expertise, rigorous evaluation, and implementation discipline.",
+  "source_texts": [
+    {
+      "title": "Tim Brown, Change by Design",
+      "kind": "primary"
+    },
+    {
+      "title": "Tom Kelley and Jonathan Littman, The Art of Innovation",
+      "kind": "primary"
+    },
+    {
+      "title": "Jeanne Liedtka and Tim Ogilvie, Designing for Growth",
+      "kind": "secondary"
+    },
+    {
+      "title": "Hasso Plattner Institute of Design at Stanford, An Introduction to Design Thinking: Process Guide",
+      "url": "https://dschool.stanford.edu/resources/getting-started-with-design-thinking",
+      "kind": "secondary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Jobs-to-be-Done",
+      "Lean Startup",
+      "Double-Loop Learning",
+      "OODA Loop"
+    ],
+    "ancestors": [
+      "Human-Centered Design",
+      "Participatory Design",
+      "Reflective Practice"
+    ],
+    "descendants": [
+      "Service Design",
+      "Lean UX",
+      "Design Sprint"
+    ],
+    "rivals": [
+      "Waterfall Development",
+      "First-Principles Reasoning",
+      "Theory of Constraints",
+      "Controlled Experimentation"
+    ],
+    "composes_with": [
+      "Jobs-to-be-Done",
+      "Controlled Experimentation",
+      "Scenario Planning",
+      "Systems Thinking"
+    ]
+  },
+  "built_at": "2026-06-29T03:40:06Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of IDEO, Stanford d.school, Tim Brown, and related human-centered design sources, without fetched source text."
+}

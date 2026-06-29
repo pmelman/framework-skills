@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:44Z",
+  "canonical_examples": [
+    {
+      "analysis": "Ubuntu frames the post-apartheid problem as a rupture in the moral community rather than only a ledger of individual crimes. The Truth and Reconciliation Commission sought public truth-telling, acknowledgement of victims, confession by perpetrators, and conditional amnesty where disclosure served restoration. The analysis does not erase responsibility; it asks what response can rebuild shared personhood after massive harm. Punishment alone would leave factual denial and social fragmentation intact, while cheap forgiveness without truth would also fail ubuntu's demand for restored right relation.",
+      "problem": "After apartheid, South Africa had to respond to politically motivated atrocities while trying to build a shared civic community. How should justice be pursued?"
+    },
+    {
+      "analysis": "In S v Makwanyane, ubuntu supports rejecting the death penalty because even a murderer remains a person within a moral community and the state must model dignity, compassion, and the possibility of restoration. The analysis gives weight to victims and public safety, but denies that justice is exhausted by retribution. A constitutional order informed by ubuntu should punish grave wrongdoing without destroying the offender's basic human dignity or foreclosing reintegration as a human possibility.",
+      "problem": "South Africa's Constitutional Court had to decide whether the death penalty was compatible with the new Constitution in S v Makwanyane."
+    }
+  ],
+  "core_claims": [
+    "Personhood is achieved and sustained through relationships; the self is not fully intelligible as an isolated chooser.",
+    "A community is morally healthy when its members recognize, support, and repair one another's humanity.",
+    "Wrongdoing damages both victim and offender by rupturing relationships, so justice should aim at restoration where restoration is possible.",
+    "Dignity is relational: to humiliate, exclude, or dehumanize another person diminishes the moral community that makes one's own personhood possible.",
+    "Consensus, dialogue, and public acknowledgement are morally important because they rebuild shared recognition rather than merely aggregate preferences.",
+    "Compassion and hospitality are not optional virtues added to justice; they are part of what justice requires in a relational moral order.",
+    "Individual rights matter, but they are interpreted alongside duties of care, reciprocity, and communal belonging."
+  ],
+  "description": "Ubuntu is an African relational ethics often summarized as 'a person is a person through other persons.' It evaluates action by how it sustains shared humanity, dignity, reciprocity, reconciliation, and communal flourishing rather than by isolated individual preference alone.",
+  "domains": [
+    "ethics",
+    "political-philosophy",
+    "african-philosophy",
+    "restorative-justice"
+  ],
+  "failure_modes": [
+    "Romantic communitarianism: invoking community harmony can obscure real domination, hierarchy, gendered burdens, or dissent within communities.",
+    "Coerced reconciliation: pressure to forgive may silence victims or substitute social peace for accountable repair.",
+    "Vagueness in policy translation: ubuntu's moral language can be cited rhetorically without specifying institutions, rights, or tradeoffs.",
+    "Majoritarian misuse: appeals to communal values can become tools for excluding nonconforming individuals or minorities.",
+    "Underweighting conflict: the framework can mislead practitioners when relationships are abusive or when separation, punishment, or rights enforcement is necessary."
+  ],
+  "key_vocabulary": {
+    "Communal flourishing": "The good of persons understood through the health of their relationships, institutions, and shared life.",
+    "Consensus": "A deliberative ideal in which decisions seek inclusive agreement and restored social alignment rather than simple victory by majority.",
+    "Dignity": "The worth of each person as a bearer of humanity whose treatment reflects and affects the moral community.",
+    "Hospitality": "The practice of receiving and supporting others as participants in shared humanity, including strangers and vulnerable persons.",
+    "Personhood": "A moral status and achievement developed through recognition, reciprocity, and participation in community.",
+    "Reconciliation": "The repair of ruptured relationships through truth, acknowledgement, accountability, and renewed recognition.",
+    "Restorative justice": "A justice orientation that asks how harm can be repaired and relationships restored, not only what punishment is deserved.",
+    "Shared humanity": "The underlying connection expressed in the maxim that one's humanity is bound up with the humanity of others."
+  },
+  "name": "Ubuntu",
+  "operative_procedure": [
+    "Identify the relationship field. Name the persons, families, communities, institutions, ancestors, or publics whose humanity is implicated by the problem.",
+    "Diagnose the rupture. Specify how dignity, recognition, reciprocity, trust, or belonging has been damaged.",
+    "Center affected voices. Give victims, vulnerable parties, and excluded members a real role in describing the harm and what repair would require.",
+    "Ask what restores personhood. Evaluate options by whether they rebuild shared humanity for victims, wrongdoers, and the wider community without denying accountability.",
+    "Seek truth and acknowledgement. Prefer processes that make harm publicly intelligible, invite responsibility, and prevent denial or erasure.",
+    "Balance rights with duties of care. Protect individual dignity while asking what reciprocity, compassion, and communal obligation require.",
+    "Design repair. Consider apology, restitution, reintegration, punishment, institutional reform, or separation according to what genuinely repairs the moral community.",
+    "Guard against oppressive harmony. Check whether calls for unity are silencing dissent, pressuring forgiveness, or preserving unjust power."
+  ],
+  "relationships": {
+    "ancestors": [
+      "African Communalism",
+      "Bantu Ethical Thought",
+      "Oral Wisdom Traditions"
+    ],
+    "composes_with": [
+      "Restorative Justice",
+      "Care Ethics",
+      "Communitarianism",
+      "Virtue Ethics"
+    ],
+    "descendants": [
+      "South African Constitutional Ubuntu Jurisprudence",
+      "Truth and Reconciliation Practices",
+      "African Relational Ethics"
+    ],
+    "related": [
+      "Care Ethics",
+      "Communitarianism",
+      "Social Contract Theory",
+      "Tikkun Olam"
+    ],
+    "rivals": [
+      "Libertarianism",
+      "Classical Liberalism",
+      "Kantian Deontology",
+      "Utilitarianism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Ubuntu is strongest for moral, legal, organizational, and political problems involving reconciliation, dignity, communal repair, social fragmentation, and the limits of individualism. It is weaker when invoked as a vague slogan, when community norms are oppressive, or when urgent protection requires coercive separation. It should be applied with explicit safeguards for dissent, rights, and victim agency.",
+  "source_summary": "Authored from model knowledge of African relational ethics, South African constitutional jurisprudence, and truth-and-reconciliation literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Desmond Tutu, No Future Without Forgiveness"
+    },
+    {
+      "kind": "primary",
+      "title": "S v Makwanyane and Another, Constitutional Court of South Africa (1995)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Mogobe B. Ramose, African Philosophy through Ubuntu"
+    },
+    {
+      "kind": "secondary",
+      "title": "Thaddeus Metz, 'Toward an African Moral Theory'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Michael Battle, Ubuntu: I in You and You in Me"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a conflict or policy choice turns on restoring dignity, trust, or belonging after social harm",
+    "an individual-rights analysis feels too thin because identities, duties, and harms are deeply relational",
+    "a community must choose between punishment, reconciliation, restitution, and reintegration after wrongdoing",
+    "public truth, acknowledgement, and healing are necessary because denial or humiliation is part of the harm",
+    "the problem involves balancing personal autonomy with obligations of care, reciprocity, and shared humanity"
+  ]
+}

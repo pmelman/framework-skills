@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:09Z",
+  "canonical_examples": [
+    {
+      "analysis": "The problem is reframed from 'invent a better hook' to 'how does nature attach reversibly without glue or knots?' De Mestral treated burdock burrs as the biological model, identified the mechanism as tiny hooks catching loops in fur and fabric, abstracted the design principle as reversible mechanical interlocking between complementary surfaces, and translated it into nylon hook-and-loop fasteners. The solution did not copy the whole plant; it extracted the attachment strategy and reimplemented it with manufacturable materials.",
+      "problem": "George de Mestral examined burdock burrs that clung to his dog and clothing and sought a reusable fastening mechanism."
+    },
+    {
+      "analysis": "The design question becomes 'how do fast-moving animals move through a dense medium with minimal shock and drag?' Engineers treated the kingfisher's beak as the biological model, identified the mechanism as a long, tapered geometry that enters water with little splash, abstracted the principle as pressure-wave smoothing through a streamlined nose, and translated it into the 500 Series Shinkansen nose design. The result addressed tunnel boom, energy use, and speed by matching engineering constraints to an evolved morphology rather than by merely decorating the train with animal imagery.",
+      "problem": "Japanese Shinkansen trains created loud tunnel booms and aerodynamic drag when entering tunnels at high speed."
+    }
+  ],
+  "core_claims": [
+    "Biological forms, processes, and ecosystems contain design strategies that have been filtered by long-term selection under material, energy, and environmental constraints.",
+    "A useful biomimetic transfer copies a functional principle, not the organism as a whole; superficial resemblance is neither necessary nor sufficient.",
+    "The central move is functional abstraction: translating 'what the organism does' into a problem-neutral design principle that can be re-embodied in human materials and manufacturing systems.",
+    "Nature's solutions often optimize across multiple constraints at once, so single-metric engineering optimization can miss the value of integrated biological strategies.",
+    "A biomimetic concept remains unproven until it survives engineering translation: scale, material substitution, manufacturability, safety, and context can invalidate an otherwise elegant biological analogy.",
+    "Ecosystem-level biomimicry treats closed loops, local resources, modularity, and resilience as design targets rather than treating organisms only as sources of shapes or mechanisms."
+  ],
+  "description": "Biomimicry is a design and problem-solving framework that abstracts functional strategies from evolved biological forms, processes, and ecosystems, then translates those strategies into engineering, product, organizational, or architectural solutions.",
+  "domains": [
+    "design",
+    "engineering",
+    "sustainability",
+    "innovation",
+    "biology"
+  ],
+  "failure_modes": [
+    "Surface mimicry: copying an organism's appearance while missing the functional mechanism that actually solves the problem.",
+    "Scale-transfer error: assuming a strategy that works at a biological scale will work under different Reynolds numbers, loads, temperatures, manufacturing tolerances, or material properties.",
+    "Romantic naturalism: treating nature as automatically optimal, benign, or sustainable even though evolution optimizes reproductive fitness under local constraints, not human design goals.",
+    "Cherry-picking analogies: selecting a compelling organism after the fact to justify a preferred design rather than searching broadly across functions and constraints.",
+    "Ignoring the whole system: extracting a mechanism from an organism while omitting the ecological, life-cycle, energy, or maintenance conditions that make it viable."
+  ],
+  "key_vocabulary": {
+    "Abstract design principle": "A problem-neutral statement of the biological strategy, such as reversible mechanical interlocking or self-cleaning by microstructured hydrophobic surfaces.",
+    "Biological model": "The organism, structure, process, or ecosystem being studied as a source of design strategy.",
+    "Biomimetic translation": "The engineering step that reimplements an abstracted biological principle using human materials, fabrication methods, and constraints.",
+    "Emulate": "To reproduce the functional strategy of a biological system without necessarily reproducing its material, exact geometry, or evolutionary history.",
+    "Function": "The job a biological feature performs, stated independently of its biological form, such as attach, filter, cool, signal, protect, or move fluid.",
+    "Life's Principles": "A Biomimicry 3.8 vocabulary for recurring design patterns in living systems, including adaptation, resource efficiency, local responsiveness, and closed-loop cycling.",
+    "Nature as measure": "The use of biological and ecological performance as a benchmark for evaluating whether a design fits environmental and systemic constraints.",
+    "Nature as mentor": "The stance that biological systems are teachers for design inquiry rather than merely warehouses of extractable resources."
+  },
+  "name": "Biomimicry",
+  "operative_procedure": [
+    "State the design challenge in functional terms. Replace artifact language with verbs such as attach, repel, insulate, distribute load, reduce drag, sense, repair, or regulate temperature.",
+    "Define operating constraints. Record scale, medium, forces, energy budget, materials, life-cycle requirements, safety limits, and environmental conditions before searching for biological analogues.",
+    "Ask how nature performs the same function. Search across organisms, tissues, behaviors, and ecosystems that solve the function under comparable constraints.",
+    "Identify the biological mechanism. Separate the feature's function from incidental form, evolutionary history, and organism-specific context.",
+    "Abstract the design principle. Express the mechanism as a transferable rule or pattern that does not depend on the original organism.",
+    "Generate biomimetic concepts. Translate the abstract principle into candidate geometries, materials, processes, controls, or system architectures.",
+    "Test translation constraints. Check whether scale effects, material substitution, manufacturing, maintenance, regulation, and cost preserve or destroy the biological advantage.",
+    "Evaluate against nature-inspired benchmarks. Compare the concept on performance, resource use, adaptability, resilience, and waste, then iterate or return to the biological search."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Natural Selection Thinking",
+      "Systems Thinking",
+      "TRIZ"
+    ],
+    "composes_with": [
+      "First Principles Reasoning",
+      "Life Cycle Assessment",
+      "Design Thinking",
+      "Root-Cause Analysis"
+    ],
+    "descendants": [
+      "Bio-inspired Design",
+      "Biomimetic Materials",
+      "Ecomimicry"
+    ],
+    "related": [
+      "Natural Selection Thinking",
+      "Systems Thinking",
+      "TRIZ",
+      "Resilience Engineering"
+    ],
+    "rivals": [
+      "First Principles Reasoning",
+      "Classical Engineering Optimization",
+      "Technology Push Innovation",
+      "Human-Centered Design"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Biomimicry is strongest when a design problem can be stated as a biological function and when organisms face analogous physical or systemic constraints. It is less reliable for problems dominated by law, meaning, incentives, or human institutions, and it should not substitute for engineering analysis, prototyping, environmental assessment, or manufacturability review.",
+  "source_summary": "Authored from model knowledge of Janine Benyus, Biomimicry 3.8 materials, canonical Velcro and Shinkansen cases, and biomimetic design literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Janine M. Benyus, Biomimicry: Innovation Inspired by Nature (1997)"
+    },
+    {
+      "kind": "primary",
+      "title": "George de Mestral, Separable Fastening Device, U.S. Patent 2,717,437 (1955)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Yoseph Bar-Cohen, Biomimetics: Biologically Inspired Technologies (2005)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Biomimicry Institute, AskNature"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "you need an engineering or design solution for a function that living systems also perform, such as attachment, cooling, sensing, protection, filtration, or movement",
+    "a conventional design is too energy-intensive, material-intensive, brittle, noisy, wasteful, or poorly adapted to its environment",
+    "the problem requires balancing several physical and ecological constraints rather than optimizing a single performance metric",
+    "you can study biological analogues and translate their mechanisms into manufacturable human materials or processes",
+    "a sustainability challenge calls for closed-loop, locally adapted, resilient, or resource-efficient design patterns"
+  ]
+}

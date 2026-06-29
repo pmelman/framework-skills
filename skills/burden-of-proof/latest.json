@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:40:09Z",
+  "canonical_examples": [
+    {
+      "analysis": "The prosecution carries both the burden of production and the burden of persuasion for every element of the charged crime. The presumption of innocence fixes the default: if the evidence leaves reasonable doubt, the defendant must be acquitted. The framework therefore asks not merely which story seems plausible, but whether the party with the burden has crossed the constitutionally required standard beyond a reasonable doubt.",
+      "problem": "In a criminal trial, the state accuses a defendant of a crime and the defendant pleads not guilty."
+    },
+    {
+      "analysis": "In negligence, the plaintiff normally bears the burden of proving duty, breach, causation, and damages by a preponderance of the evidence. The default is no liability unless those elements are established. The framework separates evidence that merely raises suspicion from evidence that makes each required element more likely than not; failure on any required element means the defendant prevails even if the accident was serious.",
+      "problem": "In a civil negligence action, an injured plaintiff claims the defendant's conduct caused compensable harm."
+    }
+  ],
+  "core_claims": [
+    "Every adjudicative or argumentative setting has a default position that wins if the required burden is not carried.",
+    "The party asserting a claim, charge, defense, exception, or change from the status quo usually bears at least an initial burden of production.",
+    "Burden of production and burden of persuasion are distinct; producing enough evidence to be heard does not mean persuading the factfinder to the required standard.",
+    "Standards of proof deliberately allocate the risk of error, demanding more evidence when false positives are more costly than false negatives.",
+    "Presumptions shift what must be answered and sometimes who must produce evidence, but they do not automatically settle ultimate persuasion unless the governing rule says so.",
+    "A claim can be possibly true, plausible, or even somewhat supported and still fail if it does not satisfy the applicable burden.",
+    "Changing the burden changes the outcome in close cases without changing the underlying facts."
+  ],
+  "description": "Burden of Proof is a legal and argumentative framework for determining who must produce evidence, who must persuade the decision-maker, what default applies if proof is insufficient, and which standard of evidence governs the decision.",
+  "domains": [
+    "law",
+    "argumentation",
+    "epistemology",
+    "decision-making",
+    "public-policy"
+  ],
+  "failure_modes": [
+    "Burden shifting by rhetoric: demanding that skeptics disprove an unsupported assertion instead of requiring the claimant to carry the initial burden.",
+    "Conflating standards: treating preponderance, clear and convincing evidence, and beyond a reasonable doubt as vague synonyms for 'enough proof.'",
+    "Ignoring elements: arguing that a general narrative is persuasive while failing to prove each legally required element.",
+    "Overusing legal templates outside law: applying courtroom burdens to scientific inquiry, policy design, or moral deliberation where defaults and error costs may differ.",
+    "Presumption confusion: treating a presumption as conclusive when it is rebuttable, or treating a rebuttable presumption as weightless."
+  ],
+  "key_vocabulary": {
+    "Beyond a reasonable doubt": "The highest common standard of proof, used in criminal cases to reduce the risk of wrongful conviction.",
+    "Burden of persuasion": "The obligation to convince the factfinder that a proposition meets the applicable standard of proof.",
+    "Burden of production": "The obligation to introduce enough evidence on an issue for it to be considered by the decision-maker.",
+    "Clear and convincing evidence": "An intermediate standard requiring a high probability or firm belief, often used when important interests are at stake but criminal conviction is not.",
+    "Default rule": "The outcome that follows if no party carries the assigned burden.",
+    "Preponderance of the evidence": "The ordinary civil standard requiring that a proposition be more likely true than not.",
+    "Presumption": "A rule that requires a factfinder to assume a fact or legal conclusion unless sufficient contrary evidence is produced.",
+    "Prima facie case": "A showing sufficient to support a claim or defense if not rebutted.",
+    "Standard of proof": "The level of confidence or evidentiary strength required for a party to satisfy the burden of persuasion."
+  },
+  "name": "Burden of Proof",
+  "operative_procedure": [
+    "Identify the forum and governing rule. Determine whether the setting is criminal, civil, administrative, scientific, policy, or informal argument because burdens are institution-specific.",
+    "State the claim and default. Specify what proposition is being asserted and what outcome follows if the evidence remains insufficient.",
+    "Break the claim into elements. List each element, defense, exception, or presumption that must be established.",
+    "Assign burdens. For each issue, identify who bears the burden of production and who bears the burden of persuasion.",
+    "Set the standard of proof. Apply the relevant threshold, such as probable cause, preponderance, clear and convincing evidence, or beyond a reasonable doubt.",
+    "Test production first. Ask whether the responsible party has introduced enough admissible or relevant evidence to put the issue in play.",
+    "Evaluate persuasion element by element. Decide whether the evidence meets the required standard for each burdened proposition, not merely whether the overall story sounds plausible.",
+    "Apply presumptions and burden shifts. Note what has shifted, what remains with the original party, and what default controls if the factfinder is left uncertain.",
+    "Conclude by default if needed. If the burden is unmet, state that the burdened party loses on that issue even if the opposing account is not proven false."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Argumentation Theory",
+      "Classical Logic",
+      "Common Law Adjudication"
+    ],
+    "composes_with": [
+      "Argumentation Theory",
+      "Evidence Law",
+      "Bayesian Epistemology",
+      "Fallacy Analysis"
+    ],
+    "descendants": [
+      "Standards of Proof",
+      "Presumption Analysis",
+      "Evidentiary Burden Shifting"
+    ],
+    "related": [
+      "Evidentialism",
+      "Ethics of Belief",
+      "Argumentation Theory",
+      "Signal Detection Theory"
+    ],
+    "rivals": [
+      "Bayesian Epistemology",
+      "Inference to the Best Explanation",
+      "Precautionary Principle",
+      "Dialectical Burden Shifting"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Burden of Proof is strongest in legal, regulatory, institutional, and adversarial reasoning where a decision must be made under uncertainty and a rule specifies defaults and error allocation. It is less complete as a truth-finding method in open-ended science or inquiry because a party can fail to meet a burden even when the proposition is true.",
+  "source_summary": "Authored from model knowledge of evidence law, McCormick, Wigmore, Federal Rules of Evidence, In re Winship, and standard civil and criminal burden doctrines, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "In re Winship, 397 U.S. 358 (1970)"
+    },
+    {
+      "kind": "primary",
+      "title": "Federal Rules of Evidence"
+    },
+    {
+      "kind": "secondary",
+      "title": "John Henry Wigmore, Evidence in Trials at Common Law"
+    },
+    {
+      "kind": "secondary",
+      "title": "McCormick on Evidence"
+    },
+    {
+      "kind": "secondary",
+      "title": "Ronald J. Allen et al., Evidence: Text, Problems, and Cases"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a dispute turns on who must prove a claim, defense, exception, or accusation",
+    "a decision-maker must choose an outcome even though the evidence remains uncertain or incomplete",
+    "participants are trying to force opponents to disprove a claim that has not yet been supported",
+    "different error costs require different proof thresholds, such as civil liability versus criminal punishment",
+    "a presumption, default rule, or status quo determines what happens if the evidence is evenly balanced"
+  ]
+}
