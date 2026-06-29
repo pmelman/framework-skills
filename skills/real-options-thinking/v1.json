@@ -1,0 +1,127 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:08Z",
+  "canonical_examples": [
+    {
+      "analysis": "A discounted-cash-flow analysis tends to value the project as if management must commit now to a fixed operating plan. Real options thinking separates the mine into options: defer development until commodity prices reveal more information, expand if prices rise, contract or mothball if they fall, and abandon if operating value drops below salvage value. Volatility in copper prices can increase the value of waiting and staged development because downside is partly capped by abandonment while upside remains available through expansion. The recommendation is not simply 'invest if NPV is positive,' but design the project so management preserves exercise rights at future decision points.",
+      "problem": "The natural-resource investment cases used in Brennan and Schwartz's work on evaluating copper mines under uncertain commodity prices."
+    },
+    {
+      "analysis": "Trigeorgis treats the investment as a compound option rather than a single irreversible outlay. An early R&D stage buys information and the right, but not the obligation, to proceed to pilot production, market launch, or expansion. If technical or market signals are poor, the firm abandons after a limited loss; if they are strong, it exercises later growth options. The value of the project therefore includes both expected cash flows and the option value of sequential learning, making a seemingly negative static NPV project potentially worth funding in stages.",
+      "problem": "A staged R&D and new-product development investment in Trigeorgis's real options analysis."
+    }
+  ],
+  "core_claims": [
+    "Under uncertainty, managerial flexibility has economic value that ordinary static NPV can miss.",
+    "Irreversible investment should often be delayed when waiting reveals valuable information and the opportunity does not expire immediately.",
+    "Higher volatility can increase the value of an investment opportunity when downside exposure is limited and upside can still be exercised.",
+    "Investment opportunities can be decomposed into options to defer, expand, contract, abandon, switch, or stage commitments.",
+    "A project with negative passive NPV may be valuable if it creates strategic follow-on options or learning rights.",
+    "The value of flexibility depends on exclusivity, expiration, exercise cost, underlying asset value, uncertainty, and the cost of waiting.",
+    "Commitment is valuable only when it improves option position, preempts rivals, reduces uncertainty, or prevents option decay enough to offset lost flexibility."
+  ],
+  "description": "Real Options Thinking applies option valuation logic to real investments, strategy, and project design. It values flexibility, staged commitment, abandonment rights, and learning under uncertainty rather than treating decisions as all-or-nothing irreversible bets.",
+  "domains": [
+    "strategy",
+    "finance",
+    "decision-theory",
+    "innovation"
+  ],
+  "failure_modes": [
+    "Option-label inflation: calling every possibility an option without specifying exercise rights, expiration, costs, and exclusivity creates false precision.",
+    "Overvaluing delay: waiting can destroy value when rivals preempt the opportunity, learning is slow, or the option decays rapidly.",
+    "Misusing financial-option formulas: Black-Scholes-style assumptions often fail for real assets with non-traded underlyings, strategic interaction, and managerial discretion.",
+    "Ignoring exercise discipline: organizations may preserve options but never define trigger conditions, leading to drift and sunk-cost escalation.",
+    "Treating uncertainty as always beneficial: volatility helps only when upside participation and downside limitation are real."
+  ],
+  "key_vocabulary": {
+    "Abandonment option": "The right to stop a project and recover salvage value or avoid further losses when conditions deteriorate.",
+    "Compound option": "An option whose exercise creates another option, common in staged R&D, exploration, and platform investments.",
+    "Deferral option": "The right to wait before committing capital, valuable when uncertainty will resolve and the opportunity remains available.",
+    "Exercise price": "The cost or commitment required to activate the next stage of the real investment.",
+    "Expansion option": "The right to scale up production, market coverage, or capability if favorable signals arrive.",
+    "Irreversibility": "The degree to which committed resources cannot be recovered; high irreversibility increases the value of waiting and staging.",
+    "Option premium": "The cost paid to keep future choice alive, such as a prototype, land lease, pilot program, or modular architecture.",
+    "Underlying asset": "The real project, market opportunity, resource, or capability whose future value determines whether the option should be exercised.",
+    "Volatility": "Uncertainty in the underlying asset's future value; it can raise option value when downside is bounded."
+  },
+  "name": "Real Options Thinking",
+  "operative_procedure": [
+    "Frame the decision as a portfolio of rights, not a single go/no-go choice: identify what can be deferred, staged, expanded, contracted, switched, or abandoned.",
+    "Specify the underlying asset for each option and the uncertainty that drives its future value, such as demand, price, technical feasibility, regulation, or competitor action.",
+    "Estimate the exercise price, option premium, expiration date, exclusivity, and irreversibility for each option; discard vague possibilities that lack real exercise rights.",
+    "Map information arrival: state what signals will be learned before each decision point and how those signals change expected value.",
+    "Compare commitment paths using option logic: value downside protection, upside participation, cost of waiting, and strategic preemption risk alongside static NPV.",
+    "Design staged commitments that buy information cheaply before large irreversible outlays, using pilots, leases, prototypes, modular capacity, or partnerships where appropriate.",
+    "Define exercise, abandon, and expand triggers in advance so the organization does not convert flexibility into indecision or sunk-cost escalation.",
+    "Synthesize the recommended option strategy: hold, buy, exercise, expand, defer, abandon, or let expire, with the assumptions that would reverse the recommendation."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Financial Option Pricing",
+      "Decision Theory",
+      "Capital Budgeting",
+      "Expected Utility Theory"
+    ],
+    "composes_with": [
+      "Decision Analysis",
+      "Scenario Planning",
+      "Robust Decision Making",
+      "Opportunity Cost and Marginal Analysis"
+    ],
+    "descendants": [
+      "Strategic Options",
+      "Discovery-Driven Planning",
+      "Lean Startup"
+    ],
+    "related": [
+      "Decision Analysis",
+      "Expected-Value Reasoning",
+      "Scenario Planning",
+      "Minimax Regret",
+      "Robust Decision Making"
+    ],
+    "rivals": [
+      "Net Present Value Analysis",
+      "Payback Period",
+      "Commitment Strategy",
+      "First-Mover Advantage",
+      "Minimax Regret"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Real Options Thinking is strongest for irreversible investments under uncertainty where managers can actively change course after learning: R&D, natural resources, infrastructure, venture strategy, platforms, and market entry. It is weaker for fully reversible decisions, situations with no meaningful future discretion, and settings where competitive preemption makes waiting costly. Quantitative option pricing can help, but the framework is often most useful as disciplined qualitative design of staged commitments.",
+  "source_summary": "Authored from model knowledge of real options finance and strategy sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Stewart C. Myers, 'Determinants of Corporate Borrowing' (1977)"
+    },
+    {
+      "kind": "primary",
+      "title": "Avinash K. Dixit and Robert S. Pindyck, Investment Under Uncertainty (1994)"
+    },
+    {
+      "kind": "primary",
+      "title": "Lenos Trigeorgis, Real Options: Managerial Flexibility and Strategy in Resource Allocation (1996)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael J. Brennan and Eduardo S. Schwartz, 'Evaluating Natural Resource Investments' (1985)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Real options valuation (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Real_options_valuation"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A decision requires costly, partly irreversible commitment while major technical, market, regulatory, or price uncertainty remains unresolved.",
+    "A project can be staged so early spending buys information before larger commitments are made.",
+    "Static NPV looks unattractive but the project may create valuable follow-on rights, learning, or strategic footholds.",
+    "Management can abandon, expand, contract, switch, or defer after observing future signals.",
+    "The cost of waiting, competitor preemption, and value of flexibility must be weighed explicitly."
+  ]
+}

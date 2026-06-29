@@ -1,0 +1,123 @@
+{
+  "name": "Commitment Devices",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Commitment Devices are deliberate constraints that change future incentives or available choices so an actor with unstable preferences, credibility problems, or bargaining exposure can make a present intention binding. The framework analyzes precommitment, self-binding, hostage-giving, sunk-cost signals, and Ulysses contracts as ways to make promises, threats, and plans more credible through constraint.",
+  "domains": [
+    "decision-theory",
+    "behavioral-economics",
+    "strategy",
+    "political-science"
+  ],
+  "when_to_use": [
+    "you expect your future self to prefer a short-term temptation over a long-term plan you endorse now",
+    "a promise or threat will not be believed unless the promisor visibly gives up discretion or posts a bond",
+    "a negotiation, deterrence problem, or alliance depends on making backing down harder than following through",
+    "a policy or institution must survive predictable political pressure, time inconsistency, or opportunistic renegotiation",
+    "a plan keeps failing because intentions are cheap and the environment leaves too many escape routes"
+  ],
+  "core_claims": [
+    "An actor can improve its expected outcome by reducing its own future choice set when future preferences or incentives are predictably misaligned with present objectives.",
+    "A commitment is credible only when observers can verify that reneging will be costly, impossible, or controlled by someone other than the committing actor.",
+    "The value of commitment depends on timing: a constraint adopted before temptation, bargaining, or crisis can change payoffs that would be unchanged afterward.",
+    "Apparently irrational acts such as burning bridges, posting hostages, or delegating enforcement can be rational when they transform another party's expectations.",
+    "Commitment devices trade flexibility for credibility; the same rigidity that protects against temptation also creates losses when circumstances change.",
+    "Self-command problems are strategic games between temporally separated selves, not merely failures of willpower.",
+    "Partial, hidden, or reversible constraints often create false confidence because they look like commitments without changing the future payoff structure."
+  ],
+  "key_vocabulary": {
+    "Precommitment": "A present action that constrains later options before temptation, bargaining pressure, or crisis arrives.",
+    "Ulysses contract": "A self-binding arrangement named for Odysseus being tied to the mast so he could hear the Sirens without being able to steer toward them.",
+    "Time inconsistency": "A condition in which the action preferred in advance differs from the action preferred when the moment of choice arrives.",
+    "Credible commitment": "A promise or threat backed by observable costs, institutional constraints, or delegated control that make follow-through believable.",
+    "Burning ships": "A dramatic commitment tactic that removes the option of retreat, thereby changing morale and opponents' expectations.",
+    "Hostage or bond": "A valuable asset placed at risk so that violation of the commitment carries an enforceable penalty.",
+    "Delegation": "Giving another person, institution, or automatic mechanism authority to enforce a future action or block a future defection.",
+    "Audience cost": "A reputational or political penalty created when public commitments make backing down visible to relevant observers."
+  },
+  "operative_procedure": [
+    "Identify the commitment target: specify whether the problem is self-control, promise credibility, threat credibility, bargaining leverage, or institutional time inconsistency.",
+    "Map the temporal game between present actor, future actor, and relevant observers; state what each party will prefer at the later decision point if no constraint is imposed.",
+    "Locate the tempting exit, reneging path, or bargaining concession that must be made costly, infeasible, or publicly humiliating.",
+    "Choose the commitment mechanism: remove an option, raise the cost of deviation, delegate control, post a bond, create an audience cost, or automate enforcement.",
+    "Make the constraint observable enough for the relevant party to update beliefs; a hidden commitment can discipline the self but cannot usually signal credibility to others.",
+    "Calibrate reversibility: preserve emergency escape valves only when they are costly, rule-bound, or controlled by a trusted third party.",
+    "Test for changed payoffs by asking what happens at the moment of temptation or confrontation: if the constrained actor would still defect cheaply, the device is symbolic.",
+    "Assess flexibility costs, exploitation risk, and moral/legal limits before recommending the device.",
+    "State the resulting strategy as a transformed choice architecture: what option has been removed, what cost has been added, who observes it, and what new equilibrium or behavior should follow."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "In Homer's Odyssey, Odysseus wants to hear the Sirens' song while avoiding the predictable future impulse to sail toward destruction.",
+      "analysis": "Odysseus treats the problem as time inconsistency between his planning self and his future enchanted self. He delegates control to his crew, orders them to plug their ears, and has himself tied to the mast with instructions not to release him no matter what he later says. The commitment works because the future self loses command authority at the decisive moment; the desired experience remains possible while the catastrophic action is removed."
+    },
+    {
+      "problem": "In Thomas Schelling's bargaining examples, a negotiator may need to convince an opponent that a threat or refusal is real even though compromise would later be tempting.",
+      "analysis": "The Schelling move is to bind oneself before the opponent chooses: make a public pledge, delegate authority, destroy communication channels, or otherwise create costs for backing down. The point is not stubbornness for its own sake but changing the opponent's expectation of what will happen if they press. By visibly narrowing discretion, the negotiator can make a demand or refusal credible and thereby alter the bargaining outcome."
+    }
+  ],
+  "failure_modes": [
+    "Overcommitment: the actor locks in a course that becomes harmful after new information arrives, confusing credibility with wisdom.",
+    "Symbolic constraint: the device looks costly but leaves quiet escape routes, so neither future behavior nor opponent expectations actually change.",
+    "Commitment arms race: each side tries to out-bind the other, producing escalation or collision instead of settlement.",
+    "Misread audience: a public pledge creates costs with the wrong observers or none with the decisive audience, so it fails as a signal.",
+    "Self-punitive design: the device imposes severe penalties for ordinary mistakes and turns a self-control aid into a source of avoidable harm."
+  ],
+  "scope_and_limits": "Commitment Devices are strongest where future preference reversal, opportunism, or credibility failure is predictable and the relevant constraint can be made observable and enforceable. They are weaker in highly uncertain environments where flexibility has high option value, in relationships where trust-building is preferable to coercive self-binding, or where legal and ethical constraints make threats, bonds, or delegation inappropriate.",
+  "source_texts": [
+    {
+      "title": "Homer, The Odyssey",
+      "kind": "primary"
+    },
+    {
+      "title": "Thomas C. Schelling, The Strategy of Conflict",
+      "kind": "primary"
+    },
+    {
+      "title": "Thomas C. Schelling, Choice and Consequence",
+      "kind": "primary"
+    },
+    {
+      "title": "Jon Elster, Ulysses and the Sirens: Studies in Rationality and Irrationality",
+      "kind": "primary"
+    },
+    {
+      "title": "Robert H. Strotz, 'Myopia and Inconsistency in Dynamic Utility Maximization'",
+      "kind": "primary"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "Temporal Discounting",
+      "Signaling Theory",
+      "Principal-Agent Analysis"
+    ],
+    "ancestors": [
+      "Decision Theory",
+      "Expected Utility Theory",
+      "Game Theory"
+    ],
+    "descendants": [
+      "Self-Binding",
+      "Constitutional Political Economy",
+      "Time-Inconsistency Policy Design"
+    ],
+    "rivals": [
+      "Robust Decision Making",
+      "OODA Loop",
+      "Satisficing",
+      "Pragmatism"
+    ],
+    "composes_with": [
+      "Nudge and Choice Architecture",
+      "Deterrence Theory",
+      "Mechanism Design",
+      "Pre-mortem"
+    ]
+  },
+  "built_at": "2026-06-29T03:36:04Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of the named sources and standard commitment-device literature, without fetched source text."
+}

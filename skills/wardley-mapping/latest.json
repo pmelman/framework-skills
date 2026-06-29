@@ -1,0 +1,125 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:08Z",
+  "canonical_examples": [
+    {
+      "analysis": "Wardley maps the user need for online photo sharing, then places components such as website, photo storage, compute, and electricity on a chain of dependency. Compute and storage are less visible to the user than the sharing experience, but by the mid-2000s they are moving toward commodity infrastructure. The strategic move is to consume commodity infrastructure rather than build undifferentiated data centers, focusing effort on the visible, less evolved parts that users value. The map explains why cloud infrastructure becomes a change in the landscape rather than merely a cheaper hosting vendor.",
+      "problem": "Simon Wardley's early online-photo-service examples used to explain why commodity cloud computing changed strategic choices."
+    },
+    {
+      "analysis": "The map starts with the public need for tax services, then decomposes into components such as identity, forms, case management, hosting, monitoring, and commodity compute. Components differ in evolution: custom policy-facing services require close user learning, while infrastructure and common platforms are more industrialized. A Wardley analysis recommends mixed methods: agile development near uncertain user needs, product or platform management for transitional components, and utility procurement for commodity ones. The point is not a single transformation method but doctrine fitted to position on the map.",
+      "problem": "Government Digital Service-style public service transformation cases associated with Wardley Mapping."
+    }
+  ],
+  "core_claims": [
+    "Strategy requires situational awareness: a visual map of users, value-chain dependencies, and component evolution before choosing action.",
+    "Components evolve through recognizable stages from genesis to custom-built to product/rental to commodity/utility.",
+    "Methods should vary by evolutionary stage: exploration practices fit uncertain components, while industrialized practices fit commodity components.",
+    "Competitive advantage often comes from exploiting climatic patterns in evolution, such as commoditization, inertia, and ecosystem effects.",
+    "A value chain without an evolution axis is not a strategy map because it cannot show which forms of play are appropriate where.",
+    "Organizations fail strategically when they treat all components as special, outsource core differentiators, or build commodity components by hand.",
+    "Doctrine consists of generally applicable principles, while gameplay consists of context-specific moves chosen from the map."
+  ],
+  "description": "Wardley Mapping is a strategy mapping method that plots user needs, value-chain dependencies, and component evolution to improve situational awareness and select appropriate strategic play. It distinguishes doctrine, climatic patterns, and gameplays across a landscape of changing industrial maturity.",
+  "domains": [
+    "strategy",
+    "technology",
+    "organizational-design",
+    "product-management"
+  ],
+  "failure_modes": [
+    "False precision: teams can over-interpret rough component positions as measured facts rather than shared hypotheses to be challenged.",
+    "User invisibility: maps that begin with internal systems instead of user needs lose the vertical anchor that makes visibility meaningful.",
+    "One-method transformation: applying agile, outsourcing, platform, or lean methods everywhere ignores the framework's central claim that method depends on evolution.",
+    "Cargo-cult gameplay: copying another organization's move without the same landscape, constraints, or timing can produce the opposite result.",
+    "Map without movement: creating a diagram but failing to identify climatic patterns, inertia, and concrete plays leaves strategy at description."
+  ],
+  "key_vocabulary": {
+    "Climatic pattern": "A broad, recurring change in the landscape, such as commoditization or increasing componentization, that actors cannot easily stop but can exploit.",
+    "Component": "A capability, activity, practice, data asset, technology, or supplier dependency needed to satisfy a user need.",
+    "Doctrine": "Universally useful principles such as know your users, remove bias and duplication, use appropriate methods, and communicate with maps.",
+    "Evolution axis": "The horizontal movement of components from genesis through custom-built and product/rental toward commodity or utility.",
+    "Gameplay": "A context-specific strategic move, such as open-sourcing, exploiting inertia, building an ecosystem, or using a tower-and-moat play.",
+    "Genesis": "The early, uncertain stage where something is novel, poorly understood, risky, and built through exploration.",
+    "Inertia": "Resistance to change caused by existing business models, practices, skills, incentives, or sunk investments.",
+    "User need": "The visible demand or purpose that anchors the map; components matter because they serve this need.",
+    "Value chain": "The vertical chain of dependencies from user-visible needs down to less visible supporting components."
+  },
+  "name": "Wardley Mapping",
+  "operative_procedure": [
+    "Name the users and their needs first; place the most visible user needs at the top of the map rather than beginning with internal assets.",
+    "Decompose the value chain into components that support those needs, drawing dependencies downward from visible outcomes to less visible capabilities.",
+    "Place each component on the evolution axis: genesis, custom-built, product/rental, or commodity/utility, using evidence from market maturity, standardization, substitutability, and price competition.",
+    "Challenge the map with others: mark uncertain placements, missing users, duplicated components, and assumptions about dependencies.",
+    "Identify climatic patterns affecting the landscape, especially commoditization, componentization, ecosystem formation, and inertia.",
+    "Apply doctrine before gameplay: remove obvious waste, improve user focus, use appropriate methods for each evolutionary stage, and make ownership clear.",
+    "Select strategic plays from map position, such as building on commodity utilities, open-sourcing to accelerate commoditization, exploiting competitor inertia, or investing in novel visible components.",
+    "Translate the map into action by assigning different management methods, sourcing choices, investment levels, and timing to components based on their position.",
+    "Revisit the map as components evolve and competitors move; treat it as a living model of the landscape rather than a static architecture diagram."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Value Chain Analysis",
+      "Competitive Strategy",
+      "OODA Loop",
+      "Situational Awareness"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "OODA Loop",
+      "Jobs-to-be-Done",
+      "Scenario Planning",
+      "Theory of Constraints"
+    ],
+    "descendants": [
+      "Platform Strategy",
+      "Digital Transformation Mapping",
+      "Cloud Strategy"
+    ],
+    "related": [
+      "Porter's Five Forces",
+      "Value Chain Analysis",
+      "Systems Thinking",
+      "Jobs-to-be-Done",
+      "OODA Loop"
+    ],
+    "rivals": [
+      "SWOT Analysis",
+      "Balanced Scorecard",
+      "Porter's Five Forces",
+      "Business Model Canvas",
+      "Resource-Based View"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Wardley Mapping is strongest for technology strategy, digital organizations, platform decisions, sourcing choices, and competitive moves where component maturity varies. It is weaker where user needs and dependencies cannot be decomposed, where evidence about evolution is unavailable, or where participants treat the map as objective measurement rather than a conversational model for strategic awareness.",
+  "source_summary": "Authored from model knowledge of Simon Wardley's mapping writings and strategy sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Simon Wardley, Wardley Maps: Topographical Intelligence in Business"
+    },
+    {
+      "kind": "primary",
+      "title": "Simon Wardley, 'The Future is More Predictable Than You Think' (blog series)"
+    },
+    {
+      "kind": "primary",
+      "title": "Simon Wardley, 'On Being Lost' (blog post)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Wardley map (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wardley_map"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A strategy problem involves users, technology, suppliers, internal capabilities, and dependencies whose maturity differs across the landscape.",
+    "A team is debating whether to build, buy, outsource, open-source, standardize, or invest in a capability.",
+    "A transformation effort is applying one management method everywhere despite different levels of uncertainty and industrial maturity.",
+    "Competitors may be exploiting commoditization, ecosystem dynamics, or organizational inertia.",
+    "Stakeholders lack a shared visual model of what matters to users and how underlying components support it."
+  ]
+}

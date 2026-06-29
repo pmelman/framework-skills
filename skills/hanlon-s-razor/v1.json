@@ -1,0 +1,119 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:07Z",
+  "canonical_examples": [
+    {
+      "analysis": "Bloch's presentation of Hanlon's Razor asks the interpreter to avoid treating a bad outcome as evidence of hostile intent when ordinary stupidity is sufficient. The maxim does not prove innocence; it changes the default explanation. The analysis first tests whether error, confusion, incentives, bottlenecks, or incompetence explain the harm without positing malice. Only if those fail, or if there is independent evidence of intent, should malice become the leading hypothesis.",
+      "problem": "In the Murphy's Law tradition where Hanlon's Razor is usually cited, how should one interpret a damaging mistake before accusing the actor of malice?"
+    },
+    {
+      "analysis": "Heinlein's earlier formulation broadens the same diagnostic move: many events that look villainous can arise from stupidity, vanity, misplaced idealism, or muddled incentives. The framework therefore asks whether the agents had the competence, coordination, motive, and information required for a malicious plan. If the observed pattern is better explained by ordinary human limitation and institutional drift, the recommendation is to fix process and incentives before escalating to blame.",
+      "problem": "In Robert Heinlein's Logic of Empire, why does the narrator warn against explaining oppressive or harmful systems primarily by villainy?"
+    }
+  ],
+  "core_claims": [
+    "A harmful outcome is weak evidence of malicious intent when incompetence, confusion, neglect, or noisy execution would predict the same outcome.",
+    "Attributions of malice require independent evidence of motive, knowledge, capacity, and intentional action, not just the presence of harm.",
+    "People systematically over-attribute others' bad actions to character or intent while underweighting situational constraints and error.",
+    "The practical first response to many failures should be process repair, clarification, redundancy, or training rather than punishment or retaliation.",
+    "Conspiracy-like explanations often demand more coordination, secrecy, and competence than the actors plausibly possess.",
+    "The razor is a defeasible prior, not an acquittal: repeated convenient incompetence, concealment, or asymmetric benefit can make malice more likely."
+  ],
+  "description": "Hanlon's Razor is an attribution heuristic that advises against explaining harmful or frustrating behavior by malice when incompetence, error, noise, neglect, or ordinary human limitation is a sufficient explanation.",
+  "domains": [
+    "critical-thinking",
+    "attribution",
+    "conflict-resolution",
+    "risk-analysis"
+  ],
+  "failure_modes": [
+    "Naively excusing strategic abuse: sophisticated actors may disguise malice as incompetence or exploit others' reluctance to infer bad faith.",
+    "Ignoring structural incentives: the problem may be neither personal stupidity nor personal malice but a system that rewards harmful behavior.",
+    "Applying the razor after a repeated pattern without updating; recurrence, concealment, and selective benefit should increase suspicion.",
+    "Using 'incompetence' contemptuously, which can escalate conflict even while avoiding accusations of malice.",
+    "Treating intent as the only thing that matters; preventable incompetence can still warrant accountability, safeguards, or removal from responsibility."
+  ],
+  "key_vocabulary": {
+    "Attribution error": "A mistaken explanation of behavior that overemphasizes disposition or intent and underemphasizes situation, constraints, or error.",
+    "Bad faith": "Intentional deception or harmful action while pretending to be sincere, mistaken, or cooperative.",
+    "Burden of intent": "The evidential demand to show knowledge, motive, capacity, and purposeful action before concluding malice.",
+    "Charitable interpretation": "A provisional reading that prefers less hostile explanations compatible with the evidence.",
+    "Incompetence": "Failure caused by lack of skill, knowledge, attention, coordination, or reliable process rather than hostile intent.",
+    "Malice": "A deliberate intention to harm, deceive, obstruct, or exploit another party.",
+    "Noise": "Random variation, miscommunication, or execution error that creates bad outcomes without stable intent.",
+    "Razor": "A heuristic for choosing among explanations by preferring the simpler or more common one until evidence justifies a stronger claim."
+  },
+  "name": "Hanlon's Razor",
+  "operative_procedure": [
+    "State the harmful or frustrating observation without intent-laden language.",
+    "List non-malicous explanations first: error, ignorance, overload, ambiguity, bad incentives, process failure, conflicting goals, or random noise.",
+    "Ask whether those explanations predict the timing, pattern, and severity of the observed harm as well as a malice hypothesis does.",
+    "Test the malice hypothesis separately for motive, knowledge, capacity, coordination, and opportunity; do not infer all five from the outcome alone.",
+    "Look for update signals: repetition after warning, concealment, selective benefit, retaliation, lying, or costly steps that only make sense under intent.",
+    "Choose the lowest-hostility intervention that fits the evidence: clarify, repair process, add checks, train, document, escalate, or sanction.",
+    "Keep accountability separate from intent: even non-malicous failure may require restitution, role change, or safeguards.",
+    "Revise the attribution as new evidence arrives, especially when the same actor repeatedly benefits from supposedly accidental harm."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Occam's Razor",
+      "Principle of Charity",
+      "Attribution Theory"
+    ],
+    "composes_with": [
+      "Root Cause Analysis",
+      "Bayesian Epistemology",
+      "Nonviolent Communication",
+      "Systems Thinking"
+    ],
+    "descendants": [
+      "Assume Positive Intent",
+      "Blameless Postmortem",
+      "Steelmanning"
+    ],
+    "related": [
+      "Occam's Razor",
+      "Fundamental Attribution Error",
+      "Principle of Charity",
+      "Chesterton's Fence"
+    ],
+    "rivals": [
+      "Conflict Theory",
+      "Hermeneutics of Suspicion",
+      "Incentive Analysis",
+      "Critical Theory"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Hanlon's Razor is useful for first-pass interpretation of mistakes, delays, bureaucratic failures, interpersonal friction, and operational incidents. It is limited in adversarial settings, repeated abuse, fraud, politics, security, and contexts where actors have strong incentives to hide intent. It lowers the prior on malice; it does not eliminate the need for evidence, accountability, or escalation.",
+  "source_summary": "Authored from model knowledge of Hanlon's Razor, its Murphy's Law attribution, and related attribution theory, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Arthur Bloch, Murphy's Law Book Two: More Reasons Why Things Go Wrong! (1980)"
+    },
+    {
+      "kind": "primary",
+      "title": "Robert A. Heinlein, Logic of Empire (1941)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Hanlon's razor (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hanlon%27s_razor"
+    },
+    {
+      "kind": "secondary",
+      "title": "Attribution Theory (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Attribution_(psychology)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a bad outcome tempts immediate accusations of sabotage, hostility, or bad faith",
+    "an operational failure could plausibly come from confusion, overload, missing information, or weak process",
+    "a conflict is escalating because each side is reading the other's mistakes as intentional harm",
+    "a proposed response would punish intent before intent has been separately evidenced",
+    "a conspiracy-like explanation requires unusually high competence and coordination from actors who routinely make ordinary errors"
+  ]
+}

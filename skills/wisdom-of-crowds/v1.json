@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:07Z",
+  "canonical_examples": [
+    {
+      "analysis": "Galton expected the crowd at the livestock fair to perform poorly, but the median of many independent guesses nearly matched the ox's dressed weight. Wisdom of Crowds explains the result through error cancellation: individual guesses were noisy and biased in different directions, while aggregation preserved shared signal about size, breed, and experience. The crowd worked because judgments were numerous, partly informed, and not all copied from a single authority.",
+      "problem": "At the 1906 West of England Fat Stock and Poultry Exhibition, why did the aggregated guesses of fairgoers estimate an ox's weight so accurately?"
+    },
+    {
+      "analysis": "Condorcet's jury theorem formalizes one mechanism behind crowd wisdom. If each voter is independently more likely than chance to choose the correct option, the probability that the majority is correct rises as the group grows. The framework therefore values independent competence and warns that correlated errors or competence below chance reverse the result. The crowd is wise only under conditions that make aggregation amplify signal rather than shared bias.",
+      "problem": "Why can majority judgment outperform individual judgment in Condorcet's jury theorem?"
+    }
+  ],
+  "core_claims": [
+    "Aggregating many independent judgments can outperform most or all individual judgments when individual errors are partly uncorrelated.",
+    "Diversity of information and perspective improves collective accuracy because different people carry different fragments of the relevant signal.",
+    "Independence is a structural condition of crowd wisdom; social influence, herding, and shared sources make errors correlated and reduce the value of aggregation.",
+    "Decentralization lets local knowledge enter the judgment pool without requiring a central planner to possess all information.",
+    "Aggregation mechanisms must translate private judgments into a collective answer; without a suitable market, vote, average, ranking, or algorithm, dispersed knowledge remains unused.",
+    "Crowds fail when members are systematically biased in the same direction, when expertise is absent, or when incentives reward conformity rather than accuracy."
+  ],
+  "description": "Wisdom of Crowds is the framework, associated with Francis Galton's ox-weight observation and James Surowiecki's synthesis, that collective judgments can be highly accurate when they aggregate independent, diverse, decentralized information through an appropriate mechanism.",
+  "domains": [
+    "collective-intelligence",
+    "forecasting",
+    "decision-making",
+    "social-epistemology"
+  ],
+  "failure_modes": [
+    "Mistaking any crowd for a wise crowd; mobs, comment threads, and committees often violate independence, diversity, or incentives.",
+    "Allowing early public opinions to anchor later ones, producing information cascades rather than independent estimates.",
+    "Averaging judgments from people who share the same data source, training, ideology, or blind spot, which preserves correlated error.",
+    "Using crowd aggregation for problems requiring rare causal expertise or classified information that the crowd does not possess.",
+    "Choosing the wrong aggregation rule, such as majority vote for intensity-sensitive tradeoffs or simple averaging for badly skewed estimates."
+  ],
+  "key_vocabulary": {
+    "Aggregation": "The mechanism that combines individual judgments into a collective estimate, ranking, vote, market price, or decision.",
+    "Collective intelligence": "Problem-solving capacity that emerges from many agents contributing partial knowledge under suitable coordination conditions.",
+    "Decentralization": "The distribution of information and judgment across many local knowers rather than a single central authority.",
+    "Diversity of opinion": "Variation in information, models, experience, and error patterns that makes aggregation more informative.",
+    "Error cancellation": "The statistical tendency for independent overestimates and underestimates to offset one another in an aggregate.",
+    "Herding": "The loss of independence when people follow observed judgments of others rather than using their private information.",
+    "Independence": "A condition in which each judgment contributes private information rather than merely copying or reacting to prior judgments.",
+    "Information cascade": "A sequence in which people rationally ignore their own signals because earlier public choices seem more informative."
+  },
+  "name": "Wisdom of Crowds",
+  "operative_procedure": [
+    "Define the target judgment precisely: estimate, forecast, ranking, classification, or choice among options.",
+    "Assess whether many participants have at least weak, relevant information; do not aggregate pure ignorance.",
+    "Protect independence by collecting judgments privately before discussion, ranking, polling feedback, or leadership signals are revealed.",
+    "Increase diversity by sampling different experiences, locations, disciplines, incentives, and information sources.",
+    "Choose an aggregation mechanism suited to the task: mean or median for quantities, majority or ranked choice for discrete options, prediction market for probabilistic forecasts, or weighted aggregation when expertise is calibrated.",
+    "Check for correlated error: common data sources, shared ideology, social pressure, anchoring, incentives to conform, or copied forecasts.",
+    "Compare aggregate performance against experts, base rates, and past calibration when available.",
+    "Report both the aggregate answer and the conditions that make it credible or fragile, especially independence, diversity, and incentive quality."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Condorcet Jury Theorem",
+      "Statistical Averaging",
+      "Hayekian Knowledge Problem"
+    ],
+    "composes_with": [
+      "Prediction Markets",
+      "Delphi Method",
+      "Bayesian Epistemology",
+      "Forecasting"
+    ],
+    "descendants": [
+      "Prediction Markets",
+      "Crowdsourcing",
+      "Collective Intelligence",
+      "Superforecasting"
+    ],
+    "related": [
+      "Delphi Method",
+      "Ensemble Methods",
+      "Market Design",
+      "Social Epistemology"
+    ],
+    "rivals": [
+      "Expert Judgment",
+      "Technocracy",
+      "Great Man Theory",
+      "Central Planning"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Wisdom of Crowds is strongest for estimates and forecasts where many people hold partial information and errors are not too correlated. It is weaker for tasks requiring deep specialist knowledge, moral legitimacy, creative synthesis, or action under secrecy. Its central limit is structural: crowd size cannot compensate for shared bias, herding, bad incentives, or absent information.",
+  "source_summary": "Authored from model knowledge of Galton, Condorcet, Surowiecki, and collective-intelligence literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Francis Galton, 'Vox Populi' (1907)"
+    },
+    {
+      "kind": "primary",
+      "title": "Marquis de Condorcet, Essay on the Application of Analysis to the Probability of Majority Decisions (1785)"
+    },
+    {
+      "kind": "secondary",
+      "title": "James Surowiecki, The Wisdom of Crowds (2004)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Scott E. Page, The Difference (2007)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a quantitative estimate or forecast could draw on many people's partial local information",
+    "expert opinion is uncertain and independent judgments from diverse participants can be collected cheaply",
+    "a committee or organization risks over-weighting the loudest authority instead of aggregating private estimates",
+    "a public ranking, market price, poll, or average may reveal information dispersed across many individuals",
+    "a proposed collective decision needs screening for herding, correlated bias, or missing diversity before trusting the group"
+  ]
+}

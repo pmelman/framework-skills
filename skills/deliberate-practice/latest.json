@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:07Z",
+  "canonical_examples": [
+    {
+      "analysis": "Ericsson, Krampe, and Tesch-Romer compared violinists by skill level and reconstructed practice histories. The framework treats superior performance as the cumulative result of many hours of solitary, structured practice designed by teachers to improve specific weaknesses, rather than as mere playing, performing, or innate talent alone. The best violinists had accumulated substantially more deliberate practice by early adulthood, while ordinary music-related activity did not distinguish groups in the same way.",
+      "problem": "Why did the best violinists at the Berlin music academy differ from less accomplished violinists in Ericsson, Krampe, and Tesch-Romer's 1993 study?"
+    },
+    {
+      "analysis": "The digit-span subject did not improve by simply repeating random numbers. Under extended, feedback-rich training, he built task-specific encoding structures, grouping digits into meaningful chunks such as running times and then larger retrieval structures. Deliberate Practice explains the large increase in span as domain-specific skill acquisition through targeted tasks just beyond current ability, immediate feedback, and refined mental representations, not as a general expansion of short-term memory capacity.",
+      "problem": "How did the subject in Ericsson, Chase, and Faloon's digit-span study increase recall from ordinary limits to very long digit sequences?"
+    }
+  ],
+  "core_claims": [
+    "Expert performance in well-developed domains is primarily built by prolonged engagement in specially designed practice activities, not by ordinary experience or repetition alone.",
+    "The most effective practice targets tasks just beyond the current level of reliable performance and therefore feels effortful rather than inherently enjoyable.",
+    "Improvement requires immediate informative feedback and opportunities to correct errors before the next repetition.",
+    "Deliberate Practice changes mental representations, enabling experts to perceive, encode, plan, and monitor domain-specific patterns that novices cannot see.",
+    "Mere time-on-task, work experience, play, or performance plateaus unless practice is structured to isolate weaknesses and push adaptation.",
+    "High-quality coaching matters because teachers know the domain's training tasks, diagnose errors, and sequence challenges more effectively than unaided learners.",
+    "The framework applies best in domains with stable task structures, objective or at least recognized performance measures, and established training methods."
+  ],
+  "description": "Deliberate Practice is K. Anders Ericsson's framework for explaining expert performance as the result of sustained, effortful, feedback-rich training activities deliberately designed to improve specific aspects of performance at the edge of current ability.",
+  "domains": [
+    "learning",
+    "expertise",
+    "performance",
+    "cognitive-psychology"
+  ],
+  "failure_modes": [
+    "Confusing deliberate practice with any hard work: repetition, performance, and long hours do not qualify unless they target specific weaknesses with feedback.",
+    "Applying it to domains without stable standards or valid feedback, where practice may optimize for the wrong signal.",
+    "Ignoring biological, developmental, motivational, and resource constraints; the theory does not imply anyone can reach any level with identical practice hours.",
+    "Using the popular '10,000 hours' slogan as a causal law, although the research emphasizes quality, domain, age, coaching, and accumulated structure.",
+    "Overtraining past recovery limits, causing injury, burnout, or degraded learning because effortful practice is treated as indefinitely scalable."
+  ],
+  "key_vocabulary": {
+    "Deliberate practice": "Practice activity specifically designed to improve performance, requiring effort, concentration, feedback, and repeated refinement of weak components.",
+    "Expert performance": "Consistently superior performance on representative tasks in a domain, ideally measured by objective or socially recognized standards.",
+    "Immediate feedback": "Information close enough to the attempt that the learner can identify errors and adjust the next attempt.",
+    "Mental representations": "Domain-specific internal structures that let performers recognize patterns, anticipate outcomes, plan actions, and monitor execution.",
+    "Plateau": "A level at which further ordinary experience no longer produces improvement because the learner is no longer stretching or correcting specific limitations.",
+    "Purposeful practice": "Structured practice with goals and feedback; in Ericsson's usage, deliberate practice is the stronger form guided by established expert-training methods and teachers.",
+    "Representative task": "A practice or test task that preserves the information, constraints, and actions of real performance enough for improvement to transfer.",
+    "Zone of proximal challenge": "The range just beyond current reliable ability where errors are frequent enough to drive learning but not so severe that feedback becomes unusable."
+  },
+  "name": "Deliberate Practice",
+  "operative_procedure": [
+    "Define the target performance in observable terms and identify the domain's accepted standards, representative tasks, and feedback channels.",
+    "Decompose performance into component skills, mental representations, decision points, and recurring error patterns.",
+    "Diagnose the current limiting weakness using performance data, coach observation, comparison with experts, or carefully chosen tests.",
+    "Design a practice task that isolates that weakness, sits just beyond current ability, and preserves enough domain structure for transfer.",
+    "Run short, high-concentration repetitions with immediate feedback, stopping before attention and form degrade substantially.",
+    "Correct one variable at a time, using feedback to alter technique, representation, timing, or strategy before the next repetition.",
+    "Track performance against a clear metric and raise difficulty only when the current task becomes reliable.",
+    "Cycle through diagnosis, targeted practice, feedback, recovery, and reassessment over months or years, distinguishing practice time from performance time."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Expertise Research",
+      "Skill Acquisition Theory",
+      "Cognitive Psychology"
+    ],
+    "composes_with": [
+      "Growth Mindset",
+      "Feedback Loops",
+      "Spaced Repetition",
+      "Chunking"
+    ],
+    "descendants": [
+      "Purposeful Practice",
+      "Expert Performance Approach",
+      "Learning Engineering"
+    ],
+    "related": [
+      "Flow",
+      "Mastery Learning",
+      "Spaced Repetition",
+      "Mental Models"
+    ],
+    "rivals": [
+      "Talent Theory",
+      "Nativism",
+      "Flow",
+      "Learning Styles"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Deliberate Practice is strongest for music, chess, sports, typing, memory tasks, medicine, and other domains with established instruction, repeatable tasks, and credible feedback. It is less decisive in creative, managerial, entrepreneurial, or rapidly changing domains where outcomes are noisy, standards are contested, and feedback may be delayed or misleading.",
+  "source_summary": "Authored from model knowledge of Ericsson's expert-performance research and standard psychology sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "K. Anders Ericsson, Ralf Th. Krampe, and Clemens Tesch-Romer, 'The Role of Deliberate Practice in the Acquisition of Expert Performance' (1993)"
+    },
+    {
+      "kind": "primary",
+      "title": "K. Anders Ericsson, William G. Chase, and Steve Faloon, 'Acquisition of a Memory Skill' (1980)"
+    },
+    {
+      "kind": "primary",
+      "title": "K. Anders Ericsson, The Road to Excellence (1996)"
+    },
+    {
+      "kind": "secondary",
+      "title": "K. Anders Ericsson and Robert Pool, Peak: Secrets from the New Science of Expertise (2016)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "someone is working hard at a skill but has plateaued despite many hours of experience",
+    "a performance gap can be decomposed into repeatable component skills with observable errors",
+    "a learner needs a training plan for a domain with coaches, standards, and reliable feedback",
+    "practice feels too much like performing complete tasks and too little like isolating weaknesses",
+    "a debate about talent versus training needs a precise account of what kind of training could actually improve performance"
+  ]
+}

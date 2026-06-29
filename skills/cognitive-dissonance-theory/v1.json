@@ -1,0 +1,118 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:07Z",
+  "canonical_examples": [
+    {
+      "analysis": "Participants first performed a dull task, then were induced to tell the next participant that it was enjoyable. Those paid $20 had an adequate external justification for lying, so little attitude change was predicted. Those paid $1 lacked sufficient external justification, creating dissonance between 'I am an honest person' and 'I said a boring task was enjoyable for almost no reward.' The theory predicts reduction through internal attitude change: reinterpreting the task as more interesting. Festinger and Carlsmith found the $1 group rated the task more positively than the $20 group.",
+      "problem": "In Festinger and Carlsmith's forced-compliance experiment, why did people paid $1 to praise a boring task later report liking it more than people paid $20?"
+    },
+    {
+      "analysis": "The believers had publicly committed to the prophecy, reorganized their lives around it, and sacrificed ordinary attachments. When the flood did not occur, the disconfirming evidence produced severe dissonance: 'our prophecy failed' conflicted with 'we are chosen participants in a true revelation.' Because commitment and social support were high, many reduced dissonance not by abandoning the belief but by adding a new cognition: their faith had saved the world. Proselytizing then supplied further social validation for the revised belief.",
+      "problem": "In When Prophecy Fails, why did members of the apocalyptic group intensify public proselytizing after the predicted catastrophe failed to occur?"
+    }
+  ],
+  "core_claims": [
+    "Psychological inconsistency among cognitions produces an aversive motivational state, not merely a logical error noticed by the person.",
+    "The pressure to reduce dissonance increases with the importance of the cognitions, the proportion of dissonant to consonant cognitions, and the difficulty of undoing the commitment.",
+    "People can reduce dissonance by changing attitudes, adding consonant cognitions, trivializing the conflict, or selectively avoiding dissonance-increasing information.",
+    "Small rewards or mild threats can produce more internal attitude change than large rewards or severe threats because they leave less external justification for counterattitudinal action.",
+    "After difficult, voluntary, and irrevocable choices, people tend to increase the attractiveness of the chosen option and decrease the attractiveness of rejected alternatives.",
+    "Groups can preserve disconfirmed beliefs when members have strong prior commitment, social support, and opportunities to reinterpret failure as confirmation."
+  ],
+  "description": "Cognitive Dissonance Theory, developed by Leon Festinger, explains belief and attitude change as motivated reduction of the discomfort produced when a person holds inconsistent cognitions or acts against important self-conceptions without sufficient justification.",
+  "domains": [
+    "social-psychology",
+    "decision-making",
+    "belief-revision",
+    "behavioral-science"
+  ],
+  "failure_modes": [
+    "Over-reading every inconsistency as dissonance: the theory applies most strongly when the cognition implicates choice, commitment, identity, or self-evaluation.",
+    "Ignoring adequate external justification: if reward, coercion, role obligation, or uncertainty fully explains the behavior, attitude change is less likely.",
+    "Retrofitting any post hoc rationalization as dissonance reduction, making the analysis unfalsifiable unless competing explanations are specified.",
+    "Assuming dissonance always produces truth-seeking; the characteristic distortion is that discomfort can make people defend false beliefs more vigorously.",
+    "Neglecting cultural and individual differences in what counts as self-relevant inconsistency or what forms of justification are socially available."
+  ],
+  "key_vocabulary": {
+    "Cognition": "Any belief, attitude, perception, knowledge of behavior, or value that can stand in consonant, dissonant, or irrelevant relation to another cognition.",
+    "Consonance": "A relation in which one cognition follows from, supports, or psychologically fits with another.",
+    "Dissonance": "A relation in which one cognition implies the opposite of another, producing motivational pressure to reduce the inconsistency.",
+    "External justification": "A situational reason, such as money, threat, duty, or social pressure, that explains counterattitudinal behavior without requiring attitude change.",
+    "Forced compliance": "A situation in which a person performs behavior contrary to an attitude under inducement, making the amount of justification central to later attitude change.",
+    "Free choice paradigm": "An experimental design in which choosing between attractive alternatives leads people to upgrade the chosen option and downgrade the rejected one.",
+    "Selective exposure": "The tendency to seek consonant information and avoid information that would increase dissonance.",
+    "Spreading of alternatives": "The post-decision increase in perceived difference between chosen and rejected options."
+  },
+  "name": "Cognitive Dissonance Theory",
+  "operative_procedure": [
+    "Inventory the focal cognitions: beliefs, values, self-conceptions, commitments, public statements, and observed behaviors relevant to the case.",
+    "Identify dissonant relations by asking which cognitions psychologically imply the negation of others, especially where action conflicts with identity or belief.",
+    "Estimate dissonance magnitude from importance, commitment, voluntariness, irreversibility, and the ratio of dissonant to consonant cognitions.",
+    "Check available external justification: rewards, punishments, uncertainty, role demands, or coercion that can explain the behavior without attitude change.",
+    "Predict the easiest reduction path: change an attitude, reinterpret the behavior, add consonant cognitions, trivialize the conflict, seek social validation, or avoid disconfirming evidence.",
+    "Look for paradigm signatures: insufficient justification, effort justification, post-decision spreading of alternatives, belief-disconfirmation persistence, or selective exposure.",
+    "Separate dissonance reduction from accuracy-seeking by specifying what evidence would make the person revise toward truth versus defend the threatened cognition.",
+    "Recommend interventions by reducing threat, supplying face-saving justifications, changing commitment structures, or creating small voluntary actions aligned with the desired belief."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Gestalt Psychology",
+      "Field Theory",
+      "Balance Theory"
+    ],
+    "composes_with": [
+      "Motivated Reasoning",
+      "Commitment and Consistency",
+      "Behavioral Economics",
+      "Self-Perception Theory"
+    ],
+    "descendants": [
+      "Effort Justification",
+      "Post-Decision Dissonance",
+      "Insufficient Justification Effect",
+      "Self-Affirmation Theory"
+    ],
+    "related": [
+      "Motivated Reasoning",
+      "Confirmation Bias",
+      "Identity-Protective Cognition",
+      "Self-Perception Theory"
+    ],
+    "rivals": [
+      "Self-Perception Theory",
+      "Rational Choice Theory",
+      "Behaviorism",
+      "Bayesian Epistemology"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Cognitive Dissonance Theory is strongest for explaining attitude change after voluntary counterattitudinal action, difficult commitment, public choice, failed prophecy, and self-threatening inconsistency. It is weaker when behavior is fully explained by incentives or coercion, when attitudes are low-importance, or when the case requires a normative account of what the person ought to believe rather than a psychological account of how discomfort is reduced.",
+  "source_summary": "Authored from model knowledge of Festinger's cognitive dissonance research and standard social psychology treatments, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Leon Festinger, A Theory of Cognitive Dissonance (1957)"
+    },
+    {
+      "kind": "primary",
+      "title": "Leon Festinger and James M. Carlsmith, 'Cognitive Consequences of Forced Compliance' (1959)"
+    },
+    {
+      "kind": "primary",
+      "title": "Leon Festinger, Henry W. Riecken, and Stanley Schachter, When Prophecy Fails (1956)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Elliot Aronson, The Social Animal"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a person has acted against a stated belief, value, or identity and then appears to revise the belief rather than the behavior",
+    "a group receives clear disconfirming evidence but responds by doubling down, recruiting, or inventing a saving interpretation",
+    "a decision between close alternatives is followed by exaggerated praise of the chosen option and disparagement of rejected options",
+    "a small reward or mild threat produces unexpectedly large attitude change after counterattitudinal behavior",
+    "someone avoids, filters, or attacks information mainly because it would make prior commitments psychologically uncomfortable"
+  ]
+}

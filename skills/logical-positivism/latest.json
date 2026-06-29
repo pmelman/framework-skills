@@ -1,0 +1,126 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:08Z",
+  "canonical_examples": [
+    {
+      "analysis": "Carnap treats the sentence as syntactically well-formed but cognitively empty because its key terms are not connected to possible observations or logical construction rules. The logical-positivist procedure first asks whether the sentence is analytic; it is not a tautology of logic or mathematics. It then asks for protocol sentences that would count for or against 'the Nothing' doing anything; none can be specified. The diagnosis is not merely that Heidegger is false, but that metaphysical language has escaped the conditions that make factual assertion possible.",
+      "problem": "Rudolf Carnap's attack on Heidegger's sentence 'The Nothing itself nothings' in 'The Elimination of Metaphysics Through Logical Analysis of Language.'"
+    },
+    {
+      "analysis": "Neurath's encyclopedia program applies unified science rather than private foundations: claims are to be translated, revised, and coordinated inside a public language of science. The problem is not solved by appeal to indubitable sense-data; Neurath rejects that foundationalist picture with his boat metaphor. A logical-positivist analysis asks how each discipline's statements can be regimented into intersubjectively testable language, how logical relations among them are clarified, and how incompatible parts of the scientific system are repaired while the system remains in use.",
+      "problem": "Otto Neurath's project of the International Encyclopedia of Unified Science: how can the sciences be unified without metaphysical foundations?"
+    }
+  ],
+  "core_claims": [
+    "Philosophy should clarify the logical syntax of scientific language rather than discover a separate metaphysical reality behind science.",
+    "A factual sentence has cognitive significance only insofar as it can be tied, directly or indirectly, to possible experience through verification or confirmation procedures.",
+    "Logic and mathematics are analytic instruments for transforming statements; they do not report additional facts about the world.",
+    "Traditional metaphysics results from misuse of language, especially from treating grammatical form as evidence of genuine factual content.",
+    "Scientific knowledge is best organized as a unified system of public, intersubjectively testable statements rather than as isolated private intuitions.",
+    "The analytic-synthetic distinction is essential: analytic truths are meaningful by convention, while synthetic truths require empirical control.",
+    "Many normative, theological, and metaphysical utterances may have expressive or practical force while lacking cognitive meaning as factual assertions."
+  ],
+  "description": "Logical Positivism is the Vienna Circle program that joins empiricism, formal logic, and the unity of science to distinguish cognitively meaningful scientific discourse from metaphysics. It treats philosophical work as logical clarification of language and ties factual meaning to possible verification or confirmation.",
+  "domains": [
+    "philosophy-of-science",
+    "epistemology",
+    "philosophy-of-language",
+    "metaphysics"
+  ],
+  "failure_modes": [
+    "Self-application problem: the verification principle and the programmatic claims of logical positivism are difficult to classify as either analytic or empirically verifiable.",
+    "Over-aggressive elimination: practitioners can dismiss genuine but immature theoretical problems as meaningless because their current observational consequences are not yet clear.",
+    "Dependence on a brittle analytic-synthetic distinction: Quine's critique undermines the idea that analytic truths and empirical claims can be separated cleanly sentence by sentence.",
+    "Reductionism about language: treating all meaningful discourse as scientific assertion obscures ordinary uses of language such as promising, commanding, interpreting, or expressing values.",
+    "False neutrality of formal reconstruction: choosing a logical language, observation vocabulary, or reduction base can smuggle in substantive philosophical commitments."
+  ],
+  "key_vocabulary": {
+    "Analytic statement": "A statement true by meaning, convention, or logical form rather than by empirical fact; logic and mathematics were often treated this way.",
+    "Cognitive significance": "The status of genuinely saying something true or false about the world, as opposed to merely expressing an attitude or producing metaphysical-sounding grammar.",
+    "Logical construction": "The reconstruction of complex theoretical or everyday terms from simpler experiential, physical, or formal terms within a regimented language.",
+    "Logical syntax": "Carnap's project of studying formal rules governing scientific language without making metaphysical claims about what language ultimately represents.",
+    "Protocol sentence": "A basic observation report or publicly checkable observational statement used as an evidential contact point for scientific claims.",
+    "Pseudo-statement": "A sentence that looks like a factual assertion but lacks the logical or empirical conditions required for cognitive meaning.",
+    "Unified science": "The program, associated especially with Neurath, of coordinating the special sciences into a common public language and shared evidential system.",
+    "Verification principle": "The criterion that a non-analytic statement is meaningful only if possible experience could verify, confirm, or otherwise bear on it."
+  },
+  "name": "Logical Positivism",
+  "operative_procedure": [
+    "State the target sentence or theory in explicit propositional form, separating factual claims from expressive, normative, poetic, or practical uses of language.",
+    "Classify each central statement as analytic, synthetic, or confused: determine whether it follows from logic and definitions, purports to report empirical fact, or merely has grammatical appearance.",
+    "For every synthetic claim, specify the possible protocol sentences or observation reports that would count for or against it, allowing indirect confirmation through a scientific theory.",
+    "Regiment ambiguous language into logical syntax: replace metaphors, substantives, and category mistakes with explicit variables, predicates, relations, and inferential rules where possible.",
+    "Eliminate or reinterpret pseudo-statements whose terms cannot be connected to analytic rules or empirical confirmation conditions; mark any remaining non-cognitive role they play.",
+    "Locate meaningful empirical claims inside a unified scientific language by asking how they connect to established measurements, laws, and neighboring sciences.",
+    "Assess whether disputes are factual, logical-conventional, or merely verbal; dissolve merely verbal disputes by proposing clearer linguistic rules.",
+    "Report the reconstruction: list the analytic truths, empirically meaningful claims, pseudo-statements, and unresolved translation choices, while noting any pressure the case places on the verification criterion itself."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Humean Empiricism",
+      "Logical Atomism",
+      "Verificationism",
+      "Conventionalism"
+    ],
+    "composes_with": [
+      "Conceptual Analysis",
+      "Classical Logic",
+      "Verificationism",
+      "Hypothetico-Deductive Method"
+    ],
+    "descendants": [
+      "Logical Empiricism",
+      "Verificationism",
+      "Emotivism",
+      "Unity of Science"
+    ],
+    "related": [
+      "Verificationism",
+      "Falsificationism",
+      "Instrumentalism",
+      "Ordinary Language Philosophy"
+    ],
+    "rivals": [
+      "Falsificationism",
+      "Scientific Realism",
+      "Pragmatism",
+      "Ordinary Language Philosophy",
+      "Hermeneutics"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Logical Positivism is strongest as a disciplined test for whether philosophical or scientific-sounding claims have public empirical content and clear logical form. It is historically central for philosophy of science, formal semantics, and anti-metaphysical critique. Its limits are also central: strict verificationism is widely regarded as untenable, the analytic-synthetic distinction is contested, and many meaningful practices cannot be reduced to scientific assertion.",
+  "source_summary": "Authored from model knowledge of Vienna Circle and logical empiricist sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Rudolf Carnap, The Logical Structure of the World (1928)"
+    },
+    {
+      "kind": "primary",
+      "title": "Rudolf Carnap, 'The Elimination of Metaphysics Through Logical Analysis of Language' (1932)"
+    },
+    {
+      "kind": "primary",
+      "title": "Otto Neurath, Rudolf Carnap, and Charles Morris, International Encyclopedia of Unified Science (1938-1962)"
+    },
+    {
+      "kind": "primary",
+      "title": "A.J. Ayer, Language, Truth and Logic (1936)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Vienna Circle (Stanford Encyclopedia of Philosophy)",
+      "url": "https://plato.stanford.edu/entries/vienna-circle/"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A claim sounds factual or profound, but no one can say what observation would count for or against it.",
+    "A dispute may be driven by ambiguous grammar, category mistakes, or metaphysical vocabulary rather than by empirical disagreement.",
+    "A theory needs to distinguish analytic conventions, empirical hypotheses, and non-cognitive expressions.",
+    "Different scientific domains need to be related through public measurements, shared terms, and logical reconstruction.",
+    "You need a strict anti-metaphysical filter for philosophical, theological, or pseudo-scientific assertions."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Clausewitzian Strategy",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Clausewitzian Strategy analyzes war as a political instrument conducted amid friction, fog, chance, passion, and reciprocal violence. It asks how political purpose, center of gravity, moral forces, escalation, culmination, and the defense-offense balance shape what military action can realistically achieve.",
+  "domains": [
+    "strategy",
+    "military-theory",
+    "political-science",
+    "history"
+  ],
+  "when_to_use": [
+    "a conflict involves organized violence or coercive force serving political objectives",
+    "plans look clean on paper but execution will face uncertainty, friction, chance, and human fear",
+    "you need to connect military means to political ends rather than optimize battlefield success alone",
+    "a campaign may be approaching overextension, exhaustion, or a culminating point",
+    "the adversary has a center of gravity whose defeat could collapse resistance, but identifying it is contested"
+  ],
+  "core_claims": [
+    "War is a continuation of politics by other means, so military action must be judged by the political object it serves.",
+    "Real war is governed by friction: countless small impediments make even simple operations difficult and separate actual war from abstract plans.",
+    "Fog and chance are inherent, not temporary defects; strategy must expect uncertainty rather than wait for complete information.",
+    "War is a paradoxical trinity of passion, chance, and reason, embodied in people, military command, and government.",
+    "The enemy's center of gravity is the focal source of strength against which effort should be concentrated, but it depends on the political and social structure of the war.",
+    "Defense is the stronger form of war, but it has a negative aim; decisive political results often require a transition to offense.",
+    "Offensives tend toward a culminating point where further advance weakens the attacker more than the defender.",
+    "Absolute war is a logical tendency toward extremes, but real war is limited by politics, resources, probability, and reciprocal constraint."
+  ],
+  "key_vocabulary": {
+    "Friction": "The accumulation of small difficulties, errors, delays, fatigue, and fear that makes real operations diverge from plans.",
+    "Fog of war": "The uncertainty and ambiguity surrounding enemy intentions, friendly conditions, terrain, and events in motion.",
+    "Center of gravity": "The source of an enemy's power, cohesion, or freedom of action against which concentrated effort can produce disproportionate effect.",
+    "Culminating point": "The stage in an attack or victory after which continued advance risks reversal because strength, supply, morale, or political support is spent.",
+    "Paradoxical trinity": "The dynamic interaction of passion, chance, and reason; socially, the people, the army, and the government.",
+    "Moral forces": "Nonmaterial elements such as courage, cohesion, leadership, public will, and legitimacy that shape combat power.",
+    "Absolute war": "The abstract logical model in which reciprocal violence tends toward extremes, useful as a contrast with politically limited real war.",
+    "Defense and offense": "Defense is intrinsically stronger because it uses position and waiting, while offense seeks positive decision but consumes strength."
+  },
+  "operative_procedure": [
+    "State the political object and its value: what policy aim is force meant to secure, and how much effort can that aim justify?",
+    "Identify the kind of war: limited or existential, popular or cabinet, coalition or bilateral, punitive or conquest-oriented.",
+    "Map the trinity by assessing public passion, military chance and command competence, and governmental reason on each side.",
+    "Locate candidate centers of gravity: armies, capitals, alliances, leadership, public will, economic capacity, or legitimacy; test which one actually holds the adversary together.",
+    "Trace friction and fog: list the operational uncertainties and execution impediments most likely to break the plan.",
+    "Compare offense and defense, including whether the stronger defensive form can serve the political object or whether a costly offensive transition is required.",
+    "Estimate culmination: identify supply, morale, geography, enemy adaptation, coalition strain, and domestic politics that could make success turn into overextension.",
+    "Relate means to ends continuously; revise or terminate military operations when costs exceed the political value of the objective.",
+    "Deliver a strategic judgment that links political purpose, center of gravity, friction, moral forces, and culmination rather than treating battle results as self-justifying."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Clausewitz uses the Napoleonic Wars to explain why revolutionary and national energies transformed the scale and intensity of European war.",
+      "analysis": "A Clausewitzian reading sees Napoleon's strength not merely in tactics but in the trinity: popular mobilization supplied passion, military genius exploited chance, and state policy directed force. The French army and Napoleon's command system became centers of gravity because they concentrated political and military energy. The same framework also explains limits: campaigns could culminate when distance, attrition, coalition resistance, and political exhaustion overcame operational brilliance."
+    },
+    {
+      "problem": "Clausewitz's discussion of Napoleon's 1812 Russian campaign illustrates how an offensive can win battles yet lose strategic viability.",
+      "analysis": "The campaign presses beyond its culminating point. The political object required coercing Russia, but distance, weather, supply failure, attrition, and Russian refusal to offer decisive political submission converted advance into weakness. Moscow's occupation did not destroy the relevant center of gravity because Russian state will and army remained intact. Friction and moral forces, not just battlefield engagements, determined the outcome."
+    }
+  ],
+  "failure_modes": [
+    "Sloganizing politics: quoting war as politics while failing to specify the actual political object, its value, and its limits.",
+    "Center-of-gravity fetish: naming a target as decisive without proving that its loss would collapse enemy resistance.",
+    "Escalation bias: the framework's attention to decisive battle and centers of gravity can tempt practitioners to seek larger violence than the policy aim warrants.",
+    "Fog fatalism: uncertainty is treated as an excuse for vague planning rather than a reason to build resilient operations and feedback.",
+    "Misreading moral forces: analysts quantify matériel and terrain while using morale, legitimacy, and public will as after-the-fact explanations."
+  ],
+  "scope_and_limits": "Clausewitzian Strategy is strongest for wars, coercive campaigns, and high-stakes political conflicts where organized force serves policy under uncertainty. It is less directly applicable to market competition, routine management, or conflicts where violence is absent and legal norms strongly structure behavior, though its concepts of friction, purpose, and culmination can transfer cautiously.",
+  "source_texts": [
+    {
+      "title": "Carl von Clausewitz, On War",
+      "kind": "primary",
+      "url": "https://www.clausewitz.com/readings/OnWar1873/TOC.htm"
+    },
+    {
+      "title": "Peter Paret, Clausewitz and the State",
+      "kind": "secondary"
+    },
+    {
+      "title": "Michael Howard, Clausewitz",
+      "kind": "secondary"
+    },
+    {
+      "title": "Clausewitz (Stanford Encyclopedia of Philosophy)",
+      "kind": "secondary",
+      "url": "https://plato.stanford.edu/entries/clausewitz/"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "Political Realism",
+      "OODA Loop",
+      "Systems Thinking"
+    ],
+    "ancestors": [
+      "Enlightenment Military Theory",
+      "Napoleonic Warfare",
+      "Political Realism"
+    ],
+    "descendants": [
+      "Modern Strategic Studies",
+      "Maneuver Warfare",
+      "Civil-Military Relations Theory"
+    ],
+    "rivals": [
+      "Sun Tzu's Strategy",
+      "Just War Theory",
+      "Deterrence Theory",
+      "Robust Decision Making"
+    ],
+    "composes_with": [
+      "Scenario Planning",
+      "Red Teaming",
+      "Second-Order Thinking",
+      "Failure Mode and Effects Analysis"
+    ]
+  },
+  "built_at": "2026-06-29T03:36:04Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of the named sources and standard Clausewitz scholarship, without fetched source text."
+}

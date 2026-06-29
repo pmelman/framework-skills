@@ -1,0 +1,121 @@
+{
+  "name": "Sun Tzu's Strategy",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Sun Tzu's Strategy is a classical Chinese framework for winning contests by shaping conditions before open battle: attacking plans and alliances, using deception, exploiting terrain, preserving resources, and aligning timing, command, and moral influence. It treats direct fighting as costly evidence that earlier strategic shaping has failed.",
+  "domains": [
+    "strategy",
+    "military-theory",
+    "leadership",
+    "political-science"
+  ],
+  "when_to_use": [
+    "you are in a conflict where direct confrontation would be expensive, uncertain, or reputation-damaging",
+    "the opponent's plans, alliances, perceptions, supply lines, or morale can be shaped before decisive action",
+    "success depends on timing, terrain, information asymmetry, and disciplined command rather than sheer force",
+    "you need to decide whether to attack, delay, maneuver, deceive, negotiate, or avoid battle",
+    "a rival is stronger in visible resources but vulnerable in cohesion, preparation, positioning, or expectations"
+  ],
+  "core_claims": [
+    "The highest form of victory is to defeat the enemy's strategy and alliances before resorting to battle.",
+    "All warfare depends on deception because manipulating the enemy's perception can create advantage without proportional material force.",
+    "A commander should fight only when conditions have already made victory likely; tactical bravery cannot compensate for unfavorable strategic conditions.",
+    "Preserving one's own state, army, and captured resources is superior to destructive victory that exhausts the winner.",
+    "Terrain, timing, morale, and command discipline are not background variables; they are the medium through which advantage is created.",
+    "Knowing both self and enemy sharply reduces the risk of defeat, while ignorance of either produces predictable strategic error.",
+    "Indirect methods and orthodox methods must be combined: the regular fixes the enemy, the unexpected decides the contest."
+  ],
+  "key_vocabulary": {
+    "Shi": "Strategic configuration or propensity of circumstances; the advantage that emerges from position, timing, and momentum rather than isolated force.",
+    "Deception": "The deliberate shaping of enemy perception: appear weak when strong, far when near, disordered when prepared, or inactive when ready.",
+    "Attack by stratagem": "Defeating the enemy's plans, alliances, and will before attacking troops or cities.",
+    "Terrain": "The physical and situational ground that determines movement, supply, visibility, risk, and the value of engagement.",
+    "Moral influence": "The alignment of ruler, commander, troops, and people that sustains obedience and cohesion.",
+    "Orthodox and unorthodox": "Regular, expected methods create structure; irregular, surprising methods exploit openings and produce decision.",
+    "Foreknowledge": "Actionable intelligence about enemy plans and conditions, especially through spies and observation.",
+    "Culminating conditions": "The point at which costs, delay, supply strain, or morale make continued campaigning self-defeating."
+  },
+  "operative_procedure": [
+    "Define victory in preservation terms: what outcome wins while keeping your resources, legitimacy, and future options intact?",
+    "Calculate the five factors: moral influence, weather or timing, terrain, command, and method or discipline; compare them for both sides.",
+    "Know the enemy and yourself by identifying plans, alliances, strengths, weaknesses, supply dependencies, morale, and command habits.",
+    "Attack the enemy's strategy first: disrupt assumptions, plans, coalitions, incentives, and timing before considering attacks on forces or positions.",
+    "Shape perception through deception, feints, concealment, and controlled signals so the opponent misallocates attention and resources.",
+    "Use terrain and position to create shi: draw the opponent into disadvantage, avoid their strength, and concentrate against exposed weakness.",
+    "Combine orthodox and unorthodox action: use visible, regular moves to fix expectations and unexpected moves to decide the issue.",
+    "Avoid protracted contests; if victory is not already ripened by conditions, delay, maneuver, or seek a non-battle resolution.",
+    "Recommend the least destructive decisive path, explaining which enemy plan is broken, which condition is exploited, and why direct battle is or is not necessary."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "The Art of War's standard hierarchy asks how a commander should subdue an enemy state while preserving resources and avoiding ruinous siege warfare.",
+      "analysis": "Sun Tzu ranks options by strategic economy: attack the enemy's plans first, alliances next, army next, and walled cities last. The framework therefore asks what keeps the enemy from acting effectively before asking how to destroy forces. A siege is a failure case because it consumes time, equipment, and morale; victory without battle is superior because it breaks resistance while preserving both one's own strength and the usable value of what is captured."
+    },
+    {
+      "problem": "The Art of War discusses an enemy who is stronger in direct force but can be lured, divided, or made to misperceive the situation.",
+      "analysis": "The Sun Tzu analysis avoids meeting strength with strength. It recommends appearing weak to encourage rash advance, appearing far when near, offering bait to disorder the opponent, and striking where the enemy is unprepared. The decisive work happens before contact: intelligence identifies the enemy's dispositions, deception changes their expectations, and terrain converts movement into vulnerability."
+    }
+  ],
+  "failure_modes": [
+    "Mystifying strategy: practitioners invoke paradox and deception so broadly that they stop making testable claims about terrain, timing, and enemy behavior.",
+    "Overdeception: excessive feints and secrecy confuse one's own organization or destroy trust with allies and subordinates.",
+    "Avoidance disguised as subtlety: the ideal of winning without fighting becomes an excuse to postpone necessary decisions until options worsen.",
+    "Ahistorical transfer: maxims written for ancient interstate warfare are applied mechanically to business, politics, or personal conflict without mapping the actual stakes and constraints.",
+    "Underestimating attrition: the framework can bias analysts toward maneuver and perception even when material production, endurance, or logistics dominate the contest."
+  ],
+  "scope_and_limits": "Sun Tzu's Strategy is strongest in competitive situations where information, positioning, timing, morale, and alliance structure can be shaped before open confrontation. It is less sufficient for wars of industrial attrition, legal systems that punish deception, transparent markets where signals are hard to control, or moral contexts where manipulative means are unacceptable.",
+  "source_texts": [
+    {
+      "title": "Sun Tzu, The Art of War",
+      "kind": "primary",
+      "url": "https://en.wikisource.org/wiki/The_Art_of_War"
+    },
+    {
+      "title": "The Seven Military Classics of Ancient China",
+      "kind": "primary"
+    },
+    {
+      "title": "Ralph D. Sawyer, The Art of War",
+      "kind": "secondary"
+    },
+    {
+      "title": "Sun Tzu (Wikipedia)",
+      "kind": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/Sun_Tzu"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "OODA Loop",
+      "Red Teaming",
+      "Signaling Theory"
+    ],
+    "ancestors": [
+      "Classical Chinese Military Thought",
+      "Daoist Statecraft",
+      "Strategic Deception"
+    ],
+    "descendants": [
+      "Indirect Approach",
+      "Maneuver Warfare",
+      "Competitive Strategy"
+    ],
+    "rivals": [
+      "Clausewitzian Strategy",
+      "Just War Theory",
+      "Decision Analysis",
+      "Toyota Production System"
+    ],
+    "composes_with": [
+      "Scenario Planning",
+      "Pre-mortem",
+      "Systems Thinking",
+      "Red Teaming"
+    ]
+  },
+  "built_at": "2026-06-29T03:36:04Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of the named sources and standard Sun Tzu scholarship, without fetched source text."
+}

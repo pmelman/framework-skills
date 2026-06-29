@@ -1,0 +1,123 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:08Z",
+  "canonical_examples": [
+    {
+      "analysis": "Porter uses commercial airlines to show an unattractive industry structure: rivalry is intense, fixed costs are high, capacity is perishable, buyers can compare fares easily, suppliers such as aircraft manufacturers, airports, labor, and fuel providers hold power, and substitutes such as driving, rail, or teleconferencing constrain prices on some routes. Entry barriers vary by route and gate access, but deregulation lowered protection. The five forces explain why customers can receive substantial value while carriers often struggle to earn attractive returns.",
+      "problem": "The airline industry as a recurring Porter example of structurally weak profitability despite large demand."
+    },
+    {
+      "analysis": "The soft drink concentrate business has historically been structurally attractive. Rivalry between Coca-Cola and Pepsi is visible, but concentrate producers face low production costs, strong brands, economies of scale in marketing, and bottler relationships that raise entry barriers. Buyers have limited ability to backward integrate into equivalent brands, suppliers of ingredients are fragmented relative to the brand owners, and substitutes exist but do not fully erase willingness to pay. Five Forces analysis explains why concentrate producers capture high margins compared with many downstream bottlers.",
+      "problem": "The cola concentrate business discussed in Porter-style industry analysis of Coca-Cola and Pepsi."
+    }
+  ],
+  "core_claims": [
+    "Industry profitability is determined by structure, not simply by growth rate, technology, or managerial effort.",
+    "Competition includes five forces: rivalry among incumbents, threat of entrants, threat of substitutes, bargaining power of buyers, and bargaining power of suppliers.",
+    "The strongest force or forces set the ceiling on industry returns and should dominate strategic diagnosis.",
+    "A company can outperform by positioning where forces are weakest, exploiting industry change, or reshaping the forces in its favor.",
+    "Entry barriers, switching costs, differentiation, scale economies, and access to distribution directly affect how much value firms can capture.",
+    "Complements and cooperation matter only insofar as they alter one or more of the five forces and the division of industry value.",
+    "Operational effectiveness is not strategy; sustained advantage requires a defensible position against structural competitive pressure."
+  ],
+  "description": "Porter's Five Forces is an industry-structure framework for diagnosing competitive intensity and long-run profitability. It evaluates rivalry, entrants, substitutes, buyers, and suppliers to identify where value is created, where it is captured, and how a firm might position or reshape its industry.",
+  "domains": [
+    "strategy",
+    "economics",
+    "competitive-analysis",
+    "business"
+  ],
+  "failure_modes": [
+    "Static snapshot error: analysts may freeze an industry structure and miss regulatory, technological, or business-model changes that are altering the forces.",
+    "Industry-boundary error: defining the industry too narrowly hides substitutes and entrants; defining it too broadly washes out the economics that matter.",
+    "Checklist superficiality: naming the five forces without estimating their relative strength produces generic strategy theater.",
+    "Ignoring firm heterogeneity: the framework explains industry average profitability better than why a particular firm with unique resources outperforms peers.",
+    "Misreading complements as a sixth force: complements are important, but Porter analyzes them through their impact on barriers, substitutes, buyer value, or rivalry."
+  ],
+  "key_vocabulary": {
+    "Bargaining power of buyers": "The ability of customers or channels to force down prices, demand more value, or play competitors against one another.",
+    "Bargaining power of suppliers": "The ability of input providers, labor, platforms, or asset owners to raise costs or appropriate industry value.",
+    "Barriers to entry": "Structural obstacles such as scale economies, switching costs, capital requirements, regulation, distribution access, and brand loyalty that deter new competitors.",
+    "Industry structure": "The durable economic features of an industry that shape competition and profitability independently of short-term execution.",
+    "Rivalry among incumbents": "The intensity of competition among existing firms, driven by factors such as concentration, growth, exit barriers, fixed costs, and differentiation.",
+    "Strategic positioning": "Choosing a defensible place in the industry where the firm can cope with or influence the forces better than rivals.",
+    "Substitutes": "Products, services, or behaviors outside the industry that satisfy the same need and cap willingness to pay.",
+    "Value capture": "The share of created value retained as profit by firms rather than passed to buyers, suppliers, entrants, substitutes, or rivals."
+  },
+  "name": "Porter's Five Forces",
+  "operative_procedure": [
+    "Define the industry and segment boundaries precisely, including geography, customer group, product scope, and value-chain level; test whether substitutes or adjacent segments require a different boundary.",
+    "Assess rivalry among incumbents: concentration, growth, differentiation, switching costs, fixed costs, capacity increments, exit barriers, and history of price competition.",
+    "Assess threat of entrants: entry barriers, expected retaliation, capital needs, regulatory protection, distribution access, scale economies, network effects, and customer switching costs.",
+    "Assess threat of substitutes: identify alternative ways customers solve the same problem and estimate relative price-performance, adoption friction, and switching triggers.",
+    "Assess buyer power: determine buyer concentration, price sensitivity, information, backward-integration threat, switching costs, and the product's importance to buyer economics.",
+    "Assess supplier power: determine supplier concentration, uniqueness, switching costs, forward-integration threat, input importance, labor power, and exposure to scarce assets or platforms.",
+    "Identify the force or forces that most constrain profitability and explain the mechanism by which they transfer value away from incumbents.",
+    "Evaluate strategic options: position in a more attractive segment, build barriers, reduce buyer or supplier power, differentiate against substitutes, or reshape rivalry.",
+    "State the industry attractiveness conclusion and the assumptions about structural change that would alter it."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Industrial Organization Economics",
+      "Competitive Strategy",
+      "Structure-Conduct-Performance Paradigm"
+    ],
+    "composes_with": [
+      "Value Chain Analysis",
+      "SWOT Analysis",
+      "Wardley Mapping",
+      "Scenario Planning",
+      "Game Theory"
+    ],
+    "descendants": [
+      "Generic Strategies",
+      "Competitive Positioning",
+      "Industry Analysis"
+    ],
+    "related": [
+      "Game Theory",
+      "Wardley Mapping",
+      "Network Effects and Lock-in",
+      "Information Asymmetry",
+      "Principal-Agent Analysis"
+    ],
+    "rivals": [
+      "Resource-Based View",
+      "Blue Ocean Strategy",
+      "Disruptive Innovation",
+      "Jobs-to-be-Done",
+      "Wardley Mapping"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Porter's Five Forces is strongest for industry-level profitability analysis, market entry, competitive positioning, and explaining why some sectors persistently earn higher returns than others. It is weaker for firm-specific capability analysis, fast ecosystem dynamics, public-interest evaluation, and situations where the industry boundary itself is unstable. It should be paired with resource, customer, and dynamic strategy frameworks when recommending firm action.",
+  "source_summary": "Authored from model knowledge of Michael Porter's competitive strategy texts, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Michael E. Porter, Competitive Strategy: Techniques for Analyzing Industries and Competitors (1980)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael E. Porter, 'How Competitive Forces Shape Strategy' (1979)"
+    },
+    {
+      "kind": "primary",
+      "title": "Michael E. Porter, 'The Five Competitive Forces That Shape Strategy' (2008)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Porter's five forces analysis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "A business decision depends on whether an industry or segment can sustain attractive profits over time.",
+    "A market looks appealing because it is growing, but competitive structure may pass most value to customers, suppliers, entrants, or substitutes.",
+    "A firm is considering entry, exit, repositioning, vertical integration, or barrier-building.",
+    "Rivalry, buyer pressure, supplier pressure, new entrants, or substitutes appear to be compressing margins.",
+    "You need to separate industry-level profit potential from company-level execution or resources."
+  ]
+}

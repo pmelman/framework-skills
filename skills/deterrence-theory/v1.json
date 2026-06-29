@@ -1,0 +1,125 @@
+{
+  "name": "Deterrence Theory",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Deterrence Theory explains how actors prevent unwanted action by threatening costs or denying benefits in ways an adversary believes will actually occur. It analyzes credibility, capability, resolve, signaling, brinkmanship, second-strike forces, mutually assured destruction, and the stability-instability tradeoffs of coercion.",
+  "domains": [
+    "strategy",
+    "international-relations",
+    "security-studies",
+    "game-theory"
+  ],
+  "when_to_use": [
+    "an adversary is considering an action you want to prevent rather than reverse after the fact",
+    "the central question is whether a threat is credible given capability, resolve, communication, and interests",
+    "both sides can impose severe costs, making escalation control and signaling as important as battlefield victory",
+    "you need to distinguish deterring attack from compelling an adversary to undo or perform an action",
+    "a crisis involves nuclear weapons, brinkmanship, red lines, tripwires, or alliance guarantees"
+  ],
+  "core_claims": [
+    "Deterrence succeeds by changing an adversary's expected utility before action, not by defeating the action after it begins.",
+    "A threat must combine capability, credibility, and communication; failure of any one can make even overwhelming force irrelevant.",
+    "Credibility often requires costly signals, delegated risk, tripwires, or commitments because cheap statements of resolve are discounted.",
+    "Mutual vulnerability can produce strategic stability when each side retains a secure second-strike capability.",
+    "Brinkmanship manipulates shared risk of disaster rather than offering a fully controlled threat.",
+    "Deterrence by punishment threatens unacceptable costs, while deterrence by denial makes the contemplated gain unattainable.",
+    "The stability-instability paradox predicts that secure nuclear deterrence can reduce major war while enabling lower-level conflict.",
+    "Extended deterrence is harder than direct deterrence because the defender must convince an adversary it will risk costs for someone else's security."
+  ],
+  "key_vocabulary": {
+    "Credibility": "The adversary's belief that a threatened response will actually be carried out under the relevant conditions.",
+    "Capability": "The material or operational ability to impose the threatened cost or deny the adversary's objective.",
+    "Resolve": "The perceived willingness to accept costs and risks in order to follow through on a threat.",
+    "Deterrence by punishment": "Preventing action by threatening retaliation severe enough to outweigh the expected benefits.",
+    "Deterrence by denial": "Preventing action by making success unlikely or its gains unusable.",
+    "Second-strike capability": "A survivable retaliatory force that can respond after absorbing an enemy first strike.",
+    "Mutually assured destruction": "A condition in which each side can inflict unacceptable damage after being attacked, making nuclear war irrational under standard assumptions.",
+    "Brinkmanship": "The deliberate creation or manipulation of risk that events may slip out of control unless the adversary backs down."
+  },
+  "operative_procedure": [
+    "Specify the prohibited action, the adversary considering it, and the decision point at which deterrence must operate.",
+    "Estimate the adversary's expected benefits, costs, alternatives, risk tolerance, domestic constraints, and beliefs.",
+    "Choose the deterrence mode: punishment if retaliation can change expected costs, denial if defenses can make success improbable or worthless.",
+    "Assess capability: identify whether the threatened response or denial posture is technically and operationally feasible under attack or crisis conditions.",
+    "Assess credibility: explain why the defender would follow through despite costs, escalation risk, alliance politics, or moral/legal barriers.",
+    "Communicate the threat clearly enough to be understood while avoiding unnecessary commitments that create accidental escalation.",
+    "Use signals of resolve where needed: deployments, exercises, public commitments, tripwires, alliances, or costly preparations.",
+    "Check stability effects: second-strike survivability, first-strike incentives, crisis instability, and the possibility that major-war deterrence encourages lower-level probes.",
+    "State the deterrence recommendation as a linked package of action, threatened consequence or denial mechanism, signal, credibility basis, and escalation control."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Cold War nuclear strategy asked how the United States and Soviet Union could avoid nuclear war when each could devastate the other.",
+      "analysis": "Deterrence Theory focuses on secure second-strike capability rather than victory in a nuclear exchange. If each side can retaliate after absorbing a first strike, a first strike cannot eliminate unacceptable punishment. Mutual vulnerability therefore becomes stabilizing at the strategic level, provided command-and-control, survivability, and communication are reliable enough to prevent either side from believing it can escape retaliation."
+    },
+    {
+      "problem": "Thomas Schelling's account of brinkmanship explains crises such as nuclear confrontations where neither side wants war but both want the other to yield.",
+      "analysis": "The framework treats the threat not as a fully controlled decision to start catastrophe but as the deliberate raising of shared risk. By taking steps that make events harder to control, a state can signal resolve and shift the burden of backing down to the adversary. The danger is intrinsic: the signal works because the risk of disaster is real, not because leaders can perfectly manage escalation."
+    }
+  ],
+  "failure_modes": [
+    "Mirror imaging: assuming the adversary values costs, risks, territory, or reputation the same way the deterrer does.",
+    "Cheap-talk red lines: issuing threats without capability, domestic backing, or visible resolve, thereby weakening future credibility.",
+    "Escalation trap: commitments made for credibility become hard to exit even when the original interest is minor.",
+    "Accidental-war blindness: practitioners focus on rational calculation while underweighting false alarms, command failures, misperception, and unauthorized action.",
+    "Overdeterrence: punishment threats block compromise, humanitarian exceptions, or face-saving exits and thereby make the adversary more desperate."
+  ],
+  "scope_and_limits": "Deterrence Theory is strongest where actors are strategic, can understand threats, and care enough about threatened costs to adjust behavior. It is weaker against actors with opaque command structures, apocalyptic preferences, severe misperceptions, or goals that make punishment acceptable. It is also ethically and operationally hazardous because credible threats may require creating real risk of catastrophic harm.",
+  "source_texts": [
+    {
+      "title": "Thomas C. Schelling, The Strategy of Conflict",
+      "kind": "primary"
+    },
+    {
+      "title": "Thomas C. Schelling, Arms and Influence",
+      "kind": "primary"
+    },
+    {
+      "title": "Glenn H. Snyder, Deterrence and Defense",
+      "kind": "primary"
+    },
+    {
+      "title": "Lawrence Freedman, Deterrence",
+      "kind": "secondary"
+    },
+    {
+      "title": "Nuclear Deterrence (Wikipedia)",
+      "kind": "tertiary",
+      "url": "https://en.wikipedia.org/wiki/Nuclear_deterrence"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "Signaling Theory",
+      "Commitment Devices",
+      "Political Realism"
+    ],
+    "ancestors": [
+      "Game Theory",
+      "Strategic Bombing Theory",
+      "Classical Military Strategy"
+    ],
+    "descendants": [
+      "Nuclear Strategy",
+      "Coercive Diplomacy",
+      "Escalation Management"
+    ],
+    "rivals": [
+      "Just War Theory",
+      "Sun Tzu's Strategy",
+      "Ostrom's Commons Governance",
+      "Ahimsa"
+    ],
+    "composes_with": [
+      "Commitment Devices",
+      "Scenario Planning",
+      "Red Teaming",
+      "Decision Analysis"
+    ]
+  },
+  "built_at": "2026-06-29T03:36:04Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of the named sources and standard deterrence-theory literature, without fetched source text."
+}

@@ -1,0 +1,122 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:08Z",
+  "canonical_examples": [
+    {
+      "analysis": "This is Schelling's classic pure coordination problem: both players prefer matching over mismatching, but there is no communication and no payoff reason internal to the matrix that selects one location. 'Grand Central at noon' becomes focal because of shared cultural salience, uniqueness, and conventional prominence. The solution is not calculated from dominance or mixed equilibrium; it is selected by each player's expectation of what the other will find mutually obvious.",
+      "problem": "Schelling's meeting problem: two people must meet in New York City on a given day without communicating where or when."
+    },
+    {
+      "analysis": "Schelling treats the taboo as a focal boundary in bargaining and deterrence. Many degrees of force are physically possible, but a salient qualitative line between conventional and nuclear weapons helps coordinate expectations about restraint and escalation. The focal point matters because each side's conduct depends on what it expects the other side, allies, and observers to treat as a recognized threshold. The recommendation is to preserve and clarify the focal boundary when its coordination value exceeds tactical gains from eroding it.",
+      "problem": "Schelling's analysis of the nuclear taboo and the focal distinction between conventional and nuclear weapons in The Strategy of Conflict and Arms and Influence."
+    }
+  ],
+  "core_claims": [
+    "In coordination problems, agents often converge on salient solutions even without communication, contracts, or payoff dominance.",
+    "Focality is psychological and social: uniqueness, prominence, precedent, symmetry, labels, and cultural common knowledge can select an equilibrium.",
+    "A solution can be rational because each actor expects others to expect it, not because it is intrinsically better.",
+    "Successful bargaining often turns on finding or creating a focal boundary that both sides can recognize as a natural stopping point.",
+    "Ambiguity can be strategically useful when it lets actors coordinate on restraint without explicit agreement, but it can also produce miscoordination if salience differs.",
+    "Institutions, defaults, standards, and taboos work partly by manufacturing focal points that reduce the search space of possible equilibria.",
+    "Focal points are fragile when groups lack shared culture, history, labels, or common knowledge about what is salient."
+  ],
+  "description": "Schelling Points are salient choices that people can coordinate on without communication because each expects the others to recognize the same focal feature. The framework explains tacit coordination, bargaining boundaries, standards, defaults, and strategic restraint in games with multiple possible equilibria.",
+  "domains": [
+    "game-theory",
+    "strategy",
+    "coordination",
+    "social-science"
+  ],
+  "failure_modes": [
+    "False common-knowledge assumption: analysts may project their own salient option onto actors with different cultures, roles, incentives, or information.",
+    "Overlooking payoff asymmetry: a salient point may fail when one party strongly prefers a different equilibrium or benefits from noncoordination.",
+    "Post-hoc focality: after an outcome occurs, it is easy to invent a story that made it seem uniquely salient all along.",
+    "Ignoring power and enforcement: some apparent focal points persist because institutions or coercion support them, not because salience alone coordinates behavior.",
+    "Salience collision: multiple cues such as fairness, precedent, geography, round numbers, and status can point to different equilibria."
+  ],
+  "key_vocabulary": {
+    "Common knowledge": "Information that everyone knows, everyone knows that everyone knows, and so on; focal coordination often depends on this recursive expectation.",
+    "Coordination game": "A strategic situation in which players benefit from choosing matching or compatible actions, often with multiple equilibria.",
+    "Focal point": "A salient equilibrium or choice that stands out as the natural place for mutual expectations to converge.",
+    "Label": "A name, marker, or description that can make one option more recognizable than otherwise equivalent alternatives.",
+    "Precedent": "A past solution that becomes salient because actors expect others to treat it as the default guide for future coordination.",
+    "Pure coordination": "A case where players mainly want to match one another, with little or no conflict over which matching outcome is materially best.",
+    "Salience": "The quality of standing out to participants because of uniqueness, simplicity, symmetry, cultural prominence, or contextual fit.",
+    "Tacit bargaining": "Bargaining through actions, expectations, and recognized boundaries rather than explicit verbal agreement."
+  },
+  "name": "Schelling Points",
+  "operative_procedure": [
+    "Frame the situation as a coordination or bargaining problem: identify the actors, the set of possible equilibria, and the cost of failing to coordinate.",
+    "Separate payoff dominance from focality: determine whether one outcome is materially best for all, or whether selection depends mainly on salience.",
+    "List candidate focal points using Schelling's cues: uniqueness, symmetry, round numbers, labels, geography, precedent, default status, fairness norms, and cultural prominence.",
+    "Test common knowledge: ask whether each actor can reasonably expect the others to notice the same cue and expect it to be noticed recursively.",
+    "Check actor heterogeneity: examine whether different cultures, roles, information sets, or incentives make different points salient.",
+    "Assess strategic manipulation: identify whether any actor can create, destroy, publicize, or shift focality through commitments, standards, announcements, or precedents.",
+    "Choose or recommend the focal point that is most mutually recognizable, least ambiguous, and least vulnerable to profitable deviation.",
+    "If no reliable focal point exists, recommend communication, institution-building, default rules, or mechanism design to manufacture one."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Game Theory",
+      "Bargaining Theory",
+      "Coordination Theory"
+    ],
+    "composes_with": [
+      "Game Theory",
+      "Signaling Theory",
+      "Mechanism Design",
+      "Nudge and Choice Architecture",
+      "Social Contract Theory"
+    ],
+    "descendants": [
+      "Convention Theory",
+      "Common Knowledge Reasoning",
+      "Coordination Mechanism Design"
+    ],
+    "related": [
+      "Game Theory",
+      "Signaling Theory",
+      "Nudge and Choice Architecture",
+      "Social Contract Theory",
+      "Overton Window"
+    ],
+    "rivals": [
+      "Nash Equilibrium Analysis",
+      "Dominant Strategy Reasoning",
+      "Mechanism Design",
+      "Behaviorism",
+      "Expected-Value Reasoning"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Schelling Points are strongest where actors share a need to coordinate but cannot communicate fully, especially in bargaining, standards, defaults, diplomacy, social conventions, and interface or policy design. They are weaker when preferences sharply conflict, common knowledge is absent, actors are highly heterogeneous, or enforcement rather than salience explains behavior. The framework predicts plausible coordination points, not guaranteed outcomes.",
+  "source_summary": "Authored from model knowledge of Thomas Schelling's game-theoretic and strategic bargaining sources, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Thomas C. Schelling, The Strategy of Conflict (1960)"
+    },
+    {
+      "kind": "primary",
+      "title": "Thomas C. Schelling, Arms and Influence (1966)"
+    },
+    {
+      "kind": "primary",
+      "title": "David Lewis, Convention: A Philosophical Study (1969)"
+    },
+    {
+      "kind": "tertiary",
+      "title": "Focal point (game theory) (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Focal_point_(game_theory)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "People need to coordinate, but they cannot communicate enough to negotiate an explicit rule.",
+    "A situation has multiple equilibria and standard payoff analysis does not select one clearly.",
+    "Shared defaults, precedents, labels, round numbers, or cultural landmarks may determine what actors do.",
+    "A negotiation needs a mutually recognizable boundary, threshold, or compromise point.",
+    "A policy, product, protocol, or institution must create a default that many independent actors will converge on."
+  ]
+}

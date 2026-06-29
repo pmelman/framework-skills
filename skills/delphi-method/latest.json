@@ -1,0 +1,117 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:36:07Z",
+  "canonical_examples": [
+    {
+      "analysis": "Project Delphi used controlled rounds of expert judgment to forecast military and technological questions under uncertainty. Experts gave estimates anonymously, received statistical summaries and reasons from the group, and then revised their judgments in later rounds. The method sought to preserve expert knowledge while reducing face-to-face dominance, status pressure, and premature consensus. The output was not a simple meeting agreement but an iterated distribution of informed judgments.",
+      "problem": "How did RAND's original Project Delphi try to improve expert forecasting about future military and technological developments?"
+    },
+    {
+      "analysis": "Gordon and Helmer's long-range forecasting work used Delphi to elicit expert estimates about scientific and technological developments. The framework treats the problem as one where hard data are incomplete but expert priors are valuable. It structures anonymity, controlled feedback, and iteration so experts can update on arguments and aggregate statistics without yielding to the most senior or forceful participant. Convergence, dispersion, and persistent disagreement all become findings.",
+      "problem": "How did early Delphi studies approach long-range technological forecasting when no direct statistical data could settle the questions?"
+    }
+  ],
+  "core_claims": [
+    "Expert judgment can be improved by structured iteration with controlled feedback rather than by one-shot polling or open committee discussion.",
+    "Anonymity reduces the effects of status, dominance, conformity pressure, and reputational defensiveness in expert groups.",
+    "Multiple rounds allow experts to revise estimates after seeing group distributions and reasons, producing more considered judgments.",
+    "Disagreement is information: persistent dispersion after feedback can be as important as convergence.",
+    "A facilitator's questionnaire design, panel selection, summary statistics, and feedback framing strongly shape the quality of the result.",
+    "Delphi is most appropriate when empirical evidence is incomplete, uncertainty is high, and informed expert judgment is still better than uninformed aggregation."
+  ],
+  "description": "The Delphi Method is a structured, iterative, usually anonymous process for eliciting and refining expert judgments through repeated questionnaires, controlled feedback, and aggregation, especially for forecasting or consensus under uncertainty.",
+  "domains": [
+    "forecasting",
+    "expert-elicitation",
+    "decision-making",
+    "policy"
+  ],
+  "failure_modes": [
+    "False consensus: convergence can reflect questionnaire framing, fatigue, or social updating rather than genuine evidence-based agreement.",
+    "Expert panel bias: if the selected experts share the same training, incentives, or blind spots, iteration can refine a biased view.",
+    "Facilitator contamination: summaries, question wording, and inclusion of arguments can steer responses while appearing neutral.",
+    "Overusing Delphi where data, experiments, or market evidence are available and superior to expert elicitation.",
+    "Treating the final median as the answer while ignoring uncertainty ranges, minority rationales, and persistent disagreement."
+  ],
+  "key_vocabulary": {
+    "Anonymity": "The protection of individual responses from attribution, used to reduce status effects, dominance, and reputational pressure.",
+    "Controlled feedback": "A facilitator-provided summary of group estimates, rationales, and dispersion between rounds rather than unstructured debate.",
+    "Consensus": "A sufficient level of agreement defined in advance or interpreted from convergence; it should not be assumed merely because rounds have ended.",
+    "Expert panel": "A selected group with relevant knowledge, experience, or judgment for the question being forecast or assessed.",
+    "Iteration": "Repeated rounds of elicitation in which participants can reconsider answers after feedback.",
+    "Questionnaire": "The instrument that frames the problem, elicits estimates or judgments, and structures reasons for later feedback.",
+    "Round": "One cycle of private response, aggregation, feedback, and possible revision.",
+    "Stability": "A stopping condition in which group judgments change little between rounds even if full consensus has not emerged."
+  },
+  "name": "Delphi Method",
+  "operative_procedure": [
+    "Define the forecast, policy question, or judgment task precisely, including time horizon, units, assumptions, and intended use.",
+    "Select an expert panel with relevant but diverse knowledge, and document inclusion criteria and missing perspectives.",
+    "Design the first questionnaire to elicit estimates, confidence, assumptions, and rationales without forcing premature agreement.",
+    "Collect responses anonymously and compute controlled feedback: medians or distributions, uncertainty ranges, themes in rationales, and areas of disagreement.",
+    "Return the feedback to the panel without identifying individuals, asking experts to revise or justify their estimates in light of the group information.",
+    "Repeat rounds until a stopping rule is met: convergence, stability, maximum rounds, deadline, or explicit recognition of persistent disagreement.",
+    "Analyze both central tendency and dispersion, separating consensus claims from unresolved uncertainty and minority arguments.",
+    "Report the method transparently: panel composition, round count, response rates, question wording, feedback summaries, stopping rule, and limits."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Expert Elicitation",
+      "Operations Research",
+      "RAND Forecasting"
+    ],
+    "composes_with": [
+      "Wisdom of Crowds",
+      "Forecasting",
+      "Scenario Planning",
+      "Bayesian Epistemology"
+    ],
+    "descendants": [
+      "Policy Delphi",
+      "Real-Time Delphi",
+      "Consensus Development Method"
+    ],
+    "related": [
+      "Wisdom of Crowds",
+      "Prediction Markets",
+      "Nominal Group Technique",
+      "Structured Analytic Techniques"
+    ],
+    "rivals": [
+      "Prediction Markets",
+      "Open Debate",
+      "Expert Judgment",
+      "Statistical Forecasting"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Delphi Method is strongest for expert forecasting, technology assessment, policy planning, clinical consensus, and risk assessment where evidence is incomplete and direct experimentation is unavailable. It is weaker for questions with rich historical data, rapid feedback, strong incentives for strategic answers, or tasks where panel selection cannot avoid shared bias. It produces structured expert judgment, not objective certainty.",
+  "source_summary": "Authored from model knowledge of RAND Delphi work and standard expert-elicitation literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Norman Dalkey and Olaf Helmer, 'An Experimental Application of the Delphi Method to the Use of Experts' (1963)"
+    },
+    {
+      "kind": "primary",
+      "title": "Olaf Helmer and Theodore J. Gordon, Report on a Long-Range Forecasting Study (1964)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Harold A. Linstone and Murray Turoff, The Delphi Method: Techniques and Applications (1975)"
+    },
+    {
+      "kind": "secondary",
+      "title": "Gene Rowe and George Wright, 'The Delphi Technique as a Forecasting Tool: Issues and Analysis' (1999)"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a forecast or policy question depends on expert judgment because direct evidence is sparse, classified, novel, or future-facing",
+    "a meeting would likely be distorted by hierarchy, dominant personalities, reputational pressure, or premature consensus",
+    "experts disagree and the decision-maker needs to know whether disagreement narrows after structured feedback",
+    "the task requires both aggregated estimates and the reasons behind outlier or minority judgments",
+    "a consensus claim must be produced transparently with documented rounds, feedback, uncertainty, and stopping criteria"
+  ]
+}

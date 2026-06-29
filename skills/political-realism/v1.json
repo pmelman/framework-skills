@@ -1,0 +1,124 @@
+{
+  "name": "Political Realism",
+  "version": 1,
+  "schema_version": 3,
+  "description": "Political Realism is an international-relations framework that treats states as security-seeking actors operating in an anarchic system where power, interests, uncertainty, and balancing constrain moral aspiration and institutional design. It explains rivalry, alliance formation, security dilemmas, spheres of influence, and recurring limits on law or ideology in world politics.",
+  "domains": [
+    "international-relations",
+    "political-science",
+    "strategy",
+    "foreign-policy"
+  ],
+  "when_to_use": [
+    "states or great powers face security choices without a reliable higher authority to enforce agreements",
+    "an actor's defensive move may look offensive to others and trigger arms racing or alliance formation",
+    "ideological, legal, or moral explanations seem insufficient to explain persistent competition over power and security",
+    "you need to forecast how states will react to shifts in relative capability, geography, and threat perception",
+    "a policy proposal assumes international institutions or norms can override core security interests"
+  ],
+  "core_claims": [
+    "International politics is conducted under anarchy: there is no world government capable of reliably protecting states from one another.",
+    "Because intentions are uncertain and survival is at stake, states must attend to relative power even when they prefer peace.",
+    "Security measures by one state can reduce the security of others, producing a security dilemma without requiring aggressive motives.",
+    "Balances of power and alliances emerge recurrently because threatened states counter concentrations of power.",
+    "Moral principles and international law influence rhetoric and constraint but are frequently subordinated to perceived national interest and survival.",
+    "Great powers receive different strategic treatment than weak states because their capabilities shape the system's structure.",
+    "Durable foreign policy must distinguish desirable moral ends from interests that a state has the power and will to defend.",
+    "Structural realists expect changes in the distribution of capabilities, especially polarity, to alter state behavior even when leaders and regimes change."
+  ],
+  "key_vocabulary": {
+    "Anarchy": "The absence of a central authority above states capable of enforcing rules and guaranteeing survival.",
+    "National interest": "The security, power, autonomy, and survival concerns that realist analysis treats as more durable than ideological preference.",
+    "Balance of power": "A distribution or strategy in which states counter concentrations of power through internal buildup or external alliances.",
+    "Security dilemma": "A spiral in which measures taken by one state for defense appear threatening to others and reduce overall security.",
+    "Self-help": "The realist premise that states ultimately must provide for their own security because no higher authority can be relied upon.",
+    "Polarity": "The number of great-power poles in the international system, such as unipolarity, bipolarity, or multipolarity.",
+    "Relative gains": "Concern with how much one state gains compared with others, not merely whether all parties gain absolutely.",
+    "Power transition": "A shift in relative capabilities that can unsettle expectations, alliances, and status hierarchies."
+  },
+  "operative_procedure": [
+    "Identify the principal states or great powers, their vital interests, geography, regime constraints, and survival concerns.",
+    "Characterize the system: anarchy, polarity, regional balance, alliance structure, and recent shifts in relative capabilities.",
+    "Separate stated ideology and moral claims from inferred interests; ask what each actor must protect to remain secure and autonomous.",
+    "Assess the security dilemma: determine which defensive measures are likely to be interpreted as offensive and by whom.",
+    "Map balancing behavior: internal military/economic buildup, external alliances, buck-passing, bandwagoning, or hedging.",
+    "Estimate credibility and limits of institutions, treaties, and norms by asking whether they align with or conflict with core interests of powerful states.",
+    "Evaluate policy by prudence: compare desired ends with available power, likely counterbalancing, escalation risks, and unintended insecurity.",
+    "State the realist forecast or recommendation in terms of interests, relative power, threat perception, and balance-of-power consequences."
+  ],
+  "canonical_examples": [
+    {
+      "problem": "Thucydides' account of the Peloponnesian War asks why Athens and Sparta moved toward war despite the catastrophic costs.",
+      "analysis": "Political Realism reads the case through fear, honor, interest, and shifting power. Athens' growth changed the balance and made Spartan insecurity rational even if neither side needed war as a first preference. Alliances, reputation, and fear narrowed choices, while moral speeches masked power calculations. The case illustrates how anarchy and power transition can make preventive conflict plausible."
+    },
+    {
+      "problem": "Kenneth Waltz's structural realism asks why Cold War bipolarity produced a distinct pattern of competition between the United States and Soviet Union.",
+      "analysis": "The analysis starts with system structure rather than leader psychology. Two superpowers dominated capabilities, so each watched the other closely, built alliances, and managed relative gains under self-help. Bipolarity reduced some uncertainties found in multipolar systems but intensified direct rivalry. Institutions mattered, but their effects were bounded by the distribution of power and the survival interests of the two poles."
+    }
+  ],
+  "failure_modes": [
+    "Cynical reductionism: treating all moral, legal, economic, and domestic factors as mere cover for power even when they independently shape behavior.",
+    "Self-fulfilling suspicion: assuming hostile intent can produce the balancing and arms racing the framework predicted.",
+    "Great-power bias: the framework can normalize the interests of powerful states while discounting agency and rights of smaller states.",
+    "Underestimating institutions: realists may miss cases where rules, interdependence, domestic politics, or identity substantially change incentives.",
+    "Vague interest talk: analysts invoke national interest without specifying the concrete security stake, tradeoff, or domestic coalition behind it."
+  ],
+  "scope_and_limits": "Political Realism is strongest for great-power politics, alliance behavior, war-and-peace decisions, arms competition, and conflicts where survival and relative power dominate. It is weaker for issues where domestic institutions, transnational actors, economic interdependence, identity, or legal regimes independently determine outcomes, and it can become ethically thin when prudence is mistaken for moral neutrality.",
+  "source_texts": [
+    {
+      "title": "Thucydides, History of the Peloponnesian War",
+      "kind": "primary"
+    },
+    {
+      "title": "Hans J. Morgenthau, Politics Among Nations",
+      "kind": "primary"
+    },
+    {
+      "title": "Kenneth N. Waltz, Theory of International Politics",
+      "kind": "primary"
+    },
+    {
+      "title": "John J. Mearsheimer, The Tragedy of Great Power Politics",
+      "kind": "primary"
+    },
+    {
+      "title": "Political Realism in International Relations (Stanford Encyclopedia of Philosophy)",
+      "kind": "secondary",
+      "url": "https://plato.stanford.edu/entries/realism-intl-relations/"
+    }
+  ],
+  "relationships": {
+    "related": [
+      "Game Theory",
+      "Deterrence Theory",
+      "Clausewitzian Strategy",
+      "Public Choice Theory"
+    ],
+    "ancestors": [
+      "Thucydidean Realism",
+      "Machiavellian Statecraft",
+      "Hobbesian Political Theory"
+    ],
+    "descendants": [
+      "Neorealism",
+      "Offensive Realism",
+      "Defensive Realism"
+    ],
+    "rivals": [
+      "Classical Liberalism",
+      "Constructivism",
+      "Just War Theory",
+      "Kantian Deontology"
+    ],
+    "composes_with": [
+      "Deterrence Theory",
+      "Scenario Planning",
+      "Game Theory",
+      "Second-Order Thinking"
+    ]
+  },
+  "built_at": "2026-06-29T03:36:04Z",
+  "builder_model": "gpt-5.5 (codex exec)",
+  "review_status": "needs_attention",
+  "source_summary": "Authored from model knowledge of the named sources and standard international-relations realism literature, without fetched source text."
+}

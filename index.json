@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-13T03:50:23Z",
+  "generated_at": "2026-06-29T03:39:49Z",
   "skills": [
     {
       "name": "Abduction",
@@ -283,6 +283,20 @@
       "path": "skills/classical-logic/latest.json"
     },
     {
+      "name": "Clausewitzian Strategy",
+      "slug": "clausewitzian-strategy",
+      "version": 1,
+      "description": "Clausewitzian Strategy analyzes war as a political instrument conducted amid friction, fog, chance, passion, and reciprocal violence. It asks how political purpose, center of gravity, moral forces, escalation, culmination, and the defense-offense balance shape what military action can realistically achieve.",
+      "domains": [
+        "strategy",
+        "military-theory",
+        "political-science",
+        "history"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/clausewitzian-strategy/latest.json"
+    },
+    {
       "name": "Coasean Bargaining",
       "slug": "coasean-bargaining",
       "version": 1,
@@ -311,6 +325,20 @@
       "path": "skills/cognitive-behavioral-framing/latest.json"
     },
     {
+      "name": "Cognitive Dissonance Theory",
+      "slug": "cognitive-dissonance-theory",
+      "version": 1,
+      "description": "Cognitive Dissonance Theory, developed by Leon Festinger, explains belief and attitude change as motivated reduction of the discomfort produced when a person holds inconsistent cognitions or acts against important self-conceptions without sufficient justification.",
+      "domains": [
+        "social-psychology",
+        "decision-making",
+        "belief-revision",
+        "behavioral-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/cognitive-dissonance-theory/latest.json"
+    },
+    {
       "name": "Coherentism",
       "slug": "coherentism",
       "version": 1,
@@ -323,6 +351,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/coherentism/latest.json"
+    },
+    {
+      "name": "Commitment Devices",
+      "slug": "commitment-devices",
+      "version": 1,
+      "description": "Commitment Devices are deliberate constraints that change future incentives or available choices so an actor with unstable preferences, credibility problems, or bargaining exposure can make a present intention binding. The framework analyzes precommitment, self-binding, hostage-giving, sunk-cost signals, and Ulysses contracts as ways to make promises, threats, and plans more credible through constraint.",
+      "domains": [
+        "decision-theory",
+        "behavioral-economics",
+        "strategy",
+        "political-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/commitment-devices/latest.json"
     },
     {
       "name": "Communitarianism",
@@ -563,6 +605,34 @@
       "path": "skills/defense-in-depth/latest.json"
     },
     {
+      "name": "Deliberate Practice",
+      "slug": "deliberate-practice",
+      "version": 1,
+      "description": "Deliberate Practice is K. Anders Ericsson's framework for explaining expert performance as the result of sustained, effortful, feedback-rich training activities deliberately designed to improve specific aspects of performance at the edge of current ability.",
+      "domains": [
+        "learning",
+        "expertise",
+        "performance",
+        "cognitive-psychology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/deliberate-practice/latest.json"
+    },
+    {
+      "name": "Delphi Method",
+      "slug": "delphi-method",
+      "version": 1,
+      "description": "The Delphi Method is a structured, iterative, usually anonymous process for eliciting and refining expert judgments through repeated questionnaires, controlled feedback, and aggregation, especially for forecasting or consensus under uncertainty.",
+      "domains": [
+        "forecasting",
+        "expert-elicitation",
+        "decision-making",
+        "policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/delphi-method/latest.json"
+    },
+    {
       "name": "Dependent Origination",
       "slug": "dependent-origination",
       "version": 1,
@@ -575,6 +645,20 @@
       ],
       "review_status": "approved",
       "path": "skills/dependent-origination/latest.json"
+    },
+    {
+      "name": "Deterrence Theory",
+      "slug": "deterrence-theory",
+      "version": 1,
+      "description": "Deterrence Theory explains how actors prevent unwanted action by threatening costs or denying benefits in ways an adversary believes will actually occur. It analyzes credibility, capability, resolve, signaling, brinkmanship, second-strike forces, mutually assured destruction, and the stability-instability tradeoffs of coercion.",
+      "domains": [
+        "strategy",
+        "international-relations",
+        "security-studies",
+        "game-theory"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/deterrence-theory/latest.json"
     },
     {
       "name": "Differential Diagnosis",
@@ -984,6 +1068,20 @@
       "path": "skills/halakha/latest.json"
     },
     {
+      "name": "Hanlon's Razor",
+      "slug": "hanlon-s-razor",
+      "version": 1,
+      "description": "Hanlon's Razor is an attribution heuristic that advises against explaining harmful or frustrating behavior by malice when incompetence, error, noise, neglect, or ordinary human limitation is a sufficient explanation.",
+      "domains": [
+        "critical-thinking",
+        "attribution",
+        "conflict-resolution",
+        "risk-analysis"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/hanlon-s-razor/latest.json"
+    },
+    {
       "name": "Hayekian Spontaneous Order",
       "slug": "hayekian-spontaneous-order",
       "version": 1,
@@ -1318,6 +1416,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/lindy-effect/latest.json"
+    },
+    {
+      "name": "Logical Positivism",
+      "slug": "logical-positivism",
+      "version": 1,
+      "description": "Logical Positivism is the Vienna Circle program that joins empiricism, formal logic, and the unity of science to distinguish cognitively meaningful scientific discourse from metaphysics. It treats philosophical work as logical clarification of language and ties factual meaning to possible verification or confirmation.",
+      "domains": [
+        "philosophy-of-science",
+        "epistemology",
+        "philosophy-of-language",
+        "metaphysics"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/logical-positivism/latest.json"
     },
     {
       "name": "Lojong",
@@ -1684,6 +1796,34 @@
       "path": "skills/pikuach-nefesh/latest.json"
     },
     {
+      "name": "Political Realism",
+      "slug": "political-realism",
+      "version": 1,
+      "description": "Political Realism is an international-relations framework that treats states as security-seeking actors operating in an anarchic system where power, interests, uncertainty, and balancing constrain moral aspiration and institutional design. It explains rivalry, alliance formation, security dilemmas, spheres of influence, and recurring limits on law or ideology in world politics.",
+      "domains": [
+        "international-relations",
+        "political-science",
+        "strategy",
+        "foreign-policy"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/political-realism/latest.json"
+    },
+    {
+      "name": "Porter's Five Forces",
+      "slug": "porter-s-five-forces",
+      "version": 1,
+      "description": "Porter's Five Forces is an industry-structure framework for diagnosing competitive intensity and long-run profitability. It evaluates rivalry, entrants, substitutes, buyers, and suppliers to identify where value is created, where it is captured, and how a firm might position or reshape its industry.",
+      "domains": [
+        "strategy",
+        "economics",
+        "competitive-analysis",
+        "business"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/porter-s-five-forces/latest.json"
+    },
+    {
       "name": "Pragmatism",
       "slug": "pragmatism",
       "version": 1,
@@ -1794,6 +1934,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/rationalism/latest.json"
+    },
+    {
+      "name": "Real Options Thinking",
+      "slug": "real-options-thinking",
+      "version": 1,
+      "description": "Real Options Thinking applies option valuation logic to real investments, strategy, and project design. It values flexibility, staged commitment, abandonment rights, and learning under uncertainty rather than treating decisions as all-or-nothing irreversible bets.",
+      "domains": [
+        "strategy",
+        "finance",
+        "decision-theory",
+        "innovation"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/real-options-thinking/latest.json"
     },
     {
       "name": "Red Teaming",
@@ -1950,6 +2104,20 @@
       "path": "skills/scenario-planning/latest.json"
     },
     {
+      "name": "Schelling Points",
+      "slug": "schelling-points",
+      "version": 1,
+      "description": "Schelling Points are salient choices that people can coordinate on without communication because each expects the others to recognize the same focal feature. The framework explains tacit coordination, bargaining boundaries, standards, defaults, and strategic restraint in games with multiple possible equilibria.",
+      "domains": [
+        "game-theory",
+        "strategy",
+        "coordination",
+        "social-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/schelling-points/latest.json"
+    },
+    {
       "name": "Scientific Realism",
       "slug": "scientific-realism",
       "version": 1,
@@ -2102,6 +2270,20 @@
       ],
       "review_status": "approved",
       "path": "skills/sufism/latest.json"
+    },
+    {
+      "name": "Sun Tzu's Strategy",
+      "slug": "sun-tzu-s-strategy",
+      "version": 1,
+      "description": "Sun Tzu's Strategy is a classical Chinese framework for winning contests by shaping conditions before open battle: attacking plans and alliances, using deception, exploiting terrain, preserving resources, and aligning timing, command, and moral influence. It treats direct fighting as costly evidence that earlier strategic shaping has failed.",
+      "domains": [
+        "strategy",
+        "military-theory",
+        "leadership",
+        "political-science"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/sun-tzu-s-strategy/latest.json"
     },
     {
       "name": "Survivorship Bias and Selection Effects",
@@ -2423,6 +2605,34 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/virtue-epistemology/latest.json"
+    },
+    {
+      "name": "Wardley Mapping",
+      "slug": "wardley-mapping",
+      "version": 1,
+      "description": "Wardley Mapping is a strategy mapping method that plots user needs, value-chain dependencies, and component evolution to improve situational awareness and select appropriate strategic play. It distinguishes doctrine, climatic patterns, and gameplays across a landscape of changing industrial maturity.",
+      "domains": [
+        "strategy",
+        "technology",
+        "organizational-design",
+        "product-management"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/wardley-mapping/latest.json"
+    },
+    {
+      "name": "Wisdom of Crowds",
+      "slug": "wisdom-of-crowds",
+      "version": 1,
+      "description": "Wisdom of Crowds is the framework, associated with Francis Galton's ox-weight observation and James Surowiecki's synthesis, that collective judgments can be highly accurate when they aggregate independent, diverse, decentralized information through an appropriate mechanism.",
+      "domains": [
+        "collective-intelligence",
+        "forecasting",
+        "decision-making",
+        "social-epistemology"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/wisdom-of-crowds/latest.json"
     },
     {
       "name": "Wu Wei",
