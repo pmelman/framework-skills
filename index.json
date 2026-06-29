@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-06-29T03:45:27Z",
+  "generated_at": "2026-06-29T03:47:45Z",
   "skills": [
     {
       "name": "Abduction",
@@ -226,6 +226,20 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/bradford-hill-criteria/latest.json"
+    },
+    {
+      "name": "Brooks's Law",
+      "slug": "brooks-s-law",
+      "version": 1,
+      "description": "Brooks's Law is Frederick P. Brooks Jr.'s software-project management principle that adding people to a late project often makes it later, because new staff impose training, coordination, communication, and integration costs on an already constrained team. It attacks the mythical interchangeability of people and months in complex, tightly coupled work.",
+      "domains": [
+        "software-engineering",
+        "project-management",
+        "organizational-design",
+        "systems-thinking"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/brooks-s-law/latest.json"
     },
     {
       "name": "Burden of Proof",
@@ -2317,6 +2331,21 @@
       ],
       "review_status": "needs_attention",
       "path": "skills/second-order-thinking/latest.json"
+    },
+    {
+      "name": "Seventh Generation Principle",
+      "slug": "seventh-generation-principle",
+      "version": 1,
+      "description": "The Seventh Generation Principle is a Haudenosaunee long-horizon decision standard that asks leaders and communities to judge present action by its consequences for future generations, especially the continuity of land, peace, culture, and collective welfare. It treats present authority as stewardship for descendants rather than ownership by the living.",
+      "domains": [
+        "indigenous-governance",
+        "ethics",
+        "sustainability",
+        "public-policy",
+        "environmental-justice"
+      ],
+      "review_status": "needs_attention",
+      "path": "skills/seventh-generation-principle/latest.json"
     },
     {
       "name": "Shoshin",

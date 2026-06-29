@@ -1,0 +1,120 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:45:47Z",
+  "canonical_examples": [
+    {
+      "analysis": "The Great Law treats council authority as custodial rather than proprietary: chiefs deliberate for the peace, health, and welfare of the whole people, including those not yet born. Applying the Seventh Generation Principle, the relevant unit is not the present faction, officeholder, or budget cycle but the continuing people. A proposed decision that strengthens present advantage while weakening land, kinship obligations, peace among nations, or the capacity of future councils would fail the test even if it is immediately popular.",
+      "problem": "Haudenosaunee political teaching associated with the Great Law of Peace instructs leaders to keep future generations in view when they deliberate for the welfare of the people."
+    },
+    {
+      "analysis": "The address applies seventh-generation reasoning to industrial society: present economic choices are judged by whether they preserve the natural world, cultural continuity, and human responsibilities for descendants. The framework reframes pollution, resource extraction, and militarized development as breaches of trusteeship, not merely inefficient externalities. A decision is acceptable only if it can be defended to future people who inherit its ecological and social consequences.",
+      "problem": "In Haudenosaunee environmental and political advocacy, including Oren Lyons's statements to international audiences, development decisions are evaluated by their effects on the seventh generation to come."
+    }
+  ],
+  "core_claims": [
+    "A legitimate decision must be answerable to descendants who cannot participate in the present deliberation but will inherit its material and cultural consequences.",
+    "The time horizon for public judgment should extend beyond the lives and offices of current decision-makers, conventionally expressed as seven generations.",
+    "Land, water, language, ceremony, and political peace are inherited trusts rather than consumable assets owned outright by the living.",
+    "Short-term benefit is not a sufficient justification when it transfers ecological damage, cultural loss, or social disorder to future people.",
+    "The affected community includes past obligations and future members, not only present voters, shareholders, or officeholders.",
+    "Wisdom in council requires restraint: some profitable or expedient actions are ruled out because they narrow the life chances of descendants."
+  ],
+  "description": "The Seventh Generation Principle is a Haudenosaunee long-horizon decision standard that asks leaders and communities to judge present action by its consequences for future generations, especially the continuity of land, peace, culture, and collective welfare. It treats present authority as stewardship for descendants rather than ownership by the living.",
+  "domains": [
+    "indigenous-governance",
+    "ethics",
+    "sustainability",
+    "public-policy",
+    "environmental-justice"
+  ],
+  "failure_modes": [
+    "Using 'seven generations' as a vague sustainability slogan while ignoring Haudenosaunee political, cultural, and territorial origins.",
+    "Treating the principle as a simple cost-benefit discount-rate adjustment rather than a responsibility-based standard of trusteeship and continuity.",
+    "Projecting present preferences onto future people without examining ecological thresholds, cultural survival, or irreversible losses.",
+    "Letting speculative future harms block every present action, including actions needed to repair inherited damage or protect vulnerable people now.",
+    "Misleading practitioners into moral self-certainty: the long horizon can be invoked rhetorically without doing the hard work of tracing actual downstream consequences."
+  ],
+  "key_vocabulary": {
+    "Coming faces": "A phrase used in Haudenosaunee contexts for future generations whose faces are not yet seen but whose interests must be considered.",
+    "Council": "The deliberative setting in which leaders reason for the welfare of the people rather than merely asserting private preference or factional advantage.",
+    "Future generations": "Descendants and future community members who cannot consent to present choices but will live with their consequences.",
+    "Great Law of Peace": "The Haudenosaunee constitutional and diplomatic tradition that frames governance around peace, collective welfare, and responsibilities across generations.",
+    "Seven generations": "The conventional long horizon used to test whether present action preserves the life conditions of descendants far beyond the current political cycle.",
+    "Stewardship": "The obligation to care for inherited land, institutions, and culture so they remain viable for those who come after.",
+    "Thanksgiving Address": "A Haudenosaunee practice of acknowledging reciprocal relations with the natural world, often paired with a responsibility-based view of human action.",
+    "Trust responsibility": "The idea that the living hold powers and resources in trust, constrained by duties to past and future members of the community."
+  },
+  "name": "Seventh Generation Principle",
+  "operative_procedure": [
+    "Name the decision, the authority making it, and the community whose continuity is at stake.",
+    "Identify the inheritance being handled: land, water, food systems, language, ceremony, public health, peace, institutions, or economic capacity.",
+    "Extend the circle of concern to the coming faces by asking who will inherit the decision's effects across roughly seven generations.",
+    "Trace consequence chains beyond the budget, election, project, or leadership term, marking irreversible harms, cumulative burdens, and dependencies created for descendants.",
+    "Ask whether the living are acting as stewards or as owners: distinguish use that preserves regenerative capacity from extraction that spends down the inheritance.",
+    "Test present benefits against future obligations, giving special weight to ecological integrity, cultural continuity, and the ability of future councils to choose freely.",
+    "Revise the proposal to reduce transferred burdens, restore damaged inheritances, or choose a less destructive path even when the short-term payoff is lower.",
+    "State the judgment as an answer to future generations: what will they receive, what options will remain open, and what obligations are being honored or violated?"
+  ],
+  "relationships": {
+    "ancestors": [
+      "Haudenosaunee Great Law of Peace",
+      "Indigenous Stewardship",
+      "Virtue Ethics"
+    ],
+    "composes_with": [
+      "Systems Thinking",
+      "Precautionary Principle",
+      "Backcasting",
+      "Environmental Justice"
+    ],
+    "descendants": [
+      "Intergenerational Justice",
+      "Sustainability Ethics",
+      "Rights of Nature"
+    ],
+    "related": [
+      "Deep Ecology",
+      "Care Ethics",
+      "Common Good Constitutionalism",
+      "Ecological Economics"
+    ],
+    "rivals": [
+      "Cost-Benefit Analysis",
+      "Shareholder Primacy",
+      "Presentism",
+      "Short-Termism"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "The Seventh Generation Principle is strongest for environmental governance, infrastructure, resource extraction, cultural preservation, public finance, and institutional design where choices create durable inheritances. It is less precise for urgent triage where immediate survival is at stake, and it should not be abstracted from Indigenous sovereignty and Haudenosaunee sources into a generic management slogan. It gives a direction of moral attention rather than a complete forecasting method; it often needs systems mapping, ecological science, and affected-community deliberation to make consequences concrete.",
+  "source_summary": "Authored from model knowledge of Haudenosaunee political teaching, the Great Law of Peace, Oren Lyons's public statements, and Indigenous environmental ethics, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "The Constitution of the Iroquois Nations: The Great Binding Law",
+      "url": "https://avalon.law.yale.edu/18th_century/iroquois.asp"
+    },
+    {
+      "kind": "primary",
+      "title": "Basic Call to Consciousness: Native People's Address to the Western World"
+    },
+    {
+      "kind": "primary",
+      "title": "Oren Lyons, 'An Iroquois Perspective'"
+    },
+    {
+      "kind": "secondary",
+      "title": "Haudenosaunee Confederacy (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Haudenosaunee_Confederacy"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a decision creates ecological, cultural, institutional, or financial consequences that will outlast the current decision-makers",
+    "present benefits are being weighed against risks transferred to descendants who cannot consent",
+    "land, water, food systems, language, ceremony, or community continuity could be depleted by a proposed action",
+    "a policy looks efficient over an election, grant, budget, or product cycle but may create irreversible or cumulative harms",
+    "leaders need to justify whether they are preserving an inheritance or spending it down"
+  ]
+}

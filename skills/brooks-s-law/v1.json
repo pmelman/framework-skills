@@ -1,0 +1,121 @@
+{
+  "builder_model": "gpt-5.5 (codex exec)",
+  "built_at": "2026-06-29T03:45:47Z",
+  "canonical_examples": [
+    {
+      "analysis": "Brooks's Law diagnoses the OS/360 schedule problem as a manpower-time fallacy. New programmers required training in the system, tools, design decisions, and interfaces; experienced programmers had to stop producing in order to teach and coordinate with them. Because the work involved tightly coupled design and debugging, the communication paths rose faster than the useful labor added. The late project became later because added staffing increased ramp-up and coordination load at the exact moment the schedule needed focused completion.",
+      "problem": "Frederick Brooks's account of managing IBM's System/360 operating-system project describes the temptation to add programmers to a late software effort."
+    },
+    {
+      "analysis": "Brooks distinguishes partitionable work from sequential and interdependent work. Harvesting can be divided with little communication among workers, so more people can shorten elapsed time. Pregnancy cannot be accelerated by assigning nine women for one month, and complex software debugging often resembles the sequential case: the limiting path is dependency, understanding, and integration, not raw person-months. The framework therefore asks whether the task can be cleanly partitioned before treating people and months as interchangeable.",
+      "problem": "The Mythical Man-Month contrasts tasks such as harvesting crops with inherently sequential work, using the famous pregnancy analogy to show that person-months are not generally interchangeable."
+    }
+  ],
+  "core_claims": [
+    "Adding manpower to a late software project tends to make it later when ramp-up and communication costs exceed the useful work contributed.",
+    "Person-months are interchangeable only for tasks that can be partitioned among workers with little sequential dependency or mutual communication.",
+    "Every added worker creates training load for existing workers and increases the number of communication paths that must be maintained.",
+    "Software projects are especially vulnerable because conceptual integrity, interface decisions, debugging, and integration are tightly coupled.",
+    "Schedule compression by staffing works best early, before architecture and interfaces have hardened and before the project is already late.",
+    "Small, coherent teams can outperform larger teams when the work requires shared design understanding rather than independent labor.",
+    "The manager's central error is treating calendar time and labor quantity as linearly exchangeable after the critical path has already formed."
+  ],
+  "description": "Brooks's Law is Frederick P. Brooks Jr.'s software-project management principle that adding people to a late project often makes it later, because new staff impose training, coordination, communication, and integration costs on an already constrained team. It attacks the mythical interchangeability of people and months in complex, tightly coupled work.",
+  "domains": [
+    "software-engineering",
+    "project-management",
+    "organizational-design",
+    "systems-thinking"
+  ],
+  "failure_modes": [
+    "Applying the law mechanically to all staffing increases, including early project phases or genuinely partitionable work where added people can help.",
+    "Ignoring skill asymmetry: one expert who already knows the system can reduce load, while several novices may increase it.",
+    "Treating communication overhead as the only cause of lateness while neglecting unclear requirements, poor architecture, quality debt, or unrealistic commitments.",
+    "Using Brooks's Law to rationalize understaffing when the actual bottleneck is a missing role, unavailable reviewer, or overloaded on-call owner.",
+    "Misleading practitioners into fatalism: the law warns against late indiscriminate staffing, but it does not forbid scope reduction, interface freezing, triage, or surgical expert help."
+  ],
+  "key_vocabulary": {
+    "Communication paths": "The pairwise and group coordination channels among team members. In a fully connected group they grow roughly as n(n-1)/2, so coordination burden can rise faster than headcount.",
+    "Conceptual integrity": "Brooks's term for the coherent unity of design ideas in a system. It is threatened when many contributors make uncoordinated decisions.",
+    "Critical path": "The sequence of dependent tasks that determines earliest completion. Adding people outside the critical path does not shorten the schedule.",
+    "Man-month": "A unit of labor effort that Brooks criticizes as misleading when used as if people and calendar months were freely interchangeable.",
+    "Partitionability": "The degree to which work can be split into independent pieces without heavy interface, sequencing, or integration costs.",
+    "Ramp-up cost": "The time existing staff spend teaching new staff the system, codebase, tools, norms, and current design state before they become productive.",
+    "Surgical team": "Brooks's favored organization pattern in which a small core, centered on a chief programmer, preserves design unity while support roles handle specialized work.",
+    "Systems test": "The late phase where separately built components must work together; it is highly sensitive to interface misunderstandings and coordination failures."
+  },
+  "name": "Brooks's Law",
+  "operative_procedure": [
+    "State the project status: schedule target, current lateness, remaining scope, defect load, and whether the missed date is caused by capacity, dependency, or uncertainty.",
+    "Classify the remaining work by partitionability: independent tasks, sequential tasks, tightly coupled design decisions, integration work, and debugging.",
+    "Find the critical path and ask whether added people can work directly on it without first consuming scarce attention from those already on it.",
+    "Estimate ramp-up cost for each proposed addition: domain knowledge, codebase knowledge, tool access, design history, review load, and mentoring time.",
+    "Estimate communication overhead by identifying new interfaces, meetings, reviews, handoffs, and decision channels introduced by the larger team.",
+    "Compare useful added throughput with training and coordination burden over the remaining calendar time, not over an abstract long-run horizon.",
+    "Prefer schedule remedies that reduce coupling: cut scope, freeze interfaces, defer features, simplify design, assign a small expert strike team, or improve tooling.",
+    "If adding people anyway, add them surgically to separable work or missing specialist roles, protect the critical-path team from mentoring load, and make ownership boundaries explicit."
+  ],
+  "relationships": {
+    "ancestors": [
+      "Software Engineering Management",
+      "Systems Thinking",
+      "Critical Path Method"
+    ],
+    "composes_with": [
+      "Conway's Law",
+      "Theory of Constraints",
+      "Queueing Theory Thinking",
+      "Agile"
+    ],
+    "descendants": [
+      "Mythical Man-Month",
+      "Surgical Team Organization",
+      "Two-Pizza Team"
+    ],
+    "related": [
+      "Conway's Law",
+      "Theory of Constraints",
+      "Coordination Theory",
+      "Lean Software Development"
+    ],
+    "rivals": [
+      "Resource Leveling",
+      "Critical Chain Project Management",
+      "Economies of Scale",
+      "Parallel Processing"
+    ]
+  },
+  "review_status": "needs_attention",
+  "schema_version": 3,
+  "scope_and_limits": "Brooks's Law is strongest for late, complex, tightly coupled software projects where newcomers need mentoring and the remaining work is dominated by design, debugging, integration, or critical-path decisions. It is weaker for early-stage projects, independent work queues, well-specified manual tasks, or cases where a missing specialist can remove a bottleneck with little ramp-up. It is a managerial heuristic rather than a mathematical law; the right question is whether the marginal person reduces or increases the constrained team's effective throughput before the deadline.",
+  "source_summary": "Authored from model knowledge of Frederick P. Brooks Jr.'s The Mythical Man-Month, IBM System/360 project history, and software-project management literature, without fetched source text.",
+  "source_texts": [
+    {
+      "kind": "primary",
+      "title": "Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering (1975)"
+    },
+    {
+      "kind": "primary",
+      "title": "Frederick P. Brooks Jr., 'No Silver Bullet: Essence and Accidents of Software Engineering' (1986)"
+    },
+    {
+      "kind": "secondary",
+      "title": "The Mythical Man-Month (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/The_Mythical_Man-Month"
+    },
+    {
+      "kind": "secondary",
+      "title": "Brooks's Law (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Brooks%27s_law"
+    }
+  ],
+  "version": 1,
+  "when_to_use": [
+    "a late software project is considering adding people to recover the schedule",
+    "remaining work is dominated by debugging, integration, architecture, review, or tightly coupled design decisions",
+    "managers are converting effort estimates into calendar dates as if people and months were interchangeable",
+    "new contributors would need substantial mentoring from the same experts needed to finish the work",
+    "communication, review, meetings, handoffs, or interface coordination are already consuming significant team capacity",
+    "a staffing proposal needs to distinguish separable work from critical-path work"
+  ]
+}
